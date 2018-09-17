@@ -4,6 +4,7 @@ from flask_babel import Babel, gettext
 
 app = Flask(__name__, static_url_path='/static')
 app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
+app.config['FREEZER_DESTINATION'] = 'docs'  # GitHub pages directory for static site
 app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
 babel = Babel(app)
 

@@ -63,20 +63,20 @@ Generate static site
 
 `Frozen-Flask <https://pythonhosted.org/Frozen-Flask/>`_ freezes a Flask application into a set of static files. The result can be hosted without any server-side software other than a traditional web server.
 
-- generate static files, and you can find them in ``build`` directory::
+- generate static files, and you can find them in ``docs`` directory::
 
     python freezer.py
 
 - verify the generated result in browser (http://127.0.0.1:8000/en/index.html)::
 
-    cd build
+    cd docs
     python -m SimpleHTTPServer 8000
 
 
 Continuous Deployment
 ---------------------
 
-Anything committed to master branch will be automatically deployed on live server. Live site contain only generated static site in ``build`` directory.
+Anything committed to master branch will be automatically deployed on live server. Live site contain only generated static site in ``docs`` directory.
 
 
 Fonts
