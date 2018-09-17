@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="{% if lang_code %}{{ lang_code }}{% else %}sk{% endif %}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="pycon sk, python, community, conference, bratislava, slovakia">
+    <meta name="description" content="{{ _('Official PyCon SK 2019 website') }}">
+    <meta name="author" content="">
+
+    <meta property="og:type" content="website"/>
+  	<meta property="og:image" content="https://2019.pycon.sk{{ url_for('static', filename='img/logo/pycon_logo_square_400x400.png') }}"/>
+  	<meta property="og:url" content="https://2019.pycon.sk/"/>
+  	<meta property="og:title" content="{{ _('PyCon SK 2019, Bratislava') }}"/>
+  	<meta property="og:site_name" content="2019.pycon.sk"/>
+  	<meta property="og:description" content="{{ _('PyCon SK is a community-organized conference for the Python programming language, which will be held in Bratislava on March, 2019.') }}"/>
+  	<meta name="twitter:card" content="summary"/>
+  	<meta name="twitter:site" content="@pyconsk"/>
+  	<meta name="twitter:title" content="{{ _('PyCon SK 2019, Bratislava') }}"/>
+  	<meta name="twitter:description" content="{{ _('PyCon SK is a community-organized conference for the Python programming language, which will be held in Bratislava on March, 2019.') }}"/>
+  	<meta name="twitter:url" content="https://2019.pycon.sk"/>
+  	<meta name="twitter:image" content="https://2019.pycon.sk{{ url_for('static', filename='img/logo/pycon_logo_square_400x400.png') }}"/>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}?v=20190917">
+    <link rel="icon" href="{{ url_for('static', filename='img/logo/favicon.ico') }}" sizes="16x16">
+    {% if lang_code == 'sk' %}
+    <link rel="alternate" href="https://2019.pycon.sk{{ request.path|replace('/'+lang_code, '/en', 1) }}" hreflang="en">
+    {% else %}
+    <link rel="alternate" href="https://2019.pycon.sk{{ request.path|replace('/'+lang_code, '/sk', 1) }}" hreflang="sk">
+    {% endif %}
+    <link rel="canonical" href="https://2019.pycon.sk{{ request.path }}"/>
+    {% block header %}{% endblock %}
+  </head>
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">&nbsp;</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#">PyCon SK 2019</a>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        {% block content %}{% endblock %}
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+            {% block footer %}{% endblock %}
+            <p>&nbsp;</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write("<script src="{{ url_for('static', filename='js/vendor/jquery-slim.min.js') }}><\/script>")</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
