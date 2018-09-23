@@ -7,6 +7,10 @@ LANGUAGES = (
     {'lang_code': 'sk'},
     {'lang_code': 'en'}
 )
+
+app.config['FREEZER_DESTINATION'] = 'docs'  # GitHub pages directory for static site
+# app.config['APPLICATION_ROOT'] = '/2019.pycon.sk/'
+
 freezer = Freezer(app)
 
 

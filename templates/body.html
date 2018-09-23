@@ -8,8 +8,8 @@
     <meta name="author" content="">
 
     <meta property="og:type" content="website"/>
-  	<meta property="og:image" content="https://2019.pycon.sk{{ url_for('static', filename='img/logo/pycon_logo_square_400x400.png') }}"/>
-  	<meta property="og:url" content="https://2019.pycon.sk/"/>
+    <meta property="og:image" content="{{ domain }}{{ url_for('static', filename='img/logo/pycon_logo_square_400x400.png') }}"/>
+    <meta property="og:url" content="{{ domain }}"/>
   	<meta property="og:title" content="{{ _('PyCon SK 2019, Bratislava') }}"/>
   	<meta property="og:site_name" content="2019.pycon.sk"/>
   	<meta property="og:description" content="{{ _('PyCon SK is a community-organized conference for the Python programming language, which will be held in Bratislava on March, 2019.') }}"/>
@@ -17,44 +17,82 @@
   	<meta name="twitter:site" content="@pyconsk"/>
   	<meta name="twitter:title" content="{{ _('PyCon SK 2019, Bratislava') }}"/>
   	<meta name="twitter:description" content="{{ _('PyCon SK is a community-organized conference for the Python programming language, which will be held in Bratislava on March, 2019.') }}"/>
-  	<meta name="twitter:url" content="https://2019.pycon.sk"/>
-  	<meta name="twitter:image" content="https://2019.pycon.sk{{ url_for('static', filename='img/logo/pycon_logo_square_400x400.png') }}"/>
+    <meta name="twitter:url" content="{{ domain }}"/>
+    <meta name="twitter:image" content="{{ domain }}{{ url_for('static', filename='img/logo/pycon_logo_square_400x400.png') }}"/>
     <title>{{ title }}</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.bootcss.com/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}?v=20190917">
     <link rel="icon" href="{{ url_for('static', filename='img/logo/favicon.ico') }}" sizes="16x16">
     {% if lang_code == 'sk' %}
-    <link rel="alternate" href="https://2019.pycon.sk{{ request.path|replace('/'+lang_code, '/en', 1) }}" hreflang="en">
+    <link rel="alternate" href="{{ domain }}{{ request.path|replace('/'+lang_code, '/en', 1) }}" hreflang="en">
     {% else %}
-    <link rel="alternate" href="https://2019.pycon.sk{{ request.path|replace('/'+lang_code, '/sk', 1) }}" hreflang="sk">
+    <link rel="alternate" href="{{ domain }}{{ request.path|replace('/'+lang_code, '/sk', 1) }}" hreflang="sk">
     {% endif %}
-    <link rel="canonical" href="https://2019.pycon.sk{{ request.path }}"/>
+    <link rel="canonical" href="{{ domain}}{{ request.path }}"/>
     {% block header %}{% endblock %}
   </head>
+  <body>
 
-  <body class="text-center">
-
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">
-          <h3 class="masthead-brand">&nbsp;</h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">PyCon SK 2019</a>
-          </nav>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item {{ li_index }}">
+              <a href="{{ url_for('index', lang_code=lang_code) }}" class="nav-link">PyCon SK 2019</a>
+            </li>
+            <li class="nav-item {{ li_venue }}">
+              <a href="{{ url_for('venue', lang_code=lang_code) }}" class="nav-link">{{ _('Venue') }}</a>
+            </li>
+            <li class="nav-item {{ li_coc }}">
+              <a href="{{ url_for('coc', lang_code=lang_code) }}" class="nav-link">{{ _('Code of Conduct') }}</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://spy.python.sk/{{ lang_code }}/" class="nav-link external">{{ _('About Us') }}</a>
+            </li>
+          </ul>
+          {#
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          #}
         </div>
-      </header>
+      </nav>
+    </header>
 
-      <main role="main" class="inner cover">
-        {% block content %}{% endblock %}
-      </main>
+    <main role="main">
+      {% block content %}{% endblock %}
 
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-            {% block footer %}{% endblock %}
-            <p>&nbsp;</p>
+      <div class="container marketing">
+        <div class="row featurette">
+          <div class="col-md-12">
+            <hr class="featurette-divider"/>
+          </div>
         </div>
+      </div>
+
+      <footer class="container">
+        {% block footer %}
+          <p class="float-right text-center"><a href="#"  title="{{ _('Go to top of page') }}"><span class="oi oi-chevron-top"></span><br/>Back to top</a></p>
+          {% autoescape false %}
+          <p>{{ _('%(pycontm)s is a trademark for worldwide conference activities claimed by the %(psf)s.',
+                  pycontm = '<a href="https://www.python.org/psf/trademarks/pycon/" target="_blank" class="external">PyCon™</a>',
+                  psf = '<a href="https://www.python.org/psf-landing/" target="_blank" class="external">%s</a>' % _('Python Software foundation')) }}
+            <br/>
+             {{ _('PyCon SK is organized by volunteers from %(spy)s.',
+                  spy = '<a href="https://spy.python.sk" target="_blank" class="external">%s</a>' % _('SPy o.z.')) }}
+            <br/><span class="oi oi-bug"></span>
+             {{ _('Found a bug? Missing some information? This is community managed website, contribute at our %(github)s.',
+                  github = '<a href="https://github.com/pyconsk/2018.pycon.sk" target="_blank" class="external">GitHub</a>') }}
+          </p>
+          {% endautoescape %}
+        {% endblock %}
       </footer>
-    </div>
+    </main>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write("<script src="{{ url_for('static', filename='js/vendor/jquery-slim.min.js') }}><\/script>")</script>
@@ -62,3 +100,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
+

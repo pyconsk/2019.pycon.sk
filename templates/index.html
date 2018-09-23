@@ -1,16 +1,24 @@
 {% extends "body.html" %}
 
 {% block content %}
-<img src="{{ url_for('static', filename='img/logo/pycon_logo_square.svg') }}" alt="PyCon SK logo" />
+<div class="container marketing">
 
-<h1 class="cover-heading">PyCon SK 2019</h1>
-<p class="lead">
-    {{ _('More info will be announced soon...') }}
-</p>
+  <div class="row featurette">
+    <div class="col-md-12 text-center">
 
-<p class="lead">
-    <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
-</p>
+      <img src="{{ url_for('static', filename='img/logo/pycon_logo_square.svg') }}" class="logo" alt="PyCon SK logo" />
 
+      <h1 class="featurette-heading">PyCon SK 2019</h1>
+      <p class="lead">
+        {{ _('<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in Bratislava</strong>.') }}</p>
+        {{ _('More info will be announced soon...') }}
+      </p>
 
+      <p class="lead">
+          <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
+      </p>
+    </div>
+  </div>
+
+</div>
 {% endblock %}
