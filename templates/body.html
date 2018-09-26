@@ -54,6 +54,13 @@
               <a href="https://spy.python.sk/{{ lang_code }}/" class="nav-link external">{{ _('About Us') }}</a>
             </li>
           </ul>
+          {% if lang_code == 'sk' %}
+          <a href="{{ request.path|replace('/'+lang_code, '/en', 1) }}" title="Switch to english language"
+             hreflang="en"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACJElEQVQokYWQW0jTYQDFv8ceehELCx96CoqlYaxSQYaZoWBCNTNl6JbLkKGV+RBZy3mp8Ia3LooammGY5TIyAzOHKVmRQ52xdIREMMlVkLKm///362HVk9B5OnA4F45oaB5m0LVE8a1xzGXjmMtGMdlGcHt8PMyx0Wu04vb4SLYMkJQ7SJzBTqbtOa1HzlDcNobouv8GHvcgJcwtLNNpn+NO3zxSAk3VUFuBlNDQMU1Nm5OJ15+RlZeQaoC6fifiZLmDoYlvcK8bHC8AuHrTBQCn8sBoAqCodorlzl78VVUAtPdMsVV7OxjQYfdgrXexMPwJpfQK/2AwQPqJIM/PA68X57yP+ORuCktfERJRj3B7fMG56yEtDVJT15WkhHezi4he02VovA5mM2RnQ0YG6PVBY0oKMjGRVZ2OQEwMfq2WlchIVjQaAscOUbEt9j8L4uJQ9kX/7QRAVVUUVWFNUZhweRG6rH6qWyfJzB1kxvUdfEsEcrKDlj1a1nZH/QlQ+XIgnpfNT9kS3oLe2IcItSD2H3/E3b7g6z9tVn5UVmIoGgdA0USwulMDUhKr6yIALLe04TUaKL3xHhFyGtH4ZBopVfzXLjA2Mse5EgcFJaNICao+ibWjCUhVJT13gLSsBzwb/Yiq/OKr8TCWwi7ExfYRmg7mkJDXSciuVjbuaGTD9jomZ71UhEdTHqbl7cwiIuw8YvNZRGg+m6Ks1Ax9IHFvAb8B0rMYCWdRNDQAAAAASUVORK5CYII=" alt="english language"></a>
+          {% else %}
+          <a href="{{ request.path|replace('/'+lang_code, '/sk', 1) }}" title="Prepnúť na slovenský jazyk"
+             hreflang="sk"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACO0lEQVQokXXMTUiTARzH8T94FOrgyYsddkkQJcFIyhQ1kUzQUHMTRRMNU6xMLXpRMLVS8gWkrKhDXesk0TFKIgzTXPMt2ea0JWOutT179uzlefbtUlKHfvA5/r5iqBqGqv5LUYgrCvGAQtQfQPP7UX1+VK8PxeMlsOPB73bj23YjhqrxZ4lEYo9hJDAMA13X0XWdeDxOLBYjGo0SiUTQNA2vaxsxVBWA8NNnhCfuo45PERqdJDQ6/t9jOBxG0zR27E4k37zOi9c/ULpvkGhuwnA4MIYGiVnqmHjk4s70N4amthiY3KRvzMm1ETu9tze4+8CJJL1CkkxzDD7eJdDRjfFpHsO3i77lQqut42aflZrOr9ScX6Gy1cap5i+UNixRaFmk4dIyIk8QOTDHrYde/G1d6C2N6A4H8bvDRC0WLl61cbpjncpzK5Q32yhtsFJkWeL4mUXqLuwFFhmY9mB9a2e4Z5b2nmXaOxfYnJnFfNlOedsGJ1vWONG0SkH9CsfMNo5UW6nqXEPkOfJGBNeVEb4PT2F/v0Zjr53Vd+u4+sewFpj5fLSahcMVzB8q42NGKXMHi/hgymehqI57IkhUBL21lVhxMbHuLn6+nCFwvR8tM5NwejqqyUQoLQ0lNZVgSgqB/fsIJCcTzMrCKYJoIsSbzhKrrydaW0u0qppIRQVaWRlaSQnhwkLUvDxCubkoOTkEs7MJZmURzMjALoKoIigiBETwi+D7zSuCR4QdEdwibIvgEsEpgv0vvwCcffbRnUTGYAAAAABJRU5ErkJggg==" alt="slovenský jazyk"></a>
+          {% endif %}
           {#
           <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
