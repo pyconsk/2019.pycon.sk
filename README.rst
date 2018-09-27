@@ -37,7 +37,7 @@ Installation
 
 - start flask server, and you can view it in browser (http://127.0.0.1:5000/en/index.html)::
 
-    flast run
+    flask run
 
 
 Translations
