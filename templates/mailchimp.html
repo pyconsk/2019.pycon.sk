@@ -1,0 +1,56 @@
+<div class="card">
+  <h5 class="card-header">{{ _('Subscribe to our newsletter') }}</h5>
+  <div class="card-body">
+
+    <form action="https://pycon.us12.list-manage.com/subscribe/post?u=89d883ce643e7200aabe34fa1&amp;id=e1520cb152" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+      <div class="form-group">
+        <label for="mce-EMAIL">{{ _('Email Address') }} <span class="asterisk">*</span></label>
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" aria-describedby="{{ _('email address for the newsletter') }}">
+        <small id="emailHelp" class="form-text text-muted">
+          {{ _('SPy o.z. will never share your email with anyone else.') }}
+        </small>
+      </div>
+
+      <div class="form-group">
+        <strong>{{ _('Email Marketing Permissions') }}</strong>
+        <p>{{  _('Please select all the ways you would like to hear from SPy o.z.:') }}</p>
+
+        <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
+          <div class="form-check">
+            <input type="checkbox" id="gdpr_26045" name="gdpr[26045]" value="Y" class="form-check-input">
+            <label class="form-check-label" for="gdpr_26045">{{ _('Email') }}</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" id="gdpr_26049" name="gdpr[26049]" value="Y" class="form-check-input">
+            <label class="form-check-label" for="gdpr_26049">{{ _('Direct Mail') }}</label>
+          </div>
+        </fieldset>
+
+        <p>{{ _('You can unsubscribe at any time by clicking the link in the footer of our emails.') }}
+           {{ _('For information about our privacy practices, please visit our website.') }}
+        </p>
+
+        <p>
+          <small>{{ _('We use Mailchimp as our marketing platform.') }} {{ _('By clicking below to subscribe, you
+            acknowledge that your information will be transferred to Mailchimp for processing.') }} {{ _('Learn more
+            about Mailchimp\'s privacy practices <a href="https://mailchimp.com/legal/" target="_blank">here</a>.') }}
+          </small>
+        </p>
+      </div>
+
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="b_89d883ce643e7200aabe34fa1_e1520cb152" tabindex="-1" value="">
+      </div>
+
+      <input type="submit" value="{{ _('Subscribe') }}" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+
+      <hr/>
+
+        <a href="https://us12.campaign-archive.com/home/?u=89d883ce643e7200aabe34fa1&id=e1520cb152" title="{{ _('View previous campaigns.') }}">
+          {{ _('View previous campaigns.') }}</a>
+
+    </form>
+  </div>
+</div>

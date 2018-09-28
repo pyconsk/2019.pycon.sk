@@ -10,13 +10,29 @@
 
       <h1 class="featurette-heading">PyCon SK 2019</h1>
       <p class="lead">
-        {{ _('<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in Bratislava</strong>.') }}</p>
-        {{ _('More info will be announced soon...') }}
+        {{ _('<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in Bratislava</strong>.') }}
       </p>
 
-      <p class="lead">
-          <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
-      </p>
+{#      <p class="lead">#}
+{#          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>#}
+{#      </p>#}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 text-left">
+      <div class="card">
+        <h5 class="card-header">{{ _('About Conference') }}</h5>
+        <div class="card-body">
+          <p>{{ _('More info will be announced soon...') }}</p>
+          <p>{{ _('If you would like to be updated by us, check out our social media or sign up for our newsletter.') }}
+            {{ _('Usually we wont send more than couple of emails per year.') }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 text-left">
+      {% include "mailchimp.html" %}
     </div>
   </div>
 
