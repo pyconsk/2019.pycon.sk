@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-09-26 23:08+0200\n"
+"POT-Creation-Date: 2018-09-29 00:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -210,9 +210,91 @@ msgstr ""
 "Hostiteľom <strong>štvrtého ročníka</strong> bude opäť "
 "<strong>Bratislava, 22.-24. Marec 2019</strong>."
 
-#: templates/index.html:14
+#: templates/index.html:25
+msgid "About Conference"
+msgstr "O konferencií"
+
+#: templates/index.html:27
 msgid "More info will be announced soon..."
 msgstr "Viac informácií oznámime čoskoro..."
+
+#: templates/index.html:28
+msgid ""
+"If you would like to be updated by us, check out our social media or sign"
+" up for our newsletter."
+msgstr ""
+
+#: templates/index.html:29
+msgid "Usually we wont send more than couple of emails per year."
+msgstr ""
+
+#: templates/mailchimp.html:2
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: templates/mailchimp.html:8
+msgid "Email Address"
+msgstr "Emailová adresa"
+
+#: templates/mailchimp.html:9
+msgid "email address for the newsletter"
+msgstr "emailová adresa pre odoberanie noviniek"
+
+#: templates/mailchimp.html:11
+msgid "SPy o.z. will never share your email with anyone else."
+msgstr "SPy o.z. nikdy nebude zdieľať tvoj email."
+
+#: templates/mailchimp.html:16
+msgid "Email Marketing Permissions"
+msgstr ""
+
+#: templates/mailchimp.html:17
+msgid "Please select all the ways you would like to hear from SPy o.z.:"
+msgstr ""
+
+#: templates/mailchimp.html:22
+msgid "Email"
+msgstr ""
+
+#: templates/mailchimp.html:26
+msgid "Direct Mail"
+msgstr ""
+
+#: templates/mailchimp.html:30
+msgid ""
+"You can unsubscribe at any time by clicking the link in the footer of our"
+" emails."
+msgstr ""
+
+#: templates/mailchimp.html:31
+msgid "For information about our privacy practices, please visit our website."
+msgstr ""
+
+#: templates/mailchimp.html:35
+msgid "We use Mailchimp as our marketing platform."
+msgstr ""
+
+#: templates/mailchimp.html:35
+msgid ""
+"By clicking below to subscribe, you\n"
+"            acknowledge that your information will be transferred to "
+"Mailchimp for processing."
+msgstr ""
+
+#: templates/mailchimp.html:36
+msgid ""
+"Learn more\n"
+"            about Mailchimp's privacy practices <a "
+"href=\"https://mailchimp.com/legal/\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: templates/mailchimp.html:47
+msgid "Subscribe"
+msgstr ""
+
+#: templates/mailchimp.html:51 templates/mailchimp.html:52
+msgid "View previous campaigns."
+msgstr ""
 
 #: templates/venue.html:8
 msgid "How do you get to Slovak PyCon?"
