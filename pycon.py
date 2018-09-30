@@ -19,13 +19,21 @@ babel = Babel(app)
 def index():
     return render_template('index.html', **_get_template_variables(li_index='active'))
 
+
 @app.route('/<lang_code>/coc.html')
 def coc():
     return render_template('coc.html', **_get_template_variables(li_coc='active'))
 
+
 @app.route('/<lang_code>/venue.html')
 def venue():
     return render_template('venue.html', **_get_template_variables(li_venue='active'))
+
+
+@app.route('/<lang_code>/privacy-policy.html')
+def privacy_policy():
+    return render_template('privacy-policy.html', **_get_template_variables(li_privacy='active'))
+
 
 def _get_template_variables(**kwargs):
     """Collect variables for template that repeats, e.g. are in body.html template"""

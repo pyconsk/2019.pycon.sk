@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-09-29 00:10+0200\n"
+"POT-Creation-Date: 2018-10-01 00:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,6 +65,11 @@ msgstr ""
 
 #: templates/body.html:94
 msgid "SPy o.z."
+msgstr ""
+
+#: templates/body.html:94
+#, python-format
+msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
 #: templates/body.html:96
@@ -248,6 +253,171 @@ msgstr ""
 
 #: templates/mailchimp.html:51 templates/mailchimp.html:52
 msgid "View previous campaigns."
+msgstr ""
+
+#: templates/privacy-policy.html:7
+msgid "Privacy Policy"
+msgstr ""
+
+#: templates/privacy-policy.html:13
+msgid "SPy o.z. Privacy and Security"
+msgstr ""
+
+#: templates/privacy-policy.html:15
+msgid ""
+"SPy o.z. value and respect all individuals and organizations that utilize"
+" our services. We understand that you may be concerned about privacy "
+"issues that surround the use of the Internet."
+msgstr ""
+
+#: templates/privacy-policy.html:18
+msgid ""
+"We believe that you should have control over who receives your personal "
+"information, whether it concerns where you live, what your interests are,"
+" or how you choose to conduct transactions. We're focused on only one "
+"thing: manage Python community in Slovakia in a safe and secure "
+"environment."
+msgstr ""
+
+#: templates/privacy-policy.html:21
+msgid ""
+"Therefore, we do not disclose, share, sell, or trade information about "
+"your individual visits to *.pycon.sk or the information that you may give"
+" us such as your name, address, e-mail address or telephone number, to "
+"any outside companies. We will release personal information about you, if"
+" necessary, in order to comply with a valid legal process such as a "
+"search warrant or court order. If we receive such request we'll "
+"transparently create a transparency report."
+msgstr ""
+
+#: templates/privacy-policy.html:24
+msgid ""
+"Other Web sites that you may link to from our site, including our "
+"partners' Web sites, have their own privacy policies. SPy o.z. is not "
+"responsible for the privacy practices of other Web sites. We encourage "
+"you to review the privacy policies of Web sites before providing them "
+"with any of your personal information."
+msgstr ""
+
+#: templates/privacy-policy.html:27
+msgid ""
+"At our events we respect peoples will not be photographed if they do not "
+"want to. Official photographers will ignore such people. We also ask our "
+"participants to do so as well."
+msgstr ""
+
+#: templates/privacy-policy.html:30
+msgid ""
+"We respect the Code of Conduct, let us know if you feel we can improve "
+"our privacy and policy rules."
+msgstr ""
+
+#: templates/privacy-policy.html:37
+msgid "How SPy o.z. Uses Information About You"
+msgstr ""
+
+#: templates/privacy-policy.html:39
+msgid ""
+"When you register for an event, make donations or select a volunteer "
+"opportunity, we may specifically ask for information about you -- such as"
+" name, home or Internet address, and billing information -- in order to "
+"provide that service or information to you. This information will be used"
+" solely for the purposes of completing your registration, donation or "
+"locating the volunteer opportunity you are seeking."
+msgstr ""
+
+#: templates/privacy-policy.html:42
+msgid ""
+"The information which SPy o.z. automatically gathers, such as the numbers"
+" and frequency of visitors to our site and its areas, is used only in the"
+" aggregate -- very much like television ratings that tell the networks "
+"how many people tuned in to a program. This collective data helps us "
+"determine how much our visitors use parts of the site so that we can "
+"improve our site to assure that it is as appealing as we can make it for "
+"as many of you as possible."
+msgstr ""
+
+#: templates/privacy-policy.html:49
+msgid "SPy o.z. Security"
+msgstr ""
+
+#: templates/privacy-policy.html:51
+msgid ""
+"SPy o.z. takes every precaution to protect our user's information. When "
+"users submit sensitive information via the Web site, your information is "
+"protected both online and offline."
+msgstr ""
+
+#: templates/privacy-policy.html:54
+msgid ""
+"SPy o.z. uses Secure Sockets Layer (SSL) technology to keep your personal"
+" information as secure as possible. SPy o.z. helps to protect your "
+"information by working with partners that provide a secure and safe "
+"environment for credit card transactions."
+msgstr ""
+
+#: templates/privacy-policy.html:61
+msgid "Third party services that may obtain some information about you:"
+msgstr ""
+
+#: templates/privacy-policy.html:63
+msgid ""
+"<strong>Tito</strong>: Event management website, we use for event ticket "
+"registration. Read their privacy and policy: "
+msgstr ""
+
+#: templates/privacy-policy.html:67
+msgid ""
+"<strong>PayPal</strong>: Payment provider, we use for event ticket "
+"payments. Read their privacy and policy: "
+msgstr ""
+
+#: templates/privacy-policy.html:71
+msgid ""
+"<strong>Google Analytics</strong>: Website performance analytics, we use "
+"to collect aggregated data about our website visitors. Read their privacy"
+" and policy: "
+msgstr ""
+
+#: templates/privacy-policy.html:75
+msgid ""
+"<strong>MailChimp</strong>: Newsletter and event update mass email "
+"provider, we use to send emails to multiple recipients. Read their "
+"privacy and policy: "
+msgstr ""
+
+#: templates/privacy-policy.html:83
+msgid "Third party service that could be avoided:"
+msgstr ""
+
+#: templates/privacy-policy.html:85
+msgid ""
+"<strong>Tito</strong>: Join us on events that do not require tickets, "
+"such as monthly Python meetups. Unfortunately for PyCon SK conference "
+"ticket is required for everyone, however, you can use a pseudonym as we "
+"won't ask for your ID if you have a valid ticket (without any discount, "
+"for discounted tickets, student ID or similar might be required)."
+msgstr ""
+
+#: templates/privacy-policy.html:88
+msgid ""
+"<strong>PayPal</strong>: Request a payment via alternative methods: Bank "
+"transfer, cryptocurrencies, an extra fee for additional human work will "
+"apply."
+msgstr ""
+
+#: templates/privacy-policy.html:91
+msgid ""
+"<strong>Google Analytics</strong>: Use adblocker to block this service "
+"automatically for every site on the internet."
+msgstr ""
+
+#: templates/privacy-policy.html:94
+msgid ""
+"<strong>MailChimp</strong>: Do not subscribe to our newsletter, or "
+"request us not to include your email in mass emails when requesting an "
+"alternative payment method. If you are already subscribed, you can "
+"unsubscribe at any time, by clicking the link in the email footer."
 msgstr ""
 
 #: templates/venue.html:8
