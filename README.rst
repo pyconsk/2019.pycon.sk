@@ -26,7 +26,11 @@ Installation
     git clone https://github.com/pyconsk/2019.pycon.sk.git
     cd 2019.pycon.sk
 
-- install pipenv (`official documentation instructions <https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv>`_) and installs all requirements::
+- install pipenv (`official documentation instructions <https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv>`_)::
+
+    pip install pipenv
+
+- installs all requirements::
 
     pipenv install
 
