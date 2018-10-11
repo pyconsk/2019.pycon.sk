@@ -28,7 +28,7 @@ Installation
 
 - install pipenv (`official documentation instructions <https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv>`_) and installs all requirements::
 
-    pipenv install
+    pip install pipenv
 
 - setup enviroment variables (required by Flask, windows users can `official documentation instructions <http://flask.pocoo.org/docs/1.0/quickstart/#a-minimal-application>`_)::
    
