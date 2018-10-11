@@ -29,7 +29,7 @@
     {% else %}
     <link rel="alternate" href="{{ domain }}{{ request.path|replace('/'+lang_code, '/sk', 1) }}" hreflang="sk">
     {% endif %}
-    <link rel="canonical" href="{{ domain}}{{ request.path }}"/>
+    <link rel="canonical" href="{{ domain }}{{ request.path }}"/>
     {% block header %}{% endblock %}
   </head>
   <body>

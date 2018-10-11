@@ -1,5 +1,6 @@
-from flask import Flask, render_template
-from flask import Flask, g, request, render_template, abort, make_response
+from datetime import date
+
+from flask import Flask, g, request, render_template, abort, make_response, url_for
 from flask_babel import Babel, gettext
 
 EVENT = gettext('PyCon SK 2019')
@@ -13,6 +14,22 @@ app = Flask(__name__, static_url_path='/static')
 app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
 app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
 babel = Babel(app)
+
+
+@app.route('/sitemap.xml')
+def sitemap():
+    excluded = {'static', 'sitemap'}
+    pages = []
+
+    for lang in LANGS:
+        for rule in app.url_map.iter_rules():
+            if 'GET' in rule.methods and rule.endpoint not in excluded:
+                pages.append(DOMAIN + url_for(rule.endpoint, lang_code=lang))
+
+    sitemap_xml = render_template('sitemap.xml', pages=pages, today=date.today())
+    response = make_response(sitemap_xml)
+    response.headers['Content-Type'] = 'application/xml'
+    return response
 
 
 @app.route('/<lang_code>/index.html')
