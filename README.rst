@@ -26,9 +26,13 @@ Installation
     git clone https://github.com/pyconsk/2019.pycon.sk.git
     cd 2019.pycon.sk
 
-- install pipenv (`official documentation instructions <https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv>`_) and installs all requirements::
+- install pipenv (`official documentation instructions <https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv>`_)::
 
     pip install pipenv
+
+- installs all requirements::
+
+    pipenv install
 
 - setup enviroment variables (required by Flask, windows users can `official documentation instructions <http://flask.pocoo.org/docs/1.0/quickstart/#a-minimal-application>`_)::
    
