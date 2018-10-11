@@ -39,6 +39,10 @@ Installation
     export FLASK_ENV=development
     export FLASK_APP=pycon.py
 
+- activate pipenv virtual environment
+
+    pipenv shell
+
 - start flask server, and you can view it in browser (http://127.0.0.1:5000/en/index.html)::
 
     flask run
