@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-12 10:17+0200\n"
+"POT-Creation-Date: 2018-10-12 10:56+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,39 +40,43 @@ msgid "Code of Conduct"
 msgstr ""
 
 #: templates/body.html:54
+msgid "Sponsoring"
+msgstr ""
+
+#: templates/body.html:57
 msgid "About Us"
 msgstr ""
 
-#: templates/body.html:87
+#: templates/body.html:90
 msgid "Go to top of page"
 msgstr ""
 
-#: templates/body.html:89
+#: templates/body.html:92
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
 " the %(psf)s."
 msgstr ""
 
-#: templates/body.html:91
+#: templates/body.html:94
 msgid "Python Software foundation"
 msgstr ""
 
-#: templates/body.html:93
+#: templates/body.html:96
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr ""
 
-#: templates/body.html:94
+#: templates/body.html:97
 msgid "SPy o.z."
 msgstr ""
 
-#: templates/body.html:94
+#: templates/body.html:97
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:96
+#: templates/body.html:99
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
@@ -497,6 +501,94 @@ msgid ""
 "request us not to include your email in mass emails when requesting an "
 "alternative payment method. If you are already subscribed, you can "
 "unsubscribe at any time, by clicking the link in the email footer."
+msgstr ""
+
+#: templates/sponsoring.html:8
+msgid "Why become a sponsor?"
+msgstr ""
+
+#: templates/sponsoring.html:9
+msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
+msgstr ""
+
+#: templates/sponsoring.html:12
+msgid ""
+"PyCon is an annual gathering for the community using and developing the "
+"open-source Python programming language. The conference is completely "
+"organized by volunteers."
+msgstr ""
+
+#: templates/sponsoring.html:16
+msgid ""
+"The members of the Python community organize a PyCon conference in their "
+"home countries regularly, PyCon will happen in Slovakia for the third "
+"time."
+msgstr ""
+
+#: templates/sponsoring.html:20
+msgid ""
+"To ensure high-quality speakers and keep the tickets price available for "
+"everyone we need you, the sponsors, who allow the conference to take "
+"place."
+msgstr ""
+
+#: templates/sponsoring.html:24
+msgid ""
+"Do not hesitate to contact us. We are flexible and willing to work with "
+"you to design a sponsorship package that is going to meet your business "
+"needs."
+msgstr ""
+
+#: templates/sponsoring.html:31
+msgid "Marketing"
+msgstr ""
+
+#: templates/sponsoring.html:33
+msgid ""
+"Looking for new users for your product? Such people can be found at PyCon"
+" - they also will look for new products and ideas."
+msgstr ""
+
+#: templates/sponsoring.html:36
+msgid "Recruitment"
+msgstr ""
+
+#: templates/sponsoring.html:38
+msgid ""
+"Are you looking for programmers? PyCon is the best place for meeting new "
+"talents. Many participants will be experienced developers looking for "
+"their next big career move."
+msgstr ""
+
+#: templates/sponsoring.html:41
+msgid "Audience"
+msgstr ""
+
+#: templates/sponsoring.html:43
+msgid ""
+"Want to get your message across to the people, so they talk about you? "
+"PyCon is a great opportunity. People in the Python community like to "
+"discover and share new things."
+msgstr ""
+
+#: templates/sponsoring.html:46
+msgid "Community"
+msgstr ""
+
+#: templates/sponsoring.html:48
+msgid ""
+"Looking for new contributors and partners for your open source project? "
+"PyCon is the place, where they also will look for you."
+msgstr ""
+
+#: templates/sponsoring.html:51
+msgid "Support"
+msgstr ""
+
+#: templates/sponsoring.html:53
+msgid ""
+"Are you using Python in your company? Support for community events is an "
+"excellent opportunity to contribute back."
 msgstr ""
 
 #: templates/venue.html:8
