@@ -1,6 +1,6 @@
 from datetime import date
 
-from flask import Flask, g, request, render_template, abort, make_response, url_for
+from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
 from flask_babel import Babel, gettext
 
 EVENT = gettext('PyCon SK 2019')
@@ -30,6 +30,11 @@ def sitemap():
     response = make_response(sitemap_xml)
     response.headers['Content-Type'] = 'application/xml'
     return response
+
+
+@app.route('/')
+def root():
+    return redirect('sk/index.html')
 
 
 @app.route('/<lang_code>/index.html')
