@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-12 10:56+0200\n"
+"POT-Creation-Date: 2018-10-12 13:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,60 +35,60 @@ msgstr ""
 msgid "Venue"
 msgstr ""
 
-#: templates/body.html:51 templates/coc.html:7
+#: templates/body.html:51 templates/cfp.html:8
+msgid "Call for proposals"
+msgstr ""
+
+#: templates/body.html:54 templates/coc.html:7
 msgid "Code of Conduct"
 msgstr ""
 
-#: templates/body.html:54
+#: templates/body.html:57
 msgid "Sponsoring"
 msgstr ""
 
-#: templates/body.html:57
+#: templates/body.html:60
 msgid "About Us"
 msgstr ""
 
-#: templates/body.html:90
+#: templates/body.html:93
 msgid "Go to top of page"
 msgstr ""
 
-#: templates/body.html:92
+#: templates/body.html:95
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
 " the %(psf)s."
 msgstr ""
 
-#: templates/body.html:94
+#: templates/body.html:97
 msgid "Python Software foundation"
 msgstr ""
 
-#: templates/body.html:96
+#: templates/body.html:99
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr ""
 
-#: templates/body.html:97
+#: templates/body.html:100
 msgid "SPy o.z."
 msgstr ""
 
-#: templates/body.html:97
+#: templates/body.html:100
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:99
+#: templates/body.html:102
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
 " contribute at our %(github)s."
 msgstr ""
 
-#: templates/cfp.html:8
-msgid "Call for proposals"
-msgstr ""
-
 #: templates/cfp.html:9
-msgid "The Call For Proposals is open!"
+msgid "The Call For Proposals will open soon!"
 msgstr ""
 
 #: templates/cfp.html:12
@@ -116,17 +116,21 @@ msgid ""
 msgstr ""
 
 #: templates/cfp.html:20
+msgid "Call for proposals for PyCon SK 2019 will open 16th of October 2018."
+msgstr ""
+
+#: templates/cfp.html:21
 msgid ""
 "The deadline for submissions is the end of 14th February 2019. If you "
 "have any questions, please contact us via email: info@pycon.sk or join "
 "our Slack channel"
 msgstr ""
 
-#: templates/cfp.html:23
+#: templates/cfp.html:24
 msgid "Guidelines for Proposal Submission"
 msgstr ""
 
-#: templates/cfp.html:25
+#: templates/cfp.html:26
 msgid ""
 "There is no official restriction on the topic that you propose a talk "
 "session. Talks about Python or the Python community are most likely to "
@@ -137,22 +141,22 @@ msgid ""
 "proposals is accepted."
 msgstr ""
 
-#: templates/cfp.html:31
+#: templates/cfp.html:32
 msgid "Talks"
 msgstr ""
 
-#: templates/cfp.html:33
+#: templates/cfp.html:34
 msgid ""
 "Most talks are 30 minutes long, but we do offer a limited number of "
 "45-minute slots for important topics that promise to benefit from a more "
 "extensive treatment."
 msgstr ""
 
-#: templates/cfp.html:37
+#: templates/cfp.html:38
 msgid "Workshops"
 msgstr ""
 
-#: templates/cfp.html:39
+#: templates/cfp.html:40
 msgid ""
 "As with the talks, we are looking for tutorials that can grow this "
 "community at any level! We aim for tutorials that will advance Python, "
