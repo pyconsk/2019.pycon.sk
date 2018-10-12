@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-01 23:40+0200\n"
+"POT-Creation-Date: 2018-10-12 10:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,6 +77,84 @@ msgstr ""
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
 " contribute at our %(github)s."
+msgstr ""
+
+#: templates/cfp.html:8
+msgid "Call for proposals"
+msgstr ""
+
+#: templates/cfp.html:9
+msgid "The Call For Proposals is open!"
+msgstr ""
+
+#: templates/cfp.html:12
+msgid ""
+"PyCon is organized by the Python community and for the Python community. "
+"You're coming to the event, and that makes you part of the community. If "
+"you've done something that you think other people might be interested in,"
+" or that you think they should know about, please do consider telling us "
+"about it. We don't just want to hear from the experts or famous names - "
+"other perspectives are just as valuable, so don't let the idea that "
+"you're not expert or famous enough stop you. This is your invitation to "
+"submit a talk proposal if you haven't spoken at the conference before. "
+"First-time speakers talk proposals are preferred."
+msgstr ""
+
+#: templates/cfp.html:15
+msgid "Where to submit your proposal"
+msgstr ""
+
+#: templates/cfp.html:17
+msgid ""
+"We are glad you are interested in giving a talk at PyCon SK 2019! Submit "
+"your talk proposal with short abstract and your bio. All selected "
+"speakers get a complimentary ticket to the conference."
+msgstr ""
+
+#: templates/cfp.html:20
+msgid ""
+"The deadline for submissions is the end of 14th February 2019. If you "
+"have any questions, please contact us via email: info@pycon.sk or join "
+"our Slack channel"
+msgstr ""
+
+#: templates/cfp.html:23
+msgid "Guidelines for Proposal Submission"
+msgstr ""
+
+#: templates/cfp.html:25
+msgid ""
+"There is no official restriction on the topic that you propose a talk "
+"session. Talks about Python or the Python community are most likely to "
+"line up with the interests of PyCon's audience, and a key consideration "
+"that the talk selection committee will be thinking about is your talk's "
+"ability to draw an audience. You may propose more than one, but the "
+"committee will ask you to choose only one talk if more than one of your "
+"proposals is accepted."
+msgstr ""
+
+#: templates/cfp.html:31
+msgid "Talks"
+msgstr ""
+
+#: templates/cfp.html:33
+msgid ""
+"Most talks are 30 minutes long, but we do offer a limited number of "
+"45-minute slots for important topics that promise to benefit from a more "
+"extensive treatment."
+msgstr ""
+
+#: templates/cfp.html:37
+msgid "Workshops"
+msgstr ""
+
+#: templates/cfp.html:39
+msgid ""
+"As with the talks, we are looking for tutorials that can grow this "
+"community at any level! We aim for tutorials that will advance Python, "
+"advance this community, and shape the future. As tutorials are longer "
+"than talks and are in an interactive classroom-like setting, they require"
+" much more preparation."
 msgstr ""
 
 #: templates/coc.html:11

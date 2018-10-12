@@ -5,5 +5,9 @@ install:
 - pip install pipenv
 - pipenv install --dev
 script:
+- pipenv run pybabel extract -F babel.cfg -o messages.pot .
+- pipenv run pybabel update -i messages.pot -d translations
+- pipenv run pybabel compile -d translations
+- pypenv run python freezer.py
 - pylint pycon.py
 - pipenv check

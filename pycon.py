@@ -37,6 +37,11 @@ def index():
     return render_template('index.html', **_get_template_variables(li_index='active'))
 
 
+@app.route('/<lang_code>/cfp.html')
+def cfp():
+    return render_template('cfp.html', **_get_template_variables(li_cfp='active'))
+
+
 @app.route('/<lang_code>/coc.html')
 def coc():
     return render_template('coc.html', **_get_template_variables(li_coc='active'))
