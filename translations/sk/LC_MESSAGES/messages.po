@@ -217,7 +217,7 @@ msgstr ""
 
 #: templates/index.html:25
 msgid "About Conference"
-msgstr "O konferencií"
+msgstr "O konferencii"
 
 #: templates/index.html:27
 msgid "More info will be announced soon..."
@@ -228,14 +228,16 @@ msgid ""
 "If you would like to be updated by us, check out our social media or sign"
 " up for our newsletter."
 msgstr ""
+"Ak chce dostávať aktualizované informácie o konferencii, sleduj naše "
+"sociálne média, alebo sa prihlás na odber nášho newslettra."
 
 #: templates/index.html:29
 msgid "Usually we wont send more than couple of emails per year."
-msgstr ""
+msgstr "Zvyčajne neposielame viac ako pár emailov za rok."
 
 #: templates/mailchimp.html:2
 msgid "Subscribe to our newsletter"
-msgstr ""
+msgstr "Prihláste sa na odber newslettra"
 
 #: templates/mailchimp.html:8
 msgid "Email Address"
@@ -251,33 +253,36 @@ msgstr "SPy o.z. nikdy nebude zdieľať tvoj email."
 
 #: templates/mailchimp.html:16
 msgid "Email Marketing Permissions"
-msgstr ""
+msgstr "Povolenia pre emailový marketing"
 
 #: templates/mailchimp.html:17
 msgid "Please select all the ways you would like to hear from SPy o.z.:"
-msgstr ""
+msgstr "Prosím vyberte si, akými spôsobmi chceš dostávať informácie od SPy o.z.:"
 
 #: templates/mailchimp.html:22
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: templates/mailchimp.html:26
 msgid "Direct Mail"
-msgstr ""
+msgstr "Pošta"
 
 #: templates/mailchimp.html:30
 msgid ""
 "You can unsubscribe at any time by clicking the link in the footer of our"
 " emails."
 msgstr ""
+"Odhlásiť sa môžete kedykoľvek kliknutím na link na konci našich emailov."
 
 #: templates/mailchimp.html:31
 msgid "For information about our privacy practices, please visit our website."
 msgstr ""
+"Pre informácie o našich zásadách ochrany súkromia, prosím navštívte našu "
+"webstránku."
 
 #: templates/mailchimp.html:35
 msgid "We use Mailchimp as our marketing platform."
-msgstr ""
+msgstr "Ako našu marketingovú platformu používame Mailchimp."
 
 #: templates/mailchimp.html:35
 msgid ""
@@ -285,6 +290,9 @@ msgid ""
 "            acknowledge that your information will be transferred to "
 "Mailchimp for processing."
 msgstr ""
+"Kliknutím na tlačítko na prihlásenie, súhlasíte\n"
+"            s tým, že vašeinformácie budú odoslané"
+"Mailchimpu na spracovanie."
 
 #: templates/mailchimp.html:36
 msgid ""
@@ -293,22 +301,26 @@ msgid ""
 "href=\"https://mailchimp.com/legal/\" target=\"_blank\" "
 "class=\"external\">here</a>."
 msgstr ""
+"Zistite viac\n"
+"            o ochrane súkromia v Mailchimpe <a "
+"href=\"https://mailchimp.com/legal/\" target=\"_blank\" "
+"class=\"external\">tu</a>."
 
 #: templates/mailchimp.html:47
 msgid "Subscribe"
-msgstr ""
+msgstr "Prihlásiť sa"
 
 #: templates/mailchimp.html:51 templates/mailchimp.html:52
 msgid "View previous campaigns."
-msgstr ""
+msgstr "Zobraziť predchádzajúce kampane."
 
 #: templates/privacy-policy.html:7
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Ochrana súkromia"
 
 #: templates/privacy-policy.html:13
 msgid "SPy o.z. Privacy and Security"
-msgstr ""
+msgstr "SPy o.z. Súkromie a bezpečnosť"
 
 #: templates/privacy-policy.html:15
 msgid ""
@@ -316,6 +328,9 @@ msgid ""
 " our services. We understand that you may be concerned about privacy "
 "issues that surround the use of the Internet."
 msgstr ""
+"SPy o.z. si cení a rešpektuje všetky osoby a organizácie, ktoré využívajú "
+"naše služby. Rozumieme, že môžete mať obavy o vaše súkromie v súvislosti "
+"s používaním Internetu."
 
 #: templates/privacy-policy.html:18
 msgid ""
@@ -325,6 +340,10 @@ msgid ""
 "thing: manage Python community in Slovakia in a safe and secure "
 "environment."
 msgstr ""
+"Sme presvedčení, že by ste mali mať kontrolu nad tým, kto dostáva vaše "
+"osobné informácie, či už o tom, kde žijete, aké sú vaše záujmy, alebo ako "
+" vykonávate transakcie. Naším cieľom je len jediné: riadiť Python komunitu "
+"na Slovensku v bezpečnom prostredí."
 
 #: templates/privacy-policy.html:21
 msgid ""
@@ -336,6 +355,13 @@ msgid ""
 "search warrant or court order. If we receive such request we'll "
 "transparently create a transparency report."
 msgstr ""
+"Preto neuvádzame, nezdieľame, nepredávame informácie o vašich jednotlivých "
+"návštevách na *.pycon.sk alebo informácie, ktoré ste nám mohli poskytnúť, "
+"ako napríklad meno, adresu, emailovú adresu alebo telefónne číslo, žiadnej "
+"spoločnosti alebo jednotlivcovi. Vaše osobné údaje sprístupnime iba ak to "
+"bude potrebné v súvislosti s právnymi predpismi, na príklad v prípade "
+"hľadania osoby či v prípade súdneho procesu. V prípade, že dostaneme takúto "
+"požiadavku, transparentne vytvorím požadovaný report."
 
 #: templates/privacy-policy.html:24
 msgid ""
@@ -345,6 +371,11 @@ msgid ""
 "you to review the privacy policies of Web sites before providing them "
 "with any of your personal information."
 msgstr ""
+"Iné web stránky, na ktoré môžu smerovať linky z naše web stránky, vrátane "
+"webstránok našich partnerov majú svoje vlastné pravidlá na ochranu súkromia. "
+"SPy o.z. nie je zodpovedné za dodržovanie takýchto pravidiel na iných "
+"webstránkach. Odporúčame Vám preštudovať si pravidlá ochrany súkromia "
+"webstránok predtým, ako im poskytnete akékoľvek osobné údaje."
 
 #: templates/privacy-policy.html:27
 msgid ""
@@ -352,16 +383,21 @@ msgid ""
 "want to. Official photographers will ignore such people. We also ask our "
 "participants to do so as well."
 msgstr ""
+"Na našich stretnutiach aj na konferencii rešpektujeme želanie ľudí nebyť "
+"fotografovaní, pokiaľ si to neželajú. Oficiálny fotografi budú takýchto "
+"ľudí ignorovať. Taktiež žiadame o to isté aj účastníkov načich akcií."
 
 #: templates/privacy-policy.html:30
 msgid ""
 "We respect the Code of Conduct, let us know if you feel we can improve "
 "our privacy and policy rules."
 msgstr ""
+"Rešpektujeme Pravidlá správania sa, dajte nám vedieť, ak sa vám zdá, že "
+"naše pravidlá či už na ochranu súkromia alebo iné môžeme zlepšiť."
 
 #: templates/privacy-policy.html:37
 msgid "How SPy o.z. Uses Information About You"
-msgstr ""
+msgstr "Ako Spy o.z. využíva informácie o vás"
 
 #: templates/privacy-policy.html:39
 msgid ""
@@ -372,6 +408,12 @@ msgid ""
 " solely for the purposes of completing your registration, donation or "
 "locating the volunteer opportunity you are seeking."
 msgstr ""
+"Ak sa zaregistrujete na našu udalosť, pošlete nám príspevok alebo sa "
+"prihlásite ako dobrovoľník, môžeme od vás požadovať určité informácie, "
+"napríklad meno, domáca alebo internetová adresa či fakturačné údajeo, aby "
+"sme vám mohli poskytnúť požadovanú službu či informáciu. Takáto informácia "
+"bude použitá výlučne na účely dokončenia vašej registrácie, príspevku alebo "
+"zadeleniu práce pre dobrovoľníka."
 
 #: templates/privacy-policy.html:42
 msgid ""
@@ -383,10 +425,16 @@ msgid ""
 "improve our site to assure that it is as appealing as we can make it for "
 "as many of you as possible."
 msgstr ""
+"Informácie, ktoré SPy o.z. automaticky zbiera, ako napríklad počet a "
+"frekvencia návštev webstránok sa vyhodnocujú iba agregovane, ako napríklad "
+"hodnotenie televízií, ktoré hovorí, koľko ľudí sledovali ich program. "
+"Tieto kolektívne údaje nám pomáhajú určiť, koľko našich návštevníkov "
+"používa webstránku a jej súčasti, vďaka čomu ju môžeme vylepšovať, aby bola "
+"príťažlivá a dostupná pre čo najväčšie množstvo ľudí."
 
 #: templates/privacy-policy.html:49
 msgid "SPy o.z. Security"
-msgstr ""
+msgstr "SPy o.z. bezpečnosť"
 
 #: templates/privacy-policy.html:51
 msgid ""
@@ -402,16 +450,21 @@ msgid ""
 "information by working with partners that provide a secure and safe "
 "environment for credit card transactions."
 msgstr ""
+"SPy o.z. robí všetky opatrenia na ochranu užívateľských informácií. Keď "
+"užívateľ poskytne citlivé údaje prostredníctvom web stránky, vaše informácie "
+"sú chránené online aj offline."
 
 #: templates/privacy-policy.html:61
 msgid "Third party services that may obtain some information about you:"
-msgstr ""
+msgstr "Služby tretích strán, ktoré môže získať časť informácií o vás:"
 
 #: templates/privacy-policy.html:63
 msgid ""
 "<strong>Tito</strong>: Event management website, we use for event ticket "
 "registration. Read their privacy and policy: "
 msgstr ""
+"<strong>Tito</strong>: webstránka na riadenie eventov, využívame ju na "
+"registráciu vstupeniek. Prečítajte si ich pravidlá ochrany súkromia: "
 
 #: templates/privacy-policy.html:67
 msgid ""
@@ -435,7 +488,7 @@ msgstr ""
 
 #: templates/privacy-policy.html:83
 msgid "Third party service that could be avoided:"
-msgstr ""
+msgstr "Služby tretích strán, ktorým sa dá vyhnúť:"
 
 #: templates/privacy-policy.html:85
 msgid ""
@@ -445,6 +498,12 @@ msgid ""
 "won't ask for your ID if you have a valid ticket (without any discount, "
 "for discounted tickets, student ID or similar might be required)."
 msgstr ""
+"<strong>Tito</strong>: Pridajte sa k nám na udalostiach, na ktoré "
+"nepotrebujete vstupenky, napríklad pravidelné každomesačné stretnutia - "
+"meetupy. Bohužiaľ, na konferenciu PyCon SK je potrebná vstupenka pre "
+"každého, no môžete použiť pseudonym, keďže od vás nepožadujeme doklad "
+"totožnosti ak máte platný lístok (bez zľavy, v prípade zľavnených lístkov "
+"môžeme požadovať študentský preukaz alebo podobný doklad)."
 
 #: templates/privacy-policy.html:88
 msgid ""
@@ -452,12 +511,18 @@ msgid ""
 "transfer, cryptocurrencies, an extra fee for additional human work will "
 "apply."
 msgstr ""
+"<strong>PayPal</strong>: Vyberte si alternatívny spôsob platby: Bankovým "
+"prevodom, kryptomenami. V tomto prípade však bude účtovaný extra poplatok "
+"za ručné spracovanie transakcie."
 
 #: templates/privacy-policy.html:91
 msgid ""
 "<strong>Google Analytics</strong>: Use adblocker to block this service "
 "automatically for every site on the internet."
 msgstr ""
+"<strong>Google Analytics</strong>: Používajte blokovanie trackerov na "
+"automatické blokovanie tejto služby na ktorejkoľvek stránke na Internete."
+
 
 #: templates/privacy-policy.html:94
 msgid ""
@@ -466,6 +531,10 @@ msgid ""
 "alternative payment method. If you are already subscribed, you can "
 "unsubscribe at any time, by clicking the link in the email footer."
 msgstr ""
+"<strong>MailChimp</strong>: Neprihláste sa na odber newslettra, alebo nás "
+"požiadajte o vyňatie vášho emailu z hromadného emailingu. Ak už ste "
+"prihlásený/á, môžete sa odhlásiť kedykoľvek kliknutím na link na konci "
+"emailu."
 
 #: templates/venue.html:8
 msgid "How do you get to Slovak PyCon?"
@@ -664,11 +733,3 @@ msgstr ""
 "title=\"stránky mesta pre návštevníkov\" target=\"_blank\" "
 "class=\"external\">oficiálne stránky mesta, určené pre návštevníkov</a>, "
 "kde nájdete aj iné udalosti, ktoré sa práve odohrávajú v Bratislave."
-
-#~ msgid ""
-#~ "Learn more\n"
-#~ "            about Mailchimp's privacy "
-#~ "practices <a href=\"https://mailchimp.com/legal/\" "
-#~ "target=\"_blank\">here</a>."
-#~ msgstr ""
-

@@ -82,8 +82,8 @@ msgid ""
 "Found a bug? Missing some information? This is community managed website,"
 " contribute at our %(github)s."
 msgstr ""
-"Našiel/Našla si chybu? Chýbajú Ti informácie? Táto webstránka je spravovaná "
-"komunitou, prispej na našom %(github)s."
+"Našli ste chybu? Chýbajú Vám informácie? Táto webstránka je spravovaná "
+"komunitou, prispejte na našom %(github)se."
 
 #: templates/coc.html:11
 msgid ""
@@ -98,7 +98,7 @@ msgstr ""
 "Komunita okolo Pythonu tvoria členovia z celého sveta s rozličnými "
 "schopnosťami, osobnosťami a skúsenosťami. Vďaka týmto rozdielom naša "
 "komunita dosahuje veľké úspechy a neustále rastie. Oceňujeme, ak pri "
-"spolupráci s členmi komunity dodržuješ tieto pravidlá, ktoré pomáhajú "
+"spolupráci s členmi komunity dodržujete tieto pravidlá, ktoré pomáhajú "
 "riadiť vzájomné vzťahy a snažiť sa udržovať pozitívnu, úspešnú "
 "a rozrastajúcu sa pythonskú komunitu."
 
@@ -233,7 +233,7 @@ msgstr "Zvyčajne neposielame viac ako pár emailov za rok."
 
 #: templates/mailchimp.html:2
 msgid "Subscribe to our newsletter"
-msgstr "Prihlásiť sa na odber newslettra"
+msgstr "Prihláste sa na odber newslettra"
 
 #: templates/mailchimp.html:8
 msgid "Email Address"
@@ -249,11 +249,11 @@ msgstr "SPy o.z. nikdy nikomu nesprístupní tvoj email."
 
 #: templates/mailchimp.html:16
 msgid "Email Marketing Permissions"
-msgstr "Povolenia emailového marketingu"
+msgstr "Povolenia pre emailový marketing"
 
 #: templates/mailchimp.html:17
 msgid "Please select all the ways you would like to hear from SPy o.z.:"
-msgstr "Prosím vyber si, akými spôsobmi chceš dostávať informácie od SPy o.z.:"
+msgstr "Prosím vyberte si, akými spôsobmi chceš dostávať informácie od SPy o.z.:"
 
 #: templates/mailchimp.html:22
 msgid "Email"
@@ -268,12 +268,12 @@ msgid ""
 "You can unsubscribe at any time by clicking the link in the footer of our"
 " emails."
 msgstr ""
-"Odhlásiť sa môžeš kedykoľvek kliknutím na link na konci našich emailov."
+"Odhlásiť sa môžete kedykoľvek kliknutím na link na konci našich emailov."
 
 #: templates/mailchimp.html:31
 msgid "For information about our privacy practices, please visit our website."
 msgstr ""
-"Pre informácie o našich zásadách ochrany súkromia, prosím navštív našu "
+"Pre informácie o našich zásadách ochrany súkromia, prosím navštívte našu "
 "webstránku."
 
 #: templates/mailchimp.html:35
@@ -286,8 +286,8 @@ msgid ""
 "            acknowledge that your information will be transferred to "
 "Mailchimp for processing."
 msgstr ""
-"Kliknutím na tlačítko na prihlásenie, súhlasíš\n"
-"            s tým, že tvoje informácie budú odoslané"
+"Kliknutím na tlačítko na prihlásenie, súhlasíte\n"
+"            s tým, že vašeinformácie budú odoslané"
 "Mailchimpu na spracovanie."
 
 #: templates/mailchimp.html:36
@@ -297,7 +297,7 @@ msgid ""
 "href=\"https://mailchimp.com/legal/\" target=\"_blank\" "
 "class=\"external\">here</a>."
 msgstr ""
-"Zisti viac\n"
+"Zistite viac\n"
 "            o ochrane súkromia v Mailchimpe <a "
 "href=\"https://mailchimp.com/legal/\" target=\"_blank\" "
 "class=\"external\">tu</a>."
@@ -308,7 +308,7 @@ msgstr "Prihlásiť sa"
 
 #: templates/mailchimp.html:51 templates/mailchimp.html:52
 msgid "View previous campaigns."
-msgstr "Zobraz predchádzajúce kampane."
+msgstr "Zobraziť predchádzajúce kampane."
 
 #: templates/privacy-policy.html:7
 msgid "Privacy Policy"
@@ -520,7 +520,7 @@ msgid ""
 "apply."
 msgstr ""
 "<strong>PayPal</strong>: Vyberte si alternatívny spôsob platby: Bankovým "
-"prevodom, kryptomenou. V tomto prípade však bude účtovaný extra poplatok "
+"prevodom, kryptomenami. V tomto prípade však bude účtovaný extra poplatok "
 "za ručné spracovanie transakcie."
 
 #: templates/privacy-policy.html:91
@@ -549,7 +549,7 @@ msgstr "Ako sa dostať na slovenský PyCon?"
 
 #: templates/venue.html:11
 msgid "Venue Address"
-msgstr "Adresa"
+msgstr "Miesto konania"
 
 #: templates/venue.html:13
 msgid "Slovak University of Technology in Bratislava"
