@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-12 10:56+0200\n"
+"POT-Creation-Date: 2018-10-12 13:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,52 +35,134 @@ msgstr ""
 msgid "Venue"
 msgstr ""
 
-#: templates/body.html:51 templates/coc.html:7
+#: templates/body.html:51 templates/cfp.html:8
+msgid "Call for proposals"
+msgstr ""
+
+#: templates/body.html:54 templates/coc.html:7
 msgid "Code of Conduct"
 msgstr ""
 
-#: templates/body.html:54
+#: templates/body.html:57
 msgid "Sponsoring"
 msgstr ""
 
-#: templates/body.html:57
+#: templates/body.html:60
 msgid "About Us"
 msgstr ""
 
-#: templates/body.html:90
+#: templates/body.html:93
 msgid "Go to top of page"
 msgstr ""
 
-#: templates/body.html:92
+#: templates/body.html:95
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
 " the %(psf)s."
 msgstr ""
 
-#: templates/body.html:94
+#: templates/body.html:97
 msgid "Python Software foundation"
-msgstr ""
-
-#: templates/body.html:96
-#, python-format
-msgid "PyCon SK is organized by volunteers from %(spy)s."
-msgstr ""
-
-#: templates/body.html:97
-msgid "SPy o.z."
-msgstr ""
-
-#: templates/body.html:97
-#, python-format
-msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
 #: templates/body.html:99
 #, python-format
+msgid "PyCon SK is organized by volunteers from %(spy)s."
+msgstr ""
+
+#: templates/body.html:100
+msgid "SPy o.z."
+msgstr ""
+
+#: templates/body.html:100
+#, python-format
+msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
+msgstr ""
+
+#: templates/body.html:102
+#, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
 " contribute at our %(github)s."
+msgstr ""
+
+#: templates/cfp.html:9
+msgid "The Call For Proposals will open soon!"
+msgstr ""
+
+#: templates/cfp.html:12
+msgid ""
+"PyCon is organized by the Python community and for the Python community. "
+"You're coming to the event, and that makes you part of the community. If "
+"you've done something that you think other people might be interested in,"
+" or that you think they should know about, please do consider telling us "
+"about it. We don't just want to hear from the experts or famous names - "
+"other perspectives are just as valuable, so don't let the idea that "
+"you're not expert or famous enough stop you. This is your invitation to "
+"submit a talk proposal if you haven't spoken at the conference before. "
+"First-time speakers talk proposals are preferred."
+msgstr ""
+
+#: templates/cfp.html:15
+msgid "Where to submit your proposal"
+msgstr ""
+
+#: templates/cfp.html:17
+msgid ""
+"We are glad you are interested in giving a talk at PyCon SK 2019! Submit "
+"your talk proposal with short abstract and your bio. All selected "
+"speakers get a complimentary ticket to the conference."
+msgstr ""
+
+#: templates/cfp.html:20
+msgid "Call for proposals for PyCon SK 2019 will open 16th of October 2018."
+msgstr ""
+
+#: templates/cfp.html:21
+msgid ""
+"The deadline for submissions is the end of 14th February 2019. If you "
+"have any questions, please contact us via email: info@pycon.sk or join "
+"our Slack channel"
+msgstr ""
+
+#: templates/cfp.html:24
+msgid "Guidelines for Proposal Submission"
+msgstr ""
+
+#: templates/cfp.html:26
+msgid ""
+"There is no official restriction on the topic that you propose a talk "
+"session. Talks about Python or the Python community are most likely to "
+"line up with the interests of PyCon's audience, and a key consideration "
+"that the talk selection committee will be thinking about is your talk's "
+"ability to draw an audience. You may propose more than one, but the "
+"committee will ask you to choose only one talk if more than one of your "
+"proposals is accepted."
+msgstr ""
+
+#: templates/cfp.html:32
+msgid "Talks"
+msgstr ""
+
+#: templates/cfp.html:34
+msgid ""
+"Most talks are 30 minutes long, but we do offer a limited number of "
+"45-minute slots for important topics that promise to benefit from a more "
+"extensive treatment."
+msgstr ""
+
+#: templates/cfp.html:38
+msgid "Workshops"
+msgstr ""
+
+#: templates/cfp.html:40
+msgid ""
+"As with the talks, we are looking for tutorials that can grow this "
+"community at any level! We aim for tutorials that will advance Python, "
+"advance this community, and shape the future. As tutorials are longer "
+"than talks and are in an interactive classroom-like setting, they require"
+" much more preparation."
 msgstr ""
 
 #: templates/coc.html:11
@@ -430,7 +512,7 @@ msgid "Why become a sponsor?"
 msgstr ""
 
 #: templates/sponsoring.html:9
-msgid "We need you — PyCon SK 2018 in Bratislava seeks for sponsors and partners!"
+msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
 msgstr ""
 
 #: templates/sponsoring.html:12

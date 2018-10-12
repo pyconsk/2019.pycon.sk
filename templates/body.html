@@ -47,6 +47,9 @@
             <li class="nav-item {{ li_venue }}">
               <a href="{{ url_for('venue', lang_code=lang_code) }}" class="nav-link">{{ _('Venue') }}</a>
             </li>
+            <li class="nav-item {{ li_cfp }}">
+              <a href="{{ url_for('cfp', lang_code=lang_code) }}" class="nav-link">{{ _('Call for proposals') }}</a>
+            </li>
             <li class="nav-item {{ li_coc }}">
               <a href="{{ url_for('coc', lang_code=lang_code) }}" class="nav-link">{{ _('Code of Conduct') }}</a>
             </li>
