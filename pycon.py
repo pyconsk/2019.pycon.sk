@@ -10,10 +10,10 @@ API_DOMAIN = 'https://api.pycon.sk'
 LANGS = ('en', 'sk')
 TIME_FORMAT = '%Y-%m-%dT%H:%M:%S+00:00'
 
-app = Flask(__name__, static_url_path='/static')
+app = Flask(__name__, static_url_path='/static')  # pylint: disable=invalid-name
 app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
 app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
-babel = Babel(app)
+babel = Babel(app)  # pylint: disable=invalid-name
 
 
 @app.route('/sitemap.xml')
@@ -54,7 +54,6 @@ def privacy_policy():
 
 def _get_template_variables(**kwargs):
     """Collect variables for template that repeats, e.g. are in body.html template"""
-    lang = get_locale()
     variables = {
         'title': EVENT,
         'domain': DOMAIN,
@@ -70,7 +69,7 @@ def _get_template_variables(**kwargs):
 
 
 @app.before_request
-def before():
+def before():  # pylint: disable=inconsistent-return-statements
     if request.view_args and 'lang_code' in request.view_args:
         g.current_lang = request.view_args['lang_code']
         if request.view_args['lang_code'] not in LANGS:
