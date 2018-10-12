@@ -3,6 +3,8 @@ PyCon SK 2019 Website
 
 Official `PyCon SK 2019 <https://2019.pycon.sk/>`_ website.
 
+.. image:: https://travis-ci.org/pyconsk/2019.pycon.sk.svg?branch=master
+    :target: https://travis-ci.org/pyconsk/2019.pycon.sk
 
 Contributing
 ------------
