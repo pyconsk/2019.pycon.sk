@@ -67,6 +67,11 @@ def sponsoring():
     return render_template('sponsoring.html', **_get_template_variables(li_sponsoring='active'))
 
 
+@app.route('/<lang_code>/recording.html')
+def recording():
+    return render_template('recording.html', **_get_template_variables(li_recording='active'))
+
+
 def _get_template_variables(**kwargs):
     """Collect variables for template that repeats, e.g. are in body.html template"""
     variables = {
