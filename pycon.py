@@ -52,6 +52,11 @@ def privacy_policy():
     return render_template('privacy-policy.html', **_get_template_variables(li_privacy='active'))
 
 
+@app.route('/<lang_code>/sponsoring.html')
+def sponsoring():
+    return render_template('sponsoring.html', **_get_template_variables(li_sponsoring='active'))
+
+
 def _get_template_variables(**kwargs):
     """Collect variables for template that repeats, e.g. are in body.html template"""
     variables = {
