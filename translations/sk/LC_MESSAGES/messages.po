@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-12 13:31+0200\n"
+"POT-Creation-Date: 2018-10-13 01:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -42,13 +42,13 @@ msgstr "Miesto konania"
 msgid "Call for proposals"
 msgstr "Výzva na predloženie návrhov na prednášky"
 
-#: templates/body.html:54 templates/coc.html:7
-msgid "Code of Conduct"
-msgstr "Kódex správania"
-
-#: templates/body.html:57
+#: templates/body.html:54
 msgid "Sponsoring"
 msgstr "Sponzoruj"
+
+#: templates/body.html:57 templates/coc.html:7
+msgid "Code of Conduct"
+msgstr "Kódex správania"
 
 #: templates/body.html:60
 msgid "About Us"
@@ -202,6 +202,10 @@ msgstr ""
 "programov sa snažíme zveľaďovať Python komunitu a formovať budúcnosť. "
 "Vzhľadom na to, že návody trvajú dlhšie a budú v menších miestnostiach, "
 "vyžadujú oveľa viac prípravy."
+
+#: templates/cfp.html:44
+msgid "Recording release"
+msgstr ""
 
 #: templates/coc.html:11
 msgid ""
@@ -388,8 +392,7 @@ msgstr "Pošta"
 msgid ""
 "You can unsubscribe at any time by clicking the link in the footer of our"
 " emails."
-msgstr ""
-"Odhlásiť sa môžete kedykoľvek kliknutím na link na konci našich emailov."
+msgstr "Odhlásiť sa môžete kedykoľvek kliknutím na link na konci našich emailov."
 
 #: templates/mailchimp.html:31
 msgid "For information about our privacy practices, please visit our website."
@@ -408,8 +411,8 @@ msgid ""
 "Mailchimp for processing."
 msgstr ""
 "Kliknutím na tlačítko na prihlásenie, súhlasíte\n"
-"            s tým, že vašeinformácie budú odoslané"
-"Mailchimpu na spracovanie."
+"            s tým, že vašeinformácie budú odoslanéMailchimpu na "
+"spracovanie."
 
 #: templates/mailchimp.html:36
 msgid ""
@@ -445,9 +448,9 @@ msgid ""
 " our services. We understand that you may be concerned about privacy "
 "issues that surround the use of the Internet."
 msgstr ""
-"SPy o.z. si cení a rešpektuje všetky osoby a organizácie, ktoré využívajú "
-"naše služby. Rozumieme, že môžete mať obavy o vaše súkromie v súvislosti "
-"s používaním Internetu."
+"SPy o.z. si cení a rešpektuje všetky osoby a organizácie, ktoré využívajú"
+" naše služby. Rozumieme, že môžete mať obavy o vaše súkromie v súvislosti"
+" s používaním Internetu."
 
 #: templates/privacy-policy.html:18
 msgid ""
@@ -458,9 +461,9 @@ msgid ""
 "environment."
 msgstr ""
 "Sme presvedčení, že by ste mali mať kontrolu nad tým, kto dostáva vaše "
-"osobné informácie, či už o tom, kde žijete, aké sú vaše záujmy, alebo ako "
-" vykonávate transakcie. Naším cieľom je len jediné: riadiť Python komunitu "
-"na Slovensku v bezpečnom prostredí."
+"osobné informácie, či už o tom, kde žijete, aké sú vaše záujmy, alebo ako"
+"  vykonávate transakcie. Naším cieľom je len jediné: riadiť Python "
+"komunitu na Slovensku v bezpečnom prostredí."
 
 #: templates/privacy-policy.html:21
 msgid ""
@@ -472,13 +475,14 @@ msgid ""
 "search warrant or court order. If we receive such request we'll "
 "transparently create a transparency report."
 msgstr ""
-"Preto neuvádzame, nezdieľame, nepredávame informácie o vašich jednotlivých "
-"návštevách na *.pycon.sk alebo informácie, ktoré ste nám mohli poskytnúť, "
-"ako napríklad meno, adresu, emailovú adresu alebo telefónne číslo, žiadnej "
-"spoločnosti alebo jednotlivcovi. Vaše osobné údaje sprístupnime iba ak to "
-"bude potrebné v súvislosti s právnymi predpismi, na príklad v prípade "
-"hľadania osoby či v prípade súdneho procesu. V prípade, že dostaneme takúto "
-"požiadavku, transparentne vytvorím požadovaný report."
+"Preto neuvádzame, nezdieľame, nepredávame informácie o vašich "
+"jednotlivých návštevách na *.pycon.sk alebo informácie, ktoré ste nám "
+"mohli poskytnúť, ako napríklad meno, adresu, emailovú adresu alebo "
+"telefónne číslo, žiadnej spoločnosti alebo jednotlivcovi. Vaše osobné "
+"údaje sprístupnime iba ak to bude potrebné v súvislosti s právnymi "
+"predpismi, na príklad v prípade hľadania osoby či v prípade súdneho "
+"procesu. V prípade, že dostaneme takúto požiadavku, transparentne "
+"vytvorím požadovaný report."
 
 #: templates/privacy-policy.html:24
 msgid ""
@@ -488,11 +492,11 @@ msgid ""
 "you to review the privacy policies of Web sites before providing them "
 "with any of your personal information."
 msgstr ""
-"Iné web stránky, na ktoré môžu smerovať linky z naše web stránky, vrátane "
-"webstránok našich partnerov majú svoje vlastné pravidlá na ochranu súkromia. "
-"SPy o.z. nie je zodpovedné za dodržovanie takýchto pravidiel na iných "
-"webstránkach. Odporúčame Vám preštudovať si pravidlá ochrany súkromia "
-"webstránok predtým, ako im poskytnete akékoľvek osobné údaje."
+"Iné web stránky, na ktoré môžu smerovať linky z naše web stránky, vrátane"
+" webstránok našich partnerov majú svoje vlastné pravidlá na ochranu "
+"súkromia. SPy o.z. nie je zodpovedné za dodržovanie takýchto pravidiel na"
+" iných webstránkach. Odporúčame Vám preštudovať si pravidlá ochrany "
+"súkromia webstránok predtým, ako im poskytnete akékoľvek osobné údaje."
 
 #: templates/privacy-policy.html:27
 msgid ""
@@ -527,10 +531,10 @@ msgid ""
 msgstr ""
 "Ak sa zaregistrujete na našu udalosť, pošlete nám príspevok alebo sa "
 "prihlásite ako dobrovoľník, môžeme od vás požadovať určité informácie, "
-"napríklad meno, domáca alebo internetová adresa či fakturačné údajeo, aby "
-"sme vám mohli poskytnúť požadovanú službu či informáciu. Takáto informácia "
-"bude použitá výlučne na účely dokončenia vašej registrácie, príspevku alebo "
-"zadeleniu práce pre dobrovoľníka."
+"napríklad meno, domáca alebo internetová adresa či fakturačné údajeo, aby"
+" sme vám mohli poskytnúť požadovanú službu či informáciu. Takáto "
+"informácia bude použitá výlučne na účely dokončenia vašej registrácie, "
+"príspevku alebo zadeleniu práce pre dobrovoľníka."
 
 #: templates/privacy-policy.html:42
 msgid ""
@@ -543,11 +547,12 @@ msgid ""
 "as many of you as possible."
 msgstr ""
 "Informácie, ktoré SPy o.z. automaticky zbiera, ako napríklad počet a "
-"frekvencia návštev webstránok sa vyhodnocujú iba agregovane, ako napríklad "
-"hodnotenie televízií, ktoré hovorí, koľko ľudí sledovali ich program. "
-"Tieto kolektívne údaje nám pomáhajú určiť, koľko našich návštevníkov "
-"používa webstránku a jej súčasti, vďaka čomu ju môžeme vylepšovať, aby bola "
-"príťažlivá a dostupná pre čo najväčšie množstvo ľudí."
+"frekvencia návštev webstránok sa vyhodnocujú iba agregovane, ako "
+"napríklad hodnotenie televízií, ktoré hovorí, koľko ľudí sledovali ich "
+"program. Tieto kolektívne údaje nám pomáhajú určiť, koľko našich "
+"návštevníkov používa webstránku a jej súčasti, vďaka čomu ju môžeme "
+"vylepšovať, aby bola príťažlivá a dostupná pre čo najväčšie množstvo "
+"ľudí."
 
 #: templates/privacy-policy.html:49
 msgid "SPy o.z. Security"
@@ -568,8 +573,8 @@ msgid ""
 "environment for credit card transactions."
 msgstr ""
 "SPy o.z. robí všetky opatrenia na ochranu užívateľských informácií. Keď "
-"užívateľ poskytne citlivé údaje prostredníctvom web stránky, vaše informácie "
-"sú chránené online aj offline."
+"užívateľ poskytne citlivé údaje prostredníctvom web stránky, vaše "
+"informácie sú chránené online aj offline."
 
 #: templates/privacy-policy.html:61
 msgid "Third party services that may obtain some information about you:"
@@ -619,8 +624,8 @@ msgstr ""
 "nepotrebujete vstupenky, napríklad pravidelné každomesačné stretnutia - "
 "meetupy. Bohužiaľ, na konferenciu PyCon SK je potrebná vstupenka pre "
 "každého, no môžete použiť pseudonym, keďže od vás nepožadujeme doklad "
-"totožnosti ak máte platný lístok (bez zľavy, v prípade zľavnených lístkov "
-"môžeme požadovať študentský preukaz alebo podobný doklad)."
+"totožnosti ak máte platný lístok (bez zľavy, v prípade zľavnených lístkov"
+" môžeme požadovať študentský preukaz alebo podobný doklad)."
 
 #: templates/privacy-policy.html:88
 msgid ""
@@ -629,8 +634,8 @@ msgid ""
 "apply."
 msgstr ""
 "<strong>PayPal</strong>: Vyberte si alternatívny spôsob platby: Bankovým "
-"prevodom, kryptomenami. V tomto prípade však bude účtovaný extra poplatok "
-"za ručné spracovanie transakcie."
+"prevodom, kryptomenami. V tomto prípade však bude účtovaný extra poplatok"
+" za ručné spracovanie transakcie."
 
 #: templates/privacy-policy.html:91
 msgid ""
@@ -640,7 +645,6 @@ msgstr ""
 "<strong>Google Analytics</strong>: Používajte blokovanie trackerov na "
 "automatické blokovanie tejto služby na ktorejkoľvek stránke na Internete."
 
-
 #: templates/privacy-policy.html:94
 msgid ""
 "<strong>MailChimp</strong>: Do not subscribe to our newsletter, or "
@@ -648,10 +652,85 @@ msgid ""
 "alternative payment method. If you are already subscribed, you can "
 "unsubscribe at any time, by clicking the link in the email footer."
 msgstr ""
-"<strong>MailChimp</strong>: Neprihláste sa na odber newslettra, alebo nás "
-"požiadajte o vyňatie vášho emailu z hromadného emailingu. Ak už ste "
+"<strong>MailChimp</strong>: Neprihláste sa na odber newslettra, alebo nás"
+" požiadajte o vyňatie vášho emailu z hromadného emailingu. Ak už ste "
 "prihlásený/á, môžete sa odhlásiť kedykoľvek kliknutím na link na konci "
 "emailu."
+
+#: templates/recording.html:8
+msgid "PyCon SK Recording Release"
+msgstr ""
+
+#: templates/recording.html:11
+msgid ""
+"Part of the motivation for PyCon SK is to help with Python education and "
+"advocacy in Slovakia and around the world. Accordingly, we intend to "
+"record all PyCon SK presentations and live stream and release the "
+"recordings on the web — see the <a "
+"href=\"http://pyvideo.org\">http://pyvideo.org</a> for one such venue."
+msgstr ""
+
+#: templates/recording.html:15
+msgid ""
+"By submitting your talk or workshop proposal, or by signing up to give a "
+"lightning talk, you agree to give permission to the SPy o.z. to record, "
+"edit, and release audio and/or video of your presentation. We might also "
+"perform interviews with poster presenters or attendees and require "
+"recording releases to publish them."
+msgstr ""
+
+#: templates/recording.html:19
+msgid ""
+"By default, the recording release checkbox is checked when submitting a "
+"proposal. If you wish to opt-out, uncheck the release checkbox, note that"
+" no recordings or live stream of your talk will be made. You cannot opt "
+"out of recording for lightning talks."
+msgstr ""
+
+#: templates/recording.html:23
+msgid ""
+"You agree to the following legalese, which certifies that you are the "
+"author of your presentation (or otherwise allowed to present it at "
+"PyCon), and which allows the SPy o.z. 1) to perform the necessary audio "
+"and video editing needed to prepare your presentation, and 2) to "
+"distribute the recordings to other people, including on YouTube, or video"
+" sites. Released under CC-BY license. It also allows other people to "
+"watch the recordings."
+msgstr ""
+
+#: templates/recording.html:28
+msgid "Legalese"
+msgstr ""
+
+#: templates/recording.html:30
+msgid ""
+"I certify that I, the Submitter, am authorized to license this proposal "
+"and its associated presentation (the \"User Submission\") to the SPy o.z."
+" for use in association with PyCon SK 2019."
+msgstr ""
+
+#: templates/recording.html:34
+msgid "Specifically"
+msgstr ""
+
+#: templates/recording.html:37
+msgid ""
+"I, the Submitter, certify that I am the creator (and own the copyright) "
+"of the User Submission."
+msgstr ""
+
+#: templates/recording.html:38
+msgid ""
+"I, the Submitter, hereby grant the SPy o.z. to publish User Submission "
+"and its audio/video recordings under CC-BY license."
+msgstr ""
+
+#: templates/recording.html:39
+msgid ""
+"I, the Submitter, specifically affirm the right to perform the User "
+"Submissions on the SPy o.z. web sites or on other web sites designated by"
+" the PSF (including, but not necessarily limited to YouTube)."
+msgstr ""
 
 #: templates/sponsoring.html:8
 msgid "Why become a sponsor?"
@@ -700,11 +779,11 @@ msgstr ""
 "spolupracovať a navrhnúť s vami balíček sponzorstva, ktorý splní vaše "
 "obchodné potreby."
 
-#: templates/sponsoring.html:31
+#: templates/sponsoring.html:33
 msgid "Marketing"
 msgstr "Marketing"
 
-#: templates/sponsoring.html:33
+#: templates/sponsoring.html:35
 msgid ""
 "Looking for new users for your product? Such people can be found at PyCon"
 " - they also will look for new products and ideas."
@@ -712,11 +791,11 @@ msgstr ""
 "Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na "
 "PyCone - aj oni budú hľadať nové produkty a nápady."
 
-#: templates/sponsoring.html:36
+#: templates/sponsoring.html:40
 msgid "Recruitment"
 msgstr "Nábor"
 
-#: templates/sponsoring.html:38
+#: templates/sponsoring.html:42
 msgid ""
 "Are you looking for programmers? PyCon is the best place for meeting new "
 "talents. Many participants will be experienced developers looking for "
@@ -726,11 +805,11 @@ msgstr ""
 " talentov. Mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj "
 "ďalší veľký kariérny krok."
 
-#: templates/sponsoring.html:41
+#: templates/sponsoring.html:49
 msgid "Audience"
 msgstr "Publikum"
 
-#: templates/sponsoring.html:43
+#: templates/sponsoring.html:51
 msgid ""
 "Want to get your message across to the people, so they talk about you? "
 "PyCon is a great opportunity. People in the Python community like to "
@@ -740,11 +819,11 @@ msgstr ""
 " na to skvelá príležitosť. Ľudia v Python komunite radi objavujú a "
 "zdieľajú nové veci."
 
-#: templates/sponsoring.html:46
+#: templates/sponsoring.html:56
 msgid "Community"
 msgstr "Komunita"
 
-#: templates/sponsoring.html:48
+#: templates/sponsoring.html:58
 msgid ""
 "Looking for new contributors and partners for your open source project? "
 "PyCon is the place, where they also will look for you."
@@ -752,11 +831,11 @@ msgstr ""
 "Hľadáte nových prispievateľov a partnerov pre váš open source projekt? "
 "PyCon je miesto, kde aj oni budú hľadať vás."
 
-#: templates/sponsoring.html:51
+#: templates/sponsoring.html:65
 msgid "Support"
 msgstr "Podpora"
 
-#: templates/sponsoring.html:53
+#: templates/sponsoring.html:67
 msgid ""
 "Are you using Python in your company? Support for community events is an "
 "excellent opportunity to contribute back."
@@ -961,3 +1040,4 @@ msgstr ""
 "title=\"stránky mesta pre návštevníkov\" target=\"_blank\" "
 "class=\"external\">oficiálne stránky mesta, určené pre návštevníkov</a>, "
 "kde nájdete aj iné udalosti, ktoré sa práve odohrávajú v Bratislave."
+
