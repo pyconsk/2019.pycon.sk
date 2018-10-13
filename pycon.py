@@ -4,7 +4,7 @@ from flask import Flask, g, request, render_template, abort, make_response, url_
 from flask_babel import Babel, gettext
 
 EVENT = gettext('PyCon SK 2019')
-DOMAIN = 'https://pyconsk.github.io/2019.pycon.sk'
+DOMAIN = 'https://2019.pycon.sk'
 API_DOMAIN = 'https://api.pycon.sk'
 
 LANGS = ('en', 'sk')
