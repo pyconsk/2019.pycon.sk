@@ -13,6 +13,8 @@
         {{ _('<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in Bratislava</strong>.') }}
       </p>
 
+
+
 {#      <p class="lead">#}
 {#          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>#}
 {#      </p>#}
@@ -24,9 +26,17 @@
       <div class="card">
         <h5 class="card-header">{{ _('About Conference') }}</h5>
         <div class="card-body">
-          <p>{{ _('More info will be announced soon...') }}</p>
-          <p>{{ _('If you would like to be updated by us, check out our social media or sign up for our newsletter.') }}
-            {{ _('Usually we wont send more than couple of emails per year.') }}</p>
+          <p>
+            {{ _('The PyCon SK 2019 conference, which will take place in Bratislava, is the annual gathering for the community using and developing the open-source Python programming language. It is organized by the volunteers from the SPy o.z., civic association dedicated to advancing and promoting Python and other Open Source technologies and ideas. Through PyCon, the SPy o.z. advances its mission of growing the Slovak (and also international) community of Python programmers and Open Source supporters.') }}
+          </p>
+
+          <p>
+            {{ _('Because PyCon SK is backed by the non-profit SPy, we keep registration costs much lower than comparable technology conferences (or other conferences in neighbor countries) so that PyCon remains accessible to the widest group possible.') }}
+          </p>
+
+          <p>
+            {{ _('PyCon SK is a diverse conference dedicated to providing an enjoyable experience to everyone. Help us do this by following our ') }} <a href="{{ url_for('coc', lang_code=lang_code) }}">code of conduct.</a>
+          </p>
         </div>
       </div>
     </div>
