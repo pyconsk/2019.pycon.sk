@@ -259,22 +259,33 @@ msgid ""
 "Bratislava</strong>."
 msgstr ""
 
-#: templates/index.html:25
+#: templates/index.html:27
 msgid "About Conference"
 msgstr ""
 
-#: templates/index.html:27
-msgid "More info will be announced soon..."
-msgstr ""
-
-#: templates/index.html:28
+#: templates/index.html:30
 msgid ""
-"If you would like to be updated by us, check out our social media or sign"
-" up for our newsletter."
+"The PyCon SK 2019 conference, which will take place in Bratislava, is the"
+" annual gathering for the community using and developing the open-source "
+"Python programming language. It is organized by the volunteers from the "
+"SPy o.z., civic association dedicated to advancing and promoting Python "
+"and other Open Source technologies and ideas. Through PyCon, the SPy o.z."
+" advances its mission of growing the Slovak (and also international) "
+"community of Python programmers and Open Source supporters."
 msgstr ""
 
-#: templates/index.html:29
-msgid "Usually we wont send more than couple of emails per year."
+#: templates/index.html:34
+msgid ""
+"Because PyCon SK is backed by the non-profit SPy, we keep registration "
+"costs much lower than comparable technology conferences (or other "
+"conferences in neighbor countries) so that PyCon remains accessible to "
+"the widest group possible."
+msgstr ""
+
+#: templates/index.html:38
+msgid ""
+"PyCon SK is a diverse conference dedicated to providing an enjoyable "
+"experience to everyone. Help us do this by following our "
 msgstr ""
 
 #: templates/mailchimp.html:2
