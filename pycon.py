@@ -4,7 +4,7 @@ from flask import Flask, g, request, render_template, abort, make_response, url_
 from flask_babel import Babel, gettext
 
 EVENT = gettext('PyCon SK 2019')
-DOMAIN = 'https://pyconsk.github.io/2019.pycon.sk'
+DOMAIN = 'https://2019.pycon.sk'
 API_DOMAIN = 'https://api.pycon.sk'
 
 LANGS = ('en', 'sk')
@@ -24,7 +24,10 @@ def sitemap():
     for lang in LANGS:
         for rule in app.url_map.iter_rules():
             if 'GET' in rule.methods and rule.endpoint not in excluded:
-                pages.append(DOMAIN + url_for(rule.endpoint, lang_code=lang))
+                # `url_for` appends unknown arguments as query parameters.
+                # We want to avoid that when a page isn't localized.
+                values = {'lang_code': lang} if 'lang_code' in rule.arguments else {}
+                pages.append(DOMAIN + url_for(rule.endpoint, **values))
 
     sitemap_xml = render_template('sitemap.xml', pages=pages, today=date.today())
     response = make_response(sitemap_xml)
