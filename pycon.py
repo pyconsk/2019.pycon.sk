@@ -47,6 +47,11 @@ def cfp():
     return render_template('cfp.html', **_get_template_variables(li_cfp='active'))
 
 
+@app.route('/<lang_code>/tickets.html')
+def tickets():
+    return render_template('tickets.html', **_get_template_variables(li_tickets='active'))
+
+
 @app.route('/<lang_code>/coc.html')
 def coc():
     return render_template('coc.html', **_get_template_variables(li_coc='active'))
