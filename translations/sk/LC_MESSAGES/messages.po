@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-13 01:46+0200\n"
+"POT-Creation-Date: 2018-10-15 23:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -34,31 +34,35 @@ msgstr ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
 "Python, ktorá sa bude konať v Bratislave v marci 2019."
 
-#: templates/body.html:48
+#: templates/body.html:48 templates/tickets.html:75
 msgid "Venue"
 msgstr "Miesto konania"
 
-#: templates/body.html:51 templates/cfp.html:8
+#: templates/body.html:51 templates/tickets.html:17
+msgid "Tickets"
+msgstr ""
+
+#: templates/body.html:54 templates/cfp.html:8
 msgid "Call for proposals"
 msgstr "Výzva na predloženie návrhov na prednášky"
 
-#: templates/body.html:54
+#: templates/body.html:57
 msgid "Sponsoring"
 msgstr "Sponzoruj"
 
-#: templates/body.html:57 templates/coc.html:7
+#: templates/body.html:60 templates/coc.html:7
 msgid "Code of Conduct"
 msgstr "Kódex správania"
 
-#: templates/body.html:60
+#: templates/body.html:63
 msgid "About Us"
 msgstr "O nás"
 
-#: templates/body.html:93
+#: templates/body.html:96
 msgid "Go to top of page"
 msgstr "Návrat na vrchol stránky"
 
-#: templates/body.html:95
+#: templates/body.html:98
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
@@ -67,25 +71,25 @@ msgstr ""
 "%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
 "aktivity."
 
-#: templates/body.html:97
+#: templates/body.html:100
 msgid "Python Software foundation"
 msgstr "Python Software foundation"
 
-#: templates/body.html:99
+#: templates/body.html:102
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr "PyCon SK je organizovaný dobrovoľníkmi z %(spy)s."
 
-#: templates/body.html:100
+#: templates/body.html:103
 msgid "SPy o.z."
 msgstr "SPy o.z."
 
-#: templates/body.html:100
+#: templates/body.html:103
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:102
+#: templates/body.html:105
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
@@ -852,6 +856,185 @@ msgstr ""
 "Používate vo vašej firme Python? Podpora komunitných udalostí je výborná "
 "príležitosť ako prispieť späť."
 
+#: templates/tickets.html:18
+msgid ""
+"Buy your ticket before they are gone... So far every PyCon SK has been "
+"sold out!"
+msgstr ""
+
+#: templates/tickets.html:21
+msgid ""
+"You can also buy tickets directly on the <a "
+"href=\"https://ti.to/pyconsk/2019\" "
+"target=\"_blank\">https://ti.to/pyconsk/2019</a> website in case the tito"
+" widget is not displayed correctly."
+msgstr ""
+
+#: templates/tickets.html:23
+msgid "What am I paying for?"
+msgstr ""
+
+#: templates/tickets.html:29
+msgid "Speakers and Lecturers"
+msgstr ""
+
+#: templates/tickets.html:30
+msgid ""
+"Our speakers are the best. A they do it for free! However, we have to pay"
+" for their\n"
+"              conference ticket and sometimes we cover the travel budget."
+msgstr ""
+
+#: templates/tickets.html:32
+msgid ""
+"Expenses for flight tickets and hotel in Bratislava are a big part of our"
+" budget. We also do cover all\n"
+"              the costs of recording and releasing the all of the talks."
+msgstr ""
+
+#: templates/tickets.html:44
+msgid "Community & Inclusion"
+msgstr ""
+
+#: templates/tickets.html:45
+msgid ""
+"PyCon is a special type of conference - it is organised by the community "
+"for the community"
+msgstr ""
+
+#: templates/tickets.html:47
+msgid ""
+"By attening, you have a chance to meet like minded people and hear a lot "
+"of interesting stories. However,\n"
+"              for those who can not afford to attend because of financial"
+" reasons we have opened a financial aid scheme\n"
+"              and give free tickets."
+msgstr ""
+
+#: templates/tickets.html:61
+msgid "Conference T-shirt and other swag"
+msgstr ""
+
+#: templates/tickets.html:62
+msgid ""
+"What kind of conference would PyCon Slovakia be without a conference "
+"T-shirt?"
+msgstr ""
+
+#: templates/tickets.html:63
+msgid ""
+"Each attendee receives one 100&#37; cotton T-shirt and other swag. "
+"Possibly a water bottle with our fancy\n"
+"              PyCon Slovakia logo. We would love to hear your ideas..."
+msgstr ""
+
+#: templates/tickets.html:76
+msgid ""
+"The conference takes place at the Faculty of Informatics and Information "
+"Technologies\n"
+"              (Slovak University of Technology)"
+msgstr ""
+
+#: templates/tickets.html:78
+msgid ""
+"Venue is in new building and have well equipped and pleasant auditoriums "
+"and lobbies. The first PyCon SK\n"
+"              was one of the first conferences in this auditorium!"
+msgstr ""
+
+#: templates/tickets.html:90
+msgid "Refreshments"
+msgstr ""
+
+#: templates/tickets.html:91
+msgid ""
+"Afraid of falling asleep during a talk? Don't worry, we have your back - "
+"All you can drink\n"
+"              coffee, tea and water."
+msgstr ""
+
+#: templates/tickets.html:93
+msgid ""
+"We will have two proffesional baristas serving fresh coffee and tea all "
+"day long. Water fountains will be\n"
+"              available on multiple spots in the lobby."
+msgstr ""
+
+#: templates/tickets.html:105
+msgid "Lunch"
+msgstr ""
+
+#: templates/tickets.html:106
+msgid "During all three days, a variety of warm food will be served for lunch"
+msgstr ""
+
+#: templates/tickets.html:107
+msgid "Meat and vegetarian alternatives will be available."
+msgstr ""
+
+#: templates/tickets.html:108
+msgid ""
+"We also try to be as eco friendly as possible, and so we server food on "
+"ceramic plates, eat with metal\n"
+"              cutlery and drink water from reusable plastic bottles."
+msgstr ""
+
+#: templates/tickets.html:120
+msgid "Real Conference Ticket Price"
+msgstr ""
+
+#: templates/tickets.html:121
+msgid ""
+"The real price of one conference ticket would be much higher had it not "
+"been for our\n"
+"              sponsors and partners, thanks to which we can afford to "
+"sell cheaper tickets."
+msgstr ""
+
+#: templates/tickets.html:123
+msgid ""
+"Without sponsors and partners all tickets would cost over 90&euro; "
+"(including student and teacher\n"
+"              tickets) and this price still does not include the enormous"
+" amount of volunteer work, which is done by the\n"
+"              Python commnity before and during each PyCon."
+msgstr ""
+
+#: templates/tickets.html:134
+msgid "micro:bit Education Supporter Ticket"
+msgstr ""
+
+#: templates/tickets.html:138
+msgid ""
+"<i>Teaching with Hardware</i> is a project of the Slovak Python User "
+"Group which strives to\n"
+"              increase digital literacy and bring joy to computing "
+"classes on primary and secondary schools in Slovakia.\n"
+"              We do this by using an educational physical computing board"
+" called ​ BBC micro:bit. The board can be\n"
+"              programmed to interact with external devices, such as LED "
+"strips, buzzers, motion sensors, temperature\n"
+"              sensors, and so on. By buying a <i>micro:bit Education "
+"Supporter Ticket</i> you provide one school in\n"
+"              Slovakia with a kit of 20 micro:bits, LED strips, speakers,"
+" crocodile cables, robots, servo motors and so\n"
+"              on."
+msgstr ""
+
+#: templates/tickets.html:146
+#, python-format
+msgid ""
+"Within several weeks you will be informed which school received the kit "
+"and after several months we will\n"
+"              inform you how succeessful were the students at creating "
+"their own hardware projects with the provided\n"
+"              kits. More details about the project can be found in this "
+"<a href=\"%(pdf)s\" target=\"_blank\">PDF</a>. During PyCon SK 2019 there"
+"\n"
+"              will be several presentations and workshops connected to "
+"the <i>Teaching with Hardware</i> project."
+msgstr ""
+
 #: templates/venue.html:8
 msgid "How do you get to Slovak PyCon?"
 msgstr "Ako sa dostanete na slovenský PyCon?"
@@ -1066,3 +1249,4 @@ msgstr ""
 
 #~ msgid "Usually we wont send more than couple of emails per year."
 #~ msgstr "Zvyčajne neposielame viac ako pár emailov za rok."
+
