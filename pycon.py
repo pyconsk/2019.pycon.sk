@@ -1,14 +1,9 @@
 from datetime import date
 
 from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
-from flask_babel import Babel, gettext
+from flask_babel import Babel
 
-EVENT = gettext('PyCon SK 2019')
-DOMAIN = 'https://2019.pycon.sk'
-API_DOMAIN = 'https://api.pycon.sk'
-
-LANGS = ('en', 'sk')
-TIME_FORMAT = '%Y-%m-%dT%H:%M:%S+00:00'
+from consts import EVENT, DOMAIN, LANGS, LDJSON_PYCON
 
 app = Flask(__name__, static_url_path='/static')  # pylint: disable=invalid-name
 app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
@@ -75,6 +70,7 @@ def _get_template_variables(**kwargs):
     variables = {
         'title': EVENT,
         'domain': DOMAIN,
+        'ld_json': LDJSON_PYCON,
     }
     variables.update(kwargs)
 

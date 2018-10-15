@@ -111,6 +111,9 @@
     <script src="{{ url_for('static', filename='popper/popper.min.js') }}"></script>
     <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
     <script async src="{{ url_for('static', filename='pyconsk/js/ga.min.js') }}"></script>
+    {% if ld_json %}
+    <script type="application/ld+json">{{ ld_json|tojson|safe }}</script>
+    {% endif %}
   </body>
 </html>
 
