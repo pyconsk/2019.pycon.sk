@@ -1,10 +1,10 @@
 from datetime import date
 
-from flask import Flask, g, request, render_template, abort, make_response, url_for
+from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
 from flask_babel import Babel, gettext
 
 EVENT = gettext('PyCon SK 2019')
-DOMAIN = 'https://pyconsk.github.io/2019.pycon.sk'
+DOMAIN = 'https://2019.pycon.sk'
 API_DOMAIN = 'https://api.pycon.sk'
 
 LANGS = ('en', 'sk')
@@ -24,7 +24,10 @@ def sitemap():
     for lang in LANGS:
         for rule in app.url_map.iter_rules():
             if 'GET' in rule.methods and rule.endpoint not in excluded:
-                pages.append(DOMAIN + url_for(rule.endpoint, lang_code=lang))
+                # `url_for` appends unknown arguments as query parameters.
+                # We want to avoid that when a page isn't localized.
+                values = {'lang_code': lang} if 'lang_code' in rule.arguments else {}
+                pages.append(DOMAIN + url_for(rule.endpoint, **values))
 
     sitemap_xml = render_template('sitemap.xml', pages=pages, today=date.today())
     response = make_response(sitemap_xml)
@@ -32,9 +35,24 @@ def sitemap():
     return response
 
 
+@app.route('/')
+def root():
+    return redirect('sk/index.html')
+
+
 @app.route('/<lang_code>/index.html')
 def index():
     return render_template('index.html', **_get_template_variables(li_index='active'))
+
+
+@app.route('/<lang_code>/cfp.html')
+def cfp():
+    return render_template('cfp.html', **_get_template_variables(li_cfp='active'))
+
+
+@app.route('/<lang_code>/tickets.html')
+def tickets():
+    return render_template('tickets.html', **_get_template_variables(li_tickets='active'))
 
 
 @app.route('/<lang_code>/coc.html')
@@ -50,6 +68,16 @@ def venue():
 @app.route('/<lang_code>/privacy-policy.html')
 def privacy_policy():
     return render_template('privacy-policy.html', **_get_template_variables(li_privacy='active'))
+
+
+@app.route('/<lang_code>/sponsoring.html')
+def sponsoring():
+    return render_template('sponsoring.html', **_get_template_variables(li_sponsoring='active'))
+
+
+@app.route('/<lang_code>/recording.html')
+def recording():
+    return render_template('recording.html', **_get_template_variables(li_recording='active'))
 
 
 def _get_template_variables(**kwargs):

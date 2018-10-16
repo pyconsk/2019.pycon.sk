@@ -47,6 +47,15 @@
             <li class="nav-item {{ li_venue }}">
               <a href="{{ url_for('venue', lang_code=lang_code) }}" class="nav-link">{{ _('Venue') }}</a>
             </li>
+            <li class="nav-item {{ li_tickets }}">
+              <a href="{{ url_for('tickets', lang_code=lang_code) }}" class="nav-link">{{ _('Tickets') }}</a>
+            </li>
+            <li class="nav-item {{ li_cfp }}">
+              <a href="{{ url_for('cfp', lang_code=lang_code) }}" class="nav-link">{{ _('Call for proposals') }}</a>
+            </li>
+            <li class="nav-item {{ li_sponsoring }}">
+              <a href="{{ url_for('sponsoring', lang_code=lang_code) }}" class="nav-link">{{ _('Sponsoring') }}</a>
+            </li>
             <li class="nav-item {{ li_coc }}">
               <a href="{{ url_for('coc', lang_code=lang_code) }}" class="nav-link">{{ _('Code of Conduct') }}</a>
             </li>
@@ -105,6 +114,7 @@
     <script src="{{ url_for('static', filename='popper/popper.min.js') }}"></script>
     <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
     <script async src="{{ url_for('static', filename='pyconsk/js/ga.min.js') }}"></script>
+    {% block include_js %}{% endblock %}
   </body>
 </html>
 

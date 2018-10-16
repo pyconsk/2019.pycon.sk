@@ -1,0 +1,57 @@
+{% extends "body.html" %}
+{% block content %}
+<div class="container marketing">
+
+  <div class="row featurette">
+    <div class="col-md-12">
+
+      <h1 class="featurette-heading">{{ _('Call for proposals') }}</h1>
+      <p class="lead"><strong>{{ _('The Call For Proposals will open soon!') }}</strong></p>
+
+      <p class="text-justify">
+        {{ _('PyCon is organized by the Python community and for the Python community. You\'re coming to the event, and that makes you part of the community. If you\'ve done something that you think other people might be interested in, or that you think they should know about, please do consider telling us about it. We don\'t just want to hear from the experts or famous names - other perspectives are just as valuable, so don\'t let the idea that you\'re not expert or famous enough stop you. This is your invitation to submit a talk proposal if you haven\'t spoken at the conference before. First-time speakers talk proposals are preferred.') }}
+      </p>
+
+      <h2>{{ _('Where to submit your proposal') }}</h2>
+      <p class="text-justify">
+        {{ _('We are glad you are interested in giving a talk at PyCon SK 2019! Submit your talk proposal with short abstract and your bio. All selected speakers get a complimentary ticket to the conference.') }}
+      </p>
+      <p class="text-justify">
+        {{ _('Call for proposals for PyCon SK 2019 will open 16th of October 2018.') }}
+        {{ _('The deadline for submissions is the end of 14th February 2019. If you have any questions, please contact us via email: info@pycon.sk or join our Slack channel') }}
+      </p>
+
+      <h2>{{ _('Guidelines for Proposal Submission') }}</h2>
+      <p class="text-justify">
+        {{ _('There is no official restriction on the topic that you propose a talk session. Talks about Python or the Python community are most likely to line up with the interests of PyCon\'s audience, and a key consideration that the talk selection committee will be thinking about is your talk\'s ability to draw an audience. You may propose more than one, but the committee will ask you to choose only one talk if more than one of your proposals is accepted.') }}
+      </p>
+
+      <div class="row">
+
+        <div class="col">
+          <h3><span class="oi oi-bullhorn"></span> {{ _('Talks') }}</h3>
+          <p class="text-justify">
+            {{ _('Most talks are 30 minutes long, but we do offer a limited number of 45-minute slots for important topics that promise to benefit from a more extensive treatment.') }}
+          </p>
+        </div>
+        <div class="col">
+          <h3><span class="oi oi-wrench"></span> {{ _('Workshops') }}</h3>
+          <p class="text-justify">
+            {{ _('As with the talks, we are looking for tutorials that can grow this community at any level! We aim for tutorials that will advance Python, advance this community, and shape the future. As tutorials are longer than talks and are in an interactive classroom-like setting, they require much more preparation.') }}
+          </p>
+        </div>
+        <div class="col">
+          <h3><span class="oi oi-camera-slr"></span> {{ _('Recording release') }}</h3>
+          <p class="text-justify">
+            <a href="{{ url_for('recording', lang_code=lang_code) }}">Recording release</a>
+          </p>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+</div>
+{% endblock %}
