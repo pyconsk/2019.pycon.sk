@@ -1020,7 +1020,7 @@ msgstr ""
 
 #: templates/tickets.html:90
 msgid "Refreshments"
-msgstr "Osvieženie"
+msgstr "Občerstvenie"
 
 #: templates/tickets.html:91
 msgid ""
@@ -1075,7 +1075,7 @@ msgid ""
 "sell cheaper tickets."
 msgstr ""
 "Skutočná cena vstupenky na konferenciu by bola oveľa vyššia, keby nás "
-"nepodporovali naši veľkorysí \n"
+"nepodporovali naši\n"
 "              sponzori a partneri, vďaka ktorým môžeme lístky predávať "
 "              oveľa lacnejšie."
 
