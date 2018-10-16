@@ -2,9 +2,6 @@
 
 {% block header %}
   <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1'/>
-{% endblock %}
-
-{% block include_js %}
   <script src='https://js.tito.io/v1' async></script>
 {% endblock %}
 
@@ -17,7 +14,7 @@
         <h1 class="featurette-heading">{{ _('Tickets') }}</h1>
         <p class="lead">{{ _('Buy your ticket before they are gone... So far every PyCon SK has been sold out!') }}</p>
 
-        <tito-widget event="pyconsk/pycon-sk-2019"></tito-widget>
+        <tito-widget event="pyconsk/2019"></tito-widget>
         <p>{{ _('You can also buy tickets directly on the <a href="https://ti.to/pyconsk/2019" target="_blank">https://ti.to/pyconsk/2019</a> website in case the tito widget is not displayed correctly.') }}</p>
 
         <h2>{{ _('What am I paying for?') }}</h2>
