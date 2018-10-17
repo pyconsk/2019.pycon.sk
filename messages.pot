@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-15 23:58+0200\n"
+"POT-Creation-Date: 2018-10-18 00:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,11 +31,11 @@ msgid ""
 "language, which will be held in Bratislava on March, 2019."
 msgstr ""
 
-#: templates/body.html:48 templates/tickets.html:75
+#: templates/body.html:48 templates/tickets.html:72
 msgid "Venue"
 msgstr ""
 
-#: templates/body.html:51 templates/tickets.html:17
+#: templates/body.html:51 templates/tickets.html:14
 msgid "Tickets"
 msgstr ""
 
@@ -120,7 +120,7 @@ msgid ""
 msgstr ""
 
 #: templates/cfp.html:20
-msgid "Call for proposals for PyCon SK 2019 will open 16th of October 2018."
+msgid "Call for proposals for PyCon SK 2019 is open."
 msgstr ""
 
 #: templates/cfp.html:21
@@ -130,11 +130,15 @@ msgid ""
 "our Slack channel"
 msgstr ""
 
-#: templates/cfp.html:24
+#: templates/cfp.html:25
+msgid "Submit your proposal"
+msgstr ""
+
+#: templates/cfp.html:28
 msgid "Guidelines for Proposal Submission"
 msgstr ""
 
-#: templates/cfp.html:26
+#: templates/cfp.html:30
 msgid ""
 "There is no official restriction on the topic that you propose a talk "
 "session. Talks about Python or the Python community are most likely to "
@@ -145,22 +149,22 @@ msgid ""
 "proposals is accepted."
 msgstr ""
 
-#: templates/cfp.html:32
+#: templates/cfp.html:36
 msgid "Talks"
 msgstr ""
 
-#: templates/cfp.html:34
+#: templates/cfp.html:38
 msgid ""
 "Most talks are 30 minutes long, but we do offer a limited number of "
 "45-minute slots for important topics that promise to benefit from a more "
 "extensive treatment."
 msgstr ""
 
-#: templates/cfp.html:38
+#: templates/cfp.html:42
 msgid "Workshops"
 msgstr ""
 
-#: templates/cfp.html:40
+#: templates/cfp.html:44
 msgid ""
 "As with the talks, we are looking for tutorials that can grow this "
 "community at any level! We aim for tutorials that will advance Python, "
@@ -169,7 +173,7 @@ msgid ""
 " much more preparation."
 msgstr ""
 
-#: templates/cfp.html:44
+#: templates/cfp.html:48
 msgid "Recording release"
 msgstr ""
 
@@ -689,13 +693,13 @@ msgid ""
 "excellent opportunity to contribute back."
 msgstr ""
 
-#: templates/tickets.html:18
+#: templates/tickets.html:15
 msgid ""
 "Buy your ticket before they are gone... So far every PyCon SK has been "
 "sold out!"
 msgstr ""
 
-#: templates/tickets.html:21
+#: templates/tickets.html:18
 msgid ""
 "You can also buy tickets directly on the <a "
 "href=\"https://ti.to/pyconsk/2019\" "
@@ -703,120 +707,120 @@ msgid ""
 " widget is not displayed correctly."
 msgstr ""
 
-#: templates/tickets.html:23
+#: templates/tickets.html:20
 msgid "What am I paying for?"
 msgstr ""
 
-#: templates/tickets.html:29
+#: templates/tickets.html:26
 msgid "Speakers and Lecturers"
 msgstr ""
 
-#: templates/tickets.html:30
+#: templates/tickets.html:27
 msgid ""
-"Our speakers are the best. A they do it for free! However, we have to pay"
-" for their\n"
+"Our speakers are the best. And they do it for free! However, we have to "
+"pay for their\n"
 "              conference ticket and sometimes we cover the travel budget."
 msgstr ""
 
-#: templates/tickets.html:32
+#: templates/tickets.html:29
 msgid ""
 "Expenses for flight tickets and hotel in Bratislava are a big part of our"
 " budget. We also do cover all\n"
 "              the costs of recording and releasing the all of the talks."
 msgstr ""
 
-#: templates/tickets.html:44
+#: templates/tickets.html:41
 msgid "Community & Inclusion"
 msgstr ""
 
-#: templates/tickets.html:45
+#: templates/tickets.html:42
 msgid ""
 "PyCon is a special type of conference - it is organised by the community "
 "for the community"
 msgstr ""
 
-#: templates/tickets.html:47
+#: templates/tickets.html:44
 msgid ""
-"By attening, you have a chance to meet like minded people and hear a lot "
-"of interesting stories. However,\n"
+"By attending, you have a chance to meet like minded people and hear a lot"
+" of interesting stories. However,\n"
 "              for those who can not afford to attend because of financial"
 " reasons we have opened a financial aid scheme\n"
 "              and give free tickets."
 msgstr ""
 
-#: templates/tickets.html:61
+#: templates/tickets.html:58
 msgid "Conference T-shirt and other swag"
 msgstr ""
 
-#: templates/tickets.html:62
+#: templates/tickets.html:59
 msgid ""
 "What kind of conference would PyCon Slovakia be without a conference "
 "T-shirt?"
 msgstr ""
 
-#: templates/tickets.html:63
+#: templates/tickets.html:60
 msgid ""
 "Each attendee receives one 100&#37; cotton T-shirt and other swag. "
 "Possibly a water bottle with our fancy\n"
 "              PyCon Slovakia logo. We would love to hear your ideas..."
 msgstr ""
 
-#: templates/tickets.html:76
+#: templates/tickets.html:73
 msgid ""
 "The conference takes place at the Faculty of Informatics and Information "
 "Technologies\n"
 "              (Slovak University of Technology)"
 msgstr ""
 
-#: templates/tickets.html:78
+#: templates/tickets.html:75
 msgid ""
 "Venue is in new building and have well equipped and pleasant auditoriums "
 "and lobbies. The first PyCon SK\n"
 "              was one of the first conferences in this auditorium!"
 msgstr ""
 
-#: templates/tickets.html:90
+#: templates/tickets.html:87
 msgid "Refreshments"
 msgstr ""
 
-#: templates/tickets.html:91
+#: templates/tickets.html:88
 msgid ""
 "Afraid of falling asleep during a talk? Don't worry, we have your back - "
 "All you can drink\n"
 "              coffee, tea and water."
 msgstr ""
 
-#: templates/tickets.html:93
+#: templates/tickets.html:90
 msgid ""
 "We will have two proffesional baristas serving fresh coffee and tea all "
 "day long. Water fountains will be\n"
 "              available on multiple spots in the lobby."
 msgstr ""
 
-#: templates/tickets.html:105
+#: templates/tickets.html:102
 msgid "Lunch"
 msgstr ""
 
-#: templates/tickets.html:106
+#: templates/tickets.html:103
 msgid "During all three days, a variety of warm food will be served for lunch"
 msgstr ""
 
-#: templates/tickets.html:107
+#: templates/tickets.html:104
 msgid "Meat and vegetarian alternatives will be available."
 msgstr ""
 
-#: templates/tickets.html:108
+#: templates/tickets.html:105
 msgid ""
-"We also try to be as eco friendly as possible, and so we server food on "
+"We also try to be as eco friendly as possible, and so we serve food on "
 "ceramic plates, eat with metal\n"
 "              cutlery and drink water from reusable plastic bottles."
 msgstr ""
 
-#: templates/tickets.html:120
+#: templates/tickets.html:117
 msgid "Real Conference Ticket Price"
 msgstr ""
 
-#: templates/tickets.html:121
+#: templates/tickets.html:118
 msgid ""
 "The real price of one conference ticket would be much higher had it not "
 "been for our\n"
@@ -824,7 +828,7 @@ msgid ""
 "sell cheaper tickets."
 msgstr ""
 
-#: templates/tickets.html:123
+#: templates/tickets.html:120
 msgid ""
 "Without sponsors and partners all tickets would cost over 90&euro; "
 "(including student and teacher\n"
@@ -833,11 +837,11 @@ msgid ""
 "              Python commnity before and during each PyCon."
 msgstr ""
 
-#: templates/tickets.html:134
+#: templates/tickets.html:131
 msgid "micro:bit Education Supporter Ticket"
 msgstr ""
 
-#: templates/tickets.html:138
+#: templates/tickets.html:135
 msgid ""
 "<i>Teaching with Hardware</i> is a project of the Slovak Python User "
 "Group which strives to\n"
@@ -854,12 +858,12 @@ msgid ""
 "              on."
 msgstr ""
 
-#: templates/tickets.html:146
+#: templates/tickets.html:143
 #, python-format
 msgid ""
 "Within several weeks you will be informed which school received the kit "
 "and after several months we will\n"
-"              inform you how succeessful were the students at creating "
+"              inform you how successful were the students at creating "
 "their own hardware projects with the provided\n"
 "              kits. More details about the project can be found in this "
 "<a href=\"%(pdf)s\" target=\"_blank\">PDF</a>. During PyCon SK 2019 there"
