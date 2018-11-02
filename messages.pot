@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-02 11:57+0100\n"
+"POT-Creation-Date: 2018-11-02 22:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -183,8 +183,23 @@ msgid ""
 " much more preparation."
 msgstr ""
 
-#: templates/cfp.html:49
+#: templates/cfp.html:51
 msgid "Recording release"
+msgstr ""
+
+#: templates/cfp.html:53 templates/recording.html:11
+msgid ""
+"Part of the motivation for PyCon SK is to help with Python education and "
+"advocacy in Slovakia and around the world. Accordingly, we intend to "
+"record all PyCon SK presentations and live stream and release the "
+"recordings on the web."
+msgstr ""
+
+#: templates/cfp.html:56 templates/recording.html:15
+msgid ""
+"By submitting your talk or workshop proposal, or by signing up to give a "
+"lightning talk, you agree to give permission to the SPy o.z. to record, "
+"edit, and release audio and/or video of your presentation."
 msgstr ""
 
 #: templates/cfv.html:9
@@ -255,10 +270,6 @@ msgstr ""
 
 #: templates/cfv.html:84
 msgid "Where did you find out about SPy o.z.?"
-msgstr ""
-
-#: templates/cfv.html:104
-msgid "Looking forward to hearing from you..."
 msgstr ""
 
 #: templates/coc.html:11
@@ -624,20 +635,14 @@ msgstr ""
 
 #: templates/recording.html:11
 msgid ""
-"Part of the motivation for PyCon SK is to help with Python education and "
-"advocacy in Slovakia and around the world. Accordingly, we intend to "
-"record all PyCon SK presentations and live stream and release the "
-"recordings on the web — see the <a "
-"href=\"http://pyvideo.org\">http://pyvideo.org</a> for one such venue."
+"See the <a href=\"http://pyvideo.org\">http://pyvideo.org</a> for one "
+"such venue."
 msgstr ""
 
 #: templates/recording.html:15
 msgid ""
-"By submitting your talk or workshop proposal, or by signing up to give a "
-"lightning talk, you agree to give permission to the SPy o.z. to record, "
-"edit, and release audio and/or video of your presentation. We might also "
-"perform interviews with poster presenters or attendees and require "
-"recording releases to publish them."
+"We might also perform interviews with poster presenters or attendees and "
+"require recording releases to publish them."
 msgstr ""
 
 #: templates/recording.html:19

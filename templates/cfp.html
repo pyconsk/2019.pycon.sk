@@ -45,15 +45,19 @@
             {{ _('As with the talks, we are looking for tutorials that can grow this community at any level! We aim for tutorials that will advance Python, advance this community, and shape the future. As tutorials are longer than talks and are in an interactive classroom-like setting, they require much more preparation.') }}
           </p>
         </div>
-        <div class="col">
-          <h3><span class="oi oi-camera-slr"></span> {{ _('Recording release') }}</h3>
-          <p class="text-justify">
-            <a href="{{ url_for('recording', lang_code=lang_code) }}">Recording release</a>
-          </p>
-        </div>
 
       </div>
 
+      <h2>{{ _('Recording release') }}</h2>
+      <p class="text-justify">
+        {{ _('Part of the motivation for PyCon SK is to help with Python education and advocacy in Slovakia and around the world. Accordingly, we intend to record all PyCon SK presentations and live stream and release the recordings on the web.') }}
+      </p>
+      <p class="text-justify">
+        {{ _('By submitting your talk or workshop proposal, or by signing up to give a lightning talk, you agree to give permission to the SPy o.z. to record, edit, and release audio and/or video of your presentation.') }}
+      </p>
+      <p class="text-center">
+        <a href="{{ url_for('recording', lang_code=lang_code) }}" class="btn btn-secondary"><span class="oi oi-camera-slr"></span> Full recording release statement</a>
+      </p>
 
     </div>
   </div>

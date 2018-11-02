@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-02 11:57+0100\n"
+"POT-Creation-Date: 2018-11-02 22:11+0100\n"
 "PO-Revision-Date: 2018-10-16 20:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -218,9 +218,31 @@ msgstr ""
 "Vzhľadom na to, že návody trvajú dlhšie a budú v menších miestnostiach, "
 "vyžadujú oveľa viac prípravy."
 
-#: templates/cfp.html:49
+#: templates/cfp.html:51
 msgid "Recording release"
 msgstr "Súhlas so zverejnením nahrávok"
+
+#: templates/cfp.html:53 templates/recording.html:11
+msgid ""
+"Part of the motivation for PyCon SK is to help with Python education and "
+"advocacy in Slovakia and around the world. Accordingly, we intend to "
+"record all PyCon SK presentations and live stream and release the "
+"recordings on the web."
+msgstr ""
+"Jednou z motivácií pre organizovanie PyConu je pomôcť so šírením "
+"vyučovania programovania v Pythone a jeho podporou na Slovensku i v "
+"zahraničí. Aj preto plánujeme nahrávať všetky prezentácie z konferencie a"
+" naživo streamovať a následne všetky zverejniť na web."
+
+#: templates/cfp.html:56 templates/recording.html:15
+msgid ""
+"By submitting your talk or workshop proposal, or by signing up to give a "
+"lightning talk, you agree to give permission to the SPy o.z. to record, "
+"edit, and release audio and/or video of your presentation."
+msgstr ""
+"Odoslaním návrhu na prednášku alebo workshop, alebo zapísaním sa na "
+"Lightning Talk dávate súhlas SPy o.z. na nahrávanie, úpravu a zverejnenie"
+" audio a/alebo video záznamu z vašej prezentácie."
 
 #: templates/cfv.html:9
 msgid "We need you to help organize PyCon SK 2019!"
@@ -297,10 +319,6 @@ msgstr ""
 #: templates/cfv.html:84
 msgid "Where did you find out about SPy o.z.?"
 msgstr "Odkiaľ si sa dozvedel(a) o SPy o.z.?"
-
-#: templates/cfv.html:104
-msgid "Looking forward to hearing from you..."
-msgstr ""
 
 #: templates/coc.html:11
 msgid ""
@@ -794,31 +812,19 @@ msgstr "Súhlas so zverejnením nahrávok z PyConSK"
 
 #: templates/recording.html:11
 msgid ""
-"Part of the motivation for PyCon SK is to help with Python education and "
-"advocacy in Slovakia and around the world. Accordingly, we intend to "
-"record all PyCon SK presentations and live stream and release the "
-"recordings on the web — see the <a "
-"href=\"http://pyvideo.org\">http://pyvideo.org</a> for one such venue."
+"See the <a href=\"http://pyvideo.org\">http://pyvideo.org</a> for one "
+"such venue."
 msgstr ""
-"Jednou z motivácií pre organizovanie PyConu je pomôcť so šírením "
-"vyučovania programovania v Pythone a jeho podporou na Slovensku i v "
-"zahraničí. Aj preto plánujeme nahrávať všetky prezentácie z konferencie a"
-" naživo streamovať a následne všetky zverejniť na web — pozrite si <a "
-"href=\"http://pyvideo.org\">http://pyvideo.org</a> na podobnom mieste."
+"Pozrite si <a href=\"http://pyvideo.org\">http://pyvideo.org</a> na "
+"podobnom mieste."
 
 #: templates/recording.html:15
 msgid ""
-"By submitting your talk or workshop proposal, or by signing up to give a "
-"lightning talk, you agree to give permission to the SPy o.z. to record, "
-"edit, and release audio and/or video of your presentation. We might also "
-"perform interviews with poster presenters or attendees and require "
-"recording releases to publish them."
+"We might also perform interviews with poster presenters or attendees and "
+"require recording releases to publish them."
 msgstr ""
-"Odoslaním návrhu na prednášku alebo workshop, alebo zapísaním sa na "
-"Lightning Talk dávate súhlas SPy o.z. na nahrávanie, úpravu a zverejnenie"
-" audio a/alebo video záznamu z vašej prezentácie. Taktiež môžeme robiť "
-"rozhovory s autormi posterov alebo návštevníkmi a vyžiadať si povolenie "
-"na ich zverejnenie."
+"Taktiež môžeme robiť rozhovory s autormi posterov alebo návštevníkmi a "
+"vyžiadať si povolenie na ich zverejnenie."
 
 #: templates/recording.html:19
 msgid ""
@@ -1036,6 +1042,9 @@ msgid ""
 "pay for their\n"
 "              conference ticket and sometimes we cover the travel budget."
 msgstr ""
+"Naši rečníci sú najlepší. A robia to zadarmo! Platíme im však ich "
+"vstupenky \n"
+" a niekdy im preplatíme cestovné náklady."
 
 #: templates/tickets.html:29
 msgid ""
@@ -1425,18 +1434,6 @@ msgstr ""
 "title=\"stránky mesta pre návštevníkov\" target=\"_blank\" "
 "class=\"external\">oficiálne stránky mesta, určené pre návštevníkov</a>, "
 "kde nájdete aj iné udalosti, ktoré sa práve odohrávajú v Bratislave."
-
-#~ msgid ""
-#~ "Our speakers are the best. A they"
-#~ " do it for free! However, we "
-#~ "have to pay for their\n"
-#~ "              conference ticket and sometimes"
-#~ " we cover the travel budget."
-#~ msgstr ""
-#~ "Naši rečníci sú najlepší. A robia "
-#~ "to zadarmo! Platíme im však ich "
-#~ "vstupenky \n"
-#~ " a niekdy im preplatíme cestovné náklady."
 
 #~ msgid ""
 #~ "By attening, you have a chance to"
