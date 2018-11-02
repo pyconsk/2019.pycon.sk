@@ -22,7 +22,17 @@
     </url>
   
     <url>
+      <loc>https://2019.pycon.sk/en/cfp_form.html</loc>
+      <lastmod>2018-11-02</lastmod>
+    </url>
+  
+    <url>
       <loc>https://2019.pycon.sk/en/tickets.html</loc>
+      <lastmod>2018-11-02</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://2019.pycon.sk/en/thanks.html</loc>
       <lastmod>2018-11-02</lastmod>
     </url>
   
@@ -72,7 +82,17 @@
     </url>
   
     <url>
+      <loc>https://2019.pycon.sk/sk/cfp_form.html</loc>
+      <lastmod>2018-11-02</lastmod>
+    </url>
+  
+    <url>
       <loc>https://2019.pycon.sk/sk/tickets.html</loc>
+      <lastmod>2018-11-02</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://2019.pycon.sk/sk/thanks.html</loc>
       <lastmod>2018-11-02</lastmod>
     </url>
   
