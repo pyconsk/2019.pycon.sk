@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-18 00:21+0200\n"
+"POT-Creation-Date: 2018-11-02 11:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,7 +35,8 @@ msgstr ""
 msgid "Venue"
 msgstr ""
 
-#: templates/body.html:51 templates/tickets.html:14
+#: templates/body.html:51 templates/faq.html:8 templates/faq.html:46
+#: templates/tickets.html:14
 msgid "Tickets"
 msgstr ""
 
@@ -43,48 +44,52 @@ msgstr ""
 msgid "Call for proposals"
 msgstr ""
 
-#: templates/body.html:57
+#: templates/body.html:57 templates/cfv.html:8
+msgid "Call for volunteers"
+msgstr ""
+
+#: templates/body.html:60
 msgid "Sponsoring"
 msgstr ""
 
-#: templates/body.html:60 templates/coc.html:7
+#: templates/body.html:63 templates/coc.html:7
 msgid "Code of Conduct"
 msgstr ""
 
-#: templates/body.html:63
+#: templates/body.html:66
 msgid "About Us"
 msgstr ""
 
-#: templates/body.html:96
+#: templates/body.html:99
 msgid "Go to top of page"
 msgstr ""
 
-#: templates/body.html:98
+#: templates/body.html:101
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
 " the %(psf)s."
 msgstr ""
 
-#: templates/body.html:100
+#: templates/body.html:103
 msgid "Python Software foundation"
 msgstr ""
 
-#: templates/body.html:102
+#: templates/body.html:105
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr ""
 
-#: templates/body.html:103
+#: templates/body.html:106
 msgid "SPy o.z."
 msgstr ""
 
-#: templates/body.html:103
+#: templates/body.html:106
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:105
+#: templates/body.html:108
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
@@ -92,12 +97,17 @@ msgid ""
 msgstr ""
 
 #: templates/cfp.html:9
-msgid "The Call For Proposals will open soon!"
+msgid "The Call For Proposals is open!"
 msgstr ""
 
-#: templates/cfp.html:12
+#: templates/cfp.html:12 templates/cfv.html:12
 msgid ""
-"PyCon is organized by the Python community and for the Python community. "
+"PyCon SK is organized by the Python community and for the Python "
+"community."
+msgstr ""
+
+#: templates/cfp.html:13
+msgid ""
 "You're coming to the event, and that makes you part of the community. If "
 "you've done something that you think other people might be interested in,"
 " or that you think they should know about, please do consider telling us "
@@ -108,37 +118,37 @@ msgid ""
 "First-time speakers talk proposals are preferred."
 msgstr ""
 
-#: templates/cfp.html:15
+#: templates/cfp.html:16
 msgid "Where to submit your proposal"
 msgstr ""
 
-#: templates/cfp.html:17
+#: templates/cfp.html:18
 msgid ""
 "We are glad you are interested in giving a talk at PyCon SK 2019! Submit "
 "your talk proposal with short abstract and your bio. All selected "
 "speakers get a complimentary ticket to the conference."
 msgstr ""
 
-#: templates/cfp.html:20
+#: templates/cfp.html:21
 msgid "Call for proposals for PyCon SK 2019 is open."
 msgstr ""
 
-#: templates/cfp.html:21
+#: templates/cfp.html:22
 msgid ""
 "The deadline for submissions is the end of 14th February 2019. If you "
 "have any questions, please contact us via email: info@pycon.sk or join "
 "our Slack channel"
 msgstr ""
 
-#: templates/cfp.html:25
+#: templates/cfp.html:26
 msgid "Submit your proposal"
 msgstr ""
 
-#: templates/cfp.html:28
+#: templates/cfp.html:29
 msgid "Guidelines for Proposal Submission"
 msgstr ""
 
-#: templates/cfp.html:30
+#: templates/cfp.html:31
 msgid ""
 "There is no official restriction on the topic that you propose a talk "
 "session. Talks about Python or the Python community are most likely to "
@@ -149,22 +159,22 @@ msgid ""
 "proposals is accepted."
 msgstr ""
 
-#: templates/cfp.html:36
+#: templates/cfp.html:37
 msgid "Talks"
 msgstr ""
 
-#: templates/cfp.html:38
+#: templates/cfp.html:39
 msgid ""
 "Most talks are 30 minutes long, but we do offer a limited number of "
 "45-minute slots for important topics that promise to benefit from a more "
 "extensive treatment."
 msgstr ""
 
-#: templates/cfp.html:42
+#: templates/cfp.html:43
 msgid "Workshops"
 msgstr ""
 
-#: templates/cfp.html:44
+#: templates/cfp.html:45
 msgid ""
 "As with the talks, we are looking for tutorials that can grow this "
 "community at any level! We aim for tutorials that will advance Python, "
@@ -173,8 +183,82 @@ msgid ""
 " much more preparation."
 msgstr ""
 
-#: templates/cfp.html:48
+#: templates/cfp.html:49
 msgid "Recording release"
+msgstr ""
+
+#: templates/cfv.html:9
+msgid "We need you to help organize PyCon SK 2019!"
+msgstr ""
+
+#: templates/cfv.html:13
+msgid ""
+"All of our staff members are volunteers. We are looking for a new "
+"memebers to join the team of organizers."
+msgstr ""
+
+#: templates/cfv.html:14
+msgid ""
+"This is great opportunity to meet people, make new friends and get the "
+"opportunity to learn new things."
+msgstr ""
+
+#: templates/cfv.html:18
+msgid ""
+"As a volunteer you get a free ticket to the  conference as a thank you "
+"for making the change  in our society."
+msgstr ""
+
+#: templates/cfv.html:19
+#, python-format
+msgid ""
+"If you send more than 40 hours during the year as a volunteer you can "
+"give 3%% to any registered non-profit in your tax return."
+msgstr ""
+
+#: templates/cfv.html:36
+msgid "Your name"
+msgstr ""
+
+#: templates/cfv.html:45
+msgid "Your phone"
+msgstr ""
+
+#: templates/cfv.html:54
+msgid "Something about you"
+msgstr ""
+
+#: templates/cfv.html:56
+msgid ""
+"We would like to know you, write something about yourself and also why "
+"you would like to help out..."
+msgstr ""
+
+#: templates/cfv.html:64
+msgid "What is your time estimate you can spend as volunteer?"
+msgstr ""
+
+#: templates/cfv.html:66
+msgid "We need just rought estimate, for example: our daily, two hours a week..."
+msgstr ""
+
+#: templates/cfv.html:74
+msgid "What would you like to do?"
+msgstr ""
+
+#: templates/cfv.html:76
+msgid ""
+"Let us know what you are experienced in? If you have a vision and no "
+"experience, that is alright, write down what you would like to do and "
+"surely we'll find a tasks to realize the vision."
+msgstr ""
+
+#: templates/cfv.html:84
+msgid "Where did you find out about SPy o.z.?"
+msgstr ""
+
+#: templates/cfv.html:104
+msgid "Looking forward to hearing from you..."
 msgstr ""
 
 #: templates/coc.html:11
@@ -259,6 +343,10 @@ msgid ""
 "Harassment, sexist, racist or otherwise demeaning jokes are improper at "
 "our meetings. We will not tolerate any harassment of participants of "
 "meetups in any form."
+msgstr ""
+
+#: templates/faq.html:6
+msgid "Frequently Asked Questions"
 msgstr ""
 
 #: templates/index.html:13 templates/venue.html:9
