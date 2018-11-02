@@ -50,6 +50,11 @@ def cfp():
     return render_template('cfp.html', **_get_template_variables(li_cfp='active'))
 
 
+@app.route('/<lang_code>/cfv.html')
+def cfv():
+    return render_template('cfv.html', **_get_template_variables(li_cfv='active'))
+
+
 @app.route('/<lang_code>/tickets.html')
 def tickets():
     return render_template('tickets.html', **_get_template_variables(li_tickets='active'))
