@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-02 23:40+0100\n"
+"POT-Creation-Date: 2018-11-03 01:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,7 +96,7 @@ msgid ""
 " contribute at our %(github)s."
 msgstr ""
 
-#: templates/cfp.html:9 templates/cfp_form.html:15
+#: templates/cfp.html:9 templates/cfp_form.html:15 templates/index.html:66
 msgid "The Call For Proposals is open!"
 msgstr ""
 
@@ -123,33 +123,36 @@ msgid "Where to submit your proposal"
 msgstr ""
 
 #: templates/cfp.html:18
+msgid "We are glad you are interested in giving a talk at PyCon SK 2019!"
+msgstr ""
+
+#: templates/cfp.html:19 templates/index.html:69
 msgid ""
-"We are glad you are interested in giving a talk at PyCon SK 2019! Submit "
-"your talk proposal with short abstract and your bio. All selected "
+"Submit your talk proposal with short abstract and your bio. All selected "
 "speakers get a complimentary ticket to the conference."
 msgstr ""
 
-#: templates/cfp.html:21
+#: templates/cfp.html:22
 msgid "Call for proposals for PyCon SK 2019 is open."
 msgstr ""
 
-#: templates/cfp.html:22
+#: templates/cfp.html:23
 msgid ""
 "The deadline for submissions is the end of 14th February 2019. If you "
 "have any questions, please contact us via email: info@pycon.sk or join "
 "our Slack channel"
 msgstr ""
 
-#: templates/cfp.html:26 templates/cfp_form.html:232
+#: templates/cfp.html:27 templates/cfp_form.html:232
 #: templates/recording.html:40
 msgid "Submit your proposal"
 msgstr ""
 
-#: templates/cfp.html:29
+#: templates/cfp.html:30
 msgid "Guidelines for Proposal Submission"
 msgstr ""
 
-#: templates/cfp.html:31
+#: templates/cfp.html:32
 msgid ""
 "There is no official restriction on the topic that you propose a talk "
 "session. Talks about Python or the Python community are most likely to "
@@ -160,22 +163,22 @@ msgid ""
 "proposals is accepted."
 msgstr ""
 
-#: templates/cfp.html:37
+#: templates/cfp.html:38
 msgid "Talks"
 msgstr ""
 
-#: templates/cfp.html:39
+#: templates/cfp.html:40
 msgid ""
 "Most talks are 30 minutes long, but we do offer a limited number of "
 "45-minute slots for important topics that promise to benefit from a more "
 "extensive treatment."
 msgstr ""
 
-#: templates/cfp.html:43
+#: templates/cfp.html:44
 msgid "Workshops"
 msgstr ""
 
-#: templates/cfp.html:45
+#: templates/cfp.html:46
 msgid ""
 "As with the talks, we are looking for tutorials that can grow this "
 "community at any level! We aim for tutorials that will advance Python, "
@@ -184,11 +187,11 @@ msgid ""
 " much more preparation."
 msgstr ""
 
-#: templates/cfp.html:51 templates/cfp_form.html:235
+#: templates/cfp.html:52 templates/cfp_form.html:235
 msgid "Recording release"
 msgstr ""
 
-#: templates/cfp.html:53 templates/cfp_form.html:237
+#: templates/cfp.html:54 templates/cfp_form.html:237
 #: templates/recording.html:11
 msgid ""
 "Part of the motivation for PyCon SK is to help with Python education and "
@@ -197,7 +200,7 @@ msgid ""
 "recordings on the web."
 msgstr ""
 
-#: templates/cfp.html:56 templates/cfp_form.html:240
+#: templates/cfp.html:57 templates/cfp_form.html:240
 #: templates/recording.html:15
 msgid ""
 "By submitting your talk or workshop proposal, or by signing up to give a "
@@ -205,7 +208,7 @@ msgid ""
 "edit, and release audio and/or video of your presentation."
 msgstr ""
 
-#: templates/cfp.html:59 templates/cfp_form.html:243
+#: templates/cfp.html:60 templates/cfp_form.html:243
 msgid "Full recording release statement"
 msgstr ""
 
@@ -388,11 +391,11 @@ msgstr ""
 msgid "directly in Google forms."
 msgstr ""
 
-#: templates/cfv.html:15
+#: templates/cfv.html:15 templates/index.html:39
 msgid "We need you to help organize PyCon SK 2019!"
 msgstr ""
 
-#: templates/cfv.html:19
+#: templates/cfv.html:19 templates/index.html:43
 msgid ""
 "All of our staff members are volunteers. We are looking for a new "
 "memebers to join the team of organizers."
@@ -542,17 +545,13 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: templates/index.html:13 templates/venue.html:9
+#: templates/index.html:15 templates/venue.html:9
 msgid ""
 "<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in "
 "Bratislava</strong>."
 msgstr ""
 
-#: templates/index.html:27
-msgid "About Conference"
-msgstr ""
-
-#: templates/index.html:30
+#: templates/index.html:19
 msgid ""
 "The PyCon SK 2019 conference, which will take place in Bratislava, is the"
 " annual gathering for the community using and developing the open-source "
@@ -563,7 +562,7 @@ msgid ""
 "community of Python programmers and Open Source supporters."
 msgstr ""
 
-#: templates/index.html:34
+#: templates/index.html:23
 msgid ""
 "Because PyCon SK is backed by the non-profit SPy, we keep registration "
 "costs much lower than comparable technology conferences (or other "
@@ -571,10 +570,20 @@ msgid ""
 "the widest group possible."
 msgstr ""
 
-#: templates/index.html:38
+#: templates/index.html:27
 msgid ""
 "PyCon SK is a diverse conference dedicated to providing an enjoyable "
 "experience to everyone. Help us do this by following our "
+msgstr ""
+
+#: templates/index.html:53
+msgid "Conference ticket sale is open."
+msgstr ""
+
+#: templates/index.html:56 templates/tickets.html:15
+msgid ""
+"Buy your ticket before they are gone... So far every PyCon SK has been "
+"sold out!"
 msgstr ""
 
 #: templates/mailchimp.html:2
@@ -974,12 +983,6 @@ msgstr ""
 
 #: templates/thanks.html:11
 msgid "We'll get in touch as soon as possible."
-msgstr ""
-
-#: templates/tickets.html:15
-msgid ""
-"Buy your ticket before they are gone... So far every PyCon SK has been "
-"sold out!"
 msgstr ""
 
 #: templates/tickets.html:18
