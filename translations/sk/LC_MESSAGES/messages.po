@@ -166,7 +166,7 @@ msgstr ""
 #: templates/cfp.html:27 templates/cfp_form.html:232
 #: templates/recording.html:40
 msgid "Submit your proposal"
-msgstr ""
+msgstr "Odoslať návrh prednášky"
 
 #: templates/cfp.html:30
 msgid "Guidelines for Proposal Submission"
@@ -251,19 +251,20 @@ msgstr ""
 
 #: templates/cfp.html:60 templates/cfp_form.html:243
 msgid "Full recording release statement"
-msgstr ""
+msgstr "Plné znenie súhlasu s nahrávaním"
 
 #: templates/cfp_form.html:21
 msgid "About speaker"
-msgstr ""
+msgstr "O rečníkovi"
 
 #: templates/cfp_form.html:31 templates/cfv.html:42
 msgid "Your name"
-msgstr "Tvoje meno"
+msgstr "Vaše meno"
 
 #: templates/cfp_form.html:33
 msgid "Your name will be displayed on our website if your talk is accepted."
 msgstr ""
+"Vaše meno bude zobrazené na našom webe, ak bude prednáška akceptovaná."
 
 #: templates/cfp_form.html:40
 msgid "Biography"
@@ -272,6 +273,7 @@ msgstr "Životopis"
 #: templates/cfp_form.html:42
 msgid "Your biography will be displayed on our website if your talk is accepted."
 msgstr ""
+"Váš životopis bude zobrazený na našom webe, ak bude prednáška akceptovaná."
 
 #: templates/cfp_form.html:49
 msgid "Profile picture"
@@ -282,6 +284,8 @@ msgid ""
 "Please provide us with URL where we can download your profile picture "
 "that will be published on our website if your talk is accepted."
 msgstr ""
+"Uveďte, prosím, URL, odkiaľ si môžeme stiahnuť vašu profilovú fotku, "
+"ktorá bude zverejnená na našom webe, ak bude prednáška akceptovaná."
 
 #: templates/cfp_form.html:58
 msgid "Phone"
@@ -293,10 +297,12 @@ msgid ""
 "touch with you in case we need to discuss something with you or in case "
 "of emergency during the conference."
 msgstr ""
+"Váš telefón nebude zverejnený! Je pre organizátorov, aby sa s vami vedeli "
+"v prípade potreby spojiť pred alebo počas konferencie."
 
 #: templates/cfp_form.html:65
 msgid "About talk"
-msgstr ""
+msgstr "O prednáške"
 
 #: templates/cfp_form.html:68
 msgid "Title"
@@ -307,6 +313,8 @@ msgid ""
 "Name of your talk/workshop as it will be displayed on our website if your"
 " talk is accepted."
 msgstr ""
+"Názov vašej prednášky/workshopu, ktorý bude zobrazený na našom webe, ak bude"
+" prednáška akceptovaná."
 
 #: templates/cfp_form.html:77
 msgid "Abstract"
@@ -317,6 +325,8 @@ msgid ""
 "Abstract of your talk will be published on our website if your talk is "
 "accepted."
 msgstr ""
+"Abstrakt vašej prednášky bude zverejnený na našom webe, ak bude "
+"prednáška akceptovaná."
 
 #: templates/cfp_form.html:86
 msgid "Type"
@@ -324,19 +334,19 @@ msgstr "Typ"
 
 #: templates/cfp_form.html:88
 msgid "What kind of performance you will do?"
-msgstr ""
+msgstr "Aký typ prezentácie plánujete robiť?"
 
 #: templates/cfp_form.html:92
 msgid "Talk"
-msgstr ""
+msgstr "Prednáška"
 
 #: templates/cfp_form.html:98
 msgid "Workshop"
-msgstr ""
+msgstr "Workshop"
 
 #: templates/cfp_form.html:104
 msgid "Poster"
-msgstr ""
+msgstr "Poster"
 
 #: templates/cfp_form.html:112
 msgid "Language"
@@ -344,19 +354,19 @@ msgstr "Jazyk"
 
 #: templates/cfp_form.html:114
 msgid "In which language your performance will be?"
-msgstr ""
+msgstr "V akom jazyku bude vaša prezentácia?"
 
 #: templates/cfp_form.html:118
 msgid "English"
-msgstr ""
+msgstr "Anglický"
 
 #: templates/cfp_form.html:124
 msgid "Slovak"
-msgstr ""
+msgstr "Slovenský"
 
 #: templates/cfp_form.html:130
 msgid "Czech"
-msgstr ""
+msgstr "Český"
 
 #: templates/cfp_form.html:138
 msgid "Time Slot"
@@ -364,23 +374,23 @@ msgstr "Časový blok"
 
 #: templates/cfp_form.html:143
 msgid "30 minutes (talks)"
-msgstr ""
+msgstr "30 minút (prednáška)"
 
 #: templates/cfp_form.html:149
 msgid "45 minutes (talks)"
-msgstr ""
+msgstr "45 minút (prednáška)"
 
 #: templates/cfp_form.html:155
 msgid "3 hours (workshops)"
-msgstr ""
+msgstr "3 hodiny (workshop)"
 
 #: templates/cfp_form.html:161
 msgid "4 hours (workshops)"
-msgstr ""
+msgstr "4 hodiny (workshop)"
 
 #: templates/cfp_form.html:167
 msgid "Travel funding"
-msgstr ""
+msgstr "Cestovné náklady"
 
 #: templates/cfp_form.html:170
 msgid "Do you need travel funding?"
@@ -391,10 +401,12 @@ msgid ""
 "Please bear in mind that we are community conference with limited budget "
 "and we might not be able to fund you."
 msgstr ""
+"Majte prosím na pamäti, že sme komunitná konferencia s obmedzeným rozpočtom "
+"a je možné, že nebudeme môcť preplatiť vaše náklady."
 
 #: templates/cfp_form.html:176 templates/cfp_form.html:205
 msgid "Yes"
-msgstr "Ano"
+msgstr "Áno"
 
 #: templates/cfp_form.html:182 templates/cfp_form.html:211
 msgid "No"
@@ -409,6 +421,8 @@ msgid ""
 "Please provide us with this city only if you need travel funding so we "
 "can calculate ticket price."
 msgstr ""
+"Prosím zadajte, z ktorého mesta budete cestovať, ak potrebujete preplatiť "
+"cestovné náklady, aby sme mohli vypočítať cenu lístka."
 
 #: templates/cfp_form.html:199
 msgid "Do you need accomodation?"
@@ -419,6 +433,8 @@ msgid ""
 "Please provide us with this answer only if you need travel funding so we "
 "can calculate ticket price."
 msgstr ""
+"Prosím odpovedzte na túo otázku iba v prípade, že potrebujete preplatiť "
+"cestovné náklady, aby sme mohli vypočítať cenu lístka."
 
 #: templates/cfp_form.html:228 templates/cfv.html:107
 msgid "Submit"
@@ -426,11 +442,11 @@ msgstr "Odoslať"
 
 #: templates/cfp_form.html:232
 msgid "Alternatively"
-msgstr ""
+msgstr "Prípadne"
 
 #: templates/cfp_form.html:232
 msgid "directly in Google forms."
-msgstr ""
+msgstr "priamo v Google formulároch."
 
 #: templates/cfv.html:15 templates/index.html:39
 msgid "We need you to help organize PyCon SK 2019!"
@@ -441,18 +457,26 @@ msgid ""
 "All of our staff members are volunteers. We are looking for a new "
 "memebers to join the team of organizers."
 msgstr ""
+"Všetci členovia nášho tímu sú doborvoľníci. Do tímu organizátorov "
+"hľadáme nových členov."
 
 #: templates/cfv.html:20
 msgid ""
 "This is great opportunity to meet people, make new friends and get the "
 "opportunity to learn new things."
 msgstr ""
+"Je to skvelá príležitosť stretnúť ľudí, nájsť nových priateľov a aj sa "
+"naučiť nové veci."
+
+
 
 #: templates/cfv.html:24
 msgid ""
 "As a volunteer you get a free ticket to the  conference as a thank you "
 "for making the change  in our society."
 msgstr ""
+"Ako dobrovoľník dostaneš voľný lístok na konferenciu ako poďakovanie "
+"za to, že pomáhaš zlepšovať nasšu spoločnosť."
 
 #: templates/cfv.html:25
 #, python-format
@@ -460,6 +484,9 @@ msgid ""
 "If you send more than 40 hours during the year as a volunteer you can "
 "give 3%% to any registered non-profit in your tax return."
 msgstr ""
+"Ak stráviš vykonávaním dobrovoľníckej práce viac ako 40 hodín v priebehu "
+"roka, môžeš venovať 3%% svojich daní neziskovej organizácii pri podaní "
+"svojho daňového priznania."
 
 #: templates/cfv.html:51
 msgid "Your phone"
@@ -627,7 +654,7 @@ msgstr ""
 
 #: templates/faq.html:6
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Často kladené otázky"
 
 #: templates/index.html:15 templates/venue.html:9
 msgid ""
@@ -678,7 +705,7 @@ msgstr ""
 
 #: templates/index.html:53
 msgid "Conference ticket sale is open."
-msgstr ""
+msgstr "Predaj l9stkov na konferenciu je otvorený."
 
 #: templates/index.html:56 templates/tickets.html:15
 msgid ""
@@ -791,8 +818,8 @@ msgid ""
 "environment."
 msgstr ""
 "Sme presvedčení, že by ste mali mať kontrolu nad tým, kto dostáva vaše "
-"osobné informácie, či už o tom, kde žijete, aké sú vaše záujmy, alebo ako"
-" vykonávate transakcie. Naším cieľom je len jediné: riadiť Python "
+"osobné informácie, či už o tom, kde žijete, aké sú vaše záujmy, alebo ako "
+"vykonávate transakcie. Naším cieľom je len jediné: riadiť Python "
 "komunitu na Slovensku v bezpečnom prostredí."
 
 #: templates/privacy-policy.html:21
@@ -822,8 +849,8 @@ msgid ""
 "you to review the privacy policies of Web sites before providing them "
 "with any of your personal information."
 msgstr ""
-"Iné web stránky, na ktoré môžu smerovať linky z naše web stránky, vrátane"
-" webstránok našich partnerov majú svoje vlastné pravidlá na ochranu "
+"Iné web stránky, na ktoré môžu smerovať linky z naše web stránky, vrátane "
+"webstránok našich partnerov majú svoje vlastné pravidlá na ochranu "
 "súkromia. SPy o.z. nie je zodpovedné za dodržovanie takýchto pravidiel na"
 " iných webstránkach. Odporúčame Vám preštudovať si pravidlá ochrany "
 "súkromia webstránok predtým, ako im poskytnete akékoľvek osobné údaje."
@@ -894,6 +921,9 @@ msgid ""
 "users submit sensitive information via the Web site, your information is "
 "protected both online and offline."
 msgstr ""
+"SPy o.z. robí všetky opatrenia pre ochranu užívateľských informácií. "
+"Keď užívateľ posiela citlivé informácie prostredníctvom webovej stránky, "
+"tieto informácie sú chránené online aj offline."
 
 #: templates/privacy-policy.html:54
 msgid ""
@@ -923,9 +953,8 @@ msgid ""
 "<strong>PayPal</strong>: Payment provider, we use for event ticket "
 "payments. Read their privacy and policy: "
 msgstr ""
-"<strong>PayPal</strong>: Sprostredkovateľ platieb, využívame ho na platby"
-" za vstupenky na konferenciu. Prečítajte si ich pravidlá ochrany "
-"súkromia: "
+"<strong>PayPal</strong>: Sprostredkovateľ platieb, využívame ho na platby "
+"za vstupenky na konferenciu. Prečítajte si ich pravidlá ochrany súkromia: "
 
 #: templates/privacy-policy.html:71
 msgid ""
@@ -1202,11 +1231,11 @@ msgstr ""
 
 #: templates/thanks.html:8
 msgid "Thank you"
-msgstr ""
+msgstr "Ďakujeme"
 
 #: templates/thanks.html:11
 msgid "We'll get in touch as soon as possible."
-msgstr ""
+msgstr "Ozveme sa čo najskôr"
 
 #: templates/tickets.html:18
 msgid ""
@@ -1267,6 +1296,11 @@ msgid ""
 " reasons we have opened a financial aid scheme\n"
 "              and give free tickets."
 msgstr ""
+"Ak sa zúčastníte konferencie, máte šancu stretnúť podobne naladených ľudí "
+"a vypočuť si množstvo zaujímavých príbehov.\n"
+"              Pre tých, ktorí si z finančných dôvodov nemôžu dovoliť "
+"kúpiť lístok na konferenciu, pripravili sme program na podporu\n"
+"              a máme pripravené určité množstvo lístkov zadarmo."
 
 #: templates/tickets.html:58
 msgid "Conference T-shirt and other swag"
@@ -1350,6 +1384,9 @@ msgid ""
 "ceramic plates, eat with metal\n"
 "              cutlery and drink water from reusable plastic bottles."
 msgstr ""
+"Snažíme sa tiež byť čo možno najekologickejší, takže jedlo podávame na "
+"keramických tanieroch, jeme s kovovým príborom \n"
+"              a pitnú vodu poskytujeme z recyklovateľných plastových fliaš."
 
 #: templates/tickets.html:117
 msgid "Real Conference Ticket Price"
@@ -1428,6 +1465,15 @@ msgid ""
 "              will be several presentations and workshops connected to "
 "the <i>Teaching with Hardware</i> project."
 msgstr ""
+"V priebehu niekoľkých týždňov budete informovaný, ktorá škola obdržala "
+"              tento výukový balík a o niekoľko mesiacov Vás budeme\n"
+"informovať ako úspešní boli študenti pri tvorbe vlastných "
+"              harvérových projektov s poskytnutým vybavením.\n"
+"Podrobnosti o tomto projekte nájdete v tomto "
+"<a href=\"%(pdf)s\" target=\"_blank\">PDF</a>. Počas PyConu SK 2019 budú"
+"\n"
+"              viaceré prezentácie a workshopy súvisiace s projektom "
+"<i>Učíme s hardvérom</i>."
 
 #: templates/venue.html:8
 msgid "How do you get to Slovak PyCon?"
