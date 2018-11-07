@@ -1,4 +1,10 @@
 {% extends "body.html" %}
+
+{% block include_js %}
+{#  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>#}
+{#  <script async src="{{ url_for('static', filename='pyconsk/js/form.js') }}"></script>#}
+{% endblock %}
+
 {% block content %}
 <div class="container marketing">
 
@@ -10,13 +16,13 @@
 
       <p class="text-justify">
         {{ _('PyCon SK is organized by the Python community and for the Python community.') }}
-        {{ _('All of our staff members are volunteers. We are looking for a new memebers to join the team of organizers.') }}
+        {{ _('All of our staff members are volunteers. We are looking for a new members to join the team of organizers.') }}
         {{ _('This is great opportunity to meet people, make new friends and get the opportunity to learn new things.') }}
       </p>
 
       <p class="text-justify">
         {{ _('As a volunteer you get a free ticket to the  conference as a thank you for making the change  in our society.') }}
-        {{ _('If you send more than 40 hours during the year as a volunteer you can give 3%% to any registered non-profit in your tax return.') }}
+        {{ _('If you spend more than 40 hours during the year as a volunteer you can give 3%% to any registered non-profit in your tax return.') }}
       </p>
 
 <form action="https://docs.google.com/forms/d/e/1FAIpQLSf4bOJdE201B_VyhHrxP_z_Fq1IGLaqxnv7KZVAVQ-C30DFUA/formResponse"
@@ -97,7 +103,9 @@
     -->
     <input type="hidden" name="pageHistory" value="0">
 
-    <input class="btn btn-primary" type="submit" value="Submit">
+    <p class="text-center">
+      <input class="btn btn-primary btn-lg" type="submit" value="{{ _('Submit') }}">
+    </p>
 </form>
 
     </div>

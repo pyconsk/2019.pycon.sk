@@ -1,50 +1,84 @@
 {% extends "body.html" %}
 
 {% block content %}
-<div class="container marketing">
+  <div class="container marketing">
 
-  <div class="row featurette">
-    <div class="col-md-12 text-center">
+    <div class="row index-top">
+      <div class="col-md-12">
 
-      <img src="{{ url_for('static', filename='pyconsk/img/logo/pycon_logo_square.svg') }}" class="logo" alt="PyCon SK logo" />
+        <div class="row">
+          <div class="col-md-4 text-left">
+            <img src="{{ url_for('static', filename='pyconsk/img/logo/pycon_logo_square.svg') }}" class="logo" alt="PyCon SK logo"/>
+          </div>
+          <div class="col-md-8 text-left">
+            <p class="lead">
+              {{ _('<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in Bratislava</strong>.') }}
+            </p>
 
-      <h1 class="featurette-heading">PyCon SK 2019</h1>
-      <p class="lead">
-        {{ _('<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in Bratislava</strong>.') }}
-      </p>
+            <p>
+              {{ _('The PyCon SK 2019 conference, which will take place in Bratislava, is the annual gathering for the community using and developing the open-source Python programming language. It is organized by the volunteers from the SPy o.z., civic association dedicated to advancing and promoting Python and other Open Source technologies and ideas. Through PyCon, the SPy o.z. advances its mission of growing the Slovak (and also international) community of Python programmers and Open Source supporters.') }}
+            </p>
 
+            <p>
+              {{ _('Because PyCon SK is backed by the non-profit SPy, we keep registration costs much lower than comparable technology conferences (or other conferences in neighbor countries) so that PyCon remains accessible to the widest group possible.') }}
+            </p>
 
+            <p>
+              {{ _('PyCon SK is a diverse conference dedicated to providing an enjoyable experience to everyone. Help us do this by following our ') }}
+              <a href="{{ url_for('coc', lang_code=lang_code) }}">code of conduct.</a>
+            </p>
+          </div>
+        </div>
 
-{#      <p class="lead">#}
-{#          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>#}
-{#      </p>#}
+      </div>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="col-md-6 text-left">
-      <div class="card">
-        <h5 class="card-header">{{ _('About Conference') }}</h5>
-        <div class="card-body">
-          <p>
-            {{ _('The PyCon SK 2019 conference, which will take place in Bratislava, is the annual gathering for the community using and developing the open-source Python programming language. It is organized by the volunteers from the SPy o.z., civic association dedicated to advancing and promoting Python and other Open Source technologies and ideas. Through PyCon, the SPy o.z. advances its mission of growing the Slovak (and also international) community of Python programmers and Open Source supporters.') }}
-          </p>
-
-          <p>
-            {{ _('Because PyCon SK is backed by the non-profit SPy, we keep registration costs much lower than comparable technology conferences (or other conferences in neighbor countries) so that PyCon remains accessible to the widest group possible.') }}
-          </p>
-
-          <p>
-            {{ _('PyCon SK is a diverse conference dedicated to providing an enjoyable experience to everyone. Help us do this by following our ') }} <a href="{{ url_for('coc', lang_code=lang_code) }}">code of conduct.</a>
-          </p>
+    <div class="row">
+      <div class="col-md-12 text-left">
+        <div class="card">
+          <h5 class="card-header">01.11.2018 - <a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('We need you to help organize PyCon SK 2019!') }}</a>
+          </h5>
+          <div class="card-body">
+            <p>
+              {{ _('All of our staff members are volunteers. We are looking for a new members to join the team of organizers.') }}<br/>
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="col-md-6 text-left">
-      {% include "mailchimp.html" %}
+    <div class="row">
+      <div class="col-md-12 text-left">
+        <div class="card">
+          <h5 class="card-header">16.10.2018 - <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Conference ticket sale is open.') }}</a></h5>
+          <div class="card-body">
+            <p>
+              {{ _('Buy your ticket before they are gone... So far every PyCon SK has been sold out!') }}
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
-</div>
+    <div class="row">
+      <div class="col-md-12 text-left">
+        <div class="card">
+          <h5 class="card-header">16.10.2018 - <a href="{{ url_for('cfp', lang_code=lang_code) }}">{{ _('The Call For Proposals is open!') }}</a></h5>
+          <div class="card-body">
+            <p>
+              {{ _('Submit your talk proposal with short abstract and your bio. All selected speakers get a complimentary ticket to the conference.') }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-12 text-left">
+        {% include "mailchimp.html" %}
+      </div>
+    </div>
+
+  </div>
 {% endblock %}
