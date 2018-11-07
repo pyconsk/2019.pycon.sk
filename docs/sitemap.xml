@@ -17,7 +17,17 @@
     </url>
   
     <url>
+      <loc>https://2019.pycon.sk/en/edusummit.html</loc>
+      <lastmod>2018-11-02</lastmod>
+    </url>
+  
+    <url>
       <loc>https://2019.pycon.sk/en/recording.html</loc>
+      <lastmod>2018-11-02</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://2019.pycon.sk/en/schedule.html</loc>
       <lastmod>2018-11-02</lastmod>
     </url>
   
@@ -67,7 +77,17 @@
     </url>
   
     <url>
+      <loc>https://2019.pycon.sk/sk/edusummit.html</loc>
+      <lastmod>2018-11-02</lastmod>
+    </url>
+  
+    <url>
       <loc>https://2019.pycon.sk/sk/recording.html</loc>
+      <lastmod>2018-11-02</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://2019.pycon.sk/sk/schedule.html</loc>
       <lastmod>2018-11-02</lastmod>
     </url>
   
