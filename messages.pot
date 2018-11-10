@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-03 01:12+0100\n"
+"POT-Creation-Date: 2018-11-10 16:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -397,8 +397,8 @@ msgstr ""
 
 #: templates/cfv.html:19 templates/index.html:43
 msgid ""
-"All of our staff members are volunteers. We are looking for a new "
-"memebers to join the team of organizers."
+"All of our staff members are volunteers. We are looking for a new members"
+" to join the team of organizers."
 msgstr ""
 
 #: templates/cfv.html:20
@@ -416,7 +416,7 @@ msgstr ""
 #: templates/cfv.html:25
 #, python-format
 msgid ""
-"If you send more than 40 hours during the year as a volunteer you can "
+"If you spend more than 40 hours during the year as a volunteer you can "
 "give 3%% to any registered non-profit in your tax return."
 msgstr ""
 
