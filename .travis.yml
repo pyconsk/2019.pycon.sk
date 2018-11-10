@@ -10,7 +10,7 @@ script:
 - pipenv run pybabel compile -d translations
 - pipenv run python freezer.py
 - pylint pycon.py
-# - pipenv check
+- pipenv check
 notifications:
   slack: slovakpython:VrA4XJVmBVRsL5eCfDdE1cAr
     on_success: change
