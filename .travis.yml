@@ -13,4 +13,3 @@ script:
 - pipenv check
 notifications:
   slack: slovakpython:VrA4XJVmBVRsL5eCfDdE1cAr
-    on_success: change
