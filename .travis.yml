@@ -11,3 +11,5 @@ script:
 - pipenv run python freezer.py
 - pylint pycon.py
 - pipenv check
+notifications:
+  slack: slovakpython:VrA4XJVmBVRsL5eCfDdE1cAr

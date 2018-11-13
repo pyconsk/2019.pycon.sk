@@ -8,9 +8,13 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2018-11-07 12:50+0100\n"
 =======
 "POT-Creation-Date: 2018-11-03 01:12+0100\n"
+>>>>>>> master
+=======
+"POT-Creation-Date: 2018-11-10 16:09+0100\n"
 >>>>>>> master
 "PO-Revision-Date: 2018-10-16 20:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -282,8 +286,7 @@ msgstr "Vaše meno"
 
 #: templates/cfp_form.html:33
 msgid "Your name will be displayed on our website if your talk is accepted."
-msgstr ""
-"Vaše meno bude zobrazené na našom webe, ak bude prednáška akceptovaná."
+msgstr "Vaše meno bude zobrazené na našom webe, ak bude prednáška akceptovaná."
 
 #: templates/cfp_form.html:40
 msgid "Biography"
@@ -291,8 +294,7 @@ msgstr "Životopis"
 
 #: templates/cfp_form.html:42
 msgid "Your biography will be displayed on our website if your talk is accepted."
-msgstr ""
-"Váš životopis bude zobrazený na našom webe, ak bude prednáška akceptovaná."
+msgstr "Váš životopis bude zobrazený na našom webe, ak bude prednáška akceptovaná."
 
 #: templates/cfp_form.html:49
 msgid "Profile picture"
@@ -316,8 +318,8 @@ msgid ""
 "touch with you in case we need to discuss something with you or in case "
 "of emergency during the conference."
 msgstr ""
-"Váš telefón nebude zverejnený! Je pre organizátorov, aby sa s vami vedeli "
-"v prípade potreby spojiť pred alebo počas konferencie."
+"Váš telefón nebude zverejnený! Je pre organizátorov, aby sa s vami vedeli"
+" v prípade potreby spojiť pred alebo počas konferencie."
 
 #: templates/cfp_form.html:65
 msgid "About talk"
@@ -332,8 +334,8 @@ msgid ""
 "Name of your talk/workshop as it will be displayed on our website if your"
 " talk is accepted."
 msgstr ""
-"Názov vašej prednášky/workshopu, ktorý bude zobrazený na našom webe, ak bude"
-" prednáška akceptovaná."
+"Názov vašej prednášky/workshopu, ktorý bude zobrazený na našom webe, ak "
+"bude prednáška akceptovaná."
 
 #: templates/cfp_form.html:77
 msgid "Abstract"
@@ -344,8 +346,8 @@ msgid ""
 "Abstract of your talk will be published on our website if your talk is "
 "accepted."
 msgstr ""
-"Abstrakt vašej prednášky bude zverejnený na našom webe, ak bude "
-"prednáška akceptovaná."
+"Abstrakt vašej prednášky bude zverejnený na našom webe, ak bude prednáška"
+" akceptovaná."
 
 #: templates/cfp_form.html:86
 msgid "Type"
@@ -420,8 +422,8 @@ msgid ""
 "Please bear in mind that we are community conference with limited budget "
 "and we might not be able to fund you."
 msgstr ""
-"Majte prosím na pamäti, že sme komunitná konferencia s obmedzeným rozpočtom "
-"a je možné, že nebudeme môcť preplatiť vaše náklady."
+"Majte prosím na pamäti, že sme komunitná konferencia s obmedzeným "
+"rozpočtom a je možné, že nebudeme môcť preplatiť vaše náklady."
 
 #: templates/cfp_form.html:176 templates/cfp_form.html:205
 msgid "Yes"
@@ -440,8 +442,8 @@ msgid ""
 "Please provide us with this city only if you need travel funding so we "
 "can calculate ticket price."
 msgstr ""
-"Prosím zadajte, z ktorého mesta budete cestovať, ak potrebujete preplatiť "
-"cestovné náklady, aby sme mohli vypočítať cenu lístka."
+"Prosím zadajte, z ktorého mesta budete cestovať, ak potrebujete preplatiť"
+" cestovné náklady, aby sme mohli vypočítať cenu lístka."
 
 #: templates/cfp_form.html:199
 msgid "Do you need accomodation?"
@@ -473,11 +475,11 @@ msgstr "Potrebujeme ťa, aby si pomohol s organizáciou PyCon SK 2019!"
 
 #: templates/cfv.html:19 templates/index.html:43
 msgid ""
-"All of our staff members are volunteers. We are looking for a new "
-"memebers to join the team of organizers."
+"All of our staff members are volunteers. We are looking for a new members"
+" to join the team of organizers."
 msgstr ""
-"Všetci členovia nášho tímu sú doborvoľníci. Do tímu organizátorov "
-"hľadáme nových členov."
+"Všetci členovia nášho tímu sú doborvoľníci. Do tímu organizátorov hľadáme"
+" nových členov."
 
 #: templates/cfv.html:20
 msgid ""
@@ -487,25 +489,20 @@ msgstr ""
 "Je to skvelá príležitosť stretnúť ľudí, nájsť nových priateľov a aj sa "
 "naučiť nové veci."
 
-
-
 #: templates/cfv.html:24
 msgid ""
 "As a volunteer you get a free ticket to the  conference as a thank you "
 "for making the change  in our society."
 msgstr ""
-"Ako dobrovoľník dostaneš voľný lístok na konferenciu ako poďakovanie "
-"za to, že pomáhaš zlepšovať nasšu spoločnosť."
+"Ako dobrovoľník dostaneš voľný lístok na konferenciu ako poďakovanie za "
+"to, že pomáhaš zlepšovať nasšu spoločnosť."
 
 #: templates/cfv.html:25
 #, python-format
 msgid ""
-"If you send more than 40 hours during the year as a volunteer you can "
+"If you spend more than 40 hours during the year as a volunteer you can "
 "give 3%% to any registered non-profit in your tax return."
 msgstr ""
-"Ak stráviš vykonávaním dobrovoľníckej práce viac ako 40 hodín v priebehu "
-"roka, môžeš venovať 3%% svojich daní neziskovej organizácii pri podaní "
-"svojho daňového priznania."
 
 #: templates/cfv.html:51
 msgid "Your phone"
@@ -689,16 +686,15 @@ msgid ""
 "Zürich, whose main focus of work is education for teachers of Computer "
 "Science.\n"
 msgstr ""
-"EduSummit je špeciálna sekcia konferencie zameraná na výučbu "
-"programovania na základných a stredných školách. Po dvoch rokoch, keď sme"
-" v rámci PyCon SK organizovali EduTrack pozostávajúci z jedného dňa "
-"prednášok pre učiteľov, organizujeme dvojdňový summit, počas ktorého budú"
-" učitelia oboznámení s inovatívnymi spôsobmi a metódami výučby "
-"programovania, budú zdieľať svoje vedomosti o užitočných nástrojoch a v "
-"neposlednom rade sa zúčastnia na mnohých workshopoch, ktoré budú viesť "
-"skúsení pedagógovia. Tohtoročným hlavným rečníkom bude Juraj Hromkovič, "
-"profesor na univerzite ETH Zürich, ktorý sa zameriava na vzdelávanie "
-"učiteľov informatiky.\n"
+"EduSummit je špeciálna sekcia konferencie zameraná na vyučovanie programovania"
+" na základných a stredných školách. Po dvoch rokoch, keď sme v rámci PyCon SK "
+"organizovali EduTrack pozostávajúci z jedného dňa prednášok pre učiteľov, "
+"tentokrát pripravujeme rozšírený, dvojdňový program pre učiteľov a nadšencov "
+"vyučovania informatiky.\n Počas EduSummitu sa budeme venovať inovatívnym "
+"spôsobom a metódam vo vyučovaní informatiky, pričom si komunita učiteľov má "
+"možnosť zdieľať svoje skúsenosti a vedomosti o užitočných nástrojoch. Hlavným "
+"rečníkom bude profesor Juraj Hromkovič, ktorý pôsobí na univerzite ETH Zürich "
+"a zameriava sa na vzdelávanie učiteľov informatiky.""
 
 #: templates/edusummit.html:17
 msgid "Who should attend EduSummit?"
@@ -981,7 +977,7 @@ msgstr ""
 
 #: templates/index.html:53
 msgid "Conference ticket sale is open."
-msgstr "Predaj l9stkov na konferenciu je otvorený."
+msgstr "Predaj lístkov na konferenciu je otvorený."
 
 #: templates/index.html:56 templates/tickets.html:15
 msgid ""
@@ -1094,8 +1090,8 @@ msgid ""
 "environment."
 msgstr ""
 "Sme presvedčení, že by ste mali mať kontrolu nad tým, kto dostáva vaše "
-"osobné informácie, či už o tom, kde žijete, aké sú vaše záujmy, alebo ako "
-"vykonávate transakcie. Naším cieľom je len jediné: riadiť Python "
+"osobné informácie, či už o tom, kde žijete, aké sú vaše záujmy, alebo ako"
+" vykonávate transakcie. Naším cieľom je len jediné: riadiť Python "
 "komunitu na Slovensku v bezpečnom prostredí."
 
 #: templates/privacy-policy.html:21
@@ -1125,8 +1121,8 @@ msgid ""
 "you to review the privacy policies of Web sites before providing them "
 "with any of your personal information."
 msgstr ""
-"Iné web stránky, na ktoré môžu smerovať linky z naše web stránky, vrátane "
-"webstránok našich partnerov majú svoje vlastné pravidlá na ochranu "
+"Iné web stránky, na ktoré môžu smerovať linky z naše web stránky, vrátane"
+" webstránok našich partnerov majú svoje vlastné pravidlá na ochranu "
 "súkromia. SPy o.z. nie je zodpovedné za dodržovanie takýchto pravidiel na"
 " iných webstránkach. Odporúčame Vám preštudovať si pravidlá ochrany "
 "súkromia webstránok predtým, ako im poskytnete akékoľvek osobné údaje."
@@ -1197,8 +1193,8 @@ msgid ""
 "users submit sensitive information via the Web site, your information is "
 "protected both online and offline."
 msgstr ""
-"SPy o.z. robí všetky opatrenia pre ochranu užívateľských informácií. "
-"Keď užívateľ posiela citlivé informácie prostredníctvom webovej stránky, "
+"SPy o.z. robí všetky opatrenia pre ochranu užívateľských informácií. Keď "
+"užívateľ posiela citlivé informácie prostredníctvom webovej stránky, "
 "tieto informácie sú chránené online aj offline."
 
 #: templates/privacy-policy.html:54
@@ -1229,8 +1225,9 @@ msgid ""
 "<strong>PayPal</strong>: Payment provider, we use for event ticket "
 "payments. Read their privacy and policy: "
 msgstr ""
-"<strong>PayPal</strong>: Sprostredkovateľ platieb, využívame ho na platby "
-"za vstupenky na konferenciu. Prečítajte si ich pravidlá ochrany súkromia: "
+"<strong>PayPal</strong>: Sprostredkovateľ platieb, využívame ho na platby"
+" za vstupenky na konferenciu. Prečítajte si ich pravidlá ochrany "
+"súkromia: "
 
 #: templates/privacy-policy.html:71
 msgid ""
@@ -1668,8 +1665,8 @@ msgid ""
 " reasons we have opened a financial aid scheme\n"
 "              and give free tickets."
 msgstr ""
-"Ak sa zúčastníte konferencie, máte šancu stretnúť podobne naladených ľudí "
-"a vypočuť si množstvo zaujímavých príbehov.\n"
+"Ak sa zúčastníte konferencie, máte šancu stretnúť podobne naladených ľudí"
+" a vypočuť si množstvo zaujímavých príbehov.\n"
 "              Pre tých, ktorí si z finančných dôvodov nemôžu dovoliť "
 "kúpiť lístok na konferenciu, pripravili sme program na podporu\n"
 "              a máme pripravené určité množstvo lístkov zadarmo."
@@ -1758,7 +1755,8 @@ msgid ""
 msgstr ""
 "Snažíme sa tiež byť čo možno najekologickejší, takže jedlo podávame na "
 "keramických tanieroch, jeme s kovovým príborom \n"
-"              a pitnú vodu poskytujeme z recyklovateľných plastových fliaš."
+"              a pitnú vodu poskytujeme z recyklovateľných plastových "
+"fliaš."
 
 #: templates/tickets.html:117
 msgid "Real Conference Ticket Price"
@@ -1837,13 +1835,12 @@ msgid ""
 "              will be several presentations and workshops connected to "
 "the <i>Teaching with Hardware</i> project."
 msgstr ""
-"V priebehu niekoľkých týždňov budete informovaný, ktorá škola obdržala "
-"              tento výukový balík a o niekoľko mesiacov Vás budeme\n"
-"informovať ako úspešní boli študenti pri tvorbe vlastných "
-"              harvérových projektov s poskytnutým vybavením.\n"
-"Podrobnosti o tomto projekte nájdete v tomto "
-"<a href=\"%(pdf)s\" target=\"_blank\">PDF</a>. Počas PyConu SK 2019 budú"
-"\n"
+"V priebehu niekoľkých týždňov budete informovaný, ktorá škola obdržala"
+"               tento výukový balík a o niekoľko mesiacov Vás budeme\n"
+"informovať ako úspešní boli študenti pri tvorbe vlastných               "
+"harvérových projektov s poskytnutým vybavením.\n"
+"Podrobnosti o tomto projekte nájdete v tomto <a href=\"%(pdf)s\" "
+"target=\"_blank\">PDF</a>. Počas PyConu SK 2019 budú\n"
 "              viaceré prezentácie a workshopy súvisiace s projektom "
 "<i>Učíme s hardvérom</i>."
 
@@ -2132,4 +2129,26 @@ msgstr ""
 #~ msgid "We have opened call for proposals."
 >>>>>>> master
 #~ msgstr ""
+
+#~ msgid ""
+#~ "All of our staff members are "
+#~ "volunteers. We are looking for a "
+#~ "new memebers to join the team of"
+#~ " organizers."
+#~ msgstr ""
+#~ "Všetci členovia nášho tímu sú "
+#~ "doborvoľníci. Do tímu organizátorov hľadáme"
+#~ " nových členov."
+
+#~ msgid ""
+#~ "If you send more than 40 hours "
+#~ "during the year as a volunteer you"
+#~ " can give 3%% to any registered "
+#~ "non-profit in your tax return."
+#~ msgstr ""
+#~ "Ak stráviš vykonávaním dobrovoľníckej práce"
+#~ " viac ako 40 hodín v priebehu "
+#~ "roka, môžeš venovať 3%% svojich daní "
+#~ "neziskovej organizácii pri podaní svojho "
+#~ "daňového priznania."
 

@@ -42,6 +42,9 @@ body {
   height: 32rem;
 }
 
+.required {
+  color: red;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */

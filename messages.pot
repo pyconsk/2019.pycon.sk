@@ -8,11 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2018-11-07 12:50+0100\n"
-=======
-"POT-Creation-Date: 2018-11-03 01:12+0100\n"
->>>>>>> master
+"POT-Creation-Date: 2018-11-13 23:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,23 +39,15 @@ msgstr ""
 msgid "Tickets"
 msgstr ""
 
-<<<<<<< HEAD
-#: templates/body.html:54 templates/edusummit.html:86 templates/schedule.html:9
+#: templates/body.html:54 templates/edusummit.html:79 templates/schedule.html:9
 msgid "Schedule"
 msgstr ""
 
-#: templates/body.html:57 templates/cfp.html:8
+#: templates/body.html:57 templates/cfp.html:8 templates/cfp_form.html:14
 msgid "Call for proposals"
 msgstr ""
 
-#: templates/body.html:60 templates/cfv.html:8
-=======
-#: templates/body.html:54 templates/cfp.html:8 templates/cfp_form.html:14
-msgid "Call for proposals"
-msgstr ""
-
-#: templates/body.html:57 templates/cfv.html:14
->>>>>>> master
+#: templates/body.html:60 templates/cfv.html:14
 msgid "Call for volunteers"
 msgstr ""
 
@@ -416,8 +404,8 @@ msgstr ""
 
 #: templates/cfv.html:19 templates/index.html:43
 msgid ""
-"All of our staff members are volunteers. We are looking for a new "
-"memebers to join the team of organizers."
+"All of our staff members are volunteers. We are looking for a new members"
+" to join the team of organizers."
 msgstr ""
 
 #: templates/cfv.html:20
@@ -435,7 +423,7 @@ msgstr ""
 #: templates/cfv.html:25
 #, python-format
 msgid ""
-"If you send more than 40 hours during the year as a volunteer you can "
+"If you spend more than 40 hours during the year as a volunteer you can "
 "give 3%% to any registered non-profit in your tax return."
 msgstr ""
 
@@ -579,24 +567,10 @@ msgid ""
 msgstr ""
 
 #: templates/edusummit.html:17
-msgid "Who should attend EduSummit?"
-msgstr ""
-
-#: templates/edusummit.html:19
-msgid ""
-"Anyone interest in teaching programming! Whether you are a teacher, "
-"educator, student, parent, run a coding club, etc. "
-msgstr ""
-
-#: templates/edusummit.html:20
-msgid "Please note that EduSummit will be primarily in Slovak language."
-msgstr ""
-
-#: templates/edusummit.html:24
 msgid "Teaching with Hardware"
 msgstr ""
 
-#: templates/edusummit.html:26
+#: templates/edusummit.html:19
 msgid ""
 "The goal of the initiative Teaching with Hardware is to introduce such "
 "activities into computing lessons at primary and secondary schools, which"
@@ -609,61 +583,61 @@ msgid ""
 " Slovakia, and the results will be announced at PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:27
+#: templates/edusummit.html:20
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk\">www.ucimeshardverom.sk</a>"
 msgstr ""
 
-#: templates/edusummit.html:31
+#: templates/edusummit.html:24
 msgid "EduSummit workshops"
 msgstr ""
 
-#: templates/edusummit.html:33
+#: templates/edusummit.html:26
 msgid "We have confirmed these workshops for teachers"
 msgstr ""
 
-#: templates/edusummit.html:35
+#: templates/edusummit.html:28
 msgid ""
 "An advanced workshop with BBC micro:bit for teachers who already teach "
 "with micro:bits."
 msgstr ""
 
-#: templates/edusummit.html:36
+#: templates/edusummit.html:29
 msgid "A beginner's workshop with BBC micro:bit given by high school students"
 msgstr ""
 
-#: templates/edusummit.html:37
+#: templates/edusummit.html:30
 msgid ""
 "Workshop on using, creating and sharing Open Educational Resources for "
 "teachers"
 msgstr ""
 
-#: templates/edusummit.html:38
+#: templates/edusummit.html:31
 msgid "Parse Open Data with Python"
 msgstr ""
 
-#: templates/edusummit.html:39
+#: templates/edusummit.html:32
 msgid "PyGame zero workshop for teachers"
 msgstr ""
 
-#: templates/edusummit.html:40
+#: templates/edusummit.html:33
 msgid "Control Minecraft via Python"
 msgstr ""
 
-#: templates/edusummit.html:41
+#: templates/edusummit.html:34
 msgid "Turn your BBC micro:bit into a Minecraft game controller"
 msgstr ""
 
-#: templates/edusummit.html:43
+#: templates/edusummit.html:36
 msgid "We will add workshops for teachers on other topics aswell."
 msgstr ""
 
-#: templates/edusummit.html:47
+#: templates/edusummit.html:40
 msgid "SPy Cup"
 msgstr ""
 
-#: templates/edusummit.html:49
+#: templates/edusummit.html:42
 msgid ""
 "Students from all 14 schools currently participating in Teaching with "
 "Hardware will join the SPy Cup contest, in which they create their own "
@@ -673,56 +647,56 @@ msgid ""
 " have a short presentation about their project at PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:50
+#: templates/edusummit.html:43
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
 msgstr ""
 
-#: templates/edusummit.html:54
+#: templates/edusummit.html:47
 msgid "Hardware Projects Showcase"
 msgstr ""
 
-#: templates/edusummit.html:56
+#: templates/edusummit.html:49
 msgid ""
 "If you have created an interesting hardware project which uses Python, "
 "MicroPython or the BBC micro:bit and would like to share it to the world "
 "then bring it to PyCon SK 2019 :-)"
 msgstr ""
 
-#: templates/edusummit.html:57
+#: templates/edusummit.html:50
 msgid ""
 "You can find some inspiration here <a "
 "href=\"https://www.ucimeshardverom.sk/projekty/\">www.ucimeshardverom.sk/projekty</a>"
 msgstr ""
 
-#: templates/edusummit.html:61
+#: templates/edusummit.html:54
 msgid "Poster Session"
 msgstr ""
 
-#: templates/edusummit.html:63
+#: templates/edusummit.html:56
 msgid "We will host a poster session and we will be happy if you get involved."
 msgstr ""
 
-#: templates/edusummit.html:67
+#: templates/edusummit.html:60
 msgid "Python Cup"
 msgstr ""
 
-#: templates/edusummit.html:69
+#: templates/edusummit.html:62
 msgid "The winners of Python Cup will be awarded at EduSummit."
 msgstr ""
 
-#: templates/edusummit.html:70
+#: templates/edusummit.html:63
 msgid ""
 "More info can be found at <a "
 "href=\"http://edi.fmph.uniba.sk/~tomcsanyiova/PythonCup/\">edi.fmph.uniba.sk/~tomcsanyiova/PythonCup</a>"
 msgstr ""
 
-#: templates/edusummit.html:74
+#: templates/edusummit.html:67
 msgid "What kind of ticked should I buy?"
 msgstr ""
 
-#: templates/edusummit.html:76
+#: templates/edusummit.html:69
 msgid ""
 "All available tickets apply for the whole PyCon SK conference, including "
 "the EduSummit section. All of the talks and workshops take place at the "
@@ -730,29 +704,29 @@ msgid ""
 "attend. If you are a teacher or student you are eligible for a discount."
 msgstr ""
 
-#: templates/edusummit.html:80
+#: templates/edusummit.html:73
 msgid "Young Coders' day"
 msgstr ""
 
-#: templates/edusummit.html:82
+#: templates/edusummit.html:75
 msgid ""
 "On saturday, we will host a Young Coders' day, consisting of programming "
 "workshops for children."
 msgstr ""
 
-#: templates/edusummit.html:88
+#: templates/edusummit.html:81
 msgid "More information about the schedule can be found "
 msgstr ""
 
-#: templates/edusummit.html:88 templates/edusummit.html:94
+#: templates/edusummit.html:81 templates/edusummit.html:87
 msgid "here.</a>"
 msgstr ""
 
-#: templates/edusummit.html:92
+#: templates/edusummit.html:85
 msgid "Sponsorship"
 msgstr ""
 
-#: templates/edusummit.html:94
+#: templates/edusummit.html:87
 msgid ""
 "By supporting PyCon you also support numerous educational activities "
 "during the conference. If the conference is profitable we finance "
@@ -1182,10 +1156,6 @@ msgstr ""
 
 #: templates/schedule.html:55
 msgid "Hardware Projects Showcase [both EN and SK] "
-msgstr ""
-
-#: templates/schedule.html:56
-msgid "International PyCon organizers meeting [EN]"
 msgstr ""
 
 #: templates/schedule.html:60
