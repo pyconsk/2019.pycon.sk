@@ -12,35 +12,25 @@
         <p>{{ _('EduSummit is a special section of the conference focused on teaching programming at primary and secondary schools. After two years of having an EduTrack at PyCon SK, consisting of a single day of talks for teachers, we are now organising a two day summit during which teachers will be introduced to innovative ways and methods of teaching programming, share their knowledge of useful tools and last but not least participate in numerous workshops given by experienced educators. This year’s keynote speaker will be Juraj Hromkovič, a professor at ETH Zürich, whose main focus of work is education for teachers of Computer Science.
 ') }}</p>
 
-        <hr>
-
-        <h2>{{ _('Who should attend EduSummit?') }}</h2>
-
-        <p>{{ _('Anyone interest in teaching programming! Whether you are a teacher, educator, student, parent, run a coding club, etc. ') }}</p>
         <p>{{ _('Please note that EduSummit will be primarily in Slovak language.') }}</p>
-
-        <hr>
-
-        <h2>{{ _('Teaching with Hardware') }}</h2>
-
-        <p>{{ _('The goal of the initiative Teaching with Hardware is to introduce such activities into computing lessons at primary and secondary schools, which will familiarise students with interesting applications of programming and information technologies, thus motivating them in developing their digital literacy and algorithmic thinking. We do this by introducing physical computing with a small programmable device called BBC micro:bit, and by supporting teachers with methodical materials and teacher training. In october 2018 we started a PILOT project on 14 schools across Slovakia, and the results will be announced at PyCon SK 2019.') }}</p>
-        <p>{{ _('More info can be found at <a href="https://www.ucimeshardverom.sk">www.ucimeshardverom.sk</a>') }}</p>
 
         <hr>
 
         <h2>{{ _('EduSummit workshops') }}</h2>
 
-        <p>{{ _('We have confirmed these workshops for teachers') }}</p>
+        <p>{{ _('On saturday we will hold numerous educational workshops.') }}</p>
         <ul>
-          <li>{{ _('An advanced workshop with BBC micro:bit for teachers who already teach with micro:bits.') }}</li>
           <li>{{ _('A beginner\'s workshop with BBC micro:bit given by high school students') }}</li>
+          <li>{{ _('An advanced workshop with BBC micro:bit for teachers who already teach with micro:bits.') }}</li>
           <!-- <li>{{ _('Workshop on using, creating and sharing Open Educational Resources for teachers') }}</li> -->
           <!-- <li>{{ _('Parse Open Data with Python') }}</li> -->
           <!-- <li>{{ _('PyGame zero workshop for teachers') }}</li> -->
           <!-- <li>{{ _('Control Minecraft via Python') }}</li> -->
           <!-- <li>{{ _('Turn your BBC micro:bit into a Minecraft game controller') }}</li> -->
         </ul>
-        <p>{{ _('We will add workshops for teachers on other topics aswell.') }}</p>
+        <p>{{ _('We will update the workshop list after the Call for Proposals is closed.') }}</p>
+
+        <p>{{ _('More information about the schedule can be found ') }}<a href="{{ url_for('schedule', lang_code=lang_code) }}">{{ _('here.</a>') }}</p>
 
         <hr>
 
@@ -55,6 +45,13 @@
 
         <p>{{ _('If you have created an interesting hardware project which uses Python, MicroPython or the BBC micro:bit and would like to share it to the world then bring it to PyCon SK 2019 :-)') }}</p>
         <p>{{ _('You can find some inspiration here <a href="https://www.ucimeshardverom.sk/projekty/">www.ucimeshardverom.sk/projekty</a>') }}</p>
+
+        <hr>
+
+        <h2>{{ _('Teaching with Hardware') }}</h2>
+
+        <p>{{ _('The goal of the initiative Teaching with Hardware is to introduce such activities into computing lessons at primary and secondary schools, which will familiarise students with interesting applications of programming and information technologies, thus motivating them in developing their digital literacy and algorithmic thinking. We do this by introducing physical computing with a small programmable device called BBC micro:bit, and by supporting teachers with methodical materials and teacher training. In october 2018 we started a PILOT project on 14 schools across Slovakia, and the results will be announced at PyCon SK 2019.') }}</p>
+        <p>{{ _('More info can be found at <a href="https://www.ucimeshardverom.sk">www.ucimeshardverom.sk</a>') }}</p>
 
         <hr>
 
@@ -83,9 +80,9 @@
 
         <hr>
 
-        <h2>{{ _('Schedule') }}</h2>
+        <h2>{{ _('Speak at EduSummit') }}</h2>
 
-        <p>{{ _('More information about the schedule can be found ') }}<a href="{{ url_for('schedule', lang_code=lang_code) }}">{{ _('here.</a>') }}</p>
+        <p>{{ _('Call for Proposals is open. If you are a teacher or educator submit your talk or workshop and co-create the conference.') }}</p>
 
         <hr>
 
