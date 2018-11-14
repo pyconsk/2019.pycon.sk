@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-14 00:56+0100\n"
+"POT-Creation-Date: 2018-11-14 01:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -150,7 +150,7 @@ msgid ""
 "our Slack channel"
 msgstr ""
 
-#: templates/cfp.html:27 templates/cfp_form.html:232
+#: templates/cfp.html:27 templates/cfp_form.html:256
 #: templates/recording.html:40
 msgid "Submit your proposal"
 msgstr ""
@@ -194,11 +194,11 @@ msgid ""
 " much more preparation."
 msgstr ""
 
-#: templates/cfp.html:52 templates/cfp_form.html:235
+#: templates/cfp.html:52 templates/cfp_form.html:259
 msgid "Recording release"
 msgstr ""
 
-#: templates/cfp.html:54 templates/cfp_form.html:237
+#: templates/cfp.html:54 templates/cfp_form.html:261
 #: templates/recording.html:11
 msgid ""
 "Part of the motivation for PyCon SK is to help with Python education and "
@@ -207,7 +207,7 @@ msgid ""
 "recordings on the web."
 msgstr ""
 
-#: templates/cfp.html:57 templates/cfp_form.html:240
+#: templates/cfp.html:57 templates/cfp_form.html:264
 #: templates/recording.html:15
 msgid ""
 "By submitting your talk or workshop proposal, or by signing up to give a "
@@ -215,7 +215,7 @@ msgid ""
 "edit, and release audio and/or video of your presentation."
 msgstr ""
 
-#: templates/cfp.html:60 templates/cfp_form.html:243
+#: templates/cfp.html:60 templates/cfp_form.html:267
 msgid "Full recording release statement"
 msgstr ""
 
@@ -304,97 +304,113 @@ msgstr ""
 msgid "Poster"
 msgstr ""
 
-#: templates/cfp_form.html:112
-msgid "Language"
-msgstr ""
-
-#: templates/cfp_form.html:114
-msgid "In which language your performance will be?"
+#: templates/cfp_form.html:110 templates/edusummit.html:44
+msgid "Hardware Projects Showcase"
 msgstr ""
 
 #: templates/cfp_form.html:118
-msgid "English"
+msgid "Language"
+msgstr ""
+
+#: templates/cfp_form.html:120
+msgid "In which language your performance will be?"
 msgstr ""
 
 #: templates/cfp_form.html:124
-msgid "Slovak"
+msgid "English"
 msgstr ""
 
 #: templates/cfp_form.html:130
+msgid "Slovak"
+msgstr ""
+
+#: templates/cfp_form.html:136
 msgid "Czech"
 msgstr ""
 
-#: templates/cfp_form.html:138
+#: templates/cfp_form.html:144
 msgid "Time Slot"
 msgstr ""
 
-#: templates/cfp_form.html:143
+#: templates/cfp_form.html:149
 msgid "30 minutes (talks)"
 msgstr ""
 
-#: templates/cfp_form.html:149
-msgid "45 minutes (talks)"
-msgstr ""
-
 #: templates/cfp_form.html:155
-msgid "3 hours (workshops)"
+msgid "45 minutes (talks/workshops)"
 msgstr ""
 
 #: templates/cfp_form.html:161
-msgid "4 hours (workshops)"
+msgid "60 minutes (workshops/Hardware Projects Showcase)"
 msgstr ""
 
 #: templates/cfp_form.html:167
+msgid "90 minutes (workshops)"
+msgstr ""
+
+#: templates/cfp_form.html:173
+msgid "120 minutes (workshops)"
+msgstr ""
+
+#: templates/cfp_form.html:179
+msgid "3 hours (workshops)"
+msgstr ""
+
+#: templates/cfp_form.html:185
+msgid "4 hours (workshops)"
+msgstr ""
+
+#: templates/cfp_form.html:191
 msgid "Travel funding"
 msgstr ""
 
-#: templates/cfp_form.html:170
+#: templates/cfp_form.html:194
 msgid "Do you need travel funding?"
 msgstr ""
 
-#: templates/cfp_form.html:172
+#: templates/cfp_form.html:196
 msgid ""
 "Please bear in mind that we are community conference with limited budget "
 "and we might not be able to fund you."
 msgstr ""
 
-#: templates/cfp_form.html:176 templates/cfp_form.html:205
+#: templates/cfp_form.html:200 templates/cfp_form.html:229
 msgid "Yes"
 msgstr ""
 
-#: templates/cfp_form.html:182 templates/cfp_form.html:211
+#: templates/cfp_form.html:206 templates/cfp_form.html:235
 msgid "No"
 msgstr ""
 
-#: templates/cfp_form.html:190
+#: templates/cfp_form.html:214
 msgid "What city you will travel from?"
 msgstr ""
 
-#: templates/cfp_form.html:192
+#: templates/cfp_form.html:216
 msgid ""
 "Please provide us with this city only if you need travel funding so we "
 "can calculate ticket price."
 msgstr ""
 
-#: templates/cfp_form.html:199
+#: templates/cfp_form.html:223
 msgid "Do you need accomodation?"
 msgstr ""
 
-#: templates/cfp_form.html:201
+#: templates/cfp_form.html:225
 msgid ""
 "Please provide us with this answer only if you need travel funding so we "
 "can calculate ticket price."
 msgstr ""
 
-#: templates/cfp_form.html:228 templates/cfv.html:107
+#: templates/cfp_form.html:252 templates/cfv.html:107
 msgid "Submit"
 msgstr ""
 
-#: templates/cfp_form.html:232
+#: templates/cfp_form.html:256
 msgid "Alternatively"
 msgstr ""
 
-#: templates/cfp_form.html:232
+#: templates/cfp_form.html:256
 msgid "directly in Google forms."
 msgstr ""
 
@@ -640,10 +656,6 @@ msgstr ""
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
-msgstr ""
-
-#: templates/edusummit.html:44
-msgid "Hardware Projects Showcase"
 msgstr ""
 
 #: templates/edusummit.html:46

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-14 00:56+0100\n"
+"POT-Creation-Date: 2018-11-14 01:14+0100\n"
 "PO-Revision-Date: 2018-10-16 20:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -170,7 +170,7 @@ msgstr ""
 "otázky, kontaktujte nás emailom: info@pycon.sk alebo sa pridajte na náš "
 "Slack kanál."
 
-#: templates/cfp.html:27 templates/cfp_form.html:232
+#: templates/cfp.html:27 templates/cfp_form.html:256
 #: templates/recording.html:40
 msgid "Submit your proposal"
 msgstr "Odoslať návrh prednášky"
@@ -228,11 +228,11 @@ msgstr ""
 "Vzhľadom na to, že návody trvajú dlhšie a budú v menších miestnostiach, "
 "vyžadujú oveľa viac prípravy."
 
-#: templates/cfp.html:52 templates/cfp_form.html:235
+#: templates/cfp.html:52 templates/cfp_form.html:259
 msgid "Recording release"
 msgstr "Súhlas so zverejnením nahrávok"
 
-#: templates/cfp.html:54 templates/cfp_form.html:237
+#: templates/cfp.html:54 templates/cfp_form.html:261
 #: templates/recording.html:11
 msgid ""
 "Part of the motivation for PyCon SK is to help with Python education and "
@@ -245,7 +245,7 @@ msgstr ""
 "zahraničí. Aj preto plánujeme nahrávať všetky prezentácie z konferencie a"
 " naživo streamovať a následne všetky zverejniť na web."
 
-#: templates/cfp.html:57 templates/cfp_form.html:240
+#: templates/cfp.html:57 templates/cfp_form.html:264
 #: templates/recording.html:15
 msgid ""
 "By submitting your talk or workshop proposal, or by signing up to give a "
@@ -256,7 +256,7 @@ msgstr ""
 "Lightning Talk dávate súhlas SPy o.z. na nahrávanie, úpravu a zverejnenie"
 " audio a/alebo video záznamu z vašej prezentácie."
 
-#: templates/cfp.html:60 templates/cfp_form.html:243
+#: templates/cfp.html:60 templates/cfp_form.html:267
 msgid "Full recording release statement"
 msgstr "Plné znenie súhlasu s nahrávaním"
 
@@ -353,55 +353,71 @@ msgstr "Workshop"
 msgid "Poster"
 msgstr "Poster"
 
-#: templates/cfp_form.html:112
+#: templates/cfp_form.html:110 templates/edusummit.html:44
+msgid "Hardware Projects Showcase"
+msgstr ""
+
+#: templates/cfp_form.html:118
 msgid "Language"
 msgstr "Jazyk"
 
-#: templates/cfp_form.html:114
+#: templates/cfp_form.html:120
 msgid "In which language your performance will be?"
 msgstr "V akom jazyku bude vaša prezentácia?"
 
-#: templates/cfp_form.html:118
+#: templates/cfp_form.html:124
 msgid "English"
 msgstr "Anglický"
 
-#: templates/cfp_form.html:124
+#: templates/cfp_form.html:130
 msgid "Slovak"
 msgstr "Slovenský"
 
-#: templates/cfp_form.html:130
+#: templates/cfp_form.html:136
 msgid "Czech"
 msgstr "Český"
 
-#: templates/cfp_form.html:138
+#: templates/cfp_form.html:144
 msgid "Time Slot"
 msgstr "Časový blok"
 
-#: templates/cfp_form.html:143
+#: templates/cfp_form.html:149
 msgid "30 minutes (talks)"
 msgstr "30 minút (prednáška)"
 
-#: templates/cfp_form.html:149
-msgid "45 minutes (talks)"
-msgstr "45 minút (prednáška)"
-
 #: templates/cfp_form.html:155
+msgid "45 minutes (talks/workshops)"
+msgstr "45 minút (prednáška/workshop)"
+
+#: templates/cfp_form.html:161
+msgid "60 minutes (workshops/Hardware Projects Showcase)"
+msgstr "60 minút (prednáška/Hardware Projects Showcase)"
+
+#: templates/cfp_form.html:167
+msgid "90 minutes (workshops)"
+msgstr "90 minút (workshop)"
+
+#: templates/cfp_form.html:173
+msgid "120 minutes (workshops)"
+msgstr "120 minút (workshop)"
+
+#: templates/cfp_form.html:179
 msgid "3 hours (workshops)"
 msgstr "3 hodiny (workshop)"
 
-#: templates/cfp_form.html:161
+#: templates/cfp_form.html:185
 msgid "4 hours (workshops)"
 msgstr "4 hodiny (workshop)"
 
-#: templates/cfp_form.html:167
+#: templates/cfp_form.html:191
 msgid "Travel funding"
 msgstr "Cestovné náklady"
 
-#: templates/cfp_form.html:170
+#: templates/cfp_form.html:194
 msgid "Do you need travel funding?"
 msgstr "Potrebujete príspevok na cestovanie?"
 
-#: templates/cfp_form.html:172
+#: templates/cfp_form.html:196
 msgid ""
 "Please bear in mind that we are community conference with limited budget "
 "and we might not be able to fund you."
@@ -409,19 +425,19 @@ msgstr ""
 "Majte prosím na pamäti, že sme komunitná konferencia s obmedzeným "
 "rozpočtom a je možné, že nebudeme môcť preplatiť vaše náklady."
 
-#: templates/cfp_form.html:176 templates/cfp_form.html:205
+#: templates/cfp_form.html:200 templates/cfp_form.html:229
 msgid "Yes"
 msgstr "Áno"
 
-#: templates/cfp_form.html:182 templates/cfp_form.html:211
+#: templates/cfp_form.html:206 templates/cfp_form.html:235
 msgid "No"
 msgstr "Nie"
 
-#: templates/cfp_form.html:190
+#: templates/cfp_form.html:214
 msgid "What city you will travel from?"
 msgstr "Z ktorého mesta budete cestovať?"
 
-#: templates/cfp_form.html:192
+#: templates/cfp_form.html:216
 msgid ""
 "Please provide us with this city only if you need travel funding so we "
 "can calculate ticket price."
@@ -429,11 +445,11 @@ msgstr ""
 "Prosím zadajte, z ktorého mesta budete cestovať, ak potrebujete preplatiť"
 " cestovné náklady, aby sme mohli vypočítať cenu lístka."
 
-#: templates/cfp_form.html:199
+#: templates/cfp_form.html:223
 msgid "Do you need accomodation?"
 msgstr "Potrebujete ubytovanie?"
 
-#: templates/cfp_form.html:201
+#: templates/cfp_form.html:225
 msgid ""
 "Please provide us with this answer only if you need travel funding so we "
 "can calculate ticket price."
@@ -441,15 +457,15 @@ msgstr ""
 "Prosím odpovedzte na túo otázku iba v prípade, že potrebujete preplatiť "
 "cestovné náklady, aby sme mohli vypočítať cenu lístka."
 
-#: templates/cfp_form.html:228 templates/cfv.html:107
+#: templates/cfp_form.html:252 templates/cfv.html:107
 msgid "Submit"
 msgstr "Odoslať"
 
-#: templates/cfp_form.html:232
+#: templates/cfp_form.html:256
 msgid "Alternatively"
 msgstr "Prípadne"
 
-#: templates/cfp_form.html:232
+#: templates/cfp_form.html:256
 msgid "directly in Google forms."
 msgstr "priamo v Google formulároch."
 
@@ -773,10 +789,6 @@ msgstr ""
 "Viac informácií nájdete na <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
 
-#: templates/edusummit.html:44
-msgid "Hardware Projects Showcase"
-msgstr ""
-
 #: templates/edusummit.html:46
 msgid ""
 "If you have created an interesting hardware project which uses Python, "
@@ -890,9 +902,9 @@ msgid ""
 "Call for Proposals is open. If you are a teacher or educator submit your "
 "talk or workshop and co-create the conference."
 msgstr ""
-"Výzva na prihlásenie prednášky je stále otvorená."
-"Srdečne pozývame učiteľov a nadšencov vyučovania informatiky, aby si "
-"prihlásili prednášku a tým sa stali spolutvorcami obsahu konferencie."
+"Výzva na prihlásenie prednášky je stále otvorená.Srdečne pozývame "
+"učiteľov a nadšencov vyučovania informatiky, aby si prihlásili prednášku "
+"a tým sa stali spolutvorcami obsahu konferencie."
 
 #: templates/edusummit.html:89
 msgid "Sponsorship"
@@ -1451,7 +1463,7 @@ msgstr "PyCon Poster Session [v EN aj SK]"
 
 #: templates/schedule.html:55
 msgid "Hardware Projects Showcase [both EN and SK] "
-msgstr "Prezentácia hardvérových projektov [v EN aj SK] "
+msgstr "Hardware Projects Showcase [v EN aj SK] "
 
 #: templates/schedule.html:60
 msgid "Conference Party "
@@ -2134,4 +2146,7 @@ msgstr ""
 
 #~ msgid "We will add workshops for teachers on other topics aswell."
 #~ msgstr ""
+
+#~ msgid "45 minutes (talks)"
+#~ msgstr "45 minút (prednáška)"
 
