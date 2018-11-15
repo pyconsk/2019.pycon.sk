@@ -50,6 +50,9 @@
             <li class="nav-item {{ li_tickets }}">
               <a href="{{ url_for('tickets', lang_code=lang_code) }}" class="nav-link">{{ _('Tickets') }}</a>
             </li>
+            <li class="nav-item {{ li_schedule }}">
+              <a href="{{ url_for('schedule', lang_code=lang_code) }}" class="nav-link">{{ _('Schedule') }}</a>
+            </li>
             <li class="nav-item {{ li_cfp }}">
               <a href="{{ url_for('cfp', lang_code=lang_code) }}" class="nav-link">{{ _('Call for proposals') }}</a>
             </li>
@@ -58,6 +61,9 @@
             </li>
             <li class="nav-item {{ li_sponsoring }}">
               <a href="{{ url_for('sponsoring', lang_code=lang_code) }}" class="nav-link">{{ _('Sponsoring') }}</a>
+            </li>
+            <li class="nav-item {{ li_edusummit }}">
+              <a href="{{ url_for('edusummit', lang_code=lang_code) }}" class="nav-link">{{ _('EduSummit') }}</a>
             </li>
             <li class="nav-item {{ li_coc }}">
               <a href="{{ url_for('coc', lang_code=lang_code) }}" class="nav-link">{{ _('Code of Conduct') }}</a>

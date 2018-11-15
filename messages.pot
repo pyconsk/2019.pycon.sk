@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-10 16:09+0100\n"
+"POT-Creation-Date: 2018-11-14 16:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,61 +35,68 @@ msgstr ""
 msgid "Venue"
 msgstr ""
 
-#: templates/body.html:51 templates/faq.html:8 templates/faq.html:46
-#: templates/tickets.html:14
+#: templates/body.html:51 templates/tickets.html:14
 msgid "Tickets"
 msgstr ""
 
-#: templates/body.html:54 templates/cfp.html:8 templates/cfp_form.html:14
+#: templates/body.html:54 templates/schedule.html:9
+msgid "Schedule"
+msgstr ""
+
+#: templates/body.html:57 templates/cfp.html:8 templates/cfp_form.html:14
 msgid "Call for proposals"
 msgstr ""
 
-#: templates/body.html:57 templates/cfv.html:14
+#: templates/body.html:60 templates/cfv.html:14
 msgid "Call for volunteers"
 msgstr ""
 
-#: templates/body.html:60
+#: templates/body.html:63
 msgid "Sponsoring"
 msgstr ""
 
-#: templates/body.html:63 templates/coc.html:7
+#: templates/body.html:66 templates/edusummit.html:9
+msgid "EduSummit"
+msgstr ""
+
+#: templates/body.html:69 templates/coc.html:7
 msgid "Code of Conduct"
 msgstr ""
 
-#: templates/body.html:66
+#: templates/body.html:72
 msgid "About Us"
 msgstr ""
 
-#: templates/body.html:99
+#: templates/body.html:105
 msgid "Go to top of page"
 msgstr ""
 
-#: templates/body.html:101
+#: templates/body.html:107
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
 " the %(psf)s."
 msgstr ""
 
-#: templates/body.html:103
+#: templates/body.html:109
 msgid "Python Software foundation"
 msgstr ""
 
-#: templates/body.html:105
+#: templates/body.html:111
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr ""
 
-#: templates/body.html:106
+#: templates/body.html:112
 msgid "SPy o.z."
 msgstr ""
 
-#: templates/body.html:106
+#: templates/body.html:112
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:108
+#: templates/body.html:114
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
@@ -143,7 +150,7 @@ msgid ""
 "our Slack channel"
 msgstr ""
 
-#: templates/cfp.html:27 templates/cfp_form.html:232
+#: templates/cfp.html:27 templates/cfp_form.html:256
 #: templates/recording.html:40
 msgid "Submit your proposal"
 msgstr ""
@@ -187,11 +194,11 @@ msgid ""
 " much more preparation."
 msgstr ""
 
-#: templates/cfp.html:52 templates/cfp_form.html:235
+#: templates/cfp.html:52 templates/cfp_form.html:259
 msgid "Recording release"
 msgstr ""
 
-#: templates/cfp.html:54 templates/cfp_form.html:237
+#: templates/cfp.html:54 templates/cfp_form.html:261
 #: templates/recording.html:11
 msgid ""
 "Part of the motivation for PyCon SK is to help with Python education and "
@@ -200,7 +207,7 @@ msgid ""
 "recordings on the web."
 msgstr ""
 
-#: templates/cfp.html:57 templates/cfp_form.html:240
+#: templates/cfp.html:57 templates/cfp_form.html:264
 #: templates/recording.html:15
 msgid ""
 "By submitting your talk or workshop proposal, or by signing up to give a "
@@ -208,7 +215,7 @@ msgid ""
 "edit, and release audio and/or video of your presentation."
 msgstr ""
 
-#: templates/cfp.html:60 templates/cfp_form.html:243
+#: templates/cfp.html:60 templates/cfp_form.html:267
 msgid "Full recording release statement"
 msgstr ""
 
@@ -297,97 +304,113 @@ msgstr ""
 msgid "Poster"
 msgstr ""
 
-#: templates/cfp_form.html:112
-msgid "Language"
-msgstr ""
-
-#: templates/cfp_form.html:114
-msgid "In which language your performance will be?"
+#: templates/cfp_form.html:110 templates/edusummit.html:48
+msgid "Hardware Projects Showcase"
 msgstr ""
 
 #: templates/cfp_form.html:118
-msgid "English"
+msgid "Language"
+msgstr ""
+
+#: templates/cfp_form.html:120
+msgid "In which language your performance will be?"
 msgstr ""
 
 #: templates/cfp_form.html:124
-msgid "Slovak"
+msgid "English"
 msgstr ""
 
 #: templates/cfp_form.html:130
+msgid "Slovak"
+msgstr ""
+
+#: templates/cfp_form.html:136
 msgid "Czech"
 msgstr ""
 
-#: templates/cfp_form.html:138
+#: templates/cfp_form.html:144
 msgid "Time Slot"
 msgstr ""
 
-#: templates/cfp_form.html:143
+#: templates/cfp_form.html:149
 msgid "30 minutes (talks)"
 msgstr ""
 
-#: templates/cfp_form.html:149
-msgid "45 minutes (talks)"
-msgstr ""
-
 #: templates/cfp_form.html:155
-msgid "3 hours (workshops)"
+msgid "45 minutes (talks/workshops)"
 msgstr ""
 
 #: templates/cfp_form.html:161
-msgid "4 hours (workshops)"
+msgid "60 minutes (workshops/Hardware Projects Showcase)"
 msgstr ""
 
 #: templates/cfp_form.html:167
+msgid "90 minutes (workshops)"
+msgstr ""
+
+#: templates/cfp_form.html:173
+msgid "120 minutes (workshops)"
+msgstr ""
+
+#: templates/cfp_form.html:179
+msgid "3 hours (workshops)"
+msgstr ""
+
+#: templates/cfp_form.html:185
+msgid "4 hours (workshops)"
+msgstr ""
+
+#: templates/cfp_form.html:191
 msgid "Travel funding"
 msgstr ""
 
-#: templates/cfp_form.html:170
+#: templates/cfp_form.html:194
 msgid "Do you need travel funding?"
 msgstr ""
 
-#: templates/cfp_form.html:172
+#: templates/cfp_form.html:196
 msgid ""
 "Please bear in mind that we are community conference with limited budget "
 "and we might not be able to fund you."
 msgstr ""
 
-#: templates/cfp_form.html:176 templates/cfp_form.html:205
+#: templates/cfp_form.html:200 templates/cfp_form.html:229
 msgid "Yes"
 msgstr ""
 
-#: templates/cfp_form.html:182 templates/cfp_form.html:211
+#: templates/cfp_form.html:206 templates/cfp_form.html:235
 msgid "No"
 msgstr ""
 
-#: templates/cfp_form.html:190
+#: templates/cfp_form.html:214
 msgid "What city you will travel from?"
 msgstr ""
 
-#: templates/cfp_form.html:192
+#: templates/cfp_form.html:216
 msgid ""
 "Please provide us with this city only if you need travel funding so we "
 "can calculate ticket price."
 msgstr ""
 
-#: templates/cfp_form.html:199
+#: templates/cfp_form.html:223
 msgid "Do you need accomodation?"
 msgstr ""
 
-#: templates/cfp_form.html:201
+#: templates/cfp_form.html:225
 msgid ""
 "Please provide us with this answer only if you need travel funding so we "
 "can calculate ticket price."
 msgstr ""
 
-#: templates/cfp_form.html:228 templates/cfv.html:107
+#: templates/cfp_form.html:252 templates/cfv.html:107
 msgid "Submit"
 msgstr ""
 
-#: templates/cfp_form.html:232
+#: templates/cfp_form.html:256
 msgid "Alternatively"
 msgstr ""
 
-#: templates/cfp_form.html:232
+#: templates/cfp_form.html:256
 msgid "directly in Google forms."
 msgstr ""
 
@@ -541,8 +564,204 @@ msgid ""
 "meetups in any form."
 msgstr ""
 
-#: templates/faq.html:6
-msgid "Frequently Asked Questions"
+#: templates/edusummit.html:10
+msgid "Where Teachers meet Programmers"
+msgstr ""
+
+#: templates/edusummit.html:12
+msgid ""
+"EduSummit is a special section of the conference focused on teaching "
+"programming at primary and secondary schools. After two years of having "
+"an EduTrack at PyCon SK, consisting of a single day of talks for "
+"teachers, we are now organising a two day summit during which teachers "
+"will be introduced to innovative ways and methods of teaching "
+"programming, share their knowledge of useful tools and last but not least"
+" participate in numerous workshops given by experienced educators.\n"
+msgstr ""
+
+#: templates/edusummit.html:15
+msgid ""
+"This year’s keynote speaker will be Juraj Hromkovič, a professor at ETH "
+"Zürich, whose main focus of work is education for teachers of Computer "
+"Science."
+msgstr ""
+
+#: templates/edusummit.html:19
+msgid "Please note that EduSummit will be primarily in Slovak language."
+msgstr ""
+
+#: templates/edusummit.html:23
+msgid "EduSummit workshops"
+msgstr ""
+
+#: templates/edusummit.html:25
+msgid "On saturday we will hold numerous educational workshops."
+msgstr ""
+
+#: templates/edusummit.html:27
+msgid "A beginner's workshop with BBC micro:bit given by high school students"
+msgstr ""
+
+#: templates/edusummit.html:28
+msgid ""
+"An advanced workshop with BBC micro:bit for teachers who already teach "
+"with micro:bits."
+msgstr ""
+
+#: templates/edusummit.html:29
+msgid ""
+"Workshop on using, creating and sharing Open Educational Resources for "
+"teachers"
+msgstr ""
+
+#: templates/edusummit.html:30
+msgid "Parse Open Data with Python"
+msgstr ""
+
+#: templates/edusummit.html:31
+msgid "PyGame zero workshop for teachers"
+msgstr ""
+
+#: templates/edusummit.html:32
+msgid "Control Minecraft via Python"
+msgstr ""
+
+#: templates/edusummit.html:33
+msgid "Turn your BBC micro:bit into a Minecraft game controller"
+msgstr ""
+
+#: templates/edusummit.html:35
+msgid "We will update the workshop list after the Call for Proposals is closed."
+msgstr ""
+
+#: templates/edusummit.html:37
+msgid "More information about the schedule can be found "
+msgstr ""
+
+#: templates/edusummit.html:37 templates/edusummit.html:95
+msgid "here.</a>"
+msgstr ""
+
+#: templates/edusummit.html:41
+msgid "SPy Cup"
+msgstr ""
+
+#: templates/edusummit.html:43
+msgid ""
+"Students from all 14 schools currently participating in Teaching with "
+"Hardware will join the SPy Cup contest, in which they create their own "
+"micro:bit project a create a step-by-step manual which the will publish "
+"under an open license on our website to inspire other teachers and "
+"students. The best projects will be awarded prizes and their authors will"
+" have a short presentation about their project at PyCon SK 2019."
+msgstr ""
+
+#: templates/edusummit.html:44
+msgid ""
+"More info can be found at <a "
+"href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
+msgstr ""
+
+#: templates/edusummit.html:50
+msgid ""
+"If you have created an interesting hardware project which uses Python, "
+"MicroPython or the BBC micro:bit and would like to share it to the world "
+"then bring it to PyCon SK 2019 :-)"
+msgstr ""
+
+#: templates/edusummit.html:51
+msgid ""
+"You can find some inspiration here <a "
+"href=\"https://www.ucimeshardverom.sk/projekty/\">www.ucimeshardverom.sk/projekty</a>"
+msgstr ""
+
+#: templates/edusummit.html:55
+msgid "Teaching with Hardware"
+msgstr ""
+
+#: templates/edusummit.html:57
+msgid ""
+"The goal of the initiative Teaching with Hardware is to introduce such "
+"activities into computing lessons at primary and secondary schools, which"
+" will familiarise students with interesting applications of programming "
+"and information technologies, thus motivating them in developing their "
+"digital literacy and algorithmic thinking. We do this by introducing "
+"physical computing with a small programmable device called BBC micro:bit,"
+" and by supporting teachers with methodical materials and teacher "
+"training. In october 2018 we started a PILOT project on 14 schools across"
+" Slovakia, and the results will be announced at PyCon SK 2019."
+msgstr ""
+
+#: templates/edusummit.html:58
+msgid ""
+"More info can be found at <a "
+"href=\"https://www.ucimeshardverom.sk\">www.ucimeshardverom.sk</a>"
+msgstr ""
+
+#: templates/edusummit.html:62
+msgid "Poster Session"
+msgstr ""
+
+#: templates/edusummit.html:64
+msgid "We will host a poster session and we will be happy if you get involved."
+msgstr ""
+
+#: templates/edusummit.html:68
+msgid "Python Cup"
+msgstr ""
+
+#: templates/edusummit.html:70
+msgid "The winners of Python Cup will be awarded at EduSummit."
+msgstr ""
+
+#: templates/edusummit.html:71
+msgid ""
+"More info can be found at <a "
+"href=\"http://edi.fmph.uniba.sk/~tomcsanyiova/PythonCup/\">edi.fmph.uniba.sk/~tomcsanyiova/PythonCup</a>"
+msgstr ""
+
+#: templates/edusummit.html:75
+msgid "What kind of ticked should I buy?"
+msgstr ""
+
+#: templates/edusummit.html:77
+msgid ""
+"All available tickets apply for the whole PyCon SK conference, including "
+"the EduSummit section. All of the talks and workshops take place at the "
+"same venue and you can decide which talks and workshops you want to "
+"attend. If you are a teacher or student you are eligible for a discount."
+msgstr ""
+
+#: templates/edusummit.html:81
+msgid "Young Coders' day"
+msgstr ""
+
+#: templates/edusummit.html:83
+msgid ""
+"On saturday, we will host a Young Coders' day, consisting of programming "
+"workshops for children."
+msgstr ""
+
+#: templates/edusummit.html:87
+msgid "Speak at EduSummit"
+msgstr ""
+
+#: templates/edusummit.html:89
+msgid ""
+"Call for Proposals is open. If you are a teacher or educator submit your "
+"talk or workshop and co-create the conference."
+msgstr ""
+
+#: templates/edusummit.html:93
+msgid "Sponsorship"
+msgstr ""
+
+#: templates/edusummit.html:95
+msgid ""
+"By supporting PyCon you also support numerous educational activities "
+"during the conference. If the conference is profitable we finance "
+"educational activities during the whole year. More information on "
+"sponsorship can be found "
 msgstr ""
 
 #: templates/index.html:15 templates/venue.html:9
@@ -887,6 +1106,98 @@ msgid ""
 "I, the Submitter, specifically affirm the right to perform the User "
 "Submissions on the SPy o.z. web sites or on other web sites designated by"
 " the PSF (including, but not necessarily limited to YouTube)."
+msgstr ""
+
+#: templates/schedule.html:12
+msgid "What's on when (more details to be confirmed) "
+msgstr ""
+
+#: templates/schedule.html:18
+msgid "Friday"
+msgstr ""
+
+#: templates/schedule.html:19
+msgid "Saturday"
+msgstr ""
+
+#: templates/schedule.html:20
+msgid "Sunday"
+msgstr ""
+
+#: templates/schedule.html:25
+msgid "Talks [EN track]"
+msgstr ""
+
+#: templates/schedule.html:26 templates/schedule.html:27
+msgid "Talks [both EN and SK]"
+msgstr ""
+
+#: templates/schedule.html:30 templates/schedule.html:31
+#: templates/schedule.html:32
+msgid "Workshops [both EN and SK]"
+msgstr ""
+
+#: templates/schedule.html:35
+msgid "SPy Cup Presentations [SK] "
+msgstr ""
+
+#: templates/schedule.html:35 templates/schedule.html:40
+#: templates/schedule.html:41 templates/schedule.html:45
+#: templates/schedule.html:46 templates/schedule.html:50
+#: templates/schedule.html:55
+msgid "Edu"
+msgstr ""
+
+#: templates/schedule.html:36
+msgid "Conference Game Finals [EN] "
+msgstr ""
+
+#: templates/schedule.html:36
+msgid "Conference Contest"
+msgstr ""
+
+#: templates/schedule.html:37
+msgid "Sprints [both EN and SK]"
+msgstr ""
+
+#: templates/schedule.html:40
+msgid "EduSummit Talks [SK] "
+msgstr ""
+
+#: templates/schedule.html:41
+msgid "EduSummit Workshops [SK] "
+msgstr ""
+
+#: templates/schedule.html:45
+msgid "Python Cup [SK] "
+msgstr ""
+
+#: templates/schedule.html:46
+msgid "Young Coders' day [SK] "
+msgstr ""
+
+#: templates/schedule.html:50
+msgid "EduSummit Poster Session [both EN and SK] "
+msgstr ""
+
+#: templates/schedule.html:51
+msgid "Main Poster session [both EN and SK]"
+msgstr ""
+
+#: templates/schedule.html:55
+msgid "Hardware Projects Showcase [both EN and SK] "
+msgstr ""
+
+#: templates/schedule.html:60
+msgid "Conference Party "
+msgstr ""
+
+#: templates/schedule.html:60 templates/schedule.html:61
+msgid "Social Event"
+msgstr ""
+
+#: templates/schedule.html:61
+msgid "Conference Dinner "
 msgstr ""
 
 #: templates/sponsoring.html:8
