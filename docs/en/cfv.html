@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="keywords" content="pycon sk, python, community, conference, bratislava, slovakia">
     <meta name="description" content="Official PyCon SK 2019 website">
-    <meta name="author" content="">
+    <meta name="author" content="SPy o.z.">
 
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="https://2019.pycon.sk/static/pyconsk/img/logo/pycon_logo_square_400x400.png"/>
+    <meta property="og:image" content="https://2019.pycon.sk/static/images/pycon_logo_square_400x400.png"/>
     <meta property="og:url" content="https://2019.pycon.sk"/>
   	<meta property="og:title" content="PyCon SK 2019, Bratislava"/>
   	<meta property="og:site_name" content="2019.pycon.sk"/>
@@ -18,75 +19,125 @@
   	<meta name="twitter:title" content="PyCon SK 2019, Bratislava"/>
   	<meta name="twitter:description" content="PyCon SK is a community-organized conference for the Python programming language, which will be held in Bratislava on March, 2019."/>
     <meta name="twitter:url" content="https://2019.pycon.sk"/>
-    <meta name="twitter:image" content="https://2019.pycon.sk/static/pyconsk/img/logo/pycon_logo_square_400x400.png"/>
+    <meta name="twitter:image" content="https://2019.pycon.sk/static/images/pycon_logo_square_400x400.png"/>
     <title>PyCon SK 2019</title>
-    <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap.min.css?v=4.13">
-    <link rel="stylesheet" type="text/css" href="/static/open-iconic/css/open-iconic-bootstrap.min.css?v=1.1.0">
-    <link rel="stylesheet" type="text/css" href="/static/pyconsk/css/pyconsk.css?v=20190917">
-    <link rel="icon" href="/static/pyconsk/img/logo/favicon.ico" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/colorbox.css">
+    <link rel="icon" href="/static/images/favicon.ico" sizes="16x16" type="image/x-icon">
+    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
     
     <link rel="alternate" href="https://2019.pycon.sk/sk/cfv.html" hreflang="sk">
     
     <link rel="canonical" href="https://2019.pycon.sk/en/cfv.html"/>
     
-  </head>
-  <body>
+	  <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+      <!--[if lt IE 9]>
+        <script src="/static/js/html5shiv.js"></script>
+        <script src="/static/js/respond.min.js"></script>
+      <![endif]-->
+</head>
 
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item ">
-              <a href="/en/index.html" class="nav-link">PyCon SK 2019</a>
-            </li>
-            <li class="nav-item ">
-              <a href="/en/venue.html" class="nav-link">Venue</a>
-            </li>
-            <li class="nav-item ">
-              <a href="/en/tickets.html" class="nav-link">Tickets</a>
-            </li>
-            <li class="nav-item ">
-              <a href="/en/schedule.html" class="nav-link">Schedule</a>
-            </li>
-            <li class="nav-item ">
-              <a href="/en/cfp.html" class="nav-link">Call for proposals</a>
-            </li>
-            <li class="nav-item active">
-              <a href="/en/cfv.html" class="nav-link">Call for volunteers</a>
-            </li>
-            <li class="nav-item ">
-              <a href="/en/sponsoring.html" class="nav-link">Sponsoring</a>
-            </li>
-            <li class="nav-item ">
-              <a href="/en/edusummit.html" class="nav-link">EduSummit</a>
-            </li>
-            <li class="nav-item ">
-              <a href="/en/coc.html" class="nav-link">Code of Conduct</a>
-            </li>
-            <li class="nav-item">
-              <a href="https://spy.python.sk/en/" class="nav-link external">About Us</a>
-            </li>
-          </ul>
-          
-          <a href="/sk/cfv.html" title="Prepnúť na slovenský jazyk"
-             hreflang="sk"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACO0lEQVQokXXMTUiTARzH8T94FOrgyYsddkkQJcFIyhQ1kUzQUHMTRRMNU6xMLXpRMLVS8gWkrKhDXesk0TFKIgzTXPMt2ea0JWOutT179uzlefbtUlKHfvA5/r5iqBqGqv5LUYgrCvGAQtQfQPP7UX1+VK8PxeMlsOPB73bj23YjhqrxZ4lEYo9hJDAMA13X0XWdeDxOLBYjGo0SiUTQNA2vaxsxVBWA8NNnhCfuo45PERqdJDQ6/t9jOBxG0zR27E4k37zOi9c/ULpvkGhuwnA4MIYGiVnqmHjk4s70N4amthiY3KRvzMm1ETu9tze4+8CJJL1CkkxzDD7eJdDRjfFpHsO3i77lQqut42aflZrOr9ScX6Gy1cap5i+UNixRaFmk4dIyIk8QOTDHrYde/G1d6C2N6A4H8bvDRC0WLl61cbpjncpzK5Q32yhtsFJkWeL4mUXqLuwFFhmY9mB9a2e4Z5b2nmXaOxfYnJnFfNlOedsGJ1vWONG0SkH9CsfMNo5UW6nqXEPkOfJGBNeVEb4PT2F/v0Zjr53Vd+u4+sewFpj5fLSahcMVzB8q42NGKXMHi/hgymehqI57IkhUBL21lVhxMbHuLn6+nCFwvR8tM5NwejqqyUQoLQ0lNZVgSgqB/fsIJCcTzMrCKYJoIsSbzhKrrydaW0u0qppIRQVaWRlaSQnhwkLUvDxCubkoOTkEs7MJZmURzMjALoKoIigiBETwi+D7zSuCR4QdEdwibIvgEsEpgv0vvwCcffbRnUTGYAAAAABJRU5ErkJggg==" alt="slovenský jazyk"></a>
-          
-          
-        </div>
-      </nav>
-    </header>
+<body>
+	<div class="body-inner">
+	<!--<div class="preload"></div> -->
+	<!-- Header start -->
+	<header id="header" class="header header-transparent">
+		<div class="container">
+			<div class="row">
+				<div class="navbar-header">
+					<div class="logo">
+	                <a href="index.html">
+	                	<img src="/static/images/pycon_logo_square_60x60.png" alt="">
+	                </a>
+         		</div><!-- logo end -->
+				</div><!-- Navbar header end -->
 
-    <main role="main">
-      
-<div class="container marketing">
+				<div class="site-nav-inner">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				      <span class="sr-only">Toggle navigation</span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+	    			</button>
 
-  <div class="row featurette">
+	    			<nav class="collapse navbar-collapse navbar-responsive-collapse pull-right">
+
+	    				<ul class="nav navbar-nav">
+                <li class="">
+                  <a href="/en/index.html">PyCon SK 2019</a>
+                </li>
+
+                <li class="dropdown ">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Speakers <i class="fa fa-angle-down"></i></a>
+								  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/en/cfp.html" class="nav-link">Call for proposals</a></li>
+                  </ul>
+                </li>
+
+                <li class="">
+                  <a href="/en/schedule.html" >Schedule </a>
+
+
+
+                </li>
+
+                <li class="">
+                  <a href="/en/sponsoring.html" class="nav-link">Sponsoring</a>
+                </li>
+
+                <li class="">
+                  <a href="/en/edusummit.html" class="nav-link">EduSummit</a>
+                </li>
+
+                <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
+								  <ul class="dropdown-menu" role="menu">
+                    <li><a href="https://spy.python.sk/en/">SPy o.z.</a></li>
+                    <li><a href="/en/venue.html">Venue</a></li>
+                    <li><a href="/en/coc.html">Code of Conduct</a></li>
+                    <li><a href="/en/cfv.html">Call for volunteers</a></li>
+                  </ul>
+                </li>
+
+                <li class="header-ticket ">
+                  <a href="/en/tickets.html" class="ticket-btn">Tickets</a>
+                </li>
+
+              
+              <a href="/sk/cfv.html" title="Prepnúť na slovenský jazyk"
+                 hreflang="sk"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACO0lEQVQokXXMTUiTARzH8T94FOrgyYsddkkQJcFIyhQ1kUzQUHMTRRMNU6xMLXpRMLVS8gWkrKhDXesk0TFKIgzTXPMt2ea0JWOutT179uzlefbtUlKHfvA5/r5iqBqGqv5LUYgrCvGAQtQfQPP7UX1+VK8PxeMlsOPB73bj23YjhqrxZ4lEYo9hJDAMA13X0XWdeDxOLBYjGo0SiUTQNA2vaxsxVBWA8NNnhCfuo45PERqdJDQ6/t9jOBxG0zR27E4k37zOi9c/ULpvkGhuwnA4MIYGiVnqmHjk4s70N4amthiY3KRvzMm1ETu9tze4+8CJJL1CkkxzDD7eJdDRjfFpHsO3i77lQqut42aflZrOr9ScX6Gy1cap5i+UNixRaFmk4dIyIk8QOTDHrYde/G1d6C2N6A4H8bvDRC0WLl61cbpjncpzK5Q32yhtsFJkWeL4mUXqLuwFFhmY9mB9a2e4Z5b2nmXaOxfYnJnFfNlOedsGJ1vWONG0SkH9CsfMNo5UW6nqXEPkOfJGBNeVEb4PT2F/v0Zjr53Vd+u4+sewFpj5fLSahcMVzB8q42NGKXMHi/hgymehqI57IkhUBL21lVhxMbHuLn6+nCFwvR8tM5NwejqqyUQoLQ0lNZVgSgqB/fsIJCcTzMrCKYJoIsSbzhKrrydaW0u0qppIRQVaWRlaSQnhwkLUvDxCubkoOTkEs7MJZmURzMjALoKoIigiBETwi+D7zSuCR4QdEdwibIvgEsEpgv0vvwCcffbRnUTGYAAAAABJRU5ErkJggg==" alt="slovenský jazyk"></a>
+              
+
+              </ul>
+	    			</nav><!--/ Collapse end -->
+
+				</div><!-- Site nav inner end -->
+
+			</div><!-- Row end -->
+		</div><!-- Container end -->
+	</header><!--/ Header end -->
+
+  
+  <div id="page-banner-area" class="page-banner-area" style="background-image:url(/static/images/banner/banner3.jpg)">
+		<!-- Subpage title start -->
+		<div class="page-banner-title">
+      <div class="text-center">
+        <h2>Call for volunteers</h2>
+      </div>
+    </div><!-- Subpage title end -->
+	</div><!-- Page Banner end -->
+
+  <section id="main-container" class="main-container">
+
+<div class="container">
+
+  <div class="row">
     <div class="col-md-12">
 
-      <h1 class="featurette-heading">Call for volunteers</h1>
       <p class="lead"><strong>We need you to help organize PyCon SK 2019!</strong></p>
 
       <p class="text-justify">
@@ -187,19 +238,114 @@
   </div>
 
 </div>
+  </section>
 
 
-      <div class="container marketing">
-        <div class="row featurette">
-          <div class="col-md-12">
-            <hr class="featurette-divider"/>
-          </div>
-        </div>
-      </div>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="action-box text-center">
+						<span class="action-box-icon">
+							<i class="fa fa-envelope"></i>
+						</span>
+						<div class="action-box-content">
+							<h3>General Queries</h3>
+							<p class="action-box-text">info@pycon.sk</p>
+						</div>
+					</div><!-- Action box 1 end -->
+				</div><!-- Col 1 end -->
 
-      <footer class="container">
-        
-          <p class="float-right text-center"><a href="#"  title="Go to top of page"><span class="oi oi-chevron-top"></span><br/>Back to top</a></p>
+				<div class="col-md-4">
+					<div class="action-box text-center">
+						<span class="action-box-icon">
+							<i class="fa fa-ticket"></i>
+						</span>
+						<div class="action-box-content">
+							<h3>Ticket Queries</h3>
+							<p class="action-box-text">tickets@pycon.sk</p>
+						</div>
+					</div><!-- Action box 2 end -->
+				</div><!-- Col 2 end -->
+
+				<div class="col-md-4">
+					<div class="action-box text-center">
+						<span class="action-box-icon">
+							<i class="fa fa-phone"></i>
+						</span>
+						<div class="action-box-content">
+							<h3>Event Organiser</h3>
+							<p class="action-box-text">+421 948 101 676</p>
+						</div>
+					</div><!-- Action box 3 end -->
+				</div><!-- Col 3 end -->
+
+			</div><!-- Row 1 end -->
+
+			<div class="row">
+				<div class="newsletter-form clearfix">
+					<h3>Stay Updated - Subscribe to our newsletter</h3>
+          <form action="https://pycon.us12.list-manage.com/subscribe/post?u=89d883ce643e7200aabe34fa1&amp;id=e1520cb152" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+						<div class="form-group">
+              <input type="email" value="" name="EMAIL" id="mce-EMAIL newsletter-form-email" class="form-control form-control-lg required email" placeholder="Your Email Here" autocomplete="off" aria-describedby="email address for the newsletter">
+							<button class="btn btn-primary">Subscribe</button>
+						</div>
+
+            <div class="form-group">
+              <strong>Email Marketing Permissions</strong>
+              <p>Please select all the ways you would like to hear from SPy o.z.:</p>
+
+              <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
+                <div class="form-check">
+                  <input type="checkbox" id="gdpr_26045" name="gdpr[26045]" value="Y" class="form-check-input">
+                  <label class="form-check-label" for="gdpr_26045">Email</label>
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" id="gdpr_26049" name="gdpr[26049]" value="Y" class="form-check-input">
+                  <label class="form-check-label" for="gdpr_26049">Direct Mail</label>
+                </div>
+              </fieldset>
+
+              <p>You can unsubscribe at any time by clicking the link in the footer of our emails.
+                 For information about our privacy practices, please visit our website.
+              </p>
+
+              <p>
+                <small>We use Mailchimp as our marketing platform. By clicking below to subscribe, you
+                  acknowledge that your information will be transferred to Mailchimp for processing. Learn more
+                  about Mailchimp's privacy practices <a href="https://mailchimp.com/legal/" target="_blank" class="external">here</a>.
+                </small>
+              </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_89d883ce643e7200aabe34fa1_e1520cb152" tabindex="-1" value="">
+            </div>
+
+					</form>
+				</div>
+			</div><!-- Row end -->
+
+		</div><!-- Container 1 end -->
+
+		<div class="copyright text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="footer-social">
+							<ul>
+								<li><a href="https://www.facebook.com/pyconsk"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://twitter.com/pyconsk"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://twitter.com/pyconsk"><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+						</div><!-- Footer social end -->
+
+						<div class="copyright-info">
+							<span>
+
+              
           
           <p><a href="https://www.python.org/psf/trademarks/pycon/" target="_blank" class="external">PyCon™</a> is a trademark for worldwide conference activities claimed by the <a href="https://www.python.org/psf-landing/" target="_blank" class="external">Python Software foundation</a>.
             <br/>
@@ -209,16 +355,60 @@
           </p>
           
         
-      </footer>
-    </main>
 
-    <script src="/static/jquery/jquery-3.3.1.slim.min.js"></script>
-    <script src="/static/popper/popper.min.js"></script>
-    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
-    <script async src="/static/pyconsk/js/ga.min.js"></script>
-    
+              </span>
+						</div><!-- Copyright info end -->
+
+						<div class="footer-menu">
+							<ul class="nav unstyled">
+                <li><a href="https://spy.python.sk/en/" class="nav-link external">About Us</a></li>
+
+								<li><a href="#">Speakers</a></li>
+								<li><a href="#">Become a Sponsor</a></li>
+								<li><a href="#">Register</a></li>
+								<li><a href="#">Videos</a></li>
+							</ul>
+						</div><!-- Footer menu end -->
+
+					</div><!-- Col end -->
+
+				</div><!-- Copyright Row end -->
+
+				<div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
+					<button class="btn btn-primary" title="Back to Top">
+						<i class="fa fa-angle-double-up"></i>
+					</button>
+				</div>
+			</div><!-- Copyright Container end -->
+		</div><!-- Copyright end -->
+
+		<img class="footer-pattern" src="/static/images/footer-pattern.png" alt="">
+
+	</footer><!-- Footer end -->
+
+
+	<!-- Javascript Files
+	================================================== -->
+
+	<!-- initialize jQuery Library -->
+	<script type="text/javascript" src="/static/js/jquery.js"></script>
+	<!-- Bootstrap jQuery -->
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+	<!-- Counter -->
+	<script type="text/javascript" src="/static/js/jquery.counterup.min.js"></script>
+	<!-- Countdown -->
+	<script type="text/javascript" src="/static/js/jquery.jCounter.js"></script>
+	<!-- Waypoints -->
+	<script type="text/javascript" src="/static/js/waypoints.min.js"></script>
+	<!-- Color box -->
+	<script type="text/javascript" src="/static/js/jquery.colorbox.js"></script>
+
+	<script async src="/static/pyconsk/js/ga.min.js"></script>
+  
 
 
 
-  </body>
+
+	</div><!-- Body inner end -->
+</body>
 </html>
