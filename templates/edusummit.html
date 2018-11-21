@@ -1,12 +1,22 @@
 {% extends "body.html" %}
 
 {% block content %}
-  <div class="container marketing">
+  <div id="page-banner-area" class="page-banner-area" style="background-image:url({{ url_for('static', filename='images/banner/banner3.jpg') }})">
+		<!-- Subpage title start -->
+		<div class="page-banner-title">
+      <div class="text-center">
+        <h2>{{ _('EduSummit') }}</h2>
+      </div>
+    </div><!-- Subpage title end -->
+	</div><!-- Page Banner end -->
 
-    <div class="row featurette">
+  <section id="main-container" class="main-container">
+
+  <div class="container">
+
+    <div class="row">
       <div class="col-md-12">
 
-        <h1 class="featurette-heading">{{ _('EduSummit') }}</h1>
         <p class="lead">{{ _('Where Teachers meet Programmers') }}</p>
 
         <p>{{ _('EduSummit is a special section of the conference focused on teaching programming at primary and secondary schools. After two years of having an EduTrack at PyCon SK, consisting of a single day of talks for teachers, we are now organising a two day summit during which teachers will be introduced to innovative ways and methods of teaching programming, share their knowledge of useful tools and last but not least participate in numerous workshops given by experienced educators.
@@ -100,4 +110,5 @@
       </div>
     </div>
   </div>
+  </section>
 {% endblock %}

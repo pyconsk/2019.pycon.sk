@@ -1,11 +1,21 @@
 {% extends "body.html" %}
 {% block content %}
-<div class="container marketing">
+  <div id="page-banner-area" class="page-banner-area" style="background-image:url({{ url_for('static', filename='images/banner/banner3.jpg') }})">
+		<!-- Subpage title start -->
+		<div class="page-banner-title">
+      <div class="text-center">
+        <h2>{{ _('Call for proposals') }}</h2>
+      </div>
+    </div><!-- Subpage title end -->
+	</div><!-- Page Banner end -->
 
-  <div class="row featurette">
+  <section id="main-container" class="main-container">
+
+<div class="container">
+
+  <div class="row">
     <div class="col-md-12">
 
-      <h1 class="featurette-heading">{{ _('Call for proposals') }}</h1>
       <p class="lead"><strong>{{ _('The Call For Proposals is open!') }}</strong></p>
 
       <p class="text-justify">
@@ -64,4 +74,5 @@
   </div>
 
 </div>
+  </section>
 {% endblock %}

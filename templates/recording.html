@@ -1,11 +1,20 @@
 {% extends "body.html" %}
 {% block content %}
-<div class="container marketing">
+  <div id="page-banner-area" class="page-banner-area" style="background-image:url({{ url_for('static', filename='images/banner/banner3.jpg') }})">
+		<!-- Subpage title start -->
+		<div class="page-banner-title">
+      <div class="text-center">
+        <h2>{{ _('PyCon SK Recording Release') }}</h2>
+      </div>
+    </div><!-- Subpage title end -->
+	</div><!-- Page Banner end -->
 
-  <div class="row featurette">
+  <section id="main-container" class="main-container">
+
+  <div class="container">
+
+  <div class="row">
     <div class="col-md-12">
-
-      <h1 class="featurette-heading">{{ _('PyCon SK Recording Release') }}</h1>
 
       <p class="text-justify">
         {{ _('Part of the motivation for PyCon SK is to help with Python education and advocacy in Slovakia and around the world. Accordingly, we intend to record all PyCon SK presentations and live stream and release the recordings on the web.') }} {{ _('See the <a href="http://pyvideo.org">http://pyvideo.org</a> for one such venue.') }}
@@ -43,4 +52,5 @@
     </div>
   </div>
 </div>
+  </section>
 {% endblock %}
