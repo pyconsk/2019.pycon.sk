@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-11-14 16:16+0100\n"
-"PO-Revision-Date: 2018-10-16 20:00+0200\n"
+"PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
 "Language-Team: sk <LL@li.org>\n"
@@ -353,9 +353,9 @@ msgstr "Workshop"
 msgid "Poster"
 msgstr "Poster"
 
-#: templates/cfp_form.html:110 templates/edusummit.html:48
+#: templates/cfp_form.html:110 templates/edusummit.html:50
 msgid "Hardware Projects Showcase"
-msgstr ""
+msgstr "Ukážka hardvérových projektov"
 
 #: templates/cfp_form.html:118
 msgid "Language"
@@ -697,36 +697,41 @@ msgid ""
 "Zürich, whose main focus of work is education for teachers of Computer "
 "Science."
 msgstr ""
-"Hlavným rečníkom bude "
-"profesor Juraj Hromkovič, DrSc., ktorý pôsobí ako vysokoškolský pedagóg vo "
-"Švajčiarskom federálnom technologickom inštitúte (ETH) v Zürichu. Je autorom "
-"mnohých kníh a vedeckých publikácií, najmä v oblasti algoritmiky, "
-"pravdepodobnostných algoritmov a didaktiky informatiky.  Zameriava sa na "
-"vzdelávanie učiteľov informatiky a zavedenie vyučovania informatiky na "
-"základné školy. V roku 2017 prevzal štátne vyznamenanie Pribinov kríž I. "
-"triedy, ktoré mu udelil prezident SR Andrej Kiska."
+"Hlavným rečníkom bude profesor Juraj Hromkovič, DrSc., ktorý pôsobí ako "
+"vysokoškolský pedagóg vo Švajčiarskom federálnom technologickom inštitúte"
+" (ETH) v Zürichu. Je autorom mnohých kníh a vedeckých publikácií, najmä v"
+" oblasti algoritmiky, pravdepodobnostných algoritmov a didaktiky "
+"informatiky.  Zameriava sa na vzdelávanie učiteľov informatiky a "
+"zavedenie vyučovania informatiky na základné školy. V roku 2017 prevzal "
+"štátne vyznamenanie Pribinov kríž I. triedy, ktoré mu udelil prezident SR"
+" Andrej Kiska."
 
 #: templates/edusummit.html:19
-msgid "Please note that EduSummit will be primarily in Slovak language."
-msgstr " "
+msgid "Profesor Juraj Hromkovič, DrSc."
+msgstr "Profesor Juraj Hromkovič, DrSc."
 
-#: templates/edusummit.html:23
+#: templates/edusummit.html:21
+msgid "Please note that EduSummit will be primarily in Slovak language."
+msgstr ""
+"Dovoľujeme si upozorniť, že EduSummit bude primárne v slovenskom jazyku."
+
+#: templates/edusummit.html:25
 msgid "EduSummit workshops"
 msgstr "EduSummit workshopy"
 
-#: templates/edusummit.html:25
+#: templates/edusummit.html:27
 msgid "On saturday we will hold numerous educational workshops."
 msgstr ""
 "Sobota bude patriť workshopom. Prihlasovanie workshopov ešte stále "
 "prebieha, avšak niekoľko z nich už máme potvrdené:"
 
-#: templates/edusummit.html:27
+#: templates/edusummit.html:29
 msgid "A beginner's workshop with BBC micro:bit given by high school students"
 msgstr ""
 "Workshop pre začiatočníkov so zariadením BBC micro:bit vedený študentmi "
 "stredných škôl"
 
-#: templates/edusummit.html:28
+#: templates/edusummit.html:30
 msgid ""
 "An advanced workshop with BBC micro:bit for teachers who already teach "
 "with micro:bits."
@@ -734,47 +739,49 @@ msgstr ""
 "Pokročilý workshop so zariadením BBC micro:bit pre učiteľov, ktorí už "
 "micro:bit používajú vo výučbe."
 
-#: templates/edusummit.html:29
+#: templates/edusummit.html:31
 msgid ""
 "Workshop on using, creating and sharing Open Educational Resources for "
 "teachers"
 msgstr ""
-
-#: templates/edusummit.html:30
-msgid "Parse Open Data with Python"
-msgstr ""
-
-#: templates/edusummit.html:31
-msgid "PyGame zero workshop for teachers"
-msgstr ""
+"Workshop o používaní, vytváraní a zdieľaní otvorených edukačných zdrojov "
+"pre učiteľov"
 
 #: templates/edusummit.html:32
-msgid "Control Minecraft via Python"
-msgstr ""
+msgid "Parse Open Data with Python"
+msgstr "Parsovanie otvorených dát pomocou pythonu"
 
 #: templates/edusummit.html:33
-msgid "Turn your BBC micro:bit into a Minecraft game controller"
-msgstr ""
+msgid "PyGame zero workshop for teachers"
+msgstr "PyGame nula workshop pre učiteľov"
+
+#: templates/edusummit.html:34
+msgid "Control Minecraft via Python"
+msgstr "Ovládaj Minecraft s Pythonom"
 
 #: templates/edusummit.html:35
+msgid "Turn your BBC micro:bit into a Minecraft game controller"
+msgstr "Vytvor zo svojho BBC micro:bitu ovládač Minecraftu"
+
+#: templates/edusummit.html:37
 msgid "We will update the workshop list after the Call for Proposals is closed."
 msgstr ""
 "Po uzavretí prihlášok na prednášky a workshopov zverejníme zoznam "
 "všetkých workshopov."
 
-#: templates/edusummit.html:37
+#: templates/edusummit.html:39
 msgid "More information about the schedule can be found "
 msgstr "Viac informácií o programe nájdete "
 
-#: templates/edusummit.html:37 templates/edusummit.html:95
+#: templates/edusummit.html:39 templates/edusummit.html:97
 msgid "here.</a>"
 msgstr "tu.</a>"
 
-#: templates/edusummit.html:41
-msgid "SPy Cup"
-msgstr ""
-
 #: templates/edusummit.html:43
+msgid "SPy Cup"
+msgstr "SPy pohár"
+
+#: templates/edusummit.html:45
 msgid ""
 "Students from all 14 schools currently participating in Teaching with "
 "Hardware will join the SPy Cup contest, in which they create their own "
@@ -791,7 +798,7 @@ msgstr ""
 "udelené ceny a ich autori budú mať krátku prezentáciu o ich projekte na "
 "konferencii PyCon SK 2019."
 
-#: templates/edusummit.html:44
+#: templates/edusummit.html:46
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
@@ -799,7 +806,7 @@ msgstr ""
 "Viac informácií nájdete na <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
 
-#: templates/edusummit.html:50
+#: templates/edusummit.html:52
 msgid ""
 "If you have created an interesting hardware project which uses Python, "
 "MicroPython or the BBC micro:bit and would like to share it to the world "
@@ -809,7 +816,7 @@ msgstr ""
 "MicroPython alebo BBC micro:bit a chceli by ste ho zdieľať s celým "
 "svetom, prinieste ho na PyCon SK 2019 :-)"
 
-#: templates/edusummit.html:51
+#: templates/edusummit.html:53
 msgid ""
 "You can find some inspiration here <a "
 "href=\"https://www.ucimeshardverom.sk/projekty/\">www.ucimeshardverom.sk/projekty</a>"
@@ -817,11 +824,11 @@ msgstr ""
 "Inšpirovať sa môžete tu: <a "
 "href=\"https://www.ucimeshardverom.sk/projekty/\">www.ucimeshardverom.sk/projekty</a>"
 
-#: templates/edusummit.html:55
+#: templates/edusummit.html:57
 msgid "Teaching with Hardware"
 msgstr "Učíme s Hardvérom"
 
-#: templates/edusummit.html:57
+#: templates/edusummit.html:59
 msgid ""
 "The goal of the initiative Teaching with Hardware is to introduce such "
 "activities into computing lessons at primary and secondary schools, which"
@@ -843,7 +850,7 @@ msgstr ""
 "spustili projekt PILOT na 14 školách po celom Slovensku. Jeho výsledky "
 "budú predstavené na konferencii PyCon SK 2019."
 
-#: templates/edusummit.html:58
+#: templates/edusummit.html:60
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk\">www.ucimeshardverom.sk</a>"
@@ -851,23 +858,23 @@ msgstr ""
 "Viac informácií nájdete na stránke <a "
 "href=\"https://www.ucimeshardverom.sk\">www.ucimeshardverom.sk</a>"
 
-#: templates/edusummit.html:62
-msgid "Poster Session"
-msgstr ""
-
 #: templates/edusummit.html:64
+msgid "Poster Session"
+msgstr "Posterová session"
+
+#: templates/edusummit.html:66
 msgid "We will host a poster session and we will be happy if you get involved."
 msgstr "Budeme organizovať aj posterovú sekciu a budeme radi, ak sa zapojíte."
 
-#: templates/edusummit.html:68
-msgid "Python Cup"
-msgstr ""
-
 #: templates/edusummit.html:70
+msgid "Python Cup"
+msgstr "Python pohár"
+
+#: templates/edusummit.html:72
 msgid "The winners of Python Cup will be awarded at EduSummit."
 msgstr "V sekcii EduSummit budú vyhlásení víťazi súťaže Python Cup."
 
-#: templates/edusummit.html:71
+#: templates/edusummit.html:73
 msgid ""
 "More info can be found at <a "
 "href=\"http://edi.fmph.uniba.sk/~tomcsanyiova/PythonCup/\">edi.fmph.uniba.sk/~tomcsanyiova/PythonCup</a>"
@@ -875,11 +882,11 @@ msgstr ""
 "Ďalšie informácie nájdete na adrese <a "
 "href=\"http://edi.fmph.uniba.sk/~tomcsanyiova/PythonCup/\">edi.fmph.uniba.sk/~tomcsanyiova/PythonCup</a>"
 
-#: templates/edusummit.html:75
+#: templates/edusummit.html:77
 msgid "What kind of ticked should I buy?"
 msgstr "Aký druh lístka by som si mal kúpiť?"
 
-#: templates/edusummit.html:77
+#: templates/edusummit.html:79
 msgid ""
 "All available tickets apply for the whole PyCon SK conference, including "
 "the EduSummit section. All of the talks and workshops take place at the "
@@ -891,11 +898,11 @@ msgstr ""
 "mieste a môžete sa rozhodnúť, ktoré prednášky a workshopy chcete "
 "navštíviť. Ak ste učiteľ alebo študent, máte nárok na zľavu."
 
-#: templates/edusummit.html:81
-msgid "Young Coders' day"
-msgstr ""
-
 #: templates/edusummit.html:83
+msgid "Young Coders' day"
+msgstr "Deň mladých kóderov"
+
+#: templates/edusummit.html:85
 msgid ""
 "On saturday, we will host a Young Coders' day, consisting of programming "
 "workshops for children."
@@ -903,11 +910,11 @@ msgstr ""
 "V sobotu sa bude konať Young Coders' day, pozostávajúci z programovacích "
 "dielní pre deti."
 
-#: templates/edusummit.html:87
+#: templates/edusummit.html:89
 msgid "Speak at EduSummit"
 msgstr "Prednášaj na EduSummite"
 
-#: templates/edusummit.html:89
+#: templates/edusummit.html:91
 msgid ""
 "Call for Proposals is open. If you are a teacher or educator submit your "
 "talk or workshop and co-create the conference."
@@ -916,11 +923,11 @@ msgstr ""
 "učiteľov a nadšencov vyučovania informatiky, aby si prihlásili prednášku "
 "a tým sa stali spolutvorcami obsahu konferencie."
 
-#: templates/edusummit.html:93
+#: templates/edusummit.html:95
 msgid "Sponsorship"
 msgstr "Sponzoruj"
 
-#: templates/edusummit.html:95
+#: templates/edusummit.html:97
 msgid ""
 "By supporting PyCon you also support numerous educational activities "
 "during the conference. If the conference is profitable we finance "
@@ -1866,89 +1873,138 @@ msgstr "Cestovanie do Bratislavy"
 
 #: templates/venue.html:21
 msgid ""
-"Bratislava is one of the youngest major cities in Europe. Nevertheless, "
-"it has a rich history of a free royal coronation town. At that time, it "
-"was still called the Pressburg (Prešpork). Today, Bratislava is a major "
-"transport hub in Central Europe, and there are plenty of possibilities of"
-" getting here."
+"Bratislava is one of the youngest capitals in Europe, and also one of the"
+" smallest. Despite this, it has a rich history of a free royal coronation"
+" town of Pressburg and multiple opportunities how to spend time there. "
+"Bratislava has unique location, it is the only capital int he world "
+"located on the border of three countries.Today, Bratislava is a major "
+"transport hub in Central Europe, and there are plenty possibilities of "
+"getting here."
 msgstr ""
-"Bratislava patrí medzi najmladšie hlavné mestá Európy. Napriek tomu má "
-"bohatú históriu slobodného kráľovského korunovačného mesta. Vtedy bola "
-"ešte nazývaná Prešporkom. Dnes je Bratislava významný dopravný uzol v "
-"strednej Európe a možností, ako sa sem dostať, je neúrekom."
+"Bratislava patrí medzi najmladšie a tiež najmenšie hlavné mestá Európy. "
+"Napriek tomu má bohatú históriu slobodného kráľovského korunovačného mesta, "
+"kedy sa ešte nazývala Prešporok a mnoho možností, ako stráviť čas počas "
+"vašej návštevy mesta. Bratislava je unikátna svojou polohou, ako jediné "
+"hlavné mesto na svete sa nachádza na hranici troch štátov. Dnes je "
+"Bratislava významným dopravným uzlom v strednej Európe a možností, ako sa "
+"sem dostať, je neúrekom."
 
-#: templates/venue.html:27
+#: templates/venue.html:29
 msgid "By air"
 msgstr "Letecky"
 
-#: templates/venue.html:29
+#: templates/venue.html:31
 msgid ""
 "If you are travelling to Bratislava, you can fly to the Bratislava "
 "airport (airport code: BTS) or the Vienna airport (airport code: VIE). "
-"The selection of flights to Vienna is better than to Bratislava."
+"Vienna airport has considerably better offer of flights."
 msgstr ""
 "Ak cestujete do Bratislavy, môžete letieť na bratislavské letisko (kód "
 "letiska: BTS) alebo na letisko Viedeň (kód letiska: VIE). Viedenské "
 "letisko má v porovnaní s bratislavským podstatne väčší výber letov."
 
-#: templates/venue.html:32
+#: templates/venue.html:35
 msgid ""
-"There are shuttle buses running between Bratislava and Vienna airport "
-"every hour and they are relatively cheap (the bus ride costs about EUR 8 "
-"one way, if you book in advance it can got much cheaper). There are three"
-" bus companies operating airport shuttles between Vienna airport and "
-"Bratislava: SlovakLines (red buses), Blaguss (silver buses) and RegioJet "
-"(Yellow busses)."
+"From Bratislava airport you can take taxi (use the phone, its cheaper), "
+"or take the bus #61 and then move to bus #39 at the Bajkalska station. "
+"Get off the bus at the station ZOO and simply follow the PyCon stickers "
+"up to the hill to univerrsity campus."
 msgstr ""
-"Medzi viedenským letiskom a Bratislavou premáva priame a cenovo dostupné "
-"autobusové spojenie každú hodinu - jednosmerná jazda stojí okolo 8 EUR, "
-"ak si zakúpite lístok v predstihu môže byť výrazne lacnejší. Autobusovú "
-"prepravu prevádzkujú tri spoločnosti: SlovakLines (červené autobusy), "
-"Blaguss (strieborné autobusy), RegioJet (žlté autobusy)."
-
-#: templates/venue.html:36
-msgid "By car"
-msgstr "Autom"
+"Z bratislavského letiska môžete ísť taxíkom (zvaolajte si ho telefonicky, "
+"je to lacnejšie), prípadne môžete ísť autobusom číslo 61 a na zástavke "
+"Bajkalská prestúpte na autobus číslo 39. Linkou 39 sa odveziete na zástavku "
+"Mlynská dolina, kde prichádzate do cieľa. Ďalej už len nasledujte nálepky "
+"PyconSK smerom na kopec."
 
 #: templates/venue.html:39
 msgid ""
-"From Vienna, take highway A4, heading to Schwechat airport, when possible"
-" take the exit that leads to highway A6, which heads towards Bratislava."
+"If you travel via Vienna airport, there are direct and cheap bus "
+"connections from early morning till midnight. One way ticket costs about "
+"8 EUR and if you buy in advance, the ticket may be considerably cheaper. "
+"There are three airport shuttle buses between Vienna airport and "
+"Bratislava: SlovakLines (red buses), Blaguss (silver buses) and RegioJet "
+"(Yellow busses)."
 msgstr ""
-"Z Viedne smerom na letisko Schwechat po diaľnici A4, odbočte na diaľnicu "
-"A6, ktorá vedie priamo do Bratislavy."
+"Ak letíte do Viedne, medzi viedenským letiskom a Bratislavou premáva priame "
+"a cenovo dostupné autobusové spojenie každú hodinu od skorého rána až do "
+"neskorej noci - jednosmerná jazda stojí okolo 8 EUR, ak si zakúpite lístok "
+"v predstihu môže byť výrazne lacnejší. Autobusovú prepravu prevádzkujú tri "
+"spoločnosti: SlovakLines (červené autobusy), Blaguss (strieborné autobusy), "
+"RegioJet (žlté autobusy). Týmito autobusmi sa dostanete na hlavnú "
+"autobusovú stanicu Mlynské Nivy."
 
-#: templates/venue.html:40
+#: templates/venue.html:46
+msgid "By car"
+msgstr "Autom"
+
+#: templates/venue.html:49
 msgid ""
-"From Budapest, take highway M1 heading to Gyor, follow this route until "
-"you see signs for highway M15 headed to Slovakia and Bratislava."
+"Arriving from Vienna, choose the direction Schwechat on A4 highway, then "
+"turn to highway A6 leading to Bratislava.\n"
+"            After crossing the border you will soon enter Bratislava, "
+"then follow the direction Praha/Brno. Right after crossing\n"
+"            the river of Danube leave the highway and follow the road "
+"along the highway. After several hundreds of meters you will\n"
+"            get to the crossroad where you should turn left and cross the"
+" highway you have left a minute ago. After the bridge there is another\n"
+"            crossroad where you turn right and immediately turn slightly "
+"left up the hill towards the university campus."
+msgstr ""
+"Z Viedne smerom na letisko Schwechat po diaľnici A4, odbočte na diaľnicu A6,"
+" ktorá vedie priamo do Bratislavy. Po príjazde do Bratislavy sledujte smer "
+"Praha/Brno a ihneď po prechode Dunaja zídite z diaľnice a pokračujte po "
+"ceste paralelnej s diaľnicou. Po niekoľko sto metroch prídete na nadjazd, "
+"kde odbočíte doľava, ponad diaľnicu smerom k výškovej budove Slovenskej "
+"televízie. Hneď za nadjazdom odbočte doľava a následne doprava smerom do "
+"kopca k univerzitnému kampusu."
+
+#: templates/venue.html:54
+msgid ""
+"From Budapest, take the highway M1 heading to Gyor, follow this route "
+"until you see signs for highway M15 heading to Slovakia and Bratislava.\n"
+"            After crossing the border follow the direction Praha or Brno "
+"according to instructions above."
 msgstr ""
 "Z Budapešti po diaľnici M1 smerom na Gyor, neskôr odbočte na cestu M15 "
-"smerom na Slovensko, do Bratislavy."
+"smerom na Slovensko, do Bratislavy. Po prejazde hraníc pokračujte smerom "
+"na Brno podľa inštrukcií vyššie."
 
-#: templates/venue.html:41
+#: templates/venue.html:56
 msgid ""
-"From Prague, take highway D1 to Brno, once in Brno take highway D2 "
-"heading to Slovakia and Bratislava."
+"If you drive from Prague, take the highway D1 to Brno, once in Brno take "
+"the highway D2 heading to Slovakia and Bratislava.\n"
+"            After arriving to Bratislava follow the highway and leave it "
+"at the exit Mlynska dolina after passing the tunnel.\n"
+"            Be cautious, the exit is located right after the tunnel, so "
+"you should stay in right lane while in tunnel."
 msgstr ""
 "Z Prahy po diaľnici D1 do Brna, tam odbočte na D2, ktorá vedie až na "
-"Slovensko a pokračujte smerom do Bratislavy."
+"Slovensko a pokračujte smerom do Bratislavy. Po príjazde do Bratislavy "
+"pokračujte po diaľnici a opustite ju na výjazde MLynská dolina (smer Devín, "
+"Karlova Ves), ktorý sa nachádza za tunelom. Pozor, výjazd začína hneď za "
+"tunelom, preraďte sa včas."
 
-#: templates/venue.html:42
+#: templates/venue.html:59
 msgid ""
-"From Warsaw, take highway A1 heading to Katowice. From there follow the "
-"road for Čadca, Slovakia. Take this road all the way to Žilina, then "
-"switch to highway D1 to Bratislava."
+"From eastern and southern Poland choose your way to Katowice. From there "
+"follow the road to Cadca, Slovakia.\n"
+"            Follow the road all the way to Zilina, then switch to the "
+"highway D1 to Bratislava. After arriving to Bratislava,\n"
+"            you should pass the river of Danube twice following the "
+"direction Praha/Brno, then leave the highway following the instructions "
+"above."
 msgstr ""
-"Z Varšavy po diaľnici A1 smerom na Katowice, odtiaľ na Slovensko do Čadce"
-" po ceste prvej triedy až do Žiliny. Potom po diaľnici D1 až do "
-"Bratislavy."
+"Z Poľska si zvoľte najlepšiu cestu do Katowíc. Odtiaľ pokčujte po ceste "
+"smerom na Čadcu a potom po ceste prvej triedy až do Žiliny. Odtiaľ po "
+"diaľnici D1 až do Bratislavy. V Bratislave pokračujte po diaľnici smerom "
+"na Prahu/Brno podľa vyššie uvedených inštrukcií (mali by ste dvakrát "
+"prekročiť Dunaj)."
 
-#: templates/venue.html:47
+#: templates/venue.html:66
 msgid "By bus"
 msgstr "Autobusom"
 
-#: templates/venue.html:49
+#: templates/venue.html:68
 msgid ""
 "All neighbouring capital cities Vienna, Prague, Budapest, Warsaw and Kiev"
 " have direct bus connections."
@@ -1956,23 +2012,30 @@ msgstr ""
 "Všetky okolité hlavné mestá - Viedeň, Praha, Budapešť, Varšava aj Kyjev -"
 " majú priame autobusové spojenie do Bratislavy."
 
-#: templates/venue.html:52
+#: templates/venue.html:71
 msgid ""
-"Once you arrive at the Bratislava bus station (Mlynské Nivy), you'll need"
-" to walk through the terminal towards its main entrance. Take a left and "
-"walk about 70 meters towards a busy street. Do not cross the street. "
-"There will be public transportation bus stops immediately on your right "
-"hand side."
+"Most of the buses will bring you to the main bus station - Mlynske Nivy. "
+"It is currently located in temporary location, so dont\n"
+"            worry and keep calm if you arrive feeling like on "
+"construction site. Leave the area towards the blue oval building VUB\n"
+"            (next to the building with BMW logo) where you find the "
+"station of city bus lines. We recommend you to take bus number\n"
+"            70 to the end station Most SNP (SNP bridge) and from there "
+"continue with line number 30 or 37 to the station ZOO."
 msgstr ""
-"Keď vystúpite na autobusovej stanici v Bratislave (Mlynské Nivy), musíte "
-"prejsť cez staničnú halu k hlavnému vchodu. Zamierte doľava a po "
-"približne 70 metroch sa dostanete k zastávkam mestskej hromadnej dopravy."
+"Autobusom sa dostanete na hlavnú autobusovú stanicu - Mlynské Nivy. "
+"Momentálne sa kvôli výstavbe novej nachádza v dočasných priestoroch, "
+"preto sa nezľaknite, keď vystúpite z autobusu s pocitom, že ste na "
+"stavenisku. Vyjdite z autobusovej stanice a zamierte k modrej oválnej "
+"budove VUB (vedľa budovy s logom BMW), kde nájdete zástavky mestskej "
+"hromadnej dopravy. Odporúčame ísť autobusom 70 na stanicu Most SNP a "
+"odtiaľ pokračovať autbousom 30 alebo 37 na zástavku ZOO."
 
-#: templates/venue.html:56
+#: templates/venue.html:78
 msgid "By train"
 msgstr "Vlakom"
 
-#: templates/venue.html:58
+#: templates/venue.html:80
 msgid ""
 "All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kiev "
 "have direct train connections."
@@ -1981,22 +2044,28 @@ msgstr ""
 "Budapešti, Varšavy aj Kyjeva, sa priamo do Bratislavy možno dostať aj "
 "vlakom."
 
-#: templates/venue.html:61
+#: templates/venue.html:83
 msgid ""
 "Once you arrive at the Bratislava train station (Bratislava hlavná "
-"stanica), you'll need to walk through the terminal towards its main "
-"entrance. Directly in front of the main entrance you'll find all your "
-"public transportation options on your right hand side."
+"stanica), leave the station through the main entrance.\n"
+"            In front of the building, there are bus and tram stops. We "
+"recommend zou to take the bus number 32 to the station ZOO.\n"
+"            If you plan to use city lines more often, we recommend you to"
+" check the website https://imhd.sk/ba/ for more information\n"
+"            about the prices or the lines."
 msgstr ""
-"Po príchode na hlavnú železničnú stanicu v Bratislave prejdite cez "
-"staničnú budovu k hlavnému vchodu. Po pravej ruke, približne o 100 metrov"
-" nižšie, sa nachádzajú zastávky mestskej hromadnej dopravy."
+"Po príchode na hlavnú železničnú stanicu v Bratislave prejdite cez staničnú "
+"budovu k hlavnému vchodu. Pred stanicou sa nachádzajú zástavky mestskej "
+"dopravy. Odporúčame ísť autobusom číslo 32 a vystúpiť na stanici ZOO. "
+"Ak sa plánujete pohybovať po meste metskou dopravou, odporúčame vám stránku "
+"https://imhd.sk/ba/ pre viac informácií o cenách cestovného či trasách "
+"liniek."
 
-#: templates/venue.html:67
+#: templates/venue.html:92
 msgid "Accommodation"
 msgstr "Ubytovanie"
 
-#: templates/venue.html:69
+#: templates/venue.html:94
 msgid ""
 "There are plenty of opportunities for accommodation in Bratislava. From "
 "coach surfing, Airbnb to hostels and five star hotels. Even though it is "
@@ -2008,11 +2077,11 @@ msgstr ""
 "mimo hlavnej turistickej sezóny, určite odporúčame zabezpečiť si "
 "ubytovanie v predstihu."
 
-#: templates/venue.html:72
+#: templates/venue.html:97
 msgid "Guide"
 msgstr "Sprievodca"
 
-#: templates/venue.html:74
+#: templates/venue.html:99
 msgid ""
 "Bratislava offers much more than just PyCon. If you decide to stay in "
 "Bratislava a few days longer, have a look at <a "
@@ -2030,7 +2099,7 @@ msgstr ""
 "miest obyvateľov Bratislavy s ich autentickými odporúčaniami a "
 "subjektívnymi názormi."
 
-#: templates/venue.html:77
+#: templates/venue.html:102
 msgid ""
 "Or you can review the <a href=\"http://www.visitbratislava.com/\" "
 "title=\"city pages for visitors\" target=\"_blank\" "
@@ -2041,157 +2110,3 @@ msgstr ""
 "title=\"stránky mesta pre návštevníkov\" target=\"_blank\" "
 "class=\"external\">oficiálne stránky mesta, určené pre návštevníkov</a>, "
 "kde nájdete aj iné udalosti, ktoré sa práve odohrávajú v Bratislave."
-
-#~ msgid ""
-#~ "By attening, you have a chance to"
-#~ " meet like minded people and hear "
-#~ "a lot of interesting stories. However,"
-#~ "\n"
-#~ "              for those who can not "
-#~ "afford to attend because of financial"
-#~ " reasons we have opened a financial"
-#~ " aid scheme\n"
-#~ "              and give free tickets."
-#~ msgstr ""
-#~ "Ak sa zúčastníte konferencie, máte šancu"
-#~ " stretnúť podobne naladených ľudí a "
-#~ "vypočuť si množstvo zaujímavých príbehov.\n"
-#~ ""
-#~ "              Pre tých, ktorí si z "
-#~ "finančných dôvodov nemôžu dovoliť kúpiť "
-#~ "lístok na konferenciu, pripravili sme "
-#~ "program na podporu\n"
-#~ "              a máme pripravené určité množstvo lístkov zadarmo."
-
-#~ msgid ""
-#~ "We also try to be as eco "
-#~ "friendly as possible, and so we "
-#~ "server food on ceramic plates, eat "
-#~ "with metal\n"
-#~ "              cutlery and drink water from reusable plastic bottles."
-#~ msgstr ""
-#~ "Snažíme sa tiež byť čo možno "
-#~ "najekologickejší, takže jedlo podávame na "
-#~ "keramických tanieroch, jeme s kovovým "
-#~ "príborom \n"
-#~ "              a pitnú vodu poskytujeme z"
-#~ " recyklovateľných plastových fliaš."
-
-#~ msgid ""
-#~ "Within several weeks you will be "
-#~ "informed which school received the kit"
-#~ " and after several months we will"
-#~ "\n"
-#~ "              inform you how succeessful "
-#~ "were the students at creating their "
-#~ "own hardware projects with the provided"
-#~ "\n"
-#~ "              kits. More details about "
-#~ "the project can be found in this"
-#~ " <a href=\"%(pdf)s\" target=\"_blank\">PDF</a>. "
-#~ "During PyCon SK 2019 there\n"
-#~ "              will be several presentations"
-#~ " and workshops connected to the "
-#~ "<i>Teaching with Hardware</i> project."
-#~ msgstr ""
-#~ "V priebehu niekoľkých týždňov budete "
-#~ "informovaný, ktorá škola obdržala               "
-#~ "tento výukový balík a o niekoľko "
-#~ "mesiacov Vás budeme\n"
-#~ "informovať ako úspešní boli študenti pri"
-#~ " tvorbe vlastných               harvérových "
-#~ "projektov s poskytnutým vybavením.\n"
-#~ "Podrobnosti o tomto projekte nájdete v"
-#~ " tomto <a href=\"%(pdf)s\" "
-#~ "target=\"_blank\">PDF</a>. Počas PyConu SK "
-#~ "2019 budú\n"
-#~ "              viaceré prezentácie a workshopy"
-#~ " súvisiace s projektom <i>Učíme s "
-#~ "hardvérom</i>."
-
-#~ msgid "Call for proposals for PyCon SK 2019 will open 16th of October 2018."
-#~ msgstr ""
-#~ "Podávanie návrhov na prednášky pre PyCon"
-#~ " SK bude otvorené 16. októbra 2018."
-
-#~ msgid "About Conference"
-#~ msgstr "O konferencii"
-
-#~ msgid "We have opened call for volunteers."
-#~ msgstr ""
-
-#~ msgid "We have opened call for proposals."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "All of our staff members are "
-#~ "volunteers. We are looking for a "
-#~ "new memebers to join the team of"
-#~ " organizers."
-#~ msgstr ""
-#~ "Všetci členovia nášho tímu sú "
-#~ "doborvoľníci. Do tímu organizátorov hľadáme"
-#~ " nových členov."
-
-#~ msgid ""
-#~ "If you send more than 40 hours "
-#~ "during the year as a volunteer you"
-#~ " can give 3%% to any registered "
-#~ "non-profit in your tax return."
-#~ msgstr ""
-#~ "Ak stráviš vykonávaním dobrovoľníckej práce"
-#~ " viac ako 40 hodín v priebehu "
-#~ "roka, môžeš venovať 3%% svojich daní "
-#~ "neziskovej organizácii pri podaní svojho "
-#~ "daňového priznania."
-
-#~ msgid "Frequently Asked Questions"
-#~ msgstr "Často kladené otázky"
-
-#~ msgid "International PyCon organizers meeting [EN]"
-#~ msgstr "Medzinárodné stretnutie organizátorov konferencií PyCon [EN]"
-
-#~ msgid "We have confirmed these workshops for teachers"
-#~ msgstr ""
-
-#~ msgid "We will add workshops for teachers on other topics aswell."
-#~ msgstr ""
-
-#~ msgid "45 minutes (talks)"
-#~ msgstr "45 minút (prednáška)"
-
-#~ msgid ""
-#~ "EduSummit is a special section of "
-#~ "the conference focused on teaching "
-#~ "programming at primary and secondary "
-#~ "schools. After two years of having "
-#~ "an EduTrack at PyCon SK, consisting "
-#~ "of a single day of talks for "
-#~ "teachers, we are now organising a "
-#~ "two day summit during which teachers "
-#~ "will be introduced to innovative ways"
-#~ " and methods of teaching programming, "
-#~ "share their knowledge of useful tools"
-#~ " and last but not least participate"
-#~ " in numerous workshops given by "
-#~ "experienced educators. This year’s keynote "
-#~ "speaker will be Juraj Hromkovič, a "
-#~ "professor at ETH Zürich, whose main "
-#~ "focus of work is education for "
-#~ "teachers of Computer Science.\n"
-#~ msgstr ""
-#~ "EduSummit je špeciálna sekcia konferencie "
-#~ "zameraná na vyučovanie programovania na "
-#~ "základných a stredných školách. Po dvoch"
-#~ " rokoch, keď sme v rámci PyCon "
-#~ "SK organizovali EduTrack pozostávajúci z "
-#~ "jedného dňa prednášok pre učiteľov, "
-#~ "tentokrát pripravujeme rozšírený, dvojdňový "
-#~ "program pre učiteľov a nadšencov "
-#~ "vyučovania informatiky. Počas EduSummitu sa"
-#~ " budeme venovať inovatívnym spôsobom a "
-#~ "metódam vo vyučovaní informatiky, pričom "
-#~ "si komunita učiteľov má možnosť zdieľať"
-#~ " svoje skúsenosti a vedomosti o "
-#~ "užitočných nástrojoch"
-
