@@ -2413,7 +2413,8 @@ h4.panel-title a.collapsed:before {
 	position: relative;
 }
 
-.newsletter-form input{
+/*.newsletter-form input{*/
+.newsletter-form .email {
 	 width: 100%;
 	 display: inline-block;
 	 font-size: 12px;
