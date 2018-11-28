@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-14 16:16+0100\n"
+"POT-Creation-Date: 2018-11-28 22:14+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -712,8 +712,7 @@ msgstr "Profesor Juraj Hromkovič, DrSc."
 
 #: templates/edusummit.html:21
 msgid "Please note that EduSummit will be primarily in Slovak language."
-msgstr ""
-"Dovoľujeme si upozorniť, že EduSummit bude primárne v slovenskom jazyku."
+msgstr " "
 
 #: templates/edusummit.html:25
 msgid "EduSummit workshops"
@@ -779,7 +778,7 @@ msgstr "tu.</a>"
 
 #: templates/edusummit.html:43
 msgid "SPy Cup"
-msgstr "SPy pohár"
+msgstr "SPy Cup"
 
 #: templates/edusummit.html:45
 msgid ""
@@ -860,7 +859,7 @@ msgstr ""
 
 #: templates/edusummit.html:64
 msgid "Poster Session"
-msgstr "Posterová session"
+msgstr "Posterová sekcia"
 
 #: templates/edusummit.html:66
 msgid "We will host a poster session and we will be happy if you get involved."
@@ -868,7 +867,7 @@ msgstr "Budeme organizovať aj posterovú sekciu a budeme radi, ak sa zapojíte.
 
 #: templates/edusummit.html:70
 msgid "Python Cup"
-msgstr "Python pohár"
+msgstr "Python Cup"
 
 #: templates/edusummit.html:72
 msgid "The winners of Python Cup will be awarded at EduSummit."
@@ -900,7 +899,7 @@ msgstr ""
 
 #: templates/edusummit.html:83
 msgid "Young Coders' day"
-msgstr "Deň mladých kóderov"
+msgstr "Young Coders' day"
 
 #: templates/edusummit.html:85
 msgid ""
@@ -1882,12 +1881,12 @@ msgid ""
 "getting here."
 msgstr ""
 "Bratislava patrí medzi najmladšie a tiež najmenšie hlavné mestá Európy. "
-"Napriek tomu má bohatú históriu slobodného kráľovského korunovačného mesta, "
-"kedy sa ešte nazývala Prešporok a mnoho možností, ako stráviť čas počas "
-"vašej návštevy mesta. Bratislava je unikátna svojou polohou, ako jediné "
-"hlavné mesto na svete sa nachádza na hranici troch štátov. Dnes je "
-"Bratislava významným dopravným uzlom v strednej Európe a možností, ako sa "
-"sem dostať, je neúrekom."
+"Napriek tomu má bohatú históriu slobodného kráľovského korunovačného "
+"mesta, kedy sa ešte nazývala Prešporok a mnoho možností, ako stráviť čas "
+"počas vašej návštevy mesta. Bratislava je unikátna svojou polohou, ako "
+"jediné hlavné mesto na svete sa nachádza na hranici troch štátov. Dnes je"
+" Bratislava významným dopravným uzlom v strednej Európe a možností, ako "
+"sa sem dostať, je neúrekom."
 
 #: templates/venue.html:29
 msgid "By air"
@@ -1910,11 +1909,11 @@ msgid ""
 "Get off the bus at the station ZOO and simply follow the PyCon stickers "
 "up to the hill to univerrsity campus."
 msgstr ""
-"Z bratislavského letiska môžete ísť taxíkom (zvaolajte si ho telefonicky, "
-"je to lacnejšie), prípadne môžete ísť autobusom číslo 61 a na zástavke "
-"Bajkalská prestúpte na autobus číslo 39. Linkou 39 sa odveziete na zástavku "
-"Mlynská dolina, kde prichádzate do cieľa. Ďalej už len nasledujte nálepky "
-"PyconSK smerom na kopec."
+"Z bratislavského letiska môžete ísť taxíkom (zvaolajte si ho telefonicky,"
+" je to lacnejšie), prípadne môžete ísť autobusom číslo 61 a na zástavke "
+"Bajkalská prestúpte na autobus číslo 39. Linkou 39 sa odveziete na "
+"zástavku Mlynská dolina, kde prichádzate do cieľa. Ďalej už len "
+"nasledujte nálepky PyconSK smerom na kopec."
 
 #: templates/venue.html:39
 msgid ""
@@ -1925,13 +1924,13 @@ msgid ""
 "Bratislava: SlovakLines (red buses), Blaguss (silver buses) and RegioJet "
 "(Yellow busses)."
 msgstr ""
-"Ak letíte do Viedne, medzi viedenským letiskom a Bratislavou premáva priame "
-"a cenovo dostupné autobusové spojenie každú hodinu od skorého rána až do "
-"neskorej noci - jednosmerná jazda stojí okolo 8 EUR, ak si zakúpite lístok "
-"v predstihu môže byť výrazne lacnejší. Autobusovú prepravu prevádzkujú tri "
-"spoločnosti: SlovakLines (červené autobusy), Blaguss (strieborné autobusy), "
-"RegioJet (žlté autobusy). Týmito autobusmi sa dostanete na hlavnú "
-"autobusovú stanicu Mlynské Nivy."
+"Ak letíte do Viedne, medzi viedenským letiskom a Bratislavou premáva "
+"priame a cenovo dostupné autobusové spojenie každú hodinu od skorého rána"
+" až do neskorej noci - jednosmerná jazda stojí okolo 8 EUR, ak si "
+"zakúpite lístok v predstihu môže byť výrazne lacnejší. Autobusovú "
+"prepravu prevádzkujú tri spoločnosti: SlovakLines (červené autobusy), "
+"Blaguss (strieborné autobusy), RegioJet (žlté autobusy). Týmito autobusmi"
+" sa dostanete na hlavnú autobusovú stanicu Mlynské Nivy."
 
 #: templates/venue.html:46
 msgid "By car"
@@ -1950,13 +1949,13 @@ msgid ""
 "            crossroad where you turn right and immediately turn slightly "
 "left up the hill towards the university campus."
 msgstr ""
-"Z Viedne smerom na letisko Schwechat po diaľnici A4, odbočte na diaľnicu A6,"
-" ktorá vedie priamo do Bratislavy. Po príjazde do Bratislavy sledujte smer "
-"Praha/Brno a ihneď po prechode Dunaja zídite z diaľnice a pokračujte po "
-"ceste paralelnej s diaľnicou. Po niekoľko sto metroch prídete na nadjazd, "
-"kde odbočíte doľava, ponad diaľnicu smerom k výškovej budove Slovenskej "
-"televízie. Hneď za nadjazdom odbočte doľava a následne doprava smerom do "
-"kopca k univerzitnému kampusu."
+"Z Viedne smerom na letisko Schwechat po diaľnici A4, odbočte na diaľnicu "
+"A6, ktorá vedie priamo do Bratislavy. Po príjazde do Bratislavy sledujte "
+"smer Praha/Brno a ihneď po prechode Dunaja zídite z diaľnice a pokračujte"
+" po ceste paralelnej s diaľnicou. Po niekoľko sto metroch prídete na "
+"nadjazd, kde odbočíte doľava, ponad diaľnicu smerom k výškovej budove "
+"Slovenskej televízie. Hneď za nadjazdom odbočte doľava a následne doprava"
+" smerom do kopca k univerzitnému kampusu."
 
 #: templates/venue.html:54
 msgid ""
@@ -1980,9 +1979,9 @@ msgid ""
 msgstr ""
 "Z Prahy po diaľnici D1 do Brna, tam odbočte na D2, ktorá vedie až na "
 "Slovensko a pokračujte smerom do Bratislavy. Po príjazde do Bratislavy "
-"pokračujte po diaľnici a opustite ju na výjazde MLynská dolina (smer Devín, "
-"Karlova Ves), ktorý sa nachádza za tunelom. Pozor, výjazd začína hneď za "
-"tunelom, preraďte sa včas."
+"pokračujte po diaľnici a opustite ju na výjazde MLynská dolina (smer "
+"Devín, Karlova Ves), ktorý sa nachádza za tunelom. Pozor, výjazd začína "
+"hneď za tunelom, preraďte sa včas."
 
 #: templates/venue.html:59
 msgid ""
@@ -2054,12 +2053,12 @@ msgid ""
 " check the website https://imhd.sk/ba/ for more information\n"
 "            about the prices or the lines."
 msgstr ""
-"Po príchode na hlavnú železničnú stanicu v Bratislave prejdite cez staničnú "
-"budovu k hlavnému vchodu. Pred stanicou sa nachádzajú zástavky mestskej "
-"dopravy. Odporúčame ísť autobusom číslo 32 a vystúpiť na stanici ZOO. "
-"Ak sa plánujete pohybovať po meste metskou dopravou, odporúčame vám stránku "
-"https://imhd.sk/ba/ pre viac informácií o cenách cestovného či trasách "
-"liniek."
+"Po príchode na hlavnú železničnú stanicu v Bratislave prejdite cez "
+"staničnú budovu k hlavnému vchodu. Pred stanicou sa nachádzajú zástavky "
+"mestskej dopravy. Odporúčame ísť autobusom číslo 32 a vystúpiť na stanici"
+" ZOO. Ak sa plánujete pohybovať po meste metskou dopravou, odporúčame vám"
+" stránku https://imhd.sk/ba/ pre viac informácií o cenách cestovného či "
+"trasách liniek."
 
 #: templates/venue.html:92
 msgid "Accommodation"
@@ -2110,3 +2109,4 @@ msgstr ""
 "title=\"stránky mesta pre návštevníkov\" target=\"_blank\" "
 "class=\"external\">oficiálne stránky mesta, určené pre návštevníkov</a>, "
 "kde nájdete aj iné udalosti, ktoré sa práve odohrávajú v Bratislave."
+
