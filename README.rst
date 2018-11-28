@@ -41,7 +41,7 @@ Installation
     export FLASK_ENV=development
     export FLASK_APP=pycon.py
 
-- activate pipenv virtual environment
+- activate pipenv virtual environment::
 
     pipenv shell
 

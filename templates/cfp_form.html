@@ -20,7 +20,7 @@
       method="POST">
       <h3>{{ _('About speaker') }}</h3>
     <fieldset>
-        <legend for="">Email</legend>
+        <legend for="">Email <span class="required">*</span></legend>
         <div class="form-group">
             <input id="emailAddress" type="email" name="emailAddress" class="form-control" required>
         </div>
@@ -28,7 +28,7 @@
 
     <!-- Field type: "short" id: "1719435898" -->
     <fieldset>
-        <legend for="1719435898">{{ _('Your name') }}</legend>
+        <legend for="1719435898">{{ _('Your name') }} <span class="required">*</span></legend>
         <div class="form-group">
             <p class="help-block">{{ _('Your name will be displayed on our website if your talk is accepted.') }}</p>
             <input id="721522564" type="text" name="entry.721522564" class="form-control" required>
@@ -37,7 +37,7 @@
 
     <!-- Field type: "paragraph" id: "931103373" -->
     <fieldset>
-        <legend for="931103373">{{ _('Biography') }}</legend>
+        <legend for="931103373">{{ _('Biography') }} <span class="required">*</span></legend>
         <div class="form-group">
             <p class="help-block">{{ _('Your biography will be displayed on our website if your talk is accepted.') }}</p>
             <textarea id="1240136343" name="entry.1240136343" class="form-control" required></textarea>
@@ -46,7 +46,7 @@
 
     <!-- Field type: "short" id: "538261903" -->
     <fieldset>
-        <legend for="538261903">{{ _('Profile picture') }}</legend>
+        <legend for="538261903">{{ _('Profile picture') }} <span class="required">*</span></legend>
         <div class="form-group">
             <p class="help-block">{{ _('Please provide us with URL where we can download your profile picture that will be published on our website if your talk is accepted.') }}</p>
             <input id="1572787741" type="text" name="entry.1572787741" class="form-control" required>
@@ -65,7 +65,7 @@
     <h3>{{ _('About talk') }}</h3>
     <!-- Field type: "short" id: "888263707" -->
     <fieldset>
-        <legend for="888263707">{{ _('Title') }}</legend>
+        <legend for="888263707">{{ _('Title') }} <span class="required">*</span></legend>
         <div class="form-group">
             <p class="help-block">{{ _('Name of your talk/workshop as it will be displayed on our website if your talk is accepted.') }}</p>
             <input id="369008787" type="text" name="entry.369008787" class="form-control" required>
@@ -74,7 +74,7 @@
 
     <!-- Field type: "paragraph" id: "616071665" -->
     <fieldset>
-        <legend for="616071665">{{ _('Abstract') }}</legend>
+        <legend for="616071665">{{ _('Abstract') }} <span class="required">*</span></legend>
         <div class="form-group">
             <p class="help-block">{{ _('Abstract of your talk will be published on our website if your talk is accepted.') }}</p>
             <textarea id="1317367521" name="entry.1317367521" class="form-control" required></textarea>
@@ -83,7 +83,7 @@
 
     <!-- Field type: "choices" id: "981766256" -->
     <fieldset>
-        <legend for="981766256">{{ _('Type') }}</legend>
+        <legend for="981766256">{{ _('Type') }} <span class="required">*</span></legend>
         <div class="form-group">
             <p class="help-block">{{ _('What kind of performance you will do?') }}</p>
             <div class="radio">
@@ -104,12 +104,18 @@
                     {{ _('Poster') }}
                 </label>
             </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="entry.1191148942" value="Hardware Projects Showcase" required>
+                    {{ _('Hardware Projects Showcase') }}
+                </label>
+            </div>
         </div>
     </fieldset>
 
     <!-- Field type: "choices" id: "1929463061" -->
     <fieldset>
-        <legend for="1929463061">{{ _('Language') }}</legend>
+        <legend for="1929463061">{{ _('Language') }} <span class="required">*</span></legend>
         <div class="form-group">
             <p class="help-block">{{ _('In which language your performance will be?') }}</p>
             <div class="radio">
@@ -135,7 +141,7 @@
 
     <!-- Field type: "choices" id: "1244715486" -->
     <fieldset>
-        <legend for="1244715486">{{ _('Time Slot') }}</legend>
+        <legend for="1244715486">{{ _('Time Slot') }} <span class="required">*</span></legend>
         <div class="form-group">
             <div class="radio">
                 <label>
@@ -145,8 +151,26 @@
             </div>
             <div class="radio">
                 <label>
-                    <input type="radio" name="entry.1403279435" value="45 minutes (talks)" required>
-                    {{ _('45 minutes (talks)') }}
+                    <input type="radio" name="entry.1403279435" value="45 minutes (talks/workshops)" required>
+                    {{ _('45 minutes (talks/workshops)') }}
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="entry.1403279435" value="60 minutes (workshops/Hardware Projects Showcase)" required>
+                    {{ _('60 minutes (workshops/Hardware Projects Showcase)') }}
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="entry.1403279435" value="90 minutes (workshops)" required>
+                    {{ _('90 minutes (workshops)') }}
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="entry.1403279435" value="120 minutes (workshops)" required>
+                    {{ _('120 minutes (workshops)') }}
                 </label>
             </div>
             <div class="radio">
@@ -167,7 +191,7 @@
         <h3>{{ _('Travel funding') }}</h3>
     <!-- Field type: "choices" id: "739210763" -->
     <fieldset>
-        <legend for="739210763">{{ _('Do you need travel funding?') }}</legend>
+        <legend for="739210763">{{ _('Do you need travel funding?') }} <span class="required">*</span></legend>
         <div class="form-group">
             <p class="help-block">{{ _('Please bear in mind that we are community conference with limited budget and we might not be able to fund you.') }}</p>
             <div class="radio">
