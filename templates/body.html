@@ -45,17 +45,15 @@
 
 <body>
 	<div class="body-inner">
-	<!--<div class="preload"></div> -->
+{#	<div class="preload"></div>#}
 	<!-- Header start -->
 	<header id="header" class="header header-transparent">
 		<div class="container">
 			<div class="row">
 				<div class="navbar-header">
-					<div class="logo">
 	                <a href="index.html">
-	                	<img src="{{ url_for('static', filename='images/pycon_logo_square_60x60.png') }}" alt="">
+                        <img src="{{ url_for('static', filename='images/pycon_logo_square_60x60.png') }}" class="logo" alt="">
 	                </a>
-         		</div><!-- logo end -->
 				</div><!-- Navbar header end -->
 
 				<div class="site-nav-inner">
@@ -161,7 +159,7 @@
 							<i class="fa fa-phone"></i>
 						</span>
 						<div class="action-box-content">
-							<h3>Event Organiser</h3>
+							<h3>{{ _('Event Organiser') }}</h3>
 							<p class="action-box-text">+421 948 101 676</p>
 						</div>
 					</div><!-- Action box 3 end -->
