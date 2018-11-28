@@ -190,7 +190,8 @@
               </fieldset>
 
               <p>{{ _('You can unsubscribe at any time by clicking the link in the footer of our emails.') }}
-                 {{ _('For information about our privacy practices, please visit our website.') }}
+                 {{ _('For information about our privacy practices, please visit our <a href="%(url)s">Privacy Policy</a>.', url=url_for('privacy_policy', lang_code=lang_code)) }}
+            <br/><span class="oi oi-bug"></span>
               </p>
 
               <p>
@@ -220,8 +221,11 @@
 							<ul>
 								<li><a href="https://www.facebook.com/pyconsk"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="https://twitter.com/pyconsk"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="https://twitter.com/pyconsk"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
+								<li><a href="https://www.linkedin.com/company/spy-o--z-/"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://www.meetup.com/pyconsk/"><i class="fa fa-meetup"></i></a></li>
+                <li><a href="https://pyconsk.slack.com/"><i class="fa fa-slack"></i></a></li>
+                <li><a href="https://github.com/pyconsk/"><i class="fa fa-github"></i></a></li>
+              </ul>
 						</div><!-- Footer social end -->
 
 						<div class="copyright-info">
@@ -237,7 +241,7 @@
                   spy = '<a href="https://spy.python.sk" target="_blank" class="external">%s</a>' % _('SPy o.z.')) }} {{ _('Our <a href="%(url)s">Privacy Policy</a>.', url=url_for('privacy_policy', lang_code=lang_code)) }}
             <br/><span class="oi oi-bug"></span>
              {{ _('Found a bug? Missing some information? This is community managed website, contribute at our %(github)s.',
-                  github = '<a href="https://github.com/pyconsk/2018.pycon.sk" target="_blank" class="external">GitHub</a>') }}
+                  github = '<a href="https://github.com/pyconsk/2019.pycon.sk" target="_blank" class="external">GitHub</a>') }}
           </p>
           {% endautoescape %}
         {% endblock %}
@@ -248,12 +252,18 @@
 						<div class="footer-menu">
 							<ul class="nav unstyled">
                 <li><a href="https://spy.python.sk/{{ lang_code }}/" class="nav-link external">{{ _('About Us') }}</a></li>
-
-								<li><a href="#">Speakers</a></li>
-								<li><a href="#">Become a Sponsor</a></li>
-								<li><a href="#">Register</a></li>
-								<li><a href="#">Videos</a></li>
-							</ul>
+                <li><a href="{{ url_for('sponsoring', lang_code=lang_code) }}">{{ _('Become a Sponsor') }}</a></li>
+                <li><a href="{{ url_for('cfp', lang_code=lang_code) }}" class="nav-link">{{ _('Submit your talk') }}</a></li>
+                <li><a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('Help out as a volunteer') }}</a></li>
+								<li><a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Buy your ticket') }}</a></li>
+							{% if lang_code == 'sk' %}
+                <li><a href="{{ request.path|replace('/'+lang_code, '/en', 1) }}" title="Switch to english language"
+                     hreflang="en"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACJElEQVQokYWQW0jTYQDFv8ceehELCx96CoqlYaxSQYaZoWBCNTNl6JbLkKGV+RBZy3mp8Ia3LooammGY5TIyAzOHKVmRQ52xdIREMMlVkLKm///362HVk9B5OnA4F45oaB5m0LVE8a1xzGXjmMtGMdlGcHt8PMyx0Wu04vb4SLYMkJQ7SJzBTqbtOa1HzlDcNobouv8GHvcgJcwtLNNpn+NO3zxSAk3VUFuBlNDQMU1Nm5OJ15+RlZeQaoC6fifiZLmDoYlvcK8bHC8AuHrTBQCn8sBoAqCodorlzl78VVUAtPdMsVV7OxjQYfdgrXexMPwJpfQK/2AwQPqJIM/PA68X57yP+ORuCktfERJRj3B7fMG56yEtDVJT15WkhHezi4he02VovA5mM2RnQ0YG6PVBY0oKMjGRVZ2OQEwMfq2WlchIVjQaAscOUbEt9j8L4uJQ9kX/7QRAVVUUVWFNUZhweRG6rH6qWyfJzB1kxvUdfEsEcrKDlj1a1nZH/QlQ+XIgnpfNT9kS3oLe2IcItSD2H3/E3b7g6z9tVn5UVmIoGgdA0USwulMDUhKr6yIALLe04TUaKL3xHhFyGtH4ZBopVfzXLjA2Mse5EgcFJaNICao+ibWjCUhVJT13gLSsBzwb/Yiq/OKr8TCWwi7ExfYRmg7mkJDXSciuVjbuaGTD9jomZ71UhEdTHqbl7cwiIuw8YvNZRGg+m6Ks1Ax9IHFvAb8B0rMYCWdRNDQAAAAASUVORK5CYII=" alt="english language"></a></li>
+              {% else %}
+                <li><a href="{{ request.path|replace('/'+lang_code, '/sk', 1) }}" title="Prepnúť na slovenský jazyk"
+                       hreflang="sk"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACO0lEQVQokXXMTUiTARzH8T94FOrgyYsddkkQJcFIyhQ1kUzQUHMTRRMNU6xMLXpRMLVS8gWkrKhDXesk0TFKIgzTXPMt2ea0JWOutT179uzlefbtUlKHfvA5/r5iqBqGqv5LUYgrCvGAQtQfQPP7UX1+VK8PxeMlsOPB73bj23YjhqrxZ4lEYo9hJDAMA13X0XWdeDxOLBYjGo0SiUTQNA2vaxsxVBWA8NNnhCfuo45PERqdJDQ6/t9jOBxG0zR27E4k37zOi9c/ULpvkGhuwnA4MIYGiVnqmHjk4s70N4amthiY3KRvzMm1ETu9tze4+8CJJL1CkkxzDD7eJdDRjfFpHsO3i77lQqut42aflZrOr9ScX6Gy1cap5i+UNixRaFmk4dIyIk8QOTDHrYde/G1d6C2N6A4H8bvDRC0WLl61cbpjncpzK5Q32yhtsFJkWeL4mUXqLuwFFhmY9mB9a2e4Z5b2nmXaOxfYnJnFfNlOedsGJ1vWONG0SkH9CsfMNo5UW6nqXEPkOfJGBNeVEb4PT2F/v0Zjr53Vd+u4+sewFpj5fLSahcMVzB8q42NGKXMHi/hgymehqI57IkhUBL21lVhxMbHuLn6+nCFwvR8tM5NwejqqyUQoLQ0lNZVgSgqB/fsIJCcTzMrCKYJoIsSbzhKrrydaW0u0qppIRQVaWRlaSQnhwkLUvDxCubkoOTkEs7MJZmURzMjALoKoIigiBETwi+D7zSuCR4QdEdwibIvgEsEpgv0vvwCcffbRnUTGYAAAAABJRU5ErkJggg==" alt="slovenský jazyk"></a></li>
+              {% endif %}
+              </ul>
 						</div><!-- Footer menu end -->
 
 					</div><!-- Col end -->
