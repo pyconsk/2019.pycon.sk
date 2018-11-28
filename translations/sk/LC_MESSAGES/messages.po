@@ -712,7 +712,7 @@ msgstr "Profesor Juraj Hromkovič, DrSc."
 
 #: templates/edusummit.html:21
 msgid "Please note that EduSummit will be primarily in Slovak language."
-msgstr "Dovoľujeme si upozorniť, že EduSummit bude primárne v slovenskom jazyku."
+msgstr " "
 
 #: templates/edusummit.html:25
 msgid "EduSummit workshops"
@@ -867,7 +867,7 @@ msgstr "Budeme organizovať aj posterovú sekciu a budeme radi, ak sa zapojíte.
 
 #: templates/edusummit.html:70
 msgid "Python Cup"
-msgstr "Python pohár"
+msgstr "Python Cup"
 
 #: templates/edusummit.html:72
 msgid "The winners of Python Cup will be awarded at EduSummit."
@@ -899,7 +899,7 @@ msgstr ""
 
 #: templates/edusummit.html:83
 msgid "Young Coders' day"
-msgstr "Deň mladých kóderov"
+msgstr "Young Coders' day"
 
 #: templates/edusummit.html:85
 msgid ""
