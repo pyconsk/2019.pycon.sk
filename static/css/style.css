@@ -922,10 +922,22 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 .banner-item{
 	min-height: 700px;
 	color: #fff;
+	background-image: url('../images/main-banner/banner-bg.jpg');
 	background-position: 50% 50%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	-webkit-backface-visibility: hidden;
+}
+
+.banner-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.33;
 }
 
 .banner-content,
@@ -1559,6 +1571,10 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 	 margin: 0 0 0 20px;
 }
 
+.featured-tab .tab-pane .btn-primary {
+	 margin-top: 20px;
+}
+
 .tab-content-title{
 	 font-size: 18px;
 	 margin: 0 0 10px;
@@ -1589,6 +1605,17 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 	 background-size: cover;
 	 background-attachment: fixed;
 	 background-position: 50% 50%;
+}
+
+.facts-area:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.33;
 }
 
 .bg-overlay:after {
@@ -2567,7 +2594,7 @@ h4.panel-title a.collapsed:before {
 
 .page-banner-area {
     position: relative;
-    min-height: 350px;
+    min-height: 400px;
     color: #fff;
     background-position: 50% 50%;
     -webkit-background-size: cover;
@@ -2621,10 +2648,57 @@ h4.panel-title a.collapsed:before {
 	font-weight: 400;
 }
 
+.banner1 {
+	background-image:url('../images/banner/banner1.jpg');
+}
+
+.banner2 {
+	background-image:url('../images/banner/banner2.jpg');
+}
+
+.banner3 {
+	background-image:url('../images/banner/banner3.jpg');
+}
+
+.banner4 {
+	background-image:url('../images/banner/banner4.jpg');
+}
+
 .banner5 {
 	background-image:url('../images/banner/banner5.jpg');
 }
 
+.banner6 {
+	background-image:url('../images/banner/banner6.jpg');
+}
+
+.banner7 {
+	background-image:url('../images/banner/banner7.jpg');
+}
+
+.banner8 {
+	background-image:url('../images/banner/banner8.jpg');
+}
+
+.banner9 {
+	background-image:url('../images/banner/banner9.jpg');
+}
+
+.banner10 {
+	background-image:url('../images/banner/banner10.jpg');
+}
+
+.banner11 {
+	background-image:url('../images/banner/banner11.jpg');
+}
+
+.banner12 {
+	background-image:url('../images/banner/banner12.jpg');
+}
+
+.banner13 {
+	background-image:url('../images/banner/banner13.jpg');
+}
 /*-- About us page --*/
 
 .about-img-2nd{

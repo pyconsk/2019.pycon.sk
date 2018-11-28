@@ -12,7 +12,7 @@
 
 {% block content %}
   <section id="banner">
-		<div class="banner-item" style="background-image:url({{ url_for('static', filename='images/main-banner/banner-bg.jpg') }})">
+		<div class="banner-item">
 			<div class="container">
 				<div class="banner-content text-center">
 					<h1 class="banner-title">{{ _('<span>Be a part of </span>PyCon SK 2019.') }}</h1>
@@ -109,32 +109,31 @@
 				        		<h3 class="tab-content-title">{{ _('Respected industry leaders with future-tech talks.') }}</h3>
 				        		<p>{{ _('Appart from well recognized community members we also invite first time speakers to submit a talk.') }}</p>
                     <p>{{ _('If you\'ve done something that you think other people might be interested in, or that you think they should know about, please do consider telling us about it.') }}</p>
-                    <p>
-							        <a href="#" class="btn btn-primary">{{ _('Submit yor talk') }} <i class="fa fa-play"></i></a>
+                    <p class="text-center">
+							        <a href="#" class="btn btn-primary">{{ _('Submit your talk') }} <i class="fa fa-play"></i></a>
 						        </p>
 					      </div><!-- Tab pane 1 end -->
 
 				        <div class="tab-pane animated fadeInRight" id="tab_b">
 				            <img class="about-tab-img pull-right" src="{{ url_for('static', filename='images/icon-image/tab-img2.png') }}" alt="" />
 				        		<h3 class="tab-content-title">{{ _('Great opportunity to network') }}</h3>
-				        		<p>{{ _('PyCon is organized by the Python community and for the Python community. You\'re coming to the event, and that makes you part of the community.') }}</p>
-                    <p>{{ _('Peopele at PyCon SK are friendly, so join us and come to make new friends.') }}</p>
-								    <p>
-							        <a href="#" class="btn btn-primary">{{ _('Buy ticket') }} <i class="fa fa-play"></i></a>
+				        		<p>{{ _('PyCon is organized by the Python community and for the Python community. Joining the event makes you part of the community.') }}</p>
+                    <p>{{ _('People at PyCon SK are very nice, so come and make new friends.') }}</p>
+                    <p>{{ _('Besides great people you can meet interesting hi-tech companies to discuss job or business opportunities.') }}</p>
+								    <p class="text-center">
+							        <a href="{{ url_for('tickets', lang_code=lang_code) }}" class="btn btn-primary">{{ _('Buy ticket') }} <i class="fa fa-play"></i></a>
 						        </p>
 				        </div><!-- Tab pane 2 end -->
 
 				        	<div class="tab-pane animated fadeInLeft" id="tab_c">
 				            <img class="about-tab-img pull-left" src="{{ url_for('static', filename='images/icon-image/tab-img3.png') }}" alt="" />
-				        		<h3 class="tab-content-title">Food and drinks are provided for all attendees.</h3>
-				        		<p>Aenean et dolor pretium, feugiat leom nongial, aliquettiabser libero. Consectetur ut vestibulum vivamus.</p>
-					        	<ul class="list-arrow">
-									<li>Maecenas nibh dolor</li>
-									<li>Aliquettiabser libero</li>
-									<li>Consectetur ut vestibulum</li>
-									<li>Skateboard dolor brunch</li>
-								</ul>
-				        	</div><!-- Tab pane 3 end -->
+				        		<h3 class="tab-content-title">{{ _('Food and drinks are provided for all attendees.') }}</h3>
+				        		<p>{{ _('On Friday we will have an unofficial party. We meet in a pub talk and have fun. Everybody at their own expense.') }}</p>
+				        		<p>{{ _('On Saturday we will have an official dinner. We meet in a pub talk and have fun again :D Most of the volunteers and speakers join this party, but for this one you will need a separate ticket.') }}</p>
+				        	  <p class="text-center">
+							        <a href="{{ url_for('tickets', lang_code=lang_code) }}" class="btn btn-primary">{{ _('Buy ticket') }} <i class="fa fa-play"></i></a>
+						        </p>
+                  </div><!-- Tab pane 3 end -->
 						</div><!-- tab content -->
 					</div><!-- Featured tab end -->
 				</div><!-- Col end -->
@@ -145,9 +144,7 @@
 
 	<section id="facts" class="facts-area">
 		<div class="container">
-  		<div class="text-center">
-        <h3>{{ _('Last year in numbers') }}</h3>
-      </div>
+
 			<div class="row">
 				<div class="facts-wrapper">
 					<div class="col-sm-3 ts-facts">
@@ -186,7 +183,7 @@
 							<h3 class="ts-facts-title">{{ _('Sponsors') }}</h3>
 						</div>
 						<div class="ts-facts-icon">
-							<i class="fa fa-windows"></i>
+							<i class="fa fa-handshake-o"></i>
 						</div>
 					</div><!-- Col 4 end -->
 				</div><!-- Facts end -->
