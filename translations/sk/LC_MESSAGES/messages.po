@@ -778,7 +778,7 @@ msgstr "tu.</a>"
 
 #: templates/edusummit.html:43
 msgid "SPy Cup"
-msgstr "SPy pohár"
+msgstr "SPy Cup"
 
 #: templates/edusummit.html:45
 msgid ""
