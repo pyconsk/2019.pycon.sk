@@ -859,7 +859,7 @@ msgstr ""
 
 #: templates/edusummit.html:64
 msgid "Poster Session"
-msgstr "Posterová session"
+msgstr "Posterová sekcia"
 
 #: templates/edusummit.html:66
 msgid "We will host a poster session and we will be happy if you get involved."
