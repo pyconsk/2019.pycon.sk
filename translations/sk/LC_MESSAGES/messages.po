@@ -475,10 +475,10 @@ msgstr "Potrebujeme ťa, aby si pomohol s organizáciou PyCon SK 2019!"
 
 #: templates/cfv.html:19 templates/index.html:43
 msgid ""
-"All of our staff members are volunteers. We are looking for a new members"
-" to join the team of organizers."
+"All of our staff members are volunteers. We are looking for new members "
+"to join the team of organizers."
 msgstr ""
-"Všetci členovia nášho tímu sú doborvoľníci. Do tímu organizátorov hľadáme"
+"Všetci členovia nášho tímu sú dobrovoľníci. Do tímu organizátorov hľadáme"
 " nových členov."
 
 #: templates/cfv.html:20
@@ -491,11 +491,11 @@ msgstr ""
 
 #: templates/cfv.html:24
 msgid ""
-"As a volunteer you get a free ticket to the  conference as a thank you "
-"for making the change  in our society."
+"As a volunteer you get a free ticket to the conference as a thank you for"
+" making the change in our society."
 msgstr ""
 "Ako dobrovoľník dostaneš voľný lístok na konferenciu ako poďakovanie za "
-"to, že pomáhaš zlepšovať nasšu spoločnosť."
+"to, že pomáhaš zlepšovať našu spoločnosť."
 
 #: templates/cfv.html:25
 #, python-format
@@ -503,6 +503,8 @@ msgid ""
 "If you spend more than 40 hours during the year as a volunteer you can "
 "give 3%% to any registered non-profit in your tax return."
 msgstr ""
+"Ak počas roka vykonáš viac ako 40 hodín dobrovoľníckej práce, môžeš "
+"darovať až 3%% zo svojich daní ktorejkoľvek neziskovej organizácii."
 
 #: templates/cfv.html:51
 msgid "Your phone"

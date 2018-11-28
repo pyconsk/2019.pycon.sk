@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-27 21:59+0100\n"
+"POT-Creation-Date: 2018-11-28 23:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -420,8 +420,8 @@ msgstr ""
 
 #: templates/cfv.html:19 templates/index.html:43
 msgid ""
-"All of our staff members are volunteers. We are looking for a new members"
-" to join the team of organizers."
+"All of our staff members are volunteers. We are looking for new members "
+"to join the team of organizers."
 msgstr ""
 
 #: templates/cfv.html:20
@@ -432,8 +432,8 @@ msgstr ""
 
 #: templates/cfv.html:24
 msgid ""
-"As a volunteer you get a free ticket to the  conference as a thank you "
-"for making the change  in our society."
+"As a volunteer you get a free ticket to the conference as a thank you for"
+" making the change in our society."
 msgstr ""
 
 #: templates/cfv.html:25
@@ -1525,7 +1525,7 @@ msgstr ""
 
 #: templates/venue.html:39
 msgid ""
-"If you travel through Vienna airport, there are direct and cheap bus "
+"If you travel via Vienna airport, there are direct and cheap bus "
 "connections from early morning till midnight. One way ticket costs about "
 "8 EUR and if you buy in advance, the ticket may be considerably cheaper. "
 "There are three airport shuttle buses between Vienna airport and "
