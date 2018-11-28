@@ -2,113 +2,115 @@
 
 {% block content %}
   <div class="page-banner-area banner8">
-		<!-- Subpage title start -->
-		<div class="page-banner-title">
+    <!-- Subpage title start -->
+    <div class="page-banner-title">
       <div class="text-center">
         <h1>{{ _('EduSummit') }}</h1>
       </div>
     </div><!-- Subpage title end -->
-	</div><!-- Page Banner end -->
+  </div><!-- Page Banner end -->
 
   <section id="main-container" class="main-container">
 
-  <div class="container">
+    <div class="container">
 
-    <div class="row">
-      <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-12">
 
-        <p class="lead">{{ _('Where Teachers meet Programmers') }}</p>
+          <p class="lead">{{ _('Where Teachers meet Programmers') }}</p>
 
-        <p>{{ _('EduSummit is a special section of the conference focused on teaching programming at primary and secondary schools. After two years of having an EduTrack at PyCon SK, consisting of a single day of talks for teachers, we are now organising a two day summit during which teachers will be introduced to innovative ways and methods of teaching programming, share their knowledge of useful tools and last but not least participate in numerous workshops given by experienced educators.
+          <p>{{ _('EduSummit is a special section of the conference focused on teaching programming at primary and secondary schools. After two years of having an EduTrack at PyCon SK, consisting of a single day of talks for teachers, we are now organising a two day summit during which teachers will be introduced to innovative ways and methods of teaching programming, share their knowledge of useful tools and last but not least participate in numerous workshops given by experienced educators.
 ') }}</p>
 
-        <p>{{ _('This year’s keynote speaker will be Juraj Hromkovič, a professor at ETH Zürich, whose main focus of work is education for teachers of Computer Science.') }}</p>
+          <p>{{ _('This year’s keynote speaker will be Juraj Hromkovič, a professor at ETH Zürich, whose main focus of work is education for teachers of Computer Science.') }}</p>
 
-        <img src="http://www.abz.inf.ethz.ch/abz-presse/juraj-hromkovic/pictures/picture-1.jpg" width="50%"></img>
-        
-        <p class="small">{{ _('Profesor Juraj Hromkovič, DrSc.') }}</p>
-        
-        <p>{{ _('Please note that EduSummit will be primarily in Slovak language.') }}</p>
+          <img src="http://www.abz.inf.ethz.ch/abz-presse/juraj-hromkovic/pictures/picture-1.jpg" width="50%"></img>
 
-        <hr>
+          <p class="small">{{ _('Profesor Juraj Hromkovič, DrSc.') }}</p>
 
-        <h2>{{ _('EduSummit workshops') }}</h2>
+          <p>{{ _('Please note that EduSummit will be primarily in Slovak language.') }}</p>
 
-        <p>{{ _('On saturday we will hold numerous educational workshops.') }}</p>
-        <ul>
-          <li>{{ _('A beginner\'s workshop with BBC micro:bit given by high school students') }}</li>
-          <li>{{ _('An advanced workshop with BBC micro:bit for teachers who already teach with micro:bits.') }}</li>
-          <!-- <li>{{ _('Workshop on using, creating and sharing Open Educational Resources for teachers') }}</li> -->
-          <!-- <li>{{ _('Parse Open Data with Python') }}</li> -->
-          <!-- <li>{{ _('PyGame zero workshop for teachers') }}</li> -->
-          <!-- <li>{{ _('Control Minecraft via Python') }}</li> -->
-          <!-- <li>{{ _('Turn your BBC micro:bit into a Minecraft game controller') }}</li> -->
-        </ul>
-        <p>{{ _('We will update the workshop list after the Call for Proposals is closed.') }}</p>
+          <hr>
 
-        <p>{{ _('More information about the schedule can be found ') }}<a href="{{ url_for('schedule', lang_code=lang_code) }}">{{ _('here.</a>') }}</p>
+          <h2>{{ _('EduSummit workshops') }}</h2>
 
-        <hr>
+          <p>{{ _('On saturday we will hold numerous educational workshops.') }}</p>
+          <ul>
+            <li>{{ _('A beginner\'s workshop with BBC micro:bit given by high school students') }}</li>
+            <li>{{ _('An advanced workshop with BBC micro:bit for teachers who already teach with micro:bits.') }}</li>
+            <!-- <li>{{ _('Workshop on using, creating and sharing Open Educational Resources for teachers') }}</li> -->
+            <!-- <li>{{ _('Parse Open Data with Python') }}</li> -->
+            <!-- <li>{{ _('PyGame zero workshop for teachers') }}</li> -->
+            <!-- <li>{{ _('Control Minecraft via Python') }}</li> -->
+            <!-- <li>{{ _('Turn your BBC micro:bit into a Minecraft game controller') }}</li> -->
+          </ul>
+          <p>{{ _('We will update the workshop list after the Call for Proposals is closed.') }}</p>
 
-        <h2>{{ _('SPy Cup') }}</h2>
+          <p>{{ _('More information about the schedule can be found ') }}<a href="{{ url_for('schedule', lang_code=lang_code) }}">{{ _('here.</a>') }}
+          </p>
 
-        <p>{{ _('Students from all 14 schools currently participating in Teaching with Hardware will join the SPy Cup contest, in which they create their own micro:bit project a create a step-by-step manual which the will publish under an open license on our website to inspire other teachers and students. The best projects will be awarded prizes and their authors will have a short presentation about their project at PyCon SK 2019.') }}</p>
-        <p>{{ _('More info can be found at <a href="https://www.ucimeshardverom.sk/sutaz">www.ucimeshardverom.sk/sutaz</a>') }}</p>
+          <hr>
 
-        <hr>
+          <h2>{{ _('SPy Cup') }}</h2>
 
-        <h2>{{ _('Hardware Projects Showcase') }}</h2>
+          <p>{{ _('Students from all 14 schools currently participating in Teaching with Hardware will join the SPy Cup contest, in which they create their own micro:bit project a create a step-by-step manual which the will publish under an open license on our website to inspire other teachers and students. The best projects will be awarded prizes and their authors will have a short presentation about their project at PyCon SK 2019.') }}</p>
+          <p>{{ _('More info can be found at <a href="https://www.ucimeshardverom.sk/sutaz">www.ucimeshardverom.sk/sutaz</a>') }}</p>
 
-        <p>{{ _('If you have created an interesting hardware project which uses Python, MicroPython or the BBC micro:bit and would like to share it to the world then bring it to PyCon SK 2019 :-)') }}</p>
-        <p>{{ _('You can find some inspiration here <a href="https://www.ucimeshardverom.sk/projekty/">www.ucimeshardverom.sk/projekty</a>') }}</p>
+          <hr>
 
-        <hr>
+          <h2>{{ _('Hardware Projects Showcase') }}</h2>
 
-        <h2>{{ _('Teaching with Hardware') }}</h2>
+          <p>{{ _('If you have created an interesting hardware project which uses Python, MicroPython or the BBC micro:bit and would like to share it to the world then bring it to PyCon SK 2019 :-)') }}</p>
+          <p>{{ _('You can find some inspiration here <a href="https://www.ucimeshardverom.sk/projekty/">www.ucimeshardverom.sk/projekty</a>') }}</p>
 
-        <p>{{ _('The goal of the initiative Teaching with Hardware is to introduce such activities into computing lessons at primary and secondary schools, which will familiarise students with interesting applications of programming and information technologies, thus motivating them in developing their digital literacy and algorithmic thinking. We do this by introducing physical computing with a small programmable device called BBC micro:bit, and by supporting teachers with methodical materials and teacher training. In october 2018 we started a PILOT project on 14 schools across Slovakia, and the results will be announced at PyCon SK 2019.') }}</p>
-        <p>{{ _('More info can be found at <a href="https://www.ucimeshardverom.sk">www.ucimeshardverom.sk</a>') }}</p>
+          <hr>
 
-        <hr>
+          <h2>{{ _('Teaching with Hardware') }}</h2>
 
-        <h2>{{ _('Poster Session') }}</h2>
+          <p>{{ _('The goal of the initiative Teaching with Hardware is to introduce such activities into computing lessons at primary and secondary schools, which will familiarise students with interesting applications of programming and information technologies, thus motivating them in developing their digital literacy and algorithmic thinking. We do this by introducing physical computing with a small programmable device called BBC micro:bit, and by supporting teachers with methodical materials and teacher training. In october 2018 we started a PILOT project on 14 schools across Slovakia, and the results will be announced at PyCon SK 2019.') }}</p>
+          <p>{{ _('More info can be found at <a href="https://www.ucimeshardverom.sk">www.ucimeshardverom.sk</a>') }}</p>
 
-        <p>{{ _('We will host a poster session and we will be happy if you get involved.') }}</p>
+          <hr>
 
-        <hr>
+          <h2>{{ _('Poster Session') }}</h2>
 
-        <h2>{{ _('Python Cup') }}</h2>
+          <p>{{ _('We will host a poster session and we will be happy if you get involved.') }}</p>
 
-        <p>{{ _('The winners of Python Cup will be awarded at EduSummit.') }}</p>
-        <p>{{ _('More info can be found at <a href="http://edi.fmph.uniba.sk/~tomcsanyiova/PythonCup/">edi.fmph.uniba.sk/~tomcsanyiova/PythonCup</a>') }}</p>
+          <hr>
 
-        <hr>
+          <h2>{{ _('Python Cup') }}</h2>
 
-        <h2>{{ _('What kind of ticked should I buy?') }}</h2>
+          <p>{{ _('The winners of Python Cup will be awarded at EduSummit.') }}</p>
+          <p>{{ _('More info can be found at <a href="http://edi.fmph.uniba.sk/~tomcsanyiova/PythonCup/">edi.fmph.uniba.sk/~tomcsanyiova/PythonCup</a>') }}</p>
 
-        <p>{{ _('All available tickets apply for the whole PyCon SK conference, including the EduSummit section. All of the talks and workshops take place at the same venue and you can decide which talks and workshops you want to attend. If you are a teacher or student you are eligible for a discount.') }}</p>
+          <hr>
 
-        <hr>
+          <h2>{{ _('What kind of ticked should I buy?') }}</h2>
 
-        <h2>{{ _('Young Coders\' day') }}</h2>
+          <p>{{ _('All available tickets apply for the whole PyCon SK conference, including the EduSummit section. All of the talks and workshops take place at the same venue and you can decide which talks and workshops you want to attend. If you are a teacher or student you are eligible for a discount.') }}</p>
 
-        <p>{{ _('On saturday, we will host a Young Coders\' day, consisting of programming workshops for children.') }}</p>
+          <hr>
 
-        <hr>
+          <h2>{{ _('Young Coders\' day') }}</h2>
 
-        <h2>{{ _('Speak at EduSummit') }}</h2>
+          <p>{{ _('On saturday, we will host a Young Coders\' day, consisting of programming workshops for children.') }}</p>
 
-        <p>{{ _('Call for Proposals is open. If you are a teacher or educator submit your talk or workshop and co-create the conference.') }}</p>
+          <hr>
 
-        <hr>
+          <h2>{{ _('Speak at EduSummit') }}</h2>
 
-        <h2>{{ _('Sponsorship') }}</h2>
+          <p>{{ _('Call for Proposals is open. If you are a teacher or educator submit your talk or workshop and co-create the conference.') }}</p>
 
-        <p>{{ _('By supporting PyCon you also support numerous educational activities during the conference. If the conference is profitable we finance educational activities during the whole year. More information on sponsorship can be found ') }}<a href="{{ url_for('sponsoring', lang_code=lang_code) }}">{{ _('here.</a>') }}</p>
+          <hr>
+
+          <h2>{{ _('Sponsorship') }}</h2>
+
+          <p>{{ _('By supporting PyCon you also support numerous educational activities during the conference. If the conference is profitable we finance educational activities during the whole year. More information on sponsorship can be found ') }}<a href="{{ url_for('sponsoring', lang_code=lang_code) }}">{{ _('here.</a>') }}
+          </p>
 
 
+        </div>
       </div>
     </div>
-  </div>
   </section>
 {% endblock %}

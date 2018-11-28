@@ -1,56 +1,57 @@
 {% extends "body.html" %}
 {% block content %}
   <div class="page-banner-area banner3">
-		<!-- Subpage title start -->
-		<div class="page-banner-title">
+    <!-- Subpage title start -->
+    <div class="page-banner-title">
       <div class="text-center">
         <h1>{{ _('PyCon SK Recording Release') }}</h1>
       </div>
     </div><!-- Subpage title end -->
-	</div><!-- Page Banner end -->
+  </div><!-- Page Banner end -->
 
   <section id="main-container" class="main-container">
 
-  <div class="container">
+    <div class="container">
 
-  <div class="row">
-    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-12">
 
-      <p class="text-justify">
-        {{ _('Part of the motivation for PyCon SK is to help with Python education and advocacy in Slovakia and around the world. Accordingly, we intend to record all PyCon SK presentations and live stream and release the recordings on the web.') }} {{ _('See the <a href="http://pyvideo.org">http://pyvideo.org</a> for one such venue.') }}
-      </p>
+          <p class="text-justify">
+            {{ _('Part of the motivation for PyCon SK is to help with Python education and advocacy in Slovakia and around the world. Accordingly, we intend to record all PyCon SK presentations and live stream and release the recordings on the web.') }} {{ _('See the <a href="http://pyvideo.org">http://pyvideo.org</a> for one such venue.') }}
+          </p>
 
-      <p class="text-justify">
-        {{ _('By submitting your talk or workshop proposal, or by signing up to give a lightning talk, you agree to give permission to the SPy o.z. to record, edit, and release audio and/or video of your presentation.') }} {{ _('We might also perform interviews with poster presenters or attendees and require recording releases to publish them.') }}
-      </p>
+          <p class="text-justify">
+            {{ _('By submitting your talk or workshop proposal, or by signing up to give a lightning talk, you agree to give permission to the SPy o.z. to record, edit, and release audio and/or video of your presentation.') }} {{ _('We might also perform interviews with poster presenters or attendees and require recording releases to publish them.') }}
+          </p>
 
-      <p class="text-justify">
-        {{ _('By default, the recording release checkbox is checked when submitting a proposal. If you wish to opt-out, uncheck the release checkbox, note that no recordings or live stream of your talk will be made. You cannot opt out of recording for lightning talks.') }}
-      </p>
+          <p class="text-justify">
+            {{ _('By default, the recording release checkbox is checked when submitting a proposal. If you wish to opt-out, uncheck the release checkbox, note that no recordings or live stream of your talk will be made. You cannot opt out of recording for lightning talks.') }}
+          </p>
 
-      <p class="text-justify">
-        {{ _('You agree to the following legalese, which certifies that you are the author of your presentation (or otherwise allowed to present it at PyCon), and which allows the SPy o.z. 1) to perform the necessary audio and video editing needed to prepare your presentation, and 2) to distribute the recordings to other people, including on YouTube, or video sites. Released under CC-BY license. It also allows other people to watch the recordings.') }}
-      </p>
+          <p class="text-justify">
+            {{ _('You agree to the following legalese, which certifies that you are the author of your presentation (or otherwise allowed to present it at PyCon), and which allows the SPy o.z. 1) to perform the necessary audio and video editing needed to prepare your presentation, and 2) to distribute the recordings to other people, including on YouTube, or video sites. Released under CC-BY license. It also allows other people to watch the recordings.') }}
+          </p>
 
-      <h2>{{ _('Legalese') }}</h2>
-      <p class="text-justify">
-        {{ _('I certify that I, the Submitter, am authorized to license this proposal and its associated presentation (the "User Submission") to the SPy o.z. for use in association with PyCon SK 2019.') }}
-      </p>
-      <p class="text-justify">
-      {{ _('Specifically') }}:
-      <ul>
-        <li>{{ _('I, the Submitter, certify that I am the creator (and own the copyright) of the User Submission.') }}</li>
-        <li>{{ _('I, the Submitter, hereby grant the SPy o.z. to publish User Submission and its audio/video recordings under CC-BY license.') }}</li>
-        <li>{{ _('I, the Submitter, specifically affirm the right to perform the User Submissions on the SPy o.z. web sites or on other web sites designated by the PSF (including, but not necessarily limited to YouTube).') }}</li>
-      </ul>
-      </p>
+          <h2>{{ _('Legalese') }}</h2>
+          <p class="text-justify">
+            {{ _('I certify that I, the Submitter, am authorized to license this proposal and its associated presentation (the "User Submission") to the SPy o.z. for use in association with PyCon SK 2019.') }}
+          </p>
+          <p class="text-justify">
+            {{ _('Specifically') }}:
+          <ul>
+            <li>{{ _('I, the Submitter, certify that I am the creator (and own the copyright) of the User Submission.') }}</li>
+            <li>{{ _('I, the Submitter, hereby grant the SPy o.z. to publish User Submission and its audio/video recordings under CC-BY license.') }}</li>
+            <li>{{ _('I, the Submitter, specifically affirm the right to perform the User Submissions on the SPy o.z. web sites or on other web sites designated by the PSF (including, but not necessarily limited to YouTube).') }}</li>
+          </ul>
+          </p>
 
-      <p class="text-center">
-        <a href="{{ url_for('cfp_form', lang_code=lang_code) }}" class="btn btn-primary btn-lg"><span class="oi oi-star"></span> {{ _('Submit your proposal') }} <span class="oi oi-star"></span></a>
-      </p>
+          <p class="text-center">
+            <a href="{{ url_for('cfp_form', lang_code=lang_code) }}" class="btn btn-primary btn-lg"><span class="oi oi-star"></span> {{ _('Submit your proposal') }}
+              <span class="oi oi-star"></span></a>
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
   </section>
 {% endblock %}
