@@ -1,286 +1,288 @@
 {% extends "body.html" %}
 
 {% block include_js %}
-{#  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>#}
-{#  <script async src="{{ url_for('static', filename='pyconsk/js/form.js') }}"></script>#}
+  {#  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>#}
+  {#  <script async src="{{ url_for('static', filename='pyconsk/js/form.js') }}"></script>#}
 {% endblock %}
 
 {% block content %}
-    <div class="page-banner-area banner3">
-		<!-- Subpage title start -->
-		<div class="page-banner-title">
+  <div class="page-banner-area banner3">
+    <!-- Subpage title start -->
+    <div class="page-banner-title">
       <div class="text-center">
         <h1>{{ _('Call for proposals') }}</h1>
       </div>
     </div><!-- Subpage title end -->
-	</div><!-- Page Banner end -->
+  </div><!-- Page Banner end -->
 
   <section id="main-container" class="main-container">
 
-<div class="container">
+    <div class="container">
 
-  <div class="row">
-    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-12">
 
-      <p class="lead"><strong>{{ _('The Call For Proposals is open!') }}</strong></p>
+          <p class="lead"><strong>{{ _('The Call For Proposals is open!') }}</strong></p>
 
-      <form action="https://docs.google.com/forms/d/e/1FAIpQLSdzKJ7FAYDfAYFZEeNrs2rQMYMM_FDFOcu1tgvIQO-kzLczuA/formResponse"
-      target="_self"
-      id="bootstrapForm"
-      method="POST">
-      <h3>{{ _('About speaker') }}</h3>
-    <fieldset>
-        <legend for="">Email <span class="required">*</span></legend>
-        <div class="form-group">
-            <input id="emailAddress" type="email" name="emailAddress" class="form-control" required>
-        </div>
-    </fieldset>
+          <form action="https://docs.google.com/forms/d/e/1FAIpQLSdzKJ7FAYDfAYFZEeNrs2rQMYMM_FDFOcu1tgvIQO-kzLczuA/formResponse"
+                target="_self"
+                id="bootstrapForm"
+                method="POST">
+            <h3>{{ _('About speaker') }}</h3>
+            <fieldset>
+              <legend for="">Email <span class="required">*</span></legend>
+              <div class="form-group">
+                <input id="emailAddress" type="email" name="emailAddress" class="form-control" required>
+              </div>
+            </fieldset>
 
-    <!-- Field type: "short" id: "1719435898" -->
-    <fieldset>
-        <legend for="1719435898">{{ _('Your name') }} <span class="required">*</span></legend>
-        <div class="form-group">
-            <p class="help-block">{{ _('Your name will be displayed on our website if your talk is accepted.') }}</p>
-            <input id="721522564" type="text" name="entry.721522564" class="form-control" required>
-        </div>
-    </fieldset>
+            <!-- Field type: "short" id: "1719435898" -->
+            <fieldset>
+              <legend for="1719435898">{{ _('Your name') }} <span class="required">*</span></legend>
+              <div class="form-group">
+                <p class="help-block">{{ _('Your name will be displayed on our website if your talk is accepted.') }}</p>
+                <input id="721522564" type="text" name="entry.721522564" class="form-control" required>
+              </div>
+            </fieldset>
 
-    <!-- Field type: "paragraph" id: "931103373" -->
-    <fieldset>
-        <legend for="931103373">{{ _('Biography') }} <span class="required">*</span></legend>
-        <div class="form-group">
-            <p class="help-block">{{ _('Your biography will be displayed on our website if your talk is accepted.') }}</p>
-            <textarea id="1240136343" name="entry.1240136343" class="form-control" required></textarea>
-        </div>
-    </fieldset>
+            <!-- Field type: "paragraph" id: "931103373" -->
+            <fieldset>
+              <legend for="931103373">{{ _('Biography') }} <span class="required">*</span></legend>
+              <div class="form-group">
+                <p class="help-block">{{ _('Your biography will be displayed on our website if your talk is accepted.') }}</p>
+                <textarea id="1240136343" name="entry.1240136343" class="form-control" required></textarea>
+              </div>
+            </fieldset>
 
-    <!-- Field type: "short" id: "538261903" -->
-    <fieldset>
-        <legend for="538261903">{{ _('Profile picture') }} <span class="required">*</span></legend>
-        <div class="form-group">
-            <p class="help-block">{{ _('Please provide us with URL where we can download your profile picture that will be published on our website if your talk is accepted.') }}</p>
-            <input id="1572787741" type="text" name="entry.1572787741" class="form-control" required>
-        </div>
-    </fieldset>
+            <!-- Field type: "short" id: "538261903" -->
+            <fieldset>
+              <legend for="538261903">{{ _('Profile picture') }} <span class="required">*</span></legend>
+              <div class="form-group">
+                <p class="help-block">{{ _('Please provide us with URL where we can download your profile picture that will be published on our website if your talk is accepted.') }}</p>
+                <input id="1572787741" type="text" name="entry.1572787741" class="form-control" required>
+              </div>
+            </fieldset>
 
-    <!-- Field type: "short" id: "353367559" -->
-    <fieldset>
-        <legend for="353367559">{{ _('Phone') }}</legend>
-        <div class="form-group">
-            <p class="help-block">{{ _('Your phone will not be published! It is just for organizers to get in touch with you in case we need to discuss something with you or in case of emergency during the conference.') }}</p>
-            <input id="2090527542" type="text" name="entry.2090527542" class="form-control" >
-        </div>
-    </fieldset>
+            <!-- Field type: "short" id: "353367559" -->
+            <fieldset>
+              <legend for="353367559">{{ _('Phone') }}</legend>
+              <div class="form-group">
+                <p class="help-block">{{ _('Your phone will not be published! It is just for organizers to get in touch with you in case we need to discuss something with you or in case of emergency during the conference.') }}</p>
+                <input id="2090527542" type="text" name="entry.2090527542" class="form-control">
+              </div>
+            </fieldset>
 
-    <h3>{{ _('About talk') }}</h3>
-    <!-- Field type: "short" id: "888263707" -->
-    <fieldset>
-        <legend for="888263707">{{ _('Title') }} <span class="required">*</span></legend>
-        <div class="form-group">
-            <p class="help-block">{{ _('Name of your talk/workshop as it will be displayed on our website if your talk is accepted.') }}</p>
-            <input id="369008787" type="text" name="entry.369008787" class="form-control" required>
-        </div>
-    </fieldset>
+            <h3>{{ _('About talk') }}</h3>
+            <!-- Field type: "short" id: "888263707" -->
+            <fieldset>
+              <legend for="888263707">{{ _('Title') }} <span class="required">*</span></legend>
+              <div class="form-group">
+                <p class="help-block">{{ _('Name of your talk/workshop as it will be displayed on our website if your talk is accepted.') }}</p>
+                <input id="369008787" type="text" name="entry.369008787" class="form-control" required>
+              </div>
+            </fieldset>
 
-    <!-- Field type: "paragraph" id: "616071665" -->
-    <fieldset>
-        <legend for="616071665">{{ _('Abstract') }} <span class="required">*</span></legend>
-        <div class="form-group">
-            <p class="help-block">{{ _('Abstract of your talk will be published on our website if your talk is accepted.') }}</p>
-            <textarea id="1317367521" name="entry.1317367521" class="form-control" required></textarea>
-        </div>
-    </fieldset>
+            <!-- Field type: "paragraph" id: "616071665" -->
+            <fieldset>
+              <legend for="616071665">{{ _('Abstract') }} <span class="required">*</span></legend>
+              <div class="form-group">
+                <p class="help-block">{{ _('Abstract of your talk will be published on our website if your talk is accepted.') }}</p>
+                <textarea id="1317367521" name="entry.1317367521" class="form-control" required></textarea>
+              </div>
+            </fieldset>
 
-    <!-- Field type: "choices" id: "981766256" -->
-    <fieldset>
-        <legend for="981766256">{{ _('Type') }} <span class="required">*</span></legend>
-        <div class="form-group">
-            <p class="help-block">{{ _('What kind of performance you will do?') }}</p>
-            <div class="radio">
-                <label>
+            <!-- Field type: "choices" id: "981766256" -->
+            <fieldset>
+              <legend for="981766256">{{ _('Type') }} <span class="required">*</span></legend>
+              <div class="form-group">
+                <p class="help-block">{{ _('What kind of performance you will do?') }}</p>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1191148942" value="Talk" required>
                     {{ _('Talk') }}
-                </label>
-            </div>
-            <div class="radio">
-                <label>
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1191148942" value="Workshop" required>
                     {{ _('Workshop') }}
-                </label>
-            </div>
-            <div class="radio">
-                <label>
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1191148942" value="Poster" required>
                     {{ _('Poster') }}
-                </label>
-            </div>
-            <div class="radio">
-                <label>
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1191148942" value="Hardware Projects Showcase" required>
                     {{ _('Hardware Projects Showcase') }}
-                </label>
-            </div>
-        </div>
-    </fieldset>
+                  </label>
+                </div>
+              </div>
+            </fieldset>
 
-    <!-- Field type: "choices" id: "1929463061" -->
-    <fieldset>
-        <legend for="1929463061">{{ _('Language') }} <span class="required">*</span></legend>
-        <div class="form-group">
-            <p class="help-block">{{ _('In which language your performance will be?') }}</p>
-            <div class="radio">
-                <label>
+            <!-- Field type: "choices" id: "1929463061" -->
+            <fieldset>
+              <legend for="1929463061">{{ _('Language') }} <span class="required">*</span></legend>
+              <div class="form-group">
+                <p class="help-block">{{ _('In which language your performance will be?') }}</p>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1232879431" value="English" required>
                     {{ _('English') }}
-                </label>
-            </div>
-            <div class="radio">
-                <label>
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1232879431" value="Slovak" required>
                     {{ _('Slovak') }}
-                </label>
-            </div>
-            <div class="radio">
-                <label>
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1232879431" value="Czech" required>
                     {{ _('Czech') }}
-                </label>
-            </div>
-        </div>
-    </fieldset>
+                  </label>
+                </div>
+              </div>
+            </fieldset>
 
-    <!-- Field type: "choices" id: "1244715486" -->
-    <fieldset>
-        <legend for="1244715486">{{ _('Time Slot') }} <span class="required">*</span></legend>
-        <div class="form-group">
-            <div class="radio">
-                <label>
+            <!-- Field type: "choices" id: "1244715486" -->
+            <fieldset>
+              <legend for="1244715486">{{ _('Time Slot') }} <span class="required">*</span></legend>
+              <div class="form-group">
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1403279435" value="30 minutes (talks)" required>
                     {{ _('30 minutes (talks)') }}
-                </label>
-            </div>
-            <div class="radio">
-                <label>
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1403279435" value="45 minutes (talks/workshops)" required>
                     {{ _('45 minutes (talks/workshops)') }}
-                </label>
-            </div>
-            <div class="radio">
-                <label>
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1403279435" value="60 minutes (workshops/Hardware Projects Showcase)" required>
                     {{ _('60 minutes (workshops/Hardware Projects Showcase)') }}
-                </label>
-            </div>
-            <div class="radio">
-                <label>
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1403279435" value="90 minutes (workshops)" required>
                     {{ _('90 minutes (workshops)') }}
-                </label>
-            </div>
-            <div class="radio">
-                <label>
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1403279435" value="120 minutes (workshops)" required>
                     {{ _('120 minutes (workshops)') }}
-                </label>
-            </div>
-            <div class="radio">
-                <label>
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1403279435" value="3 hours (workshops)" required>
                     {{ _('3 hours (workshops)') }}
-                </label>
-            </div>
-            <div class="radio">
-                <label>
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1403279435" value="4 hours (workshops)" required>
                     {{ _('4 hours (workshops)') }}
-                </label>
-            </div>
-        </div>
-    </fieldset>
+                  </label>
+                </div>
+              </div>
+            </fieldset>
 
-        <h3>{{ _('Travel funding') }}</h3>
-    <!-- Field type: "choices" id: "739210763" -->
-    <fieldset>
-        <legend for="739210763">{{ _('Do you need travel funding?') }} <span class="required">*</span></legend>
-        <div class="form-group">
-            <p class="help-block">{{ _('Please bear in mind that we are community conference with limited budget and we might not be able to fund you.') }}</p>
-            <div class="radio">
-                <label>
+            <h3>{{ _('Travel funding') }}</h3>
+            <!-- Field type: "choices" id: "739210763" -->
+            <fieldset>
+              <legend for="739210763">{{ _('Do you need travel funding?') }} <span class="required">*</span></legend>
+              <div class="form-group">
+                <p class="help-block">{{ _('Please bear in mind that we are community conference with limited budget and we might not be able to fund you.') }}</p>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1233715133" value="Yes" required>
                     {{ _('Yes') }}
-                </label>
-            </div>
-            <div class="radio">
-                <label>
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
                     <input type="radio" name="entry.1233715133" value="No" required>
                     {{ _('No') }}
-                </label>
-            </div>
-        </div>
-    </fieldset>
+                  </label>
+                </div>
+              </div>
+            </fieldset>
 
-    <!-- Field type: "short" id: "2123255232" -->
-    <fieldset>
-        <legend for="2123255232">{{ _('What city you will travel from?') }}</legend>
-        <div class="form-group">
-            <p class="help-block">{{ _('Please provide us with this city only if you need travel funding so we can calculate ticket price.') }}</p>
-            <input id="1279510779" type="text" name="entry.1279510779" class="form-control" >
-        </div>
-    </fieldset>
+            <!-- Field type: "short" id: "2123255232" -->
+            <fieldset>
+              <legend for="2123255232">{{ _('What city you will travel from?') }}</legend>
+              <div class="form-group">
+                <p class="help-block">{{ _('Please provide us with this city only if you need travel funding so we can calculate ticket price.') }}</p>
+                <input id="1279510779" type="text" name="entry.1279510779" class="form-control">
+              </div>
+            </fieldset>
 
-    <!-- Field type: "choices" id: "879807942" -->
-    <fieldset>
-        <legend for="879807942">{{ _('Do you need accomodation?') }}</legend>
-        <div class="form-group">
-            <p class="help-block">{{ _('Please provide us with this answer only if you need travel funding so we can calculate ticket price.') }}</p>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="entry.827355267" value="Yes" >
+            <!-- Field type: "choices" id: "879807942" -->
+            <fieldset>
+              <legend for="879807942">{{ _('Do you need accomodation?') }}</legend>
+              <div class="form-group">
+                <p class="help-block">{{ _('Please provide us with this answer only if you need travel funding so we can calculate ticket price.') }}</p>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="entry.827355267" value="Yes">
                     {{ _('Yes') }}
-                </label>
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="entry.827355267" value="No" >
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="entry.827355267" value="No">
                     {{ _('No') }}
-                </label>
-            </div>
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+
+            <input type="hidden" name="fvv" value="1">
+            <input type="hidden" name="fbzx" value="271403027082808290">
+            <!--
+                CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+                This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+                Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+                We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+            -->
+            <input type="hidden" name="pageHistory" value="0,1,2">
+
+            <p class="text-center">
+              <input class="btn btn-primary btn-lg" type="submit" value="{{ _('Submit') }}">
+            </p>
+          </form>
+          <small>
+            {{ _('Alternatively') }}:
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzKJ7FAYDfAYFZEeNrs2rQMYMM_FDFOcu1tgvIQO-kzLczuA/viewform?usp=sf_link" target="_blank">{{ _('Submit your proposal') }}</a> {{ _('directly in Google forms.') }}
+          </small>
+
+          <h2>{{ _('Recording release') }}</h2>
+          <p class="text-justify">
+            {{ _('Part of the motivation for PyCon SK is to help with Python education and advocacy in Slovakia and around the world. Accordingly, we intend to record all PyCon SK presentations and live stream and release the recordings on the web.') }}
+          </p>
+          <p class="text-justify">
+            {{ _('By submitting your talk or workshop proposal, or by signing up to give a lightning talk, you agree to give permission to the SPy o.z. to record, edit, and release audio and/or video of your presentation.') }}
+          </p>
+          <p class="text-center">
+            <a href="{{ url_for('recording', lang_code=lang_code) }}" class="btn btn-secondary"><span class="oi oi-camera-slr"></span> {{ _('Full recording release statement') }}
+            </a>
+          </p>
+
+
         </div>
-    </fieldset>
-
-    <input type="hidden" name="fvv" value="1">
-    <input type="hidden" name="fbzx" value="271403027082808290">
-    <!--
-        CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
-        This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
-        Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
-        We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
-    -->
-    <input type="hidden" name="pageHistory" value="0,1,2">
-
-    <p class="text-center">
-      <input class="btn btn-primary btn-lg" type="submit" value="{{ _('Submit') }}">
-    </p>
-</form>
-      <small>
-        {{ _('Alternatively') }}: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzKJ7FAYDfAYFZEeNrs2rQMYMM_FDFOcu1tgvIQO-kzLczuA/viewform?usp=sf_link" target="_blank">{{ _('Submit your proposal') }}</a> {{ _('directly in Google forms.') }}
-      </small>
-
-      <h2>{{ _('Recording release') }}</h2>
-      <p class="text-justify">
-        {{ _('Part of the motivation for PyCon SK is to help with Python education and advocacy in Slovakia and around the world. Accordingly, we intend to record all PyCon SK presentations and live stream and release the recordings on the web.') }}
-      </p>
-      <p class="text-justify">
-        {{ _('By submitting your talk or workshop proposal, or by signing up to give a lightning talk, you agree to give permission to the SPy o.z. to record, edit, and release audio and/or video of your presentation.') }}
-      </p>
-      <p class="text-center">
-        <a href="{{ url_for('recording', lang_code=lang_code) }}" class="btn btn-secondary"><span class="oi oi-camera-slr"></span> {{ _('Full recording release statement') }}</a>
-      </p>
-
+      </div>
 
     </div>
-  </div>
-
-</div>
   </section>
 {% endblock %}

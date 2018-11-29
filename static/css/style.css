@@ -2464,6 +2464,10 @@ h4.panel-title a.collapsed:before {
    border: 0 !important;
 }
 
+.newsletter-form a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
 
 /* Footer social */
 
@@ -2541,6 +2545,11 @@ h4.panel-title a.collapsed:before {
 
 .copyright-info{
 	margin: 30px 0;
+}
+
+.copyright-info a:hover {
+	color: #fff;
+	text-decoration: underline;
 }
 
 .footer-menu ul li{

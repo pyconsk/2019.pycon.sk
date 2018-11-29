@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-29 00:07+0100\n"
+"POT-Creation-Date: 2018-11-29 00:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,11 +51,11 @@ msgstr ""
 msgid "EduSummit"
 msgstr ""
 
-#: templates/body.html:97 templates/body.html:250
+#: templates/body.html:97 templates/body.html:254
 msgid "About Us"
 msgstr ""
 
-#: templates/body.html:99 templates/body.html:237
+#: templates/body.html:99 templates/body.html:241
 msgid "SPy o.z."
 msgstr ""
 
@@ -130,22 +130,25 @@ msgid ""
 " emails."
 msgstr ""
 
-#: templates/body.html:193 templates/mailchimp.html:31
-msgid "For information about our privacy practices, please visit our website."
+#: templates/body.html:193
+#, python-format
+msgid ""
+"For information about our privacy practices, please visit our <a "
+"href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:197 templates/mailchimp.html:35
+#: templates/body.html:198 templates/mailchimp.html:35
 msgid "We use Mailchimp as our marketing platform."
 msgstr ""
 
-#: templates/body.html:197
+#: templates/body.html:198
 msgid ""
 "By clicking below to subscribe, you\n"
 "                  acknowledge that your information will be transferred "
 "to Mailchimp for processing."
 msgstr ""
 
-#: templates/body.html:198
+#: templates/body.html:199
 msgid ""
 "Learn more\n"
 "                  about Mailchimp's privacy practices <a "
@@ -153,35 +156,51 @@ msgid ""
 "class=\"external\">here</a>."
 msgstr ""
 
-#: templates/body.html:232
+#: templates/body.html:236
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
 " the %(psf)s."
 msgstr ""
 
-#: templates/body.html:234
+#: templates/body.html:238
 msgid "Python Software foundation"
 msgstr ""
 
-#: templates/body.html:236
+#: templates/body.html:240
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr ""
 
-#: templates/body.html:237
+#: templates/body.html:241
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:239
+#: templates/body.html:243
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
 " contribute at our %(github)s."
 msgstr ""
 
-#: templates/body.html:264
+#: templates/body.html:255
+msgid "Become a Sponsor"
+msgstr ""
+
+#: templates/body.html:256 templates/index.html:113
+msgid "Submit your talk"
+msgstr ""
+
+#: templates/body.html:257
+msgid "Help out as a volunteer"
+msgstr ""
+
+#: templates/body.html:258
+msgid "Buy your ticket"
+msgstr ""
+
+#: templates/body.html:274
 msgid "Back to Top"
 msgstr ""
 
@@ -502,8 +521,8 @@ msgstr ""
 
 #: templates/cfv.html:29 templates/index.html:207
 msgid ""
-"All of our staff members are volunteers. We are looking for new members "
-"to join the team of organizers."
+"All of our staff members are volunteers. We are looking for a new members"
+" to join the team of organizers."
 msgstr ""
 
 #: templates/cfv.html:30
@@ -514,8 +533,8 @@ msgstr ""
 
 #: templates/cfv.html:34
 msgid ""
-"As a volunteer you get a free ticket to the conference as a thank you for"
-" making the change in our society."
+"As a volunteer you get a free ticket to the  conference as a thank you "
+"for making the change  in our society."
 msgstr ""
 
 #: templates/cfv.html:35
@@ -878,7 +897,7 @@ msgstr ""
 msgid "Seconds"
 msgstr ""
 
-#: templates/index.html:62 templates/venue.html:61
+#: templates/index.html:62 templates/venue.html:50
 msgid ""
 "<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in "
 "Bratislava</strong>."
@@ -936,10 +955,6 @@ msgid ""
 "If you've done something that you think other people might be interested "
 "in, or that you think they should know about, please do consider telling "
 "us about it."
-msgstr ""
-
-#: templates/index.html:113
-msgid "Submit your talk"
 msgstr ""
 
 #: templates/index.html:119
@@ -1015,6 +1030,10 @@ msgstr ""
 
 #: templates/mailchimp.html:11
 msgid "SPy o.z. will never share your email with anyone else."
+msgstr ""
+
+#: templates/mailchimp.html:31
+msgid "For information about our privacy practices, please visit our website."
 msgstr ""
 
 #: templates/mailchimp.html:35
@@ -1665,135 +1684,161 @@ msgid ""
 "the <i>Teaching with Hardware</i> project."
 msgstr ""
 
-#: templates/venue.html:47
-msgid "Conference Location"
-msgstr ""
-
-#: templates/venue.html:48
-msgid "A short guide to Eventime venue and places to stay"
-msgstr ""
-
-#: templates/venue.html:60
+#: templates/venue.html:49
 msgid "How do you get to Slovak PyCon?"
 msgstr ""
 
-#: templates/venue.html:63
+#: templates/venue.html:52
 msgid "Venue Address"
 msgstr ""
 
-#: templates/venue.html:65
+#: templates/venue.html:54
 msgid "Slovak University of Technology in Bratislava"
 msgstr ""
 
-#: templates/venue.html:66
+#: templates/venue.html:55
 msgid "Faculty of Informatics and Information Technologies"
 msgstr ""
 
-#: templates/venue.html:71
+#: templates/venue.html:60
 msgid "Travelling to Bratislava"
 msgstr ""
 
-#: templates/venue.html:73
+#: templates/venue.html:62
 msgid ""
-"Bratislava is one of the youngest major cities in Europe. Nevertheless, "
-"it has a rich history of a free royal coronation town. At that time, it "
-"was still called the Pressburg (Prešpork). Today, Bratislava is a major "
-"transport hub in Central Europe, and there are plenty of possibilities of"
-" getting here."
+"Bratislava is one of the youngest capitals in Europe, and also one of the"
+" smallest. Despite this, it has a rich history of a free royal coronation"
+" town of Pressburg and multiple opportunities how to spend time there. "
+"Bratislava has unique location, it is the only capital int he world "
+"located on the border of three countries.Today, Bratislava is a major "
+"transport hub in Central Europe, and there are plenty possibilities of "
+"getting here."
 msgstr ""
 
-#: templates/venue.html:79
+#: templates/venue.html:70
 msgid "By air"
 msgstr ""
 
-#: templates/venue.html:81
+#: templates/venue.html:72
 msgid ""
 "If you are travelling to Bratislava, you can fly to the Bratislava "
 "airport (airport code: BTS) or the Vienna airport (airport code: VIE). "
-"The selection of flights to Vienna is better than to Bratislava."
+"Vienna airport has considerably better offer of flights."
 msgstr ""
 
-#: templates/venue.html:84
+#: templates/venue.html:76
 msgid ""
-"There are shuttle buses running between Bratislava and Vienna airport "
-"every hour and they are relatively cheap (the bus ride costs about EUR 8 "
-"one way, if you book in advance it can got much cheaper). There are three"
-" bus companies operating airport shuttles between Vienna airport and "
+"From Bratislava airport you can take taxi (use the phone, its cheaper), "
+"or take the bus #61 and then move to bus #39 at the Bajkalska station. "
+"Get off the bus at the station ZOO and simply follow the PyCon stickers "
+"up to the hill to univerrsity campus."
+msgstr ""
+
+#: templates/venue.html:80
+msgid ""
+"If you travel via Vienna airport, there are direct and cheap bus "
+"connections from early morning till midnight. One way ticket costs about "
+"8 EUR and if you buy in advance, the ticket may be considerably cheaper. "
+"There are three airport shuttle buses between Vienna airport and "
 "Bratislava: SlovakLines (red buses), Blaguss (silver buses) and RegioJet "
 "(Yellow busses)."
 msgstr ""
 
-#: templates/venue.html:88
+#: templates/venue.html:87
 msgid "By car"
 msgstr ""
 
-#: templates/venue.html:91
+#: templates/venue.html:90
 msgid ""
-"From Vienna, take highway A4, heading to Schwechat airport, when possible"
-" take the exit that leads to highway A6, which heads towards Bratislava."
+"Arriving from Vienna, choose the direction Schwechat on A4 highway, then "
+"turn to highway A6 leading to Bratislava.\n"
+"            After crossing the border you will soon enter Bratislava, "
+"then follow the direction Praha/Brno. Right after crossing\n"
+"            the river of Danube leave the highway and follow the road "
+"along the highway. After several hundreds of meters you will\n"
+"            get to the crossroad where you should turn left and cross the"
+" highway you have left a minute ago. After the bridge there is another\n"
+"            crossroad where you turn right and immediately turn slightly "
+"left up the hill towards the university campus."
 msgstr ""
 
-#: templates/venue.html:92
+#: templates/venue.html:95
 msgid ""
-"From Budapest, take highway M1 heading to Gyor, follow this route until "
-"you see signs for highway M15 headed to Slovakia and Bratislava."
+"From Budapest, take the highway M1 heading to Gyor, follow this route "
+"until you see signs for highway M15 heading to Slovakia and Bratislava.\n"
+"            After crossing the border follow the direction Praha or Brno "
+"according to instructions above."
 msgstr ""
 
-#: templates/venue.html:93
+#: templates/venue.html:97
 msgid ""
-"From Prague, take highway D1 to Brno, once in Brno take highway D2 "
-"heading to Slovakia and Bratislava."
+"If you drive from Prague, take the highway D1 to Brno, once in Brno take "
+"the highway D2 heading to Slovakia and Bratislava.\n"
+"            After arriving to Bratislava follow the highway and leave it "
+"at the exit Mlynska dolina after passing the tunnel.\n"
+"            Be cautious, the exit is located right after the tunnel, so "
+"you should stay in right lane while in tunnel."
 msgstr ""
 
-#: templates/venue.html:94
+#: templates/venue.html:100
 msgid ""
-"From Warsaw, take highway A1 heading to Katowice. From there follow the "
-"road for Čadca, Slovakia. Take this road all the way to Žilina, then "
-"switch to highway D1 to Bratislava."
+"From eastern and southern Poland choose your way to Katowice. From there "
+"follow the road to Cadca, Slovakia.\n"
+"            Follow the road all the way to Zilina, then switch to the "
+"highway D1 to Bratislava. After arriving to Bratislava,\n"
+"            you should pass the river of Danube twice following the "
+"direction Praha/Brno, then leave the highway following the instructions "
+"above."
 msgstr ""
 
-#: templates/venue.html:99
+#: templates/venue.html:107
 msgid "By bus"
 msgstr ""
 
-#: templates/venue.html:101
+#: templates/venue.html:109
 msgid ""
 "All neighbouring capital cities Vienna, Prague, Budapest, Warsaw and Kiev"
 " have direct bus connections."
 msgstr ""
 
-#: templates/venue.html:104
+#: templates/venue.html:112
 msgid ""
-"Once you arrive at the Bratislava bus station (Mlynské Nivy), you'll need"
-" to walk through the terminal towards its main entrance. Take a left and "
-"walk about 70 meters towards a busy street. Do not cross the street. "
-"There will be public transportation bus stops immediately on your right "
-"hand side."
+"Most of the buses will bring you to the main bus station - Mlynske Nivy. "
+"It is currently located in temporary location, so dont\n"
+"            worry and keep calm if you arrive feeling like on "
+"construction site. Leave the area towards the blue oval building VUB\n"
+"            (next to the building with BMW logo) where you find the "
+"station of city bus lines. We recommend you to take bus number\n"
+"            70 to the end station Most SNP (SNP bridge) and from there "
+"continue with line number 30 or 37 to the station ZOO."
 msgstr ""
 
-#: templates/venue.html:108
+#: templates/venue.html:119
 msgid "By train"
 msgstr ""
 
-#: templates/venue.html:110
+#: templates/venue.html:121
 msgid ""
 "All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kiev "
 "have direct train connections."
 msgstr ""
 
-#: templates/venue.html:113
+#: templates/venue.html:124
 msgid ""
 "Once you arrive at the Bratislava train station (Bratislava hlavná "
-"stanica), you'll need to walk through the terminal towards its main "
-"entrance. Directly in front of the main entrance you'll find all your "
-"public transportation options on your right hand side."
+"stanica), leave the station through the main entrance.\n"
+"            In front of the building, there are bus and tram stops. We "
+"recommend zou to take the bus number 32 to the station ZOO.\n"
+"            If you plan to use city lines more often, we recommend you to"
+" check the website https://imhd.sk/ba/ for more information\n"
+"            about the prices or the lines."
 msgstr ""
 
-#: templates/venue.html:119
+#: templates/venue.html:133
 msgid "Accommodation"
 msgstr ""
 
-#: templates/venue.html:121
+#: templates/venue.html:135
 msgid ""
 "There are plenty of opportunities for accommodation in Bratislava. From "
 "coach surfing, Airbnb to hostels and five star hotels. Even though it is "
@@ -1801,11 +1846,11 @@ msgid ""
 " advance."
 msgstr ""
 
-#: templates/venue.html:124
+#: templates/venue.html:138
 msgid "Guide"
 msgstr ""
 
-#: templates/venue.html:126
+#: templates/venue.html:140
 msgid ""
 "Bratislava offers much more than just PyCon. If you decide to stay in "
 "Bratislava a few days longer, have a look at <a "
@@ -1816,7 +1861,7 @@ msgid ""
 "about each location or event."
 msgstr ""
 
-#: templates/venue.html:129
+#: templates/venue.html:143
 msgid ""
 "Or you can review the <a href=\"http://www.visitbratislava.com/\" "
 "title=\"city pages for visitors\" target=\"_blank\" "

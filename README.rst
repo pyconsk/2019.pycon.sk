@@ -80,7 +80,7 @@ Generate static site
 - verify the generated result in browser (http://127.0.0.1:8000/en/index.html)::
 
     cd docs
-    python -m SimpleHTTPServer 8000
+    python -m http.server 8000
 
 
 Continuous Deployment
