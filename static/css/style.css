@@ -2040,6 +2040,11 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 	margin: 0;
 }
 
+.sponsor-details img {
+	text-align: center;
+	margin: 0 auto;
+}
+
 .sponsor-info .sponsor-name {
 	font-size: 23px;
 	margin-top: 20px;

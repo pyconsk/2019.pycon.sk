@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-29 00:34+0100\n"
+"POT-Creation-Date: 2018-11-29 20:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,134 +21,134 @@ msgstr ""
 msgid "Official PyCon SK 2019 website"
 msgstr ""
 
-#: templates/body.html:14 templates/body.html:19
+#: templates/body.html:15 templates/body.html:20
 msgid "PyCon SK 2019, Bratislava"
 msgstr ""
 
-#: templates/body.html:16 templates/body.html:20
+#: templates/body.html:17 templates/body.html:21
 msgid ""
 "PyCon SK is a community-organized conference for the Python programming "
 "language, which will be held in Bratislava on March, 2019."
 msgstr ""
 
-#: templates/body.html:75 templates/index.html:163
+#: templates/body.html:77 templates/index.html:169
 msgid "Speakers"
 msgstr ""
 
-#: templates/body.html:77 templates/cfp.html:7 templates/cfp_form.html:13
+#: templates/body.html:81 templates/cfp.html:7 templates/cfp_form.html:13
 msgid "Call for proposals"
 msgstr ""
 
-#: templates/body.html:82 templates/schedule.html:8
+#: templates/body.html:88 templates/schedule.html:8
 msgid "Schedule"
 msgstr ""
 
-#: templates/body.html:89
+#: templates/body.html:96
 msgid "Sponsoring"
 msgstr ""
 
-#: templates/body.html:93 templates/edusummit.html:8
+#: templates/body.html:100 templates/edusummit.html:8
 msgid "EduSummit"
 msgstr ""
 
-#: templates/body.html:97 templates/body.html:254
+#: templates/body.html:104 templates/body.html:262
 msgid "About Us"
 msgstr ""
 
-#: templates/body.html:99 templates/body.html:241
+#: templates/body.html:107 templates/body.html:249
 msgid "SPy o.z."
 msgstr ""
 
-#: templates/body.html:100 templates/tickets.html:86 templates/venue.html:38
+#: templates/body.html:108 templates/tickets.html:84 templates/venue.html:33
 msgid "Venue"
 msgstr ""
 
-#: templates/body.html:101 templates/coc.html:7
+#: templates/body.html:109 templates/coc.html:7
 msgid "Code of Conduct"
 msgstr ""
 
-#: templates/body.html:102 templates/cfv.html:13
+#: templates/body.html:110 templates/cfv.html:13
 msgid "Call for volunteers"
 msgstr ""
 
-#: templates/body.html:107 templates/faq.html:17 templates/faq.html:55
+#: templates/body.html:115 templates/faq.html:17 templates/faq.html:68
 #: templates/tickets.html:13 templates/tickets.html:22
 msgid "Tickets"
 msgstr ""
 
-#: templates/body.html:138
+#: templates/body.html:146
 msgid "General Queries"
 msgstr ""
 
-#: templates/body.html:150
+#: templates/body.html:158
 msgid "Ticket Queries"
 msgstr ""
 
-#: templates/body.html:162
+#: templates/body.html:170
 msgid "Event Organiser"
 msgstr ""
 
-#: templates/body.html:172
+#: templates/body.html:180
 msgid "Stay Updated"
 msgstr ""
 
-#: templates/body.html:172 templates/mailchimp.html:2
+#: templates/body.html:180 templates/mailchimp.html:2
 msgid "Subscribe to our newsletter"
 msgstr ""
 
-#: templates/body.html:176
+#: templates/body.html:184
 msgid "Your Email Here"
 msgstr ""
 
-#: templates/body.html:176 templates/mailchimp.html:9
+#: templates/body.html:184 templates/mailchimp.html:9
 msgid "email address for the newsletter"
 msgstr ""
 
-#: templates/body.html:177 templates/mailchimp.html:47
+#: templates/body.html:185 templates/mailchimp.html:47
 msgid "Subscribe"
 msgstr ""
 
-#: templates/body.html:181 templates/mailchimp.html:16
+#: templates/body.html:189 templates/mailchimp.html:16
 msgid "Email Marketing Permissions"
 msgstr ""
 
-#: templates/body.html:182 templates/mailchimp.html:17
+#: templates/body.html:190 templates/mailchimp.html:17
 msgid "Please select all the ways you would like to hear from SPy o.z.:"
 msgstr ""
 
-#: templates/body.html:186 templates/mailchimp.html:22
+#: templates/body.html:194 templates/mailchimp.html:22
 msgid "Email"
 msgstr ""
 
-#: templates/body.html:189 templates/mailchimp.html:26
+#: templates/body.html:197 templates/mailchimp.html:26
 msgid "Direct Mail"
 msgstr ""
 
-#: templates/body.html:192 templates/mailchimp.html:30
+#: templates/body.html:200 templates/mailchimp.html:30
 msgid ""
 "You can unsubscribe at any time by clicking the link in the footer of our"
 " emails."
 msgstr ""
 
-#: templates/body.html:193
+#: templates/body.html:201
 #, python-format
 msgid ""
 "For information about our privacy practices, please visit our <a "
 "href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:198 templates/mailchimp.html:35
+#: templates/body.html:206 templates/mailchimp.html:35
 msgid "We use Mailchimp as our marketing platform."
 msgstr ""
 
-#: templates/body.html:198
+#: templates/body.html:206
 msgid ""
 "By clicking below to subscribe, you\n"
 "                  acknowledge that your information will be transferred "
 "to Mailchimp for processing."
 msgstr ""
 
-#: templates/body.html:199
+#: templates/body.html:207
 msgid ""
 "Learn more\n"
 "                  about Mailchimp's privacy practices <a "
@@ -156,55 +156,55 @@ msgid ""
 "class=\"external\">here</a>."
 msgstr ""
 
-#: templates/body.html:236
+#: templates/body.html:244
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
 " the %(psf)s."
 msgstr ""
 
-#: templates/body.html:238
+#: templates/body.html:246
 msgid "Python Software foundation"
 msgstr ""
 
-#: templates/body.html:240
+#: templates/body.html:248
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr ""
 
-#: templates/body.html:241
+#: templates/body.html:249
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:243
+#: templates/body.html:251
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
 " contribute at our %(github)s."
 msgstr ""
 
-#: templates/body.html:255
+#: templates/body.html:264
 msgid "Become a Sponsor"
 msgstr ""
 
-#: templates/body.html:256 templates/index.html:113
+#: templates/body.html:265 templates/index.html:116
 msgid "Submit your talk"
 msgstr ""
 
-#: templates/body.html:257
+#: templates/body.html:267
 msgid "Help out as a volunteer"
 msgstr ""
 
-#: templates/body.html:258
+#: templates/body.html:268
 msgid "Buy your ticket"
 msgstr ""
 
-#: templates/body.html:274
+#: templates/body.html:286
 msgid "Back to Top"
 msgstr ""
 
-#: templates/cfp.html:19 templates/cfp_form.html:25 templates/index.html:230
+#: templates/cfp.html:19 templates/cfp_form.html:25 templates/index.html:240
 msgid "The Call For Proposals is open!"
 msgstr ""
 
@@ -234,7 +234,7 @@ msgstr ""
 msgid "We are glad you are interested in giving a talk at PyCon SK 2019!"
 msgstr ""
 
-#: templates/cfp.html:29 templates/index.html:233
+#: templates/cfp.html:29 templates/index.html:243
 msgid ""
 "Submit your talk proposal with short abstract and your bio. All selected "
 "speakers get a complimentary ticket to the conference."
@@ -251,16 +251,16 @@ msgid ""
 "our Slack channel"
 msgstr ""
 
-#: templates/cfp.html:37 templates/cfp_form.html:266
+#: templates/cfp.html:37 templates/cfp_form.html:267
 #: templates/recording.html:49
 msgid "Submit your proposal"
 msgstr ""
 
-#: templates/cfp.html:40
+#: templates/cfp.html:41
 msgid "Guidelines for Proposal Submission"
 msgstr ""
 
-#: templates/cfp.html:42
+#: templates/cfp.html:43
 msgid ""
 "There is no official restriction on the topic that you propose a talk "
 "session. Talks about Python or the Python community are most likely to "
@@ -271,22 +271,22 @@ msgid ""
 "proposals is accepted."
 msgstr ""
 
-#: templates/cfp.html:48
+#: templates/cfp.html:49
 msgid "Talks"
 msgstr ""
 
-#: templates/cfp.html:50
+#: templates/cfp.html:51
 msgid ""
 "Most talks are 30 minutes long, but we do offer a limited number of "
 "45-minute slots for important topics that promise to benefit from a more "
 "extensive treatment."
 msgstr ""
 
-#: templates/cfp.html:54
+#: templates/cfp.html:55
 msgid "Workshops"
 msgstr ""
 
-#: templates/cfp.html:56
+#: templates/cfp.html:57
 msgid ""
 "As with the talks, we are looking for tutorials that can grow this "
 "community at any level! We aim for tutorials that will advance Python, "
@@ -295,11 +295,11 @@ msgid ""
 " much more preparation."
 msgstr ""
 
-#: templates/cfp.html:62 templates/cfp_form.html:269
+#: templates/cfp.html:63 templates/cfp_form.html:270
 msgid "Recording release"
 msgstr ""
 
-#: templates/cfp.html:64 templates/cfp_form.html:271
+#: templates/cfp.html:65 templates/cfp_form.html:272
 #: templates/recording.html:20
 msgid ""
 "Part of the motivation for PyCon SK is to help with Python education and "
@@ -308,7 +308,7 @@ msgid ""
 "recordings on the web."
 msgstr ""
 
-#: templates/cfp.html:67 templates/cfp_form.html:274
+#: templates/cfp.html:68 templates/cfp_form.html:275
 #: templates/recording.html:24
 msgid ""
 "By submitting your talk or workshop proposal, or by signing up to give a "
@@ -316,7 +316,7 @@ msgid ""
 "edit, and release audio and/or video of your presentation."
 msgstr ""
 
-#: templates/cfp.html:70 templates/cfp_form.html:277
+#: templates/cfp.html:71 templates/cfp_form.html:278
 msgid "Full recording release statement"
 msgstr ""
 
@@ -405,7 +405,7 @@ msgstr ""
 msgid "Poster"
 msgstr ""
 
-#: templates/cfp_form.html:120 templates/edusummit.html:60
+#: templates/cfp_form.html:120 templates/edusummit.html:61
 msgid "Hardware Projects Showcase"
 msgstr ""
 
@@ -503,7 +503,7 @@ msgid ""
 "can calculate ticket price."
 msgstr ""
 
-#: templates/cfp_form.html:262 templates/cfv.html:117
+#: templates/cfp_form.html:262 templates/cfv.html:119
 msgid "Submit"
 msgstr ""
 
@@ -511,18 +511,18 @@ msgstr ""
 msgid "Alternatively"
 msgstr ""
 
-#: templates/cfp_form.html:266
+#: templates/cfp_form.html:267
 msgid "directly in Google forms."
 msgstr ""
 
-#: templates/cfv.html:25 templates/index.html:203
+#: templates/cfv.html:25 templates/index.html:210
 msgid "We need you to help organize PyCon SK 2019!"
 msgstr ""
 
-#: templates/cfv.html:29 templates/index.html:207
+#: templates/cfv.html:29 templates/index.html:214
 msgid ""
-"All of our staff members are volunteers. We are looking for a new members"
-" to join the team of organizers."
+"All of our staff members are volunteers. We are looking for new members "
+"to join the team of organizers."
 msgstr ""
 
 #: templates/cfv.html:30
@@ -533,8 +533,8 @@ msgstr ""
 
 #: templates/cfv.html:34
 msgid ""
-"As a volunteer you get a free ticket to the  conference as a thank you "
-"for making the change  in our society."
+"As a volunteer you get a free ticket to the conference as a thank you for"
+" making the change in our society."
 msgstr ""
 
 #: templates/cfv.html:35
@@ -562,22 +562,22 @@ msgstr ""
 msgid "What is your time estimate you can spend as volunteer?"
 msgstr ""
 
-#: templates/cfv.html:82
+#: templates/cfv.html:83
 msgid "We need just rought estimate, for example: our daily, two hours a week..."
 msgstr ""
 
-#: templates/cfv.html:90
+#: templates/cfv.html:91
 msgid "What would you like to do?"
 msgstr ""
 
-#: templates/cfv.html:92
+#: templates/cfv.html:93
 msgid ""
 "Let us know what you are experienced in? If you have a vision and no "
 "experience, that is alright, write down what you would like to do and "
 "surely we'll find a tasks to realize the vision."
 msgstr ""
 
-#: templates/cfv.html:100
+#: templates/cfv.html:101
 msgid "Where did you find out about SPy o.z.?"
 msgstr ""
 
@@ -743,15 +743,15 @@ msgstr ""
 msgid "More information about the schedule can be found "
 msgstr ""
 
-#: templates/edusummit.html:49 templates/edusummit.html:107
+#: templates/edusummit.html:49 templates/edusummit.html:108
 msgid "here.</a>"
 msgstr ""
 
-#: templates/edusummit.html:53
+#: templates/edusummit.html:54
 msgid "SPy Cup"
 msgstr ""
 
-#: templates/edusummit.html:55
+#: templates/edusummit.html:56
 msgid ""
 "Students from all 14 schools currently participating in Teaching with "
 "Hardware will join the SPy Cup contest, in which they create their own "
@@ -761,30 +761,30 @@ msgid ""
 " have a short presentation about their project at PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:56
+#: templates/edusummit.html:57
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
 msgstr ""
 
-#: templates/edusummit.html:62
+#: templates/edusummit.html:63
 msgid ""
 "If you have created an interesting hardware project which uses Python, "
 "MicroPython or the BBC micro:bit and would like to share it to the world "
 "then bring it to PyCon SK 2019 :-)"
 msgstr ""
 
-#: templates/edusummit.html:63
+#: templates/edusummit.html:64
 msgid ""
 "You can find some inspiration here <a "
 "href=\"https://www.ucimeshardverom.sk/projekty/\">www.ucimeshardverom.sk/projekty</a>"
 msgstr ""
 
-#: templates/edusummit.html:67
+#: templates/edusummit.html:68
 msgid "Teaching with Hardware"
 msgstr ""
 
-#: templates/edusummit.html:69
+#: templates/edusummit.html:70
 msgid ""
 "The goal of the initiative Teaching with Hardware is to introduce such "
 "activities into computing lessons at primary and secondary schools, which"
@@ -797,39 +797,39 @@ msgid ""
 " Slovakia, and the results will be announced at PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:70
+#: templates/edusummit.html:71
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk\">www.ucimeshardverom.sk</a>"
 msgstr ""
 
-#: templates/edusummit.html:74
+#: templates/edusummit.html:75
 msgid "Poster Session"
 msgstr ""
 
-#: templates/edusummit.html:76
+#: templates/edusummit.html:77
 msgid "We will host a poster session and we will be happy if you get involved."
 msgstr ""
 
-#: templates/edusummit.html:80
+#: templates/edusummit.html:81
 msgid "Python Cup"
 msgstr ""
 
-#: templates/edusummit.html:82
+#: templates/edusummit.html:83
 msgid "The winners of Python Cup will be awarded at EduSummit."
 msgstr ""
 
-#: templates/edusummit.html:83
+#: templates/edusummit.html:84
 msgid ""
 "More info can be found at <a "
 "href=\"http://edi.fmph.uniba.sk/~tomcsanyiova/PythonCup/\">edi.fmph.uniba.sk/~tomcsanyiova/PythonCup</a>"
 msgstr ""
 
-#: templates/edusummit.html:87
+#: templates/edusummit.html:88
 msgid "What kind of ticked should I buy?"
 msgstr ""
 
-#: templates/edusummit.html:89
+#: templates/edusummit.html:90
 msgid ""
 "All available tickets apply for the whole PyCon SK conference, including "
 "the EduSummit section. All of the talks and workshops take place at the "
@@ -837,31 +837,31 @@ msgid ""
 "attend. If you are a teacher or student you are eligible for a discount."
 msgstr ""
 
-#: templates/edusummit.html:93
+#: templates/edusummit.html:94
 msgid "Young Coders' day"
 msgstr ""
 
-#: templates/edusummit.html:95
+#: templates/edusummit.html:96
 msgid ""
 "On saturday, we will host a Young Coders' day, consisting of programming "
 "workshops for children."
 msgstr ""
 
-#: templates/edusummit.html:99
+#: templates/edusummit.html:100
 msgid "Speak at EduSummit"
 msgstr ""
 
-#: templates/edusummit.html:101
+#: templates/edusummit.html:102
 msgid ""
 "Call for Proposals is open. If you are a teacher or educator submit your "
 "talk or workshop and co-create the conference."
 msgstr ""
 
-#: templates/edusummit.html:105
+#: templates/edusummit.html:106
 msgid "Sponsorship"
 msgstr ""
 
-#: templates/edusummit.html:107
+#: templates/edusummit.html:108
 msgid ""
 "By supporting PyCon you also support numerous educational activities "
 "during the conference. If the conference is profitable we finance "
@@ -873,37 +873,37 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: templates/index.html:18
+#: templates/index.html:20
 msgid "<span>Be a part of </span>PyCon SK 2019."
 msgstr ""
 
-#: templates/index.html:19
+#: templates/index.html:22
 msgid "22-24 March"
 msgstr ""
 
-#: templates/index.html:33
+#: templates/index.html:36
 msgid "Days"
 msgstr ""
 
-#: templates/index.html:37
+#: templates/index.html:40
 msgid "Hours"
 msgstr ""
 
-#: templates/index.html:41
+#: templates/index.html:44
 msgid "Minutes"
 msgstr ""
 
-#: templates/index.html:45
+#: templates/index.html:48
 msgid "Seconds"
 msgstr ""
 
-#: templates/index.html:62 templates/venue.html:50
+#: templates/index.html:65 templates/venue.html:45
 msgid ""
 "<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in "
 "Bratislava</strong>."
 msgstr ""
 
-#: templates/index.html:65
+#: templates/index.html:68
 msgid ""
 "The PyCon SK 2019 conference, which will take place in Bratislava, is the"
 " annual gathering for the community using and developing the open-source "
@@ -914,7 +914,7 @@ msgid ""
 "community of Python programmers and Open Source supporters."
 msgstr ""
 
-#: templates/index.html:68
+#: templates/index.html:71
 msgid ""
 "Because PyCon SK is backed by the non-profit SPy, we keep registration "
 "costs much lower than comparable technology conferences (or other "
@@ -922,103 +922,103 @@ msgid ""
 "the widest group possible."
 msgstr ""
 
-#: templates/index.html:71
+#: templates/index.html:74
 msgid ""
 "PyCon SK is a diverse conference dedicated to providing an enjoyable "
 "experience to everyone. Help us do this by following our "
 msgstr ""
 
-#: templates/index.html:84
+#: templates/index.html:87
 msgid "Great Speakers"
 msgstr ""
 
-#: templates/index.html:92
+#: templates/index.html:95
 msgid "Networking"
 msgstr ""
 
-#: templates/index.html:100
+#: templates/index.html:103
 msgid "Have Fun"
 msgstr ""
 
-#: templates/index.html:109
+#: templates/index.html:112
 msgid "Respected industry leaders with future-tech talks."
 msgstr ""
 
-#: templates/index.html:110
+#: templates/index.html:113
 msgid ""
 "Appart from well recognized community members we also invite first time "
 "speakers to submit a talk."
 msgstr ""
 
-#: templates/index.html:111
+#: templates/index.html:114
 msgid ""
 "If you've done something that you think other people might be interested "
 "in, or that you think they should know about, please do consider telling "
 "us about it."
 msgstr ""
 
-#: templates/index.html:119
+#: templates/index.html:123
 msgid "Great opportunity to network"
 msgstr ""
 
-#: templates/index.html:120
+#: templates/index.html:124
 msgid ""
 "PyCon is organized by the Python community and for the Python community. "
 "Joining the event makes you part of the community."
 msgstr ""
 
-#: templates/index.html:121
+#: templates/index.html:125
 msgid "People at PyCon SK are very nice, so come and make new friends."
 msgstr ""
 
-#: templates/index.html:122
+#: templates/index.html:126
 msgid ""
 "Besides great people you can meet interesting hi-tech companies to "
 "discuss job or business opportunities."
 msgstr ""
 
-#: templates/index.html:124 templates/index.html:134
+#: templates/index.html:128 templates/index.html:139
 msgid "Buy ticket"
 msgstr ""
 
-#: templates/index.html:130
+#: templates/index.html:135
 msgid "Food and drinks are provided for all attendees."
 msgstr ""
 
-#: templates/index.html:131
+#: templates/index.html:136
 msgid ""
 "On Friday we will have an unofficial party. We meet in a pub talk and "
 "have fun. Everybody at their own expense."
 msgstr ""
 
-#: templates/index.html:132
+#: templates/index.html:137
 msgid ""
 "On Saturday we will have an official dinner. We meet in a pub talk and "
 "have fun again :D Most of the volunteers and speakers join this party, "
 "but for this one you will need a separate ticket."
 msgstr ""
 
-#: templates/index.html:153
+#: templates/index.html:159
 msgid "Participants"
 msgstr ""
 
-#: templates/index.html:173
+#: templates/index.html:179
 msgid "Sessions"
 msgstr ""
 
-#: templates/index.html:183
+#: templates/index.html:189
 msgid "Sponsors"
 msgstr ""
 
-#: templates/index.html:198
+#: templates/index.html:204
 msgid "News"
 msgstr ""
 
-#: templates/index.html:217
+#: templates/index.html:225
 msgid "Conference ticket sale is open."
 msgstr ""
 
-#: templates/index.html:220 templates/tickets.html:23
+#: templates/index.html:229 templates/tickets.html:23
 msgid ""
 "Buy your ticket before they are gone... So far every PyCon SK has been "
 "sold out!"
@@ -1322,62 +1322,62 @@ msgstr ""
 msgid "SPy Cup Presentations [SK] "
 msgstr ""
 
-#: templates/schedule.html:42 templates/schedule.html:47
-#: templates/schedule.html:48 templates/schedule.html:52
-#: templates/schedule.html:53 templates/schedule.html:57
-#: templates/schedule.html:62
+#: templates/schedule.html:42 templates/schedule.html:49
+#: templates/schedule.html:51 templates/schedule.html:56
+#: templates/schedule.html:57 templates/schedule.html:62
+#: templates/schedule.html:68
 msgid "Edu"
 msgstr ""
 
-#: templates/schedule.html:43
+#: templates/schedule.html:44
 msgid "Conference Game Finals [EN] "
 msgstr ""
 
-#: templates/schedule.html:43
+#: templates/schedule.html:44
 msgid "Conference Contest"
 msgstr ""
 
-#: templates/schedule.html:44
+#: templates/schedule.html:46
 msgid "Sprints [both EN and SK]"
 msgstr ""
 
-#: templates/schedule.html:47
+#: templates/schedule.html:49
 msgid "EduSummit Talks [SK] "
 msgstr ""
 
-#: templates/schedule.html:48
+#: templates/schedule.html:51
 msgid "EduSummit Workshops [SK] "
 msgstr ""
 
-#: templates/schedule.html:52
+#: templates/schedule.html:56
 msgid "Python Cup [SK] "
 msgstr ""
 
-#: templates/schedule.html:53
+#: templates/schedule.html:57
 msgid "Young Coders' day [SK] "
 msgstr ""
 
-#: templates/schedule.html:57
+#: templates/schedule.html:62
 msgid "EduSummit Poster Session [both EN and SK] "
 msgstr ""
 
-#: templates/schedule.html:58
+#: templates/schedule.html:64
 msgid "Main Poster session [both EN and SK]"
 msgstr ""
 
-#: templates/schedule.html:62
+#: templates/schedule.html:68
 msgid "Hardware Projects Showcase [both EN and SK] "
 msgstr ""
 
-#: templates/schedule.html:67
+#: templates/schedule.html:74
 msgid "Conference Party "
 msgstr ""
 
-#: templates/schedule.html:67 templates/schedule.html:68
+#: templates/schedule.html:74 templates/schedule.html:76
 msgid "Social Event"
 msgstr ""
 
-#: templates/schedule.html:68
+#: templates/schedule.html:76
 msgid "Conference Dinner "
 msgstr ""
 
@@ -1393,7 +1393,7 @@ msgstr ""
 msgid "Gold Sponsors"
 msgstr ""
 
-#: templates/sponsoring.html:33
+#: templates/sponsoring.html:31
 msgid ""
 "The Kistler Group is a Swiss high-tech company and the global market\n"
 "                  leader in dynamic measurement technology. We develop "
@@ -1411,93 +1411,93 @@ msgid ""
 "                  future."
 msgstr ""
 
-#: templates/sponsoring.html:53
+#: templates/sponsoring.html:50
 msgid "Media Partners"
 msgstr ""
 
-#: templates/sponsoring.html:78
+#: templates/sponsoring.html:75
 msgid "Why become a sponsor?"
 msgstr ""
 
-#: templates/sponsoring.html:79
+#: templates/sponsoring.html:76
 msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
 msgstr ""
 
-#: templates/sponsoring.html:82
+#: templates/sponsoring.html:81
 msgid ""
 "PyCon is an annual gathering for the community using and developing the "
 "open-source Python programming language. The conference is completely "
 "organized by volunteers."
 msgstr ""
 
-#: templates/sponsoring.html:86
+#: templates/sponsoring.html:82
 msgid ""
 "The members of the Python community organize a PyCon conference in their "
-"home countries regularly, PyCon will happen in Slovakia for the third "
+"home countries regularly, PyCon will happen in Slovakia for the fourth "
 "time."
 msgstr ""
 
-#: templates/sponsoring.html:90
+#: templates/sponsoring.html:86
 msgid ""
 "To ensure high-quality speakers and keep the tickets price available for "
 "everyone we need you, the sponsors, who allow the conference to take "
 "place."
 msgstr ""
 
-#: templates/sponsoring.html:94
+#: templates/sponsoring.html:90
 msgid ""
 "Do not hesitate to contact us. We are flexible and willing to work with "
 "you to design a sponsorship package that is going to meet your business "
 "needs."
 msgstr ""
 
-#: templates/sponsoring.html:104
-msgid "Marketing"
-msgstr ""
-
-#: templates/sponsoring.html:106
-msgid ""
-"Looking for new users for your product? Such people can be found at PyCon"
-" - they also will look for new products and ideas."
-msgstr ""
-
-#: templates/sponsoring.html:115
-msgid "Community"
-msgstr ""
-
-#: templates/sponsoring.html:117
-msgid ""
-"Looking for new contributors and partners for your open source project? "
-"PyCon is the place, where they also will look for you."
-msgstr ""
-
-#: templates/sponsoring.html:126
+#: templates/sponsoring.html:102
 msgid "Recruitment"
 msgstr ""
 
-#: templates/sponsoring.html:128
+#: templates/sponsoring.html:104
 msgid ""
 "Are you looking for programmers? PyCon is the best place for meeting new "
 "talents. Many participants will be experienced developers looking for "
 "their next big career move."
 msgstr ""
 
-#: templates/sponsoring.html:137
+#: templates/sponsoring.html:113
 msgid "Audience"
 msgstr ""
 
-#: templates/sponsoring.html:139
+#: templates/sponsoring.html:115
 msgid ""
 "Want to get your message across to the people, so they talk about you? "
 "PyCon is a great opportunity. People in the Python community like to "
 "discover and share new things."
 msgstr ""
 
-#: templates/sponsoring.html:149
+#: templates/sponsoring.html:124
+msgid "Marketing"
+msgstr ""
+
+#: templates/sponsoring.html:126
+msgid ""
+"Looking for new users for your product? Such people can be found at PyCon"
+" - they also will look for new products and ideas."
+msgstr ""
+
+#: templates/sponsoring.html:135
+msgid "Community"
+msgstr ""
+
+#: templates/sponsoring.html:137
+msgid ""
+"Looking for new contributors and partners for your open source project? "
+"PyCon is the place, where they also will look for you."
+msgstr ""
+
+#: templates/sponsoring.html:146
 msgid "Support"
 msgstr ""
 
-#: templates/sponsoring.html:151
+#: templates/sponsoring.html:148
 msgid ""
 "Are you using Python in your company? Support for community events is an "
 "excellent opportunity to contribute back."
@@ -1511,7 +1511,7 @@ msgstr ""
 msgid "We'll get in touch as soon as possible."
 msgstr ""
 
-#: templates/tickets.html:32
+#: templates/tickets.html:30
 msgid ""
 "You can also buy tickets directly on the <a "
 "href=\"https://ti.to/pyconsk/2019\" "
@@ -1519,39 +1519,39 @@ msgid ""
 " widget is not displayed correctly."
 msgstr ""
 
-#: templates/tickets.html:34
+#: templates/tickets.html:32
 msgid "What am I paying for?"
 msgstr ""
 
-#: templates/tickets.html:43
+#: templates/tickets.html:41
 msgid "Speakers and Lecturers"
 msgstr ""
 
-#: templates/tickets.html:44
+#: templates/tickets.html:42
 msgid ""
 "Our speakers are the best. And they do it for free! However, we have to "
 "pay for their\n"
 "              conference ticket and sometimes we cover the travel budget."
 msgstr ""
 
-#: templates/tickets.html:46
+#: templates/tickets.html:44
 msgid ""
 "Expenses for flight tickets and hotel in Bratislava are a big part of our"
 " budget. We also do cover all\n"
 "              the costs of recording and releasing the all of the talks."
 msgstr ""
 
-#: templates/tickets.html:55
+#: templates/tickets.html:53
 msgid "Community & Inclusion"
 msgstr ""
 
-#: templates/tickets.html:56
+#: templates/tickets.html:54
 msgid ""
 "PyCon is a special type of conference - it is organised by the community "
 "for the community"
 msgstr ""
 
-#: templates/tickets.html:58
+#: templates/tickets.html:56
 msgid ""
 "By attending, you have a chance to meet like minded people and hear a lot"
 " of interesting stories. However,\n"
@@ -1560,79 +1560,79 @@ msgid ""
 "              and give free tickets."
 msgstr ""
 
-#: templates/tickets.html:75
+#: templates/tickets.html:73
 msgid "Conference T-shirt and other swag"
 msgstr ""
 
-#: templates/tickets.html:76
+#: templates/tickets.html:74
 msgid ""
 "What kind of conference would PyCon Slovakia be without a conference "
 "T-shirt?"
 msgstr ""
 
-#: templates/tickets.html:77
+#: templates/tickets.html:75
 msgid ""
 "Each attendee receives one 100&#37; cotton T-shirt and other swag. "
 "Possibly a water bottle with our fancy\n"
 "              PyCon Slovakia logo. We would love to hear your ideas..."
 msgstr ""
 
-#: templates/tickets.html:87
+#: templates/tickets.html:85
 msgid ""
 "The conference takes place at the Faculty of Informatics and Information "
 "Technologies\n"
 "              (Slovak University of Technology)"
 msgstr ""
 
-#: templates/tickets.html:89
+#: templates/tickets.html:87
 msgid ""
 "Venue is in new building and have well equipped and pleasant auditoriums "
 "and lobbies. The first PyCon SK\n"
 "              was one of the first conferences in this auditorium!"
 msgstr ""
 
-#: templates/tickets.html:104
+#: templates/tickets.html:102
 msgid "Refreshments"
 msgstr ""
 
-#: templates/tickets.html:105
+#: templates/tickets.html:103
 msgid ""
 "Afraid of falling asleep during a talk? Don't worry, we have your back - "
 "All you can drink\n"
 "              coffee, tea and water."
 msgstr ""
 
-#: templates/tickets.html:107
+#: templates/tickets.html:105
 msgid ""
 "We will have two proffesional baristas serving fresh coffee and tea all "
 "day long. Water fountains will be\n"
 "              available on multiple spots in the lobby."
 msgstr ""
 
-#: templates/tickets.html:116
+#: templates/tickets.html:114
 msgid "Lunch"
 msgstr ""
 
-#: templates/tickets.html:117
+#: templates/tickets.html:115
 msgid "During all three days, a variety of warm food will be served for lunch"
 msgstr ""
 
-#: templates/tickets.html:118
+#: templates/tickets.html:116
 msgid "Meat and vegetarian alternatives will be available."
 msgstr ""
 
-#: templates/tickets.html:119
+#: templates/tickets.html:117
 msgid ""
 "We also try to be as eco friendly as possible, and so we serve food on "
 "ceramic plates, eat with metal\n"
 "              cutlery and drink water from reusable plastic bottles."
 msgstr ""
 
-#: templates/tickets.html:134
+#: templates/tickets.html:132
 msgid "Real Conference Ticket Price"
 msgstr ""
 
-#: templates/tickets.html:135
+#: templates/tickets.html:133
 msgid ""
 "The real price of one conference ticket would be much higher had it not "
 "been for our\n"
@@ -1640,7 +1640,7 @@ msgid ""
 "sell cheaper tickets."
 msgstr ""
 
-#: templates/tickets.html:137
+#: templates/tickets.html:135
 msgid ""
 "Without sponsors and partners all tickets would cost over 90&euro; "
 "(including student and teacher\n"
@@ -1649,11 +1649,11 @@ msgid ""
 "              Python commnity before and during each PyCon."
 msgstr ""
 
-#: templates/tickets.html:146
+#: templates/tickets.html:144
 msgid "micro:bit Education Supporter Ticket"
 msgstr ""
 
-#: templates/tickets.html:150
+#: templates/tickets.html:148
 msgid ""
 "<i>Teaching with Hardware</i> is a project of the Slovak Python User "
 "Group which strives to\n"
@@ -1670,7 +1670,7 @@ msgid ""
 "              on."
 msgstr ""
 
-#: templates/tickets.html:158
+#: templates/tickets.html:156
 #, python-format
 msgid ""
 "Within several weeks you will be informed which school received the kit "
@@ -1684,27 +1684,27 @@ msgid ""
 "the <i>Teaching with Hardware</i> project."
 msgstr ""
 
-#: templates/venue.html:49
+#: templates/venue.html:44
 msgid "How do you get to Slovak PyCon?"
 msgstr ""
 
-#: templates/venue.html:52
+#: templates/venue.html:47
 msgid "Venue Address"
 msgstr ""
 
-#: templates/venue.html:54
+#: templates/venue.html:49
 msgid "Slovak University of Technology in Bratislava"
 msgstr ""
 
-#: templates/venue.html:55
+#: templates/venue.html:50
 msgid "Faculty of Informatics and Information Technologies"
 msgstr ""
 
-#: templates/venue.html:60
+#: templates/venue.html:55
 msgid "Travelling to Bratislava"
 msgstr ""
 
-#: templates/venue.html:62
+#: templates/venue.html:57
 msgid ""
 "Bratislava is one of the youngest capitals in Europe, and also one of the"
 " smallest. Despite this, it has a rich history of a free royal coronation"
@@ -1715,18 +1715,18 @@ msgid ""
 "getting here."
 msgstr ""
 
-#: templates/venue.html:70
+#: templates/venue.html:65
 msgid "By air"
 msgstr ""
 
-#: templates/venue.html:72
+#: templates/venue.html:67
 msgid ""
 "If you are travelling to Bratislava, you can fly to the Bratislava "
 "airport (airport code: BTS) or the Vienna airport (airport code: VIE). "
 "Vienna airport has considerably better offer of flights."
 msgstr ""
 
-#: templates/venue.html:76
+#: templates/venue.html:71
 msgid ""
 "From Bratislava airport you can take taxi (use the phone, its cheaper), "
 "or take the bus #61 and then move to bus #39 at the Bajkalska station. "
@@ -1734,7 +1734,7 @@ msgid ""
 "up to the hill to univerrsity campus."
 msgstr ""
 
-#: templates/venue.html:80
+#: templates/venue.html:75
 msgid ""
 "If you travel via Vienna airport, there are direct and cheap bus "
 "connections from early morning till midnight. One way ticket costs about "
@@ -1744,11 +1744,11 @@ msgid ""
 "(Yellow busses)."
 msgstr ""
 
-#: templates/venue.html:87
+#: templates/venue.html:82
 msgid "By car"
 msgstr ""
 
-#: templates/venue.html:90
+#: templates/venue.html:85
 msgid ""
 "Arriving from Vienna, choose the direction Schwechat on A4 highway, then "
 "turn to highway A6 leading to Bratislava.\n"
@@ -1762,7 +1762,7 @@ msgid ""
 "left up the hill towards the university campus."
 msgstr ""
 
-#: templates/venue.html:95
+#: templates/venue.html:90
 msgid ""
 "From Budapest, take the highway M1 heading to Gyor, follow this route "
 "until you see signs for highway M15 heading to Slovakia and Bratislava.\n"
@@ -1770,7 +1770,7 @@ msgid ""
 "according to instructions above."
 msgstr ""
 
-#: templates/venue.html:97
+#: templates/venue.html:92
 msgid ""
 "If you drive from Prague, take the highway D1 to Brno, once in Brno take "
 "the highway D2 heading to Slovakia and Bratislava.\n"
@@ -1780,7 +1780,7 @@ msgid ""
 "you should stay in right lane while in tunnel."
 msgstr ""
 
-#: templates/venue.html:100
+#: templates/venue.html:95
 msgid ""
 "From eastern and southern Poland choose your way to Katowice. From there "
 "follow the road to Cadca, Slovakia.\n"
@@ -1791,17 +1791,17 @@ msgid ""
 "above."
 msgstr ""
 
-#: templates/venue.html:107
+#: templates/venue.html:102
 msgid "By bus"
 msgstr ""
 
-#: templates/venue.html:109
+#: templates/venue.html:104
 msgid ""
 "All neighbouring capital cities Vienna, Prague, Budapest, Warsaw and Kiev"
 " have direct bus connections."
 msgstr ""
 
-#: templates/venue.html:112
+#: templates/venue.html:107
 msgid ""
 "Most of the buses will bring you to the main bus station - Mlynske Nivy. "
 "It is currently located in temporary location, so dont\n"
@@ -1813,17 +1813,17 @@ msgid ""
 "continue with line number 30 or 37 to the station ZOO."
 msgstr ""
 
-#: templates/venue.html:119
+#: templates/venue.html:114
 msgid "By train"
 msgstr ""
 
-#: templates/venue.html:121
+#: templates/venue.html:116
 msgid ""
 "All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kiev "
 "have direct train connections."
 msgstr ""
 
-#: templates/venue.html:124
+#: templates/venue.html:119
 msgid ""
 "Once you arrive at the Bratislava train station (Bratislava hlavná "
 "stanica), leave the station through the main entrance.\n"
@@ -1834,11 +1834,11 @@ msgid ""
 "            about the prices or the lines."
 msgstr ""
 
-#: templates/venue.html:133
+#: templates/venue.html:128
 msgid "Accommodation"
 msgstr ""
 
-#: templates/venue.html:135
+#: templates/venue.html:130
 msgid ""
 "There are plenty of opportunities for accommodation in Bratislava. From "
 "coach surfing, Airbnb to hostels and five star hotels. Even though it is "
@@ -1846,11 +1846,11 @@ msgid ""
 " advance."
 msgstr ""
 
-#: templates/venue.html:138
+#: templates/venue.html:133
 msgid "Guide"
 msgstr ""
 
-#: templates/venue.html:140
+#: templates/venue.html:135
 msgid ""
 "Bratislava offers much more than just PyCon. If you decide to stay in "
 "Bratislava a few days longer, have a look at <a "
@@ -1861,7 +1861,7 @@ msgid ""
 "about each location or event."
 msgstr ""
 
-#: templates/venue.html:143
+#: templates/venue.html:138
 msgid ""
 "Or you can review the <a href=\"http://www.visitbratislava.com/\" "
 "title=\"city pages for visitors\" target=\"_blank\" "

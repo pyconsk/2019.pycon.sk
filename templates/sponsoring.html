@@ -24,9 +24,7 @@
 
         <div class="col-xs-12 col-sm-6 col-md-6">
           <div class="sponsor-details">
-            <a href="#" class="sponsor-logo highlight">
-              <img class="img-responsive" src="images/sponsors/sponsor1.png" alt=""/>
-            </a>
+            <img class="img-responsive" src="{{ url_for('static', filename='images/partners/kistler.svg') }}" alt="Kistler logo"/>
             <div class="sponsor-info">
               <h4 class="sponsor-name">Kistler</h4>
               <p>
@@ -40,9 +38,8 @@
                   future.') }}
               </p>
               <div class="sponsor-web-link">
-                <a href="#"><i class="fa fa-globe"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.kistler.com/" target="_blank"><i class="fa fa-globe"></i></a>
+                <a href="https://www.facebook.com/kistler.bratislava/" target="_blank"><i class="fa fa-facebook"></i></a>
               </div>
             </div><!-- Info end -->
           </div><!-- Sponsor details -->
@@ -54,15 +51,14 @@
 
         <div class="col-xs-12 col-sm-3 col-md-3">
           <div class="sponsor-details">
-            <a href="#" class="sponsor-logo highlight">
-              <img class="img-responsive" src="images/sponsors/sponsor4.png" alt=""/>
-            </a>
+            <img class="img-responsive" src="{{ url_for('static', filename='images/partners/robime-it.svg') }}" alt=""/>
             <div class="sponsor-info">
               <h4 class="sponsor-name">robime.it</h4>
               <p>&nbsp;</p>
               <div class="sponsor-web-link">
-                <a href="#"><i class="fa fa-globe"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="http://robime.it" target="_blank"><i class="fa fa-globe"></i></a>
+                <a href="https://facebook.com/robimeit" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/robimeit" target="_blank"><i class="fa fa-twitter"></i></a>
               </div>
             </div><!-- Info end -->
           </div><!-- Sponsor details -->
@@ -75,15 +71,15 @@
   <section id="sponsoring" class="sponsoring-area">
     <div class="container">
       <div class="row text-center">
-        <h2 class="sponsor-title">{{ _('Why become a sponsor?') }}</h2>
-        <p class="lead">{{ _('We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!') }}</p>
+{#        <span class="icon-wrap"><i class="fa fa-handshake-o"></i></span>#}
+        <h2 class="section-title">{{ _('Why become a sponsor?') }}</h2>
+        <p class="section-sub-title">{{ _('We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!') }}</p>
+      </div><!--/ Title row end -->
 
+      <div class="row text-center">
         <p class="text-justify">
           {{ _('PyCon is an annual gathering for the community using and developing the open-source Python programming language. The conference is completely organized by volunteers.') }}
-        </p>
-
-        <p class="text-justify">
-          {{ _('The members of the Python community organize a PyCon conference in their home countries regularly, PyCon will happen in Slovakia for the third time.') }}
+          {{ _('The members of the Python community organize a PyCon conference in their home countries regularly, PyCon will happen in Slovakia for the fourth time.') }}
         </p>
 
         <p class="text-justify">
@@ -95,36 +91,15 @@
         </p>
 
         <p class="text-center">
-          <a href="mailto:sponsors@pycon.sk" class="btn btn-primary btn-lg"><span class="oi oi-pulse"></span>
-            sponsors@pycon.sk <span class="oi oi-pulse"></span></a>
+          <a href="mailto:sponsors@pycon.sk" class="btn btn-primary btn-lg">
+            <i class="fa fa-handshake-o"></i> &nbsp; sponsors@pycon.sk
+          </a>
         </p>
 
         <div class="col-xs-12 col-sm-6 col-md-6">
           <div class="sponsor-details">
             <div class="sponsor-info">
-              <h4 class="sponsor-name">{{ _('Marketing') }}</h4>
-              <p class="text-justify">
-                {{ _('Looking for new users for your product? Such people can be found at PyCon - they also will look for new products and ideas.') }}
-              </p>
-            </div><!-- Info end -->
-          </div><!-- Sponsor details -->
-        </div><!-- Col 1 end -->
-
-        <div class="col-xs-12 col-sm-6 col-md-6">
-          <div class="sponsor-details">
-            <div class="sponsor-info">
-              <h4 class="sponsor-name">{{ _('Community') }}</h4>
-              <p class="text-justify">
-                {{ _('Looking for new contributors and partners for your open source project? PyCon is the place, where they also will look for you.') }}
-              </p>
-            </div><!-- Info end -->
-          </div><!-- Sponsor details -->
-        </div><!-- Col 1 end -->
-
-        <div class="col-xs-12 col-sm-6 col-md-6">
-          <div class="sponsor-details">
-            <div class="sponsor-info">
-              <h4 class="sponsor-name">{{ _('Recruitment') }}</h4>
+              <h4 class="sponsor-name"><i class="fa fa-handshake-o" aria-hidden="true"></i> {{ _('Recruitment') }}</h4>
               <p class="text-justify">
                 {{ _('Are you looking for programmers? PyCon is the best place for meeting new talents. Many participants will be experienced developers looking for their next big career move.') }}
               </p>
@@ -135,7 +110,7 @@
         <div class="col-xs-12 col-sm-6 col-md-6">
           <div class="sponsor-details">
             <div class="sponsor-info">
-              <h4 class="sponsor-name">{{ _('Audience') }}</h4>
+              <h4 class="sponsor-name"><i class="fa fa-bullhorn" aria-hidden="true"></i> {{ _('Audience') }}</h4>
               <p class="text-justify">
                 {{ _('Want to get your message across to the people, so they talk about you? PyCon is a great opportunity. People in the Python community like to discover and share new things.') }}
               </p>
@@ -143,11 +118,32 @@
           </div><!-- Sponsor details -->
         </div><!-- Col 1 end -->
 
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <div class="sponsor-details">
+            <div class="sponsor-info">
+              <h4 class="sponsor-name"><i class="fa fa-line-chart"></i> {{ _('Marketing') }}</h4>
+              <p class="text-justify">
+                {{ _('Looking for new users for your product? Such people can be found at PyCon - they also will look for new products and ideas.') }}
+              </p>
+            </div><!-- Info end -->
+          </div><!-- Sponsor details -->
+        </div><!-- Col 1 end -->
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <div class="sponsor-details">
+            <div class="sponsor-info">
+              <h4 class="sponsor-name"><i class="fa fa-users" aria-hidden="true"></i> {{ _('Community') }}</h4>
+              <p class="text-justify">
+                {{ _('Looking for new contributors and partners for your open source project? PyCon is the place, where they also will look for you.') }}
+              </p>
+            </div><!-- Info end -->
+          </div><!-- Sponsor details -->
+        </div><!-- Col 1 end -->
 
         <div class="col-sm-push-3 col-md-push-3 col-xs-12 col-sm-6 col-md-6">
           <div class="sponsor-details">
             <div class="sponsor-info">
-              <h4 class="sponsor-name">{{ _('Support') }}</h4>
+              <h4 class="sponsor-name"><i class="fa fa-heart" aria-hidden="true"></i> {{ _('Support') }}</h4>
               <p class="text-justify">
                 {{ _('Are you using Python in your company? Support for community events is an excellent opportunity to contribute back.') }}
               </p>
@@ -158,5 +154,4 @@
 
     </div>
   </section>
-
 {% endblock %}
