@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-12-01 00:11+0100\n"
+"POT-Creation-Date: 2018-12-01 00:25+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -69,7 +69,6 @@ msgid "Venue"
 msgstr "Miesto konania"
 
 #: templates/body.html:109 templates/coc.html:7 templates/coc.html:16
-#: templates/index.html:75
 msgid "Code of Conduct"
 msgstr "Kódex správania"
 
@@ -223,7 +222,7 @@ msgstr "Kúp si lístok"
 msgid "Back to Top"
 msgstr "Návrat na vrch stránky"
 
-#: templates/cfp.html:18 templates/cfp_form.html:24 templates/index.html:276
+#: templates/cfp.html:18 templates/cfp_form.html:24 templates/index.html:277
 msgid "The Call For Proposals is open!"
 msgstr "Predkladanie návrhov prednášok je otvorené!"
 
@@ -261,7 +260,7 @@ msgstr "Kam poslať Váš návrh na prednášku"
 msgid "We are glad you are interested in giving a talk at PyCon SK 2019!"
 msgstr "Sme radi, že máš záujem prednášať na PyCon SK 2019! "
 
-#: templates/cfp.html:31 templates/index.html:279
+#: templates/cfp.html:31 templates/index.html:280
 msgid ""
 "Submit your talk proposal with short abstract and your bio. All selected "
 "speakers get a complimentary ticket to the conference."
@@ -583,11 +582,11 @@ msgstr "Prípadne"
 msgid "directly in Google forms."
 msgstr "priamo v Google formulároch."
 
-#: templates/cfv.html:24 templates/index.html:246
+#: templates/cfv.html:24 templates/index.html:247
 msgid "We need you to help organize PyCon SK 2019!"
 msgstr "Potrebujeme ťa, aby si pomohol s organizáciou PyCon SK 2019!"
 
-#: templates/cfv.html:31 templates/index.html:250
+#: templates/cfv.html:31 templates/index.html:251
 msgid ""
 "All of our staff members are volunteers. We are looking for new members "
 "to join the team of organizers."
@@ -822,7 +821,7 @@ msgstr ""
 "štátne vyznamenanie Pribinov kríž I. triedy, ktoré mu udelil prezident SR"
 " Andrej Kiska."
 
-#: templates/edusummit.html:31
+#: templates/edusummit.html:31 templates/index.html:301
 msgid "Profesor Juraj Hromkovič, DrSc."
 msgstr "Profesor Juraj Hromkovič, DrSc."
 
@@ -1129,9 +1128,13 @@ msgstr ""
 "zážitok pre všetkých návštevníkov. Aby sme toto splnili, prosím dodržuj "
 "náš "
 
+#: templates/index.html:75
+msgid "code of conduct"
+msgstr "kódex správania"
+
 #: templates/index.html:87
 msgid "Great Speakers"
-msgstr "Vynikajúci spíkri"
+msgstr "Vynikajúci rečníci"
 
 #: templates/index.html:95
 msgid "Networking"
@@ -1228,34 +1231,66 @@ msgid "News"
 msgstr "Novinky"
 
 #: templates/index.html:210
-msgid "PyCon SK 2019 website redesign."
-msgstr "Redizajn webu PyCon SK 2019"
+msgid "PyCon SK 2019 speakers and website redesign."
+msgstr "Spíkri na PyCon SK 2019 a redizajn webstránky"
+
+#: templates/index.html:214
+msgid "It is our privilege to announce first three speakers at PyCon SK 2019:"
+msgstr "Je nám cťou ohlásiť prvých troch spíkrov na PyCon SK 2019:"
 
 #: templates/index.html:214
 msgid ""
-"We have launched new design of the conference website. How do you like "
-"it? Let us know on our social networks."
+"Helen Li from Google, prof. Juraj Hromkovič from ETH Zürich and Honza "
+"Král from Elastic."
 msgstr ""
-"Spustili sme nový dizajn konferenčnej web stránky. Páči sa ti? Daj nám "
+"Helen Li z Google, prof. Juraj Hromkovič z ETH Zürich and Honza Král "
+"z Elasticu."
+
+#: templates/index.html:215
+msgid ""
+"We have also launched new design of the conference website. How do you "
+"like it? Let us know on our social networks."
+msgstr ""
+"Spustili sme nový dizajn konferenčnej web stránky. Ako sa ti páči? Daj nám "
 "vedieť na sociálnych sieťach."
 
-#: templates/index.html:225
+#: templates/index.html:226
 msgid "PyCon SK 2019 Slack channel & Social media"
 msgstr "PyCon SK 2019 Slack kanál & sociálne médiá"
 
-#: templates/index.html:229
+#: templates/index.html:230
 msgid "Join us at our social media:"
 msgstr "Pridaj sa k nám na sociálnych sieťach:"
 
-#: templates/index.html:261
+#: templates/index.html:262
 msgid "Conference ticket sale is open."
 msgstr "Predaj lístkov na konferenciu je otvorený."
 
-#: templates/index.html:265 templates/tickets.html:23
+#: templates/index.html:266 templates/tickets.html:23
 msgid ""
 "Buy your ticket before they are gone... So far every PyCon SK has been "
 "sold out!"
 msgstr "Kúp si lístok skôr, ako sa vypredá... Zatiaľ sa vypredal každý PyCon SK!"
+
+#: templates/index.html:294
+msgid "Awesome Speakers"
+msgstr "Úžasní rečníci"
+
+#: templates/index.html:295
+msgid "Listen, Learn, Get inspired."
+msgstr "Počúvaj, uč sa a inšpiruj sa"
+
+#: templates/index.html:304
+msgid "professor at ETH Zürich"
+msgstr "profesor na ETH Zürich"
+
+#: templates/index.html:314
+msgid "senior software engineer with Google AI Genomics"
+msgstr "senior softvér vývojárka v Google AI Genomics"
+
+#: templates/index.html:324
+msgid "Python engineer at Elastic"
+msgstr "Python vývojár v Elastic"
 
 #: templates/mailchimp.html:8
 msgid "Email Address"
