@@ -12,6 +12,10 @@
   <section id="main-container" class="main-container">
 
     <div class="container">
+      <div class="row text-center">
+        <span class="icon-wrap"><i class="fa fa-video-camera"></i></span>
+        <h2 class="section-title">{{ _('PyCon SK Recording Release') }}</h2>
+      </div><!--/ Title row end -->
 
       <div class="row">
         <div class="col-md-12">
@@ -46,8 +50,7 @@
           </p>
 
           <p class="text-center">
-            <a href="{{ url_for('cfp_form', lang_code=lang_code) }}" class="btn btn-primary btn-lg"><span class="oi oi-star"></span> {{ _('Submit your proposal') }}
-              <span class="oi oi-star"></span></a>
+            <a href="{{ url_for('cfp_form', lang_code=lang_code) }}" class="btn btn-primary btn-lg"><i class="fa fa-microphone"></i>  {{ _('Submit your proposal') }}</a>
           </p>
 
         </div>

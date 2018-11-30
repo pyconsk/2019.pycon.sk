@@ -5,13 +5,9 @@
   <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
   <!-- Doc https://developers.google.com/maps/documentation/javascript/get-api-key -->
   <!-- For latitude and longitude use http://www.latlong.net/ -->
-
   <script type="text/javascript" src="{{ url_for('static', filename='js/gmap3.js') }}"></script>
-
   <script type="text/javascript">
-
     /* Google Map */
-
     $(function () {
       $('#map')
         .gmap3({
@@ -26,7 +22,6 @@
           {icon: "http://maps.google.com/mapfiles/marker_grey.png"}
         ])
     });
-
   </script>
 {% endblock %}
 
@@ -46,7 +41,7 @@
       <div class="row featurette">
         <div class="col-md-12">
 
-          <h1 class="featurette-heading">{{ _('How do you get to Slovak PyCon?') }}</h1>
+          <h1>{{ _('How do you get to Slovak PyCon?') }}</h1>
           <p class="lead">{{ _('<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in Bratislava</strong>.') }}</p>
 
           <h2>{{ _('Venue Address') }}</h2>
