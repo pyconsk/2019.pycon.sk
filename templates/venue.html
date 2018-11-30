@@ -1,107 +1,144 @@
 {% extends "body.html" %}
+
+{% block include_js %}
+  <!-- Google Map -->
+  <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+  <!-- Doc https://developers.google.com/maps/documentation/javascript/get-api-key -->
+  <!-- For latitude and longitude use http://www.latlong.net/ -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/gmap3.js') }}"></script>
+  <script type="text/javascript">
+    /* Google Map */
+    $(function () {
+      $('#map')
+        .gmap3({
+          address: "Fakulta informatiky a informačných technológií, Ilkovičova 2, 842 16 Bratislava 4, Slovak Republic",
+          zoom: 13,
+          center: [48.153429, 17.071716],
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          scrollwheel: false
+        })
+        .marker([
+          {position: [48.153429, 17.071716]},
+          {icon: "http://maps.google.com/mapfiles/marker_grey.png"}
+        ])
+    });
+  </script>
+{% endblock %}
+
 {% block content %}
-<div class="container marketing">
+  <div class="page-banner-area banner10">
+    <!-- Subpage title start -->
+    <div class="page-banner-title">
+      <div class="text-center">
+        <h1>{{ _('Venue') }}</h1>
+      </div>
+    </div><!-- Subpage title end -->
+  </div><!-- Page Banner end -->
 
-  <div class="row featurette">
-    <div class="col-md-12">
+  <section id="main-container" class="main-container">
+    <div class="container">
 
-      <h1 class="featurette-heading">{{ _('How do you get to Slovak PyCon?') }}</h1>
-      <p class="lead">{{ _('<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in Bratislava</strong>.') }}</p>
+      <div class="row featurette">
+        <div class="col-md-12">
 
-      <h2>{{ _('Venue Address') }}</h2>
-      <p class="text-justify">
-        {{ _('Slovak University of Technology in Bratislava') }}<br />
-        {{ _('Faculty of Informatics and Information Technologies') }}<br />
-        Ilkovičova 2<br />
-        842 16 Bratislava 4
-      </p>
+          <h1>{{ _('How do you get to Slovak PyCon?') }}</h1>
+          <p class="lead">{{ _('<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in Bratislava</strong>.') }}</p>
 
-      <h2>{{ _('Travelling to Bratislava') }}</h2>
-      <p class="text-justify">
-        {{ _('Bratislava is one of the youngest capitals in Europe, and also one of the smallest. Despite this, it has a rich history of a free royal coronation town of Pressburg and '
+          <h2>{{ _('Venue Address') }}</h2>
+          <p class="text-justify">
+            {{ _('Slovak University of Technology in Bratislava') }}<br/>
+            {{ _('Faculty of Informatics and Information Technologies') }}<br/>
+            Ilkovičova 2<br/>
+            842 16 Bratislava 4
+          </p>
+
+          <h2>{{ _('Travelling to Bratislava') }}</h2>
+          <p class="text-justify">
+            {{ _('Bratislava is one of the youngest capitals in Europe, and also one of the smallest. Despite this, it has a rich history of a free royal coronation town of Pressburg and '
               'multiple opportunities how to spend time there. Bratislava has unique location, it is the only capital int he world located on the border of three countries.'
               'Today, Bratislava is a major transport hub in Central Europe, and there are plenty possibilities of getting here.') }}
-      </p>
+          </p>
 
-      <div class="row">
+          <div class="row">
 
-        <div class="col-md-6">
-          <h3>{{ _('By air') }}</h3>
-          <p class="text-justify">
-            {{ _('If you are travelling to Bratislava, you can fly to the Bratislava airport (airport code: BTS) or the Vienna airport (airport code: VIE). '
+            <div class="col-md-6">
+              <h3>{{ _('By air') }}</h3>
+              <p class="text-justify">
+                {{ _('If you are travelling to Bratislava, you can fly to the Bratislava airport (airport code: BTS) or the Vienna airport (airport code: VIE). '
                  'Vienna airport has considerably better offer of flights.') }}
-          </p>
-          <p class="text-justify">
-            {{ _('From Bratislava airport you can take taxi (use the phone, it''s cheaper), or take the bus #61 and then move to bus #39 at the Bajkalska station. '
+              </p>
+              <p class="text-justify">
+                {{ _('From Bratislava airport you can take taxi (use the phone, it''s cheaper), or take the bus #61 and then move to bus #39 at the Bajkalska station. '
                  'Get off the bus at the station ZOO and simply follow the PyCon stickers up to the hill to univerrsity campus.') }}
-          </p>
-          <p class="text-justify">
-            {{ _('If you travel via Vienna airport, there are direct and cheap bus connections from early morning till midnight. One way ticket costs about 8 EUR '
+              </p>
+              <p class="text-justify">
+                {{ _('If you travel via Vienna airport, there are direct and cheap bus connections from early morning till midnight. One way ticket costs about 8 EUR '
                     'and if you buy in advance, the ticket may be considerably cheaper. There are three airport shuttle buses between Vienna airport and Bratislava: '
                     'SlovakLines (red buses), Blaguss (silver buses) and RegioJet (Yellow busses).') }}
-          </p>
+              </p>
 
-        </div>
-        <div class="col-md-6">
-          <h3>{{ _('By car') }}</h3>
-          <p class="text-justify">
-          <ul>
-            <li>{{ _('Arriving from Vienna, choose the direction Schwechat on A4 highway, then turn to highway A6 leading to Bratislava.
+            </div>
+            <div class="col-md-6">
+              <h3>{{ _('By car') }}</h3>
+              <p class="text-justify">
+              <ul>
+                <li>{{ _('Arriving from Vienna, choose the direction Schwechat on A4 highway, then turn to highway A6 leading to Bratislava.
             After crossing the border you will soon enter Bratislava, then follow the direction Praha/Brno. Right after crossing
             the river of Danube leave the highway and follow the road along the highway. After several hundreds of meters you will
             get to the crossroad where you should turn left and cross the highway you have left a minute ago. After the bridge there is another
             crossroad where you turn right and immediately turn slightly left up the hill towards the university campus.') }}
-            <li>{{ _('From Budapest, take the highway M1 heading to Gyor, follow this route until you see signs for highway M15 heading to Slovakia and Bratislava.
+                <li>{{ _('From Budapest, take the highway M1 heading to Gyor, follow this route until you see signs for highway M15 heading to Slovakia and Bratislava.
             After crossing the border follow the direction Praha or Brno according to instructions above.') }}</li>
-            <li>{{ _('If you drive from Prague, take the highway D1 to Brno, once in Brno take the highway D2 heading to Slovakia and Bratislava.
+                <li>{{ _('If you drive from Prague, take the highway D1 to Brno, once in Brno take the highway D2 heading to Slovakia and Bratislava.
             After arriving to Bratislava follow the highway and leave it at the exit Mlynska dolina after passing the tunnel.
             Be cautious, the exit is located right after the tunnel, so you should stay in right lane while in tunnel.') }}</li>
-            <li>{{ _('From eastern and southern Poland choose your way to Katowice. From there follow the road to Cadca, Slovakia.
+                <li>{{ _('From eastern and southern Poland choose your way to Katowice. From there follow the road to Cadca, Slovakia.
             Follow the road all the way to Zilina, then switch to the highway D1 to Bratislava. After arriving to Bratislava,
             you should pass the river of Danube twice following the direction Praha/Brno, then leave the highway following the instructions above.') }}</li>
-          </ul>
-          </p>
-        </div>
-        <div class="col-md-6">
-          <h3>{{ _('By bus') }}</h3>
-          <p class="text-justify">
-            {{ _('All neighbouring capital cities Vienna, Prague, Budapest, Warsaw and Kiev have direct bus connections.') }}
-          </p>
-          <p class="text-justify">
-            {{ _('Most of the buses will bring you to the main bus station - Mlynske Nivy. It is currently located in temporary location, so don''t
+              </ul>
+              </p>
+            </div>
+            <div class="col-md-6">
+              <h3>{{ _('By bus') }}</h3>
+              <p class="text-justify">
+                {{ _('All neighbouring capital cities Vienna, Prague, Budapest, Warsaw and Kiev have direct bus connections.') }}
+              </p>
+              <p class="text-justify">
+                {{ _('Most of the buses will bring you to the main bus station - Mlynske Nivy. It is currently located in temporary location, so don''t
             worry and keep calm if you arrive feeling like on construction site. Leave the area towards the blue oval building VUB
             (next to the building with BMW logo) where you find the station of city bus lines. We recommend you to take bus number
             70 to the end station Most SNP (SNP bridge) and from there continue with line number 30 or 37 to the station ZOO.') }}
-          </p>
-        </div>
-        <div class="col-md-6">
-          <h3>{{ _('By train') }}</h3>
-          <p class="text-justify">
-            {{ _('All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kiev have direct train connections.') }}
-          </p>
-          <p class="text-justify">
-            {{ _('Once you arrive at the Bratislava train station (Bratislava hlavná stanica), leave the station through the main entrance.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <h3>{{ _('By train') }}</h3>
+              <p class="text-justify">
+                {{ _('All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kiev have direct train connections.') }}
+              </p>
+              <p class="text-justify">
+                {{ _('Once you arrive at the Bratislava train station (Bratislava hlavná stanica), leave the station through the main entrance.
             In front of the building, there are bus and tram stops. We recommend zou to take the bus number 32 to the station ZOO.
             If you plan to use city lines more often, we recommend you to check the website https://imhd.sk/ba/ for more information
             about the prices or the lines.') }}
+              </p>
+            </div>
+
+          </div>
+
+          <h2>{{ _('Accommodation') }}</h2>
+          <p class="text-justify">
+            {{ _('There are plenty of opportunities for accommodation in Bratislava. From coach surfing, Airbnb to hostels and five star hotels. Even though it is not the main tourist season, we advise you to book your accommodations in advance.') }}
+          </p>
+
+          <h2>{{ _('Guide') }}</h2>
+          <p class="text-justify">
+            {{ _('Bratislava offers much more than just PyCon. If you decide to stay in Bratislava a few days longer, have a look at <a href="http://mpba.sk/en" title="M_P_ BA: alternative Bratislava map" target="_blank" class="external">M_P_ BA</a> (alternative map of Bratislava) which lists popular attractions as well as unusual destinations within the city. Check out peoples\' comments to find out about each location or event.') }}
+          </p>
+          <p class="text-justify">
+            {{ _('Or you can review the <a href="http://www.visitbratislava.com/" title="city pages for visitors" target="_blank" class="external">official city guide for visitors</a>, where you can also find other events that are happening in Bratislava.') }}
           </p>
         </div>
-
       </div>
-
-      <h2>{{ _('Accommodation') }}</h2>
-      <p class="text-justify">
-        {{ _('There are plenty of opportunities for accommodation in Bratislava. From coach surfing, Airbnb to hostels and five star hotels. Even though it is not the main tourist season, we advise you to book your accommodations in advance.') }}
-      </p>
-
-      <h2>{{ _('Guide') }}</h2>
-      <p class="text-justify">
-        {{ _('Bratislava offers much more than just PyCon. If you decide to stay in Bratislava a few days longer, have a look at <a href="http://mpba.sk/en" title="M_P_ BA: alternative Bratislava map" target="_blank" class="external">M_P_ BA</a> (alternative map of Bratislava) which lists popular attractions as well as unusual destinations within the city. Check out peoples\' comments to find out about each location or event.') }}
-      </p>
-      <p class="text-justify">
-        {{ _('Or you can review the <a href="http://www.visitbratislava.com/" title="city pages for visitors" target="_blank" class="external">official city guide for visitors</a>, where you can also find other events that are happening in Bratislava.') }}
-      </p>
     </div>
-  </div>
-</div>
+  </section>
 {% endblock %}

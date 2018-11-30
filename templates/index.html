@@ -1,84 +1,288 @@
 {% extends "body.html" %}
 
+{% block include_js %}
+  <script type="text/javascript">
+    $(".countdown").jCounter({
+      date: '22 March 2019 9:00:00',
+      fallback: function () {
+        console.log("count finished!")
+      }
+    });
+  </script>
+
+{% endblock %}
+
 {% block content %}
-  <div class="container marketing">
+  <section id="banner">
+    <div class="banner-item">
+      <div class="container">
+        <div class="banner-content text-center">
+          <h1 class="banner-title">{{ _('<span>Be a part of </span>PyCon SK 2019.') }}</h1>
+          <h2 class="banner-desc">
+            <span class="first">{{ _('22-24 March') }}</span><span>Bratislava</span><span>2019</span></h2>
+        </div>
+      </div><!-- Container end -->
+      <img src="{{ url_for('static', filename='images/main-banner/banner-bottom-img.png') }}" alt="img" class="banner-bottom-img"/>
+    </div><!-- Banner item end -->
+  </section><!-- Section banner end -->
 
-    <div class="row index-top">
-      <div class="col-md-12">
+  <section class="countdown-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="countdown">
+            <div class="counter-day">
+              <span class="days">00</span>
+              <div class="smalltext">{{ _('Days') }}</div>
+            </div>
+            <div class="counter-hour">
+              <span class="hours">00</span>
+              <div class="smalltext">{{ _('Hours') }}</div>
+            </div>
+            <div class="counter-minute">
+              <span class="minutes">00</span>
+              <div class="smalltext">{{ _('Minutes') }}</div>
+            </div>
+            <div class="counter-second">
+              <span class="seconds">00</span>
+              <div class="smalltext">{{ _('Seconds') }}</div>
+            </div>
+          </div><!-- Countdown end -->
+        </div><!-- Col end -->
+      </div><!-- Row end -->
+    </div><!-- Container end -->
+  </section><!-- Countdown end -->
 
-        <div class="row">
-          <div class="col-md-4 text-left">
-            <img src="{{ url_for('static', filename='pyconsk/img/logo/pycon_logo_square.svg') }}" class="logo" alt="PyCon SK logo"/>
-          </div>
-          <div class="col-md-8 text-left">
-            <p class="lead">
+  <section id="ts-intro" class="ts-intro">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="intro-content">
+            <h2 class="intro-title">PyCon SK 2019</h2>
+
+            <p class="intro-desc lead">
               {{ _('<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in Bratislava</strong>.') }}
             </p>
-
             <p>
               {{ _('The PyCon SK 2019 conference, which will take place in Bratislava, is the annual gathering for the community using and developing the open-source Python programming language. It is organized by the volunteers from the SPy o.z., civic association dedicated to advancing and promoting Python and other Open Source technologies and ideas. Through PyCon, the SPy o.z. advances its mission of growing the Slovak (and also international) community of Python programmers and Open Source supporters.') }}
             </p>
-
             <p>
               {{ _('Because PyCon SK is backed by the non-profit SPy, we keep registration costs much lower than comparable technology conferences (or other conferences in neighbor countries) so that PyCon remains accessible to the widest group possible.') }}
             </p>
-
             <p>
               {{ _('PyCon SK is a diverse conference dedicated to providing an enjoyable experience to everyone. Help us do this by following our ') }}
               <a href="{{ url_for('coc', lang_code=lang_code) }}">code of conduct.</a>
             </p>
+          </div><!-- Intro content -->
+        </div><!-- Col end -->
+
+        <div class="col-sm-6">
+          <div class="featured-tab">
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a class="animated fadeIn" href="#tab_a" data-toggle="tab">
+						  			<span class="tab-head">
+						  				<i class="fa fa-microphone"></i>
+										<span class="tab-text-title">{{ _('Great Speakers') }}</span>
+									</span>
+                </a>
+              </li>
+              <li>
+                <a class="animated fadeIn" href="#tab_b" data-toggle="tab">
+							  		<span class="tab-head">
+							  			<i class="fa fa-stack-overflow"></i>
+										<span class="tab-text-title">{{ _('Networking') }}</span>
+									</span>
+                </a>
+              </li>
+              <li>
+                <a class="animated fadeIn" href="#tab_c" data-toggle="tab">
+							  		<span class="tab-head">
+							  			<i class="fa fa-smile-o"></i>
+										<span class="tab-text-title">{{ _('Have Fun') }}</span>
+									</span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane active animated fadeInRight" id="tab_a">
+                <img class="about-tab-img pull-left" src="{{ url_for('static', filename='images/icon-image/tab-img1.png') }}" alt=""/>
+                <h3 class="tab-content-title">{{ _('Respected industry leaders with future-tech talks.') }}</h3>
+                <p>{{ _('Appart from well recognized community members we also invite first time speakers to submit a talk.') }}</p>
+                <p>{{ _('If you\'ve done something that you think other people might be interested in, or that you think they should know about, please do consider telling us about it.') }}</p>
+                <p class="text-center">
+                  <a href="{{ url_for('cfp', lang_code=lang_code) }}" class="btn btn-primary">{{ _('Submit your talk') }}
+                    <i class="fa fa-play"></i></a>
+                </p>
+              </div><!-- Tab pane 1 end -->
+
+              <div class="tab-pane animated fadeInRight" id="tab_b">
+                <img class="about-tab-img pull-right" src="{{ url_for('static', filename='images/icon-image/tab-img2.png') }}" alt=""/>
+                <h3 class="tab-content-title">{{ _('Great opportunity to network') }}</h3>
+                <p>{{ _('PyCon is organized by the Python community and for the Python community. Joining the event makes you part of the community.') }}</p>
+                <p>{{ _('People at PyCon SK are very nice, so come and make new friends.') }}</p>
+                <p>{{ _('Besides great people you can meet interesting hi-tech companies to discuss job or business opportunities.') }}</p>
+                <p class="text-center">
+                  <a href="{{ url_for('tickets', lang_code=lang_code) }}" class="btn btn-primary">{{ _('Buy ticket') }}
+                    <i class="fa fa-play"></i></a>
+                </p>
+              </div><!-- Tab pane 2 end -->
+
+              <div class="tab-pane animated fadeInLeft" id="tab_c">
+                <img class="about-tab-img pull-left" src="{{ url_for('static', filename='images/icon-image/tab-img3.png') }}" alt=""/>
+                <h3 class="tab-content-title">{{ _('Food and drinks are provided for all attendees.') }}</h3>
+                <p>{{ _('On Friday we will have an unofficial party. We meet in a pub talk and have fun. Everybody at their own expense.') }}</p>
+                <p>{{ _('On Saturday we will have an official dinner. We meet in a pub talk and have fun again :D Most of the volunteers and speakers join this party, but for this one you will need a separate ticket.') }}</p>
+                <p class="text-center">
+                  <a href="{{ url_for('tickets', lang_code=lang_code) }}" class="btn btn-primary">{{ _('Buy ticket') }}
+                    <i class="fa fa-play"></i></a>
+                </p>
+              </div><!-- Tab pane 3 end -->
+            </div><!-- tab content -->
+          </div><!-- Featured tab end -->
+        </div><!-- Col end -->
+
+      </div><!-- Content Row end -->
+    </div><!-- Container end -->
+  </section><!-- Intro area end -->
+
+  <section id="facts" class="facts-area">
+    <div class="container">
+
+      <div class="row">
+        <div class="facts-wrapper">
+          <div class="col-sm-3 ts-facts">
+            <div class="ts-facts-content">
+              <h2 class="ts-facts-num"><span class="counterUp">500</span></h2>
+              <h3 class="ts-facts-title">{{ _('Participants') }}</h3>
+            </div>
+            <div class="ts-facts-icon">
+              <i class="fa fa-users"></i>
+            </div>
+          </div><!-- Col 1 end -->
+
+          <div class="col-sm-3 ts-facts">
+            <div class="ts-facts-content">
+              <h2 class="ts-facts-num"><span class="counterUp">57</span></h2>
+              <h3 class="ts-facts-title">{{ _('Speakers') }}</h3>
+            </div>
+            <div class="ts-facts-icon">
+              <i class="fa fa-microphone"></i>
+            </div>
+          </div><!-- Col 2 end -->
+
+          <div class="col-sm-3 ts-facts">
+            <div class="ts-facts-content">
+              <h2 class="ts-facts-num"><span class="counterUp">60</span></h2>
+              <h3 class="ts-facts-title">{{ _('Sessions') }}</h3>
+            </div>
+            <div class="ts-facts-icon">
+              <i class="fa fa-calendar"></i>
+            </div>
+          </div><!-- Col 3 end -->
+
+          <div class="col-sm-3 ts-facts">
+            <div class="ts-facts-content">
+              <h2 class="ts-facts-num"><span class="counterUp">12</span></h2>
+              <h3 class="ts-facts-title">{{ _('Sponsors') }}</h3>
+            </div>
+            <div class="ts-facts-icon">
+              <i class="fa fa-handshake-o"></i>
+            </div>
+          </div><!-- Col 4 end -->
+        </div><!-- Facts end -->
+
+      </div><!--/ Content row end -->
+    </div><!--/ Container end -->
+  </section><!-- Facts end -->
+
+  <section id="news" class="news-area">
+    <div class="container">
+      <div class="text-center">
+        <h3>{{ _('News') }}</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 text-left">
+          <div class="card">
+            <h5 class="card-header">01.12.2018 - {{ _('PyCon SK 2019 website redesign.') }}
+            </h5>
+            <div class="card-body">
+              <p>
+                {{ _('We have launched new design of the conference website. How do you like it? Let us know on our social networks.') }}<br/>
+              </p>
+            </div>
           </div>
         </div>
-
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col-md-12 text-left">
-        <div class="card">
-          <h5 class="card-header">01.11.2018 - <a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('We need you to help organize PyCon SK 2019!') }}</a>
-          </h5>
-          <div class="card-body">
-            <p>
-              {{ _('All of our staff members are volunteers. We are looking for a new members to join the team of organizers.') }}<br/>
-            </p>
+      <div class="row">
+        <div class="col-md-12 text-left">
+          <div class="card">
+            <h5 class="card-header">23.11.2018 -
+              {{ _('PyCon SK 2019 Slack channel & Social media') }}
+            </h5>
+            <div class="card-body">
+              <p>
+                {{ _('Join us at our social media:') }}
+                <a href="https://www.facebook.com/pyconsk"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/pyconsk"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/spy-o--z-/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.meetup.com/pyconsk/"><i class="fa fa-meetup"></i></a>
+                <a href="https://pyconsk.slack.com/"><i class="fa fa-slack"></i></a>
+                <a href="https://github.com/pyconsk/"><i class="fa fa-github"></i></a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col-md-12 text-left">
-        <div class="card">
-          <h5 class="card-header">16.10.2018 - <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Conference ticket sale is open.') }}</a></h5>
-          <div class="card-body">
-            <p>
-              {{ _('Buy your ticket before they are gone... So far every PyCon SK has been sold out!') }}
-            </p>
+      <div class="row">
+        <div class="col-md-12 text-left">
+          <div class="card">
+            <h5 class="card-header">01.11.2018 -
+              <a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('We need you to help organize PyCon SK 2019!') }}</a>
+            </h5>
+            <div class="card-body">
+              <p>
+                {{ _('All of our staff members are volunteers. We are looking for new members to join the team of organizers.') }}<br/>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col-md-12 text-left">
-        <div class="card">
-          <h5 class="card-header">16.10.2018 - <a href="{{ url_for('cfp', lang_code=lang_code) }}">{{ _('The Call For Proposals is open!') }}</a></h5>
-          <div class="card-body">
-            <p>
-              {{ _('Submit your talk proposal with short abstract and your bio. All selected speakers get a complimentary ticket to the conference.') }}
-            </p>
+      <div class="row">
+        <div class="col-md-12 text-left">
+          <div class="card">
+            <h5 class="card-header">16.10.2018 -
+              <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Conference ticket sale is open.') }}</a>
+            </h5>
+            <div class="card-body">
+              <p>
+                {{ _('Buy your ticket before they are gone... So far every PyCon SK has been sold out!') }}
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-
-    <div class="row">
-      <div class="col-md-12 text-left">
-        {% include "mailchimp.html" %}
+      <div class="row">
+        <div class="col-md-12 text-left">
+          <div class="card">
+            <h5 class="card-header">16.10.2018 -
+              <a href="{{ url_for('cfp', lang_code=lang_code) }}">{{ _('The Call For Proposals is open!') }}</a></h5>
+            <div class="card-body">
+              <p>
+                {{ _('Submit your talk proposal with short abstract and your bio. All selected speakers get a complimentary ticket to the conference.') }}
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
-  </div>
+    </div>
+  </section>
 {% endblock %}

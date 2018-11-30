@@ -1,74 +1,87 @@
 {% extends "body.html" %}
 
 {% block content %}
-  <div class="container marketing">
+  <div class="page-banner-area banner5">
+    <!-- Subpage title start -->
+    <div class="page-banner-title">
+      <div class="text-center">
+        <h1>{{ _('Schedule') }}</h1>
+      </div>
+    </div><!-- Subpage title end -->
+  </div><!-- Page Banner end -->
 
-    <div class="row featurette">
-      <div class="col-md-12">
+  <section id="main-container" class="main-container">
+    <div class="container">
+      <div class="row text-center">
+        <span class="icon-wrap"><i class="fa fa-newspaper-o"></i></span>
+        <h2 class="section-title">{{ _('Schedule') }}</h2>
+        <p class="section-sub-title">{{ _('What\'s on when (more details to be confirmed) ') }}</p>
+      </div><!--/ Title row end -->
+      <div class="row">
+        <div class="col-md-12">
 
-        <h1 class="featurette-heading">{{ _('Schedule') }}</h1>
-
-        <div class="card">
-          <h5 class="card-header">{{ _('What\'s on when (more details to be confirmed) ') }}</h5>
-          <div class="card-body">
-            <p class="card-text">
-              <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th scope="col">{{ _('Friday') }}</th>
-                    <th scope="col">{{ _('Saturday') }}</th>
-                    <th scope="col">{{ _('Sunday') }}</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>{{ _('Talks [EN track]') }}</td>
-                    <td>{{ _('Talks [both EN and SK]') }}</td>
-                    <td>{{ _('Talks [both EN and SK]') }}</td>
-                  </tr>
-                  <tr>
-                    <td>{{ _('Workshops [both EN and SK]') }}</td>
-                    <td>{{ _('Workshops [both EN and SK]') }}</td>
-                    <td>{{ _('Workshops [both EN and SK]') }}</td>
-                  </tr>
-                  <tr>
-                    <td>{{ _('SPy Cup Presentations [SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span></td>
-                    <td>{{ _('Conference Game Finals [EN] ') }}<span class="badge badge-pill badge-secondary">{{ _('Conference Contest') }}</span></td>
-                    <td>{{ _('Sprints [both EN and SK]') }}</td>
-                  </tr>
-                  <tr>
-                    <td>{{ _('EduSummit Talks [SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span></td>
-                    <td>{{ _('EduSummit Workshops [SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>{{ _('Python Cup [SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span></td>
-                    <td>{{ _('Young Coders\' day [SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>{{ _('EduSummit Poster Session [both EN and SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span></td>
-                    <td>{{ _('Main Poster session [both EN and SK]') }}</td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>{{ _('Hardware Projects Showcase [both EN and SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>{{ _('Conference Party ') }}<span class="badge badge-pill badge-warning">{{ _('Social Event') }}</span></td>
-                    <td>{{ _('Conference Dinner ') }}<span class="badge badge-pill badge-warning">{{ _('Social Event') }}</span></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-            </p>
-          </div>
-        </div>
-
+          <table class="table table-bordered">
+            <thead>
+            <tr>
+              <th scope="col">{{ _('Friday') }}</th>
+              <th scope="col">{{ _('Saturday') }}</th>
+              <th scope="col">{{ _('Sunday') }}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>{{ _('Talks [EN track]') }}</td>
+              <td>{{ _('Talks [both EN and SK]') }}</td>
+              <td>{{ _('Talks [both EN and SK]') }}</td>
+            </tr>
+            <tr>
+              <td>{{ _('Workshops [both EN and SK]') }}</td>
+              <td>{{ _('Workshops [both EN and SK]') }}</td>
+              <td>{{ _('Workshops [both EN and SK]') }}</td>
+            </tr>
+            <tr>
+              <td>{{ _('SPy Cup Presentations [SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span>
+              </td>
+              <td>{{ _('Conference Game Finals [EN] ') }}<span class="badge badge-pill badge-secondary">{{ _('Conference Contest') }}</span>
+              </td>
+              <td>{{ _('Sprints [both EN and SK]') }}</td>
+            </tr>
+            <tr>
+              <td>{{ _('EduSummit Talks [SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span>
+              </td>
+              <td>{{ _('EduSummit Workshops [SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>{{ _('Python Cup [SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span></td>
+              <td>{{ _('Young Coders\' day [SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>{{ _('EduSummit Poster Session [both EN and SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span>
+              </td>
+              <td>{{ _('Main Poster session [both EN and SK]') }}</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>{{ _('Hardware Projects Showcase [both EN and SK] ') }}<span class="badge badge-pill badge-success">{{ _('Edu') }}</span>
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>{{ _('Conference Party ') }}<span class="badge badge-pill badge-warning">{{ _('Social Event') }}</span>
+              </td>
+              <td>{{ _('Conference Dinner ') }}<span class="badge badge-pill badge-warning">{{ _('Social Event') }}</span>
+              </td>
+              <td></td>
+            </tr>
+            </tbody>
+          </table>
 
       </div>
     </div>
-  </div>
+  </section>
 {% endblock %}
