@@ -1801,7 +1801,7 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 
 .ts-speakers{
 	 color: #ffffff;
-	 background-color: #ffc000;
+	 background-color: #000;
 	 background-image: url(../images/parallax2.jpg);
 	 background-repeat: no-repeat;
 	 background-size: cover;
@@ -1901,6 +1901,10 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 .ts-speaker-info .ts-speaker-name{
 	font-size: 20px;
 	margin: 0 0 3px 0;
+}
+
+.ts-speaker-name {
+	color: #fff;
 }
 
 .ts-speaker-info .ts-speaker-name a{
