@@ -207,11 +207,12 @@
       <div class="row">
         <div class="col-md-12 text-left">
           <div class="card">
-            <h5 class="card-header">01.12.2018 - {{ _('PyCon SK 2019 website redesign.') }}
+            <h5 class="card-header">01.12.2018 - {{ _('PyCon SK 2019 speakers and website redesign.') }}
             </h5>
             <div class="card-body">
               <p>
-                {{ _('We have launched new design of the conference website. How do you like it? Let us know on our social networks.') }}<br/>
+                {{ _('It is our privilege to announce first three speakers at PyCon SK 2019:') }} {{ _('Helen Li from Google, prof. Juraj Hromkovič from ETH Zürich and Honza Král from Elastic.') }}<br />
+                {{ _('We have also launched new design of the conference website. How do you like it? Let us know on our social networks.') }}<br/>
               </p>
             </div>
           </div>
@@ -285,4 +286,52 @@
 
     </div>
   </section>
+
+  <section id="ts-speakers" class="ts-speakers">
+		<div class="container">
+			<div class="row text-center">
+				<span class="icon-wrap"><i class="fa fa-microphone"></i></span>
+				<h2 class="section-title title-white">{{ _('Awesome Speakers') }}</h2>
+				<p class="section-sub-title">{{ _('Listen, Learn, Get inspired.') }}</p>
+			</div><!--/ Title row end -->
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="ts-speaker transparent">
+            <img class="img-responsive" src="{{ url_for('static', filename='images/speakers/hromkovic.jpg') }}" alt="{{ _('Profesor Juraj Hromkovič, DrSc.') }}">
+						<div class="ts-speaker-info">
+							<h3 class="ts-speaker-name">Juraj Hromkovič</h3>
+							<p class="ts-speaker-designation">{{ _('professor at ETH Zürich') }}</p>
+						</div><!-- Info end -->
+					</div><!-- Speaker end -->
+				</div><!-- Speaker Col 1 end -->
+
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<div class="ts-speaker transparent">
+            <img class="img-responsive" src="{{ url_for('static', filename='images/speakers/li.jpg') }}" alt="Helen Li">
+						<div class="ts-speaker-info">
+							<h3 class="ts-speaker-name">Helen Li</h3>
+							<p class="ts-speaker-designation">{{ _('senior software engineer with Google AI Genomics') }}</p>
+						</div><!-- Info end -->
+					</div><!-- Speaker end -->
+				</div><!-- Speaker Col 2 end -->
+
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<div class="ts-speaker transparent">
+						<img class="img-responsive" src="{{ url_for('static', filename='images/speakers/kral.jpg') }}" alt="Honza Král">
+						<div class="ts-speaker-info">
+							<h3 class="ts-speaker-name">Honza Král</h3>
+							<p class="ts-speaker-designation">{{ _('Python engineer at Elastic') }}</p>
+						</div><!-- Info end -->
+					</div><!-- Speaker end -->
+				</div><!-- Speaker Col 3 end -->
+
+			</div><!-- Content row 1 end -->
+
+{#			<div class="gap-40"></div>#}
+
+		</div><!--/ Container end -->
+	</section>
+
+
 {% endblock %}
