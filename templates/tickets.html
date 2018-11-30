@@ -25,147 +25,207 @@
 
       <div class="row">
         <div class="col-md-12">
-
           <tito-widget event="pyconsk/2019"></tito-widget>
           <p>{{ _('You can also buy tickets directly on the <a href="https://ti.to/pyconsk/2019" target="_blank">https://ti.to/pyconsk/2019</a> website in case the tito widget is not displayed correctly.') }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-          <h2>{{ _('What am I paying for?') }}</h2>
 
-          <hr>
+  <section id="facts" class="facts-area">
+    <div class="container">
 
-          <div class="row featurette">
-            <div class="col-md-4">
-              <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/speaker_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/speaker_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/speaker_160x120.jpg') }} 160w" alt="">
+      <div class="row">
+        <div class="facts-wrapper">
+          <div class="col-sm-3 ts-facts">
+            <div class="ts-facts-content">
+              <h2 class="ts-facts-num"><span class="counterUp">500</span></h2>
+              <h3 class="ts-facts-title">{{ _('Participants') }}</h3>
             </div>
-            <div class="col-md-8">
-              <h2>{{ _('Speakers and Lecturers') }}</h2>
-              <p class="lead">{{ _('Our speakers are the best. And they do it for free! However, we have to pay for their
+            <div class="ts-facts-icon">
+              <i class="fa fa-users"></i>
+            </div>
+          </div><!-- Col 1 end -->
+
+          <div class="col-sm-3 ts-facts">
+            <div class="ts-facts-content">
+              <h2 class="ts-facts-num"><span class="counterUp">57</span></h2>
+              <h3 class="ts-facts-title">{{ _('Speakers') }}</h3>
+            </div>
+            <div class="ts-facts-icon">
+              <i class="fa fa-microphone"></i>
+            </div>
+          </div><!-- Col 2 end -->
+
+          <div class="col-sm-3 ts-facts">
+            <div class="ts-facts-content">
+              <h2 class="ts-facts-num"><span class="counterUp">60</span></h2>
+              <h3 class="ts-facts-title">{{ _('Sessions') }}</h3>
+            </div>
+            <div class="ts-facts-icon">
+              <i class="fa fa-calendar"></i>
+            </div>
+          </div><!-- Col 3 end -->
+
+          <div class="col-sm-3 ts-facts">
+            <div class="ts-facts-content">
+              <h2 class="ts-facts-num"><span class="counterUp">12</span></h2>
+              <h3 class="ts-facts-title">{{ _('Sponsors') }}</h3>
+            </div>
+            <div class="ts-facts-icon">
+              <i class="fa fa-handshake-o"></i>
+            </div>
+          </div><!-- Col 4 end -->
+        </div><!-- Facts end -->
+
+      </div><!--/ Content row end -->
+    </div><!--/ Container end -->
+  </section><!-- Facts end -->
+
+  <section id="main-container" class="main-container">
+    <div class="container">
+
+      <div class="row text-center">
+        <span class="icon-wrap"><i class="fa fa-eur"></i></span>
+        <h2 class="section-title">{{ _('What am I paying for?') }}</h2>
+      </div><!--/ Title row end -->
+
+      <hr>
+
+      <div class="row featurette">
+        <div class="col-md-4">
+          <img class="image-border img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/speaker_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/speaker_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/speaker_160x120.jpg') }} 160w" alt="">
+        </div>
+        <div class="col-md-8">
+          <h3 class="title-classic left">{{ _('Speakers and Lecturers') }}</h3>
+          <p class="lead">{{ _('Our speakers are the best. And they do it for free! However, we have to pay for their
               conference ticket and sometimes we cover the travel budget.') }}</p>
-              <p>{{ _('Expenses for flight tickets and hotel in Bratislava are a big part of our budget. We also do cover all
+          <p>{{ _('Expenses for flight tickets and hotel in Bratislava are a big part of our budget. We also do cover all
               the costs of recording and releasing the all of the talks.') }}</p>
-            </div>
-          </div>
+        </div>
+      </div>
 
-          <hr>
+      <hr>
 
-          <div class="row featurette">
-            <div class="col-md-8">
-              <h2>{{ _('Community & Inclusion') }}</h2>
-              <p class="lead">{{ _('PyCon is a special type of conference - it is organised by the community for the community') }}
-                <span class="oi oi-heart"></span></p>
-              <p>{{ _('By attending, you have a chance to meet like minded people and hear a lot of interesting stories. However,
+      <div class="row featurette">
+        <div class="col-md-8">
+          <h2>{{ _('Community & Inclusion') }}</h2>
+          <p class="lead">{{ _('PyCon is a special type of conference - it is organised by the community for the community') }}
+            <span class="oi oi-heart"></span></p>
+          <p>{{ _('By attending, you have a chance to meet like minded people and hear a lot of interesting stories. However,
               for those who can not afford to attend because of financial reasons we have opened a financial aid scheme
               and give free tickets.') }}
-              <p>
-            </div>
-            <div class="col-md-4">
-              <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/community_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/community_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/community_160x120.jpg') }} 160w" alt="">
-            </div>
-          </div>
+          <p>
+        </div>
+        <div class="col-md-4">
+          <img class="image-border img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/community_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/community_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/community_160x120.jpg') }} 160w" alt="">
+        </div>
+      </div>
 
-          <hr>
+      <hr>
 
-          <div class="row featurette">
-            <div class="col-md-4">
-              <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/tshirts_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/tshirts_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/tshirts_160x120.jpg') }} 160w" alt="">
-            </div>
-            <div class="col-md-8">
-              <h2>{{ _('Conference T-shirt and other swag') }}</h2>
-              <p class="lead">{{ _('What kind of conference would PyCon Slovakia be without a conference T-shirt?') }}</p>
-              <p>{{ _('Each attendee receives one 100&#37; cotton T-shirt and other swag. Possibly a water bottle with our fancy
+      <div class="row featurette">
+        <div class="col-md-4">
+          <img class="image-border img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/tshirts_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/tshirts_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/tshirts_160x120.jpg') }} 160w" alt="">
+        </div>
+        <div class="col-md-8">
+          <h2>{{ _('Conference T-shirt and other swag') }}</h2>
+          <p class="lead">{{ _('What kind of conference would PyCon Slovakia be without a conference T-shirt?') }}</p>
+          <p>{{ _('Each attendee receives one 100&#37; cotton T-shirt and other swag. Possibly a water bottle with our fancy
               PyCon Slovakia logo. We would love to hear your ideas...') }}</p>
-            </div>
-          </div>
+        </div>
+      </div>
 
-          <hr>
+      <hr>
 
-          <div class="row featurette">
-            <div class="col-md-8">
-              <h2>{{ _('Venue') }}</h2>
-              <p class="lead">{{ _('The conference takes place at the Faculty of Informatics and Information Technologies
+      <div class="row featurette">
+        <div class="col-md-8">
+          <h2>{{ _('Venue') }}</h2>
+          <p class="lead">{{ _('The conference takes place at the Faculty of Informatics and Information Technologies
               (Slovak University of Technology)') }}</p>
-              <p>{{ _('Venue is in new building and have well equipped and pleasant auditoriums and lobbies. The first PyCon SK
+          <p>{{ _('Venue is in new building and have well equipped and pleasant auditoriums and lobbies. The first PyCon SK
               was one of the first conferences in this auditorium!') }}</p>
-            </div>
-            <div class="col-md-4">
-              <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/venue_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/venue_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/venue_160x120.jpg') }} 160w" alt="">
-            </div>
-          </div>
+        </div>
+        <div class="col-md-4">
+          <img class="image-border img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/venue_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/venue_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/venue_160x120.jpg') }} 160w" alt="">
+        </div>
+      </div>
 
-          <hr>
+      <hr>
 
-          <div class="row featurette">
-            <div class="col-md-4">
-              <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/refreshments_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/refreshments_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/refreshments_160x120.jpg') }} 160w" alt="">
-            </div>
-            <div class="col-md-8">
-              <h2>{{ _('Refreshments') }}</h2>
-              <p class="lead">{{ _('Afraid of falling asleep during a talk? Don\'t worry, we have your back - All you can drink
+      <div class="row featurette">
+        <div class="col-md-4">
+          <img class="image-border img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/refreshments_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/refreshments_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/refreshments_160x120.jpg') }} 160w" alt="">
+        </div>
+        <div class="col-md-8">
+          <h2>{{ _('Refreshments') }}</h2>
+          <p class="lead">{{ _('Afraid of falling asleep during a talk? Don\'t worry, we have your back - All you can drink
               coffee, tea and water.') }}</p>
-              <p>{{ _('We will have two proffesional baristas serving fresh coffee and tea all day long. Water fountains will be
+          <p>{{ _('We will have two proffesional baristas serving fresh coffee and tea all day long. Water fountains will be
               available on multiple spots in the lobby.') }}</p>
-            </div>
-          </div>
+        </div>
+      </div>
 
-          <hr>
+      <hr>
 
-          <div class="row featurette">
-            <div class="col-md-8">
-              <h2>{{ _('Lunch') }}</h2>
-              <p class="lead">{{ _('During all three days, a variety of warm food will be served for lunch') }}</p>
-              <p>{{ _('Meat and vegetarian alternatives will be available.') }}</p>
-              <p>{{ _('We also try to be as eco friendly as possible, and so we serve food on ceramic plates, eat with metal
+      <div class="row featurette">
+        <div class="col-md-8">
+          <h2>{{ _('Lunch') }}</h2>
+          <p class="lead">{{ _('During all three days, a variety of warm food will be served for lunch') }}</p>
+          <p>{{ _('Meat and vegetarian alternatives will be available.') }}</p>
+          <p>{{ _('We also try to be as eco friendly as possible, and so we serve food on ceramic plates, eat with metal
               cutlery and drink water from reusable plastic bottles.') }}</p>
-            </div>
-            <div class="col-md-4">
-              <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/lunch_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/lunch_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/lunch_160x120.jpg') }} 160w" alt="">
-            </div>
-          </div>
+        </div>
+        <div class="col-md-4">
+          <img class="image-border img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/lunch_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/lunch_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/lunch_160x120.jpg') }} 160w" alt="">
+        </div>
+      </div>
 
-          <hr>
+      <hr>
 
-          <div class="row featurette">
-            <div class="col-md-4">
-              <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/real_conference_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/real_conference_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/real_conference_160x120.jpg') }} 160w" alt="">
-            </div>
-            <div class="col-md-8">
-              <h2>{{ _('Real Conference Ticket Price') }}</h2>
-              <p class="lead">{{ _('The real price of one conference ticket would be much higher had it not been for our
+      <div class="row featurette">
+        <div class="col-md-4">
+          <img class="image-border img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/real_conference_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/real_conference_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/real_conference_160x120.jpg') }} 160w" alt="">
+        </div>
+        <div class="col-md-8">
+          <h2>{{ _('Real Conference Ticket Price') }}</h2>
+          <p class="lead">{{ _('The real price of one conference ticket would be much higher had it not been for our
               sponsors and partners, thanks to which we can afford to sell cheaper tickets.') }}</p>
-              <p class="lead">{{ _('Without sponsors and partners all tickets would cost over 90&euro; (including student and teacher
+          <p class="lead">{{ _('Without sponsors and partners all tickets would cost over 90&euro; (including student and teacher
               tickets) and this price still does not include the enormous amount of volunteer work, which is done by the
               Python commnity before and during each PyCon.') }}</p>
-            </div>
+        </div>
 
-          </div>
+      </div>
 
-          <hr>
+      <hr>
 
-          <h3 class="featurette-heading">{{ _('micro:bit Education Supporter Ticket') }}</h3>
-          <hr>
-          <div class="row featurette">
-            <div class="col-md-8">
-              <p class="lead">{{ _('<i>Teaching with Hardware</i> is a project of the Slovak Python User Group which strives to
+      <h3 class="featurette-heading">{{ _('micro:bit Education Supporter Ticket') }}</h3>
+      <hr>
+      <div class="row featurette">
+        <div class="col-md-8">
+          <p class="lead">{{ _('<i>Teaching with Hardware</i> is a project of the Slovak Python User Group which strives to
               increase digital literacy and bring joy to computing classes on primary and secondary schools in Slovakia.
               We do this by using an educational physical computing board called ​ BBC micro:bit. The board can be
               programmed to interact with external devices, such as LED strips, buzzers, motion sensors, temperature
               sensors, and so on. By buying a <i>micro:bit Education Supporter Ticket</i> you provide one school in
               Slovakia with a kit of 20 micro:bits, LED strips, speakers, crocodile cables, robots, servo motors and so
               on.') }}
-              <p>
-              <p>{{ _('Within several weeks you will be informed which school received the kit and after several months we will
+          <p>
+          <p>{{ _('Within several weeks you will be informed which school received the kit and after several months we will
               inform you how successful were the students at creating their own hardware projects with the provided
               kits. More details about the project can be found in this <a href="%(pdf)s" target="_blank">PDF</a>. During PyCon SK 2019 there
               will be several presentations and workshops connected to the <i>Teaching with Hardware</i> project.', pdf='#') }}
-              <p>
-            </div>
-            <div class="col-md-4">
-              <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/microbit_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/microbit_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/microbit_160x120.jpg') }} 160w" alt="">
-            </div>
-          </div>
-
+          <p>
+        </div>
+        <div class="col-md-4">
+          <img class="image-border img-fluid mx-auto" src="{{ url_for('static', filename='pyconsk/img/microbit_640x480.jpg') }}" srcset="{{ url_for('static', filename='pyconsk/img/microbit_320x240.jpg') }} 320w, {{ url_for('static', filename='pyconsk/img/microbit_160x120.jpg') }} 160w" alt="">
         </div>
       </div>
+
+    </div>
+    </div>
     </div>
   </section>
 {% endblock %}
