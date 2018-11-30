@@ -1903,6 +1903,10 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 	margin: 0 0 3px 0;
 }
 
+.ts-speaker-name {
+	color: #fff;
+}
+
 .ts-speaker-info .ts-speaker-name a{
 	color: #303030;
 }
