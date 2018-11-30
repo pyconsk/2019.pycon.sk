@@ -1801,7 +1801,7 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 
 .ts-speakers{
 	 color: #ffffff;
-	 background-color: #ffc000;
+	 background-color: #000;
 	 background-image: url(../images/parallax2.jpg);
 	 background-repeat: no-repeat;
 	 background-size: cover;
