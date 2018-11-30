@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-30 20:28+0100\n"
+"POT-Creation-Date: 2018-11-30 23:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -948,7 +948,7 @@ msgstr ""
 
 #: templates/index.html:113
 msgid ""
-"Appart from well recognized community members we also invite first time "
+"Apart from well recognized community members we also invite first time "
 "speakers to submit a talk."
 msgstr ""
 
@@ -1751,7 +1751,7 @@ msgid ""
 "From Bratislava airport you can take taxi (use the phone, its cheaper), "
 "or take the bus #61 and then move to bus #39 at the Bajkalska station. "
 "Get off the bus at the station ZOO and simply follow the PyCon stickers "
-"up to the hill to univerrsity campus."
+"up to the hill to university campus."
 msgstr ""
 
 #: templates/venue.html:75
