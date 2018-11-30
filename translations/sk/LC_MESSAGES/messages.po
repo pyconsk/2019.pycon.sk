@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-29 20:51+0100\n"
+"POT-Creation-Date: 2018-11-30 20:28+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -34,15 +34,16 @@ msgstr ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
 "Python, ktorá sa bude konať v Bratislave v marci 2019."
 
-#: templates/body.html:77 templates/index.html:169
+#: templates/body.html:77 templates/index.html:169 templates/tickets.html:54
 msgid "Speakers"
 msgstr "Rečníci"
 
-#: templates/body.html:81 templates/cfp.html:7 templates/cfp_form.html:13
+#: templates/body.html:81 templates/cfp.html:7 templates/cfp.html:17
+#: templates/cfp_form.html:13 templates/cfp_form.html:23
 msgid "Call for proposals"
 msgstr "Prihlás návrh na prednášku"
 
-#: templates/body.html:88 templates/schedule.html:8
+#: templates/body.html:88 templates/schedule.html:8 templates/schedule.html:17
 msgid "Schedule"
 msgstr "Program"
 
@@ -51,26 +52,27 @@ msgid "Sponsoring"
 msgstr "Sponzoruj"
 
 #: templates/body.html:100 templates/edusummit.html:8
+#: templates/edusummit.html:18
 msgid "EduSummit"
 msgstr ""
 
-#: templates/body.html:104 templates/body.html:262
+#: templates/body.html:104 templates/body.html:266
 msgid "About Us"
 msgstr "O nás"
 
-#: templates/body.html:107 templates/body.html:249
+#: templates/body.html:107 templates/body.html:253
 msgid "SPy o.z."
 msgstr "SPy o.z."
 
-#: templates/body.html:108 templates/tickets.html:84 templates/venue.html:33
+#: templates/body.html:108 templates/tickets.html:144 templates/venue.html:33
 msgid "Venue"
 msgstr "Miesto konania"
 
-#: templates/body.html:109 templates/coc.html:7
+#: templates/body.html:109 templates/coc.html:7 templates/coc.html:16
 msgid "Code of Conduct"
 msgstr "Kódex správania"
 
-#: templates/body.html:110 templates/cfv.html:13
+#: templates/body.html:110 templates/cfv.html:13 templates/cfv.html:23
 msgid "Call for volunteers"
 msgstr "Pridaj sa k nám"
 
@@ -79,79 +81,79 @@ msgstr "Pridaj sa k nám"
 msgid "Tickets"
 msgstr "Vstupenky"
 
-#: templates/body.html:146
+#: templates/body.html:150
 msgid "General Queries"
 msgstr ""
 
-#: templates/body.html:158
+#: templates/body.html:162
 msgid "Ticket Queries"
 msgstr ""
 
-#: templates/body.html:170
+#: templates/body.html:174
 msgid "Event Organiser"
 msgstr ""
 
-#: templates/body.html:180
+#: templates/body.html:184
 msgid "Stay Updated"
 msgstr ""
 
-#: templates/body.html:180 templates/mailchimp.html:2
+#: templates/body.html:184 templates/mailchimp.html:2
 msgid "Subscribe to our newsletter"
 msgstr "Prihláste sa na odber newslettra"
 
-#: templates/body.html:184
+#: templates/body.html:188
 msgid "Your Email Here"
 msgstr "Napíš sem svoj email"
 
-#: templates/body.html:184 templates/mailchimp.html:9
+#: templates/body.html:188 templates/mailchimp.html:9
 msgid "email address for the newsletter"
 msgstr "emailová adresa pre odoberanie noviniek"
 
-#: templates/body.html:185 templates/mailchimp.html:47
+#: templates/body.html:189 templates/mailchimp.html:47
 msgid "Subscribe"
 msgstr "Prihlásiť sa"
 
-#: templates/body.html:189 templates/mailchimp.html:16
+#: templates/body.html:193 templates/mailchimp.html:16
 msgid "Email Marketing Permissions"
 msgstr "Povolenia pre emailový marketing"
 
-#: templates/body.html:190 templates/mailchimp.html:17
+#: templates/body.html:194 templates/mailchimp.html:17
 msgid "Please select all the ways you would like to hear from SPy o.z.:"
 msgstr "Prosím vyberte si, akými spôsobmi chceš dostávať informácie od SPy o.z.:"
 
-#: templates/body.html:194 templates/mailchimp.html:22
+#: templates/body.html:198 templates/mailchimp.html:22
 msgid "Email"
 msgstr "Email"
 
-#: templates/body.html:197 templates/mailchimp.html:26
+#: templates/body.html:201 templates/mailchimp.html:26
 msgid "Direct Mail"
 msgstr "Osobný email"
 
-#: templates/body.html:200 templates/mailchimp.html:30
+#: templates/body.html:204 templates/mailchimp.html:30
 msgid ""
 "You can unsubscribe at any time by clicking the link in the footer of our"
 " emails."
 msgstr "Odhlásiť sa môžete kedykoľvek kliknutím na link na konci našich emailov."
 
-#: templates/body.html:201
+#: templates/body.html:205
 #, python-format
 msgid ""
 "For information about our privacy practices, please visit our <a "
 "href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:206 templates/mailchimp.html:35
+#: templates/body.html:210 templates/mailchimp.html:35
 msgid "We use Mailchimp as our marketing platform."
 msgstr "Ako našu marketingovú platformu používame Mailchimp."
 
-#: templates/body.html:206
+#: templates/body.html:210
 msgid ""
 "By clicking below to subscribe, you\n"
 "                  acknowledge that your information will be transferred "
 "to Mailchimp for processing."
 msgstr ""
 
-#: templates/body.html:207
+#: templates/body.html:211
 msgid ""
 "Learn more\n"
 "                  about Mailchimp's privacy practices <a "
@@ -159,7 +161,7 @@ msgid ""
 "class=\"external\">here</a>."
 msgstr ""
 
-#: templates/body.html:244
+#: templates/body.html:248
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
@@ -168,21 +170,21 @@ msgstr ""
 "%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
 "aktivity."
 
-#: templates/body.html:246
+#: templates/body.html:250
 msgid "Python Software foundation"
 msgstr "Python Software foundation"
 
-#: templates/body.html:248
+#: templates/body.html:252
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr "PyCon SK je organizovaný dobrovoľníkmi z %(spy)s."
 
-#: templates/body.html:249
+#: templates/body.html:253
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr "Naše pravidlá pre <a href=\"%(url)s\">Ochranu súkromia</a>"
 
-#: templates/body.html:251
+#: templates/body.html:255
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
@@ -191,37 +193,37 @@ msgstr ""
 "Našli ste chybu? Chýba Vám nejaká informácia? Toto je komunitou "
 "manažovaná webstránka, prispejte na našom %(github)se."
 
-#: templates/body.html:264
+#: templates/body.html:268
 msgid "Become a Sponsor"
 msgstr ""
 
-#: templates/body.html:265 templates/index.html:116
+#: templates/body.html:269 templates/index.html:116
 msgid "Submit your talk"
 msgstr ""
 
-#: templates/body.html:267
+#: templates/body.html:271
 msgid "Help out as a volunteer"
 msgstr ""
 
-#: templates/body.html:268
+#: templates/body.html:272
 msgid "Buy your ticket"
 msgstr ""
 
-#: templates/body.html:286
+#: templates/body.html:290
 msgid "Back to Top"
 msgstr "Návrat na vrchol stránky"
 
-#: templates/cfp.html:19 templates/cfp_form.html:25 templates/index.html:240
+#: templates/cfp.html:18 templates/cfp_form.html:24 templates/index.html:276
 msgid "The Call For Proposals is open!"
 msgstr "Predkladanie prednášok je otvorené!"
 
-#: templates/cfp.html:22 templates/cfv.html:28
+#: templates/cfp.html:24 templates/cfv.html:30
 msgid ""
 "PyCon SK is organized by the Python community and for the Python "
 "community."
 msgstr "PyCon SK organizuje Python komunita pre komunitu."
 
-#: templates/cfp.html:23
+#: templates/cfp.html:25
 msgid ""
 "You're coming to the event, and that makes you part of the community. If "
 "you've done something that you think other people might be interested in,"
@@ -241,15 +243,15 @@ msgstr ""
 "poslali návrh na prednášku, aj ak ste ešte nikdy na konferencií "
 "neprednášali. Rečníci vystupujúci prvýkrát budú uprednostňovaní."
 
-#: templates/cfp.html:26
+#: templates/cfp.html:28
 msgid "Where to submit your proposal"
 msgstr "Kam poslať Váš návrh na prednášku"
 
-#: templates/cfp.html:28
+#: templates/cfp.html:30
 msgid "We are glad you are interested in giving a talk at PyCon SK 2019!"
 msgstr "Sme radi, že máte záujem prednášať na PyCon SK 2019! "
 
-#: templates/cfp.html:29 templates/index.html:243
+#: templates/cfp.html:31 templates/index.html:279
 msgid ""
 "Submit your talk proposal with short abstract and your bio. All selected "
 "speakers get a complimentary ticket to the conference."
@@ -257,11 +259,11 @@ msgstr ""
 "Pošlite nám Váš návrh aj so stručným obsahom a životopisom. Všetci "
 "rečníci majú vstup na konferenciu zadarmo."
 
-#: templates/cfp.html:32
+#: templates/cfp.html:34
 msgid "Call for proposals for PyCon SK 2019 is open."
 msgstr "Podávanie návrhov na prednášky na PyCon SK 2019 je otvorené."
 
-#: templates/cfp.html:33
+#: templates/cfp.html:35
 msgid ""
 "The deadline for submissions is the end of 14th February 2019. If you "
 "have any questions, please contact us via email: info@pycon.sk or join "
@@ -271,16 +273,16 @@ msgstr ""
 "otázky, kontaktujte nás emailom: info@pycon.sk alebo sa pridajte na náš "
 "Slack kanál."
 
-#: templates/cfp.html:37 templates/cfp_form.html:267
-#: templates/recording.html:49
+#: templates/cfp.html:39 templates/cfp_form.html:269
+#: templates/recording.html:53
 msgid "Submit your proposal"
 msgstr "Odoslať návrh prednášky"
 
-#: templates/cfp.html:41
+#: templates/cfp.html:42
 msgid "Guidelines for Proposal Submission"
 msgstr "Pokyny pre podávanie návrhov"
 
-#: templates/cfp.html:43
+#: templates/cfp.html:44
 msgid ""
 "There is no official restriction on the topic that you propose a talk "
 "session. Talks about Python or the Python community are most likely to "
@@ -298,11 +300,11 @@ msgstr ""
 "môžete viac ako jednu, komisia Vás však vyzve, aby ste vybrali iba jednu "
 "prednášku (v prípade, že bude akceptovaných viac návrhov)."
 
-#: templates/cfp.html:49
+#: templates/cfp.html:52
 msgid "Talks"
 msgstr "Prednášky"
 
-#: templates/cfp.html:51
+#: templates/cfp.html:54
 msgid ""
 "Most talks are 30 minutes long, but we do offer a limited number of "
 "45-minute slots for important topics that promise to benefit from a more "
@@ -311,11 +313,11 @@ msgstr ""
 "Väčšina prednášok má dĺžku 30 minút, ale ponúkame aj 45 minútový vstup "
 "pre zaujímavé témy, ktoré budú vyžadovať dlhší vstup."
 
-#: templates/cfp.html:55
+#: templates/cfp.html:63
 msgid "Workshops"
 msgstr "Workshopy"
 
-#: templates/cfp.html:57
+#: templates/cfp.html:65
 msgid ""
 "As with the talks, we are looking for tutorials that can grow this "
 "community at any level! We aim for tutorials that will advance Python, "
@@ -329,12 +331,16 @@ msgstr ""
 "Vzhľadom na to, že návody trvajú dlhšie a budú v menších miestnostiach, "
 "vyžadujú oveľa viac prípravy."
 
-#: templates/cfp.html:63 templates/cfp_form.html:270
+#: templates/cfp.html:74 templates/cfp_form.html:116
+msgid "Poster"
+msgstr "Poster"
+
+#: templates/cfp.html:84 templates/cfp_form.html:272
 msgid "Recording release"
 msgstr "Súhlas so zverejnením nahrávok"
 
-#: templates/cfp.html:65 templates/cfp_form.html:272
-#: templates/recording.html:20
+#: templates/cfp.html:86 templates/cfp_form.html:274
+#: templates/recording.html:24
 msgid ""
 "Part of the motivation for PyCon SK is to help with Python education and "
 "advocacy in Slovakia and around the world. Accordingly, we intend to "
@@ -346,8 +352,8 @@ msgstr ""
 "zahraničí. Aj preto plánujeme nahrávať všetky prezentácie z konferencie a"
 " naživo streamovať a následne všetky zverejniť na web."
 
-#: templates/cfp.html:68 templates/cfp_form.html:275
-#: templates/recording.html:24
+#: templates/cfp.html:89 templates/cfp_form.html:277
+#: templates/recording.html:28
 msgid ""
 "By submitting your talk or workshop proposal, or by signing up to give a "
 "lightning talk, you agree to give permission to the SPy o.z. to record, "
@@ -357,35 +363,35 @@ msgstr ""
 "Lightning Talk dávate súhlas SPy o.z. na nahrávanie, úpravu a zverejnenie"
 " audio a/alebo video záznamu z vašej prezentácie."
 
-#: templates/cfp.html:71 templates/cfp_form.html:278
+#: templates/cfp.html:92 templates/cfp_form.html:280
 msgid "Full recording release statement"
 msgstr "Plné znenie súhlasu s nahrávaním"
 
-#: templates/cfp_form.html:31
+#: templates/cfp_form.html:33
 msgid "About speaker"
 msgstr "O rečníkovi"
 
-#: templates/cfp_form.html:41 templates/cfv.html:52
+#: templates/cfp_form.html:43 templates/cfv.html:54
 msgid "Your name"
 msgstr "Vaše meno"
 
-#: templates/cfp_form.html:43
+#: templates/cfp_form.html:45
 msgid "Your name will be displayed on our website if your talk is accepted."
 msgstr "Vaše meno bude zobrazené na našom webe, ak bude prednáška akceptovaná."
 
-#: templates/cfp_form.html:50
+#: templates/cfp_form.html:52
 msgid "Biography"
 msgstr "Životopis"
 
-#: templates/cfp_form.html:52
+#: templates/cfp_form.html:54
 msgid "Your biography will be displayed on our website if your talk is accepted."
 msgstr "Váš životopis bude zobrazený na našom webe, ak bude prednáška akceptovaná."
 
-#: templates/cfp_form.html:59
+#: templates/cfp_form.html:61
 msgid "Profile picture"
 msgstr "Profilová fotka"
 
-#: templates/cfp_form.html:61
+#: templates/cfp_form.html:63
 msgid ""
 "Please provide us with URL where we can download your profile picture "
 "that will be published on our website if your talk is accepted."
@@ -393,11 +399,11 @@ msgstr ""
 "Uveďte, prosím, URL, odkiaľ si môžeme stiahnuť vašu profilovú fotku, "
 "ktorá bude zverejnená na našom webe, ak bude prednáška akceptovaná."
 
-#: templates/cfp_form.html:68
+#: templates/cfp_form.html:70
 msgid "Phone"
 msgstr "Telefón"
 
-#: templates/cfp_form.html:70
+#: templates/cfp_form.html:72
 msgid ""
 "Your phone will not be published! It is just for organizers to get in "
 "touch with you in case we need to discuss something with you or in case "
@@ -406,15 +412,15 @@ msgstr ""
 "Váš telefón nebude zverejnený! Je pre organizátorov, aby sa s vami vedeli"
 " v prípade potreby spojiť pred alebo počas konferencie."
 
-#: templates/cfp_form.html:75
+#: templates/cfp_form.html:77
 msgid "About talk"
 msgstr "O prednáške"
 
-#: templates/cfp_form.html:78
+#: templates/cfp_form.html:80
 msgid "Title"
 msgstr "Názov"
 
-#: templates/cfp_form.html:80
+#: templates/cfp_form.html:82
 msgid ""
 "Name of your talk/workshop as it will be displayed on our website if your"
 " talk is accepted."
@@ -422,11 +428,11 @@ msgstr ""
 "Názov vašej prednášky/workshopu, ktorý bude zobrazený na našom webe, ak "
 "bude prednáška akceptovaná."
 
-#: templates/cfp_form.html:87
+#: templates/cfp_form.html:89
 msgid "Abstract"
 msgstr "Obsah"
 
-#: templates/cfp_form.html:89
+#: templates/cfp_form.html:91
 msgid ""
 "Abstract of your talk will be published on our website if your talk is "
 "accepted."
@@ -434,91 +440,87 @@ msgstr ""
 "Abstrakt vašej prednášky bude zverejnený na našom webe, ak bude prednáška"
 " akceptovaná."
 
-#: templates/cfp_form.html:96
+#: templates/cfp_form.html:98
 msgid "Type"
 msgstr "Typ"
 
-#: templates/cfp_form.html:98
+#: templates/cfp_form.html:100
 msgid "What kind of performance you will do?"
 msgstr "Aký typ prezentácie plánujete robiť?"
 
-#: templates/cfp_form.html:102
+#: templates/cfp_form.html:104
 msgid "Talk"
 msgstr "Prednáška"
 
-#: templates/cfp_form.html:108
+#: templates/cfp_form.html:110
 msgid "Workshop"
 msgstr "Workshop"
 
-#: templates/cfp_form.html:114
-msgid "Poster"
-msgstr "Poster"
-
-#: templates/cfp_form.html:120 templates/edusummit.html:61
+#: templates/cfp_form.html:122 templates/edusummit.html:63
 msgid "Hardware Projects Showcase"
 msgstr "Ukážka hardvérových projektov"
 
-#: templates/cfp_form.html:128
+#: templates/cfp_form.html:130
 msgid "Language"
 msgstr "Jazyk"
 
-#: templates/cfp_form.html:130
+#: templates/cfp_form.html:132
 msgid "In which language your performance will be?"
 msgstr "V akom jazyku bude vaša prezentácia?"
 
-#: templates/cfp_form.html:134
+#: templates/cfp_form.html:136
 msgid "English"
 msgstr "Anglický"
 
-#: templates/cfp_form.html:140
+#: templates/cfp_form.html:142
 msgid "Slovak"
 msgstr "Slovenský"
 
-#: templates/cfp_form.html:146
+#: templates/cfp_form.html:148
 msgid "Czech"
 msgstr "Český"
 
-#: templates/cfp_form.html:154
+#: templates/cfp_form.html:156
 msgid "Time Slot"
 msgstr "Časový blok"
 
-#: templates/cfp_form.html:159
+#: templates/cfp_form.html:161
 msgid "30 minutes (talks)"
 msgstr "30 minút (prednáška)"
 
-#: templates/cfp_form.html:165
+#: templates/cfp_form.html:167
 msgid "45 minutes (talks/workshops)"
 msgstr "45 minút (prednáška/workshop)"
 
-#: templates/cfp_form.html:171
+#: templates/cfp_form.html:173
 msgid "60 minutes (workshops/Hardware Projects Showcase)"
 msgstr "60 minút (prednáška/Hardware Projects Showcase)"
 
-#: templates/cfp_form.html:177
+#: templates/cfp_form.html:179
 msgid "90 minutes (workshops)"
 msgstr "90 minút (workshop)"
 
-#: templates/cfp_form.html:183
+#: templates/cfp_form.html:185
 msgid "120 minutes (workshops)"
 msgstr "120 minút (workshop)"
 
-#: templates/cfp_form.html:189
+#: templates/cfp_form.html:191
 msgid "3 hours (workshops)"
 msgstr "3 hodiny (workshop)"
 
-#: templates/cfp_form.html:195
+#: templates/cfp_form.html:197
 msgid "4 hours (workshops)"
 msgstr "4 hodiny (workshop)"
 
-#: templates/cfp_form.html:201
+#: templates/cfp_form.html:203
 msgid "Travel funding"
 msgstr "Cestovné náklady"
 
-#: templates/cfp_form.html:204
+#: templates/cfp_form.html:206
 msgid "Do you need travel funding?"
 msgstr "Potrebujete príspevok na cestovanie?"
 
-#: templates/cfp_form.html:206
+#: templates/cfp_form.html:208
 msgid ""
 "Please bear in mind that we are community conference with limited budget "
 "and we might not be able to fund you."
@@ -526,19 +528,19 @@ msgstr ""
 "Majte prosím na pamäti, že sme komunitná konferencia s obmedzeným "
 "rozpočtom a je možné, že nebudeme môcť preplatiť vaše náklady."
 
-#: templates/cfp_form.html:210 templates/cfp_form.html:239
+#: templates/cfp_form.html:212 templates/cfp_form.html:241
 msgid "Yes"
 msgstr "Áno"
 
-#: templates/cfp_form.html:216 templates/cfp_form.html:245
+#: templates/cfp_form.html:218 templates/cfp_form.html:247
 msgid "No"
 msgstr "Nie"
 
-#: templates/cfp_form.html:224
+#: templates/cfp_form.html:226
 msgid "What city you will travel from?"
 msgstr "Z ktorého mesta budete cestovať?"
 
-#: templates/cfp_form.html:226
+#: templates/cfp_form.html:228
 msgid ""
 "Please provide us with this city only if you need travel funding so we "
 "can calculate ticket price."
@@ -546,11 +548,11 @@ msgstr ""
 "Prosím zadajte, z ktorého mesta budete cestovať, ak potrebujete preplatiť"
 " cestovné náklady, aby sme mohli vypočítať cenu lístka."
 
-#: templates/cfp_form.html:233
+#: templates/cfp_form.html:235
 msgid "Do you need accomodation?"
 msgstr "Potrebujete ubytovanie?"
 
-#: templates/cfp_form.html:235
+#: templates/cfp_form.html:237
 msgid ""
 "Please provide us with this answer only if you need travel funding so we "
 "can calculate ticket price."
@@ -558,23 +560,23 @@ msgstr ""
 "Prosím odpovedzte na túo otázku iba v prípade, že potrebujete preplatiť "
 "cestovné náklady, aby sme mohli vypočítať cenu lístka."
 
-#: templates/cfp_form.html:262 templates/cfv.html:119
+#: templates/cfp_form.html:264 templates/cfv.html:121
 msgid "Submit"
 msgstr "Odoslať"
 
-#: templates/cfp_form.html:266
+#: templates/cfp_form.html:268
 msgid "Alternatively"
 msgstr "Prípadne"
 
-#: templates/cfp_form.html:267
+#: templates/cfp_form.html:269
 msgid "directly in Google forms."
 msgstr "priamo v Google formulároch."
 
-#: templates/cfv.html:25 templates/index.html:210
+#: templates/cfv.html:24 templates/index.html:246
 msgid "We need you to help organize PyCon SK 2019!"
 msgstr "Potrebujeme ťa, aby si pomohol s organizáciou PyCon SK 2019!"
 
-#: templates/cfv.html:29 templates/index.html:214
+#: templates/cfv.html:31 templates/index.html:250
 msgid ""
 "All of our staff members are volunteers. We are looking for new members "
 "to join the team of organizers."
@@ -582,7 +584,7 @@ msgstr ""
 "Všetci členovia nášho tímu sú doborvoľníci. Do tímu organizátorov hľadáme"
 " nových členov."
 
-#: templates/cfv.html:30
+#: templates/cfv.html:32
 msgid ""
 "This is great opportunity to meet people, make new friends and get the "
 "opportunity to learn new things."
@@ -590,7 +592,7 @@ msgstr ""
 "Je to skvelá príležitosť stretnúť ľudí, nájsť nových priateľov a aj sa "
 "naučiť nové veci."
 
-#: templates/cfv.html:34
+#: templates/cfv.html:36
 msgid ""
 "As a volunteer you get a free ticket to the conference as a thank you for"
 " making the change in our society."
@@ -598,42 +600,42 @@ msgstr ""
 "Ako dobrovoľník dostaneš voľný lístok na konferenciu ako poďakovanie za "
 "to, že pomáhaš zlepšovať nasšu spoločnosť."
 
-#: templates/cfv.html:35
+#: templates/cfv.html:37
 #, python-format
 msgid ""
 "If you spend more than 40 hours during the year as a volunteer you can "
 "give 3%% to any registered non-profit in your tax return."
 msgstr ""
 
-#: templates/cfv.html:61
+#: templates/cfv.html:63
 msgid "Your phone"
 msgstr "Tvoj mobil"
 
-#: templates/cfv.html:70
+#: templates/cfv.html:72
 msgid "Something about you"
 msgstr "Niečo o tebe"
 
-#: templates/cfv.html:72
+#: templates/cfv.html:74
 msgid ""
 "We would like to know you, write something about yourself and also why "
 "you would like to help out..."
 msgstr "Radi by sme vedeli niečo o tebe, ale aj prečo nám chceš pomôcť..."
 
-#: templates/cfv.html:80
+#: templates/cfv.html:82
 msgid "What is your time estimate you can spend as volunteer?"
 msgstr ""
 "Napíš časový odhad koľko by si sa mohol(a) venovať dobrovoľníctvu pre SPy"
 " o.z.?"
 
-#: templates/cfv.html:83
+#: templates/cfv.html:85
 msgid "We need just rought estimate, for example: our daily, two hours a week..."
 msgstr "Stačí orientačna informácia, napr. hodina denne, dve hodiny týždenne..."
 
-#: templates/cfv.html:91
+#: templates/cfv.html:93
 msgid "What would you like to do?"
 msgstr "Je niečo konkrétne čo by si rad(a) robil(a)?"
 
-#: templates/cfv.html:93
+#: templates/cfv.html:95
 msgid ""
 "Let us know what you are experienced in? If you have a vision and no "
 "experience, that is alright, write down what you would like to do and "
@@ -644,11 +646,11 @@ msgstr ""
 "nevadí podeľ sa s nami o svoje  predstavy s určite nájdeme úlohy v "
 "ktorých sa môžeš realizovať..."
 
-#: templates/cfv.html:101
+#: templates/cfv.html:103
 msgid "Where did you find out about SPy o.z.?"
 msgstr "Odkiaľ si sa dozvedel(a) o SPy o.z.?"
 
-#: templates/coc.html:18
+#: templates/coc.html:22
 msgid ""
 "The Python community is made up of members from around the globe with a "
 "diverse set of skills, personalities, and experiences. It is through "
@@ -665,15 +667,15 @@ msgstr ""
 "riadiť váš styk s ostatnými a snažiť sa udržať Python komunitu pozitívnu,"
 " úspešnú a rastúcu."
 
-#: templates/coc.html:20
+#: templates/coc.html:24
 msgid "A member of the Python community is:"
 msgstr "Člen Python komunity je:"
 
-#: templates/coc.html:26
+#: templates/coc.html:30
 msgid "Open"
 msgstr "Otvorený"
 
-#: templates/coc.html:28
+#: templates/coc.html:32
 msgid ""
 "Members of the community are open to collaboration, whether it's on PEPs,"
 " patches, problems, or otherwise. We're receptive to constructive "
@@ -691,11 +693,11 @@ msgstr ""
 "všetkých, ktorí sa chcú zúčastniť našich aktivít, podporujeme prostredie,"
 " kde sa môže ktokoľvek podieľať a každý ho môže zlepšiť."
 
-#: templates/coc.html:31
+#: templates/coc.html:35
 msgid "Considerate"
 msgstr "Ohľaduplný"
 
-#: templates/coc.html:33
+#: templates/coc.html:37
 msgid ""
 "Members of the community are considerate of their peers -- other Python "
 "users. We're thoughtful when addressing the efforts of others, keeping in"
@@ -709,11 +711,11 @@ msgstr ""
 "vyjadreniach, či už osobne alebo on-line a sme taktní, keď príde na "
 "rozdielne názory."
 
-#: templates/coc.html:36
+#: templates/coc.html:40
 msgid "Respectful"
 msgstr "Úctivý"
 
-#: templates/coc.html:38
+#: templates/coc.html:42
 msgid ""
 "Members of the community are respectful. We're respectful of others, "
 "their positions, their skills, their commitments, and their efforts. "
@@ -728,7 +730,7 @@ msgstr ""
 " využívame ich pri práci. Keď nesúhlasíme, sme zdvorilí pri adresovaní "
 "našich problémov."
 
-#: templates/coc.html:41
+#: templates/coc.html:45
 msgid ""
 "Overall, we're good to each other. We contribute to this community not "
 "because we have to, but because we want to. If we remember that, these "
@@ -738,11 +740,11 @@ msgstr ""
 "preto, že musíme, ale preto, že chceme. Ak si to uvedomíme, tak nám tieto"
 " pokyny prídu prirodzené."
 
-#: templates/coc.html:44
+#: templates/coc.html:48
 msgid "Slovak Python Community"
 msgstr "Slovenská Python komunita"
 
-#: templates/coc.html:46
+#: templates/coc.html:50
 msgid ""
 "PyCon SK and Python Meetup fully identify with the Code of Conduct of the"
 " Python community. We create an environment, which is open to everyone, "
@@ -757,7 +759,7 @@ msgstr ""
 "komunikácia by mala byť úctivá a na profesionálnej úrovni. Buďme k sebe "
 "navzájom tolerantní."
 
-#: templates/coc.html:49
+#: templates/coc.html:53
 msgid ""
 "We do not offend, vilify other members. We behave professionally. "
 "Harassment, sexist, racist or otherwise demeaning jokes are improper at "
@@ -769,11 +771,11 @@ msgstr ""
 "nevhodné na našom stretnutí. Nebudeme tolerovať obťažovanie účastníkov "
 "stretnutia v akejkoľvek forme."
 
-#: templates/edusummit.html:20
+#: templates/edusummit.html:19
 msgid "Where Teachers meet Programmers"
 msgstr "Stretnutie učiteľov s programátormi"
 
-#: templates/edusummit.html:22
+#: templates/edusummit.html:24
 msgid ""
 "EduSummit is a special section of the conference focused on teaching "
 "programming at primary and secondary schools. After two years of having "
@@ -792,7 +794,7 @@ msgstr ""
 "informatiky, pričom si komunita učiteľov má možnosť zdieľať svoje "
 "skúsenosti a vedomosti o užitočných nástrojoch."
 
-#: templates/edusummit.html:25
+#: templates/edusummit.html:27
 msgid ""
 "This year’s keynote speaker will be Juraj Hromkovič, a professor at ETH "
 "Zürich, whose main focus of work is education for teachers of Computer "
@@ -807,31 +809,31 @@ msgstr ""
 "štátne vyznamenanie Pribinov kríž I. triedy, ktoré mu udelil prezident SR"
 " Andrej Kiska."
 
-#: templates/edusummit.html:29
+#: templates/edusummit.html:31
 msgid "Profesor Juraj Hromkovič, DrSc."
 msgstr "Profesor Juraj Hromkovič, DrSc."
 
-#: templates/edusummit.html:31
+#: templates/edusummit.html:33
 msgid "Please note that EduSummit will be primarily in Slovak language."
 msgstr " "
 
-#: templates/edusummit.html:35
+#: templates/edusummit.html:37
 msgid "EduSummit workshops"
 msgstr "EduSummit workshopy"
 
-#: templates/edusummit.html:37
+#: templates/edusummit.html:39
 msgid "On saturday we will hold numerous educational workshops."
 msgstr ""
 "Sobota bude patriť workshopom. Prihlasovanie workshopov ešte stále "
 "prebieha, avšak niekoľko z nich už máme potvrdené:"
 
-#: templates/edusummit.html:39
+#: templates/edusummit.html:41
 msgid "A beginner's workshop with BBC micro:bit given by high school students"
 msgstr ""
 "Workshop pre začiatočníkov so zariadením BBC micro:bit vedený študentmi "
 "stredných škôl"
 
-#: templates/edusummit.html:40
+#: templates/edusummit.html:42
 msgid ""
 "An advanced workshop with BBC micro:bit for teachers who already teach "
 "with micro:bits."
@@ -839,7 +841,7 @@ msgstr ""
 "Pokročilý workshop so zariadením BBC micro:bit pre učiteľov, ktorí už "
 "micro:bit používajú vo výučbe."
 
-#: templates/edusummit.html:41
+#: templates/edusummit.html:43
 msgid ""
 "Workshop on using, creating and sharing Open Educational Resources for "
 "teachers"
@@ -847,41 +849,41 @@ msgstr ""
 "Workshop o používaní, vytváraní a zdieľaní otvorených edukačných zdrojov "
 "pre učiteľov"
 
-#: templates/edusummit.html:42
+#: templates/edusummit.html:44
 msgid "Parse Open Data with Python"
 msgstr "Parsovanie otvorených dát pomocou pythonu"
 
-#: templates/edusummit.html:43
+#: templates/edusummit.html:45
 msgid "PyGame zero workshop for teachers"
 msgstr "PyGame nula workshop pre učiteľov"
 
-#: templates/edusummit.html:44
+#: templates/edusummit.html:46
 msgid "Control Minecraft via Python"
 msgstr "Ovládaj Minecraft s Pythonom"
 
-#: templates/edusummit.html:45
+#: templates/edusummit.html:47
 msgid "Turn your BBC micro:bit into a Minecraft game controller"
 msgstr "Vytvor zo svojho BBC micro:bitu ovládač Minecraftu"
 
-#: templates/edusummit.html:47
+#: templates/edusummit.html:49
 msgid "We will update the workshop list after the Call for Proposals is closed."
 msgstr ""
 "Po uzavretí prihlášok na prednášky a workshopov zverejníme zoznam "
 "všetkých workshopov."
 
-#: templates/edusummit.html:49
+#: templates/edusummit.html:51
 msgid "More information about the schedule can be found "
 msgstr "Viac informácií o programe nájdete "
 
-#: templates/edusummit.html:49 templates/edusummit.html:108
+#: templates/edusummit.html:51 templates/edusummit.html:110
 msgid "here.</a>"
 msgstr "tu.</a>"
 
-#: templates/edusummit.html:54
+#: templates/edusummit.html:56
 msgid "SPy Cup"
 msgstr "SPy Cup"
 
-#: templates/edusummit.html:56
+#: templates/edusummit.html:58
 msgid ""
 "Students from all 14 schools currently participating in Teaching with "
 "Hardware will join the SPy Cup contest, in which they create their own "
@@ -898,7 +900,7 @@ msgstr ""
 "udelené ceny a ich autori budú mať krátku prezentáciu o ich projekte na "
 "konferencii PyCon SK 2019."
 
-#: templates/edusummit.html:57
+#: templates/edusummit.html:59
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
@@ -906,7 +908,7 @@ msgstr ""
 "Viac informácií nájdete na <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
 
-#: templates/edusummit.html:63
+#: templates/edusummit.html:65
 msgid ""
 "If you have created an interesting hardware project which uses Python, "
 "MicroPython or the BBC micro:bit and would like to share it to the world "
@@ -916,7 +918,7 @@ msgstr ""
 "MicroPython alebo BBC micro:bit a chceli by ste ho zdieľať s celým "
 "svetom, prinieste ho na PyCon SK 2019 :-)"
 
-#: templates/edusummit.html:64
+#: templates/edusummit.html:66
 msgid ""
 "You can find some inspiration here <a "
 "href=\"https://www.ucimeshardverom.sk/projekty/\">www.ucimeshardverom.sk/projekty</a>"
@@ -924,11 +926,11 @@ msgstr ""
 "Inšpirovať sa môžete tu: <a "
 "href=\"https://www.ucimeshardverom.sk/projekty/\">www.ucimeshardverom.sk/projekty</a>"
 
-#: templates/edusummit.html:68
+#: templates/edusummit.html:70
 msgid "Teaching with Hardware"
 msgstr "Učíme s Hardvérom"
 
-#: templates/edusummit.html:70
+#: templates/edusummit.html:72
 msgid ""
 "The goal of the initiative Teaching with Hardware is to introduce such "
 "activities into computing lessons at primary and secondary schools, which"
@@ -950,7 +952,7 @@ msgstr ""
 "spustili projekt PILOT na 14 školách po celom Slovensku. Jeho výsledky "
 "budú predstavené na konferencii PyCon SK 2019."
 
-#: templates/edusummit.html:71
+#: templates/edusummit.html:73
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk\">www.ucimeshardverom.sk</a>"
@@ -958,23 +960,23 @@ msgstr ""
 "Viac informácií nájdete na stránke <a "
 "href=\"https://www.ucimeshardverom.sk\">www.ucimeshardverom.sk</a>"
 
-#: templates/edusummit.html:75
+#: templates/edusummit.html:77
 msgid "Poster Session"
 msgstr "Posterová sekcia"
 
-#: templates/edusummit.html:77
+#: templates/edusummit.html:79
 msgid "We will host a poster session and we will be happy if you get involved."
 msgstr "Budeme organizovať aj posterovú sekciu a budeme radi, ak sa zapojíte."
 
-#: templates/edusummit.html:81
+#: templates/edusummit.html:83
 msgid "Python Cup"
 msgstr "Python Cup"
 
-#: templates/edusummit.html:83
+#: templates/edusummit.html:85
 msgid "The winners of Python Cup will be awarded at EduSummit."
 msgstr "V sekcii EduSummit budú vyhlásení víťazi súťaže Python Cup."
 
-#: templates/edusummit.html:84
+#: templates/edusummit.html:86
 msgid ""
 "More info can be found at <a "
 "href=\"http://edi.fmph.uniba.sk/~tomcsanyiova/PythonCup/\">edi.fmph.uniba.sk/~tomcsanyiova/PythonCup</a>"
@@ -982,11 +984,11 @@ msgstr ""
 "Ďalšie informácie nájdete na adrese <a "
 "href=\"http://edi.fmph.uniba.sk/~tomcsanyiova/PythonCup/\">edi.fmph.uniba.sk/~tomcsanyiova/PythonCup</a>"
 
-#: templates/edusummit.html:88
+#: templates/edusummit.html:90
 msgid "What kind of ticked should I buy?"
 msgstr "Aký druh lístka by som si mal kúpiť?"
 
-#: templates/edusummit.html:90
+#: templates/edusummit.html:92
 msgid ""
 "All available tickets apply for the whole PyCon SK conference, including "
 "the EduSummit section. All of the talks and workshops take place at the "
@@ -998,11 +1000,11 @@ msgstr ""
 "mieste a môžete sa rozhodnúť, ktoré prednášky a workshopy chcete "
 "navštíviť. Ak ste učiteľ alebo študent, máte nárok na zľavu."
 
-#: templates/edusummit.html:94
+#: templates/edusummit.html:96
 msgid "Young Coders' day"
 msgstr "Young Coders' day"
 
-#: templates/edusummit.html:96
+#: templates/edusummit.html:98
 msgid ""
 "On saturday, we will host a Young Coders' day, consisting of programming "
 "workshops for children."
@@ -1010,11 +1012,11 @@ msgstr ""
 "V sobotu sa bude konať Young Coders' day, pozostávajúci z programovacích "
 "dielní pre deti."
 
-#: templates/edusummit.html:100
+#: templates/edusummit.html:102
 msgid "Speak at EduSummit"
 msgstr "Prednášaj na EduSummite"
 
-#: templates/edusummit.html:102
+#: templates/edusummit.html:104
 msgid ""
 "Call for Proposals is open. If you are a teacher or educator submit your "
 "talk or workshop and co-create the conference."
@@ -1023,11 +1025,11 @@ msgstr ""
 "učiteľov a nadšencov vyučovania informatiky, aby si prihlásili prednášku "
 "a tým sa stali spolutvorcami obsahu konferencie."
 
-#: templates/edusummit.html:106
+#: templates/edusummit.html:108
 msgid "Sponsorship"
 msgstr "Sponzoruj"
 
-#: templates/edusummit.html:108
+#: templates/edusummit.html:110
 msgid ""
 "By supporting PyCon you also support numerous educational activities "
 "during the conference. If the conference is profitable we finance "
@@ -1184,15 +1186,15 @@ msgid ""
 "but for this one you will need a separate ticket."
 msgstr ""
 
-#: templates/index.html:159
+#: templates/index.html:159 templates/tickets.html:44
 msgid "Participants"
 msgstr ""
 
-#: templates/index.html:179
+#: templates/index.html:179 templates/tickets.html:64
 msgid "Sessions"
 msgstr ""
 
-#: templates/index.html:189
+#: templates/index.html:189 templates/tickets.html:74
 msgid "Sponsors"
 msgstr ""
 
@@ -1200,11 +1202,29 @@ msgstr ""
 msgid "News"
 msgstr ""
 
+#: templates/index.html:210
+msgid "PyCon SK 2019 website redesign."
+msgstr ""
+
+#: templates/index.html:214
+msgid ""
+"We have launched new design of the conference website. How do you like "
+"it? Let us know on our social networks."
+msgstr ""
+
 #: templates/index.html:225
+msgid "PyCon SK 2019 Slack channel & Social media"
+msgstr ""
+
+#: templates/index.html:229
+msgid "Join us at our social media:"
+msgstr ""
+
+#: templates/index.html:261
 msgid "Conference ticket sale is open."
 msgstr "Predaj lístkov na konferenciu je otvorený."
 
-#: templates/index.html:229 templates/tickets.html:23
+#: templates/index.html:265 templates/tickets.html:23
 msgid ""
 "Buy your ticket before they are gone... So far every PyCon SK has been "
 "sold out!"
@@ -1250,7 +1270,7 @@ msgstr ""
 msgid "View previous campaigns."
 msgstr "Zobraziť predchádzajúce kampane."
 
-#: templates/privacy-policy.html:7
+#: templates/privacy-policy.html:7 templates/privacy-policy.html:17
 msgid "Privacy Policy"
 msgstr "Ochrana súkromia"
 
@@ -1258,7 +1278,7 @@ msgstr "Ochrana súkromia"
 msgid "SPy o.z. Privacy and Security"
 msgstr "SPy o.z. Súkromie a bezpečnosť"
 
-#: templates/privacy-policy.html:20
+#: templates/privacy-policy.html:24
 msgid ""
 "SPy o.z. value and respect all individuals and organizations that utilize"
 " our services. We understand that you may be concerned about privacy "
@@ -1268,7 +1288,7 @@ msgstr ""
 " naše služby. Rozumieme, že môžete mať obavy o vaše súkromie v súvislosti"
 " s používaním Internetu."
 
-#: templates/privacy-policy.html:23
+#: templates/privacy-policy.html:27
 msgid ""
 "We believe that you should have control over who receives your personal "
 "information, whether it concerns where you live, what your interests are,"
@@ -1281,7 +1301,7 @@ msgstr ""
 " vykonávate transakcie. Naším cieľom je len jediné: riadiť Python "
 "komunitu na Slovensku v bezpečnom prostredí."
 
-#: templates/privacy-policy.html:26
+#: templates/privacy-policy.html:30
 msgid ""
 "Therefore, we do not disclose, share, sell, or trade information about "
 "your individual visits to *.pycon.sk or the information that you may give"
@@ -1300,7 +1320,7 @@ msgstr ""
 "procesu. V prípade, že dostaneme takúto požiadavku, transparentne "
 "vytvorím požadovaný report."
 
-#: templates/privacy-policy.html:29
+#: templates/privacy-policy.html:33
 msgid ""
 "Other Web sites that you may link to from our site, including our "
 "partners' Web sites, have their own privacy policies. SPy o.z. is not "
@@ -1314,7 +1334,7 @@ msgstr ""
 " iných webstránkach. Odporúčame Vám preštudovať si pravidlá ochrany "
 "súkromia webstránok predtým, ako im poskytnete akékoľvek osobné údaje."
 
-#: templates/privacy-policy.html:32
+#: templates/privacy-policy.html:36
 msgid ""
 "At our events we respect peoples will not be photographed if they do not "
 "want to. Official photographers will ignore such people. We also ask our "
@@ -1324,7 +1344,7 @@ msgstr ""
 "fotografovaní, pokiaľ si to neželajú. Oficiálny fotografi budú takýchto "
 "ľudí ignorovať. Taktiež žiadame o to isté aj účastníkov načich akcií."
 
-#: templates/privacy-policy.html:35
+#: templates/privacy-policy.html:39
 msgid ""
 "We respect the Code of Conduct, let us know if you feel we can improve "
 "our privacy and policy rules."
@@ -1332,11 +1352,11 @@ msgstr ""
 "Rešpektujeme Pravidlá správania sa, dajte nám vedieť, ak sa vám zdá, že "
 "naše pravidlá či už na ochranu súkromia alebo iné môžeme zlepšiť."
 
-#: templates/privacy-policy.html:42
+#: templates/privacy-policy.html:46
 msgid "How SPy o.z. Uses Information About You"
 msgstr "Ako Spy o.z. využíva informácie o vás"
 
-#: templates/privacy-policy.html:44
+#: templates/privacy-policy.html:48
 msgid ""
 "When you register for an event, make donations or select a volunteer "
 "opportunity, we may specifically ask for information about you -- such as"
@@ -1352,7 +1372,7 @@ msgstr ""
 "informácia bude použitá výlučne na účely dokončenia vašej registrácie, "
 "príspevku alebo zadeleniu práce pre dobrovoľníka."
 
-#: templates/privacy-policy.html:47
+#: templates/privacy-policy.html:51
 msgid ""
 "The information which SPy o.z. automatically gathers, such as the numbers"
 " and frequency of visitors to our site and its areas, is used only in the"
@@ -1370,11 +1390,11 @@ msgstr ""
 "vylepšovať, aby bola príťažlivá a dostupná pre čo najväčšie množstvo "
 "ľudí."
 
-#: templates/privacy-policy.html:54
+#: templates/privacy-policy.html:58
 msgid "SPy o.z. Security"
 msgstr "SPy o.z. bezpečnosť"
 
-#: templates/privacy-policy.html:56
+#: templates/privacy-policy.html:60
 msgid ""
 "SPy o.z. takes every precaution to protect our user's information. When "
 "users submit sensitive information via the Web site, your information is "
@@ -1384,7 +1404,7 @@ msgstr ""
 "užívateľ posiela citlivé informácie prostredníctvom webovej stránky, "
 "tieto informácie sú chránené online aj offline."
 
-#: templates/privacy-policy.html:59
+#: templates/privacy-policy.html:63
 msgid ""
 "SPy o.z. uses Secure Sockets Layer (SSL) technology to keep your personal"
 " information as secure as possible. SPy o.z. helps to protect your "
@@ -1395,11 +1415,11 @@ msgstr ""
 "užívateľ poskytne citlivé údaje prostredníctvom web stránky, vaše "
 "informácie sú chránené online aj offline."
 
-#: templates/privacy-policy.html:66
+#: templates/privacy-policy.html:70
 msgid "Third party services that may obtain some information about you:"
 msgstr "Služby tretích strán, ktoré môže získať časť informácií o vás:"
 
-#: templates/privacy-policy.html:68
+#: templates/privacy-policy.html:72
 msgid ""
 "<strong>Tito</strong>: Event management website, we use for event ticket "
 "registration. Read their privacy and policy: "
@@ -1407,7 +1427,7 @@ msgstr ""
 "<strong>Tito</strong>: webstránka na riadenie eventov, využívame ju na "
 "registráciu vstupeniek. Prečítajte si ich pravidlá ochrany súkromia: "
 
-#: templates/privacy-policy.html:72
+#: templates/privacy-policy.html:76
 msgid ""
 "<strong>PayPal</strong>: Payment provider, we use for event ticket "
 "payments. Read their privacy and policy: "
@@ -1416,7 +1436,7 @@ msgstr ""
 " za vstupenky na konferenciu. Prečítajte si ich pravidlá ochrany "
 "súkromia: "
 
-#: templates/privacy-policy.html:76
+#: templates/privacy-policy.html:80
 msgid ""
 "<strong>Google Analytics</strong>: Website performance analytics, we use "
 "to collect aggregated data about our website visitors. Read their privacy"
@@ -1426,7 +1446,7 @@ msgstr ""
 "využívame ho na zber agregovaných dát o návštevníkoch našich webstránok. "
 "Prečítajte si ich pravidlá ochrany súkromia: "
 
-#: templates/privacy-policy.html:80
+#: templates/privacy-policy.html:84
 msgid ""
 "<strong>MailChimp</strong>: Newsletter and event update mass email "
 "provider, we use to send emails to multiple recipients. Read their "
@@ -1436,11 +1456,11 @@ msgstr ""
 "hromadných emailov, využívame ho na rozposielanie emailov viacerým "
 "prijímateľom. Prečítajte si ich pravidlá ochrany súkromia: "
 
-#: templates/privacy-policy.html:88
+#: templates/privacy-policy.html:92
 msgid "Third party service that could be avoided:"
 msgstr "Služby tretích strán, ktorým sa dá vyhnúť:"
 
-#: templates/privacy-policy.html:90
+#: templates/privacy-policy.html:94
 msgid ""
 "<strong>Tito</strong>: Join us on events that do not require tickets, "
 "such as monthly Python meetups. Unfortunately for PyCon SK conference "
@@ -1455,7 +1475,7 @@ msgstr ""
 "totožnosti ak máte platný lístok (bez zľavy, v prípade zľavnených lístkov"
 " môžeme požadovať študentský preukaz alebo podobný doklad)."
 
-#: templates/privacy-policy.html:93
+#: templates/privacy-policy.html:97
 msgid ""
 "<strong>PayPal</strong>: Request a payment via alternative methods: Bank "
 "transfer, cryptocurrencies, an extra fee for additional human work will "
@@ -1465,7 +1485,7 @@ msgstr ""
 "prevodom, kryptomenami. V tomto prípade však bude účtovaný extra poplatok"
 " za ručné spracovanie transakcie."
 
-#: templates/privacy-policy.html:96
+#: templates/privacy-policy.html:100
 msgid ""
 "<strong>Google Analytics</strong>: Use adblocker to block this service "
 "automatically for every site on the internet."
@@ -1473,7 +1493,7 @@ msgstr ""
 "<strong>Google Analytics</strong>: Používajte blokovanie trackerov na "
 "automatické blokovanie tejto služby na ktorejkoľvek stránke na Internete."
 
-#: templates/privacy-policy.html:99
+#: templates/privacy-policy.html:103
 msgid ""
 "<strong>MailChimp</strong>: Do not subscribe to our newsletter, or "
 "request us not to include your email in mass emails when requesting an "
@@ -1485,11 +1505,11 @@ msgstr ""
 "prihlásený/á, môžete sa odhlásiť kedykoľvek kliknutím na link na konci "
 "emailu."
 
-#: templates/recording.html:7
+#: templates/recording.html:7 templates/recording.html:17
 msgid "PyCon SK Recording Release"
 msgstr "Súhlas so zverejnením nahrávok z PyConSK"
 
-#: templates/recording.html:20
+#: templates/recording.html:24
 msgid ""
 "See the <a href=\"http://pyvideo.org\">http://pyvideo.org</a> for one "
 "such venue."
@@ -1497,7 +1517,7 @@ msgstr ""
 "Pozrite si <a href=\"http://pyvideo.org\">http://pyvideo.org</a> na "
 "podobnom mieste."
 
-#: templates/recording.html:24
+#: templates/recording.html:28
 msgid ""
 "We might also perform interviews with poster presenters or attendees and "
 "require recording releases to publish them."
@@ -1505,7 +1525,7 @@ msgstr ""
 "Taktiež môžeme robiť rozhovory s autormi posterov alebo návštevníkmi a "
 "vyžiadať si povolenie na ich zverejnenie."
 
-#: templates/recording.html:28
+#: templates/recording.html:32
 msgid ""
 "By default, the recording release checkbox is checked when submitting a "
 "proposal. If you wish to opt-out, uncheck the release checkbox, note that"
@@ -1517,7 +1537,7 @@ msgstr ""
 "vašej prednášky nebude robiť záznam ani živé streamovanie. Nie je možné "
 "odmietnuť zverejnenie v prípade lightning talku."
 
-#: templates/recording.html:32
+#: templates/recording.html:36
 msgid ""
 "You agree to the following legalese, which certifies that you are the "
 "author of your presentation (or otherwise allowed to present it at "
@@ -1534,11 +1554,11 @@ msgstr ""
 "vrátane YouTube, alebo iných video stránok. Zverejnené pod licenciou CC-"
 "BY. Taktiež umožňuje ostatným ľuďom sledovať tieto nahrávky."
 
-#: templates/recording.html:35
+#: templates/recording.html:39
 msgid "Legalese"
 msgstr "Zmluva"
 
-#: templates/recording.html:37
+#: templates/recording.html:41
 msgid ""
 "I certify that I, the Submitter, am authorized to license this proposal "
 "and its associated presentation (the \"User Submission\") to the SPy o.z."
@@ -1548,11 +1568,11 @@ msgstr ""
 "tento návrh na prednášku a príslušnú prezentáciu (\"Príspevok\") pre SPy "
 "o.z. na využitie v súvislosti s konferenciou PyCon SK 2019."
 
-#: templates/recording.html:40
+#: templates/recording.html:44
 msgid "Specifically"
 msgstr "Konkrétne"
 
-#: templates/recording.html:42
+#: templates/recording.html:46
 msgid ""
 "I, the Submitter, certify that I am the creator (and own the copyright) "
 "of the User Submission."
@@ -1560,7 +1580,7 @@ msgstr ""
 "Ja, Navrhovateľ, potvrdzujem, že som autor (a vlastník copyrightu) "
 "Príspevku."
 
-#: templates/recording.html:43
+#: templates/recording.html:47
 msgid ""
 "I, the Submitter, hereby grant the SPy o.z. to publish User Submission "
 "and its audio/video recordings under CC-BY license."
@@ -1568,7 +1588,7 @@ msgstr ""
 "Ja, Navrhovateľ, týmto povoľujem SPy o.z. zverejniť Príspevok a jeho "
 "audio/video nahrávky pod CC-BY licenciou."
 
-#: templates/recording.html:44
+#: templates/recording.html:48
 msgid ""
 "I, the Submitter, specifically affirm the right to perform the User "
 "Submissions on the SPy o.z. web sites or on other web sites designated by"
@@ -1578,95 +1598,95 @@ msgstr ""
 "webstránkach SPy o.z. alebo na ďalších web stránkach určených PSF "
 "(vrátane, ale nie nutne výlučne YouTube)."
 
-#: templates/schedule.html:19
+#: templates/schedule.html:18
 msgid "What's on when (more details to be confirmed) "
 msgstr "Predbežný program"
 
-#: templates/schedule.html:25
+#: templates/schedule.html:26
 msgid "Friday"
 msgstr "Piatok"
 
-#: templates/schedule.html:26
+#: templates/schedule.html:27
 msgid "Saturday"
 msgstr "Sobota"
 
-#: templates/schedule.html:27
+#: templates/schedule.html:28
 msgid "Sunday"
 msgstr "Nedeľa"
 
-#: templates/schedule.html:32
+#: templates/schedule.html:33
 msgid "Talks [EN track]"
 msgstr "Prednášky [v EN]"
 
-#: templates/schedule.html:33 templates/schedule.html:34
+#: templates/schedule.html:34 templates/schedule.html:35
 msgid "Talks [both EN and SK]"
 msgstr "Prednášky [v EN aj SK]"
 
-#: templates/schedule.html:37 templates/schedule.html:38
-#: templates/schedule.html:39
+#: templates/schedule.html:38 templates/schedule.html:39
+#: templates/schedule.html:40
 msgid "Workshops [both EN and SK]"
 msgstr "Workshopy [v EN aj SK]"
 
-#: templates/schedule.html:42
+#: templates/schedule.html:43
 msgid "SPy Cup Presentations [SK] "
 msgstr "SPy Cup Prezentácie [SK] "
 
-#: templates/schedule.html:42 templates/schedule.html:49
-#: templates/schedule.html:51 templates/schedule.html:56
-#: templates/schedule.html:57 templates/schedule.html:62
-#: templates/schedule.html:68
+#: templates/schedule.html:43 templates/schedule.html:50
+#: templates/schedule.html:52 templates/schedule.html:57
+#: templates/schedule.html:58 templates/schedule.html:63
+#: templates/schedule.html:69
 msgid "Edu"
 msgstr "Edu"
 
-#: templates/schedule.html:44
+#: templates/schedule.html:45
 msgid "Conference Game Finals [EN] "
 msgstr "Finále konferenčnej súťaže [EN] "
 
-#: templates/schedule.html:44
+#: templates/schedule.html:45
 msgid "Conference Contest"
 msgstr "Konferenčná súťaž"
 
-#: templates/schedule.html:46
+#: templates/schedule.html:47
 msgid "Sprints [both EN and SK]"
 msgstr "Šprinty [v EN aj SK]"
 
-#: templates/schedule.html:49
+#: templates/schedule.html:50
 msgid "EduSummit Talks [SK] "
 msgstr "EduSummit Prednášky [SK] "
 
-#: templates/schedule.html:51
+#: templates/schedule.html:52
 msgid "EduSummit Workshops [SK] "
 msgstr "EduSummit Workshopy [SK] "
 
-#: templates/schedule.html:56
+#: templates/schedule.html:57
 msgid "Python Cup [SK] "
 msgstr "Python Cup [SK] "
 
-#: templates/schedule.html:57
+#: templates/schedule.html:58
 msgid "Young Coders' day [SK] "
 msgstr "Young Coders' day [SK] "
 
-#: templates/schedule.html:62
+#: templates/schedule.html:63
 msgid "EduSummit Poster Session [both EN and SK] "
 msgstr "EduSummit Poster Session [v EN aj SK] "
 
-#: templates/schedule.html:64
+#: templates/schedule.html:65
 msgid "Main Poster session [both EN and SK]"
 msgstr "PyCon Poster Session [v EN aj SK]"
 
-#: templates/schedule.html:68
+#: templates/schedule.html:69
 msgid "Hardware Projects Showcase [both EN and SK] "
 msgstr "Hardware Projects Showcase [v EN aj SK] "
 
-#: templates/schedule.html:74
+#: templates/schedule.html:75
 msgid "Conference Party "
 msgstr "Konferenčná Párty "
 
-#: templates/schedule.html:74 templates/schedule.html:76
+#: templates/schedule.html:75 templates/schedule.html:77
 msgid "Social Event"
 msgstr "Spoločenská udalosť"
 
-#: templates/schedule.html:76
+#: templates/schedule.html:77
 msgid "Conference Dinner "
 msgstr "Konferenčná Večera "
 
@@ -1816,15 +1836,15 @@ msgstr ""
 "Používate vo vašej firme Python? Podpora komunitných udalostí je výborná "
 "príležitosť ako prispieť späť."
 
-#: templates/thanks.html:7
+#: templates/thanks.html:7 templates/thanks.html:16
 msgid "Thank you"
 msgstr "Ďakujeme"
 
-#: templates/thanks.html:20
+#: templates/thanks.html:17
 msgid "We'll get in touch as soon as possible."
 msgstr "Ozveme sa čo najskôr"
 
-#: templates/tickets.html:30
+#: templates/tickets.html:29
 msgid ""
 "You can also buy tickets directly on the <a "
 "href=\"https://ti.to/pyconsk/2019\" "
@@ -1836,15 +1856,15 @@ msgstr ""
 "target=\"_blank\">https://ti.to/pyconsk/2019</a>, ak sa vám tito widget "
 "nezobrazuje správne."
 
-#: templates/tickets.html:32
+#: templates/tickets.html:91
 msgid "What am I paying for?"
 msgstr "Za čo platím?"
 
-#: templates/tickets.html:41
+#: templates/tickets.html:101
 msgid "Speakers and Lecturers"
 msgstr "Rečníci a prednášajúci"
 
-#: templates/tickets.html:42
+#: templates/tickets.html:102
 msgid ""
 "Our speakers are the best. And they do it for free! However, we have to "
 "pay for their\n"
@@ -1854,7 +1874,7 @@ msgstr ""
 "vstupenky \n"
 " a niekdy im preplatíme cestovné náklady."
 
-#: templates/tickets.html:44
+#: templates/tickets.html:104
 msgid ""
 "Expenses for flight tickets and hotel in Bratislava are a big part of our"
 " budget. We also do cover all\n"
@@ -1865,17 +1885,17 @@ msgstr ""
 "\n"
 "              a zverejnením všetkých príspevkov."
 
-#: templates/tickets.html:53
+#: templates/tickets.html:113
 msgid "Community & Inclusion"
 msgstr "Komunita a inklúzia"
 
-#: templates/tickets.html:54
+#: templates/tickets.html:114
 msgid ""
 "PyCon is a special type of conference - it is organised by the community "
 "for the community"
 msgstr "PyCon je špeciálna konferencia - je organizovaná komunitou pre komunitu"
 
-#: templates/tickets.html:56
+#: templates/tickets.html:116
 msgid ""
 "By attending, you have a chance to meet like minded people and hear a lot"
 " of interesting stories. However,\n"
@@ -1889,17 +1909,17 @@ msgstr ""
 "kúpiť lístok na konferenciu, pripravili sme program na podporu\n"
 "              a máme pripravené určité množstvo lístkov zadarmo."
 
-#: templates/tickets.html:73
+#: templates/tickets.html:133
 msgid "Conference T-shirt and other swag"
 msgstr "Tričko z konferencie a ďalšie drobnosti"
 
-#: templates/tickets.html:74
+#: templates/tickets.html:134
 msgid ""
 "What kind of conference would PyCon Slovakia be without a conference "
 "T-shirt?"
 msgstr "Čo by to bola za konferenciu bez konferenčného trička?"
 
-#: templates/tickets.html:75
+#: templates/tickets.html:135
 msgid ""
 "Each attendee receives one 100&#37; cotton T-shirt and other swag. "
 "Possibly a water bottle with our fancy\n"
@@ -1909,7 +1929,7 @@ msgstr ""
 "to bude fľaša na vodu s naším super logom. Ale sme otvorení aj ďalším "
 "návrhom..."
 
-#: templates/tickets.html:85
+#: templates/tickets.html:145
 msgid ""
 "The conference takes place at the Faculty of Informatics and Information "
 "Technologies\n"
@@ -1918,7 +1938,7 @@ msgstr ""
 "Konferencia sa koná na Fakulte informatiky a informačných technológií "
 "(Slovenskej technickej univerzity)"
 
-#: templates/tickets.html:87
+#: templates/tickets.html:147
 msgid ""
 "Venue is in new building and have well equipped and pleasant auditoriums "
 "and lobbies. The first PyCon SK\n"
@@ -1928,11 +1948,11 @@ msgstr ""
 "prednáškové miestnosti a príslušné priestory. Prvý PyCon SK bol jednou\n"
 "              z prvých konferencií v ýchto priestoroch!"
 
-#: templates/tickets.html:102
+#: templates/tickets.html:162
 msgid "Refreshments"
 msgstr "Občerstvenie"
 
-#: templates/tickets.html:103
+#: templates/tickets.html:163
 msgid ""
 "Afraid of falling asleep during a talk? Don't worry, we have your back - "
 "All you can drink\n"
@@ -1942,7 +1962,7 @@ msgstr ""
 "- \n"
 "              kávu, čaj či vodu."
 
-#: templates/tickets.html:105
+#: templates/tickets.html:165
 msgid ""
 "We will have two proffesional baristas serving fresh coffee and tea all "
 "day long. Water fountains will be\n"
@@ -1953,19 +1973,19 @@ msgstr ""
 "dispozícii\n"
 "              na viacerých miestach rovnomerne v celej lobby."
 
-#: templates/tickets.html:114
+#: templates/tickets.html:174
 msgid "Lunch"
 msgstr "Obed"
 
-#: templates/tickets.html:115
+#: templates/tickets.html:175
 msgid "During all three days, a variety of warm food will be served for lunch"
 msgstr "Počas všetkých troch dní sa budú na obed servírovať rôzne teplé jedlá"
 
-#: templates/tickets.html:116
+#: templates/tickets.html:176
 msgid "Meat and vegetarian alternatives will be available."
 msgstr "K dispozícii budú mäsité aj vegetariánske alternatívy"
 
-#: templates/tickets.html:117
+#: templates/tickets.html:177
 msgid ""
 "We also try to be as eco friendly as possible, and so we serve food on "
 "ceramic plates, eat with metal\n"
@@ -1976,11 +1996,11 @@ msgstr ""
 "              a pitnú vodu poskytujeme z recyklovateľných plastových "
 "fliaš."
 
-#: templates/tickets.html:132
+#: templates/tickets.html:192
 msgid "Real Conference Ticket Price"
 msgstr "Skutočná cena vstupenky"
 
-#: templates/tickets.html:133
+#: templates/tickets.html:193
 msgid ""
 "The real price of one conference ticket would be much higher had it not "
 "been for our\n"
@@ -1992,7 +2012,7 @@ msgstr ""
 "              sponzori a partneri, vďaka ktorým môžeme lístky predávať"
 "               oveľa lacnejšie."
 
-#: templates/tickets.html:135
+#: templates/tickets.html:195
 msgid ""
 "Without sponsors and partners all tickets would cost over 90&euro; "
 "(including student and teacher\n"
@@ -2006,11 +2026,11 @@ msgstr ""
 "dobrovoľníckej práce, ktorú robí Python komunita pred\n"
 "              a počas každého PyConu."
 
-#: templates/tickets.html:144
+#: templates/tickets.html:204
 msgid "micro:bit Education Supporter Ticket"
 msgstr "Lístok podporovateľa vzdelávania s micro:bitom"
 
-#: templates/tickets.html:148
+#: templates/tickets.html:208
 msgid ""
 "<i>Teaching with Hardware</i> is a project of the Slovak Python User "
 "Group which strives to\n"
@@ -2040,7 +2060,7 @@ msgstr ""
 "               reproduktorov, krokodíliek, robotov, servo motorov a "
 "ďalšieho vybavenia."
 
-#: templates/tickets.html:156
+#: templates/tickets.html:216
 #, python-format
 msgid ""
 "Within several weeks you will be informed which school received the kit "

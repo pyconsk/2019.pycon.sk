@@ -2040,6 +2040,11 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 	margin: 0;
 }
 
+.sponsor-details img {
+	text-align: center;
+	margin: 0 auto;
+}
+
 .sponsor-info .sponsor-name {
 	font-size: 23px;
 	margin-top: 20px;
@@ -2137,6 +2142,11 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 	font-size: 12px;
 }
 
+.image-border {
+	border-color: #999;
+	border-style: solid;
+	border-width: 1px;
+}
 
 /* Pricing featured */
 
