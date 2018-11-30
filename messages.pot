@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-30 23:58+0100\n"
+"POT-Creation-Date: 2018-12-01 00:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,6 +66,7 @@ msgid "Venue"
 msgstr ""
 
 #: templates/body.html:109 templates/coc.html:7 templates/coc.html:16
+#: templates/index.html:75
 msgid "Code of Conduct"
 msgstr ""
 
@@ -876,7 +877,7 @@ msgid "Frequently Asked Questions"
 msgstr ""
 
 #: templates/index.html:20
-msgid "<span>Be a part of </span>PyCon SK 2019."
+msgid "<span>Be a part of </span>PyCon SK 2019"
 msgstr ""
 
 #: templates/index.html:22

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-11-30 20:28+0100\n"
+"POT-Creation-Date: 2018-12-01 00:11+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -69,6 +69,7 @@ msgid "Venue"
 msgstr "Miesto konania"
 
 #: templates/body.html:109 templates/coc.html:7 templates/coc.html:16
+#: templates/index.html:75
 msgid "Code of Conduct"
 msgstr "Kódex správania"
 
@@ -1058,8 +1059,8 @@ msgid "Frequently Asked Questions"
 msgstr "Často kladené otázky"
 
 #: templates/index.html:20
-msgid "<span>Be a part of </span>PyCon SK 2019."
-msgstr "<span>Buď súčasťou </span>PyConu SK 2019."
+msgid "<span>Be a part of </span>PyCon SK 2019"
+msgstr "<span>Buď súčasťou </span>PyConu SK 2019"
 
 #: templates/index.html:22
 msgid "22-24 March"
@@ -2182,8 +2183,8 @@ msgid ""
 msgstr ""
 "Z bratislavského letiska môžeš ísť taxíkom (zavolaj si ho telefonicky, je"
 " to lacnejšie), prípadne môžeš ísť autobusom číslo 61 a na zástavke "
-"Bajkalská prestúp na autobus číslo 39. Linkou 39 sa odvezieš na zástavku"
-" ZOO, kde prichádzaš do cieľa. Ďalej už len nasleduj nálepky PyconSK "
+"Bajkalská prestúp na autobus číslo 39. Linkou 39 sa odvezieš na zástavku "
+"ZOO, kde prichádzaš do cieľa. Ďalej už len nasleduj nálepky PyconSK "
 "smerom na kopec."
 
 #: templates/venue.html:75
