@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-12-01 21:13+0100\n"
+"POT-Creation-Date: 2018-12-01 21:25+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1439,7 +1439,7 @@ msgid ""
 "Helen Li from Google, prof. Juraj Hromkovič from ETH Zürich and Honza "
 "Král from Elastic."
 msgstr ""
-"Helen Li z Google, prof. Juraj Hromkovič z ETH Zürich and Honza Král z "
+"Helen Li z Google, prof. Juraj Hromkovič z ETH Zürich a Honza Král z "
 "Elasticu."
 
 #: templates/index.html:215
@@ -1447,12 +1447,12 @@ msgid ""
 "We have also launched new design of the conference website. How do you "
 "like it? Let us know on our social networks."
 msgstr ""
+"Spustili sme nový dizajn konferenčnej web stránky. Ako sa ti páči? Daj "
+"nám vedieť na sociálnych sieťach."
 
 #: templates/index.html:226
 msgid "PyCon SK 2019 Slack channel & Social media"
-msgstr ""
-"Spustili sme nový dizajn konferenčnej web stránky. Ako sa ti páči? Daj "
-"nám vedieť na sociálnych sieťach."
+msgstr "PyCon SK 2019 Slack kanál & sociálne médiá"
 
 #: templates/index.html:230
 msgid "Join us at our social media:"
