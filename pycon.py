@@ -85,6 +85,11 @@ def coc():
     return render_template('coc.html', **_get_template_variables(li_coc='active'))
 
 
+@app.route('/<lang_code>/faq.html')
+def faq():
+    return render_template('faq.html', **_get_template_variables(li_faq='active'))
+
+
 @app.route('/<lang_code>/venue.html')
 def venue():
     return render_template('venue.html', **_get_template_variables(li_venue='active'))
