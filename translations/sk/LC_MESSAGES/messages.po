@@ -1063,7 +1063,7 @@ msgstr "Často kladené otázky"
 
 #: templates/faq.html:21
 msgid "General Information"
-msgstr ""
+msgstr "Všeobecné informácie"
 
 #: templates/faq.html:28
 msgid "Where will the conference happen?"
@@ -1079,7 +1079,7 @@ msgstr "Fakulta informatiky a informačných technológií"
 
 #: templates/faq.html:47
 msgid "What languages are spoken?"
-msgstr ""
+msgstr "Akými jazykmi sa hovorí?"
 
 #: templates/faq.html:53
 msgid ""
@@ -1088,6 +1088,8 @@ msgid ""
 "do not worry, we have two tracks so there will be allways talk in "
 "english."
 msgstr ""
+"Väčšina prednášok bude v anglickom a slovenskom jazyku. Je možné, že"
+"niekoľko predášok môže byť aj v češtine."
 
 #: templates/faq.html:56
 msgid ""
@@ -1095,12 +1097,16 @@ msgid ""
 "language in school so most of the attendees will speak english or other "
 "language (at least a little bit)."
 msgstr ""
+"Dobrovoľníci hovoria po anglicky. Na Slovensku je povinná výuka anglického "
+"jazyka, takže väčšina účastníkov by mala rozumieť aspoň trochu po anglicky."
 
 #: templates/faq.html:73
 msgid ""
 "What is the difference between self funded (individual rate) and full-"
 "price (corporate rate) ticket?"
 msgstr ""
+"Aký je rozdiel medzi cenou lístka pre jednotlivca a plnou cenou "
+"(korporátnou)?"
 
 #: templates/faq.html:79
 msgid ""
@@ -1160,7 +1166,7 @@ msgstr ""
 
 #: templates/faq.html:113
 msgid "What is included in the ticket?"
-msgstr ""
+msgstr "Čo je zahrnuté v cene lístku?"
 
 #: templates/faq.html:119
 #, python-format
@@ -1168,6 +1174,8 @@ msgid ""
 "We made a list of things what you can expect at the conference on <a "
 "href=\"%(url)s\">the tickets page</a>."
 msgstr ""
+"Urobil sme zoznam vecí, ktoré môžete očakávať na konferencii na <a "
+"href=\"%(url)s\">stránke so vstupenkami</a>."
 
 #: templates/faq.html:128
 msgid "Do you offer group discounts?"
@@ -1191,6 +1199,8 @@ msgid ""
 "Yes <a href=\"%(url)s\">submit a talk</a>, and if your talk is selected "
 "you will receive a speakers ticket for free."
 msgstr ""
+"Áno, <a href=\"%(url)s\">podaj si návrh na prednášku</a> a ak bude návrh "
+"prijatý, dostaneš rečnícky lístok zdarma."
 
 #: templates/faq.html:152
 msgid ""
@@ -1216,35 +1226,43 @@ msgstr ""
 
 #: templates/faq.html:177
 msgid "Do you have social event in the evening?"
-msgstr ""
+msgstr "Bude aj oficiálny večierok?"
 
 #: templates/faq.html:183
 msgid ""
 "On Firday there will be an unofficial party. We will meet in a pub and "
 "have fun, no need for special ticket."
 msgstr ""
+"V piatok bude neoficiálna party. Stretneme sa v pube a zabavíme sa. "
+"Nepotrebuješ žiaden lístok."
 
 #: templates/faq.html:186
 msgid ""
 "On Saturday we'll have an official conference dinner! There is a speacial"
 " ticket for this event."
 msgstr ""
+"V sobotu budeme mať oficiálnu konferenčnú večeru! Na túto udalosť je "
+"potrebné kúpiť si samostatný lístok."
 
 #: templates/faq.html:196
 msgid "Is my conference ticket valid for the FRIDAY unofficial party?"
-msgstr ""
+msgstr "Platí môj konferenčný lístok na PIATKOVÚ neoficiálnu párty?"
 
 #: templates/faq.html:202
 msgid ""
 "YES. You don't have to purchase a ticket for the FRIDAY unofficial party."
 " In the pub everybody pays for themself."
 msgstr ""
+"ÁNO. Na PIATKOVÚ neoficiálnu párty si nepotrebuješ kupovať lístok. V pube "
+"však každý platí za seba."
 
 #: templates/faq.html:212
 msgid ""
 "Is my conference ticket valid for the SATURDAY conference dinner "
 "(official social event)?"
 msgstr ""
+"Platí môj konferenčný lístok na SOBOTNÚ konferenčnú večeru (oficiálny "
+"spoločenský event)?"
 
 #: templates/faq.html:218
 msgid ""
@@ -1252,6 +1270,9 @@ msgid ""
 "(official social event). Ticket to the dinner includes dinner in a form "
 "of a buffet and a welcome drink. You pay for all other drinks."
 msgstr ""
+"NIE. NA SOBOTNÚ konferenčnú večeru (oficiálny spoločenský event) si musíš "
+"kúpiť lístok. Vstupenka na večeru zahŕňa večeru formou bufetu a welcome "
+"drink. Ďalšie drinky si platí každý sám."
 
 #: templates/index.html:20
 msgid "<span>Be a part of </span>PyCon SK 2019"
