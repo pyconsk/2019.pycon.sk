@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-12-03 22:47+0100\n"
+"POT-Creation-Date: 2018-12-04 00:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -939,17 +939,16 @@ msgid "I don't have PayPal account, is there any other way to buy a ticket?"
 msgstr ""
 
 #: templates/faq.html:98
-msgid ""
-"If you go to PayPal page there is possibility to pay with credit card "
-"(also with debit card) directly, without creating an account."
+msgid "Currently, it is not possible to pay via PayPal without a Paypal account."
 msgstr ""
 
 #: templates/faq.html:101
 msgid ""
-"We accept wire transfer, since that needs manual work additional 1 Euro "
-"fee is applied. Please send us a list of tickets you are interested in, "
-"we will send you variable symbol and after we receive the payment, we "
-"will issue and send the requested tickets to you by email."
+"Therefore we accept also a wire transfer. This method, however, requires "
+"manual processing, which may lead to little delay. Please send us a list "
+"of tickets you are interested in, we will send you variable symbol and "
+"after we receive the payment, we will issue and send the requested "
+"tickets to you by email."
 msgstr ""
 
 #: templates/faq.html:104
