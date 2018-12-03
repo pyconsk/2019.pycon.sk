@@ -1174,8 +1174,8 @@ msgid ""
 "We made a list of things what you can expect at the conference on <a "
 "href=\"%(url)s\">the tickets page</a>."
 msgstr ""
-"Urobil sme zoznam vecí, ktoré môžete očakávať na konferencii na <a "
-"href=\"%(url)s\">stránke so vstupenkami</a>."
+"Na <a href=\"%(url)s\">stránke so vstupenkami</a> sme pripravili zoznam "
+"vecí, ktoré môžeš očakávať na konferencii."
 
 #: templates/faq.html:128
 msgid "Do you offer group discounts?"
@@ -1355,7 +1355,7 @@ msgstr "Vynikajúci rečníci"
 
 #: templates/index.html:95
 msgid "Networking"
-msgstr "Stretnutia"
+msgstr "Networking"
 
 #: templates/index.html:103
 msgid "Have Fun"
