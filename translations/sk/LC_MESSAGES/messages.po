@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-12-01 00:25+0100\n"
+"POT-Creation-Date: 2018-12-01 21:25+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -56,13 +56,13 @@ msgstr "Sponzoruj"
 msgid "EduSummit"
 msgstr "EduSummit"
 
-#: templates/body.html:104 templates/body.html:266
+#: templates/body.html:104 templates/body.html:267
 msgid "About Us"
 msgstr "O nás"
 
-#: templates/body.html:107 templates/body.html:253
-msgid "SPy o.z."
-msgstr "SPy o.z."
+#: templates/body.html:107
+msgid "FAQ"
+msgstr ""
 
 #: templates/body.html:108 templates/tickets.html:144 templates/venue.html:33
 msgid "Venue"
@@ -76,66 +76,70 @@ msgstr "Kódex správania"
 msgid "Call for volunteers"
 msgstr "Pridaj sa k nám"
 
-#: templates/body.html:115 templates/faq.html:17 templates/faq.html:68
-#: templates/tickets.html:13 templates/tickets.html:22
+#: templates/body.html:111 templates/body.html:254
+msgid "SPy o.z."
+msgstr "SPy o.z."
+
+#: templates/body.html:116 templates/faq.html:66 templates/tickets.html:13
+#: templates/tickets.html:22
 msgid "Tickets"
 msgstr "Vstupenky"
 
-#: templates/body.html:150
+#: templates/body.html:151
 msgid "General Queries"
 msgstr "Všeobecné otázky"
 
-#: templates/body.html:162
+#: templates/body.html:163
 msgid "Ticket Queries"
 msgstr "Otázky o vstupenkách"
 
-#: templates/body.html:174
+#: templates/body.html:175
 msgid "Event Organiser"
 msgstr "Organizátor podujatia"
 
-#: templates/body.html:184
+#: templates/body.html:185
 msgid "Stay Updated"
 msgstr "Ostaň v kontakte"
 
-#: templates/body.html:184 templates/mailchimp.html:2
+#: templates/body.html:185 templates/mailchimp.html:2
 msgid "Subscribe to our newsletter"
 msgstr "Prihlás sa na odber newslettra"
 
-#: templates/body.html:188
+#: templates/body.html:189
 msgid "Your Email Here"
 msgstr "Napíš sem svoj email"
 
-#: templates/body.html:188 templates/mailchimp.html:9
+#: templates/body.html:189 templates/mailchimp.html:9
 msgid "email address for the newsletter"
 msgstr "emailová adresa pre odoberanie noviniek"
 
-#: templates/body.html:189 templates/mailchimp.html:47
+#: templates/body.html:190 templates/mailchimp.html:47
 msgid "Subscribe"
 msgstr "Prihlásiť sa"
 
-#: templates/body.html:193 templates/mailchimp.html:16
+#: templates/body.html:194 templates/mailchimp.html:16
 msgid "Email Marketing Permissions"
 msgstr "Povolenia pre emailový marketing"
 
-#: templates/body.html:194 templates/mailchimp.html:17
+#: templates/body.html:195 templates/mailchimp.html:17
 msgid "Please select all the ways you would like to hear from SPy o.z.:"
 msgstr "Prosím vyber si, akými spôsobmi chceš dostávať informácie od SPy o.z.:"
 
-#: templates/body.html:198 templates/mailchimp.html:22
+#: templates/body.html:199 templates/mailchimp.html:22
 msgid "Email"
 msgstr "Email"
 
-#: templates/body.html:201 templates/mailchimp.html:26
+#: templates/body.html:202 templates/mailchimp.html:26
 msgid "Direct Mail"
 msgstr "Osobný email"
 
-#: templates/body.html:204 templates/mailchimp.html:30
+#: templates/body.html:205 templates/mailchimp.html:30
 msgid ""
 "You can unsubscribe at any time by clicking the link in the footer of our"
 " emails."
 msgstr "Odhlásiť sa môžeš kedykoľvek kliknutím na link na konci našich emailov."
 
-#: templates/body.html:205
+#: templates/body.html:206
 #, python-format
 msgid ""
 "For information about our privacy practices, please visit our <a "
@@ -144,11 +148,11 @@ msgstr ""
 "O tom, ako pracujeme so súkromnými údajmi, si prečítaj našu stránku <a "
 "href=\"%(url)s\">Ochrana súkromia</a>."
 
-#: templates/body.html:210 templates/mailchimp.html:35
+#: templates/body.html:211 templates/mailchimp.html:35
 msgid "We use Mailchimp as our marketing platform."
 msgstr "Ako našu marketingovú platformu používame Mailchimp."
 
-#: templates/body.html:210
+#: templates/body.html:211
 msgid ""
 "By clicking below to subscribe, you\n"
 "                  acknowledge that your information will be transferred "
@@ -158,7 +162,7 @@ msgstr ""
 "                  súhlasíš s tým, že tvoje informácie budú odoslané "
 "Mailchimpu na spracovanie."
 
-#: templates/body.html:211
+#: templates/body.html:212
 msgid ""
 "Learn more\n"
 "                  about Mailchimp's privacy practices <a "
@@ -170,7 +174,7 @@ msgstr ""
 "href=\"https://mailchimp.com/legal/\" target=\"_blank\" "
 "class=\"external\">tu</a>."
 
-#: templates/body.html:248
+#: templates/body.html:249
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
@@ -179,21 +183,21 @@ msgstr ""
 "%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
 "aktivity."
 
-#: templates/body.html:250
+#: templates/body.html:251
 msgid "Python Software foundation"
 msgstr "Python Software foundation"
 
-#: templates/body.html:252
+#: templates/body.html:253
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr "PyCon SK je organizovaný dobrovoľníkmi z %(spy)s."
 
-#: templates/body.html:253
+#: templates/body.html:254
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr "Naše pravidlá pre <a href=\"%(url)s\">Ochranu súkromia</a>"
 
-#: templates/body.html:255
+#: templates/body.html:256
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
@@ -202,23 +206,23 @@ msgstr ""
 "Našiel/našla si chybu? Chýba ti nejaká informácia? Toto je komunitou "
 "manažovaná webstránka, prispej na našom %(github)se."
 
-#: templates/body.html:268
+#: templates/body.html:269
 msgid "Become a Sponsor"
 msgstr "Staň sa sponzorom"
 
-#: templates/body.html:269 templates/index.html:116
+#: templates/body.html:270 templates/index.html:116
 msgid "Submit your talk"
 msgstr "Prihlás svoju prednášku"
 
-#: templates/body.html:271
+#: templates/body.html:272
 msgid "Help out as a volunteer"
 msgstr "Pomôž ako dobrovoľník"
 
-#: templates/body.html:272
+#: templates/body.html:273
 msgid "Buy your ticket"
 msgstr "Kúp si lístok"
 
-#: templates/body.html:290
+#: templates/body.html:291
 msgid "Back to Top"
 msgstr "Návrat na vrch stránky"
 
@@ -1053,9 +1057,201 @@ msgstr ""
 " zo zisku financovať vzdelávacie aktivity počas celého roka. Viac "
 "informácií o sponzoringu nájdete "
 
-#: templates/faq.html:7 templates/faq.html:15
+#: templates/faq.html:7 templates/faq.html:16
 msgid "Frequently Asked Questions"
 msgstr "Často kladené otázky"
+
+#: templates/faq.html:21
+msgid "General Information"
+msgstr ""
+
+#: templates/faq.html:28
+msgid "Where will the conference happen?"
+msgstr "Kde sa uskutoční konferencia?"
+
+#: templates/faq.html:34 templates/venue.html:49
+msgid "Slovak University of Technology in Bratislava"
+msgstr "Slovenská technická univerzita v Bratislave"
+
+#: templates/faq.html:35 templates/venue.html:50
+msgid "Faculty of Informatics and Information Technologies"
+msgstr "Fakulta informatiky a informačných technológií"
+
+#: templates/faq.html:47
+msgid "What languages are spoken?"
+msgstr ""
+
+#: templates/faq.html:53
+msgid ""
+"Talks will be mostly in english and slovak language. Possibly we will "
+"have a few talks in czech language. If you do not speak slovak or czech "
+"do not worry, we have two tracks so there will be allways talk in "
+"english."
+msgstr ""
+
+#: templates/faq.html:56
+msgid ""
+"Volunteers do speak english. In slovakia there is mandatory second "
+"language in school so most of the attendees will speak english or other "
+"language (at least a little bit)."
+msgstr ""
+
+#: templates/faq.html:73
+msgid ""
+"What is the difference between self funded (individual rate) and full-"
+"price (corporate rate) ticket?"
+msgstr ""
+
+#: templates/faq.html:79
+msgid ""
+"Both tickets are valid for full three conference days. Including "
+"everything mentioned on tickets page. Difference is if you pay for the "
+"ticket yourself or your employer (company). For those who pay for them "
+"selves we are trying to be more inclusive so anybody can afford the "
+"ticket. This way we are able to support teachers and students for whom "
+"the price might be too high."
+msgstr ""
+"Z hľadiska obsahu sú oba lístky rovnaké (vstupenka na 3 dni konferencie "
+"so všetkým). Rozdiel je v tom, či si lístok kupuje jednotlivec, alebo či "
+"lístok kupuje firma. Je to pre to, aby sme mohli poskytovať jednotlivcom,"
+" ktorí si vstupenku platia z vlastného vrecka, za prijateľnejšiu cenu, a "
+"taktiež vďaka tomu vieme podporovať učiteľov či študentov informatiky, "
+"pre ktorých by štandardná cena určená pre programátorov bola privysoká."
+
+#: templates/faq.html:82
+msgid "Companies can add the tickets to their costs."
+msgstr "Firmy si taktiež sumu zaplatenú za vstupenku vedia zaradiť do nákladov."
+
+#: templates/faq.html:92
+msgid "I don't have PayPal account, is there any other way to buy a ticket?"
+msgstr "Nemám PayPal účet, je možné kúpiť vstupenku inak ako cez Tito?"
+
+#: templates/faq.html:98
+msgid ""
+"If you go to PayPal page there is possibility to pay with credit card "
+"(also with debit card) directly, without creating an account."
+msgstr ""
+"Na stránke PayPalu je možné uhradiť lístok priamo kreditnou kartou (tiež "
+"debetnou kartou), bez nutnosti vytvoriť si účet."
+
+#: templates/faq.html:101
+msgid ""
+"We accept wire transfer, since that needs manual work additional 1 Euro "
+"fee is applied. Please send us a list of tickets you are interested in, "
+"we will send you variable symbol and after we receive the payment, we "
+"will issue and send the requested tickets to you by email."
+msgstr ""
+"Akceptujeme aj bankový prevod, avšak to si vyžaduje manuálne spracovanie,"
+" preto účtujeme 1 Euro poplatok za spracovanie. Napíšte nám, o aké lístky"
+" máte záujem, zašleme Vám variabilný symbol a po pripísaní sumy na náš "
+"účet Vám vystavíme a pošleme emailom vstupenku."
+
+#: templates/faq.html:104
+msgid ""
+"We also accept Bitcoin, Litecoin and (possibly) other crypto currencies. "
+"Please send us a list of tickets you are interested in, and currency you "
+"want to use and we'll send you a wallet address and once the payment is "
+"confirmed, we will issue and send the requested tickets to you by email."
+msgstr ""
+"Akceptujeme aj Bitcoin, Litecoin prípadne iné krypto meny. Napíšte nám, o"
+" aké lístky máte záujem a menu ktorou chcete platiť. Zašleme Vám adresu "
+"penaženky a po potvrdení sumy v nášej peňaženke Vám vystavíme a pošleme "
+"emailom vstupenku."
+
+#: templates/faq.html:113
+msgid "What is included in the ticket?"
+msgstr ""
+
+#: templates/faq.html:119
+#, python-format
+msgid ""
+"We made a list of things what you can expect at the conference on <a "
+"href=\"%(url)s\">the tickets page</a>."
+msgstr ""
+
+#: templates/faq.html:128
+msgid "Do you offer group discounts?"
+msgstr "Ponúkate množstevné zľavy?"
+
+#: templates/faq.html:134
+msgid ""
+"If you would like to buy more than 15 tickets please contact us by email "
+"at info@pycon.sk."
+msgstr ""
+"Ak máte záujem kúpiť viac ako 15 lístkov kontaktujete nás emailom na "
+"info@pycon.sk."
+
+#: templates/faq.html:143
+msgid "Is there any another possibility to get to PyCon?"
+msgstr "Je aj iná možnosť ako sa dostať na PyCon?"
+
+#: templates/faq.html:149
+#, python-format
+msgid ""
+"Yes <a href=\"%(url)s\">submit a talk</a>, and if your talk is selected "
+"you will receive a speakers ticket for free."
+msgstr ""
+
+#: templates/faq.html:152
+msgid ""
+"If you are less than 15 years old and come accompanied by a parent, you "
+"can just purchase one ticket only for the parent, but you have to inform "
+"us in advance to issue an another ticket for the child."
+msgstr ""
+"Ak máte menej ako 15 rokov a prídete v sprievode rodiča, stačí ak si "
+"lístok zakúpi iba rodič, no musíte sa nám ozvať aby sme vystavili "
+"vstupenku aj pre dieťa."
+
+#: templates/faq.html:161
+msgid "Will there be last moment tickets?"
+msgstr "Budete predávať aj lístky na poslednú chvíľu?"
+
+#: templates/faq.html:167
+msgid ""
+"Last 50 tickets will be more expensive, so don't leave your ticket "
+"purchase to last moment!"
+msgstr ""
+"Posledných 50 lístkov bude mať vyššiu cenu, tak si nenechávajte kúpu "
+"lístku na poslednú chvíľu!"
+
+#: templates/faq.html:177
+msgid "Do you have social event in the evening?"
+msgstr ""
+
+#: templates/faq.html:183
+msgid ""
+"On Firday there will be an unofficial party. We will meet in a pub and "
+"have fun, no need for special ticket."
+msgstr ""
+
+#: templates/faq.html:186
+msgid ""
+"On Saturday we'll have an official conference dinner! There is a speacial"
+" ticket for this event."
+msgstr ""
+
+#: templates/faq.html:196
+msgid "Is my conference ticket valid for the FRIDAY unofficial party?"
+msgstr ""
+
+#: templates/faq.html:202
+msgid ""
+"YES. You don't have to purchase a ticket for the FRIDAY unofficial party."
+" In the pub everybody pays for themself."
+msgstr ""
+
+#: templates/faq.html:212
+msgid ""
+"Is my conference ticket valid for the SATURDAY conference dinner "
+"(official social event)?"
+msgstr ""
+
+#: templates/faq.html:218
+msgid ""
+"NO. You have to purchase a ticket for the SATURDAY conference dinner "
+"(official social event). Ticket to the dinner includes dinner in a form "
+"of a buffet and a welcome drink. You pay for all other drinks."
+msgstr ""
 
 #: templates/index.html:20
 msgid "<span>Be a part of </span>PyCon SK 2019"
@@ -1243,16 +1439,16 @@ msgid ""
 "Helen Li from Google, prof. Juraj Hromkovič from ETH Zürich and Honza "
 "Král from Elastic."
 msgstr ""
-"Helen Li z Google, prof. Juraj Hromkovič z ETH Zürich and Honza Král "
-"z Elasticu."
+"Helen Li z Google, prof. Juraj Hromkovič z ETH Zürich a Honza Král z "
+"Elasticu."
 
 #: templates/index.html:215
 msgid ""
 "We have also launched new design of the conference website. How do you "
 "like it? Let us know on our social networks."
 msgstr ""
-"Spustili sme nový dizajn konferenčnej web stránky. Ako sa ti páči? Daj nám "
-"vedieť na sociálnych sieťach."
+"Spustili sme nový dizajn konferenčnej web stránky. Ako sa ti páči? Daj "
+"nám vedieť na sociálnych sieťach."
 
 #: templates/index.html:226
 msgid "PyCon SK 2019 Slack channel & Social media"
@@ -2165,14 +2361,6 @@ msgstr "Ako sa dostanete na slovenský PyCon?"
 msgid "Venue Address"
 msgstr "Adresa konferencie"
 
-#: templates/venue.html:49
-msgid "Slovak University of Technology in Bratislava"
-msgstr "Slovenská technická univerzita v Bratislave"
-
-#: templates/venue.html:50
-msgid "Faculty of Informatics and Information Technologies"
-msgstr "Fakulta informatiky a informačných technológií"
-
 #: templates/venue.html:55
 msgid "Travelling to Bratislava"
 msgstr "Cestovanie do Bratislavy"
@@ -2416,4 +2604,14 @@ msgstr ""
 "title=\"stránky mesta pre návštevníkov\" target=\"_blank\" "
 "class=\"external\">oficiálne stránky mesta, určené pre návštevníkov</a>, "
 "kde nájdete aj iné udalosti, ktoré sa práve odohrávajú v Bratislave."
+
+#~ msgid "PyCon SK 2019 website redesign."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We have launched new design of the"
+#~ " conference website. How do you like"
+#~ " it? Let us know on our social"
+#~ " networks."
+#~ msgstr ""
 

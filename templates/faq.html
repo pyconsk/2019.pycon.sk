@@ -10,112 +10,222 @@
   </div><!-- Page Banner end -->
 
   <section id="main-container" class="main-container">
+    <div class="container">
+      <div class="row text-center">
+        <span class="icon-wrap"><i class="fa fa-question-circle"></i></span>
+        <h2 class="section-title">{{ _('Frequently Asked Questions') }}</h2>
+      </div><!--/ Title row end -->
 
-    <div id="accordion" class="accordion">
-      <h1 class="featurette-heading">{{ _('Frequently Asked Questions') }}</h1>
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="title-classic">{{ _('General Information') }}</h3>
 
-      <h2>{{ _('Tickets') }}</h2>
+          <div class="panel-group panel-classic" id="accordionA">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordionA, #accordionB" href="#collapseOne" aria-expanded="false" class="collapsed">
+                    {{ _('Where will the conference happen?') }}</a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">
+                  <p>
+                    {{ _('Slovak University of Technology in Bratislava') }}<br/>
+                    {{ _('Faculty of Informatics and Information Technologies') }}<br/>
+                    Ilkovičova 2<br/>
+                    842 16 Bratislava 4
+                  </p>
+                </div>
+              </div>
+            </div><!--/ Panel 1 end-->
 
-      <div class="card mb-0">
-        <div class="card-header collapsed" data-toggle="collapse" href="#collapseTicketsOne">
-          <a class="card-title">
-            Item 1
-          </a>
-        </div>
-        <div id="collapseTicketsOne" class="card-body collapse" data-parent="#accordion">
-          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-            wolf moon tempor, sunt
-            aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-            helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-            vice lomo. Leggings occaecat
-            craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-            labore sustainable VHS.
-          </p>
-        </div>
-        <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTicketsTwo">
-          <a class="card-title">
-            Item 2
-          </a>
-        </div>
-        <div id="collapseTicketsTwo" class="card-body collapse" data-parent="#accordion">
-          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-            wolf moon tempor, sunt
-            aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-            helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-            vice lomo. Leggings occaecat
-            craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-            labore sustainable VHS.
-          </p>
-        </div>
-        <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTicketsThree">
-          <a class="card-title">
-            Item 3
-          </a>
-        </div>
-        <div id="collapseTicketsThree" class="collapse" data-parent="#accordion">
-          <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-            ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-            laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-            aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. samus labore sustainable
-            VHS.
-          </div>
-        </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" class="collapsed" data-parent="#accordionA, #accordionB" href="#collapseTwo" aria-expanded="false">
+                    {{ _('What languages are spoken?') }}</a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" aria-expanded="false">
+                <div class="panel-body">
+                  <p class="text-justify">
+                    {{ _('Talks will be mostly in english and slovak language. Possibly we will have a few talks in czech language. If you do not speak slovak or czech do not worry, we have two tracks so there will be allways talk in english.') }}
+                  </p>
+                  <p class="text-justify">
+                    {{ _('Volunteers do speak english. In slovakia there is mandatory second language in school so most of the attendees will speak english or other language (at least a little bit).') }}
+                  </p>
+                </div>
+              </div>
+            </div><!--/ Panel 3 end-->
+
+          </div><!-- Accordion end -->
+
+          <div class="gap-40"></div>
+
+          <h3 class="title-classic">{{ _('Tickets') }}</h3>
+
+          <div class="panel-group panel-classic" id="accordionB">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordionA, #accordionB" href="#collapseA" aria-expanded="false" class="collapsed">
+                    {{ _('What is the difference between self funded (individual rate) and full-price (corporate rate) ticket?') }}</a>
+                </h4>
+              </div>
+              <div id="collapseA" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">
+                  <p class="text-justify">
+                    {{ _('Both tickets are valid for full three conference days. Including everything mentioned on tickets page. Difference is if you pay for the ticket yourself or your employer (company). For those who pay for them selves we are trying to be more inclusive so anybody can afford the ticket. This way we are able to support teachers and students for whom the price might be too high.') }}
+                  </p>
+                  <p class="text-justify">
+                    {{ _('Companies can add the tickets to their costs.') }}
+                  </p>
+                </div>
+              </div>
+            </div><!--/ Panel 1 end-->
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" class="collapsed" data-parent="#accordionA, #accordionB" href="#collapseB" aria-expanded="false">
+                    {{ _('I don\'t have PayPal account, is there any other way to buy a ticket?') }}</a>
+                </h4>
+              </div>
+              <div id="collapseB" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">
+                  <p class="text-justify">
+                    {{ _('If you go to PayPal page there is possibility to pay with credit card (also with debit card) directly, without creating an account.') }}
+                  </p>
+                  <p class="text-justify">
+                    {{ _('We accept wire transfer, since that needs manual work additional 1 Euro fee is applied. Please send us a list of tickets you are interested in, we will send you variable symbol and after we receive the payment, we will issue and send the requested tickets to you by email.') }}
+                  </p>
+                  <p class="text-justify">
+                    {{ _('We also accept Bitcoin, Litecoin and (possibly) other crypto currencies. Please send us a list of tickets you are interested in, and currency you want to use and we\'ll send you a wallet address and once the payment is confirmed, we will issue and send the requested tickets to you by email.') }}
+                  </p>
+                </div>
+              </div>
+            </div><!--/ Panel 2 end-->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" class="collapsed" data-parent="#accordionA, #accordionB" href="#collapseC" aria-expanded="false">
+                    {{ _('What is included in the ticket?') }}</a>
+                </h4>
+              </div>
+              <div id="collapseC" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">
+                  <p class="text-justify">
+                    {{ _('We made a list of things what you can expect at the conference on <a href="%(url)s">the tickets page</a>.', url=url_for('tickets', lang_code=lang_code)) }}
+                  </p>
+                </div>
+              </div>
+            </div><!--/ Panel 2 end-->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" class="collapsed" data-parent="#accordionA, #accordionB" href="#collapseD" aria-expanded="false">
+                    {{ _('Do you offer group discounts?') }}</a>
+                </h4>
+              </div>
+              <div id="collapseD" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">
+                  <p class="text-justify">
+                    {{ _('If you would like to buy more than 15 tickets please contact us by email at info@pycon.sk.') }}
+                  </p>
+                </div>
+              </div>
+            </div><!--/ Panel 2 end-->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" class="collapsed" data-parent="#accordionA, #accordionB" href="#collapseE" aria-expanded="false">
+                    {{ _('Is there any another possibility to get to PyCon?') }}</a>
+                </h4>
+              </div>
+              <div id="collapseE" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">
+                  <p class="text-justify">
+                    {{ _('Yes <a href="%(url)s">submit a talk</a>, and if your talk is selected you will receive a speakers ticket for free.', url=url_for('cfp', lang_code=lang_code)) }}
+                  </p>
+                  <p class="text-justify">
+                    {{ _('If you are less than 15 years old and come accompanied by a parent, you can just purchase one ticket only for the parent, but you have to inform us in advance to issue an another ticket for the child.') }}
+                  </p>
+                </div>
+              </div>
+            </div><!--/ Panel 2 end-->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" class="collapsed" data-parent="#accordionA, #accordionB" href="#collapseF" aria-expanded="false">
+                    {{ _('Will there be last moment tickets?') }}</a>
+                </h4>
+              </div>
+              <div id="collapseF" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">
+                  <p class="text-justify">
+                    {{ _('Last 50 tickets will be more expensive, so don\'t leave your ticket purchase to last moment!') }}
+                  </p>
+                </div>
+              </div>
+            </div><!--/ Panel 2 end-->
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" class="collapsed" data-parent="#accordionA, #accordionB" href="#collapseG" aria-expanded="false">
+                    {{ _('Do you have social event in the evening?') }}</a>
+                </h4>
+              </div>
+              <div id="collapseG" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">
+                  <p class="text-justify">
+                    {{ _('On Firday there will be an unofficial party. We will meet in a pub and have fun, no need for special ticket.') }}
+                  </p>
+                  <p class="text-justify">
+                    {{ _('On Saturday we\'ll have an official conference dinner! There is a speacial ticket for this event.') }}
+                  </p>
+                </div>
+              </div>
+            </div><!--/ Panel 2 end-->
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" class="collapsed" data-parent="#accordionA, #accordionB" href="#collapseH" aria-expanded="false">
+                    {{ _('Is my conference ticket valid for the FRIDAY unofficial party?') }}</a>
+                </h4>
+              </div>
+              <div id="collapseH" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">
+                  <p class="text-justify">
+                    {{ _('YES. You don\'t have to purchase a ticket for the FRIDAY unofficial party. In the pub everybody pays for themself.') }}
+                  </p>
+                </div>
+              </div>
+            </div><!--/ Panel 3 end-->
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" class="collapsed" data-parent="#accordionA, #accordionB" href="#collapseI" aria-expanded="false">
+                    {{ _('Is my conference ticket valid for the SATURDAY conference dinner (official social event)?') }}</a>
+                </h4>
+              </div>
+              <div id="collapseI" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">
+                  <p class="text-justify">
+                    {{ _('NO. You have to purchase a ticket for the SATURDAY conference dinner (official social event). Ticket to the dinner includes dinner in a form of a buffet and a welcome drink. You pay for all other drinks.') }}
+                  </p>
+                </div>
+              </div>
+            </div><!--/ Panel 3 end-->
+
+          </div><!-- Accordion end -->
+
+        </div><!-- Col end -->
+
       </div>
-
-
-      <h2>{{ _('Tickets') }}</h2>
-
-      <div class="card mb-0">
-        <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
-          <a class="card-title">
-            Item 1
-          </a>
-        </div>
-        <div id="collapseOne" class="card-body collapse" data-parent="#accordion">
-          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-            wolf moon tempor, sunt
-            aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-            helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-            vice lomo. Leggings occaecat
-            craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-            labore sustainable VHS.
-          </p>
-        </div>
-        <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-          <a class="card-title">
-            Item 2
-          </a>
-        </div>
-        <div id="collapseTwo" class="card-body collapse" data-parent="#accordion">
-          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-            wolf moon tempor, sunt
-            aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-            helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-            vice lomo. Leggings occaecat
-            craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-            labore sustainable VHS.
-          </p>
-        </div>
-        <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-          <a class="card-title">
-            Item 3
-          </a>
-        </div>
-        <div id="collapseThree" class="collapse" data-parent="#accordion">
-          <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-            ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-            laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-            aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. samus labore sustainable
-            VHS.
-          </div>
-        </div>
-      </div>
-
-    </div>
     </div>
   </section>
 
