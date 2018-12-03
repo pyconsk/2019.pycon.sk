@@ -1186,12 +1186,12 @@ msgid ""
 "If you would like to buy more than 15 tickets please contact us by email "
 "at info@pycon.sk."
 msgstr ""
-"Ak máte záujem kúpiť viac ako 15 lístkov kontaktujete nás emailom na "
+"Ak máte záujem kúpiť viac ako 15 lístkov, kontaktujte nás emailom na "
 "info@pycon.sk."
 
 #: templates/faq.html:143
 msgid "Is there any another possibility to get to PyCon?"
-msgstr "Je aj iná možnosť ako sa dostať na PyCon?"
+msgstr "Je aj iná možnosť, ako sa dostať na PyCon?"
 
 #: templates/faq.html:149
 #, python-format
