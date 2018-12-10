@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-12-04 00:16+0100\n"
+"POT-Creation-Date: 2018-12-10 17:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgstr ""
 msgid "EduSummit"
 msgstr ""
 
-#: templates/body.html:104 templates/body.html:267
+#: templates/body.html:104 templates/body.html:227
 msgid "About Us"
 msgstr ""
 
@@ -73,7 +73,7 @@ msgstr ""
 msgid "Call for volunteers"
 msgstr ""
 
-#: templates/body.html:111 templates/body.html:254
+#: templates/body.html:111 templates/body.html:214
 msgid "SPy o.z."
 msgstr ""
 
@@ -94,119 +94,51 @@ msgstr ""
 msgid "Event Organiser"
 msgstr ""
 
-#: templates/body.html:185
-msgid "Stay Updated"
-msgstr ""
-
-#: templates/body.html:185 templates/mailchimp.html:2
-msgid "Subscribe to our newsletter"
-msgstr ""
-
-#: templates/body.html:189
-msgid "Your Email Here"
-msgstr ""
-
-#: templates/body.html:189 templates/mailchimp.html:9
-msgid "email address for the newsletter"
-msgstr ""
-
-#: templates/body.html:190 templates/mailchimp.html:47
-msgid "Subscribe"
-msgstr ""
-
-#: templates/body.html:194 templates/mailchimp.html:16
-msgid "Email Marketing Permissions"
-msgstr ""
-
-#: templates/body.html:195 templates/mailchimp.html:17
-msgid "Please select all the ways you would like to hear from SPy o.z.:"
-msgstr ""
-
-#: templates/body.html:199 templates/mailchimp.html:22
-msgid "Email"
-msgstr ""
-
-#: templates/body.html:202 templates/mailchimp.html:26
-msgid "Direct Mail"
-msgstr ""
-
-#: templates/body.html:205 templates/mailchimp.html:30
-msgid ""
-"You can unsubscribe at any time by clicking the link in the footer of our"
-" emails."
-msgstr ""
-
-#: templates/body.html:206
-#, python-format
-msgid ""
-"For information about our privacy practices, please visit our <a "
-"href=\"%(url)s\">Privacy Policy</a>."
-msgstr ""
-
-#: templates/body.html:211 templates/mailchimp.html:35
-msgid "We use Mailchimp as our marketing platform."
-msgstr ""
-
-#: templates/body.html:211
-msgid ""
-"By clicking below to subscribe, you\n"
-"                  acknowledge that your information will be transferred "
-"to Mailchimp for processing."
-msgstr ""
-
-#: templates/body.html:212
-msgid ""
-"Learn more\n"
-"                  about Mailchimp's privacy practices <a "
-"href=\"https://mailchimp.com/legal/\" target=\"_blank\" "
-"class=\"external\">here</a>."
-msgstr ""
-
-#: templates/body.html:249
+#: templates/body.html:209
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
 " the %(psf)s."
 msgstr ""
 
-#: templates/body.html:251
+#: templates/body.html:211
 msgid "Python Software foundation"
 msgstr ""
 
-#: templates/body.html:253
+#: templates/body.html:213
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr ""
 
-#: templates/body.html:254
+#: templates/body.html:214
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:256
+#: templates/body.html:216
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
 " contribute at our %(github)s."
 msgstr ""
 
-#: templates/body.html:269
+#: templates/body.html:229
 msgid "Become a Sponsor"
 msgstr ""
 
-#: templates/body.html:270 templates/index.html:116
+#: templates/body.html:230 templates/index.html:116
 msgid "Submit your talk"
 msgstr ""
 
-#: templates/body.html:272
+#: templates/body.html:232
 msgid "Help out as a volunteer"
 msgstr ""
 
-#: templates/body.html:273
+#: templates/body.html:233
 msgid "Buy your ticket"
 msgstr ""
 
-#: templates/body.html:291
+#: templates/body.html:251
 msgid "Back to Top"
 msgstr ""
 
@@ -1249,35 +1181,67 @@ msgstr ""
 msgid "Python engineer at Elastic"
 msgstr ""
 
-#: templates/mailchimp.html:8
-msgid "Email Address"
+#: templates/mailchimp.html:2
+msgid "Stay Updated"
+msgstr ""
+
+#: templates/mailchimp.html:2
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: templates/mailchimp.html:9
+msgid "Your Email Here"
+msgstr ""
+
+#: templates/mailchimp.html:10
+msgid "email address for the newsletter"
 msgstr ""
 
 #: templates/mailchimp.html:11
-msgid "SPy o.z. will never share your email with anyone else."
+msgid "Subscribe"
 msgstr ""
 
-#: templates/mailchimp.html:31
-msgid "For information about our privacy practices, please visit our website."
+#: templates/mailchimp.html:17
+msgid "Email Marketing Permissions"
 msgstr ""
 
-#: templates/mailchimp.html:35
+#: templates/mailchimp.html:18
+msgid "Please select all the ways you would like to hear from SPy o.z.:"
+msgstr ""
+
+#: templates/mailchimp.html:20
+msgid "Email"
+msgstr ""
+
+#: templates/mailchimp.html:23
+msgid "Direct Mail"
+msgstr ""
+
+#: templates/mailchimp.html:27
 msgid ""
-"By clicking below to subscribe, you\n"
-"            acknowledge that your information will be transferred to "
-"Mailchimp for processing."
+"You can unsubscribe at any time by clicking the link in the footer of our"
+" emails."
 msgstr ""
 
-#: templates/mailchimp.html:36
-msgid ""
-"Learn more\n"
-"            about Mailchimp's privacy practices <a "
-"href=\"https://mailchimp.com/legal/\" target=\"_blank\" "
-"class=\"external\">here</a>."
-msgstr ""
-
-#: templates/mailchimp.html:51 templates/mailchimp.html:52
+#: templates/mailchimp.html:29
 msgid "View previous campaigns."
+msgstr ""
+
+#: templates/mailchimp.html:33
+msgid "We use Mailchimp as our marketing platform."
+msgstr ""
+
+#: templates/mailchimp.html:33
+msgid ""
+"By clicking to subscribe, you acknowledge that your information will be "
+"transferred to Mailchimp for processing."
+msgstr ""
+
+#: templates/mailchimp.html:34
+#, python-format
+msgid ""
+"For information about privacy practices, please visit our <a "
+"href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
 #: templates/privacy-policy.html:7 templates/privacy-policy.html:17
