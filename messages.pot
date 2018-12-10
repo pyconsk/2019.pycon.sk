@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-12-10 17:19+0100\n"
+"POT-Creation-Date: 2018-12-10 23:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1202,42 +1202,56 @@ msgid "Subscribe"
 msgstr ""
 
 #: templates/mailchimp.html:17
-msgid "Email Marketing Permissions"
-msgstr ""
-
-#: templates/mailchimp.html:18
-msgid "Please select all the ways you would like to hear from SPy o.z.:"
+msgid "Which newsletters do you wish to subscribe to?"
 msgstr ""
 
 #: templates/mailchimp.html:20
+msgid "PyCon SK Newsletter (conference updates in EN lang.)"
+msgstr ""
+
+#: templates/mailchimp.html:24
+msgid ""
+"SPy o.z. Newsletter (monthly updates on Python meetups, PyCon SK and "
+"Učíme s Hardvérom - in SK lang.)"
+msgstr ""
+
+#: templates/mailchimp.html:29
+msgid "Email Marketing Permissions"
+msgstr ""
+
+#: templates/mailchimp.html:30
+msgid "Please select all the ways you would like to hear from SPy o.z.:"
+msgstr ""
+
+#: templates/mailchimp.html:32
 msgid "Email"
 msgstr ""
 
-#: templates/mailchimp.html:23
+#: templates/mailchimp.html:35
 msgid "Direct Mail"
 msgstr ""
 
-#: templates/mailchimp.html:27
+#: templates/mailchimp.html:39
 msgid ""
 "You can unsubscribe at any time by clicking the link in the footer of our"
 " emails."
 msgstr ""
 
-#: templates/mailchimp.html:29
+#: templates/mailchimp.html:41
 msgid "View previous campaigns."
 msgstr ""
 
-#: templates/mailchimp.html:33
+#: templates/mailchimp.html:45
 msgid "We use Mailchimp as our marketing platform."
 msgstr ""
 
-#: templates/mailchimp.html:33
+#: templates/mailchimp.html:45
 msgid ""
 "By clicking to subscribe, you acknowledge that your information will be "
 "transferred to Mailchimp for processing."
 msgstr ""
 
-#: templates/mailchimp.html:34
+#: templates/mailchimp.html:46
 #, python-format
 msgid ""
 "For information about privacy practices, please visit our <a "
