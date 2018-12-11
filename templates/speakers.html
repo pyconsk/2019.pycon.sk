@@ -1,0 +1,121 @@
+{% extends "body.html" %}
+{% block content %}
+    <div class="page-banner-area banner2">
+        <!-- Subpage title start -->
+        <div class="page-banner-title">
+            <div class="text-center">
+                <h1>{{ _('Speakers') }}</h1>
+            </div>
+        </div><!-- Subpage title end -->
+    </div><!-- Page Banner end -->
+
+    <section id="main-container" class="main-container">
+        <div class="container">
+            <div class="row text-center">
+                <span class="icon-wrap"><i class="fa fa-thumbs-up"></i></span>
+                <h2 class="section-title">{{ _('Speakers') }}</h2>
+                <p class="section-sub-title">{{ _('Speakers you can meet at PyCon SK 2019.') }}</p>
+            </div><!--/ Title row end -->
+
+            <div class="row">
+                <div class="ts-speaker-list clearfix">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="{{ url_for('static', filename='images/speakers/kral.jpg') }}" alt="Honza Král"/>
+                        </div><!--Image end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-xs-12 col-md-8">
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name">Honza Král</h3>
+                            <p class="ts-speaker-designation">{{ _('Python engineer at Elastic') }}</p>
+{#                            <ul class="ts-speaker-social-links">#}
+{#                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
+{#                            </ul>#}
+                            <div class="ts-speaker-bio">
+                                <p>
+                                    {{ _('Honza is a Python engineer at Elastic, the company behind Elasticsearch and other open source products, where he maintains the python libraries. Before that he was part of Whiskey Media, using Django to build content website for large audiences. He always had large affinity of working with data and trying to help teams scale their code and data.') }}
+                                </p>
+                            </div>
+{#                            <div class="ts-speaker-session">#}
+{#                                <h4 class="session-title">{{ _('TBD') }}</h4>#}
+{#                                <p>{{ _('TBD') }}</p>#}
+{#                            </div>#}
+                        </div><!-- Info end -->
+                    </div><!-- Col end -->
+                </div><!-- Speaker list 1 end -->
+            </div><!-- Speaker row 1 -->
+
+            <div class="row">
+                <div class="ts-speaker-list clearfix">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="{{ url_for('static', filename='images/speakers/li.jpg') }}" alt="Helen Li" />
+                        </div><!--Image end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-xs-12 col-md-8">
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name">Helen Li</h3>
+                            <p class="ts-speaker-designation">{{ _('senior software engineer with Google AI Genomics') }}</p>
+                            <ul class="ts-speaker-social-links">
+{#                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>#}
+                                <li><a href="https://github.com/google/nucleus" target="_blank"><i class="fa fa-github"></i></a></li>
+                            </ul>
+                            <div class="ts-speaker-bio">
+                                <p>
+                                    {{ _('Helen Li is a senior software engineer with Google AI Genomics. She graduated from Massachusetts Institute of Technology with a bachelor\'s degree in computer science. Before working on Nucleus, she was an active contributor to the Chromium project, where she developed open-source libraries and tools for over four years.') }}
+                                </p>
+                            </div>
+                            <div class="ts-speaker-session">
+                                <h4 class="session-title">{{ _('Nucleus: an open-source library for genomics data and machine learning') }}</h4>
+                                <p>
+                                    {{ _('Nucleus is a Python library designed to make it easy to read, write, and analyze genomics data in common bioinformatics file formats such as SAM and VCF. In addition, Nucleus enables seamless integration with the TensorFlow machine learning (ML) framework. Nucleus is heavily used in DeepVariant, a state-of-the-art convolutional neural network variant caller, and in other ML projects at Google AI Genomics. This talk will give an overview of Nucleus, its features, and its APIs.') }}
+                                </p>
+                            </div>
+                        </div><!-- Info end -->
+                    </div><!-- Col end -->
+                </div><!-- Speaker list 2 end -->
+            </div><!-- Speaker row 2 -->
+
+            <div class="row">
+                <div class="ts-speaker-list clearfix">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="{{ url_for('static', filename='images/speakers/hromkovic.jpg') }}" alt="{{ _('Profesor Juraj Hromkovič, DrSc.') }}" />
+                        </div><!--Image end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-xs-12 col-md-8">
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name">Juraj Hromkovič</h3>
+                            <p class="ts-speaker-designation">{{ _('professor at ETH Zürich') }}</p>
+{#                            <ul class="ts-speaker-social-links">#}
+{#                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
+{#                            </ul>#}
+                            <div class="ts-speaker-bio">
+                                <p>{{ _('Juraj Hromkovič, a professor at ETH Zürich, whose main focus of work is education for teachers of Computer Science.') }}</p>
+                            </div>
+                            <div class="ts-speaker-session">
+{#                            <div class="ts-speaker-session">#}
+{#                                <h4 class="session-title">{{ _('TBD') }}</h4>#}
+{#                                <p>{{ _('TBD') }}</p>#}
+{#                            </div>#}
+                            </div>
+                        </div><!-- Info end -->
+                    </div><!-- Col end -->
+                </div><!-- Speaker list 3 end -->
+            </div><!-- Speaker row 3 -->
+
+
+        </div>
+    </section>
+{% endblock %}

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-12-10 23:50+0100\n"
+"POT-Creation-Date: 2018-12-11 21:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,114 +31,116 @@ msgid ""
 "language, which will be held in Bratislava on March, 2019."
 msgstr ""
 
-#: templates/body.html:77 templates/index.html:169 templates/tickets.html:54
+#: templates/body.html:77 templates/body.html:81 templates/index.html:169
+#: templates/speakers.html:7 templates/speakers.html:16
+#: templates/tickets.html:54
 msgid "Speakers"
 msgstr ""
 
-#: templates/body.html:81 templates/cfp.html:7 templates/cfp.html:17
+#: templates/body.html:84 templates/cfp.html:7 templates/cfp.html:17
 #: templates/cfp_form.html:13 templates/cfp_form.html:23
 msgid "Call for proposals"
 msgstr ""
 
-#: templates/body.html:88 templates/schedule.html:8 templates/schedule.html:17
+#: templates/body.html:91 templates/schedule.html:8 templates/schedule.html:17
 msgid "Schedule"
 msgstr ""
 
-#: templates/body.html:96
+#: templates/body.html:99
 msgid "Sponsoring"
 msgstr ""
 
-#: templates/body.html:100 templates/edusummit.html:8
+#: templates/body.html:103 templates/edusummit.html:8
 #: templates/edusummit.html:18
 msgid "EduSummit"
 msgstr ""
 
-#: templates/body.html:104 templates/body.html:227
+#: templates/body.html:107 templates/body.html:230
 msgid "About Us"
 msgstr ""
 
-#: templates/body.html:107
+#: templates/body.html:110
 msgid "FAQ"
 msgstr ""
 
-#: templates/body.html:108 templates/tickets.html:144 templates/venue.html:33
+#: templates/body.html:111 templates/tickets.html:144 templates/venue.html:33
 msgid "Venue"
 msgstr ""
 
-#: templates/body.html:109 templates/coc.html:7 templates/coc.html:16
+#: templates/body.html:112 templates/coc.html:7 templates/coc.html:16
 msgid "Code of Conduct"
 msgstr ""
 
-#: templates/body.html:110 templates/cfv.html:13 templates/cfv.html:23
+#: templates/body.html:113 templates/cfv.html:13 templates/cfv.html:23
 msgid "Call for volunteers"
 msgstr ""
 
-#: templates/body.html:111 templates/body.html:214
+#: templates/body.html:114 templates/body.html:217
 msgid "SPy o.z."
 msgstr ""
 
-#: templates/body.html:116 templates/faq.html:66 templates/tickets.html:13
+#: templates/body.html:119 templates/faq.html:66 templates/tickets.html:13
 #: templates/tickets.html:22
 msgid "Tickets"
 msgstr ""
 
-#: templates/body.html:151
+#: templates/body.html:154
 msgid "General Queries"
 msgstr ""
 
-#: templates/body.html:163
+#: templates/body.html:166
 msgid "Ticket Queries"
 msgstr ""
 
-#: templates/body.html:175
+#: templates/body.html:178
 msgid "Event Organiser"
 msgstr ""
 
-#: templates/body.html:209
+#: templates/body.html:212
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
 " the %(psf)s."
 msgstr ""
 
-#: templates/body.html:211
+#: templates/body.html:214
 msgid "Python Software foundation"
 msgstr ""
 
-#: templates/body.html:213
+#: templates/body.html:216
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr ""
 
-#: templates/body.html:214
+#: templates/body.html:217
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:216
+#: templates/body.html:219
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
 " contribute at our %(github)s."
 msgstr ""
 
-#: templates/body.html:229
+#: templates/body.html:232
 msgid "Become a Sponsor"
 msgstr ""
 
-#: templates/body.html:230 templates/index.html:116
+#: templates/body.html:233 templates/index.html:116
 msgid "Submit your talk"
 msgstr ""
 
-#: templates/body.html:232
+#: templates/body.html:235
 msgid "Help out as a volunteer"
 msgstr ""
 
-#: templates/body.html:233
+#: templates/body.html:236
 msgid "Buy your ticket"
 msgstr ""
 
-#: templates/body.html:251
+#: templates/body.html:254
 msgid "Back to Top"
 msgstr ""
 
@@ -626,6 +628,7 @@ msgid ""
 msgstr ""
 
 #: templates/edusummit.html:31 templates/index.html:301
+#: templates/speakers.html:90
 msgid "Profesor Juraj Hromkovič, DrSc."
 msgstr ""
 
@@ -1169,15 +1172,15 @@ msgstr ""
 msgid "Listen, Learn, Get inspired."
 msgstr ""
 
-#: templates/index.html:304
+#: templates/index.html:304 templates/speakers.html:97
 msgid "professor at ETH Zürich"
 msgstr ""
 
-#: templates/index.html:314
+#: templates/index.html:314 templates/speakers.html:63
 msgid "senior software engineer with Google AI Genomics"
 msgstr ""
 
-#: templates/index.html:324
+#: templates/index.html:324 templates/speakers.html:31
 msgid "Python engineer at Elastic"
 msgstr ""
 
@@ -1582,6 +1585,49 @@ msgstr ""
 
 #: templates/schedule.html:77
 msgid "Conference Dinner "
+msgstr ""
+
+#: templates/speakers.html:17
+msgid "Speakers you can meet at PyCon SK 2019."
+msgstr ""
+
+#: templates/speakers.html:40
+msgid ""
+"Honza is a Python engineer at Elastic, the company behind Elasticsearch "
+"and other open source products, where he maintains the python libraries. "
+"Before that he was part of Whiskey Media, using Django to build content "
+"website for large audiences. He always had large affinity of working with"
+" data and trying to help teams scale their code and data."
+msgstr ""
+
+#: templates/speakers.html:72
+msgid ""
+"Helen Li is a senior software engineer with Google AI Genomics. She "
+"graduated from Massachusetts Institute of Technology with a bachelor's "
+"degree in computer science. Before working on Nucleus, she was an active "
+"contributor to the Chromium project, where she developed open-source "
+"libraries and tools for over four years."
+msgstr ""
+
+#: templates/speakers.html:76
+msgid "Nucleus: an open-source library for genomics data and machine learning"
+msgstr ""
+
+#: templates/speakers.html:78
+msgid ""
+"Nucleus is a Python library designed to make it easy to read, write, and "
+"analyze genomics data in common bioinformatics file formats such as SAM "
+"and VCF. In addition, Nucleus enables seamless integration with the "
+"TensorFlow machine learning (ML) framework. Nucleus is heavily used in "
+"DeepVariant, a state-of-the-art convolutional neural network variant "
+"caller, and in other ML projects at Google AI Genomics. This talk will "
+"give an overview of Nucleus, its features, and its APIs."
+msgstr ""
+
+#: templates/speakers.html:105
+msgid ""
+"Juraj Hromkovič, a professor at ETH Zürich, whose main focus of work is "
+"education for teachers of Computer Science."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18

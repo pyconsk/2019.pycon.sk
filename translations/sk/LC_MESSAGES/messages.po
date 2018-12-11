@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-12-10 23:50+0100\n"
+"POT-Creation-Date: 2018-12-11 21:53+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -34,70 +34,72 @@ msgstr ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
 "Python, ktorá sa bude konať v Bratislave v marci 2019."
 
-#: templates/body.html:77 templates/index.html:169 templates/tickets.html:54
+#: templates/body.html:77 templates/body.html:81 templates/index.html:169
+#: templates/speakers.html:7 templates/speakers.html:16
+#: templates/tickets.html:54
 msgid "Speakers"
 msgstr "Rečníci"
 
-#: templates/body.html:81 templates/cfp.html:7 templates/cfp.html:17
+#: templates/body.html:84 templates/cfp.html:7 templates/cfp.html:17
 #: templates/cfp_form.html:13 templates/cfp_form.html:23
 msgid "Call for proposals"
 msgstr "Prihlás svoj návrh na prednášku"
 
-#: templates/body.html:88 templates/schedule.html:8 templates/schedule.html:17
+#: templates/body.html:91 templates/schedule.html:8 templates/schedule.html:17
 msgid "Schedule"
 msgstr "Program"
 
-#: templates/body.html:96
+#: templates/body.html:99
 msgid "Sponsoring"
 msgstr "Sponzoruj"
 
-#: templates/body.html:100 templates/edusummit.html:8
+#: templates/body.html:103 templates/edusummit.html:8
 #: templates/edusummit.html:18
 msgid "EduSummit"
 msgstr "EduSummit"
 
-#: templates/body.html:104 templates/body.html:227
+#: templates/body.html:107 templates/body.html:230
 msgid "About Us"
 msgstr "O nás"
 
-#: templates/body.html:107
+#: templates/body.html:110
 msgid "FAQ"
 msgstr ""
 
-#: templates/body.html:108 templates/tickets.html:144 templates/venue.html:33
+#: templates/body.html:111 templates/tickets.html:144 templates/venue.html:33
 msgid "Venue"
 msgstr "Miesto konania"
 
-#: templates/body.html:109 templates/coc.html:7 templates/coc.html:16
+#: templates/body.html:112 templates/coc.html:7 templates/coc.html:16
 msgid "Code of Conduct"
 msgstr "Kódex správania"
 
-#: templates/body.html:110 templates/cfv.html:13 templates/cfv.html:23
+#: templates/body.html:113 templates/cfv.html:13 templates/cfv.html:23
 msgid "Call for volunteers"
 msgstr "Pridaj sa k nám"
 
-#: templates/body.html:111 templates/body.html:214
+#: templates/body.html:114 templates/body.html:217
 msgid "SPy o.z."
 msgstr "SPy o.z."
 
-#: templates/body.html:116 templates/faq.html:66 templates/tickets.html:13
+#: templates/body.html:119 templates/faq.html:66 templates/tickets.html:13
 #: templates/tickets.html:22
 msgid "Tickets"
 msgstr "Vstupenky"
 
-#: templates/body.html:151
+#: templates/body.html:154
 msgid "General Queries"
 msgstr "Všeobecné otázky"
 
-#: templates/body.html:163
+#: templates/body.html:166
 msgid "Ticket Queries"
 msgstr "Otázky o vstupenkách"
 
-#: templates/body.html:175
+#: templates/body.html:178
 msgid "Event Organiser"
 msgstr "Organizátor podujatia"
 
-#: templates/body.html:209
+#: templates/body.html:212
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
@@ -106,21 +108,21 @@ msgstr ""
 "%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
 "aktivity."
 
-#: templates/body.html:211
+#: templates/body.html:214
 msgid "Python Software foundation"
 msgstr "Python Software foundation"
 
-#: templates/body.html:213
+#: templates/body.html:216
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr "PyCon SK je organizovaný dobrovoľníkmi z %(spy)s."
 
-#: templates/body.html:214
+#: templates/body.html:217
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr "Naše pravidlá pre <a href=\"%(url)s\">Ochranu súkromia</a>"
 
-#: templates/body.html:216
+#: templates/body.html:219
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
@@ -129,23 +131,23 @@ msgstr ""
 "Našiel/našla si chybu? Chýba ti nejaká informácia? Toto je komunitou "
 "manažovaná webstránka, prispej na našom %(github)se."
 
-#: templates/body.html:229
+#: templates/body.html:232
 msgid "Become a Sponsor"
 msgstr "Staň sa sponzorom"
 
-#: templates/body.html:230 templates/index.html:116
+#: templates/body.html:233 templates/index.html:116
 msgid "Submit your talk"
 msgstr "Prihlás svoju prednášku"
 
-#: templates/body.html:232
+#: templates/body.html:235
 msgid "Help out as a volunteer"
 msgstr "Pomôž ako dobrovoľník"
 
-#: templates/body.html:233
+#: templates/body.html:236
 msgid "Buy your ticket"
 msgstr "Kúp si lístok"
 
-#: templates/body.html:251
+#: templates/body.html:254
 msgid "Back to Top"
 msgstr "Návrat na vrch stránky"
 
@@ -749,6 +751,7 @@ msgstr ""
 " Andrej Kiska."
 
 #: templates/edusummit.html:31 templates/index.html:301
+#: templates/speakers.html:90
 msgid "Profesor Juraj Hromkovič, DrSc."
 msgstr "Profesor Juraj Hromkovič, DrSc."
 
@@ -1417,15 +1420,15 @@ msgstr "Úžasní rečníci"
 msgid "Listen, Learn, Get inspired."
 msgstr "Počúvaj, uč sa a inšpiruj sa"
 
-#: templates/index.html:304
+#: templates/index.html:304 templates/speakers.html:97
 msgid "professor at ETH Zürich"
 msgstr "profesor na ETH Zürich"
 
-#: templates/index.html:314
+#: templates/index.html:314 templates/speakers.html:63
 msgid "senior software engineer with Google AI Genomics"
 msgstr "senior softvér vývojárka v Google AI Genomics"
 
-#: templates/index.html:324
+#: templates/index.html:324 templates/speakers.html:31
 msgid "Python engineer at Elastic"
 msgstr "Python vývojár v Elastic"
 
@@ -1925,6 +1928,56 @@ msgstr "Spoločenská udalosť"
 #: templates/schedule.html:77
 msgid "Conference Dinner "
 msgstr "Konferenčná Večera "
+
+#: templates/speakers.html:17
+msgid "Speakers you can meet at PyCon SK 2019."
+msgstr ""
+
+#: templates/speakers.html:40
+msgid ""
+"Honza is a Python engineer at Elastic, the company behind Elasticsearch "
+"and other open source products, where he maintains the python libraries. "
+"Before that he was part of Whiskey Media, using Django to build content "
+"website for large audiences. He always had large affinity of working with"
+" data and trying to help teams scale their code and data."
+msgstr ""
+
+#: templates/speakers.html:72
+msgid ""
+"Helen Li is a senior software engineer with Google AI Genomics. She "
+"graduated from Massachusetts Institute of Technology with a bachelor's "
+"degree in computer science. Before working on Nucleus, she was an active "
+"contributor to the Chromium project, where she developed open-source "
+"libraries and tools for over four years."
+msgstr ""
+
+#: templates/speakers.html:76
+msgid "Nucleus: an open-source library for genomics data and machine learning"
+msgstr ""
+
+#: templates/speakers.html:78
+msgid ""
+"Nucleus is a Python library designed to make it easy to read, write, and "
+"analyze genomics data in common bioinformatics file formats such as SAM "
+"and VCF. In addition, Nucleus enables seamless integration with the "
+"TensorFlow machine learning (ML) framework. Nucleus is heavily used in "
+"DeepVariant, a state-of-the-art convolutional neural network variant "
+"caller, and in other ML projects at Google AI Genomics. This talk will "
+"give an overview of Nucleus, its features, and its APIs."
+msgstr ""
+
+#: templates/speakers.html:105
+msgid ""
+"Juraj Hromkovič, a professor at ETH Zürich, whose main focus of work is "
+"education for teachers of Computer Science."
+msgstr ""
+"profesor Juraj Hromkovič, DrSc., pôsobí ako vysokoškolský pedagóg vo "
+"Švajčiarskom federálnom technologickom inštitúte (ETH) v Zürichu. Je "
+"autorom mnohých kníh a vedeckých publikácií, najmä v oblasti algoritmiky,"
+" pravdepodobnostných algoritmov a didaktiky informatiky.  Zameriava sa na"
+" vzdelávanie učiteľov informatiky a zavedenie vyučovania informatiky na "
+"základné školy. V roku 2017 prevzal štátne vyznamenanie Pribinov kríž I. "
+"triedy, ktoré mu udelil prezident SR Andrej Kiska."
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
 msgid "Sponsors &amp; Partners"

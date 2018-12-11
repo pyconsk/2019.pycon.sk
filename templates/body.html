@@ -73,10 +73,13 @@
                 <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2019</a>
               </li>
 
-              <li class="dropdown {{ li_cfp }}">
+              <li class="dropdown {{ li_cfp }}{{ li_speakers }}">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('Speakers') }}
                   <i class="fa fa-angle-down"></i></a>
                 <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="{{ url_for('speakers', lang_code=lang_code) }}" class="nav-link">{{ _('Speakers') }}</a>
+                  </li>
                   <li>
                     <a href="{{ url_for('cfp', lang_code=lang_code) }}" class="nav-link">{{ _('Call for proposals') }}</a>
                   </li>
