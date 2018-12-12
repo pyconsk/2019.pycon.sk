@@ -1904,7 +1904,7 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 }
 
 .ts-speaker-name {
-	color: #fff;
+	color: #000;
 }
 
 .ts-speaker-info .ts-speaker-name a{
@@ -1957,7 +1957,7 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 }
 
 .ts-speaker-list .ts-speaker-info .ts-speaker-name{
-	font-size: 24px;
+	font-size: 28px;
 }
 
 .ts-speaker-session .session-title{

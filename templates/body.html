@@ -73,10 +73,13 @@
                 <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2019</a>
               </li>
 
-              <li class="dropdown {{ li_cfp }}">
+              <li class="dropdown {{ li_cfp }}{{ li_speakers }}">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('Speakers') }}
                   <i class="fa fa-angle-down"></i></a>
                 <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="{{ url_for('speakers', lang_code=lang_code) }}" class="nav-link">{{ _('Speakers') }}</a>
+                  </li>
                   <li>
                     <a href="{{ url_for('cfp', lang_code=lang_code) }}" class="nav-link">{{ _('Call for proposals') }}</a>
                   </li>
@@ -181,47 +184,7 @@
       </div><!-- Row 1 end -->
 
       <div class="row">
-        <div class="newsletter-form clearfix">
-          <h3>{{ _('Stay Updated') }} - {{ _('Subscribe to our newsletter') }}</h3>
-          <form action="https://pycon.us12.list-manage.com/subscribe/post?u=89d883ce643e7200aabe34fa1&amp;id=e1520cb152" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
-            <div class="form-group">
-              <input type="email" value="" name="EMAIL" id="mce-EMAIL newsletter-form-email" class="form-control form-control-lg required email" placeholder="{{ _('Your Email Here') }}" autocomplete="off" aria-describedby="{{ _('email address for the newsletter') }}">
-              <button class="btn btn-primary">{{ _('Subscribe') }}</button>
-            </div>
-
-            <div class="form-group">
-              <strong>{{ _('Email Marketing Permissions') }}</strong>
-              <p>{{ _('Please select all the ways you would like to hear from SPy o.z.:') }}</p>
-
-              <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
-                <input type="checkbox" id="gdpr_26045" name="gdpr[26045]" value="Y" class="form-check-input">
-                <label class="form-check-label" for="gdpr_26045">{{ _('Email') }}</label>
-                &nbsp;
-                <input type="checkbox" id="gdpr_26049" name="gdpr[26049]" value="Y" class="form-check-input">
-                <label class="form-check-label" for="gdpr_26049">{{ _('Direct Mail') }}</label>
-              </fieldset>
-
-              <p>{{ _('You can unsubscribe at any time by clicking the link in the footer of our emails.') }}
-                {{ _('For information about our privacy practices, please visit our <a href="%(url)s">Privacy Policy</a>.', url=url_for('privacy_policy', lang_code=lang_code)) }}
-                <br/><span class="oi oi-bug"></span>
-              </p>
-
-              <p>
-                <small>{{ _('We use Mailchimp as our marketing platform.') }} {{ _('By clicking below to subscribe, you
-                  acknowledge that your information will be transferred to Mailchimp for processing.') }} {{ _('Learn more
-                  about Mailchimp\'s privacy practices <a href="https://mailchimp.com/legal/" target="_blank" class="external">here</a>.') }}
-                </small>
-              </p>
-            </div>
-
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-              <input type="text" name="b_89d883ce643e7200aabe34fa1_e1520cb152" tabindex="-1" value="">
-            </div>
-
-          </form>
-        </div>
+          {% include 'mailchimp.html' %}
       </div><!-- Row end -->
 
     </div><!-- Container 1 end -->

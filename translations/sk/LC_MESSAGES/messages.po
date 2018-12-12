@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-12-04 00:16+0100\n"
+"POT-Creation-Date: 2018-12-11 21:53+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -34,147 +34,72 @@ msgstr ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
 "Python, ktorá sa bude konať v Bratislave v marci 2019."
 
-#: templates/body.html:77 templates/index.html:169 templates/tickets.html:54
+#: templates/body.html:77 templates/body.html:81 templates/index.html:169
+#: templates/speakers.html:7 templates/speakers.html:16
+#: templates/tickets.html:54
 msgid "Speakers"
 msgstr "Rečníci"
 
-#: templates/body.html:81 templates/cfp.html:7 templates/cfp.html:17
+#: templates/body.html:84 templates/cfp.html:7 templates/cfp.html:17
 #: templates/cfp_form.html:13 templates/cfp_form.html:23
 msgid "Call for proposals"
 msgstr "Prihlás svoj návrh na prednášku"
 
-#: templates/body.html:88 templates/schedule.html:8 templates/schedule.html:17
+#: templates/body.html:91 templates/schedule.html:8 templates/schedule.html:17
 msgid "Schedule"
 msgstr "Program"
 
-#: templates/body.html:96
+#: templates/body.html:99
 msgid "Sponsoring"
 msgstr "Sponzoruj"
 
-#: templates/body.html:100 templates/edusummit.html:8
+#: templates/body.html:103 templates/edusummit.html:8
 #: templates/edusummit.html:18
 msgid "EduSummit"
 msgstr "EduSummit"
 
-#: templates/body.html:104 templates/body.html:267
+#: templates/body.html:107 templates/body.html:230
 msgid "About Us"
 msgstr "O nás"
 
-#: templates/body.html:107
+#: templates/body.html:110
 msgid "FAQ"
 msgstr ""
 
-#: templates/body.html:108 templates/tickets.html:144 templates/venue.html:33
+#: templates/body.html:111 templates/tickets.html:144 templates/venue.html:33
 msgid "Venue"
 msgstr "Miesto konania"
 
-#: templates/body.html:109 templates/coc.html:7 templates/coc.html:16
+#: templates/body.html:112 templates/coc.html:7 templates/coc.html:16
 msgid "Code of Conduct"
 msgstr "Kódex správania"
 
-#: templates/body.html:110 templates/cfv.html:13 templates/cfv.html:23
+#: templates/body.html:113 templates/cfv.html:13 templates/cfv.html:23
 msgid "Call for volunteers"
 msgstr "Pridaj sa k nám"
 
-#: templates/body.html:111 templates/body.html:254
+#: templates/body.html:114 templates/body.html:217
 msgid "SPy o.z."
 msgstr "SPy o.z."
 
-#: templates/body.html:116 templates/faq.html:66 templates/tickets.html:13
+#: templates/body.html:119 templates/faq.html:66 templates/tickets.html:13
 #: templates/tickets.html:22
 msgid "Tickets"
 msgstr "Vstupenky"
 
-#: templates/body.html:151
+#: templates/body.html:154
 msgid "General Queries"
 msgstr "Všeobecné otázky"
 
-#: templates/body.html:163
+#: templates/body.html:166
 msgid "Ticket Queries"
 msgstr "Otázky o vstupenkách"
 
-#: templates/body.html:175
+#: templates/body.html:178
 msgid "Event Organiser"
 msgstr "Organizátor podujatia"
 
-#: templates/body.html:185
-msgid "Stay Updated"
-msgstr "Ostaň v kontakte"
-
-#: templates/body.html:185 templates/mailchimp.html:2
-msgid "Subscribe to our newsletter"
-msgstr "Prihlás sa na odber newslettra"
-
-#: templates/body.html:189
-msgid "Your Email Here"
-msgstr "Napíš sem svoj email"
-
-#: templates/body.html:189 templates/mailchimp.html:9
-msgid "email address for the newsletter"
-msgstr "emailová adresa pre odoberanie noviniek"
-
-#: templates/body.html:190 templates/mailchimp.html:47
-msgid "Subscribe"
-msgstr "Prihlásiť sa"
-
-#: templates/body.html:194 templates/mailchimp.html:16
-msgid "Email Marketing Permissions"
-msgstr "Povolenia pre emailový marketing"
-
-#: templates/body.html:195 templates/mailchimp.html:17
-msgid "Please select all the ways you would like to hear from SPy o.z.:"
-msgstr "Prosím vyber si, akými spôsobmi chceš dostávať informácie od SPy o.z.:"
-
-#: templates/body.html:199 templates/mailchimp.html:22
-msgid "Email"
-msgstr "Email"
-
-#: templates/body.html:202 templates/mailchimp.html:26
-msgid "Direct Mail"
-msgstr "Osobný email"
-
-#: templates/body.html:205 templates/mailchimp.html:30
-msgid ""
-"You can unsubscribe at any time by clicking the link in the footer of our"
-" emails."
-msgstr "Odhlásiť sa môžeš kedykoľvek kliknutím na link na konci našich emailov."
-
-#: templates/body.html:206
-#, python-format
-msgid ""
-"For information about our privacy practices, please visit our <a "
-"href=\"%(url)s\">Privacy Policy</a>."
-msgstr ""
-"O tom, ako pracujeme so súkromnými údajmi, si prečítaj našu stránku <a "
-"href=\"%(url)s\">Ochrana súkromia</a>."
-
-#: templates/body.html:211 templates/mailchimp.html:35
-msgid "We use Mailchimp as our marketing platform."
-msgstr "Ako našu marketingovú platformu používame Mailchimp."
-
-#: templates/body.html:211
-msgid ""
-"By clicking below to subscribe, you\n"
-"                  acknowledge that your information will be transferred "
-"to Mailchimp for processing."
-msgstr ""
-"Kliknutím nižšie na prihlásenie, \n"
-"                  súhlasíš s tým, že tvoje informácie budú odoslané "
-"Mailchimpu na spracovanie."
-
 #: templates/body.html:212
-msgid ""
-"Learn more\n"
-"                  about Mailchimp's privacy practices <a "
-"href=\"https://mailchimp.com/legal/\" target=\"_blank\" "
-"class=\"external\">here</a>."
-msgstr ""
-"O spracovaní osobných\n"
-"                  údajov Mailchimpom si prečítaj viac <a "
-"href=\"https://mailchimp.com/legal/\" target=\"_blank\" "
-"class=\"external\">tu</a>."
-
-#: templates/body.html:249
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
@@ -183,21 +108,21 @@ msgstr ""
 "%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
 "aktivity."
 
-#: templates/body.html:251
+#: templates/body.html:214
 msgid "Python Software foundation"
 msgstr "Python Software foundation"
 
-#: templates/body.html:253
+#: templates/body.html:216
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr "PyCon SK je organizovaný dobrovoľníkmi z %(spy)s."
 
-#: templates/body.html:254
+#: templates/body.html:217
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr "Naše pravidlá pre <a href=\"%(url)s\">Ochranu súkromia</a>"
 
-#: templates/body.html:256
+#: templates/body.html:219
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
@@ -206,23 +131,23 @@ msgstr ""
 "Našiel/našla si chybu? Chýba ti nejaká informácia? Toto je komunitou "
 "manažovaná webstránka, prispej na našom %(github)se."
 
-#: templates/body.html:269
+#: templates/body.html:232
 msgid "Become a Sponsor"
 msgstr "Staň sa sponzorom"
 
-#: templates/body.html:270 templates/index.html:116
+#: templates/body.html:233 templates/index.html:116
 msgid "Submit your talk"
 msgstr "Prihlás svoju prednášku"
 
-#: templates/body.html:272
+#: templates/body.html:235
 msgid "Help out as a volunteer"
 msgstr "Pomôž ako dobrovoľník"
 
-#: templates/body.html:273
+#: templates/body.html:236
 msgid "Buy your ticket"
 msgstr "Kúp si lístok"
 
-#: templates/body.html:291
+#: templates/body.html:254
 msgid "Back to Top"
 msgstr "Návrat na vrch stránky"
 
@@ -826,6 +751,7 @@ msgstr ""
 " Andrej Kiska."
 
 #: templates/edusummit.html:31 templates/index.html:301
+#: templates/speakers.html:90
 msgid "Profesor Juraj Hromkovič, DrSc."
 msgstr "Profesor Juraj Hromkovič, DrSc."
 
@@ -1087,8 +1013,8 @@ msgid ""
 "have a few talks in Czech language. If you do not speak Slovak or Czech "
 "do not worry, we have two tracks so there will be always talk in English."
 msgstr ""
-"Väčšina prednášok bude v anglickom a slovenskom jazyku. Je možné, "
-"že niekoľko prednášok môže byť aj v češtine."
+"Väčšina prednášok bude v anglickom a slovenskom jazyku. Je možné, že "
+"niekoľko prednášok môže byť aj v češtine."
 
 #: templates/faq.html:56
 msgid ""
@@ -1494,57 +1420,94 @@ msgstr "Úžasní rečníci"
 msgid "Listen, Learn, Get inspired."
 msgstr "Počúvaj, uč sa a inšpiruj sa"
 
-#: templates/index.html:304
+#: templates/index.html:304 templates/speakers.html:97
 msgid "professor at ETH Zürich"
 msgstr "profesor na ETH Zürich"
 
-#: templates/index.html:314
+#: templates/index.html:314 templates/speakers.html:63
 msgid "senior software engineer with Google AI Genomics"
 msgstr "senior softvér vývojárka v Google AI Genomics"
 
-#: templates/index.html:324
+#: templates/index.html:324 templates/speakers.html:31
 msgid "Python engineer at Elastic"
 msgstr "Python vývojár v Elastic"
 
-#: templates/mailchimp.html:8
-msgid "Email Address"
-msgstr "Emailová adresa"
+#: templates/mailchimp.html:2
+msgid "Stay Updated"
+msgstr "Ostaň v kontakte"
+
+#: templates/mailchimp.html:2
+msgid "Subscribe to our newsletter"
+msgstr "Prihlás sa na odber newslettra"
+
+#: templates/mailchimp.html:9
+msgid "Your Email Here"
+msgstr "Napíš sem svoj email"
+
+#: templates/mailchimp.html:10
+msgid "email address for the newsletter"
+msgstr "emailová adresa pre odoberanie noviniek"
 
 #: templates/mailchimp.html:11
-msgid "SPy o.z. will never share your email with anyone else."
-msgstr "SPy o.z. nikdy nebude zdieľať tvoj email."
+msgid "Subscribe"
+msgstr "Prihlásiť sa"
 
-#: templates/mailchimp.html:31
-msgid "For information about our privacy practices, please visit our website."
+#: templates/mailchimp.html:17
+msgid "Which newsletters do you wish to subscribe to?"
 msgstr ""
-"Pre informácie o našich zásadách ochrany súkromia, prosím navštív našu "
-"webstránku."
+
+#: templates/mailchimp.html:20
+msgid "PyCon SK Newsletter (conference updates in EN lang.)"
+msgstr ""
+
+#: templates/mailchimp.html:24
+msgid ""
+"SPy o.z. Newsletter (monthly updates on Python meetups, PyCon SK and "
+"Učíme s Hardvérom - in SK lang.)"
+msgstr ""
+
+#: templates/mailchimp.html:29
+msgid "Email Marketing Permissions"
+msgstr "Povolenia pre emailový marketing"
+
+#: templates/mailchimp.html:30
+msgid "Please select all the ways you would like to hear from SPy o.z.:"
+msgstr "Prosím vyber si, akými spôsobmi chceš dostávať informácie od SPy o.z.:"
+
+#: templates/mailchimp.html:32
+msgid "Email"
+msgstr "Email"
 
 #: templates/mailchimp.html:35
-msgid ""
-"By clicking below to subscribe, you\n"
-"            acknowledge that your information will be transferred to "
-"Mailchimp for processing."
-msgstr ""
-"Kliknutím na tlačítko na prihlásenie, súhlasíš\n"
-"            s tým, že toje informácie budú odoslané Mailchimpu na "
-"spracovanie."
+msgid "Direct Mail"
+msgstr "Osobný email"
 
-#: templates/mailchimp.html:36
+#: templates/mailchimp.html:39
 msgid ""
-"Learn more\n"
-"            about Mailchimp's privacy practices <a "
-"href=\"https://mailchimp.com/legal/\" target=\"_blank\" "
-"class=\"external\">here</a>."
-msgstr ""
-"Zistite viac\n"
-"            o ochrane súkromia v Mailchimpe <a "
-"href=\"https://mailchimp.com/legal/\" target=\"_blank\" "
-"class=\"external\">tu</a>."
+"You can unsubscribe at any time by clicking the link in the footer of our"
+" emails."
+msgstr "Odhlásiť sa môžeš kedykoľvek kliknutím na link na konci našich emailov."
 
-#: templates/mailchimp.html:51 templates/mailchimp.html:52
+#: templates/mailchimp.html:41
 msgid "View previous campaigns."
 msgstr "Zobraziť predchádzajúce kampane."
+
+#: templates/mailchimp.html:45
+msgid "We use Mailchimp as our marketing platform."
+msgstr "Ako našu marketingovú platformu používame Mailchimp."
+
+#: templates/mailchimp.html:45
+msgid ""
+"By clicking to subscribe, you acknowledge that your information will be "
+"transferred to Mailchimp for processing."
+msgstr ""
+
+#: templates/mailchimp.html:46
+#, python-format
+msgid ""
+"For information about privacy practices, please visit our <a "
+"href=\"%(url)s\">Privacy Policy</a>."
+msgstr ""
 
 #: templates/privacy-policy.html:7 templates/privacy-policy.html:17
 msgid "Privacy Policy"
@@ -1965,6 +1928,56 @@ msgstr "Spoločenská udalosť"
 #: templates/schedule.html:77
 msgid "Conference Dinner "
 msgstr "Konferenčná Večera "
+
+#: templates/speakers.html:17
+msgid "Speakers you can meet at PyCon SK 2019."
+msgstr ""
+
+#: templates/speakers.html:40
+msgid ""
+"Honza is a Python engineer at Elastic, the company behind Elasticsearch "
+"and other open source products, where he maintains the python libraries. "
+"Before that he was part of Whiskey Media, using Django to build content "
+"website for large audiences. He always had large affinity of working with"
+" data and trying to help teams scale their code and data."
+msgstr ""
+
+#: templates/speakers.html:72
+msgid ""
+"Helen Li is a senior software engineer with Google AI Genomics. She "
+"graduated from Massachusetts Institute of Technology with a bachelor's "
+"degree in computer science. Before working on Nucleus, she was an active "
+"contributor to the Chromium project, where she developed open-source "
+"libraries and tools for over four years."
+msgstr ""
+
+#: templates/speakers.html:76
+msgid "Nucleus: an open-source library for genomics data and machine learning"
+msgstr ""
+
+#: templates/speakers.html:78
+msgid ""
+"Nucleus is a Python library designed to make it easy to read, write, and "
+"analyze genomics data in common bioinformatics file formats such as SAM "
+"and VCF. In addition, Nucleus enables seamless integration with the "
+"TensorFlow machine learning (ML) framework. Nucleus is heavily used in "
+"DeepVariant, a state-of-the-art convolutional neural network variant "
+"caller, and in other ML projects at Google AI Genomics. This talk will "
+"give an overview of Nucleus, its features, and its APIs."
+msgstr ""
+
+#: templates/speakers.html:105
+msgid ""
+"Juraj Hromkovič, a professor at ETH Zürich, whose main focus of work is "
+"education for teachers of Computer Science."
+msgstr ""
+"profesor Juraj Hromkovič, DrSc., pôsobí ako vysokoškolský pedagóg vo "
+"Švajčiarskom federálnom technologickom inštitúte (ETH) v Zürichu. Je "
+"autorom mnohých kníh a vedeckých publikácií, najmä v oblasti algoritmiky,"
+" pravdepodobnostných algoritmov a didaktiky informatiky.  Zameriava sa na"
+" vzdelávanie učiteľov informatiky a zavedenie vyučovania informatiky na "
+"základné školy. V roku 2017 prevzal štátne vyznamenanie Pribinov kríž I. "
+"triedy, ktoré mu udelil prezident SR Andrej Kiska."
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
 msgid "Sponsors &amp; Partners"
@@ -2622,4 +2635,68 @@ msgstr ""
 "title=\"stránky mesta pre návštevníkov\" target=\"_blank\" "
 "class=\"external\">oficiálne stránky mesta, určené pre návštevníkov</a>, "
 "kde nájdete aj iné udalosti, ktoré sa práve odohrávajú v Bratislave."
+
+#~ msgid ""
+#~ "For information about our privacy "
+#~ "practices, please visit our <a "
+#~ "href=\"%(url)s\">Privacy Policy</a>."
+#~ msgstr ""
+#~ "O tom, ako pracujeme so súkromnými "
+#~ "údajmi, si prečítaj našu stránku <a "
+#~ "href=\"%(url)s\">Ochrana súkromia</a>."
+
+#~ msgid ""
+#~ "By clicking below to subscribe, you\n"
+#~ "                  acknowledge that your "
+#~ "information will be transferred to "
+#~ "Mailchimp for processing."
+#~ msgstr ""
+#~ "Kliknutím nižšie na prihlásenie, \n"
+#~ "                  súhlasíš s tým, že "
+#~ "tvoje informácie budú odoslané Mailchimpu "
+#~ "na spracovanie."
+
+#~ msgid ""
+#~ "Learn more\n"
+#~ "                  about Mailchimp's privacy "
+#~ "practices <a href=\"https://mailchimp.com/legal/\" "
+#~ "target=\"_blank\" class=\"external\">here</a>."
+#~ msgstr ""
+#~ "O spracovaní osobných\n"
+#~ "                  údajov Mailchimpom si "
+#~ "prečítaj viac <a "
+#~ "href=\"https://mailchimp.com/legal/\" target=\"_blank\" "
+#~ "class=\"external\">tu</a>."
+
+#~ msgid "Email Address"
+#~ msgstr "Emailová adresa"
+
+#~ msgid "SPy o.z. will never share your email with anyone else."
+#~ msgstr "SPy o.z. nikdy nebude zdieľať tvoj email."
+
+#~ msgid "For information about our privacy practices, please visit our website."
+#~ msgstr ""
+#~ "Pre informácie o našich zásadách ochrany"
+#~ " súkromia, prosím navštív našu webstránku."
+
+#~ msgid ""
+#~ "By clicking below to subscribe, you\n"
+#~ "            acknowledge that your information"
+#~ " will be transferred to Mailchimp for"
+#~ " processing."
+#~ msgstr ""
+#~ "Kliknutím na tlačítko na prihlásenie, súhlasíš\n"
+#~ "            s tým, že toje informácie"
+#~ " budú odoslané Mailchimpu na spracovanie."
+
+#~ msgid ""
+#~ "Learn more\n"
+#~ "            about Mailchimp's privacy "
+#~ "practices <a href=\"https://mailchimp.com/legal/\" "
+#~ "target=\"_blank\" class=\"external\">here</a>."
+#~ msgstr ""
+#~ "Zistite viac\n"
+#~ "            o ochrane súkromia v "
+#~ "Mailchimpe <a href=\"https://mailchimp.com/legal/\" "
+#~ "target=\"_blank\" class=\"external\">tu</a>."
 

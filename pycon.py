@@ -75,6 +75,11 @@ def edusummit():
     return render_template('edusummit.html', **_get_template_variables(li_edusummit='active'))
 
 
+@app.route('/<lang_code>/speakers.html')
+def speakers():
+    return render_template('speakers.html', **_get_template_variables(li_speakers='active'))
+
+
 @app.route('/<lang_code>/schedule.html')
 def schedule():
     return render_template('schedule.html', **_get_template_variables(li_schedule='active'))
