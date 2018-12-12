@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-12-11 21:53+0100\n"
+"POT-Creation-Date: 2018-12-12 15:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -627,8 +627,8 @@ msgid ""
 "Science."
 msgstr ""
 
-#: templates/edusummit.html:31 templates/index.html:301
-#: templates/speakers.html:90
+#: templates/edusummit.html:29 templates/edusummit.html:31
+#: templates/index.html:301 templates/speakers.html:90
 msgid "Profesor Juraj Hromkovič, DrSc."
 msgstr ""
 
@@ -1626,8 +1626,13 @@ msgstr ""
 
 #: templates/speakers.html:105
 msgid ""
-"Juraj Hromkovič, a professor at ETH Zürich, whose main focus of work is "
-"education for teachers of Computer Science."
+"Professor Juraj Hromkovič is a university lecturer from Swiss Federal "
+"Institute of Technology (ETH) in Zürich. He has authored many books and "
+"scientific publications dealing particularly with algorithmics, "
+"probabilistic algorithms and didactics of informatics. He focuses on "
+"education of informatics teachers and implementing of informatics to "
+"elementary schools. In 2017, he was awarded a 1st class Pribina Cross "
+"state order by President of Slovak republic Andrej Kiska."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
