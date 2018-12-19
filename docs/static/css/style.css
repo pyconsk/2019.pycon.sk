@@ -159,6 +159,12 @@ section, .section-padding{
 	 position: relative;
 }
 
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
 .no-padding{
 	 padding: 0;
 }
@@ -1895,7 +1901,7 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 
 .ts-speaker-info{
 	padding: 15px 20px;
-	color: #303030;
+	/*color: #303030;*/
 }
 
 .ts-speaker-info .ts-speaker-name{
@@ -1903,8 +1909,12 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 	margin: 0 0 3px 0;
 }
 
-.ts-speaker-name {
+.ts-speaker-name.dark {
 	color: #000;
+}
+
+.ts-speaker-name {
+	color: #fff;
 }
 
 .ts-speaker-info .ts-speaker-name a{
