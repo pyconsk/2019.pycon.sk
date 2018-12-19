@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-12-12 23:57+0100\n"
+"POT-Creation-Date: 2018-12-19 20:49+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -736,7 +736,7 @@ msgstr ""
 "skúsenosti a vedomosti o užitočných nástrojoch."
 
 #: templates/edusummit.html:34 templates/edusummit.html:40
-#: templates/index.html:311 templates/speakers.html:90
+#: templates/index.html:311 templates/speakers.html:88
 msgid "Profesor Juraj Hromkovič, DrSc."
 msgstr "Profesor Juraj Hromkovič, DrSc."
 
@@ -750,7 +750,7 @@ msgstr ""
 "vysokoškolský pedagóg vo Švajčiarskom federálnom technologickom inštitúte"
 " (ETH) v Zürichu."
 
-#: templates/edusummit.html:45 templates/speakers.html:107
+#: templates/edusummit.html:45 templates/speakers.html:105
 msgid ""
 "He has authored many books and scientific publications dealing "
 "particularly with algorithmics, probabilistic algorithms and didactics of"
@@ -1432,7 +1432,7 @@ msgstr "Úžasní rečníci"
 msgid "Listen, Learn, Get inspired."
 msgstr "Počúvaj, uč sa a inšpiruj sa"
 
-#: templates/index.html:314 templates/speakers.html:97
+#: templates/index.html:314 templates/speakers.html:95
 msgid "professor at ETH Zürich"
 msgstr "profesor na ETH Zürich"
 
@@ -1959,7 +1959,7 @@ msgstr ""
 "obsahovú webstránku pre veľké publikum. Vždy veľmi inklinoval k práci s "
 "dátami a pomáhaniu tímom rozširovať ich kód a dáta."
 
-#: templates/speakers.html:72
+#: templates/speakers.html:70
 msgid ""
 "Helen Li is a senior software engineer with Google AI Genomics. She "
 "graduated from Massachusetts Institute of Technology with a bachelor's "
@@ -1972,11 +1972,11 @@ msgstr ""
 "na Nucleuse, bola aktívnou prispievateľkou do projektu Chromium, kde "
 "počas štyroch rokov vyvíjala open-sourcové knižnice a nástroje."
 
-#: templates/speakers.html:76
+#: templates/speakers.html:74
 msgid "Nucleus: an open-source library for genomics data and machine learning"
 msgstr "Nucleus: open-sourcová knižnica na genetické dáta a strojové učenie"
 
-#: templates/speakers.html:78
+#: templates/speakers.html:76
 msgid ""
 "Nucleus is a Python library designed to make it easy to read, write, and "
 "analyze genomics data in common bioinformatics file formats such as SAM "
@@ -1995,7 +1995,7 @@ msgstr ""
 "projektoch využívajúcich strojové učenie v Google AI Genomics. Táto "
 "prednáška stručne predstaví Nucleus, jeho funkcionalitu a jeho API."
 
-#: templates/speakers.html:106
+#: templates/speakers.html:104
 msgid ""
 "Professor Juraj Hromkovič is a university lecturer from Swiss Federal "
 "Institute of Technology (ETH) in Zürich."
@@ -2048,18 +2048,34 @@ msgstr ""
 "budúcnosť."
 
 #: templates/sponsoring.html:50
+msgid "Bronze Sponsors"
+msgstr ""
+
+#: templates/sponsoring.html:57
+msgid ""
+"Sticker Mule is the fastest and easiest way to buy custom printed "
+"products. Thousands of people trust us to make kick-ass stickers, labels,"
+" magnets, badges &amp; more. Order in seconds and get free online proofs,"
+" free shipping, and super fast turnaround!"
+msgstr ""
+
+#: templates/sponsoring.html:70
 msgid "Media Partners"
 msgstr "Medálni partneri"
 
-#: templates/sponsoring.html:75
+#: templates/sponsoring.html:89
+msgid "Partners"
+msgstr ""
+
+#: templates/sponsoring.html:129
 msgid "Why become a sponsor?"
 msgstr "Prečo sa stať sponzorom?"
 
-#: templates/sponsoring.html:76
+#: templates/sponsoring.html:130
 msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
 msgstr "Potrebujeme vás — PyCon SK 2019 v Bratislave hľadá sponzorov a partnerov!"
 
-#: templates/sponsoring.html:81
+#: templates/sponsoring.html:135
 msgid ""
 "PyCon is an annual gathering for the community using and developing the "
 "open-source Python programming language. The conference is completely "
@@ -2069,7 +2085,7 @@ msgstr ""
 "vyvíjajú open source programovací jazyk Python. Konferencia je kompletne "
 "organizovaná dobrovoľníkmi."
 
-#: templates/sponsoring.html:82
+#: templates/sponsoring.html:136
 msgid ""
 "The members of the Python community organize a PyCon conference in their "
 "home countries regularly, PyCon will happen in Slovakia for the fourth "
@@ -2079,7 +2095,7 @@ msgstr ""
 "domovských krajinách pravidelne. PyCon bude na Slovensku už po štvrtý "
 "raz."
 
-#: templates/sponsoring.html:86
+#: templates/sponsoring.html:140
 msgid ""
 "To ensure high-quality speakers and keep the tickets price available for "
 "everyone we need you, the sponsors, who allow the conference to take "
@@ -2089,7 +2105,7 @@ msgstr ""
 "vstupeniek dostupnú pre každého, potrebujeme vás, sponzorov, ktorí "
 "umožnia túto konferenciu uskutočniť."
 
-#: templates/sponsoring.html:90
+#: templates/sponsoring.html:144
 msgid ""
 "Do not hesitate to contact us. We are flexible and willing to work with "
 "you to design a sponsorship package that is going to meet your business "
@@ -2099,11 +2115,11 @@ msgstr ""
 "spolupracovať a navrhnúť s vami balíček sponzorstva, ktorý splní vaše "
 "obchodné potreby."
 
-#: templates/sponsoring.html:102
+#: templates/sponsoring.html:156
 msgid "Recruitment"
 msgstr "Nábor"
 
-#: templates/sponsoring.html:104
+#: templates/sponsoring.html:158
 msgid ""
 "Are you looking for programmers? PyCon is the best place for meeting new "
 "talents. Many participants will be experienced developers looking for "
@@ -2113,11 +2129,11 @@ msgstr ""
 " talentov. Mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj "
 "ďalší veľký kariérny krok."
 
-#: templates/sponsoring.html:113
+#: templates/sponsoring.html:167
 msgid "Audience"
 msgstr "Publikum"
 
-#: templates/sponsoring.html:115
+#: templates/sponsoring.html:169
 msgid ""
 "Want to get your message across to the people, so they talk about you? "
 "PyCon is a great opportunity. People in the Python community like to "
@@ -2127,11 +2143,11 @@ msgstr ""
 " na to skvelá príležitosť. Ľudia v Python komunite radi objavujú a "
 "zdieľajú nové veci."
 
-#: templates/sponsoring.html:124
+#: templates/sponsoring.html:178
 msgid "Marketing"
 msgstr "Marketing"
 
-#: templates/sponsoring.html:126
+#: templates/sponsoring.html:180
 msgid ""
 "Looking for new users for your product? Such people can be found at PyCon"
 " - they also will look for new products and ideas."
@@ -2139,11 +2155,11 @@ msgstr ""
 "Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na "
 "PyCone - aj oni budú hľadať nové produkty a nápady."
 
-#: templates/sponsoring.html:135
+#: templates/sponsoring.html:189
 msgid "Community"
 msgstr "Komunita"
 
-#: templates/sponsoring.html:137
+#: templates/sponsoring.html:191
 msgid ""
 "Looking for new contributors and partners for your open source project? "
 "PyCon is the place, where they also will look for you."
@@ -2151,11 +2167,11 @@ msgstr ""
 "Hľadáte nových prispievateľov a partnerov pre váš open source projekt? "
 "PyCon je miesto, kde aj oni budú hľadať vás."
 
-#: templates/sponsoring.html:146
+#: templates/sponsoring.html:200
 msgid "Support"
 msgstr "Podpora"
 
-#: templates/sponsoring.html:148
+#: templates/sponsoring.html:202
 msgid ""
 "Are you using Python in your company? Support for community events is an "
 "excellent opportunity to contribute back."
