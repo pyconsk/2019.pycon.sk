@@ -2064,7 +2064,7 @@ msgstr ""
 
 #: templates/sponsoring.html:50
 msgid "Bronze Sponsors"
-msgstr ""
+msgstr "Bronzoví sponzori"
 
 #: templates/sponsoring.html:57
 msgid ""
@@ -2073,6 +2073,10 @@ msgid ""
 " magnets, badges &amp; more. Order in seconds and get free online proofs,"
 " free shipping, and super fast turnaround!"
 msgstr ""
+"Sticker Mule je najrýchlejší a najjednoduchší spôsob ako nakúpiť ľubovoľné "
+"tlačové produkty. Tisícky ľudí nám už zverili výrobu nadupaných nálepiek, "
+"štítkov, magnetiek, odznakov... Objednajte si v priebehu niekoľkých sekúnd "
+"a získajte online záruku, dopravu zdarma super rýchle doručenie!"
 
 #: templates/sponsoring.html:70
 msgid "Media Partners"
@@ -2080,7 +2084,7 @@ msgstr "Medálni partneri"
 
 #: templates/sponsoring.html:89
 msgid "Partners"
-msgstr ""
+msgstr "Partneri"
 
 #: templates/sponsoring.html:129
 msgid "Why become a sponsor?"
