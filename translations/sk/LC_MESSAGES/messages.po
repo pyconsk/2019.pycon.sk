@@ -285,7 +285,7 @@ msgstr ""
 "aplikácii? Radi by sme videli tvoju prednášku, ale ak z nejakého dôvodu "
 "nechceš prednášať vo veľkom auditóriu alebo si myslíš, že tvoja téma "
 "zaujme iba obmedzený počeť ľudí a nie je vhodná pre všeobecné publikum, "
-"prǐď nám ukázať, čo robíš, na PyCon SK Poster Session."
+"príď nám ukázať, čo robíš, na PyCon SK Poster Session."
 
 #: templates/cfp.html:84 templates/cfp_form.html:272
 msgid "Recording release"
