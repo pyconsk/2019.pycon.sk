@@ -1,14 +1,14 @@
 # Translations template for PROJECT.
-# Copyright (C) 2018 ORGANIZATION
+# Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-12-20 07:58+0100\n"
+"POT-Creation-Date: 2019-01-03 21:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1655,6 +1655,19 @@ msgstr ""
 msgid ""
 "Professor Juraj Hromkovič is a university lecturer from Swiss Federal "
 "Institute of Technology (ETH) in Zürich."
+msgstr ""
+
+#: templates/speakers.html:130
+msgid "CS student and Python enthusiast"
+msgstr ""
+
+#: templates/speakers.html:139
+msgid ""
+"Luke is 17 and is studying computer science, maths, further maths and "
+"physics in Year 12 (English Secondary school / Sixthform). He loves to "
+"program in Python and thinks that the micro:bit is a great eductional "
+"tool and should be more widely used. He has given previous talks at Pycon"
+" UK and is looking forward to speaking at Pycon SK 2019."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
