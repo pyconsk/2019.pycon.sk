@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-03 21:50+0100\n"
+"POT-Creation-Date: 2019-01-07 16:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,105 +42,113 @@ msgstr ""
 msgid "Call for proposals"
 msgstr ""
 
-#: templates/body.html:91 templates/schedule.html:8 templates/schedule.html:17
+#: templates/body.html:90
+msgid "Program"
+msgstr ""
+
+#: templates/body.html:94 templates/schedule.html:8 templates/schedule.html:17
 msgid "Schedule"
 msgstr ""
 
-#: templates/body.html:99
+#: templates/body.html:97
+msgid "Job Fair"
+msgstr ""
+
+#: templates/body.html:103
 msgid "Sponsoring"
 msgstr ""
 
-#: templates/body.html:103 templates/edusummit.html:8
+#: templates/body.html:107 templates/edusummit.html:8
 #: templates/edusummit.html:18
 msgid "EduSummit"
 msgstr ""
 
-#: templates/body.html:107 templates/body.html:230
+#: templates/body.html:111 templates/body.html:234
 msgid "About Us"
 msgstr ""
 
-#: templates/body.html:110
+#: templates/body.html:114
 msgid "FAQ"
 msgstr ""
 
-#: templates/body.html:111 templates/tickets.html:144 templates/venue.html:33
+#: templates/body.html:115 templates/tickets.html:144 templates/venue.html:33
 msgid "Venue"
 msgstr ""
 
-#: templates/body.html:112 templates/coc.html:7 templates/coc.html:16
+#: templates/body.html:116 templates/coc.html:7 templates/coc.html:16
 msgid "Code of Conduct"
 msgstr ""
 
-#: templates/body.html:113 templates/cfv.html:13 templates/cfv.html:23
+#: templates/body.html:117 templates/cfv.html:13 templates/cfv.html:23
 msgid "Call for volunteers"
 msgstr ""
 
-#: templates/body.html:114 templates/body.html:217
+#: templates/body.html:118 templates/body.html:221
 msgid "SPy o.z."
 msgstr ""
 
-#: templates/body.html:119 templates/faq.html:66 templates/tickets.html:13
+#: templates/body.html:123 templates/faq.html:66 templates/tickets.html:13
 #: templates/tickets.html:22
 msgid "Tickets"
 msgstr ""
 
-#: templates/body.html:154
+#: templates/body.html:158
 msgid "General Queries"
 msgstr ""
 
-#: templates/body.html:166
+#: templates/body.html:170
 msgid "Ticket Queries"
 msgstr ""
 
-#: templates/body.html:178
+#: templates/body.html:182
 msgid "Event Organiser"
 msgstr ""
 
-#: templates/body.html:212
+#: templates/body.html:216
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
 " the %(psf)s."
 msgstr ""
 
-#: templates/body.html:214
+#: templates/body.html:218
 msgid "Python Software foundation"
 msgstr ""
 
-#: templates/body.html:216
+#: templates/body.html:220
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr ""
 
-#: templates/body.html:217
+#: templates/body.html:221
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:219
+#: templates/body.html:223
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is community managed website,"
 " contribute at our %(github)s."
 msgstr ""
 
-#: templates/body.html:232
+#: templates/body.html:236
 msgid "Become a Sponsor"
 msgstr ""
 
-#: templates/body.html:233 templates/index.html:119
+#: templates/body.html:237 templates/index.html:119
 msgid "Submit your talk"
 msgstr ""
 
-#: templates/body.html:235
+#: templates/body.html:239
 msgid "Help out as a volunteer"
 msgstr ""
 
-#: templates/body.html:236
+#: templates/body.html:240
 msgid "Buy your ticket"
 msgstr ""
 
-#: templates/body.html:254
+#: templates/body.html:258
 msgid "Back to Top"
 msgstr ""
 
@@ -1209,6 +1217,84 @@ msgstr ""
 
 #: templates/index.html:336 templates/speakers.html:31
 msgid "Python engineer at Elastic"
+msgstr ""
+
+#: templates/job-fair.html:8
+msgid "Job fair"
+msgstr ""
+
+#: templates/job-fair.html:20
+msgid ""
+"An opportunity for employers to look for candidates in tech conference "
+"packed with geeks and programmers in general and also for more or less "
+"experienced job seekers to meet with multiple tech companies in one "
+"place."
+msgstr ""
+
+#: templates/job-fair.html:23
+msgid "Employers"
+msgstr ""
+
+#: templates/job-fair.html:25
+msgid ""
+"PyCon SK will be the capital of Python for three days, it will become a "
+"place with the highest density of Python programmers per square meter. "
+msgstr ""
+
+#: templates/job-fair.html:26
+msgid ""
+"You can seek for fresh graduates, but also for seasoned programmers who "
+"are looking for a change in their careers. "
+msgstr ""
+
+#: templates/job-fair.html:27
+msgid "Present your company and show what it is like to work with you. "
+msgstr ""
+
+#: templates/job-fair.html:30
+msgid "Students"
+msgstr ""
+
+#: templates/job-fair.html:32
+msgid ""
+"Looking for your first real job as a programmer? PyCon SK is a great "
+"place with many companies eager to hire a Pythonista. "
+msgstr ""
+
+#: templates/job-fair.html:33
+msgid ""
+"Visit our Job fair or drop in the sponsors booths and talk with your "
+"potential future employer. "
+msgstr ""
+
+#: templates/job-fair.html:34
+msgid "Get an idea of how the interview with recruiter looks like. "
+msgstr ""
+
+#: templates/job-fair.html:35
+msgid "Find the company that suits you and can use your skills best. "
+msgstr ""
+
+#: templates/job-fair.html:38
+msgid "Professionals"
+msgstr ""
+
+#: templates/job-fair.html:40
+msgid ""
+"If you feel an urge to change your career after years of routine work, "
+"PyCon SK is the best place for you. "
+msgstr ""
+
+#: templates/job-fair.html:41
+msgid ""
+"Visit our job fair and talk with companies that will appreciate your "
+"experience.  "
+msgstr ""
+
+#: templates/job-fair.html:42
+msgid ""
+"Even if you do not look for a new job, you might get an overview of what "
+"options you have. "
 msgstr ""
 
 #: templates/mailchimp.html:2
