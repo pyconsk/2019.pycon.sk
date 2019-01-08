@@ -86,13 +86,17 @@
                 </ul>
               </li>
 
-              <li class="{# dropdown #}{{ li_schedule }}">
-                <a href="{{ url_for('schedule', lang_code=lang_code) }}"
-                    {# class="dropdown-toggle" data-toggle="dropdown" #}>{{ _('Schedule') }}
-                  {# <i class="fa fa-angle-down"></i> #}</a>
-                {#								  <ul class="dropdown-menu" role="menu">#}
-                {#                    <a href="{{ url_for('schedule', lang_code=lang_code) }}">{{ _('Schedule') }}</a>#}
-                {#                  </ul>#}
+              <li class="dropdown {{ li_schedule }}{{ li_jobfair }}">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('Program') }}
+                    <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li>
+                      <a href="{{ url_for('schedule', lang_code=lang_code) }}">{{ _('Schedule') }}</a>
+                    </li>
+                    <li>
+                      <a href="{{ url_for('jobfair', lang_code=lang_code) }}">{{ _('Job Fair') }}</a>
+                    </li>
+                  </ul>
               </li>
 
               <li class="{{ li_sponsoring }}">
