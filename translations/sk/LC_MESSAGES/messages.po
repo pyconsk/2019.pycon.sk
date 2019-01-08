@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-07 16:02+0100\n"
+"POT-Creation-Date: 2019-01-08 20:44+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -759,7 +759,7 @@ msgstr ""
 "skúsenosti a vedomosti o užitočných nástrojoch."
 
 #: templates/edusummit.html:34 templates/edusummit.html:40
-#: templates/index.html:311 templates/speakers.html:88
+#: templates/index.html:311 templates/speakers.html:90
 msgid "Profesor Juraj Hromkovič, DrSc."
 msgstr "Profesor Juraj Hromkovič, DrSc."
 
@@ -773,7 +773,7 @@ msgstr ""
 "vysokoškolský pedagóg vo Švajčiarskom federálnom technologickom inštitúte"
 " (ETH) v Zürichu."
 
-#: templates/edusummit.html:45 templates/speakers.html:105
+#: templates/edusummit.html:45 templates/speakers.html:107
 msgid ""
 "He has authored many books and scientific publications dealing "
 "particularly with algorithmics, probabilistic algorithms and didactics of"
@@ -1455,11 +1455,11 @@ msgstr "Úžasní rečníci"
 msgid "Listen, Learn, Get inspired."
 msgstr "Počúvaj, uč sa a inšpiruj sa"
 
-#: templates/index.html:314 templates/speakers.html:95
+#: templates/index.html:314 templates/speakers.html:97
 msgid "professor at ETH Zürich"
 msgstr "profesor na ETH Zürich"
 
-#: templates/index.html:325 templates/speakers.html:63
+#: templates/index.html:325 templates/speakers.html:65
 msgid "senior software engineer with Google AI Genomics"
 msgstr "senior softvér vývojárka v Google AI Genomics"
 
@@ -2083,7 +2083,35 @@ msgstr ""
 "obsahovú webstránku pre veľké publikum. Vždy veľmi inklinoval k práci s "
 "dátami a pomáhaniu tímom rozširovať ich kód a dáta."
 
-#: templates/speakers.html:70
+#: templates/speakers.html:44
+msgid "So you want to be an Engineer?"
+msgstr ""
+
+#: templates/speakers.html:45
+msgid ""
+"Software Engineering is a new field, have we figured out all the ins and "
+"outs of how best to work in it?"
+msgstr ""
+
+#: templates/speakers.html:46
+msgid ""
+"For a lot of people the technology field has always been a semi-magical "
+"place where engineers use their arcane knowledge to tease the secrets "
+"from the computer and unfortunately we have bought into this myth... Let "
+"us examine what are some of the myths surrounding out field and which "
+"aspects might actually be useful. Is SW engineering an art or just "
+"another skill? Is talent required? Does it even matter? What about the "
+"10X engineer...?"
+msgstr ""
+
+#: templates/speakers.html:47
+msgid ""
+"I will be sharing some insights that I have learned from trying to answer"
+" these questions for myself, part based on research, part on personal "
+"opinion."
+msgstr ""
+
+#: templates/speakers.html:72
 msgid ""
 "Helen Li is a senior software engineer with Google AI Genomics. She "
 "graduated from Massachusetts Institute of Technology with a bachelor's "
@@ -2096,11 +2124,11 @@ msgstr ""
 "na Nucleuse, bola aktívnou prispievateľkou do projektu Chromium, kde "
 "počas štyroch rokov vyvíjala open-sourcové knižnice a nástroje."
 
-#: templates/speakers.html:74
+#: templates/speakers.html:76
 msgid "Nucleus: an open-source library for genomics data and machine learning"
 msgstr "Nucleus: open-sourcová knižnica na genetické dáta a strojové učenie"
 
-#: templates/speakers.html:76
+#: templates/speakers.html:78
 msgid ""
 "Nucleus is a Python library designed to make it easy to read, write, and "
 "analyze genomics data in common bioinformatics file formats such as SAM "
@@ -2119,7 +2147,7 @@ msgstr ""
 "projektoch využívajúcich strojové učenie v Google AI Genomics. Táto "
 "prednáška stručne predstaví Nucleus, jeho funkcionalitu a jeho API."
 
-#: templates/speakers.html:104
+#: templates/speakers.html:106
 msgid ""
 "Professor Juraj Hromkovič is a university lecturer from Swiss Federal "
 "Institute of Technology (ETH) in Zürich."
@@ -2127,11 +2155,11 @@ msgstr ""
 "Profesor Juraj Hromkovič, DrSc., ktorý pôsobí ako vysokoškolský pedagóg "
 "vo Švajčiarskom federálnom technologickom inštitúte (ETH) v Zürichu."
 
-#: templates/speakers.html:130
+#: templates/speakers.html:132
 msgid "CS student and Python enthusiast"
 msgstr "študent informatiky a Python nadšenec"
 
-#: templates/speakers.html:139
+#: templates/speakers.html:141
 msgid ""
 "Luke is 17 and is studying computer science, maths, further maths and "
 "physics in Year 12 (English Secondary school / Sixthform). He loves to "
