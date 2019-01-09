@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 20:14+0100\n"
+"POT-Creation-Date: 2019-01-09 21:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -156,13 +156,17 @@ msgstr ""
 msgid "The Call For Proposals is open!"
 msgstr ""
 
-#: templates/cfp.html:24 templates/cfv.html:30
+#: templates/cfp.html:23
+msgid "Anyone can be part of the conference"
+msgstr ""
+
+#: templates/cfp.html:25 templates/cfv.html:30
 msgid ""
 "PyCon SK is organized by the Python community and for the Python "
 "community."
 msgstr ""
 
-#: templates/cfp.html:25
+#: templates/cfp.html:26
 msgid ""
 "You're coming to the event, and that makes you part of the community. If "
 "you've done something that you think other people might be interested in,"
@@ -174,29 +178,25 @@ msgid ""
 "First-time speakers talk proposals are preferred."
 msgstr ""
 
-#: templates/cfp.html:28
-msgid "Where to submit your proposal"
+#: templates/cfp.html:29
+msgid "Don't hesitate"
 msgstr ""
 
-#: templates/cfp.html:30
-msgid "We are glad you are interested in giving a talk at PyCon SK 2019!"
-msgstr ""
-
-#: templates/cfp.html:31 templates/index.html:288
+#: templates/cfp.html:31
 msgid ""
-"Submit your talk proposal with short abstract and your bio. All selected "
-"speakers get a complimentary ticket to the conference."
-msgstr ""
-
-#: templates/cfp.html:34
-msgid "Call for proposals for PyCon SK 2019 is open."
+"We are trying to finalize the conference program as soon as possible, the"
+" earlier you submit your proposal the higher chance of acceptance it has."
+" The first <b>deadline for submissions is 1st February 2019</b>, when we "
+"will choose most of the talk and workshop slots of the conference. The "
+"final deadline is 14th February 2019, when we will choose the few "
+"remaining free slots."
 msgstr ""
 
 #: templates/cfp.html:35
 msgid ""
-"The deadline for submissions is the end of 14th February 2019. If you "
-"have any questions, please contact us via email: info@pycon.sk or join "
-"our Slack channel"
+"Still not sure about the details your proposal? No worries :-) <b>After "
+"submitting your proposal, you will receive a confirmation email with a "
+"link on which you can return to your proposal and make changes.</b>"
 msgstr ""
 
 #: templates/cfp.html:39 templates/cfp_form.html:269
@@ -205,10 +205,20 @@ msgid "Submit your proposal"
 msgstr ""
 
 #: templates/cfp.html:42
+msgid "Give us a tip"
+msgstr ""
+
+#: templates/cfp.html:45
+msgid ""
+"Do you know about a speaker that would be a good fit for our conference? "
+"<b>Let us know:</b>"
+msgstr ""
+
+#: templates/cfp.html:48
 msgid "Guidelines for Proposal Submission"
 msgstr ""
 
-#: templates/cfp.html:44
+#: templates/cfp.html:50
 msgid ""
 "There is no official restriction on the topic that you propose a talk "
 "session. Talks about Python or the Python community are most likely to "
@@ -219,22 +229,32 @@ msgid ""
 "proposals is accepted."
 msgstr ""
 
-#: templates/cfp.html:52
+#: templates/cfp.html:54
+msgid ""
+"If you have any questions, please contact us via email: info@pycon.sk or "
+"join our Slack channel"
+msgstr ""
+
+#: templates/cfp.html:58
+msgid "All selected speakers get a complimentary ticket to the conference."
+msgstr ""
+
+#: templates/cfp.html:68
 msgid "Talks"
 msgstr ""
 
-#: templates/cfp.html:54
+#: templates/cfp.html:70
 msgid ""
 "Most talks are 30 minutes long, but we do offer a limited number of "
 "45-minute slots for important topics that promise to benefit from a more "
 "extensive treatment."
 msgstr ""
 
-#: templates/cfp.html:63
+#: templates/cfp.html:79
 msgid "Workshops"
 msgstr ""
 
-#: templates/cfp.html:65
+#: templates/cfp.html:81
 msgid ""
 "As with the talks, we are looking for tutorials that can grow this "
 "community at any level! We aim for tutorials that will advance Python, "
@@ -243,11 +263,11 @@ msgid ""
 " much more preparation."
 msgstr ""
 
-#: templates/cfp.html:74 templates/cfp_form.html:116
+#: templates/cfp.html:90 templates/cfp_form.html:116
 msgid "Poster"
 msgstr ""
 
-#: templates/cfp.html:76
+#: templates/cfp.html:92
 msgid ""
 "Are you involved in an interesting project, new service or application of"
 " technology? We would like to see your talk but if you - for any reason -"
@@ -256,11 +276,11 @@ msgid ""
 "why not present what you are doing in PyCon SK Poster Session?"
 msgstr ""
 
-#: templates/cfp.html:84 templates/cfp_form.html:272
+#: templates/cfp.html:100 templates/cfp_form.html:272
 msgid "Recording release"
 msgstr ""
 
-#: templates/cfp.html:86 templates/cfp_form.html:274
+#: templates/cfp.html:102 templates/cfp_form.html:274
 #: templates/recording.html:24
 msgid ""
 "Part of the motivation for PyCon SK is to help with Python education and "
@@ -269,7 +289,7 @@ msgid ""
 "recordings on the web."
 msgstr ""
 
-#: templates/cfp.html:89 templates/cfp_form.html:277
+#: templates/cfp.html:105 templates/cfp_form.html:277
 #: templates/recording.html:28
 msgid ""
 "By submitting your talk or workshop proposal, or by signing up to give a "
@@ -277,7 +297,7 @@ msgid ""
 "edit, and release audio and/or video of your presentation."
 msgstr ""
 
-#: templates/cfp.html:92 templates/cfp_form.html:280
+#: templates/cfp.html:108 templates/cfp_form.html:280
 msgid "Full recording release statement"
 msgstr ""
 
@@ -362,7 +382,7 @@ msgstr ""
 msgid "Workshop"
 msgstr ""
 
-#: templates/cfp_form.html:122 templates/edusummit.html:96
+#: templates/cfp_form.html:122 templates/edusummit.html:97
 msgid "Hardware Projects Showcase"
 msgstr ""
 
@@ -681,39 +701,44 @@ msgid ""
 "talk or workshop and co-create the conference "
 msgstr ""
 
-#: templates/edusummit.html:84
+#: templates/edusummit.html:75 templates/edusummit.html:197
+#: templates/edusummit.html:199
+msgid "here"
+msgstr ""
+
+#: templates/edusummit.html:85
 msgid "Young Coders' day"
 msgstr ""
 
-#: templates/edusummit.html:86
+#: templates/edusummit.html:87
 msgid ""
 "On saturday, we will host a Young Coders' day, consisting of programming "
 "workshops for children."
 msgstr ""
 
-#: templates/edusummit.html:98
+#: templates/edusummit.html:99
 msgid ""
 "If you have created an interesting hardware project which uses Python and"
 " would like to share it to the world then bring it to PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:111
+#: templates/edusummit.html:112
 msgid "EduSummit workshops"
 msgstr ""
 
-#: templates/edusummit.html:112
+#: templates/edusummit.html:113
 msgid "On saturday we will hold numerous educational workshops."
 msgstr ""
 
-#: templates/edusummit.html:123
+#: templates/edusummit.html:124
 msgid "Microbit image"
 msgstr ""
 
-#: templates/edusummit.html:129
+#: templates/edusummit.html:130
 msgid "Programovať (micro:bit) môže každý. Fakt alebo mýtus?"
 msgstr ""
 
-#: templates/edusummit.html:132
+#: templates/edusummit.html:133
 msgid ""
 "Čo keby ste mali riešenie na oživenie vyučovania programovania? Riešenie,"
 " ktoré svieti,\n"
@@ -731,15 +756,15 @@ msgid ""
 "programovať!"
 msgstr ""
 
-#: templates/edusummit.html:152
+#: templates/edusummit.html:153
 msgid "Minecraft image"
 msgstr ""
 
-#: templates/edusummit.html:158
+#: templates/edusummit.html:159
 msgid "Dobrodružstvá v Minecrafte s jazykom Python"
 msgstr ""
 
-#: templates/edusummit.html:161
+#: templates/edusummit.html:162
 msgid ""
 "Učiť sa programovať je ťažké. Naučiť niekoho programovať je ešte ťažšie. "
 "Je však veľmi jednoduché stráviť hodiny času v svete hry Minecraft. Na "
@@ -752,15 +777,15 @@ msgid ""
 "náladu a... krompáč."
 msgstr ""
 
-#: templates/edusummit.html:175
+#: templates/edusummit.html:176
 msgid "Space invaders image"
 msgstr ""
 
-#: templates/edusummit.html:181
+#: templates/edusummit.html:182
 msgid "Výučba programovania pomocou tvorby hier v PyGame Zero"
 msgstr ""
 
-#: templates/edusummit.html:184
+#: templates/edusummit.html:185
 msgid ""
 "Programovanie je cool a sexi. Ak však chcete osloviť súčasné decká, asi "
 "už neuspejete výpisom hlášky \"Hello, world!\". Rovnako tak neuspejete "
@@ -775,20 +800,15 @@ msgid ""
 "použitím knižnice PyGame Zero."
 msgstr ""
 
-#: templates/edusummit.html:195
+#: templates/edusummit.html:196
 msgid "The Call for Proposals is still open, more info"
 msgstr ""
 
-#: templates/edusummit.html:196 templates/edusummit.html:198
-#: templates/edusummit.html:199
-msgid "here"
-msgstr ""
-
-#: templates/edusummit.html:197
+#: templates/edusummit.html:198
 msgid "We will update the workshop list after the Call for Proposals is closed."
 msgstr ""
 
-#: templates/edusummit.html:197
+#: templates/edusummit.html:198
 msgid "More information about the schedule can be found "
 msgstr ""
 
@@ -1240,6 +1260,12 @@ msgstr ""
 msgid ""
 "Buy your ticket before they are gone... So far every PyCon SK has been "
 "sold out!"
+msgstr ""
+
+#: templates/index.html:288
+msgid ""
+"Submit your talk proposal with short abstract and your bio. All selected "
+"speakers get a complimentary ticket to the conference."
 msgstr ""
 
 #: templates/index.html:302

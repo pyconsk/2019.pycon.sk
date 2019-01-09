@@ -20,28 +20,42 @@
 
       <div class="row">
         <div class="col-md-12">
+          <h3>{{ _('Anyone can be part of the conference') }}</h3>
           <p class="text-justify">
             {{ _('PyCon SK is organized by the Python community and for the Python community.') }}
             {{ _('You\'re coming to the event, and that makes you part of the community. If you\'ve done something that you think other people might be interested in, or that you think they should know about, please do consider telling us about it. We don\'t just want to hear from the experts or famous names - other perspectives are just as valuable, so don\'t let the idea that you\'re not expert or famous enough stop you. This is your invitation to submit a talk proposal if you haven\'t spoken at the conference before. First-time speakers talk proposals are preferred.') }}
           </p>
 
-          <h3>{{ _('Where to submit your proposal') }}</h3>
+          <h3>{{ _('Don\'t hesitate') }}</h3>
           <p class="text-justify">
-            {{ _('We are glad you are interested in giving a talk at PyCon SK 2019!') }}
-            {{ _('Submit your talk proposal with short abstract and your bio. All selected speakers get a complimentary ticket to the conference.') }}
+            {{ _('We are trying to finalize the conference program as soon as possible, the earlier you submit your proposal the higher chance of acceptance it has. The first <b>deadline for submissions is 1st February 2019</b>, when we will choose most of the talk and workshop slots of the conference. The final deadline is 14th February 2019, when we will choose the few remaining free slots.') }}
           </p>
+
           <p class="text-justify">
-            {{ _('Call for proposals for PyCon SK 2019 is open.') }}
-            {{ _('The deadline for submissions is the end of 14th February 2019. If you have any questions, please contact us via email: info@pycon.sk or join our Slack channel') }}
+            {{ _('Still not sure about the details your proposal? No worries :-) <b>After submitting your proposal, you will receive a confirmation email with a link on which you can return to your proposal and make changes.</b>') }}
           </p>
 
           <p class="text-center">
             <a href="{{ url_for('cfp_form', lang_code=lang_code) }}" class="btn btn-primary btn-lg"><i class="fa fa-microphone"></i> {{ _('Submit your proposal') }}</a>
           </p>
 
+          <h3>{{ _('Give us a tip') }}</h3>
+
+          <p class="text-justify">
+            {{ _('Do you know about a speaker that would be a good fit for our conference? <b>Let us know:</b>') }} <a href="mailto:info@pycon.sk">info@pycon.sk</a>
+          </p>
+
           <h3>{{ _('Guidelines for Proposal Submission') }}</h3>
           <p class="text-justify">
             {{ _('There is no official restriction on the topic that you propose a talk session. Talks about Python or the Python community are most likely to line up with the interests of PyCon\'s audience, and a key consideration that the talk selection committee will be thinking about is your talk\'s ability to draw an audience. You may propose more than one, but the committee will ask you to choose only one talk if more than one of your proposals is accepted.') }}
+          </p>
+
+          <p class="text-justify">
+            {{ _('If you have any questions, please contact us via email: info@pycon.sk or join our Slack channel') }}
+          </p>
+
+          <p class="text-justify">
+            {{ _('All selected speakers get a complimentary ticket to the conference.') }}
           </p>
 
           <div class="row">
