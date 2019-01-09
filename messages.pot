@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-08 20:44+0100\n"
+"POT-Creation-Date: 2019-01-09 20:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1784,6 +1784,34 @@ msgid ""
 " UK and is looking forward to speaking at Pycon SK 2019."
 msgstr ""
 
+#: templates/speakers.html:146
+msgid ""
+"Controling a robotic arm with micro:bits. How to make computer science "
+"education more interesting."
+msgstr ""
+
+#: templates/speakers.html:147
+msgid ""
+"Captivating a group of children for a sustained period of time is "
+"notoriously hard. I will be exporing with you how the micro:bit can be "
+"used to engage a young audience with interactive demos and programming "
+"activities."
+msgstr ""
+
+#: templates/speakers.html:148
+msgid ""
+"Children love to physically interact with hardware. That is what is great"
+" about the micro:bit. It not only has built in LEDs and buttons but can "
+"also control bigger more exciting electronics like robotic arms. This "
+"allows for setup that gives students of all ability levels a challenge. "
+"Students that are beginners to programming can be given a more complete "
+"program or walk throught a worksheet that takes them through the process "
+"of controling the device (in this case a robotic arm) step by step. "
+"Students that have higher programming skills can be given a more bare "
+"bones / boilerplate source file and can write code to control the arm "
+"with less guidance."
+msgstr ""
+
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
 msgid "Sponsors &amp; Partners"
 msgstr ""
@@ -1834,89 +1862,89 @@ msgstr ""
 msgid "Partners"
 msgstr ""
 
-#: templates/sponsoring.html:129
+#: templates/sponsoring.html:147
 msgid "Why become a sponsor?"
 msgstr ""
 
-#: templates/sponsoring.html:130
+#: templates/sponsoring.html:148
 msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
 msgstr ""
 
-#: templates/sponsoring.html:135
+#: templates/sponsoring.html:153
 msgid ""
 "PyCon is an annual gathering for the community using and developing the "
 "open-source Python programming language. The conference is completely "
 "organized by volunteers."
 msgstr ""
 
-#: templates/sponsoring.html:136
+#: templates/sponsoring.html:154
 msgid ""
 "The members of the Python community organize a PyCon conference in their "
 "home countries regularly, PyCon will happen in Slovakia for the fourth "
 "time."
 msgstr ""
 
-#: templates/sponsoring.html:140
+#: templates/sponsoring.html:158
 msgid ""
 "To ensure high-quality speakers and keep the tickets price available for "
 "everyone we need you, the sponsors, who allow the conference to take "
 "place."
 msgstr ""
 
-#: templates/sponsoring.html:144
+#: templates/sponsoring.html:162
 msgid ""
 "Do not hesitate to contact us. We are flexible and willing to work with "
 "you to design a sponsorship package that is going to meet your business "
 "needs."
 msgstr ""
 
-#: templates/sponsoring.html:156
+#: templates/sponsoring.html:174
 msgid "Recruitment"
 msgstr ""
 
-#: templates/sponsoring.html:158
+#: templates/sponsoring.html:176
 msgid ""
 "Are you looking for programmers? PyCon is the best place for meeting new "
 "talents. Many participants will be experienced developers looking for "
 "their next big career move."
 msgstr ""
 
-#: templates/sponsoring.html:167
+#: templates/sponsoring.html:185
 msgid "Audience"
 msgstr ""
 
-#: templates/sponsoring.html:169
+#: templates/sponsoring.html:187
 msgid ""
 "Want to get your message across to the people, so they talk about you? "
 "PyCon is a great opportunity. People in the Python community like to "
 "discover and share new things."
 msgstr ""
 
-#: templates/sponsoring.html:178
+#: templates/sponsoring.html:196
 msgid "Marketing"
 msgstr ""
 
-#: templates/sponsoring.html:180
+#: templates/sponsoring.html:198
 msgid ""
 "Looking for new users for your product? Such people can be found at PyCon"
 " - they also will look for new products and ideas."
 msgstr ""
 
-#: templates/sponsoring.html:189
+#: templates/sponsoring.html:207
 msgid "Community"
 msgstr ""
 
-#: templates/sponsoring.html:191
+#: templates/sponsoring.html:209
 msgid ""
 "Looking for new contributors and partners for your open source project? "
 "PyCon is the place, where they also will look for you."
 msgstr ""
 
-#: templates/sponsoring.html:200
+#: templates/sponsoring.html:218
 msgid "Support"
 msgstr ""
 
-#: templates/sponsoring.html:202
+#: templates/sponsoring.html:220
 msgid ""
 "Are you using Python in your company? Support for community events is an "
 "excellent opportunity to contribute back."
