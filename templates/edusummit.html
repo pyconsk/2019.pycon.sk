@@ -71,7 +71,8 @@
 						</span>
                         <h3 class="feature-title">{{ _('Speak at EduSummit') }}</h3>
                         <div class="feature-box-content">
-                            <p>{{ _('Call for Proposals is open. If you are a teacher or educator submit your talk or workshop and co-create the conference.') }}</p>
+                            <p>{{ _('Call for Proposals is open. If you are a teacher or educator submit your talk or workshop and co-create the conference ') }} <a
+                                href="{{ url_for('cfp', lang_code=lang_code) }}">{{ _('here') }}</a>.</p>
                         </div>
                     </div><!-- Feature box end -->
                 </div><!-- Col 1 end -->
@@ -112,16 +113,88 @@
                 <p class="section-sub-title">{{ _('On saturday we will hold numerous educational workshops.') }}</p>
             </div><!--/ Title row end -->
 
+            {% if lang_code=="sk" %}
+
             <div class="row">
-                <ul>
-                    <li>{{ _('A beginner\'s workshop with BBC micro:bit given by high school students') }}</li>
-                    <li>{{ _('An advanced workshop with BBC micro:bit for teachers who already teach with micro:bits.') }}</li>
-                    <!-- <li>{{ _('Workshop on using, creating and sharing Open Educational Resources for teachers') }}</li> -->
-                    <!-- <li>{{ _('Parse Open Data with Python') }}</li> -->
-                    <!-- <li>{{ _('PyGame zero workshop for teachers') }}</li> -->
-                    <!-- <li>{{ _('Control Minecraft via Python') }}</li> -->
-                    <!-- <li>{{ _('Turn your BBC micro:bit into a Minecraft game controller') }}</li> -->
-                </ul>
+                <div class="ts-speaker-list clearfix">
+                    <div class="col-xs-12 col-md-3 col-md-offset-1">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive"
+                                 src="{{ url_for('static', filename='images/workshops/microbit.jpg') }}"
+                                 alt="{{ _('Microbit image') }}"/>
+                        </div><!--Image end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-xs-12 col-md-7">
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name dark">{{ _('Programovať (micro:bit) môže každý. Fakt alebo mýtus?') }}</h3>
+                            <div class="ts-speaker-bio text-justify">
+                                <p>
+                                    {{ _('Čo keby ste mali riešenie na oživenie vyučovania programovania? Riešenie, ktoré svieti,
+                                          reaguje na podnety, alebo dokonca posiela správy? A môže programovať skutočne každý?
+                                          Na workshope sa pokúsime nájsť odpoveď na tieto otázky. Vyskúšame si zábavné programovanie,
+                                          či už s využitím grafického blokovo orientovaného programovacieho jazyka alebo textového
+                                          jazyka MicroPython. Máme pre vás pripravenú ochutnávku práce s programovateľným mikropočítačom
+                                          BBC micro:bit, s prezentáciou praktických tipov na rôzne aktivity pre študentov.
+                                          Vzbuďme v študentoch chuť programovať!') }}
+                                </p>
+                            </div>
+                        </div><!-- Info end -->
+                    </div><!-- Col end -->
+                </div><!-- Speaker list 3 end -->
+            </div><!-- Speaker row 3 -->
+
+            <div class="row">
+                <div class="ts-speaker-list clearfix">
+                    <div class="col-xs-12 col-md-3 col-md-offset-1">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive"
+                                 src="{{ url_for('static', filename='images/workshops/minecraft.png') }}"
+                                 alt="{{ _('Minecraft image') }}"/>
+                        </div><!--Image end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-xs-12 col-md-7">
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name dark">{{ _('Dobrodružstvá v Minecrafte s jazykom Python') }}</h3>
+                            <div class="ts-speaker-bio text-justify">
+                                <p>
+                                    {{ _('Učiť sa programovať je ťažké. Naučiť niekoho programovať je ešte ťažšie. Je však veľmi jednoduché stráviť hodiny času v svete hry Minecraft. Na tomto workshope sa pokúsime spojiť všetky tieto tri problémy dokopy a naučíme vás programovať v jazyku Python vo svete hry Minecraft. Ak ste nikdy s Pythonom nerobili, nevadí - vraj je to jazyk, s ktorým sa oplatí začať. Takže uvidíme. Aby to nebolo všetko, celá aktivita sa bude konať na minipočítači Raspberry Pi, ktorý obsahuje špeciálnu verziu Minecraft-u určenú práve na výučbu programovania. Nezabudnite si priniesť len dobrú náladu a... krompáč.') }}
+                                </p>
+                            </div>
+                        </div><!-- Info end -->
+                    </div><!-- Col end -->
+                </div><!-- Speaker list 3 end -->
+            </div><!-- Speaker row 3 -->
+
+            <div class="row">
+                <div class="ts-speaker-list clearfix">
+                    <div class="col-xs-12 col-md-3 col-md-offset-1">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive"
+                                 src="{{ url_for('static', filename='images/workshops/space_invaders.png') }}"
+                                 alt="{{ _('Space invaders image') }}"/>
+                        </div><!--Image end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-xs-12 col-md-7">
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name dark">{{ _('Výučba programovania pomocou tvorby hier v PyGame Zero') }}</h3>
+                            <div class="ts-speaker-bio text-justify">
+                                <p>
+                                    {{ _('Programovanie je cool a sexi. Ak však chcete osloviť súčasné decká, asi už neuspejete výpisom hlášky "Hello, world!". Rovnako tak neuspejete výpisom čísiel od 1 po 10 pri prezentovaní cyklov. A už vôbec nie v prostredí čiernej obrazovky a bielych písmeniek. Pre nich už nie je počítač čarovná skrinka. Oni za tým počítačom odsedia v porovnaní s nami častokrát výrazne viac hodín. A častokrát je prvým kontaktom s počítačom práve počítačová hra. Na tomto workshope vám ukážem, ako sa dá počítačová hra vytvoriť za krátky čas zhruba na 100 riadkoch kódu. Nie - nebudeme hádať číslo, ktoré si počítač myslí. Budeme vytvárať jednoduchý remake Arkanoid-u v peknom grafickom prevedení. To všetko v jazyku Python s použitím knižnice PyGame Zero.') }}
+                                </p>
+                            </div>
+                        </div><!-- Info end -->
+                    </div><!-- Col end -->
+                </div><!-- Speaker list 3 end -->
+            </div><!-- Speaker row 3 -->
+
+            {% endif %}
+
+            <div class="row text-center">
+                <p><b>{{ _('The Call for Proposals is still open, more info') }}</li> <a
+                        href="{{ url_for('cfp', lang_code=lang_code) }}">{{ _('here') }}</a></b></p>
                 <p>{{ _('We will update the workshop list after the Call for Proposals is closed.') }} {{ _('More information about the schedule can be found ') }}<a
                         href="{{ url_for('schedule', lang_code=lang_code) }}">{{ _('here') }}</a></p>
             </div>

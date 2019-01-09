@@ -25,7 +25,11 @@
       </div><!--/ Title row end -->
 
       <div class="row">
+
         <div class="col-md-12">
+          <p class="text-justify">
+            {{ _('Still not sure about the details your proposal? No worries :-) <b>After submitting your proposal, you will receive a confirmation email with a link on which you can return to your proposal and make changes.</b>') }}
+          </p>
           <form action="https://docs.google.com/forms/d/e/1FAIpQLSdzKJ7FAYDfAYFZEeNrs2rQMYMM_FDFOcu1tgvIQO-kzLczuA/formResponse"
                 target="_self"
                 id="bootstrapForm"
@@ -43,6 +47,7 @@
               <legend for="1719435898">{{ _('Your name') }} <span class="required">*</span></legend>
               <div class="form-group">
                 <p class="help-block">{{ _('Your name will be displayed on our website if your talk is accepted.') }}</p>
+                <p class="help-block">{{ _('If two or more people will be presenting, please separate the names with commas.') }}</p>
                 <input id="721522564" type="text" name="entry.721522564" class="form-control" required>
               </div>
             </fieldset>
@@ -52,6 +57,7 @@
               <legend for="931103373">{{ _('Biography') }} <span class="required">*</span></legend>
               <div class="form-group">
                 <p class="help-block">{{ _('Your biography will be displayed on our website if your talk is accepted.') }}</p>
+                <p class="help-block">{{ _('If two or more people will be presenting, please separate the bios with a blank line.') }}</p>
                 <textarea id="1240136343" name="entry.1240136343" class="form-control" required></textarea>
               </div>
             </fieldset>
