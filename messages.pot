@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 21:46+0100\n"
+"POT-Creation-Date: 2019-01-13 20:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -394,7 +394,7 @@ msgstr ""
 msgid "Workshop"
 msgstr ""
 
-#: templates/cfp_form.html:128 templates/edusummit.html:97
+#: templates/cfp_form.html:128 templates/edusummit.html:144
 msgid "Hardware Projects Showcase"
 msgstr ""
 
@@ -669,19 +669,23 @@ msgid ""
 " participate in numerous workshops given by experienced educators."
 msgstr ""
 
-#: templates/edusummit.html:34 templates/edusummit.html:40
-#: templates/index.html:311 templates/speakers.html:90
+#: templates/edusummit.html:32 templates/index.html:311
+#: templates/speakers.html:90
 msgid "Profesor Juraj Hromkovič, DrSc."
 msgstr ""
 
-#: templates/edusummit.html:44
-msgid ""
-"This year’s keynote speaker will be professor Juraj Hromkovič is a "
-"university lecturer from Swiss Federal Institute of Technology (ETH) in "
-"Zürich."
+#: templates/edusummit.html:39 templates/index.html:314
+#: templates/speakers.html:97
+msgid "professor at ETH Zürich"
 msgstr ""
 
-#: templates/edusummit.html:45 templates/speakers.html:107
+#: templates/edusummit.html:48 templates/speakers.html:106
+msgid ""
+"Professor Juraj Hromkovič is a university lecturer from Swiss Federal "
+"Institute of Technology (ETH) in Zürich."
+msgstr ""
+
+#: templates/edusummit.html:49 templates/speakers.html:107
 msgid ""
 "He has authored many books and scientific publications dealing "
 "particularly with algorithmics, probabilistic algorithms and didactics of"
@@ -691,66 +695,165 @@ msgid ""
 "republic Andrej Kiska."
 msgstr ""
 
-#: templates/edusummit.html:48
-msgid "Please note that EduSummit will be primarily in Slovak language."
+#: templates/edusummit.html:54
+msgid ""
+"Programovanie s LOGO-filozofiou ako model všeobecného vzdelávania pre "
+"všetky odbory"
 msgstr ""
 
-#: templates/edusummit.html:62
+#: templates/edusummit.html:55
+msgid ""
+"Jean Piaget prišiel s konceptom \"learning by doing\" s cieľom zvýšiť "
+"motiváciu a trvanlivosť vedomostí a prehĺbiť chápanie študovaných "
+"objektov vďaka vlastnej aktivite v procese učenia sa. Seymour Papert "
+"obohatil tento koncept o \"getting things to work\" vo svojej "
+"implementácii výučby programovania v programovacom jazyku LOGO. My sme na"
+" ETH skombinovali tento prístup s konceptom \"critical thinking\", ktorý "
+"odmieta vyučovať hotové produkty vedy (fakty, modely, metódy,...), ale "
+"vyžaduje si učiť procesy ich vytvárania. Pre prípravu vzdelávania tisícky"
+" učiteľov základných a stredných škôl pre výučbu programovania, sme "
+"vyvinuli v rámci týchto výučbových konceptov prostredia na výučbu "
+"programovania, ako aj iných informatických tém a napísali k nim sériu "
+"učebníc. V tejto prednáške sa budeme venovať prostrediam TigerJython "
+"(dialekt Pythonu) a viacerým verziám jazyka LOGO (textovým i blokovým) a "
+"vysvetlíme proces ich tvorby z pohľadu potrieb výučby programovania. "
+"Predstavíme aj informatiku ako viac než 5000 rokov starú vedu a ozrejmíme"
+" jej prínos pre všeobecné vzdelanie a jej nenahraditeľnosť vo vzdelávaní "
+"budúcich generácii."
+msgstr ""
+
+#: templates/edusummit.html:80 templates/speakers.html:132
+msgid "CS student and Python enthusiast"
+msgstr ""
+
+#: templates/edusummit.html:89 templates/speakers.html:141
+msgid ""
+"Luke is 17 and is studying computer science, maths, further maths and "
+"physics in Year 12 (English Secondary school / Sixthform). He loves to "
+"program in Python and thinks that the micro:bit is a great eductional "
+"tool and should be more widely used. He has given previous talks at Pycon"
+" UK and is looking forward to speaking at Pycon SK 2019."
+msgstr ""
+
+#: templates/edusummit.html:93 templates/speakers.html:146
+msgid ""
+"Controling a robotic arm with micro:bits. How to make computer science "
+"education more interesting."
+msgstr ""
+
+#: templates/edusummit.html:94 templates/speakers.html:147
+msgid ""
+"Captivating a group of children for a sustained period of time is "
+"notoriously hard. I will be exporing with you how the micro:bit can be "
+"used to engage a young audience with interactive demos and programming "
+"activities."
+msgstr ""
+
+#: templates/edusummit.html:95 templates/speakers.html:148
+msgid ""
+"Children love to physically interact with hardware. That is what is great"
+" about the micro:bit. It not only has built in LEDs and buttons but can "
+"also control bigger more exciting electronics like robotic arms. This "
+"allows for setup that gives students of all ability levels a challenge. "
+"Students that are beginners to programming can be given a more complete "
+"program or walk throught a worksheet that takes them through the process "
+"of controling the device (in this case a robotic arm) step by step. "
+"Students that have higher programming skills can be given a more bare "
+"bones / boilerplate source file and can write code to control the arm "
+"with less guidance."
+msgstr ""
+
+#: templates/edusummit.html:109
 msgid "Why Attend?"
 msgstr ""
 
-#: templates/edusummit.html:63
+#: templates/edusummit.html:110
 msgid "Great speakers, workshops and hardware showcase"
 msgstr ""
 
-#: templates/edusummit.html:72
+#: templates/edusummit.html:119
 msgid "Speak at EduSummit"
 msgstr ""
 
-#: templates/edusummit.html:74
+#: templates/edusummit.html:121
 msgid ""
 "Call for Proposals is open. If you are a teacher or educator submit your "
 "talk or workshop and co-create the conference "
 msgstr ""
 
-#: templates/edusummit.html:75 templates/edusummit.html:197
-#: templates/edusummit.html:199
+#: templates/edusummit.html:122 templates/edusummit.html:282
+#: templates/edusummit.html:284
 msgid "here"
 msgstr ""
 
-#: templates/edusummit.html:85
+#: templates/edusummit.html:132
 msgid "Young Coders' day"
 msgstr ""
 
-#: templates/edusummit.html:87
+#: templates/edusummit.html:134
 msgid ""
 "On saturday, we will host a Young Coders' day, consisting of programming "
 "workshops for children."
 msgstr ""
 
-#: templates/edusummit.html:99
+#: templates/edusummit.html:146
 msgid ""
 "If you have created an interesting hardware project which uses Python and"
 " would like to share it to the world then bring it to PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:112
+#: templates/edusummit.html:159
 msgid "EduSummit workshops"
 msgstr ""
 
-#: templates/edusummit.html:113
+#: templates/edusummit.html:160
 msgid "On saturday we will hold numerous educational workshops."
 msgstr ""
 
-#: templates/edusummit.html:124
+#: templates/edusummit.html:171 templates/edusummit.html:209
 msgid "Microbit image"
 msgstr ""
 
-#: templates/edusummit.html:130
+#: templates/edusummit.html:177
+msgid "Ako žiakom priblížiť efektivitu a časovú zložitosť algoritmov"
+msgstr ""
+
+#: templates/edusummit.html:180
+msgid ""
+"Python sa stal jedným z najrozšírenejších jazykov vo výučbe informatiky a"
+" je v\n"
+"                                          mnohých ohľadoch vynikajúcou "
+"voľbou na úrovni stredných aj vysokých škôl.\n"
+"                                          Jednou z hlavných úloh trvalo "
+"udržateľného vzdelávania v oblasti výpočtovej\n"
+"                                          techniky je však prekračovať "
+"vyučovanie samotného programovacieho jazyka a\n"
+"                                          diskutovať o aspektoch "
+"\"počítačového myslenia\". Dôležitým príkladom\n"
+"                                          počítačového myslenia je "
+"správna analýza toho, ako dobre funguje konkrétny\n"
+"                                          algoritmus  a nakoľko je "
+"efektívny. Ale môžeme skutočne v úvode do Pythonu\n"
+"                                          vyučovať efektivitu?"
+msgstr ""
+
+#: templates/edusummit.html:191
+msgid ""
+"Na tomto workshope uvádzame príklady toho, ako študentom priblížiť pojem\n"
+"                                          časovej zložitosti na "
+"intuitívnej a zároveň dostatočne formálnej úrovni.\n"
+"                                          Okrem praktických príkladov, "
+"ktoré implementujeme v Pythone, chceme preskúmať\n"
+"                                          teoretické základy, ktoré nám "
+"umožňujú vyhodnotiť a porovnať rôzne algoritmy\n"
+"                                          pre rovnakú triedu problémov."
+msgstr ""
+
+#: templates/edusummit.html:215
 msgid "Programovať (micro:bit) môže každý. Fakt alebo mýtus?"
 msgstr ""
 
-#: templates/edusummit.html:133
+#: templates/edusummit.html:218
 msgid ""
 "Čo keby ste mali riešenie na oživenie vyučovania programovania? Riešenie,"
 " ktoré svieti,\n"
@@ -768,15 +871,15 @@ msgid ""
 "programovať!"
 msgstr ""
 
-#: templates/edusummit.html:153
+#: templates/edusummit.html:238
 msgid "Minecraft image"
 msgstr ""
 
-#: templates/edusummit.html:159
+#: templates/edusummit.html:244
 msgid "Dobrodružstvá v Minecrafte s jazykom Python"
 msgstr ""
 
-#: templates/edusummit.html:162
+#: templates/edusummit.html:247
 msgid ""
 "Učiť sa programovať je ťažké. Naučiť niekoho programovať je ešte ťažšie. "
 "Je však veľmi jednoduché stráviť hodiny času v svete hry Minecraft. Na "
@@ -789,15 +892,15 @@ msgid ""
 "náladu a... krompáč."
 msgstr ""
 
-#: templates/edusummit.html:176
+#: templates/edusummit.html:261
 msgid "Space invaders image"
 msgstr ""
 
-#: templates/edusummit.html:182
+#: templates/edusummit.html:267
 msgid "Výučba programovania pomocou tvorby hier v PyGame Zero"
 msgstr ""
 
-#: templates/edusummit.html:185
+#: templates/edusummit.html:270
 msgid ""
 "Programovanie je cool a sexi. Ak však chcete osloviť súčasné decká, asi "
 "už neuspejete výpisom hlášky \"Hello, world!\". Rovnako tak neuspejete "
@@ -812,23 +915,23 @@ msgid ""
 "použitím knižnice PyGame Zero."
 msgstr ""
 
-#: templates/edusummit.html:196
+#: templates/edusummit.html:281
 msgid "The Call for Proposals is still open, more info"
 msgstr ""
 
-#: templates/edusummit.html:198
+#: templates/edusummit.html:283
 msgid "We will update the workshop list after the Call for Proposals is closed."
 msgstr ""
 
-#: templates/edusummit.html:198
+#: templates/edusummit.html:283
 msgid "More information about the schedule can be found "
 msgstr ""
 
-#: templates/edusummit.html:207
+#: templates/edusummit.html:292
 msgid "SPy Cup"
 msgstr ""
 
-#: templates/edusummit.html:210
+#: templates/edusummit.html:295
 msgid ""
 "Students from all 14 schools currently participating in Teaching with "
 "Hardware will join the SPy Cup contest, in which they create their own "
@@ -838,17 +941,17 @@ msgid ""
 " have a short presentation about their project at PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:212
+#: templates/edusummit.html:297
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
 msgstr ""
 
-#: templates/edusummit.html:221
+#: templates/edusummit.html:306
 msgid "Teaching with Hardware"
 msgstr ""
 
-#: templates/edusummit.html:224
+#: templates/edusummit.html:309
 #, python-format
 msgid ""
 "The goal of the initiative <a href=\"%(url)s\" target=\"_blank\">Teaching"
@@ -863,30 +966,30 @@ msgid ""
 "announced at PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:234
+#: templates/edusummit.html:319
 msgid "Poster Session"
 msgstr ""
 
-#: templates/edusummit.html:237
+#: templates/edusummit.html:322
 msgid "We will host a poster session and we will be happy if you get involved."
 msgstr ""
 
-#: templates/edusummit.html:248
+#: templates/edusummit.html:333
 msgid "Python Cup"
 msgstr ""
 
-#: templates/edusummit.html:251
+#: templates/edusummit.html:336
 #, python-format
 msgid ""
 "The <a href=\"%(url)s\" target=\"_blank\">winners of Python Cup</a> will "
 "be awarded at EduSummit."
 msgstr ""
 
-#: templates/edusummit.html:261
+#: templates/edusummit.html:346
 msgid "What kind of ticked should I buy?"
 msgstr ""
 
-#: templates/edusummit.html:264
+#: templates/edusummit.html:349
 msgid ""
 "All available tickets apply for the whole PyCon SK conference, including "
 "the EduSummit section. All of the talks and workshops take place at the "
@@ -894,26 +997,26 @@ msgid ""
 "attend."
 msgstr ""
 
-#: templates/edusummit.html:265
+#: templates/edusummit.html:350
 msgid "If you are a teacher or student you are eligible for a discount."
 msgstr ""
 
-#: templates/edusummit.html:279
+#: templates/edusummit.html:364
 msgid "Sponsorship"
 msgstr ""
 
-#: templates/edusummit.html:280
+#: templates/edusummit.html:365
 msgid "We need you — EduSummit seeks for sponsors and partners!"
 msgstr ""
 
-#: templates/edusummit.html:285
+#: templates/edusummit.html:370
 msgid ""
 "By supporting PyCon you also support numerous educational activities "
 "during the conference. If the conference is profitable we finance "
 "educational activities during the whole year."
 msgstr ""
 
-#: templates/edusummit.html:286
+#: templates/edusummit.html:371
 #, python-format
 msgid ""
 "Get in touch with us or visit our <a href=\"%(url)s\">sponsorship "
@@ -1286,10 +1389,6 @@ msgstr ""
 
 #: templates/index.html:303
 msgid "Listen, Learn, Get inspired."
-msgstr ""
-
-#: templates/index.html:314 templates/speakers.html:97
-msgid "professor at ETH Zürich"
 msgstr ""
 
 #: templates/index.html:325 templates/speakers.html:65
@@ -1844,53 +1943,6 @@ msgid ""
 "DeepVariant, a state-of-the-art convolutional neural network variant "
 "caller, and in other ML projects at Google AI Genomics. This talk will "
 "give an overview of Nucleus, its features, and its APIs."
-msgstr ""
-
-#: templates/speakers.html:106
-msgid ""
-"Professor Juraj Hromkovič is a university lecturer from Swiss Federal "
-"Institute of Technology (ETH) in Zürich."
-msgstr ""
-
-#: templates/speakers.html:132
-msgid "CS student and Python enthusiast"
-msgstr ""
-
-#: templates/speakers.html:141
-msgid ""
-"Luke is 17 and is studying computer science, maths, further maths and "
-"physics in Year 12 (English Secondary school / Sixthform). He loves to "
-"program in Python and thinks that the micro:bit is a great eductional "
-"tool and should be more widely used. He has given previous talks at Pycon"
-" UK and is looking forward to speaking at Pycon SK 2019."
-msgstr ""
-
-#: templates/speakers.html:146
-msgid ""
-"Controling a robotic arm with micro:bits. How to make computer science "
-"education more interesting."
-msgstr ""
-
-#: templates/speakers.html:147
-msgid ""
-"Captivating a group of children for a sustained period of time is "
-"notoriously hard. I will be exporing with you how the micro:bit can be "
-"used to engage a young audience with interactive demos and programming "
-"activities."
-msgstr ""
-
-#: templates/speakers.html:148
-msgid ""
-"Children love to physically interact with hardware. That is what is great"
-" about the micro:bit. It not only has built in LEDs and buttons but can "
-"also control bigger more exciting electronics like robotic arms. This "
-"allows for setup that gives students of all ability levels a challenge. "
-"Students that are beginners to programming can be given a more complete "
-"program or walk throught a worksheet that takes them through the process "
-"of controling the device (in this case a robotic arm) step by step. "
-"Students that have higher programming skills can be given a more bare "
-"bones / boilerplate source file and can write code to control the arm "
-"with less guidance."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
