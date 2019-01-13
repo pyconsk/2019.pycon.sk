@@ -27,31 +27,78 @@
 
             <div class="row">
                 <div class="ts-speaker-list clearfix">
-                    <div class="col-xs-12 col-md-3 col-md-offset-1">
+                    <div class="col-xs-12 col-md-4">
                         <div class="ts-speaker-image">
-                            <img class="img-responsive"
-                                 src="{{ url_for('static', filename='images/speakers/hromkovic.jpg') }}"
-                                 alt="{{ _('Profesor Juraj Hromkovič, DrSc.') }}"/>
+                            <img class="img-responsive" src="{{ url_for('static', filename='images/speakers/hromkovic.jpg') }}" alt="{{ _('Profesor Juraj Hromkovič, DrSc.') }}" />
                         </div><!--Image end -->
                     </div><!-- Col end -->
 
-                    <div class="col-xs-12 col-md-7">
+                    <div class="col-xs-12 col-md-8">
                         <div class="ts-speaker-info">
-                            <h3 class="ts-speaker-name dark">{{ _('Profesor Juraj Hromkovič, DrSc.') }}</h3>
-                            {#                            <p class="ts-speaker-designation">{{ _('professor at ETH Zürich') }}</p>#}
+                            <h3 class="ts-speaker-name dark">Juraj Hromkovič</h3>
+                            <p class="ts-speaker-designation">{{ _('professor at ETH Zürich') }}</p>
+{#                            <ul class="ts-speaker-social-links">#}
+{#                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
+{#                            </ul>#}
                             <div class="ts-speaker-bio">
                                 <p>
-                                    {{ _('This year’s keynote speaker will be professor Juraj Hromkovič is a university lecturer from Swiss Federal Institute of Technology (ETH) in Zürich.') }}
+                                    {{ _('Professor Juraj Hromkovič is a university lecturer from Swiss Federal Institute of Technology (ETH) in Zürich.') }}
                                     {{ _('He has authored many books and scientific publications dealing particularly with algorithmics, probabilistic algorithms and didactics of informatics. He focuses on education of informatics teachers and implementing of informatics to elementary schools. In 2017, he was awarded a 1st class Pribina Cross state order by President of Slovak republic Andrej Kiska.') }}
                                 </p>
-                                <p>
-                                    <strong>{{ _('Please note that EduSummit will be primarily in Slovak language.') }}</strong>
-                                </p>
+                            </div>
+                            {% if lang_code=="sk" %}
+                            <div class="ts-speaker-session">
+                                <h4 class="session-title">{{ _('Programovanie s LOGO-filozofiou ako model všeobecného vzdelávania pre všetky odbory') }}</h4>
+                                <p>{{ _('Jean Piaget prišiel s konceptom "learning by doing" s cieľom zvýšiť motiváciu a trvanlivosť vedomostí a prehĺbiť chápanie študovaných objektov vďaka vlastnej aktivite v procese učenia sa. Seymour Papert obohatil tento koncept o "getting things to work" vo svojej implementácii výučby programovania v programovacom jazyku LOGO. My sme na ETH skombinovali tento prístup s konceptom "critical thinking", ktorý odmieta vyučovať hotové produkty vedy (fakty, modely, metódy,...), ale vyžaduje si učiť procesy ich vytvárania. Pre prípravu vzdelávania tisícky učiteľov základných a stredných škôl pre výučbu programovania, sme vyvinuli v rámci týchto výučbových konceptov prostredia na výučbu programovania, ako aj iných informatických tém a napísali k nim sériu učebníc. V tejto prednáške sa budeme venovať prostrediam TigerJython (dialekt Pythonu) a viacerým verziám jazyka LOGO (textovým i blokovým) a vysvetlíme proces ich tvorby z pohľadu potrieb výučby programovania. Predstavíme aj informatiku ako viac než 5000 rokov starú vedu a ozrejmíme jej prínos pre všeobecné vzdelanie a jej nenahraditeľnosť vo vzdelávaní budúcich generácii.') }}</p>
+                            </div>
+                            {% endif %}
+                            <div class="ts-speaker-session">
+{#                            <div class="ts-speaker-session">#}
+{#                                <h4 class="session-title">{{ _('TBD') }}</h4>#}
+{#                                <p>{{ _('TBD') }}</p>#}
+{#                            </div>#}
                             </div>
                         </div><!-- Info end -->
                     </div><!-- Col end -->
                 </div><!-- Speaker list 3 end -->
             </div><!-- Speaker row 3 -->
+
+            <div class="row">
+                <div class="ts-speaker-list clearfix">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="{{ url_for('static', filename='images/speakers/spademan.jpg') }}" />
+                        </div><!--Image end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-xs-12 col-md-8">
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name dark">Luke Spademan</h3>
+                            <p class="ts-speaker-designation">{{ _('CS student and Python enthusiast') }}</p>
+{#                            <ul class="ts-speaker-social-links">#}
+{#                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
+{#                            </ul>#}
+                            <div class="ts-speaker-bio">
+                                <p>
+                                    {{ _('Luke is 17 and is studying computer science, maths, further maths and physics in Year 12 (English Secondary school / Sixthform). He loves to program in Python and thinks that the micro:bit is a great eductional tool and should be more widely used. He has given previous talks at Pycon UK and is looking forward to speaking at Pycon SK 2019.') }}
+                                </p>
+                            </div>
+                            <div class="ts-speaker-session">
+                                <h4 class="session-title">{{ _('Controling a robotic arm with micro:bits. How to make computer science education more interesting.') }}</h4>
+                                <p>{{ _('Captivating a group of children for a sustained period of time is notoriously hard. I will be exporing with you how the micro:bit can be used to engage a young audience with interactive demos and programming activities.') }}</p>
+                                <p>{{ _('Children love to physically interact with hardware. That is what is great about the micro:bit. It not only has built in LEDs and buttons but can also control bigger more exciting electronics like robotic arms. This allows for setup that gives students of all ability levels a challenge. Students that are beginners to programming can be given a more complete program or walk throught a worksheet that takes them through the process of controling the device (in this case a robotic arm) step by step. Students that have higher programming skills can be given a more bare bones / boilerplate source file and can write code to control the arm with less guidance.') }}</p>
+                            </div>
+                        </div><!-- Info end -->
+                    </div><!-- Col end -->
+                </div><!-- Speaker list 3 end -->
+            </div><!-- Speaker row 3 -->
+
         </div>
     </section>
 
@@ -120,6 +167,45 @@
                     <div class="col-xs-12 col-md-3 col-md-offset-1">
                         <div class="ts-speaker-image">
                             <img class="img-responsive"
+                                 src="{{ url_for('static', filename='images/workshops/algorithms.jpg') }}"
+                                 alt="{{ _('Microbit image') }}"/>
+                        </div><!--Image end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-xs-12 col-md-7">
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name dark">{{ _('Aspekty počítačového myslenia vo vyučovaní programovania') }}</h3>
+                            <div class="ts-speaker-bio text-justify">
+                                <p>
+                                    {{ _('Python sa stal jedným z najrozšírenejších jazykov vo výučbe informatiky a je v
+                                          mnohých ohľadoch vynikajúcou voľbou na úrovni stredných aj vysokých škôl.
+                                          Jednou z hlavných úloh trvalo udržateľného vzdelávania v oblasti výpočtovej
+                                          techniky je však prekračovať vyučovanie samotného programovacieho jazyka a
+                                          diskutovať o aspektoch "počítačového myslenia". Dôležitým príkladom
+                                          počítačového myslenia je správna analýza toho, ako dobre funguje konkrétny
+                                          algoritmus  a nakoľko je efektívny. Ale môžeme skutočne v úvode do Pythonu
+                                          vyučovať efektivitu?') }}
+
+                                </p>
+                                <p>
+                                    {{ _('Na tomto workshope uvádzame príklady toho, ako študentom priblížiť pojem
+                                          časovej zložitosti na intuitívnej a zároveň dostatočne formálnej úrovni.
+                                          Okrem praktických príkladov, ktoré implementujeme v Pythone, chceme preskúmať
+                                          teoretické základy, ktoré nám umožňujú vyhodnotiť a porovnať rôzne algoritmy
+                                          pre rovnakú triedu problémov.') }}
+                                </p>
+                                <p><b>{{ _('Lektori: Tobias Kohn a Dennis Komm z ETH Zurich') }}</b></p>
+                            </div>
+                        </div><!-- Info end -->
+                    </div><!-- Col end -->
+                </div><!-- Speaker list 3 end -->
+            </div><!-- Speaker row 3 -->
+
+            <div class="row">
+                <div class="ts-speaker-list clearfix">
+                    <div class="col-xs-12 col-md-3 col-md-offset-1">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive"
                                  src="{{ url_for('static', filename='images/workshops/microbit.jpg') }}"
                                  alt="{{ _('Microbit image') }}"/>
                         </div><!--Image end -->
@@ -138,6 +224,7 @@
                                           BBC micro:bit, s prezentáciou praktických tipov na rôzne aktivity pre študentov.
                                           Vzbuďme v študentoch chuť programovať!') }}
                                 </p>
+                                <p><b>{{ _('Lektori: Magdaléna Bellayová a Eva Kupčová z Gymnázia Golianova 68 v Nitre') }}</b></p>
                             </div>
                         </div><!-- Info end -->
                     </div><!-- Col end -->
@@ -184,6 +271,7 @@
                                 <p>
                                     {{ _('Programovanie je cool a sexi. Ak však chcete osloviť súčasné decká, asi už neuspejete výpisom hlášky "Hello, world!". Rovnako tak neuspejete výpisom čísiel od 1 po 10 pri prezentovaní cyklov. A už vôbec nie v prostredí čiernej obrazovky a bielych písmeniek. Pre nich už nie je počítač čarovná skrinka. Oni za tým počítačom odsedia v porovnaní s nami častokrát výrazne viac hodín. A častokrát je prvým kontaktom s počítačom práve počítačová hra. Na tomto workshope vám ukážem, ako sa dá počítačová hra vytvoriť za krátky čas zhruba na 100 riadkoch kódu. Nie - nebudeme hádať číslo, ktoré si počítač myslí. Budeme vytvárať jednoduchý remake Arkanoid-u v peknom grafickom prevedení. To všetko v jazyku Python s použitím knižnice PyGame Zero.') }}
                                 </p>
+                                <p><b>{{ _('Lektor: Miroslav Biňas z TUKE') }}</b></p>
                             </div>
                         </div><!-- Info end -->
                     </div><!-- Col end -->
@@ -254,7 +342,7 @@
                     </div><!-- Sponsor details -->
                 </div><!-- Col 1 end -->
 
-                <div class="col-xs-push-6 col-sm-push-3 col-md-push-3 col-xs-12 col-sm-6 col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-3">
                     <div class="sponsor-details">
                         <div class="sponsor-info">
                             <h4 class="sponsor-name"><i class="fa fa-ticket" aria-hidden="true"></i>
