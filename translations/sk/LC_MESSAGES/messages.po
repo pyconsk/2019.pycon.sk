@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 20:58+0100\n"
+"POT-Creation-Date: 2019-01-16 22:48+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1497,21 +1497,31 @@ msgstr ""
 
 #: templates/job-fair.html:26
 msgid ""
+"Besides Slovak professionals, there will be programmers from Hungary or "
+"Austria as there is no local PyCon, but also from Czechia, Poland, "
+"Germany etc. "
+msgstr ""
+"Okrem profesionálov zo Slovenska, sem príde aj mnoho programátorov z "
+"Maďarska či Rakúska, keďže tam nemajú lokálny PyCon, ale aj z Česka, "
+"Poľska, Nemecka a ďalších krajín."
+
+#: templates/job-fair.html:27
+msgid ""
 "You can seek for fresh graduates, but also for seasoned programmers who "
 "are looking for a change in their careers. "
 msgstr ""
 "Môžete tu hľadať čerstvých absolventov, ale aj skúsených programátorov, "
 "ktorí práve hľadajú nové výzvy vo svojej kariére. "
 
-#: templates/job-fair.html:27
+#: templates/job-fair.html:28
 msgid "Present your company and show what it is like to work with you. "
 msgstr "Predstavte svoju spoločnosť a ukážte, aké to je pracovať pre vás. "
 
-#: templates/job-fair.html:30
+#: templates/job-fair.html:31
 msgid "Students"
 msgstr "Študenti"
 
-#: templates/job-fair.html:32
+#: templates/job-fair.html:33
 msgid ""
 "Looking for your first real job as a programmer? PyCon SK is a great "
 "place with many companies eager to hire a Pythonista. "
@@ -1520,7 +1530,7 @@ msgstr ""
 "ideálny - bude tu množstvo firiem, ktoré sa budú chcieť získať novú "
 "posilu do tímu Pythonistov. "
 
-#: templates/job-fair.html:33
+#: templates/job-fair.html:34
 msgid ""
 "Visit our Job fair or drop in the sponsors booths and talk with your "
 "potential future employer. "
@@ -1528,21 +1538,21 @@ msgstr ""
 "Navštív náš Job fair, alebo sa zastav v sponzorských stánkoch a pokecaj "
 "so svojim možným budúcim zamestnávateľom. "
 
-#: templates/job-fair.html:34
+#: templates/job-fair.html:35
 msgid "Get an idea of how the interview with recruiter looks like. "
 msgstr "Zisti, ako to vyzerá na skutočnom pohovore."
 
-#: templates/job-fair.html:35
+#: templates/job-fair.html:36
 msgid "Find the company that suits you and can use your skills best. "
 msgstr ""
 "Nájdi firmu, ktorá ti sedí a ktorá bude vedieť tvoje schopnosti využiť "
 "najlepšie. "
 
-#: templates/job-fair.html:38
+#: templates/job-fair.html:39
 msgid "Professionals"
 msgstr "Profesionáli"
 
-#: templates/job-fair.html:40
+#: templates/job-fair.html:41
 msgid ""
 "If you feel an urge to change your career after years of routine work, "
 "PyCon SK is the best place for you. "
@@ -1550,7 +1560,7 @@ msgstr ""
 "Ak cítite potrebu zmeny po rokoch rutiny, PyCon SK je to najlepšie miesto"
 " pre vás. "
 
-#: templates/job-fair.html:41
+#: templates/job-fair.html:42
 msgid ""
 "Visit our job fair and talk with companies that will appreciate your "
 "experience.  "
@@ -1558,7 +1568,7 @@ msgstr ""
 "Navštívte náš Job fair a porozprávajte sa so spoločnosťami, ktoré ocenia "
 "vaše dlhoročné skúsenosti.  "
 
-#: templates/job-fair.html:42
+#: templates/job-fair.html:43
 msgid ""
 "Even if you do not look for a new job, you might get an overview of what "
 "options you have. "
@@ -2173,7 +2183,7 @@ msgstr ""
 "viac využívať. V minulosti už prednášal na PyCon UK a teší sa na "
 "prednášku na PyCon SK 2019."
 
-#: templates/speakers.html:146
+#: templates/speakers.html:145
 msgid ""
 "Controling a robotic arm with micro:bits. How to make computer science "
 "education more interesting."
@@ -2181,7 +2191,7 @@ msgstr ""
 "Ovládanie robotického ramena micro:bitmi. Ako urobiť hodiny programovania"
 " zaujímavejšími."
 
-#: templates/speakers.html:147
+#: templates/speakers.html:146
 msgid ""
 "Captivating a group of children for a sustained period of time is "
 "notoriously hard. I will be exporing with you how the micro:bit can be "
@@ -2192,7 +2202,7 @@ msgstr ""
 "ťažké. Spolu preskúmame, ako môžeme s micro:bitom zaujať mladé publikum "
 "pomocou interaktívnych dem a programátorských aktivít."
 
-#: templates/speakers.html:148
+#: templates/speakers.html:147
 msgid ""
 "Children love to physically interact with hardware. That is what is great"
 " about the micro:bit. It not only has built in LEDs and buttons but can "
@@ -2214,6 +2224,38 @@ msgstr ""
 "zariadenia (v tomto prípade robotického ramena). Pokročilejší študenti "
 "môžu dostať menej komplexný zdrojový súbor a môžu písať kód na ovládanie "
 "ramena samostatnejšie."
+
+#: templates/speakers.html:165
+msgid "Python engineer at Iceye"
+msgstr "Python vývojár v Iceye"
+
+#: templates/speakers.html:174
+msgid ""
+"After several years of using Python in e-commerce, banking, and media "
+"sectors in the UK, Jakub currently leads a technical side of ground "
+"segment at Iceye, the Earth observation start up in Finland. They are "
+"building a large synthetic-aperture radar (SAR) satellite constellation "
+"and using Python extensively in various parts of the project. Iceye has "
+"recently successfully launched their second satellite ICEYE-X2 on board "
+"of SpaceX’s Falcon 9."
+msgstr ""
+"Po niekoľkých rokoch používania Pythonu v e-commerce, bankách a médiách "
+"vo Veľkej Británii, Jakub momentálne vedie technickú časť pozemného "
+"segmentu v Iceye, fínskom startupe na sledovanie Zeme. Budujú veľký "
+"družicový SAR (synthetic-aperture radar) systém a Python využívajú vo "
+"veľkom v rôznych častiach projektu. Iceye nedávno úspešne vypustilo "
+"už druhú družicu ICEYE-X2 na palube Falcona 9 spoločnosti SpaceXs."
+
+#: templates/speakers.html:178
+msgid "Using python in new space industry is not a rocket science"
+msgstr "Využívanie Pythonu vo vesmírnom priemysle nie je raketová veda"
+
+#: templates/speakers.html:180
+msgid ""
+"What we do at Iceye and how python is allowing us to grow fast and be "
+"unique."
+msgstr ""
+"Čo robíme v Iceye a ako nám Python pomáha rýchlo rásť a byť výnimočnými."
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
 msgid "Sponsors &amp; Partners"
@@ -2259,11 +2301,34 @@ msgstr ""
 "zachraňujúživoty. Kistler pomáhať formovať lepšiu                   "
 "budúcnosť."
 
-#: templates/sponsoring.html:50
+#: templates/sponsoring.html:54
+msgid ""
+"TITANS freelancers offers many attractive jobs and projects for IT "
+"freelancers.\n"
+"                      We cooperate with thousands of IT freelancers in "
+"Slovakia and abroad. We have signed partnership\n"
+"                      agreements with prestigious companies, institutions"
+" and recruitment agencies operating in Austria,\n"
+"                      Switzerland, Germany, Croatia, the Czech Republic "
+"and Slovakia, allowing us to offer IT\n"
+"                      freelancers attractive projects. See the list of "
+"jobs at www.titans.sk."
+msgstr ""
+"TITANS freelancers ponúka mnoho zaujímavých pracovných ponúk a projektov "
+"pre IT freelancerov.\n"
+"                      SPoupracujeme s tisíckami IT freelancerov na "
+"Slovensku a v zahraničí. Podpísali sme partnerstvá\n"
+"                      s prestížnymi firmami, inštitúciami a agentúrami"
+" v Rakúsku, Švajčiarsku, Chorvátsku, Česku,\n"
+"                      a na Slovensku, čo nám umožňuje ponúkať IT"
+"freelancerom množstvo zaujímavých projektov.\n"
+"                      Pre ponuku jobov pozri www.titans.sk."
+
+#: templates/sponsoring.html:72
 msgid "Bronze Sponsors"
 msgstr "Bronzoví sponzori"
 
-#: templates/sponsoring.html:57
+#: templates/sponsoring.html:79
 msgid ""
 "Sticker Mule is the fastest and easiest way to buy custom printed "
 "products. Thousands of people trust us to make kick-ass stickers, labels,"
@@ -2276,23 +2341,23 @@ msgstr ""
 "niekoľkých sekúnd a získajte online záruku, dopravu zdarma super rýchle "
 "doručenie!"
 
-#: templates/sponsoring.html:70
+#: templates/sponsoring.html:92
 msgid "Media Partners"
 msgstr "Medálni partneri"
 
-#: templates/sponsoring.html:89
+#: templates/sponsoring.html:111
 msgid "Partners"
 msgstr "Partneri"
 
-#: templates/sponsoring.html:147
+#: templates/sponsoring.html:169
 msgid "Why become a sponsor?"
 msgstr "Prečo sa stať sponzorom?"
 
-#: templates/sponsoring.html:148
+#: templates/sponsoring.html:170
 msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
 msgstr "Potrebujeme vás — PyCon SK 2019 v Bratislave hľadá sponzorov a partnerov!"
 
-#: templates/sponsoring.html:153
+#: templates/sponsoring.html:175
 msgid ""
 "PyCon is an annual gathering for the community using and developing the "
 "open-source Python programming language. The conference is completely "
@@ -2302,7 +2367,7 @@ msgstr ""
 "vyvíjajú open source programovací jazyk Python. Konferencia je kompletne "
 "organizovaná dobrovoľníkmi."
 
-#: templates/sponsoring.html:154
+#: templates/sponsoring.html:176
 msgid ""
 "The members of the Python community organize a PyCon conference in their "
 "home countries regularly, PyCon will happen in Slovakia for the fourth "
@@ -2312,7 +2377,7 @@ msgstr ""
 "domovských krajinách pravidelne. PyCon bude na Slovensku už po štvrtý "
 "raz."
 
-#: templates/sponsoring.html:158
+#: templates/sponsoring.html:180
 msgid ""
 "To ensure high-quality speakers and keep the tickets price available for "
 "everyone we need you, the sponsors, who allow the conference to take "
@@ -2322,7 +2387,7 @@ msgstr ""
 "vstupeniek dostupnú pre každého, potrebujeme vás, sponzorov, ktorí "
 "umožnia túto konferenciu uskutočniť."
 
-#: templates/sponsoring.html:162
+#: templates/sponsoring.html:184
 msgid ""
 "Do not hesitate to contact us. We are flexible and willing to work with "
 "you to design a sponsorship package that is going to meet your business "
@@ -2332,11 +2397,11 @@ msgstr ""
 "spolupracovať a navrhnúť s vami balíček sponzorstva, ktorý splní vaše "
 "obchodné potreby."
 
-#: templates/sponsoring.html:174
+#: templates/sponsoring.html:196
 msgid "Recruitment"
 msgstr "Nábor"
 
-#: templates/sponsoring.html:176
+#: templates/sponsoring.html:198
 msgid ""
 "Are you looking for programmers? PyCon is the best place for meeting new "
 "talents. Many participants will be experienced developers looking for "
@@ -2346,11 +2411,11 @@ msgstr ""
 " talentov. Mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj "
 "ďalší veľký kariérny krok."
 
-#: templates/sponsoring.html:185
+#: templates/sponsoring.html:207
 msgid "Audience"
 msgstr "Publikum"
 
-#: templates/sponsoring.html:187
+#: templates/sponsoring.html:209
 msgid ""
 "Want to get your message across to the people, so they talk about you? "
 "PyCon is a great opportunity. People in the Python community like to "
@@ -2360,11 +2425,11 @@ msgstr ""
 " na to skvelá príležitosť. Ľudia v Python komunite radi objavujú a "
 "zdieľajú nové veci."
 
-#: templates/sponsoring.html:196
+#: templates/sponsoring.html:218
 msgid "Marketing"
 msgstr "Marketing"
 
-#: templates/sponsoring.html:198
+#: templates/sponsoring.html:220
 msgid ""
 "Looking for new users for your product? Such people can be found at PyCon"
 " - they also will look for new products and ideas."
@@ -2372,11 +2437,11 @@ msgstr ""
 "Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na "
 "PyCone - aj oni budú hľadať nové produkty a nápady."
 
-#: templates/sponsoring.html:207
+#: templates/sponsoring.html:229
 msgid "Community"
 msgstr "Komunita"
 
-#: templates/sponsoring.html:209
+#: templates/sponsoring.html:231
 msgid ""
 "Looking for new contributors and partners for your open source project? "
 "PyCon is the place, where they also will look for you."
@@ -2384,11 +2449,11 @@ msgstr ""
 "Hľadáte nových prispievateľov a partnerov pre váš open source projekt? "
 "PyCon je miesto, kde aj oni budú hľadať vás."
 
-#: templates/sponsoring.html:218
+#: templates/sponsoring.html:240
 msgid "Support"
 msgstr "Podpora"
 
-#: templates/sponsoring.html:220
+#: templates/sponsoring.html:242
 msgid ""
 "Are you using Python in your company? Support for community events is an "
 "excellent opportunity to contribute back."
