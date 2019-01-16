@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-09 20:58+0100\n"
+"POT-Creation-Date: 2019-01-13 20:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -156,13 +156,17 @@ msgstr ""
 msgid "The Call For Proposals is open!"
 msgstr ""
 
-#: templates/cfp.html:24 templates/cfv.html:30
+#: templates/cfp.html:23
+msgid "Anyone can be part of the conference"
+msgstr ""
+
+#: templates/cfp.html:25 templates/cfv.html:30
 msgid ""
 "PyCon SK is organized by the Python community and for the Python "
 "community."
 msgstr ""
 
-#: templates/cfp.html:25
+#: templates/cfp.html:26
 msgid ""
 "You're coming to the event, and that makes you part of the community. If "
 "you've done something that you think other people might be interested in,"
@@ -174,41 +178,47 @@ msgid ""
 "First-time speakers talk proposals are preferred."
 msgstr ""
 
-#: templates/cfp.html:28
-msgid "Where to submit your proposal"
+#: templates/cfp.html:29
+msgid "Don't hesitate"
 msgstr ""
 
-#: templates/cfp.html:30
-msgid "We are glad you are interested in giving a talk at PyCon SK 2019!"
-msgstr ""
-
-#: templates/cfp.html:31 templates/index.html:288
+#: templates/cfp.html:31
 msgid ""
-"Submit your talk proposal with short abstract and your bio. All selected "
-"speakers get a complimentary ticket to the conference."
+"We are trying to finalize the conference program as soon as possible, the"
+" earlier you submit your proposal the higher chance of acceptance it has."
+" The first <b>deadline for submissions is 1st February 2019</b>, when we "
+"will choose most of the talk and workshop slots of the conference. The "
+"final deadline is 14th February 2019, when we will choose the few "
+"remaining free slots."
 msgstr ""
 
-#: templates/cfp.html:34
-msgid "Call for proposals for PyCon SK 2019 is open."
-msgstr ""
-
-#: templates/cfp.html:35
+#: templates/cfp.html:35 templates/cfp_form.html:31
 msgid ""
-"The deadline for submissions is the end of 14th February 2019. If you "
-"have any questions, please contact us via email: info@pycon.sk or join "
-"our Slack channel"
+"Still not sure about the details your proposal? No worries :-) <b>After "
+"submitting your proposal, you will receive a confirmation email with a "
+"link on which you can return to your proposal and make changes.</b>"
 msgstr ""
 
-#: templates/cfp.html:39 templates/cfp_form.html:269
+#: templates/cfp.html:39 templates/cfp_form.html:275
 #: templates/recording.html:53
 msgid "Submit your proposal"
 msgstr ""
 
 #: templates/cfp.html:42
+msgid "Give us a tip"
+msgstr ""
+
+#: templates/cfp.html:45
+msgid ""
+"Do you know about a speaker that would be a good fit for our conference? "
+"<b>Let us know:</b>"
+msgstr ""
+
+#: templates/cfp.html:48
 msgid "Guidelines for Proposal Submission"
 msgstr ""
 
-#: templates/cfp.html:44
+#: templates/cfp.html:50
 msgid ""
 "There is no official restriction on the topic that you propose a talk "
 "session. Talks about Python or the Python community are most likely to "
@@ -219,22 +229,32 @@ msgid ""
 "proposals is accepted."
 msgstr ""
 
-#: templates/cfp.html:52
+#: templates/cfp.html:54
+msgid ""
+"If you have any questions, please contact us via email: info@pycon.sk or "
+"join our Slack channel"
+msgstr ""
+
+#: templates/cfp.html:58
+msgid "All selected speakers get a complimentary ticket to the conference."
+msgstr ""
+
+#: templates/cfp.html:66
 msgid "Talks"
 msgstr ""
 
-#: templates/cfp.html:54
+#: templates/cfp.html:68
 msgid ""
 "Most talks are 30 minutes long, but we do offer a limited number of "
 "45-minute slots for important topics that promise to benefit from a more "
 "extensive treatment."
 msgstr ""
 
-#: templates/cfp.html:63
+#: templates/cfp.html:77
 msgid "Workshops"
 msgstr ""
 
-#: templates/cfp.html:65
+#: templates/cfp.html:79
 msgid ""
 "As with the talks, we are looking for tutorials that can grow this "
 "community at any level! We aim for tutorials that will advance Python, "
@@ -243,11 +263,11 @@ msgid ""
 " much more preparation."
 msgstr ""
 
-#: templates/cfp.html:74 templates/cfp_form.html:116
+#: templates/cfp.html:88 templates/cfp_form.html:122
 msgid "Poster"
 msgstr ""
 
-#: templates/cfp.html:76
+#: templates/cfp.html:90
 msgid ""
 "Are you involved in an interesting project, new service or application of"
 " technology? We would like to see your talk but if you - for any reason -"
@@ -256,11 +276,11 @@ msgid ""
 "why not present what you are doing in PyCon SK Poster Session?"
 msgstr ""
 
-#: templates/cfp.html:84 templates/cfp_form.html:272
+#: templates/cfp.html:98 templates/cfp_form.html:278
 msgid "Recording release"
 msgstr ""
 
-#: templates/cfp.html:86 templates/cfp_form.html:274
+#: templates/cfp.html:100 templates/cfp_form.html:280
 #: templates/recording.html:24
 msgid ""
 "Part of the motivation for PyCon SK is to help with Python education and "
@@ -269,7 +289,7 @@ msgid ""
 "recordings on the web."
 msgstr ""
 
-#: templates/cfp.html:89 templates/cfp_form.html:277
+#: templates/cfp.html:103 templates/cfp_form.html:283
 #: templates/recording.html:28
 msgid ""
 "By submitting your talk or workshop proposal, or by signing up to give a "
@@ -277,198 +297,210 @@ msgid ""
 "edit, and release audio and/or video of your presentation."
 msgstr ""
 
-#: templates/cfp.html:92 templates/cfp_form.html:280
+#: templates/cfp.html:106 templates/cfp_form.html:286
 msgid "Full recording release statement"
 msgstr ""
 
-#: templates/cfp_form.html:33
+#: templates/cfp_form.html:37
 msgid "About speaker"
 msgstr ""
 
-#: templates/cfp_form.html:43 templates/cfv.html:54
+#: templates/cfp_form.html:47 templates/cfv.html:54
 msgid "Your name"
 msgstr ""
 
-#: templates/cfp_form.html:45
+#: templates/cfp_form.html:49
 msgid "Your name will be displayed on our website if your talk is accepted."
 msgstr ""
 
-#: templates/cfp_form.html:52
+#: templates/cfp_form.html:50
+msgid ""
+"If two or more people will be presenting, please separate the names with "
+"commas."
+msgstr ""
+
+#: templates/cfp_form.html:57
 msgid "Biography"
 msgstr ""
 
-#: templates/cfp_form.html:54
+#: templates/cfp_form.html:59
 msgid "Your biography will be displayed on our website if your talk is accepted."
 msgstr ""
 
-#: templates/cfp_form.html:61
+#: templates/cfp_form.html:60
+msgid ""
+"If two or more people will be presenting, please separate the bios with a"
+" blank line."
+msgstr ""
+
+#: templates/cfp_form.html:67
 msgid "Profile picture"
 msgstr ""
 
-#: templates/cfp_form.html:63
+#: templates/cfp_form.html:69
 msgid ""
 "Please provide us with URL where we can download your profile picture "
 "that will be published on our website if your talk is accepted."
 msgstr ""
 
-#: templates/cfp_form.html:70
+#: templates/cfp_form.html:76
 msgid "Phone"
 msgstr ""
 
-#: templates/cfp_form.html:72
+#: templates/cfp_form.html:78
 msgid ""
 "Your phone will not be published! It is just for organizers to get in "
 "touch with you in case we need to discuss something with you or in case "
 "of emergency during the conference."
 msgstr ""
 
-#: templates/cfp_form.html:77
+#: templates/cfp_form.html:83
 msgid "About talk"
 msgstr ""
 
-#: templates/cfp_form.html:80
+#: templates/cfp_form.html:86
 msgid "Title"
 msgstr ""
 
-#: templates/cfp_form.html:82
+#: templates/cfp_form.html:88
 msgid ""
 "Name of your talk/workshop as it will be displayed on our website if your"
 " talk is accepted."
 msgstr ""
 
-#: templates/cfp_form.html:89
+#: templates/cfp_form.html:95
 msgid "Abstract"
 msgstr ""
 
-#: templates/cfp_form.html:91
+#: templates/cfp_form.html:97
 msgid ""
 "Abstract of your talk will be published on our website if your talk is "
 "accepted."
 msgstr ""
 
-#: templates/cfp_form.html:98
+#: templates/cfp_form.html:104
 msgid "Type"
 msgstr ""
 
-#: templates/cfp_form.html:100
+#: templates/cfp_form.html:106
 msgid "What kind of performance you will do?"
 msgstr ""
 
-#: templates/cfp_form.html:104
+#: templates/cfp_form.html:110
 msgid "Talk"
 msgstr ""
 
-#: templates/cfp_form.html:110
+#: templates/cfp_form.html:116
 msgid "Workshop"
 msgstr ""
 
-#: templates/cfp_form.html:122 templates/edusummit.html:96
+#: templates/cfp_form.html:128 templates/edusummit.html:144
 msgid "Hardware Projects Showcase"
 msgstr ""
 
-#: templates/cfp_form.html:130
+#: templates/cfp_form.html:136
 msgid "Language"
 msgstr ""
 
-#: templates/cfp_form.html:132
+#: templates/cfp_form.html:138
 msgid "In which language your performance will be?"
 msgstr ""
 
-#: templates/cfp_form.html:136
+#: templates/cfp_form.html:142
 msgid "English"
 msgstr ""
 
-#: templates/cfp_form.html:142
+#: templates/cfp_form.html:148
 msgid "Slovak"
 msgstr ""
 
-#: templates/cfp_form.html:148
+#: templates/cfp_form.html:154
 msgid "Czech"
 msgstr ""
 
-#: templates/cfp_form.html:156
+#: templates/cfp_form.html:162
 msgid "Time Slot"
 msgstr ""
 
-#: templates/cfp_form.html:161
+#: templates/cfp_form.html:167
 msgid "30 minutes (talks)"
 msgstr ""
 
-#: templates/cfp_form.html:167
+#: templates/cfp_form.html:173
 msgid "45 minutes (talks/workshops)"
 msgstr ""
 
-#: templates/cfp_form.html:173
+#: templates/cfp_form.html:179
 msgid "60 minutes (workshops/Hardware Projects Showcase)"
 msgstr ""
 
-#: templates/cfp_form.html:179
+#: templates/cfp_form.html:185
 msgid "90 minutes (workshops)"
 msgstr ""
 
-#: templates/cfp_form.html:185
+#: templates/cfp_form.html:191
 msgid "120 minutes (workshops)"
 msgstr ""
 
-#: templates/cfp_form.html:191
+#: templates/cfp_form.html:197
 msgid "3 hours (workshops)"
 msgstr ""
 
-#: templates/cfp_form.html:197
+#: templates/cfp_form.html:203
 msgid "4 hours (workshops)"
 msgstr ""
 
-#: templates/cfp_form.html:203
+#: templates/cfp_form.html:209
 msgid "Travel funding"
 msgstr ""
 
-#: templates/cfp_form.html:206
+#: templates/cfp_form.html:212
 msgid "Do you need travel funding?"
 msgstr ""
 
-#: templates/cfp_form.html:208
+#: templates/cfp_form.html:214
 msgid ""
 "Please bear in mind that we are community conference with limited budget "
 "and we might not be able to fund you."
 msgstr ""
 
-#: templates/cfp_form.html:212 templates/cfp_form.html:241
+#: templates/cfp_form.html:218 templates/cfp_form.html:247
 msgid "Yes"
 msgstr ""
 
-#: templates/cfp_form.html:218 templates/cfp_form.html:247
+#: templates/cfp_form.html:224 templates/cfp_form.html:253
 msgid "No"
 msgstr ""
 
-#: templates/cfp_form.html:226
+#: templates/cfp_form.html:232
 msgid "What city you will travel from?"
 msgstr ""
 
-#: templates/cfp_form.html:228
+#: templates/cfp_form.html:234
 msgid ""
 "Please provide us with this city only if you need travel funding so we "
 "can calculate ticket price."
 msgstr ""
 
-#: templates/cfp_form.html:235
+#: templates/cfp_form.html:241
 msgid "Do you need accomodation?"
 msgstr ""
 
-#: templates/cfp_form.html:237
+#: templates/cfp_form.html:243
 msgid ""
 "Please provide us with this answer only if you need travel funding so we "
 "can calculate ticket price."
 msgstr ""
 
-#: templates/cfp_form.html:264 templates/cfv.html:121
+#: templates/cfp_form.html:270 templates/cfv.html:121
 msgid "Submit"
 msgstr ""
 
-#: templates/cfp_form.html:268
+#: templates/cfp_form.html:274
 msgid "Alternatively"
 msgstr ""
 
-#: templates/cfp_form.html:269
+#: templates/cfp_form.html:275
 msgid "directly in Google forms."
 msgstr ""
 
@@ -637,19 +669,23 @@ msgid ""
 " participate in numerous workshops given by experienced educators."
 msgstr ""
 
-#: templates/edusummit.html:34 templates/edusummit.html:40
-#: templates/index.html:311 templates/speakers.html:90
+#: templates/edusummit.html:32 templates/index.html:311
+#: templates/speakers.html:90
 msgid "Profesor Juraj Hromkovič, DrSc."
 msgstr ""
 
-#: templates/edusummit.html:44
-msgid ""
-"This year’s keynote speaker will be professor Juraj Hromkovič is a "
-"university lecturer from Swiss Federal Institute of Technology (ETH) in "
-"Zürich."
+#: templates/edusummit.html:39 templates/index.html:314
+#: templates/speakers.html:97
+msgid "professor at ETH Zürich"
 msgstr ""
 
-#: templates/edusummit.html:45 templates/speakers.html:107
+#: templates/edusummit.html:48 templates/speakers.html:106
+msgid ""
+"Professor Juraj Hromkovič is a university lecturer from Swiss Federal "
+"Institute of Technology (ETH) in Zürich."
+msgstr ""
+
+#: templates/edusummit.html:49 templates/speakers.html:107
 msgid ""
 "He has authored many books and scientific publications dealing "
 "particularly with algorithmics, probabilistic algorithms and didactics of"
@@ -659,101 +695,243 @@ msgid ""
 "republic Andrej Kiska."
 msgstr ""
 
-#: templates/edusummit.html:48
-msgid "Please note that EduSummit will be primarily in Slovak language."
+#: templates/edusummit.html:54
+msgid ""
+"Programovanie s LOGO-filozofiou ako model všeobecného vzdelávania pre "
+"všetky odbory"
 msgstr ""
 
-#: templates/edusummit.html:62
+#: templates/edusummit.html:55
+msgid ""
+"Jean Piaget prišiel s konceptom \"learning by doing\" s cieľom zvýšiť "
+"motiváciu a trvanlivosť vedomostí a prehĺbiť chápanie študovaných "
+"objektov vďaka vlastnej aktivite v procese učenia sa. Seymour Papert "
+"obohatil tento koncept o \"getting things to work\" vo svojej "
+"implementácii výučby programovania v programovacom jazyku LOGO. My sme na"
+" ETH skombinovali tento prístup s konceptom \"critical thinking\", ktorý "
+"odmieta vyučovať hotové produkty vedy (fakty, modely, metódy,...), ale "
+"vyžaduje si učiť procesy ich vytvárania. Pre prípravu vzdelávania tisícky"
+" učiteľov základných a stredných škôl pre výučbu programovania, sme "
+"vyvinuli v rámci týchto výučbových konceptov prostredia na výučbu "
+"programovania, ako aj iných informatických tém a napísali k nim sériu "
+"učebníc. V tejto prednáške sa budeme venovať prostrediam TigerJython "
+"(dialekt Pythonu) a viacerým verziám jazyka LOGO (textovým i blokovým) a "
+"vysvetlíme proces ich tvorby z pohľadu potrieb výučby programovania. "
+"Predstavíme aj informatiku ako viac než 5000 rokov starú vedu a ozrejmíme"
+" jej prínos pre všeobecné vzdelanie a jej nenahraditeľnosť vo vzdelávaní "
+"budúcich generácii."
+msgstr ""
+
+#: templates/edusummit.html:80 templates/speakers.html:132
+msgid "CS student and Python enthusiast"
+msgstr ""
+
+#: templates/edusummit.html:89 templates/speakers.html:141
+msgid ""
+"Luke is 17 and is studying computer science, maths, further maths and "
+"physics in Year 12 (English Secondary school / Sixthform). He loves to "
+"program in Python and thinks that the micro:bit is a great eductional "
+"tool and should be more widely used. He has given previous talks at Pycon"
+" UK and is looking forward to speaking at Pycon SK 2019."
+msgstr ""
+
+#: templates/edusummit.html:93 templates/speakers.html:146
+msgid ""
+"Controling a robotic arm with micro:bits. How to make computer science "
+"education more interesting."
+msgstr ""
+
+#: templates/edusummit.html:94 templates/speakers.html:147
+msgid ""
+"Captivating a group of children for a sustained period of time is "
+"notoriously hard. I will be exporing with you how the micro:bit can be "
+"used to engage a young audience with interactive demos and programming "
+"activities."
+msgstr ""
+
+#: templates/edusummit.html:95 templates/speakers.html:148
+msgid ""
+"Children love to physically interact with hardware. That is what is great"
+" about the micro:bit. It not only has built in LEDs and buttons but can "
+"also control bigger more exciting electronics like robotic arms. This "
+"allows for setup that gives students of all ability levels a challenge. "
+"Students that are beginners to programming can be given a more complete "
+"program or walk throught a worksheet that takes them through the process "
+"of controling the device (in this case a robotic arm) step by step. "
+"Students that have higher programming skills can be given a more bare "
+"bones / boilerplate source file and can write code to control the arm "
+"with less guidance."
+msgstr ""
+
+#: templates/edusummit.html:109
 msgid "Why Attend?"
 msgstr ""
 
-#: templates/edusummit.html:63
+#: templates/edusummit.html:110
 msgid "Great speakers, workshops and hardware showcase"
 msgstr ""
 
-#: templates/edusummit.html:72
+#: templates/edusummit.html:119
 msgid "Speak at EduSummit"
 msgstr ""
 
-#: templates/edusummit.html:74
+#: templates/edusummit.html:121
 msgid ""
 "Call for Proposals is open. If you are a teacher or educator submit your "
-"talk or workshop and co-create the conference."
+"talk or workshop and co-create the conference "
 msgstr ""
 
-#: templates/edusummit.html:84
+#: templates/edusummit.html:122 templates/edusummit.html:282
+#: templates/edusummit.html:284
+msgid "here"
+msgstr ""
+
+#: templates/edusummit.html:132
 msgid "Young Coders' day"
 msgstr ""
 
-#: templates/edusummit.html:86
+#: templates/edusummit.html:134
 msgid ""
 "On saturday, we will host a Young Coders' day, consisting of programming "
 "workshops for children."
 msgstr ""
 
-#: templates/edusummit.html:98
+#: templates/edusummit.html:146
 msgid ""
 "If you have created an interesting hardware project which uses Python and"
 " would like to share it to the world then bring it to PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:111
+#: templates/edusummit.html:159
 msgid "EduSummit workshops"
 msgstr ""
 
-#: templates/edusummit.html:112
+#: templates/edusummit.html:160
 msgid "On saturday we will hold numerous educational workshops."
 msgstr ""
 
-#: templates/edusummit.html:117
-msgid "A beginner's workshop with BBC micro:bit given by high school students"
+#: templates/edusummit.html:171 templates/edusummit.html:209
+msgid "Microbit image"
 msgstr ""
 
-#: templates/edusummit.html:118
+#: templates/edusummit.html:177
+msgid "Ako žiakom priblížiť efektivitu a časovú zložitosť algoritmov"
+msgstr ""
+
+#: templates/edusummit.html:180
 msgid ""
-"An advanced workshop with BBC micro:bit for teachers who already teach "
-"with micro:bits."
+"Python sa stal jedným z najrozšírenejších jazykov vo výučbe informatiky a"
+" je v\n"
+"                                          mnohých ohľadoch vynikajúcou "
+"voľbou na úrovni stredných aj vysokých škôl.\n"
+"                                          Jednou z hlavných úloh trvalo "
+"udržateľného vzdelávania v oblasti výpočtovej\n"
+"                                          techniky je však prekračovať "
+"vyučovanie samotného programovacieho jazyka a\n"
+"                                          diskutovať o aspektoch "
+"\"počítačového myslenia\". Dôležitým príkladom\n"
+"                                          počítačového myslenia je "
+"správna analýza toho, ako dobre funguje konkrétny\n"
+"                                          algoritmus  a nakoľko je "
+"efektívny. Ale môžeme skutočne v úvode do Pythonu\n"
+"                                          vyučovať efektivitu?"
 msgstr ""
 
-#: templates/edusummit.html:119
+#: templates/edusummit.html:191
 msgid ""
-"Workshop on using, creating and sharing Open Educational Resources for "
-"teachers"
+"Na tomto workshope uvádzame príklady toho, ako študentom priblížiť pojem\n"
+"                                          časovej zložitosti na "
+"intuitívnej a zároveň dostatočne formálnej úrovni.\n"
+"                                          Okrem praktických príkladov, "
+"ktoré implementujeme v Pythone, chceme preskúmať\n"
+"                                          teoretické základy, ktoré nám "
+"umožňujú vyhodnotiť a porovnať rôzne algoritmy\n"
+"                                          pre rovnakú triedu problémov."
 msgstr ""
 
-#: templates/edusummit.html:120
-msgid "Parse Open Data with Python"
+#: templates/edusummit.html:215
+msgid "Programovať (micro:bit) môže každý. Fakt alebo mýtus?"
 msgstr ""
 
-#: templates/edusummit.html:121
-msgid "PyGame zero workshop for teachers"
+#: templates/edusummit.html:218
+msgid ""
+"Čo keby ste mali riešenie na oživenie vyučovania programovania? Riešenie,"
+" ktoré svieti,\n"
+"                                          reaguje na podnety, alebo "
+"dokonca posiela správy? A môže programovať skutočne každý?\n"
+"                                          Na workshope sa pokúsime nájsť "
+"odpoveď na tieto otázky. Vyskúšame si zábavné programovanie,\n"
+"                                          či už s využitím grafického "
+"blokovo orientovaného programovacieho jazyka alebo textového\n"
+"                                          jazyka MicroPython. Máme pre "
+"vás pripravenú ochutnávku práce s programovateľným mikropočítačom\n"
+"                                          BBC micro:bit, s prezentáciou "
+"praktických tipov na rôzne aktivity pre študentov.\n"
+"                                          Vzbuďme v študentoch chuť "
+"programovať!"
 msgstr ""
 
-#: templates/edusummit.html:122
-msgid "Control Minecraft via Python"
+#: templates/edusummit.html:238
+msgid "Minecraft image"
 msgstr ""
 
-#: templates/edusummit.html:123
-msgid "Turn your BBC micro:bit into a Minecraft game controller"
+#: templates/edusummit.html:244
+msgid "Dobrodružstvá v Minecrafte s jazykom Python"
 msgstr ""
 
-#: templates/edusummit.html:125
+#: templates/edusummit.html:247
+msgid ""
+"Učiť sa programovať je ťažké. Naučiť niekoho programovať je ešte ťažšie. "
+"Je však veľmi jednoduché stráviť hodiny času v svete hry Minecraft. Na "
+"tomto workshope sa pokúsime spojiť všetky tieto tri problémy dokopy a "
+"naučíme vás programovať v jazyku Python vo svete hry Minecraft. Ak ste "
+"nikdy s Pythonom nerobili, nevadí - vraj je to jazyk, s ktorým sa oplatí "
+"začať. Takže uvidíme. Aby to nebolo všetko, celá aktivita sa bude konať "
+"na minipočítači Raspberry Pi, ktorý obsahuje špeciálnu verziu Minecraft-u"
+" určenú práve na výučbu programovania. Nezabudnite si priniesť len dobrú "
+"náladu a... krompáč."
+msgstr ""
+
+#: templates/edusummit.html:261
+msgid "Space invaders image"
+msgstr ""
+
+#: templates/edusummit.html:267
+msgid "Výučba programovania pomocou tvorby hier v PyGame Zero"
+msgstr ""
+
+#: templates/edusummit.html:270
+msgid ""
+"Programovanie je cool a sexi. Ak však chcete osloviť súčasné decká, asi "
+"už neuspejete výpisom hlášky \"Hello, world!\". Rovnako tak neuspejete "
+"výpisom čísiel od 1 po 10 pri prezentovaní cyklov. A už vôbec nie v "
+"prostredí čiernej obrazovky a bielych písmeniek. Pre nich už nie je "
+"počítač čarovná skrinka. Oni za tým počítačom odsedia v porovnaní s nami "
+"častokrát výrazne viac hodín. A častokrát je prvým kontaktom s počítačom "
+"práve počítačová hra. Na tomto workshope vám ukážem, ako sa dá počítačová"
+" hra vytvoriť za krátky čas zhruba na 100 riadkoch kódu. Nie - nebudeme "
+"hádať číslo, ktoré si počítač myslí. Budeme vytvárať jednoduchý remake "
+"Arkanoid-u v peknom grafickom prevedení. To všetko v jazyku Python s "
+"použitím knižnice PyGame Zero."
+msgstr ""
+
+#: templates/edusummit.html:281
+msgid "The Call for Proposals is still open, more info"
+msgstr ""
+
+#: templates/edusummit.html:283
 msgid "We will update the workshop list after the Call for Proposals is closed."
 msgstr ""
 
-#: templates/edusummit.html:125
+#: templates/edusummit.html:283
 msgid "More information about the schedule can be found "
 msgstr ""
 
-#: templates/edusummit.html:126
-msgid "here"
-msgstr ""
-
-#: templates/edusummit.html:134
+#: templates/edusummit.html:292
 msgid "SPy Cup"
 msgstr ""
 
-#: templates/edusummit.html:137
+#: templates/edusummit.html:295
 msgid ""
 "Students from all 14 schools currently participating in Teaching with "
 "Hardware will join the SPy Cup contest, in which they create their own "
@@ -763,17 +941,17 @@ msgid ""
 " have a short presentation about their project at PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:139
+#: templates/edusummit.html:297
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
 msgstr ""
 
-#: templates/edusummit.html:148
+#: templates/edusummit.html:306
 msgid "Teaching with Hardware"
 msgstr ""
 
-#: templates/edusummit.html:151
+#: templates/edusummit.html:309
 #, python-format
 msgid ""
 "The goal of the initiative <a href=\"%(url)s\" target=\"_blank\">Teaching"
@@ -788,30 +966,30 @@ msgid ""
 "announced at PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:161
+#: templates/edusummit.html:319
 msgid "Poster Session"
 msgstr ""
 
-#: templates/edusummit.html:164
+#: templates/edusummit.html:322
 msgid "We will host a poster session and we will be happy if you get involved."
 msgstr ""
 
-#: templates/edusummit.html:175
+#: templates/edusummit.html:333
 msgid "Python Cup"
 msgstr ""
 
-#: templates/edusummit.html:178
+#: templates/edusummit.html:336
 #, python-format
 msgid ""
 "The <a href=\"%(url)s\" target=\"_blank\">winners of Python Cup</a> will "
 "be awarded at EduSummit."
 msgstr ""
 
-#: templates/edusummit.html:188
+#: templates/edusummit.html:346
 msgid "What kind of ticked should I buy?"
 msgstr ""
 
-#: templates/edusummit.html:191
+#: templates/edusummit.html:349
 msgid ""
 "All available tickets apply for the whole PyCon SK conference, including "
 "the EduSummit section. All of the talks and workshops take place at the "
@@ -819,26 +997,26 @@ msgid ""
 "attend."
 msgstr ""
 
-#: templates/edusummit.html:192
+#: templates/edusummit.html:350
 msgid "If you are a teacher or student you are eligible for a discount."
 msgstr ""
 
-#: templates/edusummit.html:206
+#: templates/edusummit.html:364
 msgid "Sponsorship"
 msgstr ""
 
-#: templates/edusummit.html:207
+#: templates/edusummit.html:365
 msgid "We need you — EduSummit seeks for sponsors and partners!"
 msgstr ""
 
-#: templates/edusummit.html:212
+#: templates/edusummit.html:370
 msgid ""
 "By supporting PyCon you also support numerous educational activities "
 "during the conference. If the conference is profitable we finance "
 "educational activities during the whole year."
 msgstr ""
 
-#: templates/edusummit.html:213
+#: templates/edusummit.html:371
 #, python-format
 msgid ""
 "Get in touch with us or visit our <a href=\"%(url)s\">sponsorship "
@@ -1199,16 +1377,18 @@ msgid ""
 "sold out!"
 msgstr ""
 
+#: templates/index.html:288
+msgid ""
+"Submit your talk proposal with short abstract and your bio. All selected "
+"speakers get a complimentary ticket to the conference."
+msgstr ""
+
 #: templates/index.html:302
 msgid "Awesome Speakers"
 msgstr ""
 
 #: templates/index.html:303
 msgid "Listen, Learn, Get inspired."
-msgstr ""
-
-#: templates/index.html:314 templates/speakers.html:97
-msgid "professor at ETH Zürich"
 msgstr ""
 
 #: templates/index.html:325 templates/speakers.html:65
@@ -1763,53 +1943,6 @@ msgid ""
 "DeepVariant, a state-of-the-art convolutional neural network variant "
 "caller, and in other ML projects at Google AI Genomics. This talk will "
 "give an overview of Nucleus, its features, and its APIs."
-msgstr ""
-
-#: templates/speakers.html:106
-msgid ""
-"Professor Juraj Hromkovič is a university lecturer from Swiss Federal "
-"Institute of Technology (ETH) in Zürich."
-msgstr ""
-
-#: templates/speakers.html:132
-msgid "CS student and Python enthusiast"
-msgstr ""
-
-#: templates/speakers.html:141
-msgid ""
-"Luke is 17 and is studying computer science, maths, further maths and "
-"physics in Year 12 (English Secondary school / Sixthform). He loves to "
-"program in Python and thinks that the micro:bit is a great eductional "
-"tool and should be more widely used. He has given previous talks at Pycon"
-" UK and is looking forward to speaking at Pycon SK 2019."
-msgstr ""
-
-#: templates/speakers.html:146
-msgid ""
-"Controling a robotic arm with micro:bits. How to make computer science "
-"education more interesting."
-msgstr ""
-
-#: templates/speakers.html:147
-msgid ""
-"Captivating a group of children for a sustained period of time is "
-"notoriously hard. I will be exporing with you how the micro:bit can be "
-"used to engage a young audience with interactive demos and programming "
-"activities."
-msgstr ""
-
-#: templates/speakers.html:148
-msgid ""
-"Children love to physically interact with hardware. That is what is great"
-" about the micro:bit. It not only has built in LEDs and buttons but can "
-"also control bigger more exciting electronics like robotic arms. This "
-"allows for setup that gives students of all ability levels a challenge. "
-"Students that are beginners to programming can be given a more complete "
-"program or walk throught a worksheet that takes them through the process "
-"of controling the device (in this case a robotic arm) step by step. "
-"Students that have higher programming skills can be given a more bare "
-"bones / boilerplate source file and can write code to control the arm "
-"with less guidance."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
