@@ -930,7 +930,7 @@ msgstr "Prečo prísť?"
 
 #: templates/edusummit.html:110
 msgid "Great speakers, workshops and hardware showcase"
-msgstr ""
+msgstr "Skvelí rečníci, workshopy a ukážky hardvéru"
 
 #: templates/edusummit.html:119
 msgid "Speak at EduSummit"
