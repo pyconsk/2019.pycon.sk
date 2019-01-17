@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-16 22:48+0100\n"
+"POT-Creation-Date: 2019-01-17 07:43+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: templates/body.html:77 templates/body.html:81 templates/index.html:176
 #: templates/speakers.html:7 templates/speakers.html:16
-#: templates/tickets.html:54
+#: templates/tickets.html:55
 msgid "Speakers"
 msgstr "Rečníci"
 
@@ -74,7 +74,7 @@ msgstr "O nás"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: templates/body.html:115 templates/tickets.html:144 templates/venue.html:33
+#: templates/body.html:115 templates/tickets.html:145 templates/venue.html:33
 msgid "Venue"
 msgstr "Miesto konania"
 
@@ -322,7 +322,7 @@ msgstr ""
 "aplikácii? Radi by sme videli tvoju prednášku, ale ak z nejakého dôvodu "
 "nechceš prednášať vo veľkom auditóriu alebo si myslíš, že tvoja téma "
 "zaujme iba obmedzený počeť ľudí a nie je vhodná pre všeobecné publikum, "
-"prǐď nám ukázať, čo robíš, na PyCon SK Poster Session."
+"príď nám ukázať, čo robíš, na PyCon SK Poster Session."
 
 #: templates/cfp.html:98 templates/cfp_form.html:278
 msgid "Recording release"
@@ -882,7 +882,7 @@ msgstr ""
 "2019. Rozprávať bude v sekcii EduSummit o tom, ako spraviť informatiku "
 "pre žiakov na školách zaujímavejšou."
 
-#: templates/edusummit.html:93 templates/speakers.html:146
+#: templates/edusummit.html:93 templates/speakers.html:145
 msgid ""
 "Controling a robotic arm with micro:bits. How to make computer science "
 "education more interesting."
@@ -890,7 +890,7 @@ msgstr ""
 "Ovládanie robotického ramena micro:bitmi. Ako urobiť hodiny programovania"
 " zaujímavejšími."
 
-#: templates/edusummit.html:94 templates/speakers.html:147
+#: templates/edusummit.html:94 templates/speakers.html:146
 msgid ""
 "Captivating a group of children for a sustained period of time is "
 "notoriously hard. I will be exporing with you how the micro:bit can be "
@@ -901,7 +901,7 @@ msgstr ""
 "ťažké. Spolu preskúmame, ako môžeme s micro:bitom zaujať mladé publikum "
 "pomocou interaktívnych dem a programátorských aktivít."
 
-#: templates/edusummit.html:95 templates/speakers.html:148
+#: templates/edusummit.html:95 templates/speakers.html:147
 msgid ""
 "Children love to physically interact with hardware. That is what is great"
 " about the micro:bit. It not only has built in LEDs and buttons but can "
@@ -946,8 +946,8 @@ msgstr ""
 " workshop alebo poster a tým sa stali spolutvorcami obsahu konferencie. "
 "Viac info"
 
-#: templates/edusummit.html:122 templates/edusummit.html:282
-#: templates/edusummit.html:284
+#: templates/edusummit.html:122 templates/edusummit.html:285
+#: templates/edusummit.html:287
 msgid "here"
 msgstr "tu"
 
@@ -983,12 +983,12 @@ msgstr ""
 "Sobota bude patriť workshopom. Prihlasovanie workshopov ešte stále "
 "prebieha, avšak niekoľko ich už máme potvrdených:"
 
-#: templates/edusummit.html:171 templates/edusummit.html:209
+#: templates/edusummit.html:171 templates/edusummit.html:210
 msgid "Microbit image"
 msgstr ""
 
 #: templates/edusummit.html:177
-msgid "Ako žiakom priblížiť efektivitu a časovú zložitosť algoritmov"
+msgid "Aspekty počítačového myslenia vo vyučovaní programovania"
 msgstr ""
 
 #: templates/edusummit.html:180
@@ -1022,11 +1022,15 @@ msgid ""
 "                                          pre rovnakú triedu problémov."
 msgstr ""
 
-#: templates/edusummit.html:215
+#: templates/edusummit.html:197
+msgid "Lektori: Tobias Kohn a Dennis Komm z ETH Zurich"
+msgstr ""
+
+#: templates/edusummit.html:216
 msgid "Programovať (micro:bit) môže každý. Fakt alebo mýtus?"
 msgstr ""
 
-#: templates/edusummit.html:218
+#: templates/edusummit.html:219
 msgid ""
 "Čo keby ste mali riešenie na oživenie vyučovania programovania? Riešenie,"
 " ktoré svieti,\n"
@@ -1044,15 +1048,19 @@ msgid ""
 "programovať!"
 msgstr ""
 
-#: templates/edusummit.html:238
+#: templates/edusummit.html:227
+msgid "Lektori: Magdaléna Bellayová a Eva Kupčová z Gymnázia Golianova 68 v Nitre"
+msgstr ""
+
+#: templates/edusummit.html:240
 msgid "Minecraft image"
 msgstr ""
 
-#: templates/edusummit.html:244
+#: templates/edusummit.html:246
 msgid "Dobrodružstvá v Minecrafte s jazykom Python"
 msgstr ""
 
-#: templates/edusummit.html:247
+#: templates/edusummit.html:249
 msgid ""
 "Učiť sa programovať je ťažké. Naučiť niekoho programovať je ešte ťažšie. "
 "Je však veľmi jednoduché stráviť hodiny času v svete hry Minecraft. Na "
@@ -1065,15 +1073,15 @@ msgid ""
 "náladu a... krompáč."
 msgstr ""
 
-#: templates/edusummit.html:261
+#: templates/edusummit.html:263
 msgid "Space invaders image"
-msgstr ""
+msgstr "Vesmírni votrelci"
 
-#: templates/edusummit.html:267
+#: templates/edusummit.html:269
 msgid "Výučba programovania pomocou tvorby hier v PyGame Zero"
 msgstr ""
 
-#: templates/edusummit.html:270
+#: templates/edusummit.html:272
 msgid ""
 "Programovanie je cool a sexi. Ak však chcete osloviť súčasné decká, asi "
 "už neuspejete výpisom hlášky \"Hello, world!\". Rovnako tak neuspejete "
@@ -1088,28 +1096,32 @@ msgid ""
 "použitím knižnice PyGame Zero."
 msgstr ""
 
-#: templates/edusummit.html:281
+#: templates/edusummit.html:274
+msgid "Lektor: Miroslav Biňas z TUKE"
+msgstr ""
+
+#: templates/edusummit.html:284
 msgid "The Call for Proposals is still open, more info"
 msgstr ""
 "Staňte sa súčasťou programu!<br>Program konferencie ešte stále napĺňame "
 "kvalitným obsahom aj od Vás - účastníkov. Preto ak máte nádpad na "
 "zaujímavý prípevok, kliknite"
 
-#: templates/edusummit.html:283
+#: templates/edusummit.html:286
 msgid "We will update the workshop list after the Call for Proposals is closed."
 msgstr ""
 "Po uzavretí prihlášok na prednášky a workshopov zverejníme zoznam "
 "všetkých workshopov."
 
-#: templates/edusummit.html:283
+#: templates/edusummit.html:286
 msgid "More information about the schedule can be found "
 msgstr "Viac informácií o programe nájdete "
 
-#: templates/edusummit.html:292
+#: templates/edusummit.html:295
 msgid "SPy Cup"
 msgstr "SPy Cup"
 
-#: templates/edusummit.html:295
+#: templates/edusummit.html:298
 msgid ""
 "Students from all 14 schools currently participating in Teaching with "
 "Hardware will join the SPy Cup contest, in which they create their own "
@@ -1126,7 +1138,7 @@ msgstr ""
 "udelené ceny a ich autori budú mať krátku prezentáciu o ich projekte na "
 "konferencii PyCon SK 2019."
 
-#: templates/edusummit.html:297
+#: templates/edusummit.html:300
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
@@ -1134,11 +1146,11 @@ msgstr ""
 "Viac informácií nájdeš na <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
 
-#: templates/edusummit.html:306
+#: templates/edusummit.html:309
 msgid "Teaching with Hardware"
 msgstr "Učíme s Hardvérom"
 
-#: templates/edusummit.html:309
+#: templates/edusummit.html:312
 #, python-format
 msgid ""
 "The goal of the initiative <a href=\"%(url)s\" target=\"_blank\">Teaching"
@@ -1163,19 +1175,19 @@ msgstr ""
 "celom Slovensku. Jeho výsledky budú predstavené na konferencii PyCon SK "
 "2019."
 
-#: templates/edusummit.html:319
+#: templates/edusummit.html:322
 msgid "Poster Session"
 msgstr "Posterová sekcia"
 
-#: templates/edusummit.html:322
+#: templates/edusummit.html:325
 msgid "We will host a poster session and we will be happy if you get involved."
 msgstr "Budeme organizovať aj posterovú sekciu a budeme radi, ak sa zapojíš."
 
-#: templates/edusummit.html:333
+#: templates/edusummit.html:336
 msgid "Python Cup"
 msgstr "Python Cup"
 
-#: templates/edusummit.html:336
+#: templates/edusummit.html:339
 #, python-format
 msgid ""
 "The <a href=\"%(url)s\" target=\"_blank\">winners of Python Cup</a> will "
@@ -1184,11 +1196,11 @@ msgstr ""
 "V sekcii EduSummit budú vyhlásení <a href=\"%(url)s\" "
 "target=\"_blank\">víťazi súťaže Python Cup</a>."
 
-#: templates/edusummit.html:346
+#: templates/edusummit.html:349
 msgid "What kind of ticked should I buy?"
 msgstr "Aký druh lístka by som si mal/a kúpiť?"
 
-#: templates/edusummit.html:349
+#: templates/edusummit.html:352
 msgid ""
 "All available tickets apply for the whole PyCon SK conference, including "
 "the EduSummit section. All of the talks and workshops take place at the "
@@ -1199,19 +1211,19 @@ msgstr ""
 "sekcie EduSummit. Všetky prednášky a workshopy sa konajú na tom istom "
 "mieste a môžeš sa rozhodnúť, ktoré prednášky a workshopy chceš navštíviť."
 
-#: templates/edusummit.html:350
+#: templates/edusummit.html:353
 msgid "If you are a teacher or student you are eligible for a discount."
 msgstr "Ak si učiteľ alebo študent, máš nárok na zľavu."
 
-#: templates/edusummit.html:364
+#: templates/edusummit.html:367
 msgid "Sponsorship"
 msgstr "Sponzoruj"
 
-#: templates/edusummit.html:365
+#: templates/edusummit.html:368
 msgid "We need you — EduSummit seeks for sponsors and partners!"
 msgstr "Potrebujeme vás — EduSummit hľadá sponzorov a partnerov!"
 
-#: templates/edusummit.html:370
+#: templates/edusummit.html:373
 msgid ""
 "By supporting PyCon you also support numerous educational activities "
 "during the conference. If the conference is profitable we finance "
@@ -1221,7 +1233,7 @@ msgstr ""
 "aktivít počas konferencie. V prípade, že bude konferencia zisková, budeme"
 " zo zisku financovať vzdelávacie aktivity počas celého roka."
 
-#: templates/edusummit.html:371
+#: templates/edusummit.html:374
 #, python-format
 msgid ""
 "Get in touch with us or visit our <a href=\"%(url)s\">sponsorship "
@@ -1334,11 +1346,19 @@ msgstr ""
 "penaženky a po potvrdení sumy v nášej peňaženke Vám vystavíme a pošleme "
 "emailom vstupenku."
 
-#: templates/faq.html:113
+#: templates/faq.html:106 templates/tickets.html:30
+msgid ""
+"For transaction in Bitcoin use:  <a href=\"https://tallyco.in/s/e51yzw/\""
+" target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
+msgstr ""
+"Pre transakcie v Bitcoine použite:  <a href=\"https://tallyco.in/s/e51yzw/\""
+" target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
+
+#: templates/faq.html:114
 msgid "What is included in the ticket?"
 msgstr "Čo je zahrnuté v cene lístku?"
 
-#: templates/faq.html:119
+#: templates/faq.html:120
 #, python-format
 msgid ""
 "We made a list of things what you can expect at the conference on <a "
@@ -1347,11 +1367,11 @@ msgstr ""
 "Na <a href=\"%(url)s\">stránke so vstupenkami</a> sme pripravili zoznam "
 "vecí, ktoré môžeš očakávať na konferencii."
 
-#: templates/faq.html:128
+#: templates/faq.html:129
 msgid "Do you offer group discounts?"
 msgstr "Ponúkate množstevné zľavy?"
 
-#: templates/faq.html:134
+#: templates/faq.html:135
 msgid ""
 "If you would like to buy more than 15 tickets please contact us by email "
 "at info@pycon.sk."
@@ -1359,11 +1379,11 @@ msgstr ""
 "Ak máte záujem kúpiť viac ako 15 lístkov, kontaktujte nás emailom na "
 "info@pycon.sk."
 
-#: templates/faq.html:143
+#: templates/faq.html:144
 msgid "Is there any another possibility to get to PyCon?"
 msgstr "Je aj iná možnosť, ako sa dostať na PyCon?"
 
-#: templates/faq.html:149
+#: templates/faq.html:150
 #, python-format
 msgid ""
 "Yes <a href=\"%(url)s\">submit a talk</a>, and if your talk is selected "
@@ -1372,7 +1392,7 @@ msgstr ""
 "Áno, <a href=\"%(url)s\">podaj si návrh na prednášku</a> a ak bude návrh "
 "prijatý, dostaneš rečnícky lístok zdarma."
 
-#: templates/faq.html:152
+#: templates/faq.html:153
 msgid ""
 "If you are less than 15 years old and come accompanied by a parent, you "
 "can just purchase one ticket only for the parent, but you have to inform "
@@ -1382,11 +1402,11 @@ msgstr ""
 "lístok zakúpi iba rodič, no musíte sa nám ozvať aby sme vystavili "
 "vstupenku aj pre dieťa."
 
-#: templates/faq.html:161
+#: templates/faq.html:162
 msgid "Will there be last moment tickets?"
 msgstr "Budete predávať aj lístky na poslednú chvíľu?"
 
-#: templates/faq.html:167
+#: templates/faq.html:168
 msgid ""
 "Last 50 tickets will be more expensive, so don't leave your ticket "
 "purchase to last moment!"
@@ -1394,11 +1414,11 @@ msgstr ""
 "Posledných 50 lístkov bude mať vyššiu cenu, tak si nenechávajte kúpu "
 "lístku na poslednú chvíľu!"
 
-#: templates/faq.html:177
+#: templates/faq.html:178
 msgid "Do you have social event in the evening?"
 msgstr "Bude aj oficiálny večierok?"
 
-#: templates/faq.html:183
+#: templates/faq.html:184
 msgid ""
 "On Firday there will be an unofficial party. We will meet in a pub and "
 "have fun, no need for special ticket."
@@ -1406,7 +1426,7 @@ msgstr ""
 "V piatok bude neoficiálna party. Stretneme sa v pube a zabavíme sa. "
 "Nepotrebuješ žiaden lístok."
 
-#: templates/faq.html:186
+#: templates/faq.html:187
 msgid ""
 "On Saturday we'll have an official conference dinner! There is a special "
 "ticket for this event."
@@ -1414,11 +1434,11 @@ msgstr ""
 "V sobotu budeme mať oficiálnu konferenčnú večeru! Na túto udalosť je "
 "potrebné kúpiť si samostatný lístok."
 
-#: templates/faq.html:196
+#: templates/faq.html:197
 msgid "Is my conference ticket valid for the FRIDAY unofficial party?"
 msgstr "Platí môj konferenčný lístok na PIATKOVÚ neoficiálnu párty?"
 
-#: templates/faq.html:202
+#: templates/faq.html:203
 msgid ""
 "YES. You don't have to purchase a ticket for the FRIDAY unofficial party."
 " In the pub everybody pays for themself."
@@ -1426,7 +1446,7 @@ msgstr ""
 "ÁNO. Na PIATKOVÚ neoficiálnu párty si nepotrebuješ kupovať lístok. V pube"
 " však každý platí za seba."
 
-#: templates/faq.html:212
+#: templates/faq.html:213
 msgid ""
 "Is my conference ticket valid for the SATURDAY conference dinner "
 "(official social event)?"
@@ -1434,7 +1454,7 @@ msgstr ""
 "Platí môj konferenčný lístok na SOBOTNÚ konferenčnú večeru (oficiálny "
 "spoločenský event)?"
 
-#: templates/faq.html:218
+#: templates/faq.html:219
 msgid ""
 "NO. You have to purchase a ticket for the SATURDAY conference dinner "
 "(official social event). Ticket to the dinner includes dinner in a form "
@@ -1601,15 +1621,15 @@ msgstr ""
 "V sobotu budeme mať oficiálnu večeru. Opäť sa stretnem v pube, pokecáme a"
 " zabavíme sa. Na túto udalosť však budeš potrebovať samostatný lístok."
 
-#: templates/index.html:166 templates/tickets.html:44
+#: templates/index.html:166 templates/tickets.html:45
 msgid "Participants"
 msgstr "Účastníkov"
 
-#: templates/index.html:186 templates/tickets.html:64
+#: templates/index.html:186 templates/tickets.html:65
 msgid "Sessions"
 msgstr "Prednášok"
 
-#: templates/index.html:196 templates/tickets.html:74
+#: templates/index.html:196 templates/tickets.html:75
 msgid "Sponsors"
 msgstr "Sponzorov"
 
@@ -2373,74 +2393,6 @@ msgstr ""
 "projektoch využívajúcich strojové učenie v Google AI Genomics. Táto "
 "prednáška stručne predstaví Nucleus, jeho funkcionalitu a jeho API."
 
-#: templates/speakers.html:106
-msgid ""
-"Professor Juraj Hromkovič is a university lecturer from Swiss Federal "
-"Institute of Technology (ETH) in Zürich."
-msgstr ""
-"Profesor Juraj Hromkovič, DrSc., ktorý pôsobí ako vysokoškolský pedagóg "
-"vo Švajčiarskom federálnom technologickom inštitúte (ETH) v Zürichu."
-
-#: templates/speakers.html:132
-msgid "CS student and Python enthusiast"
-msgstr "študent informatiky a Python nadšenec"
-
-#: templates/speakers.html:141
-msgid ""
-"Luke is 17 and is studying computer science, maths, further maths and "
-"physics in Year 12 (English Secondary school / Sixthform). He loves to "
-"program in Python and thinks that the micro:bit is a great eductional "
-"tool and should be more widely used. He has given previous talks at Pycon"
-" UK and is looking forward to speaking at Pycon SK 2019."
-msgstr ""
-"Luke je 17-ročný študent informatiky, matematiky, pokročilej matematiky a"
-" fyziky v 12. ročníku (anglická stredná škola). Rád programuje v Pythone "
-"a micro:bit považuje za skvelý nástroj na výuku, ktorý by sa mal oveľa "
-"viac využívať. V minulosti už prednášal na PyCon UK a teší sa na "
-"prednášku na PyCon SK 2019."
-
-#: templates/speakers.html:145
-msgid ""
-"Controling a robotic arm with micro:bits. How to make computer science "
-"education more interesting."
-msgstr ""
-"Ovládanie robotického ramena micro:bitmi. Ako urobiť hodiny programovania"
-" zaujímavejšími."
-
-#: templates/speakers.html:146
-msgid ""
-"Captivating a group of children for a sustained period of time is "
-"notoriously hard. I will be exporing with you how the micro:bit can be "
-"used to engage a young audience with interactive demos and programming "
-"activities."
-msgstr ""
-"Je všeobecne známe, že získať pozornosť detí na dlhšiu dobu je veľmi "
-"ťažké. Spolu preskúmame, ako môžeme s micro:bitom zaujať mladé publikum "
-"pomocou interaktívnych dem a programátorských aktivít."
-
-#: templates/speakers.html:147
-msgid ""
-"Children love to physically interact with hardware. That is what is great"
-" about the micro:bit. It not only has built in LEDs and buttons but can "
-"also control bigger more exciting electronics like robotic arms. This "
-"allows for setup that gives students of all ability levels a challenge. "
-"Students that are beginners to programming can be given a more complete "
-"program or walk throught a worksheet that takes them through the process "
-"of controling the device (in this case a robotic arm) step by step. "
-"Students that have higher programming skills can be given a more bare "
-"bones / boilerplate source file and can write code to control the arm "
-"with less guidance."
-msgstr ""
-"Deti zbožňujú fyzickú interakciu s hardvérom. Presne to je skvelé na "
-"micro:bite. Nielenže má vstavané LEDky a tlačidlá, ale dokáže ovládať "
-"väčšie a vzrušujúcejšie zariadenia ako napríklad robotické ramená. To "
-"umožňuje pripraviť výzvu pre študentov na rôznych úrovniach. Študentom, "
-"ktorý sú v programovaní začiatočníci, môžeme zadať pokročilý program, "
-"alebo návod krok za krokom, ktorý ich prevedie celým procesom ovládania "
-"zariadenia (v tomto prípade robotického ramena). Pokročilejší študenti "
-"môžu dostať menej komplexný zdrojový súbor a môžu písať kód na ovládanie "
-"ramena samostatnejšie."
-
 #: templates/speakers.html:165
 msgid "Python engineer at Iceye"
 msgstr "Python vývojár v Iceye"
@@ -2459,8 +2411,8 @@ msgstr ""
 "vo Veľkej Británii, Jakub momentálne vedie technickú časť pozemného "
 "segmentu v Iceye, fínskom startupe na sledovanie Zeme. Budujú veľký "
 "družicový SAR (synthetic-aperture radar) systém a Python využívajú vo "
-"veľkom v rôznych častiach projektu. Iceye nedávno úspešne vypustilo "
-"už druhú družicu ICEYE-X2 na palube Falcona 9 spoločnosti SpaceXs."
+"veľkom v rôznych častiach projektu. Iceye nedávno úspešne vypustilo už "
+"druhú družicu ICEYE-X2 na palube rakety Falcon 9 spoločnosti SpaceX."
 
 #: templates/speakers.html:178
 msgid "Using python in new space industry is not a rocket science"
@@ -2470,8 +2422,7 @@ msgstr "Využívanie Pythonu vo vesmírnom priemysle nie je raketová veda"
 msgid ""
 "What we do at Iceye and how python is allowing us to grow fast and be "
 "unique."
-msgstr ""
-"Čo robíme v Iceye a ako nám Python pomáha rýchlo rásť a byť výnimočnými."
+msgstr "Čo robíme v Iceye a ako nám Python pomáha rýchlo rásť a byť výnimočnými."
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
 msgid "Sponsors &amp; Partners"
@@ -2534,10 +2485,10 @@ msgstr ""
 "pre IT freelancerov.\n"
 "                      SPoupracujeme s tisíckami IT freelancerov na "
 "Slovensku a v zahraničí. Podpísali sme partnerstvá\n"
-"                      s prestížnymi firmami, inštitúciami a agentúrami"
-" v Rakúsku, Švajčiarsku, Chorvátsku, Česku,\n"
-"                      a na Slovensku, čo nám umožňuje ponúkať IT"
-"freelancerom množstvo zaujímavých projektov.\n"
+"                      s prestížnymi firmami, inštitúciami a agentúrami v "
+"Rakúsku, Švajčiarsku, Chorvátsku, Česku,\n"
+"                      a na Slovensku, čo nám umožňuje ponúkať "
+"ITfreelancerom množstvo zaujímavých projektov.\n"
 "                      Pre ponuku jobov pozri www.titans.sk."
 
 #: templates/sponsoring.html:72
@@ -2697,15 +2648,15 @@ msgstr ""
 "target=\"_blank\">https://ti.to/pyconsk/2019</a>, ak sa ti tito widget "
 "nezobrazuje správne."
 
-#: templates/tickets.html:91
+#: templates/tickets.html:92
 msgid "What am I paying for?"
 msgstr "Za čo platím?"
 
-#: templates/tickets.html:101
+#: templates/tickets.html:102
 msgid "Speakers and Lecturers"
 msgstr "Rečníci a prednášajúci"
 
-#: templates/tickets.html:102
+#: templates/tickets.html:103
 msgid ""
 "Our speakers are the best. And they do it for free! However, we have to "
 "pay for their\n"
@@ -2715,7 +2666,7 @@ msgstr ""
 "vstupenky \n"
 " a niekdy im preplatíme cestovné náklady."
 
-#: templates/tickets.html:104
+#: templates/tickets.html:105
 msgid ""
 "Expenses for flight tickets and hotel in Bratislava are a big part of our"
 " budget. We also do cover all\n"
@@ -2726,17 +2677,17 @@ msgstr ""
 "\n"
 "              a zverejnením všetkých príspevkov."
 
-#: templates/tickets.html:113
+#: templates/tickets.html:114
 msgid "Community & Inclusion"
 msgstr "Komunita a inklúzia"
 
-#: templates/tickets.html:114
+#: templates/tickets.html:115
 msgid ""
 "PyCon is a special type of conference - it is organised by the community "
 "for the community"
 msgstr "PyCon je špeciálna konferencia - je organizovaná komunitou pre komunitu"
 
-#: templates/tickets.html:116
+#: templates/tickets.html:117
 msgid ""
 "By attending, you have a chance to meet like minded people and hear a lot"
 " of interesting stories. However,\n"
@@ -2750,17 +2701,17 @@ msgstr ""
 "kúpiť lístok na konferenciu, sme pripravili program na podporu\n"
 "              a máme pripravené určité množstvo lístkov zadarmo."
 
-#: templates/tickets.html:133
+#: templates/tickets.html:134
 msgid "Conference T-shirt and other swag"
 msgstr "Tričko z konferencie a ďalšie drobnosti"
 
-#: templates/tickets.html:134
+#: templates/tickets.html:135
 msgid ""
 "What kind of conference would PyCon Slovakia be without a conference "
 "T-shirt?"
 msgstr "Čo by to bola za konferenciu bez konferenčného trička?"
 
-#: templates/tickets.html:135
+#: templates/tickets.html:136
 msgid ""
 "Each attendee receives one 100&#37; cotton T-shirt and other swag. "
 "Possibly a water bottle with our fancy\n"
@@ -2770,7 +2721,7 @@ msgstr ""
 "to bude fľaša na vodu s naším super logom. Ale sme otvorení aj ďalším "
 "návrhom..."
 
-#: templates/tickets.html:145
+#: templates/tickets.html:146
 msgid ""
 "The conference takes place at the Faculty of Informatics and Information "
 "Technologies\n"
@@ -2779,7 +2730,7 @@ msgstr ""
 "Konferencia sa koná na Fakulte informatiky a informačných technológií "
 "(Slovenskej technickej univerzity)"
 
-#: templates/tickets.html:147
+#: templates/tickets.html:148
 msgid ""
 "Venue is in new building and have well equipped and pleasant auditoriums "
 "and lobbies. The first PyCon SK\n"
@@ -2789,11 +2740,11 @@ msgstr ""
 "prednáškové miestnosti a príslušné priestory. Prvý PyCon SK bol jednou\n"
 "              z prvých konferencií v týchto priestoroch!"
 
-#: templates/tickets.html:162
+#: templates/tickets.html:163
 msgid "Refreshments"
 msgstr "Občerstvenie"
 
-#: templates/tickets.html:163
+#: templates/tickets.html:164
 msgid ""
 "Afraid of falling asleep during a talk? Don't worry, we have your back - "
 "All you can drink\n"
@@ -2802,7 +2753,7 @@ msgstr ""
 "Obávaš sa, že zaspíš počas prednášky? Už nemusíš, máme všetko - \n"
 "              kávu, čaj či vodu."
 
-#: templates/tickets.html:165
+#: templates/tickets.html:166
 msgid ""
 "We will have two proffesional baristas serving fresh coffee and tea all "
 "day long. Water fountains will be\n"
@@ -2813,19 +2764,19 @@ msgstr ""
 "dispozícii\n"
 "              na viacerých miestach rovnomerne v celej lobby."
 
-#: templates/tickets.html:174
+#: templates/tickets.html:175
 msgid "Lunch"
 msgstr "Obed"
 
-#: templates/tickets.html:175
+#: templates/tickets.html:176
 msgid "During all three days, a variety of warm food will be served for lunch"
 msgstr "Počas všetkých troch dní sa budú na obed servírovať rôzne teplé jedlá"
 
-#: templates/tickets.html:176
+#: templates/tickets.html:177
 msgid "Meat and vegetarian alternatives will be available."
 msgstr "K dispozícii budú mäsité aj vegetariánske alternatívy"
 
-#: templates/tickets.html:177
+#: templates/tickets.html:178
 msgid ""
 "We also try to be as eco friendly as possible, and so we serve food on "
 "ceramic plates, eat with metal\n"
@@ -2836,11 +2787,11 @@ msgstr ""
 "              a pitnú vodu poskytujeme z recyklovateľných plastových "
 "fliaš."
 
-#: templates/tickets.html:192
+#: templates/tickets.html:193
 msgid "Real Conference Ticket Price"
 msgstr "Skutočná cena vstupenky"
 
-#: templates/tickets.html:193
+#: templates/tickets.html:194
 msgid ""
 "The real price of one conference ticket would be much higher had it not "
 "been for our\n"
@@ -2852,7 +2803,7 @@ msgstr ""
 "              sponzori a partneri, vďaka ktorým môžeme lístky predávať"
 "               oveľa lacnejšie."
 
-#: templates/tickets.html:195
+#: templates/tickets.html:196
 msgid ""
 "Without sponsors and partners all tickets would cost over 90&euro; "
 "(including student and teacher\n"
@@ -2866,11 +2817,11 @@ msgstr ""
 "dobrovoľníckej práce, ktorú robí Python komunita pred\n"
 "              a počas každého PyConu."
 
-#: templates/tickets.html:204
+#: templates/tickets.html:205
 msgid "micro:bit Education Supporter Ticket"
 msgstr "Lístok podporovateľa vzdelávania s micro:bitom"
 
-#: templates/tickets.html:208
+#: templates/tickets.html:209
 msgid ""
 "<i>Teaching with Hardware</i> is a project of the Slovak Python User "
 "Group which strives to\n"
@@ -2900,7 +2851,7 @@ msgstr ""
 "               reproduktorov, krokodíliek, robotov, servo motorov a "
 "ďalšieho vybavenia."
 
-#: templates/tickets.html:216
+#: templates/tickets.html:217
 #, python-format
 msgid ""
 "Within several weeks you will be informed which school received the kit "
@@ -3173,180 +3124,4 @@ msgstr ""
 "title=\"stránky mesta pre návštevníkov\" target=\"_blank\" "
 "class=\"external\">oficiálne stránky mesta, určené pre návštevníkov</a>, "
 "kde nájdete aj iné udalosti, ktoré sa práve odohrávajú v Bratislave."
-
-#~ msgid ""
-#~ "For information about our privacy "
-#~ "practices, please visit our <a "
-#~ "href=\"%(url)s\">Privacy Policy</a>."
-#~ msgstr ""
-#~ "O tom, ako pracujeme so súkromnými "
-#~ "údajmi, si prečítaj našu stránku <a "
-#~ "href=\"%(url)s\">Ochrana súkromia</a>."
-
-#~ msgid ""
-#~ "By clicking below to subscribe, you\n"
-#~ "                  acknowledge that your "
-#~ "information will be transferred to "
-#~ "Mailchimp for processing."
-#~ msgstr ""
-#~ "Kliknutím nižšie na prihlásenie, \n"
-#~ "                  súhlasíš s tým, že "
-#~ "tvoje informácie budú odoslané Mailchimpu "
-#~ "na spracovanie."
-
-#~ msgid ""
-#~ "Learn more\n"
-#~ "                  about Mailchimp's privacy "
-#~ "practices <a href=\"https://mailchimp.com/legal/\" "
-#~ "target=\"_blank\" class=\"external\">here</a>."
-#~ msgstr ""
-#~ "O spracovaní osobných\n"
-#~ "                  údajov Mailchimpom si "
-#~ "prečítaj viac <a "
-#~ "href=\"https://mailchimp.com/legal/\" target=\"_blank\" "
-#~ "class=\"external\">tu</a>."
-
-#~ msgid "Email Address"
-#~ msgstr "Emailová adresa"
-
-#~ msgid "SPy o.z. will never share your email with anyone else."
-#~ msgstr "SPy o.z. nikdy nebude zdieľať tvoj email."
-
-#~ msgid "For information about our privacy practices, please visit our website."
-#~ msgstr ""
-#~ "Pre informácie o našich zásadách ochrany"
-#~ " súkromia, prosím navštív našu webstránku."
-
-#~ msgid ""
-#~ "By clicking below to subscribe, you\n"
-#~ "            acknowledge that your information"
-#~ " will be transferred to Mailchimp for"
-#~ " processing."
-#~ msgstr ""
-#~ "Kliknutím na tlačítko na prihlásenie, súhlasíš\n"
-#~ "            s tým, že toje informácie"
-#~ " budú odoslané Mailchimpu na spracovanie."
-
-#~ msgid ""
-#~ "Learn more\n"
-#~ "            about Mailchimp's privacy "
-#~ "practices <a href=\"https://mailchimp.com/legal/\" "
-#~ "target=\"_blank\" class=\"external\">here</a>."
-#~ msgstr ""
-#~ "Zistite viac\n"
-#~ "            o ochrane súkromia v "
-#~ "Mailchimpe <a href=\"https://mailchimp.com/legal/\" "
-#~ "target=\"_blank\" class=\"external\">tu</a>."
-
-#~ msgid ""
-#~ "If you have created an interesting "
-#~ "hardware project which uses Python, "
-#~ "MicroPython or the BBC micro:bit and "
-#~ "would like to share it to the "
-#~ "world then bring it to PyCon SK"
-#~ " 2019 :-)"
-#~ msgstr ""
-#~ "Ak si vytvoril zaujímavý hardvérový "
-#~ "projekt, ktorý používa Python, MicroPython "
-#~ "alebo BBC micro:bit a chcel by si"
-#~ " ho zdieľať s celým svetom, prines"
-#~ " ho na PyCon SK 2019 :-)"
-
-#~ msgid ""
-#~ "The goal of the initiative Teaching "
-#~ "with Hardware is to introduce such "
-#~ "activities into computing lessons at "
-#~ "primary and secondary schools, which "
-#~ "will familiarise students with interesting "
-#~ "applications of programming and information"
-#~ " technologies, thus motivating them in "
-#~ "developing their digital literacy and "
-#~ "algorithmic thinking. We do this by "
-#~ "introducing physical computing with a "
-#~ "small programmable device called BBC "
-#~ "micro:bit, and by supporting teachers "
-#~ "with methodical materials and teacher "
-#~ "training. In october 2018 we started "
-#~ "a PILOT project on 14 schools "
-#~ "across Slovakia, and the results will"
-#~ " be announced at PyCon SK 2019."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "More info can be found at <a "
-#~ "href=\"https://www.ucimeshardverom.sk\">www.ucimeshardverom.sk</a>"
-#~ msgstr ""
-#~ "Viac informácií nájdeš na stránke <a "
-#~ "href=\"https://www.ucimeshardverom.sk\">www.ucimeshardverom.sk</a>"
-
-#~ msgid "A beginner's workshop with BBC micro:bit given by high school students"
-#~ msgstr ""
-#~ "Workshop pre začiatočníkov so zariadením "
-#~ "BBC micro:bit vedený študentmi stredných "
-#~ "škôl"
-
-#~ msgid ""
-#~ "An advanced workshop with BBC micro:bit"
-#~ " for teachers who already teach with"
-#~ " micro:bits."
-#~ msgstr ""
-#~ "Pokročilý workshop so zariadením BBC "
-#~ "micro:bit pre učiteľov, ktorí už "
-#~ "micro:bit používajú vo výučbe."
-
-#~ msgid ""
-#~ "Workshop on using, creating and sharing"
-#~ " Open Educational Resources for teachers"
-#~ msgstr ""
-#~ "Workshop o používaní, vytváraní a "
-#~ "zdieľaní otvorených edukačných zdrojov pre "
-#~ "učiteľov"
-
-#~ msgid "Parse Open Data with Python"
-#~ msgstr "Parsovanie otvorených dát pomocou pythonu"
-
-#~ msgid "PyGame zero workshop for teachers"
-#~ msgstr "PyGame nula workshop pre učiteľov"
-
-#~ msgid "Control Minecraft via Python"
-#~ msgstr "Ovládaj Minecraft s Pythonom"
-
-#~ msgid "Turn your BBC micro:bit into a Minecraft game controller"
-#~ msgstr "Vytvor zo svojho BBC micro:bitu ovládač Minecraftu"
-
-#~ msgid "Where to submit your proposal"
-#~ msgstr "Kam poslať Váš návrh na prednášku"
-
-#~ msgid "We are glad you are interested in giving a talk at PyCon SK 2019!"
-#~ msgstr "Sme radi, že máš záujem prednášať na PyCon SK 2019! "
-
-#~ msgid "Call for proposals for PyCon SK 2019 is open."
-#~ msgstr "Podávanie návrhov na prednášky na PyCon SK 2019 je otvorené."
-
-#~ msgid ""
-#~ "The deadline for submissions is the "
-#~ "end of 14th February 2019. If you"
-#~ " have any questions, please contact "
-#~ "us via email: info@pycon.sk or join "
-#~ "our Slack channel"
-#~ msgstr ""
-#~ "14. februára 2019 ukončíme možnosť "
-#~ "prihlásiť si prednášku. Ak máš otázky,"
-#~ " kontaktuj nás emailom: info@pycon.sk alebo"
-#~ " sa pridaj na náš Slack kanál."
-
-#~ msgid ""
-#~ "This year’s keynote speaker will be "
-#~ "professor Juraj Hromkovič is a "
-#~ "university lecturer from Swiss Federal "
-#~ "Institute of Technology (ETH) in Zürich."
-#~ msgstr ""
-#~ "Hlavným rečníkom bude profesor Juraj "
-#~ "Hromkovič, DrSc., ktorý pôsobí ako "
-#~ "vysokoškolský pedagóg vo Švajčiarskom "
-#~ "federálnom technologickom inštitúte (ETH) v"
-#~ " Zürichu."
-
-#~ msgid "Please note that EduSummit will be primarily in Slovak language."
-#~ msgstr " "
 

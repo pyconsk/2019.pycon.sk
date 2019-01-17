@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-16 22:48+0100\n"
+"POT-Creation-Date: 2019-01-17 07:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 
 #: templates/body.html:77 templates/body.html:81 templates/index.html:176
 #: templates/speakers.html:7 templates/speakers.html:16
-#: templates/tickets.html:54
+#: templates/tickets.html:55
 msgid "Speakers"
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 msgid "FAQ"
 msgstr ""
 
-#: templates/body.html:115 templates/tickets.html:144 templates/venue.html:33
+#: templates/body.html:115 templates/tickets.html:145 templates/venue.html:33
 msgid "Venue"
 msgstr ""
 
@@ -735,13 +735,13 @@ msgid ""
 " UK and is looking forward to speaking at Pycon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:93 templates/speakers.html:146
+#: templates/edusummit.html:93 templates/speakers.html:145
 msgid ""
 "Controling a robotic arm with micro:bits. How to make computer science "
 "education more interesting."
 msgstr ""
 
-#: templates/edusummit.html:94 templates/speakers.html:147
+#: templates/edusummit.html:94 templates/speakers.html:146
 msgid ""
 "Captivating a group of children for a sustained period of time is "
 "notoriously hard. I will be exporing with you how the micro:bit can be "
@@ -749,7 +749,7 @@ msgid ""
 "activities."
 msgstr ""
 
-#: templates/edusummit.html:95 templates/speakers.html:148
+#: templates/edusummit.html:95 templates/speakers.html:147
 msgid ""
 "Children love to physically interact with hardware. That is what is great"
 " about the micro:bit. It not only has built in LEDs and buttons but can "
@@ -781,8 +781,8 @@ msgid ""
 "talk or workshop and co-create the conference "
 msgstr ""
 
-#: templates/edusummit.html:122 templates/edusummit.html:282
-#: templates/edusummit.html:284
+#: templates/edusummit.html:122 templates/edusummit.html:285
+#: templates/edusummit.html:287
 msgid "here"
 msgstr ""
 
@@ -810,12 +810,12 @@ msgstr ""
 msgid "On saturday we will hold numerous educational workshops."
 msgstr ""
 
-#: templates/edusummit.html:171 templates/edusummit.html:209
+#: templates/edusummit.html:171 templates/edusummit.html:210
 msgid "Microbit image"
 msgstr ""
 
 #: templates/edusummit.html:177
-msgid "Ako žiakom priblížiť efektivitu a časovú zložitosť algoritmov"
+msgid "Aspekty počítačového myslenia vo vyučovaní programovania"
 msgstr ""
 
 #: templates/edusummit.html:180
@@ -849,11 +849,15 @@ msgid ""
 "                                          pre rovnakú triedu problémov."
 msgstr ""
 
-#: templates/edusummit.html:215
+#: templates/edusummit.html:197
+msgid "Lektori: Tobias Kohn a Dennis Komm z ETH Zurich"
+msgstr ""
+
+#: templates/edusummit.html:216
 msgid "Programovať (micro:bit) môže každý. Fakt alebo mýtus?"
 msgstr ""
 
-#: templates/edusummit.html:218
+#: templates/edusummit.html:219
 msgid ""
 "Čo keby ste mali riešenie na oživenie vyučovania programovania? Riešenie,"
 " ktoré svieti,\n"
@@ -871,15 +875,19 @@ msgid ""
 "programovať!"
 msgstr ""
 
-#: templates/edusummit.html:238
+#: templates/edusummit.html:227
+msgid "Lektori: Magdaléna Bellayová a Eva Kupčová z Gymnázia Golianova 68 v Nitre"
+msgstr ""
+
+#: templates/edusummit.html:240
 msgid "Minecraft image"
 msgstr ""
 
-#: templates/edusummit.html:244
+#: templates/edusummit.html:246
 msgid "Dobrodružstvá v Minecrafte s jazykom Python"
 msgstr ""
 
-#: templates/edusummit.html:247
+#: templates/edusummit.html:249
 msgid ""
 "Učiť sa programovať je ťažké. Naučiť niekoho programovať je ešte ťažšie. "
 "Je však veľmi jednoduché stráviť hodiny času v svete hry Minecraft. Na "
@@ -892,15 +900,15 @@ msgid ""
 "náladu a... krompáč."
 msgstr ""
 
-#: templates/edusummit.html:261
+#: templates/edusummit.html:263
 msgid "Space invaders image"
 msgstr ""
 
-#: templates/edusummit.html:267
+#: templates/edusummit.html:269
 msgid "Výučba programovania pomocou tvorby hier v PyGame Zero"
 msgstr ""
 
-#: templates/edusummit.html:270
+#: templates/edusummit.html:272
 msgid ""
 "Programovanie je cool a sexi. Ak však chcete osloviť súčasné decká, asi "
 "už neuspejete výpisom hlášky \"Hello, world!\". Rovnako tak neuspejete "
@@ -915,23 +923,27 @@ msgid ""
 "použitím knižnice PyGame Zero."
 msgstr ""
 
-#: templates/edusummit.html:281
+#: templates/edusummit.html:274
+msgid "Lektor: Miroslav Biňas z TUKE"
+msgstr ""
+
+#: templates/edusummit.html:284
 msgid "The Call for Proposals is still open, more info"
 msgstr ""
 
-#: templates/edusummit.html:283
+#: templates/edusummit.html:286
 msgid "We will update the workshop list after the Call for Proposals is closed."
 msgstr ""
 
-#: templates/edusummit.html:283
+#: templates/edusummit.html:286
 msgid "More information about the schedule can be found "
 msgstr ""
 
-#: templates/edusummit.html:292
+#: templates/edusummit.html:295
 msgid "SPy Cup"
 msgstr ""
 
-#: templates/edusummit.html:295
+#: templates/edusummit.html:298
 msgid ""
 "Students from all 14 schools currently participating in Teaching with "
 "Hardware will join the SPy Cup contest, in which they create their own "
@@ -941,17 +953,17 @@ msgid ""
 " have a short presentation about their project at PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:297
+#: templates/edusummit.html:300
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
 msgstr ""
 
-#: templates/edusummit.html:306
+#: templates/edusummit.html:309
 msgid "Teaching with Hardware"
 msgstr ""
 
-#: templates/edusummit.html:309
+#: templates/edusummit.html:312
 #, python-format
 msgid ""
 "The goal of the initiative <a href=\"%(url)s\" target=\"_blank\">Teaching"
@@ -966,30 +978,30 @@ msgid ""
 "announced at PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:319
+#: templates/edusummit.html:322
 msgid "Poster Session"
 msgstr ""
 
-#: templates/edusummit.html:322
+#: templates/edusummit.html:325
 msgid "We will host a poster session and we will be happy if you get involved."
 msgstr ""
 
-#: templates/edusummit.html:333
+#: templates/edusummit.html:336
 msgid "Python Cup"
 msgstr ""
 
-#: templates/edusummit.html:336
+#: templates/edusummit.html:339
 #, python-format
 msgid ""
 "The <a href=\"%(url)s\" target=\"_blank\">winners of Python Cup</a> will "
 "be awarded at EduSummit."
 msgstr ""
 
-#: templates/edusummit.html:346
+#: templates/edusummit.html:349
 msgid "What kind of ticked should I buy?"
 msgstr ""
 
-#: templates/edusummit.html:349
+#: templates/edusummit.html:352
 msgid ""
 "All available tickets apply for the whole PyCon SK conference, including "
 "the EduSummit section. All of the talks and workshops take place at the "
@@ -997,26 +1009,26 @@ msgid ""
 "attend."
 msgstr ""
 
-#: templates/edusummit.html:350
+#: templates/edusummit.html:353
 msgid "If you are a teacher or student you are eligible for a discount."
 msgstr ""
 
-#: templates/edusummit.html:364
+#: templates/edusummit.html:367
 msgid "Sponsorship"
 msgstr ""
 
-#: templates/edusummit.html:365
+#: templates/edusummit.html:368
 msgid "We need you — EduSummit seeks for sponsors and partners!"
 msgstr ""
 
-#: templates/edusummit.html:370
+#: templates/edusummit.html:373
 msgid ""
 "By supporting PyCon you also support numerous educational activities "
 "during the conference. If the conference is profitable we finance "
 "educational activities during the whole year."
 msgstr ""
 
-#: templates/edusummit.html:371
+#: templates/edusummit.html:374
 #, python-format
 msgid ""
 "Get in touch with us or visit our <a href=\"%(url)s\">sponsorship "
@@ -1106,88 +1118,94 @@ msgid ""
 "confirmed, we will issue and send the requested tickets to you by email."
 msgstr ""
 
-#: templates/faq.html:113
+#: templates/faq.html:106 templates/tickets.html:30
+msgid ""
+"For transaction in Bitcoin use:  <a href=\"https://tallyco.in/s/e51yzw/\""
+" target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
+msgstr ""
+
+#: templates/faq.html:114
 msgid "What is included in the ticket?"
 msgstr ""
 
-#: templates/faq.html:119
+#: templates/faq.html:120
 #, python-format
 msgid ""
 "We made a list of things what you can expect at the conference on <a "
 "href=\"%(url)s\">the tickets page</a>."
 msgstr ""
 
-#: templates/faq.html:128
+#: templates/faq.html:129
 msgid "Do you offer group discounts?"
 msgstr ""
 
-#: templates/faq.html:134
+#: templates/faq.html:135
 msgid ""
 "If you would like to buy more than 15 tickets please contact us by email "
 "at info@pycon.sk."
 msgstr ""
 
-#: templates/faq.html:143
+#: templates/faq.html:144
 msgid "Is there any another possibility to get to PyCon?"
 msgstr ""
 
-#: templates/faq.html:149
+#: templates/faq.html:150
 #, python-format
 msgid ""
 "Yes <a href=\"%(url)s\">submit a talk</a>, and if your talk is selected "
 "you will receive a speakers ticket for free."
 msgstr ""
 
-#: templates/faq.html:152
+#: templates/faq.html:153
 msgid ""
 "If you are less than 15 years old and come accompanied by a parent, you "
 "can just purchase one ticket only for the parent, but you have to inform "
 "us in advance to issue an another ticket for the child."
 msgstr ""
 
-#: templates/faq.html:161
+#: templates/faq.html:162
 msgid "Will there be last moment tickets?"
 msgstr ""
 
-#: templates/faq.html:167
+#: templates/faq.html:168
 msgid ""
 "Last 50 tickets will be more expensive, so don't leave your ticket "
 "purchase to last moment!"
 msgstr ""
 
-#: templates/faq.html:177
+#: templates/faq.html:178
 msgid "Do you have social event in the evening?"
 msgstr ""
 
-#: templates/faq.html:183
+#: templates/faq.html:184
 msgid ""
 "On Firday there will be an unofficial party. We will meet in a pub and "
 "have fun, no need for special ticket."
 msgstr ""
 
-#: templates/faq.html:186
+#: templates/faq.html:187
 msgid ""
 "On Saturday we'll have an official conference dinner! There is a special "
 "ticket for this event."
 msgstr ""
 
-#: templates/faq.html:196
+#: templates/faq.html:197
 msgid "Is my conference ticket valid for the FRIDAY unofficial party?"
 msgstr ""
 
-#: templates/faq.html:202
+#: templates/faq.html:203
 msgid ""
 "YES. You don't have to purchase a ticket for the FRIDAY unofficial party."
 " In the pub everybody pays for themself."
 msgstr ""
 
-#: templates/faq.html:212
+#: templates/faq.html:213
 msgid ""
 "Is my conference ticket valid for the SATURDAY conference dinner "
 "(official social event)?"
 msgstr ""
 
-#: templates/faq.html:218
+#: templates/faq.html:219
 msgid ""
 "NO. You have to purchase a ticket for the SATURDAY conference dinner "
 "(official social event). Ticket to the dinner includes dinner in a form "
@@ -1323,15 +1341,15 @@ msgid ""
 "but for this one you will need a separate ticket."
 msgstr ""
 
-#: templates/index.html:166 templates/tickets.html:44
+#: templates/index.html:166 templates/tickets.html:45
 msgid "Participants"
 msgstr ""
 
-#: templates/index.html:186 templates/tickets.html:64
+#: templates/index.html:186 templates/tickets.html:65
 msgid "Sessions"
 msgstr ""
 
-#: templates/index.html:196 templates/tickets.html:74
+#: templates/index.html:196 templates/tickets.html:75
 msgid "Sponsors"
 msgstr ""
 
@@ -1952,53 +1970,6 @@ msgid ""
 "give an overview of Nucleus, its features, and its APIs."
 msgstr ""
 
-#: templates/speakers.html:106
-msgid ""
-"Professor Juraj Hromkovič is a university lecturer from Swiss Federal "
-"Institute of Technology (ETH) in Zürich."
-msgstr ""
-
-#: templates/speakers.html:132
-msgid "CS student and Python enthusiast"
-msgstr ""
-
-#: templates/speakers.html:141
-msgid ""
-"Luke is 17 and is studying computer science, maths, further maths and "
-"physics in Year 12 (English Secondary school / Sixthform). He loves to "
-"program in Python and thinks that the micro:bit is a great eductional "
-"tool and should be more widely used. He has given previous talks at Pycon"
-" UK and is looking forward to speaking at Pycon SK 2019."
-msgstr ""
-
-#: templates/speakers.html:145
-msgid ""
-"Controling a robotic arm with micro:bits. How to make computer science "
-"education more interesting."
-msgstr ""
-
-#: templates/speakers.html:146
-msgid ""
-"Captivating a group of children for a sustained period of time is "
-"notoriously hard. I will be exporing with you how the micro:bit can be "
-"used to engage a young audience with interactive demos and programming "
-"activities."
-msgstr ""
-
-#: templates/speakers.html:147
-msgid ""
-"Children love to physically interact with hardware. That is what is great"
-" about the micro:bit. It not only has built in LEDs and buttons but can "
-"also control bigger more exciting electronics like robotic arms. This "
-"allows for setup that gives students of all ability levels a challenge. "
-"Students that are beginners to programming can be given a more complete "
-"program or walk throught a worksheet that takes them through the process "
-"of controling the device (in this case a robotic arm) step by step. "
-"Students that have higher programming skills can be given a more bare "
-"bones / boilerplate source file and can write code to control the arm "
-"with less guidance."
-msgstr ""
-
 #: templates/speakers.html:165
 msgid "Python engineer at Iceye"
 msgstr ""
@@ -2192,39 +2163,39 @@ msgid ""
 " widget is not displayed correctly."
 msgstr ""
 
-#: templates/tickets.html:91
+#: templates/tickets.html:92
 msgid "What am I paying for?"
 msgstr ""
 
-#: templates/tickets.html:101
+#: templates/tickets.html:102
 msgid "Speakers and Lecturers"
 msgstr ""
 
-#: templates/tickets.html:102
+#: templates/tickets.html:103
 msgid ""
 "Our speakers are the best. And they do it for free! However, we have to "
 "pay for their\n"
 "              conference ticket and sometimes we cover the travel budget."
 msgstr ""
 
-#: templates/tickets.html:104
+#: templates/tickets.html:105
 msgid ""
 "Expenses for flight tickets and hotel in Bratislava are a big part of our"
 " budget. We also do cover all\n"
 "              the costs of recording and releasing the all of the talks."
 msgstr ""
 
-#: templates/tickets.html:113
+#: templates/tickets.html:114
 msgid "Community & Inclusion"
 msgstr ""
 
-#: templates/tickets.html:114
+#: templates/tickets.html:115
 msgid ""
 "PyCon is a special type of conference - it is organised by the community "
 "for the community"
 msgstr ""
 
-#: templates/tickets.html:116
+#: templates/tickets.html:117
 msgid ""
 "By attending, you have a chance to meet like minded people and hear a lot"
 " of interesting stories. However,\n"
@@ -2233,79 +2204,79 @@ msgid ""
 "              and give free tickets."
 msgstr ""
 
-#: templates/tickets.html:133
+#: templates/tickets.html:134
 msgid "Conference T-shirt and other swag"
 msgstr ""
 
-#: templates/tickets.html:134
+#: templates/tickets.html:135
 msgid ""
 "What kind of conference would PyCon Slovakia be without a conference "
 "T-shirt?"
 msgstr ""
 
-#: templates/tickets.html:135
+#: templates/tickets.html:136
 msgid ""
 "Each attendee receives one 100&#37; cotton T-shirt and other swag. "
 "Possibly a water bottle with our fancy\n"
 "              PyCon Slovakia logo. We would love to hear your ideas..."
 msgstr ""
 
-#: templates/tickets.html:145
+#: templates/tickets.html:146
 msgid ""
 "The conference takes place at the Faculty of Informatics and Information "
 "Technologies\n"
 "              (Slovak University of Technology)"
 msgstr ""
 
-#: templates/tickets.html:147
+#: templates/tickets.html:148
 msgid ""
 "Venue is in new building and have well equipped and pleasant auditoriums "
 "and lobbies. The first PyCon SK\n"
 "              was one of the first conferences in this auditorium!"
 msgstr ""
 
-#: templates/tickets.html:162
+#: templates/tickets.html:163
 msgid "Refreshments"
 msgstr ""
 
-#: templates/tickets.html:163
+#: templates/tickets.html:164
 msgid ""
 "Afraid of falling asleep during a talk? Don't worry, we have your back - "
 "All you can drink\n"
 "              coffee, tea and water."
 msgstr ""
 
-#: templates/tickets.html:165
+#: templates/tickets.html:166
 msgid ""
 "We will have two proffesional baristas serving fresh coffee and tea all "
 "day long. Water fountains will be\n"
 "              available on multiple spots in the lobby."
 msgstr ""
 
-#: templates/tickets.html:174
+#: templates/tickets.html:175
 msgid "Lunch"
 msgstr ""
 
-#: templates/tickets.html:175
+#: templates/tickets.html:176
 msgid "During all three days, a variety of warm food will be served for lunch"
 msgstr ""
 
-#: templates/tickets.html:176
+#: templates/tickets.html:177
 msgid "Meat and vegetarian alternatives will be available."
 msgstr ""
 
-#: templates/tickets.html:177
+#: templates/tickets.html:178
 msgid ""
 "We also try to be as eco friendly as possible, and so we serve food on "
 "ceramic plates, eat with metal\n"
 "              cutlery and drink water from reusable plastic bottles."
 msgstr ""
 
-#: templates/tickets.html:192
+#: templates/tickets.html:193
 msgid "Real Conference Ticket Price"
 msgstr ""
 
-#: templates/tickets.html:193
+#: templates/tickets.html:194
 msgid ""
 "The real price of one conference ticket would be much higher had it not "
 "been for our\n"
@@ -2313,7 +2284,7 @@ msgid ""
 "sell cheaper tickets."
 msgstr ""
 
-#: templates/tickets.html:195
+#: templates/tickets.html:196
 msgid ""
 "Without sponsors and partners all tickets would cost over 90&euro; "
 "(including student and teacher\n"
@@ -2322,11 +2293,11 @@ msgid ""
 "              Python commnity before and during each PyCon."
 msgstr ""
 
-#: templates/tickets.html:204
+#: templates/tickets.html:205
 msgid "micro:bit Education Supporter Ticket"
 msgstr ""
 
-#: templates/tickets.html:208
+#: templates/tickets.html:209
 msgid ""
 "<i>Teaching with Hardware</i> is a project of the Slovak Python User "
 "Group which strives to\n"
@@ -2343,7 +2314,7 @@ msgid ""
 "              on."
 msgstr ""
 
-#: templates/tickets.html:216
+#: templates/tickets.html:217
 #, python-format
 msgid ""
 "Within several weeks you will be informed which school received the kit "
