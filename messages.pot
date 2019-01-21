@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-17 07:43+0100\n"
+"POT-Creation-Date: 2019-01-21 23:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -722,11 +722,11 @@ msgid ""
 "budúcich generácii."
 msgstr ""
 
-#: templates/edusummit.html:80 templates/speakers.html:132
+#: templates/edusummit.html:80 templates/speakers.html:164
 msgid "CS student and Python enthusiast"
 msgstr ""
 
-#: templates/edusummit.html:89 templates/speakers.html:141
+#: templates/edusummit.html:89 templates/speakers.html:173
 msgid ""
 "Luke is 17 and is studying computer science, maths, further maths and "
 "physics in Year 12 (English Secondary school / Sixthform). He loves to "
@@ -735,13 +735,13 @@ msgid ""
 " UK and is looking forward to speaking at Pycon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:93 templates/speakers.html:145
+#: templates/edusummit.html:93 templates/speakers.html:177
 msgid ""
 "Controling a robotic arm with micro:bits. How to make computer science "
 "education more interesting."
 msgstr ""
 
-#: templates/edusummit.html:94 templates/speakers.html:146
+#: templates/edusummit.html:94 templates/speakers.html:178
 msgid ""
 "Captivating a group of children for a sustained period of time is "
 "notoriously hard. I will be exporing with you how the micro:bit can be "
@@ -749,7 +749,7 @@ msgid ""
 "activities."
 msgstr ""
 
-#: templates/edusummit.html:95 templates/speakers.html:147
+#: templates/edusummit.html:95 templates/speakers.html:179
 msgid ""
 "Children love to physically interact with hardware. That is what is great"
 " about the micro:bit. It not only has built in LEDs and buttons but can "
@@ -1417,6 +1417,10 @@ msgstr ""
 msgid "Python engineer at Elastic"
 msgstr ""
 
+#: templates/index.html:347 templates/speakers.html:132
+msgid "Back-end and infrastructure engineer at Crate.io, Django core contributor"
+msgstr ""
+
 #: templates/job-fair.html:8
 msgid "Job fair"
 msgstr ""
@@ -1970,11 +1974,33 @@ msgid ""
 "give an overview of Nucleus, its features, and its APIs."
 msgstr ""
 
-#: templates/speakers.html:165
+#: templates/speakers.html:141
+msgid ""
+"Markus Holtermann works as a back-end and infrastructure engineer at "
+"Crate.io. He has been a Django core contributor since early 2015. He is a"
+" member of the Django security team as well as an organizer and advisor "
+"for DjangoCon conferences. Markus has been a project lead at the German "
+"ubuntuusers.de community support platform where he discovered Python and "
+"Django in 2010."
+msgstr ""
+
+#: templates/speakers.html:145
+msgid "Less Obvious Things To Do With Django's ORM."
+msgstr ""
+
+#: templates/speakers.html:146
+msgid ""
+"Django’s ORM is powerful. And it has been for ages. It only became even "
+"more powerful over the last years. Django’s ORM can be intimidating "
+"because it can do so many things. And it can also be confusing when "
+"trying to find out how to do things."
+msgstr ""
+
+#: templates/speakers.html:197
 msgid "Python engineer at Iceye"
 msgstr ""
 
-#: templates/speakers.html:174
+#: templates/speakers.html:206
 msgid ""
 "After several years of using Python in e-commerce, banking, and media "
 "sectors in the UK, Jakub currently leads a technical side of ground "
@@ -1985,11 +2011,11 @@ msgid ""
 "of SpaceX’s Falcon 9."
 msgstr ""
 
-#: templates/speakers.html:178
+#: templates/speakers.html:210
 msgid "Using python in new space industry is not a rocket science"
 msgstr ""
 
-#: templates/speakers.html:180
+#: templates/speakers.html:212
 msgid ""
 "What we do at Iceye and how python is allowing us to grow fast and be "
 "unique."

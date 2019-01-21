@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-17 07:43+0100\n"
+"POT-Creation-Date: 2019-01-21 23:30+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -863,11 +863,11 @@ msgid ""
 "budúcich generácii."
 msgstr ""
 
-#: templates/edusummit.html:80 templates/speakers.html:132
+#: templates/edusummit.html:80 templates/speakers.html:164
 msgid "CS student and Python enthusiast"
 msgstr "žiak informatiky a Python nadšenec"
 
-#: templates/edusummit.html:89 templates/speakers.html:141
+#: templates/edusummit.html:89 templates/speakers.html:173
 msgid ""
 "Luke is 17 and is studying computer science, maths, further maths and "
 "physics in Year 12 (English Secondary school / Sixthform). He loves to "
@@ -882,7 +882,7 @@ msgstr ""
 "2019. Rozprávať bude v sekcii EduSummit o tom, ako spraviť informatiku "
 "pre žiakov na školách zaujímavejšou."
 
-#: templates/edusummit.html:93 templates/speakers.html:145
+#: templates/edusummit.html:93 templates/speakers.html:177
 msgid ""
 "Controling a robotic arm with micro:bits. How to make computer science "
 "education more interesting."
@@ -890,7 +890,7 @@ msgstr ""
 "Ovládanie robotického ramena micro:bitmi. Ako urobiť hodiny programovania"
 " zaujímavejšími."
 
-#: templates/edusummit.html:94 templates/speakers.html:146
+#: templates/edusummit.html:94 templates/speakers.html:178
 msgid ""
 "Captivating a group of children for a sustained period of time is "
 "notoriously hard. I will be exporing with you how the micro:bit can be "
@@ -901,7 +901,7 @@ msgstr ""
 "ťažké. Spolu preskúmame, ako môžeme s micro:bitom zaujať mladé publikum "
 "pomocou interaktívnych dem a programátorských aktivít."
 
-#: templates/edusummit.html:95 templates/speakers.html:147
+#: templates/edusummit.html:95 templates/speakers.html:179
 msgid ""
 "Children love to physically interact with hardware. That is what is great"
 " about the micro:bit. It not only has built in LEDs and buttons but can "
@@ -1351,8 +1351,9 @@ msgid ""
 "For transaction in Bitcoin use:  <a href=\"https://tallyco.in/s/e51yzw/\""
 " target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
 msgstr ""
-"Pre transakcie v Bitcoine použite:  <a href=\"https://tallyco.in/s/e51yzw/\""
-" target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
+"Pre transakcie v Bitcoine použite:  <a "
+"href=\"https://tallyco.in/s/e51yzw/\" "
+"target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
 
 #: templates/faq.html:114
 msgid "What is included in the ticket?"
@@ -1702,6 +1703,10 @@ msgstr "senior softvér vývojárka v Google AI Genomics"
 #: templates/index.html:336 templates/speakers.html:31
 msgid "Python engineer at Elastic"
 msgstr "Python vývojár v Elastic"
+
+#: templates/index.html:347 templates/speakers.html:132
+msgid "Back-end and infrastructure engineer at Crate.io, Django core contributor"
+msgstr ""
 
 #: templates/job-fair.html:8
 msgid "Job fair"
@@ -2393,11 +2398,33 @@ msgstr ""
 "projektoch využívajúcich strojové učenie v Google AI Genomics. Táto "
 "prednáška stručne predstaví Nucleus, jeho funkcionalitu a jeho API."
 
-#: templates/speakers.html:165
+#: templates/speakers.html:141
+msgid ""
+"Markus Holtermann works as a back-end and infrastructure engineer at "
+"Crate.io. He has been a Django core contributor since early 2015. He is a"
+" member of the Django security team as well as an organizer and advisor "
+"for DjangoCon conferences. Markus has been a project lead at the German "
+"ubuntuusers.de community support platform where he discovered Python and "
+"Django in 2010."
+msgstr ""
+
+#: templates/speakers.html:145
+msgid "Less Obvious Things To Do With Django's ORM."
+msgstr ""
+
+#: templates/speakers.html:146
+msgid ""
+"Django’s ORM is powerful. And it has been for ages. It only became even "
+"more powerful over the last years. Django’s ORM can be intimidating "
+"because it can do so many things. And it can also be confusing when "
+"trying to find out how to do things."
+msgstr ""
+
+#: templates/speakers.html:197
 msgid "Python engineer at Iceye"
 msgstr "Python vývojár v Iceye"
 
-#: templates/speakers.html:174
+#: templates/speakers.html:206
 msgid ""
 "After several years of using Python in e-commerce, banking, and media "
 "sectors in the UK, Jakub currently leads a technical side of ground "
@@ -2414,11 +2441,11 @@ msgstr ""
 "veľkom v rôznych častiach projektu. Iceye nedávno úspešne vypustilo už "
 "druhú družicu ICEYE-X2 na palube rakety Falcon 9 spoločnosti SpaceX."
 
-#: templates/speakers.html:178
+#: templates/speakers.html:210
 msgid "Using python in new space industry is not a rocket science"
 msgstr "Využívanie Pythonu vo vesmírnom priemysle nie je raketová veda"
 
-#: templates/speakers.html:180
+#: templates/speakers.html:212
 msgid ""
 "What we do at Iceye and how python is allowing us to grow fast and be "
 "unique."
@@ -2487,8 +2514,8 @@ msgstr ""
 "Slovensku a v zahraničí. Podpísali sme partnerstvá\n"
 "                      s prestížnymi firmami, inštitúciami a agentúrami v "
 "Rakúsku, Švajčiarsku, Chorvátsku, Česku,\n"
-"                      a na Slovensku, čo nám umožňuje ponúkať "
-"IT freelancerom množstvo zaujímavých projektov.\n"
+"                      a na Slovensku, čo nám umožňuje ponúkať IT "
+"freelancerom množstvo zaujímavých projektov.\n"
 "                      Pre ponuku jobov pozri www.titans.sk."
 
 #: templates/sponsoring.html:72
