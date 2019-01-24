@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-21 23:30+0100\n"
+"POT-Creation-Date: 2019-01-24 22:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -722,7 +722,8 @@ msgid ""
 "budúcich generácii."
 msgstr ""
 
-#: templates/edusummit.html:80 templates/speakers.html:164
+#: templates/edusummit.html:80 templates/index.html:359
+#: templates/speakers.html:164
 msgid "CS student and Python enthusiast"
 msgstr ""
 
@@ -1417,8 +1418,20 @@ msgstr ""
 msgid "Python engineer at Elastic"
 msgstr ""
 
-#: templates/index.html:347 templates/speakers.html:132
+#: templates/index.html:349 templates/speakers.html:132
 msgid "Back-end and infrastructure engineer at Crate.io, Django core contributor"
+msgstr ""
+
+#: templates/index.html:369 templates/speakers.html:197
+msgid "Python engineer at Iceye"
+msgstr ""
+
+#: templates/index.html:382 templates/speakers.html:231
+msgid "Creator of Anvil"
+msgstr ""
+
+#: templates/index.html:392 templates/speakers.html:272
+msgid "Python developer at Anvil"
 msgstr ""
 
 #: templates/job-fair.html:8
@@ -1996,10 +2009,6 @@ msgid ""
 "trying to find out how to do things."
 msgstr ""
 
-#: templates/speakers.html:197
-msgid "Python engineer at Iceye"
-msgstr ""
-
 #: templates/speakers.html:206
 msgid ""
 "After several years of using Python in e-commerce, banking, and media "
@@ -2019,6 +2028,65 @@ msgstr ""
 msgid ""
 "What we do at Iceye and how python is allowing us to grow fast and be "
 "unique."
+msgstr ""
+
+#: templates/speakers.html:240
+msgid ""
+"Meredydd has been programming since the halcyon days of QBasic and "
+"Delphi, when it was easy to get started building software. He created "
+"Anvil to bring those days back. Meredydd has worked in startups from "
+"telecomms to music, and has a PhD in the usability of programming from "
+"Cambridge."
+msgstr ""
+
+#: templates/speakers.html:244
+msgid "Anvil: Full-stack Web Apps with Nothing but Python"
+msgstr ""
+
+#: templates/speakers.html:246
+msgid ""
+"Building for the modern web is complicated and error-prone: a typical web"
+" app requires five different languages and four or five frameworks just "
+"to get started. Wouldnt it be nicer if we could do it all in Python? With"
+" Anvil, you can design your page visually, write your browser-side and "
+"server-side code in pure Python, and even set up a built-in database in "
+"seconds. In this talk, Meredydd will walk us through how Anvil works "
+"under the bonnet, and the challenges of building a programming system "
+"thats easy to use without sacrificing power."
+msgstr ""
+
+#: templates/speakers.html:281
+msgid ""
+"Shaun started programming in earnest by simulating burning fusion plasmas"
+" in the worlds biggest laser system. He fell in love with Python as a "
+"data analysis tool, and has never looked back. Now he wants to turn "
+"everything into Python, which is why he works for Anvil."
+msgstr ""
+
+#: templates/speakers.html:287
+msgid "Anvil - Build a full-stack web app using nothing but Python"
+msgstr ""
+
+#: templates/speakers.html:289
+msgid ""
+"Anvil is a platform for rapidly developing web apps using nothing but "
+"Python.\n"
+"\n"
+"Its like Visual Basic for the web. It has a drag-and-drop editor for "
+"constructing a user interface, controlled by Python code in both the "
+"client and a hosted server environment.\n"
+"\n"
+"This is an interactive workshop where youll be guided through creating an"
+" app. Either:\n"
+"* A TODO list - a simple example of a Create, Read, Update, Delete (CRUD)"
+" app\n"
+"* A weather data dashboard\n"
+"* An app that controls a remote machine from the web\n"
+"* Any other idea you might have!\n"
+"\n"
+"Youll need a laptop to follow along.\n"
+"\n"
+"For a preview, have a look at this short video https://anvil.works/#about"
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
