@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-24 22:14+0100\n"
+"POT-Creation-Date: 2019-01-26 10:28+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1703,9 +1703,13 @@ msgstr "Python vývojár v Iceye"
 msgid "Creator of Anvil"
 msgstr "Tvorca Anvilu"
 
-#: templates/index.html:392 templates/speakers.html:269
+#: templates/index.html:392 templates/speakers.html:272
 msgid "Python developer at Anvil"
 msgstr "Python vývojár v Anvile"
+
+#: templates/index.html:402
+msgid "Security Engineer"
+msgstr "Bezpečnostný inžinier"
 
 #: templates/job-fair.html:8
 msgid "Job fair"
@@ -2467,23 +2471,23 @@ msgid ""
 "thats easy to use without sacrificing power."
 msgstr ""
 
-#: templates/speakers.html:278
+#: templates/speakers.html:281
 msgid ""
 "Shaun started programming in earnest by simulating burning fusion plasmas"
 " in the worlds biggest laser system. He fell in love with Python as a "
 "data analysis tool, and has never looked back. Now he wants to turn "
 "everything into Python, which is why he works for Anvil."
 msgstr ""
-"Shaun začal programovať simulovaním horiacej fúznej plazmy v najväčšom"
-" laserovom systéme na svete. Zahľadel sa do Pythonu ako nástroja na analýzu"
-" dát a odvtedy už nepozeral po žiadnom inom. Teraz chce všetko zmeniť na "
-"Python, preto pracuje v Anvile."
+"Shaun začal programovať simulovaním horiacej fúznej plazmy v najväčšom "
+"laserovom systéme na svete. Zahľadel sa do Pythonu ako nástroja na "
+"analýzu dát a odvtedy už nepozeral po žiadnom inom. Teraz chce všetko "
+"zmeniť na Python, preto pracuje v Anvile."
 
-#: templates/speakers.html:284
+#: templates/speakers.html:287
 msgid "Anvil - Build a full-stack web app using nothing but Python"
 msgstr ""
 
-#: templates/speakers.html:286
+#: templates/speakers.html:289
 msgid ""
 "Anvil is a platform for rapidly developing web apps using nothing but "
 "Python.\n"
@@ -2503,6 +2507,35 @@ msgid ""
 "Youll need a laptop to follow along.\n"
 "\n"
 "For a preview, have a look at this short video https://anvil.works/#about"
+msgstr ""
+
+#: templates/speakers.html:319
+msgid "Security/DevOps Engineer"
+msgstr "Bezpečnostný a DevOps inžinier"
+
+#: templates/speakers.html:328
+msgid ""
+"Adam is currently working as Security Engineer and has already been "
+"SRE/System Engineer/DevOps Engineer for a long time. He is a UNIX Lover, "
+"devoted Python user and evangelist. Interested in operating systems, "
+"security, networking and almost anything interesting."
+msgstr ""
+"Adam je momentálne bezpečnostný inžinier, ale ako SRE/bezpečnostný"
+"/DevOps inžinier pracuje už dlhý čas. Miluje UNIX, je oddaným používateľom "
+"a evanjelistom Pythonu. Zaujíma sa o operačné systémy, bezpečnosť, siete "
+"a vlastne čokoľvek zaujímavé."
+
+#: templates/speakers.html:334
+msgid "Be a good colleague and help your Security Engineer!"
+msgstr ""
+
+#: templates/speakers.html:336
+msgid ""
+"Security is a shared responsibility. In this talk, I will show you how "
+"software engineers can leverage static code analysis for locating most "
+"common security vulnerabilities and integrate these checks into their CI "
+"systems. Following these guidelines, you will make your Security "
+"Engineers happy and your code more secure."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
