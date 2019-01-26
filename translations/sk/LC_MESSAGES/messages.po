@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-17 07:43+0100\n"
+"POT-Creation-Date: 2019-01-24 22:14+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -863,11 +863,12 @@ msgid ""
 "budúcich generácii."
 msgstr ""
 
-#: templates/edusummit.html:80 templates/speakers.html:132
+#: templates/edusummit.html:80 templates/index.html:359
+#: templates/speakers.html:164
 msgid "CS student and Python enthusiast"
 msgstr "žiak informatiky a Python nadšenec"
 
-#: templates/edusummit.html:89 templates/speakers.html:141
+#: templates/edusummit.html:89 templates/speakers.html:173
 msgid ""
 "Luke is 17 and is studying computer science, maths, further maths and "
 "physics in Year 12 (English Secondary school / Sixthform). He loves to "
@@ -882,26 +883,21 @@ msgstr ""
 "2019. Rozprávať bude v sekcii EduSummit o tom, ako spraviť informatiku "
 "pre žiakov na školách zaujímavejšou."
 
-#: templates/edusummit.html:93 templates/speakers.html:145
+#: templates/edusummit.html:93 templates/speakers.html:177
 msgid ""
 "Controling a robotic arm with micro:bits. How to make computer science "
 "education more interesting."
 msgstr ""
-"Ovládanie robotického ramena micro:bitmi. Ako urobiť hodiny programovania"
-" zaujímavejšími."
 
-#: templates/edusummit.html:94 templates/speakers.html:146
+#: templates/edusummit.html:94 templates/speakers.html:178
 msgid ""
 "Captivating a group of children for a sustained period of time is "
 "notoriously hard. I will be exporing with you how the micro:bit can be "
 "used to engage a young audience with interactive demos and programming "
 "activities."
 msgstr ""
-"Je všeobecne známe, že získať pozornosť detí na dlhšiu dobu je veľmi "
-"ťažké. Spolu preskúmame, ako môžeme s micro:bitom zaujať mladé publikum "
-"pomocou interaktívnych dem a programátorských aktivít."
 
-#: templates/edusummit.html:95 templates/speakers.html:147
+#: templates/edusummit.html:95 templates/speakers.html:179
 msgid ""
 "Children love to physically interact with hardware. That is what is great"
 " about the micro:bit. It not only has built in LEDs and buttons but can "
@@ -914,15 +910,6 @@ msgid ""
 "bones / boilerplate source file and can write code to control the arm "
 "with less guidance."
 msgstr ""
-"Deti zbožňujú fyzickú interakciu s hardvérom. Presne to je skvelé na "
-"micro:bite. Nielenže má vstavané LEDky a tlačidlá, ale dokáže ovládať "
-"väčšie a vzrušujúcejšie zariadenia ako napríklad robotické ramená. To "
-"umožňuje pripraviť výzvu pre študentov na rôznych úrovniach. Študentom, "
-"ktorý sú v programovaní začiatočníci, môžeme zadať pokročilý program, "
-"alebo návod krok za krokom, ktorý ich prevedie celým procesom ovládania "
-"zariadenia (v tomto prípade robotického ramena). Pokročilejší študenti "
-"môžu dostať menej komplexný zdrojový súbor a môžu písať kód na ovládanie "
-"ramena samostatnejšie."
 
 #: templates/edusummit.html:109
 msgid "Why Attend?"
@@ -1351,8 +1338,9 @@ msgid ""
 "For transaction in Bitcoin use:  <a href=\"https://tallyco.in/s/e51yzw/\""
 " target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
 msgstr ""
-"Pre transakcie v Bitcoine použite:  <a href=\"https://tallyco.in/s/e51yzw/\""
-" target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
+"Pre transakcie v Bitcoine použite:  <a "
+"href=\"https://tallyco.in/s/e51yzw/\" "
+"target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
 
 #: templates/faq.html:114
 msgid "What is included in the ticket?"
@@ -1702,6 +1690,22 @@ msgstr "senior softvér vývojárka v Google AI Genomics"
 #: templates/index.html:336 templates/speakers.html:31
 msgid "Python engineer at Elastic"
 msgstr "Python vývojár v Elastic"
+
+#: templates/index.html:349 templates/speakers.html:132
+msgid "Back-end and infrastructure engineer at Crate.io, Django core contributor"
+msgstr "Technik backendu a infraštruktúry v Crate.io, Django core prispievateľ"
+
+#: templates/index.html:369 templates/speakers.html:197
+msgid "Python engineer at Iceye"
+msgstr "Python vývojár v Iceye"
+
+#: templates/index.html:382 templates/speakers.html:231
+msgid "Creator of Anvil"
+msgstr "Tvorca Anvilu"
+
+#: templates/index.html:392 templates/speakers.html:269
+msgid "Python developer at Anvil"
+msgstr "Python vývojár v Anvile"
 
 #: templates/job-fair.html:8
 msgid "Job fair"
@@ -2372,7 +2376,7 @@ msgstr ""
 
 #: templates/speakers.html:76
 msgid "Nucleus: an open-source library for genomics data and machine learning"
-msgstr "Nucleus: open-sourcová knižnica na genetické dáta a strojové učenie"
+msgstr ""
 
 #: templates/speakers.html:78
 msgid ""
@@ -2384,20 +2388,30 @@ msgid ""
 "caller, and in other ML projects at Google AI Genomics. This talk will "
 "give an overview of Nucleus, its features, and its APIs."
 msgstr ""
-"Nucleus je pythonská knižnica navrhnutá na jednoduché čítanie, "
-"zapisovanie a analýzu genetických údajov v bežnom bioinformatickom "
-"formáte ako sú SAM a VCF. Navyše, Nucleus umožňuje bezproblémovú "
-"integráciu s frameworkom na strojové učenie TensorFlow. Nucleus sa "
-"intenzívne využíva v projekte DeepVariant, čo je variant caller postavený"
-" na najmodernejšej konvolučnej neurónovej sieti, ale aj v ďalších "
-"projektoch využívajúcich strojové učenie v Google AI Genomics. Táto "
-"prednáška stručne predstaví Nucleus, jeho funkcionalitu a jeho API."
 
-#: templates/speakers.html:165
-msgid "Python engineer at Iceye"
-msgstr "Python vývojár v Iceye"
+#: templates/speakers.html:141
+msgid ""
+"Markus Holtermann works as a back-end and infrastructure engineer at "
+"Crate.io. He has been a Django core contributor since early 2015. He is a"
+" member of the Django security team as well as an organizer and advisor "
+"for DjangoCon conferences. Markus has been a project lead at the German "
+"ubuntuusers.de community support platform where he discovered Python and "
+"Django in 2010."
+msgstr ""
 
-#: templates/speakers.html:174
+#: templates/speakers.html:145
+msgid "Less Obvious Things To Do With Django's ORM."
+msgstr ""
+
+#: templates/speakers.html:146
+msgid ""
+"Django’s ORM is powerful. And it has been for ages. It only became even "
+"more powerful over the last years. Django’s ORM can be intimidating "
+"because it can do so many things. And it can also be confusing when "
+"trying to find out how to do things."
+msgstr ""
+
+#: templates/speakers.html:206
 msgid ""
 "After several years of using Python in e-commerce, banking, and media "
 "sectors in the UK, Jakub currently leads a technical side of ground "
@@ -2414,15 +2428,82 @@ msgstr ""
 "veľkom v rôznych častiach projektu. Iceye nedávno úspešne vypustilo už "
 "druhú družicu ICEYE-X2 na palube rakety Falcon 9 spoločnosti SpaceX."
 
-#: templates/speakers.html:178
+#: templates/speakers.html:210
 msgid "Using python in new space industry is not a rocket science"
-msgstr "Využívanie Pythonu vo vesmírnom priemysle nie je raketová veda"
+msgstr ""
 
-#: templates/speakers.html:180
+#: templates/speakers.html:212
 msgid ""
 "What we do at Iceye and how python is allowing us to grow fast and be "
 "unique."
-msgstr "Čo robíme v Iceye a ako nám Python pomáha rýchlo rásť a byť výnimočnými."
+msgstr ""
+
+#: templates/speakers.html:240
+msgid ""
+"Meredydd has been programming since the halcyon days of QBasic and "
+"Delphi, when it was easy to get started building software. He created "
+"Anvil to bring those days back. Meredydd has worked in startups from "
+"telecomms to music, and has a PhD in the usability of programming from "
+"Cambridge."
+msgstr ""
+"Meredydd programoval od starých dobrých čias QBasicu a Delphi, keď bolo "
+"ešte jednoduché začať tvoriť softvér. Vytvoril Anvil, aby sa tieto časy "
+"vrátili. Meredydd pracoval v startupoch od telkomu po hudbu a má PhD z "
+"Cambridge o využiteľnosti programovania."
+
+#: templates/speakers.html:244
+msgid "Anvil: Full-stack Web Apps with Nothing but Python"
+msgstr ""
+
+#: templates/speakers.html:246
+msgid ""
+"Building for the modern web is complicated and error-prone: a typical web"
+" app requires five different languages and four or five frameworks just "
+"to get started. Wouldnt it be nicer if we could do it all in Python? With"
+" Anvil, you can design your page visually, write your browser-side and "
+"server-side code in pure Python, and even set up a built-in database in "
+"seconds. In this talk, Meredydd will walk us through how Anvil works "
+"under the bonnet, and the challenges of building a programming system "
+"thats easy to use without sacrificing power."
+msgstr ""
+
+#: templates/speakers.html:278
+msgid ""
+"Shaun started programming in earnest by simulating burning fusion plasmas"
+" in the worlds biggest laser system. He fell in love with Python as a "
+"data analysis tool, and has never looked back. Now he wants to turn "
+"everything into Python, which is why he works for Anvil."
+msgstr ""
+"Shaun začal programovať simulovaním horiacej fúznej plazmy v najväčšom"
+" laserovom systéme na svete. Zahľadel sa do Pythonu ako nástroja na analýzu"
+" dát a odvtedy už nepozeral po žiadnom inom. Teraz chce všetko zmeniť na "
+"Python, preto pracuje v Anvile."
+
+#: templates/speakers.html:284
+msgid "Anvil - Build a full-stack web app using nothing but Python"
+msgstr ""
+
+#: templates/speakers.html:286
+msgid ""
+"Anvil is a platform for rapidly developing web apps using nothing but "
+"Python.\n"
+"\n"
+"Its like Visual Basic for the web. It has a drag-and-drop editor for "
+"constructing a user interface, controlled by Python code in both the "
+"client and a hosted server environment.\n"
+"\n"
+"This is an interactive workshop where youll be guided through creating an"
+" app. Either:\n"
+"* A TODO list - a simple example of a Create, Read, Update, Delete (CRUD)"
+" app\n"
+"* A weather data dashboard\n"
+"* An app that controls a remote machine from the web\n"
+"* Any other idea you might have!\n"
+"\n"
+"Youll need a laptop to follow along.\n"
+"\n"
+"For a preview, have a look at this short video https://anvil.works/#about"
+msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
 msgid "Sponsors &amp; Partners"
@@ -2487,8 +2568,8 @@ msgstr ""
 "Slovensku a v zahraničí. Podpísali sme partnerstvá\n"
 "                      s prestížnymi firmami, inštitúciami a agentúrami v "
 "Rakúsku, Švajčiarsku, Chorvátsku, Česku,\n"
-"                      a na Slovensku, čo nám umožňuje ponúkať "
-"IT freelancerom množstvo zaujímavých projektov.\n"
+"                      a na Slovensku, čo nám umožňuje ponúkať IT "
+"freelancerom množstvo zaujímavých projektov.\n"
 "                      Pre ponuku jobov pozri www.titans.sk."
 
 #: templates/sponsoring.html:72

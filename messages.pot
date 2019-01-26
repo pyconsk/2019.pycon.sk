@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-17 07:43+0100\n"
+"POT-Creation-Date: 2019-01-24 22:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -722,11 +722,12 @@ msgid ""
 "budúcich generácii."
 msgstr ""
 
-#: templates/edusummit.html:80 templates/speakers.html:132
+#: templates/edusummit.html:80 templates/index.html:359
+#: templates/speakers.html:164
 msgid "CS student and Python enthusiast"
 msgstr ""
 
-#: templates/edusummit.html:89 templates/speakers.html:141
+#: templates/edusummit.html:89 templates/speakers.html:173
 msgid ""
 "Luke is 17 and is studying computer science, maths, further maths and "
 "physics in Year 12 (English Secondary school / Sixthform). He loves to "
@@ -735,13 +736,13 @@ msgid ""
 " UK and is looking forward to speaking at Pycon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:93 templates/speakers.html:145
+#: templates/edusummit.html:93 templates/speakers.html:177
 msgid ""
 "Controling a robotic arm with micro:bits. How to make computer science "
 "education more interesting."
 msgstr ""
 
-#: templates/edusummit.html:94 templates/speakers.html:146
+#: templates/edusummit.html:94 templates/speakers.html:178
 msgid ""
 "Captivating a group of children for a sustained period of time is "
 "notoriously hard. I will be exporing with you how the micro:bit can be "
@@ -749,7 +750,7 @@ msgid ""
 "activities."
 msgstr ""
 
-#: templates/edusummit.html:95 templates/speakers.html:147
+#: templates/edusummit.html:95 templates/speakers.html:179
 msgid ""
 "Children love to physically interact with hardware. That is what is great"
 " about the micro:bit. It not only has built in LEDs and buttons but can "
@@ -1417,6 +1418,22 @@ msgstr ""
 msgid "Python engineer at Elastic"
 msgstr ""
 
+#: templates/index.html:349 templates/speakers.html:132
+msgid "Back-end and infrastructure engineer at Crate.io, Django core contributor"
+msgstr ""
+
+#: templates/index.html:369 templates/speakers.html:197
+msgid "Python engineer at Iceye"
+msgstr ""
+
+#: templates/index.html:382 templates/speakers.html:231
+msgid "Creator of Anvil"
+msgstr ""
+
+#: templates/index.html:392 templates/speakers.html:272
+msgid "Python developer at Anvil"
+msgstr ""
+
 #: templates/job-fair.html:8
 msgid "Job fair"
 msgstr ""
@@ -1970,11 +1987,29 @@ msgid ""
 "give an overview of Nucleus, its features, and its APIs."
 msgstr ""
 
-#: templates/speakers.html:165
-msgid "Python engineer at Iceye"
+#: templates/speakers.html:141
+msgid ""
+"Markus Holtermann works as a back-end and infrastructure engineer at "
+"Crate.io. He has been a Django core contributor since early 2015. He is a"
+" member of the Django security team as well as an organizer and advisor "
+"for DjangoCon conferences. Markus has been a project lead at the German "
+"ubuntuusers.de community support platform where he discovered Python and "
+"Django in 2010."
 msgstr ""
 
-#: templates/speakers.html:174
+#: templates/speakers.html:145
+msgid "Less Obvious Things To Do With Django's ORM."
+msgstr ""
+
+#: templates/speakers.html:146
+msgid ""
+"Django’s ORM is powerful. And it has been for ages. It only became even "
+"more powerful over the last years. Django’s ORM can be intimidating "
+"because it can do so many things. And it can also be confusing when "
+"trying to find out how to do things."
+msgstr ""
+
+#: templates/speakers.html:206
 msgid ""
 "After several years of using Python in e-commerce, banking, and media "
 "sectors in the UK, Jakub currently leads a technical side of ground "
@@ -1985,14 +2020,73 @@ msgid ""
 "of SpaceX’s Falcon 9."
 msgstr ""
 
-#: templates/speakers.html:178
+#: templates/speakers.html:210
 msgid "Using python in new space industry is not a rocket science"
 msgstr ""
 
-#: templates/speakers.html:180
+#: templates/speakers.html:212
 msgid ""
 "What we do at Iceye and how python is allowing us to grow fast and be "
 "unique."
+msgstr ""
+
+#: templates/speakers.html:240
+msgid ""
+"Meredydd has been programming since the halcyon days of QBasic and "
+"Delphi, when it was easy to get started building software. He created "
+"Anvil to bring those days back. Meredydd has worked in startups from "
+"telecomms to music, and has a PhD in the usability of programming from "
+"Cambridge."
+msgstr ""
+
+#: templates/speakers.html:244
+msgid "Anvil: Full-stack Web Apps with Nothing but Python"
+msgstr ""
+
+#: templates/speakers.html:246
+msgid ""
+"Building for the modern web is complicated and error-prone: a typical web"
+" app requires five different languages and four or five frameworks just "
+"to get started. Wouldnt it be nicer if we could do it all in Python? With"
+" Anvil, you can design your page visually, write your browser-side and "
+"server-side code in pure Python, and even set up a built-in database in "
+"seconds. In this talk, Meredydd will walk us through how Anvil works "
+"under the bonnet, and the challenges of building a programming system "
+"thats easy to use without sacrificing power."
+msgstr ""
+
+#: templates/speakers.html:281
+msgid ""
+"Shaun started programming in earnest by simulating burning fusion plasmas"
+" in the worlds biggest laser system. He fell in love with Python as a "
+"data analysis tool, and has never looked back. Now he wants to turn "
+"everything into Python, which is why he works for Anvil."
+msgstr ""
+
+#: templates/speakers.html:287
+msgid "Anvil - Build a full-stack web app using nothing but Python"
+msgstr ""
+
+#: templates/speakers.html:289
+msgid ""
+"Anvil is a platform for rapidly developing web apps using nothing but "
+"Python.\n"
+"\n"
+"Its like Visual Basic for the web. It has a drag-and-drop editor for "
+"constructing a user interface, controlled by Python code in both the "
+"client and a hosted server environment.\n"
+"\n"
+"This is an interactive workshop where youll be guided through creating an"
+" app. Either:\n"
+"* A TODO list - a simple example of a Create, Read, Update, Delete (CRUD)"
+" app\n"
+"* A weather data dashboard\n"
+"* An app that controls a remote machine from the web\n"
+"* Any other idea you might have!\n"
+"\n"
+"Youll need a laptop to follow along.\n"
+"\n"
+"For a preview, have a look at this short video https://anvil.works/#about"
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
