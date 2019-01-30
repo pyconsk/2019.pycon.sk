@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-24 22:17+0100\n"
+"POT-Creation-Date: 2019-01-29 21:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1434,6 +1434,10 @@ msgstr ""
 msgid "Python developer at Anvil"
 msgstr ""
 
+#: templates/index.html:402
+msgid "Security Engineer"
+msgstr ""
+
 #: templates/job-fair.html:8
 msgid "Job fair"
 msgstr ""
@@ -2087,6 +2091,31 @@ msgid ""
 "Youll need a laptop to follow along.\n"
 "\n"
 "For a preview, have a look at this short video https://anvil.works/#about"
+msgstr ""
+
+#: templates/speakers.html:319
+msgid "Security/DevOps Engineer"
+msgstr ""
+
+#: templates/speakers.html:328
+msgid ""
+"Adam is currently working as Security Engineer and has already been "
+"SRE/System Engineer/DevOps Engineer for a long time. He is a UNIX Lover, "
+"devoted Python user and evangelist. Interested in operating systems, "
+"security, networking and almost anything interesting."
+msgstr ""
+
+#: templates/speakers.html:334
+msgid "Be a good colleague and help your Security Engineer!"
+msgstr ""
+
+#: templates/speakers.html:336
+msgid ""
+"Security is a shared responsibility. In this talk, I will show you how "
+"software engineers can leverage static code analysis for locating most "
+"common security vulnerabilities and integrate these checks into their CI "
+"systems. Following these guidelines, you will make your Security "
+"Engineers happy and your code more secure."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
