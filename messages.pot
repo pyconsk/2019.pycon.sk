@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-29 21:10+0100\n"
+"POT-Creation-Date: 2019-01-30 21:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1438,6 +1438,18 @@ msgstr ""
 msgid "Security Engineer"
 msgstr ""
 
+#: templates/index.html:415
+msgid "Tech Lead at Kiwi.com"
+msgstr ""
+
+#: templates/index.html:425 templates/speakers.html:401
+msgid "Cloud technology enthusiast"
+msgstr ""
+
+#: templates/index.html:435 templates/speakers.html:455
+msgid "Senior Software Architect"
+msgstr ""
+
 #: templates/job-fair.html:8
 msgid "Job fair"
 msgstr ""
@@ -2116,6 +2128,115 @@ msgid ""
 "common security vulnerabilities and integrate these checks into their CI "
 "systems. Following these guidelines, you will make your Security "
 "Engineers happy and your code more secure."
+msgstr ""
+
+#: templates/speakers.html:358
+msgid "Tech Lead at kiwi.com"
+msgstr ""
+
+#: templates/speakers.html:367
+msgid ""
+"Dmitry is a Tech Lead at kiwi.com in Prague. Started with Python in 2010 "
+"as a hobby during the university, he switched to a fulltime developer job"
+" after the graduation. He loves writing tests and cares about code "
+"maintainability. His hobbies are open source and traveling."
+msgstr ""
+
+#: templates/speakers.html:374
+msgid "Testing network interactions in Python"
+msgstr ""
+
+#: templates/speakers.html:375
+msgid ""
+"Many modern Python applications interact with 3rd parties over network "
+"and packages like requests and aiohttp are incredibly popular nowadays. "
+"It makes it essential to know how to test network interactions. It is "
+"particularly important for microservices - to connect them you need to do"
+" network calls."
+msgstr ""
+
+#: templates/speakers.html:379
+msgid ""
+"This talk will walk from most straightforward ad-hoc solutions to more "
+"tunable and extensible ones. You’ll learn how to approach testing network"
+" on different isolation levels in sync and async code, take away ideas "
+"and practices how to use with popular Python tools like responses, pook, "
+"VCR, and pytest."
+msgstr ""
+
+#: templates/speakers.html:409
+msgid ""
+"I’m passionate cloud technology enthusiast. For the first time I came "
+"across clouds at University when I was choosing my master’s thesis. My "
+"route began with open-source Openstack. After studies, I’ve started "
+"working at Davinci software as cloud specialist where I gained most of my"
+" knowledge about Amazon web services (AWS). For last four years my daily "
+"routine is architecture, implementation, maintenance, deployments, "
+"automation… of infrastructure and applications from development to "
+"production environments. I’m a collector of various AWS certifications "
+"and hobby Python developer. From time to time you can meet me at "
+"University of Zilina where I lecture about cloud technologies. You can "
+"also meet me at Conservatory of Zilina with the guitar in my hand."
+msgstr ""
+
+#: templates/speakers.html:419
+msgid ""
+"If you want to know more about possibilities of Amazon web services or "
+"just want to casually talk about cloud technology don’t hesitate to stop "
+"me anytime and ask."
+msgstr ""
+
+#: templates/speakers.html:425
+msgid "Amazon Web Services - Alexa skills"
+msgstr ""
+
+#: templates/speakers.html:426
+msgid ""
+"Alexa is Amazon’s cloud base voice service that provides natural voice "
+"experience to end users. This opens a way to use human voice as "
+"input/output for you applications. You can easily create voice-controlled"
+" applications (called Alexa skills) or just voice interface for your "
+"current products or anything you like! Tools provided by Amazon web "
+"services (AWS) are easy to use and if used correctly, then completely "
+"free. Once skill is done, it’s just a matter of minutes to deploy it as "
+"high-available, auto-scaled, serverless, globally distributed application"
+" using AWS. Then you can use Amazon Alexa Skill store to sell your "
+"product all over the world. I would like to show you how it works, what "
+"AWS provides to developers and how can anybody create Alexa skills using "
+"your favorite language – Python."
+msgstr ""
+
+#: templates/speakers.html:464
+msgid ""
+"Born in Czechoslovakia, studied in France, living in Germany. Using "
+"Python to make the sun shine and the wind blow. Imports from pandas and "
+"asyncio, enjoys discovering the chaotic world of unicode and time zones."
+msgstr ""
+
+#: templates/speakers.html:470
+msgid "A Day Has Only 24±1 Hours"
+msgstr ""
+
+#: templates/speakers.html:471
+msgid ""
+"Not only will the Sunday in the week after this PyCon.SK 2019 be one hour"
+" shorter, but also it may steal you even more sleep because of all your "
+"Python code that has to work smoothly during daylight saving time changes"
+" or otherwise manipulate time zones. While correct working with datetime "
+"objects and offsets can be mastered, you have no control of the "
+"information on local time zones. Exclusive domain of geographers one "
+"hundred years ago, the time zones adjustments became a toy in the hands "
+"of governments all around the world."
+msgstr ""
+
+#: templates/speakers.html:479
+msgid ""
+"After a short overview of Pythons datetime and pytz libraries youll "
+"learnhow the information on time zone changes gets into your system. Well"
+" fly quickly around the worlds over five hundred time zones, but will "
+"also focus on the case of Slovakia and surrounding countries. Two "
+"centuries of propaganda and chaos in thirty minutes. Maybe that will make"
+" you want to avoid time zones in your code altogether!"
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
