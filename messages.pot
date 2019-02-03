@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-30 21:14+0100\n"
+"POT-Creation-Date: 2019-02-03 19:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,9 +186,9 @@ msgstr ""
 msgid ""
 "We are trying to finalize the conference program as soon as possible, the"
 " earlier you submit your proposal the higher chance of acceptance it has."
-" The first <b>deadline for submissions is 1st February 2019</b>, when we "
-"will choose most of the talk and workshop slots of the conference. The "
-"final deadline is 14th February 2019, when we will choose the few "
+" The first deadline for submissions is 1st February 2019, when we will "
+"choose most of the talk and workshop slots of the conference. <b>The "
+"final deadline is 14th February 2019</b>, when we will choose the few "
 "remaining free slots."
 msgstr ""
 
@@ -1048,11 +1048,11 @@ msgstr ""
 msgid "Where will the conference happen?"
 msgstr ""
 
-#: templates/faq.html:34 templates/venue.html:49
+#: templates/faq.html:34 templates/venue.html:50
 msgid "Slovak University of Technology in Bratislava"
 msgstr ""
 
-#: templates/faq.html:35 templates/venue.html:50
+#: templates/faq.html:35 templates/venue.html:51
 msgid "Faculty of Informatics and Information Technologies"
 msgstr ""
 
@@ -2580,11 +2580,11 @@ msgstr ""
 msgid "Venue Address"
 msgstr ""
 
-#: templates/venue.html:55
+#: templates/venue.html:57
 msgid "Travelling to Bratislava"
 msgstr ""
 
-#: templates/venue.html:57
+#: templates/venue.html:59
 msgid ""
 "Bratislava is one of the youngest capitals in Europe, and also one of the"
 " smallest. Despite this, it has a rich history of a free royal coronation"
@@ -2595,18 +2595,18 @@ msgid ""
 "getting here."
 msgstr ""
 
-#: templates/venue.html:65
+#: templates/venue.html:67
 msgid "By air"
 msgstr ""
 
-#: templates/venue.html:67
+#: templates/venue.html:69
 msgid ""
 "If you are travelling to Bratislava, you can fly to the Bratislava "
 "airport (airport code: BTS) or the Vienna airport (airport code: VIE). "
 "Vienna airport has considerably better offer of flights."
 msgstr ""
 
-#: templates/venue.html:71
+#: templates/venue.html:73
 msgid ""
 "From Bratislava airport you can take taxi (use the phone, its cheaper), "
 "or take the bus #61 and then move to bus #39 at the Bajkalska station. "
@@ -2614,7 +2614,7 @@ msgid ""
 "up to the hill to university campus."
 msgstr ""
 
-#: templates/venue.html:75
+#: templates/venue.html:77
 msgid ""
 "If you travel via Vienna airport, there are direct and cheap bus "
 "connections from early morning till midnight. One way ticket costs about "
@@ -2624,11 +2624,11 @@ msgid ""
 "(Yellow busses)."
 msgstr ""
 
-#: templates/venue.html:82
+#: templates/venue.html:84
 msgid "By car"
 msgstr ""
 
-#: templates/venue.html:85
+#: templates/venue.html:87
 msgid ""
 "Arriving from Vienna, choose the direction Schwechat on A4 highway, then "
 "turn to highway A6 leading to Bratislava.\n"
@@ -2642,7 +2642,7 @@ msgid ""
 "left up the hill towards the university campus."
 msgstr ""
 
-#: templates/venue.html:90
+#: templates/venue.html:92
 msgid ""
 "From Budapest, take the highway M1 heading to Gyor, follow this route "
 "until you see signs for highway M15 heading to Slovakia and Bratislava.\n"
@@ -2650,7 +2650,7 @@ msgid ""
 "according to instructions above."
 msgstr ""
 
-#: templates/venue.html:92
+#: templates/venue.html:94
 msgid ""
 "If you drive from Prague, take the highway D1 to Brno, once in Brno take "
 "the highway D2 heading to Slovakia and Bratislava.\n"
@@ -2660,7 +2660,7 @@ msgid ""
 "you should stay in right lane while in tunnel."
 msgstr ""
 
-#: templates/venue.html:95
+#: templates/venue.html:97
 msgid ""
 "From eastern and southern Poland choose your way to Katowice. From there "
 "follow the road to Cadca, Slovakia.\n"
@@ -2671,17 +2671,17 @@ msgid ""
 "above."
 msgstr ""
 
-#: templates/venue.html:102
+#: templates/venue.html:104
 msgid "By bus"
 msgstr ""
 
-#: templates/venue.html:104
+#: templates/venue.html:106
 msgid ""
 "All neighbouring capital cities Vienna, Prague, Budapest, Warsaw and Kiev"
 " have direct bus connections."
 msgstr ""
 
-#: templates/venue.html:107
+#: templates/venue.html:109
 msgid ""
 "Most of the buses will bring you to the main bus station - Mlynske Nivy. "
 "It is currently located in temporary location, so dont\n"
@@ -2693,17 +2693,17 @@ msgid ""
 "continue with line number 30 or 37 to the station ZOO."
 msgstr ""
 
-#: templates/venue.html:114
+#: templates/venue.html:116
 msgid "By train"
 msgstr ""
 
-#: templates/venue.html:116
+#: templates/venue.html:118
 msgid ""
 "All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kiev "
 "have direct train connections."
 msgstr ""
 
-#: templates/venue.html:119
+#: templates/venue.html:121
 msgid ""
 "Once you arrive at the Bratislava train station (Bratislava hlavná "
 "stanica), leave the station through the main entrance.\n"
@@ -2714,11 +2714,11 @@ msgid ""
 "            about the prices or the lines."
 msgstr ""
 
-#: templates/venue.html:128
+#: templates/venue.html:130
 msgid "Accommodation"
 msgstr ""
 
-#: templates/venue.html:130
+#: templates/venue.html:132
 msgid ""
 "There are plenty of opportunities for accommodation in Bratislava. From "
 "coach surfing, Airbnb to hostels and five star hotels. Even though it is "
@@ -2726,11 +2726,11 @@ msgid ""
 " advance."
 msgstr ""
 
-#: templates/venue.html:133
+#: templates/venue.html:135
 msgid "Guide"
 msgstr ""
 
-#: templates/venue.html:135
+#: templates/venue.html:137
 msgid ""
 "Bratislava offers much more than just PyCon. If you decide to stay in "
 "Bratislava a few days longer, have a look at <a "
@@ -2741,7 +2741,7 @@ msgid ""
 "about each location or event."
 msgstr ""
 
-#: templates/venue.html:138
+#: templates/venue.html:140
 msgid ""
 "Or you can review the <a href=\"http://www.visitbratislava.com/\" "
 "title=\"city pages for visitors\" target=\"_blank\" "
