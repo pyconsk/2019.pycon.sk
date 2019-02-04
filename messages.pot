@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-29 21:10+0100\n"
+"POT-Creation-Date: 2019-02-03 19:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,9 +186,9 @@ msgstr ""
 msgid ""
 "We are trying to finalize the conference program as soon as possible, the"
 " earlier you submit your proposal the higher chance of acceptance it has."
-" The first <b>deadline for submissions is 1st February 2019</b>, when we "
-"will choose most of the talk and workshop slots of the conference. The "
-"final deadline is 14th February 2019, when we will choose the few "
+" The first deadline for submissions is 1st February 2019, when we will "
+"choose most of the talk and workshop slots of the conference. <b>The "
+"final deadline is 14th February 2019</b>, when we will choose the few "
 "remaining free slots."
 msgstr ""
 
@@ -1048,11 +1048,11 @@ msgstr ""
 msgid "Where will the conference happen?"
 msgstr ""
 
-#: templates/faq.html:34 templates/venue.html:49
+#: templates/faq.html:34 templates/venue.html:50
 msgid "Slovak University of Technology in Bratislava"
 msgstr ""
 
-#: templates/faq.html:35 templates/venue.html:50
+#: templates/faq.html:35 templates/venue.html:51
 msgid "Faculty of Informatics and Information Technologies"
 msgstr ""
 
@@ -1436,6 +1436,18 @@ msgstr ""
 
 #: templates/index.html:402
 msgid "Security Engineer"
+msgstr ""
+
+#: templates/index.html:415
+msgid "Tech Lead at Kiwi.com"
+msgstr ""
+
+#: templates/index.html:425 templates/speakers.html:401
+msgid "Cloud technology enthusiast"
+msgstr ""
+
+#: templates/index.html:435 templates/speakers.html:455
+msgid "Senior Software Architect"
 msgstr ""
 
 #: templates/job-fair.html:8
@@ -2118,6 +2130,115 @@ msgid ""
 "Engineers happy and your code more secure."
 msgstr ""
 
+#: templates/speakers.html:358
+msgid "Tech Lead at kiwi.com"
+msgstr ""
+
+#: templates/speakers.html:367
+msgid ""
+"Dmitry is a Tech Lead at kiwi.com in Prague. Started with Python in 2010 "
+"as a hobby during the university, he switched to a fulltime developer job"
+" after the graduation. He loves writing tests and cares about code "
+"maintainability. His hobbies are open source and traveling."
+msgstr ""
+
+#: templates/speakers.html:374
+msgid "Testing network interactions in Python"
+msgstr ""
+
+#: templates/speakers.html:375
+msgid ""
+"Many modern Python applications interact with 3rd parties over network "
+"and packages like requests and aiohttp are incredibly popular nowadays. "
+"It makes it essential to know how to test network interactions. It is "
+"particularly important for microservices - to connect them you need to do"
+" network calls."
+msgstr ""
+
+#: templates/speakers.html:379
+msgid ""
+"This talk will walk from most straightforward ad-hoc solutions to more "
+"tunable and extensible ones. You’ll learn how to approach testing network"
+" on different isolation levels in sync and async code, take away ideas "
+"and practices how to use with popular Python tools like responses, pook, "
+"VCR, and pytest."
+msgstr ""
+
+#: templates/speakers.html:409
+msgid ""
+"I’m passionate cloud technology enthusiast. For the first time I came "
+"across clouds at University when I was choosing my master’s thesis. My "
+"route began with open-source Openstack. After studies, I’ve started "
+"working at Davinci software as cloud specialist where I gained most of my"
+" knowledge about Amazon web services (AWS). For last four years my daily "
+"routine is architecture, implementation, maintenance, deployments, "
+"automation… of infrastructure and applications from development to "
+"production environments. I’m a collector of various AWS certifications "
+"and hobby Python developer. From time to time you can meet me at "
+"University of Zilina where I lecture about cloud technologies. You can "
+"also meet me at Conservatory of Zilina with the guitar in my hand."
+msgstr ""
+
+#: templates/speakers.html:419
+msgid ""
+"If you want to know more about possibilities of Amazon web services or "
+"just want to casually talk about cloud technology don’t hesitate to stop "
+"me anytime and ask."
+msgstr ""
+
+#: templates/speakers.html:425
+msgid "Amazon Web Services - Alexa skills"
+msgstr ""
+
+#: templates/speakers.html:426
+msgid ""
+"Alexa is Amazon’s cloud base voice service that provides natural voice "
+"experience to end users. This opens a way to use human voice as "
+"input/output for you applications. You can easily create voice-controlled"
+" applications (called Alexa skills) or just voice interface for your "
+"current products or anything you like! Tools provided by Amazon web "
+"services (AWS) are easy to use and if used correctly, then completely "
+"free. Once skill is done, it’s just a matter of minutes to deploy it as "
+"high-available, auto-scaled, serverless, globally distributed application"
+" using AWS. Then you can use Amazon Alexa Skill store to sell your "
+"product all over the world. I would like to show you how it works, what "
+"AWS provides to developers and how can anybody create Alexa skills using "
+"your favorite language – Python."
+msgstr ""
+
+#: templates/speakers.html:464
+msgid ""
+"Born in Czechoslovakia, studied in France, living in Germany. Using "
+"Python to make the sun shine and the wind blow. Imports from pandas and "
+"asyncio, enjoys discovering the chaotic world of unicode and time zones."
+msgstr ""
+
+#: templates/speakers.html:470
+msgid "A Day Has Only 24±1 Hours"
+msgstr ""
+
+#: templates/speakers.html:471
+msgid ""
+"Not only will the Sunday in the week after this PyCon.SK 2019 be one hour"
+" shorter, but also it may steal you even more sleep because of all your "
+"Python code that has to work smoothly during daylight saving time changes"
+" or otherwise manipulate time zones. While correct working with datetime "
+"objects and offsets can be mastered, you have no control of the "
+"information on local time zones. Exclusive domain of geographers one "
+"hundred years ago, the time zones adjustments became a toy in the hands "
+"of governments all around the world."
+msgstr ""
+
+#: templates/speakers.html:479
+msgid ""
+"After a short overview of Pythons datetime and pytz libraries youll "
+"learnhow the information on time zone changes gets into your system. Well"
+" fly quickly around the worlds over five hundred time zones, but will "
+"also focus on the case of Slovakia and surrounding countries. Two "
+"centuries of propaganda and chaos in thirty minutes. Maybe that will make"
+" you want to avoid time zones in your code altogether!"
+msgstr ""
+
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
 msgid "Sponsors &amp; Partners"
 msgstr ""
@@ -2459,11 +2580,11 @@ msgstr ""
 msgid "Venue Address"
 msgstr ""
 
-#: templates/venue.html:55
+#: templates/venue.html:57
 msgid "Travelling to Bratislava"
 msgstr ""
 
-#: templates/venue.html:57
+#: templates/venue.html:59
 msgid ""
 "Bratislava is one of the youngest capitals in Europe, and also one of the"
 " smallest. Despite this, it has a rich history of a free royal coronation"
@@ -2474,18 +2595,18 @@ msgid ""
 "getting here."
 msgstr ""
 
-#: templates/venue.html:65
+#: templates/venue.html:67
 msgid "By air"
 msgstr ""
 
-#: templates/venue.html:67
+#: templates/venue.html:69
 msgid ""
 "If you are travelling to Bratislava, you can fly to the Bratislava "
 "airport (airport code: BTS) or the Vienna airport (airport code: VIE). "
 "Vienna airport has considerably better offer of flights."
 msgstr ""
 
-#: templates/venue.html:71
+#: templates/venue.html:73
 msgid ""
 "From Bratislava airport you can take taxi (use the phone, its cheaper), "
 "or take the bus #61 and then move to bus #39 at the Bajkalska station. "
@@ -2493,7 +2614,7 @@ msgid ""
 "up to the hill to university campus."
 msgstr ""
 
-#: templates/venue.html:75
+#: templates/venue.html:77
 msgid ""
 "If you travel via Vienna airport, there are direct and cheap bus "
 "connections from early morning till midnight. One way ticket costs about "
@@ -2503,11 +2624,11 @@ msgid ""
 "(Yellow busses)."
 msgstr ""
 
-#: templates/venue.html:82
+#: templates/venue.html:84
 msgid "By car"
 msgstr ""
 
-#: templates/venue.html:85
+#: templates/venue.html:87
 msgid ""
 "Arriving from Vienna, choose the direction Schwechat on A4 highway, then "
 "turn to highway A6 leading to Bratislava.\n"
@@ -2521,7 +2642,7 @@ msgid ""
 "left up the hill towards the university campus."
 msgstr ""
 
-#: templates/venue.html:90
+#: templates/venue.html:92
 msgid ""
 "From Budapest, take the highway M1 heading to Gyor, follow this route "
 "until you see signs for highway M15 heading to Slovakia and Bratislava.\n"
@@ -2529,7 +2650,7 @@ msgid ""
 "according to instructions above."
 msgstr ""
 
-#: templates/venue.html:92
+#: templates/venue.html:94
 msgid ""
 "If you drive from Prague, take the highway D1 to Brno, once in Brno take "
 "the highway D2 heading to Slovakia and Bratislava.\n"
@@ -2539,7 +2660,7 @@ msgid ""
 "you should stay in right lane while in tunnel."
 msgstr ""
 
-#: templates/venue.html:95
+#: templates/venue.html:97
 msgid ""
 "From eastern and southern Poland choose your way to Katowice. From there "
 "follow the road to Cadca, Slovakia.\n"
@@ -2550,17 +2671,17 @@ msgid ""
 "above."
 msgstr ""
 
-#: templates/venue.html:102
+#: templates/venue.html:104
 msgid "By bus"
 msgstr ""
 
-#: templates/venue.html:104
+#: templates/venue.html:106
 msgid ""
 "All neighbouring capital cities Vienna, Prague, Budapest, Warsaw and Kiev"
 " have direct bus connections."
 msgstr ""
 
-#: templates/venue.html:107
+#: templates/venue.html:109
 msgid ""
 "Most of the buses will bring you to the main bus station - Mlynske Nivy. "
 "It is currently located in temporary location, so dont\n"
@@ -2572,17 +2693,17 @@ msgid ""
 "continue with line number 30 or 37 to the station ZOO."
 msgstr ""
 
-#: templates/venue.html:114
+#: templates/venue.html:116
 msgid "By train"
 msgstr ""
 
-#: templates/venue.html:116
+#: templates/venue.html:118
 msgid ""
 "All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kiev "
 "have direct train connections."
 msgstr ""
 
-#: templates/venue.html:119
+#: templates/venue.html:121
 msgid ""
 "Once you arrive at the Bratislava train station (Bratislava hlavná "
 "stanica), leave the station through the main entrance.\n"
@@ -2593,11 +2714,11 @@ msgid ""
 "            about the prices or the lines."
 msgstr ""
 
-#: templates/venue.html:128
+#: templates/venue.html:130
 msgid "Accommodation"
 msgstr ""
 
-#: templates/venue.html:130
+#: templates/venue.html:132
 msgid ""
 "There are plenty of opportunities for accommodation in Bratislava. From "
 "coach surfing, Airbnb to hostels and five star hotels. Even though it is "
@@ -2605,11 +2726,11 @@ msgid ""
 " advance."
 msgstr ""
 
-#: templates/venue.html:133
+#: templates/venue.html:135
 msgid "Guide"
 msgstr ""
 
-#: templates/venue.html:135
+#: templates/venue.html:137
 msgid ""
 "Bratislava offers much more than just PyCon. If you decide to stay in "
 "Bratislava a few days longer, have a look at <a "
@@ -2620,7 +2741,7 @@ msgid ""
 "about each location or event."
 msgstr ""
 
-#: templates/venue.html:138
+#: templates/venue.html:140
 msgid ""
 "Or you can review the <a href=\"http://www.visitbratislava.com/\" "
 "title=\"city pages for visitors\" target=\"_blank\" "

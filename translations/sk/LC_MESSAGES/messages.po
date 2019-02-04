@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-29 21:10+0100\n"
+"POT-Creation-Date: 2019-02-03 19:27+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -201,16 +201,16 @@ msgstr "Neváhaj"
 msgid ""
 "We are trying to finalize the conference program as soon as possible, the"
 " earlier you submit your proposal the higher chance of acceptance it has."
-" The first <b>deadline for submissions is 1st February 2019</b>, when we "
-"will choose most of the talk and workshop slots of the conference. The "
-"final deadline is 14th February 2019, when we will choose the few "
+" The first deadline for submissions is 1st February 2019, when we will "
+"choose most of the talk and workshop slots of the conference. <b>The "
+"final deadline is 14th February 2019</b>, when we will choose the few "
 "remaining free slots."
 msgstr ""
 "Pokúšame sa uzavrieť program konferencie ako skoro to len pôjde a čím "
 "skôr svoj príspevok prihlásiš tým väčšiu šancu má byť zaradený do "
-"programu. Prvý <b>deadline na podávanie príspevkov je 1. februára "
-"2019</b>, kedy uzavrieme väčšinu programu. Posledný deadline je 14. "
-"februára 2019, kedy sa uzavrie zvyšná časť programu konferencie."
+"programu. Prvý deadline na podávanie príspevkov je 1. februára 2019, kedy"
+" uzavrieme väčšinu programu. <b>Posledný deadline je 14. februára "
+"2019</b>, kedy sa uzavrie zvyšná časť programu konferencie."
 
 #: templates/cfp.html:35 templates/cfp_form.html:31
 msgid ""
@@ -1241,11 +1241,11 @@ msgstr "Všeobecné informácie"
 msgid "Where will the conference happen?"
 msgstr "Kde sa uskutoční konferencia?"
 
-#: templates/faq.html:34 templates/venue.html:49
+#: templates/faq.html:34 templates/venue.html:50
 msgid "Slovak University of Technology in Bratislava"
 msgstr "Slovenská technická univerzita v Bratislave"
 
-#: templates/faq.html:35 templates/venue.html:50
+#: templates/faq.html:35 templates/venue.html:51
 msgid "Faculty of Informatics and Information Technologies"
 msgstr "Fakulta informatiky a informačných technológií"
 
@@ -1710,6 +1710,18 @@ msgstr "Python vývojár v Anvile"
 #: templates/index.html:402
 msgid "Security Engineer"
 msgstr "Bezpečnostný inžinier"
+
+#: templates/index.html:415
+msgid "Tech Lead at Kiwi.com"
+msgstr "Vedúci technológií v kiwi.com"
+
+#: templates/index.html:425 templates/speakers.html:401
+msgid "Cloud technology enthusiast"
+msgstr "Nadšenec cloudových technológií"
+
+#: templates/index.html:435 templates/speakers.html:455
+msgid "Senior Software Architect"
+msgstr "Senior softvérový architekt"
 
 #: templates/job-fair.html:8
 msgid "Job fair"
@@ -2321,7 +2333,7 @@ msgstr "Konferenčná Večera "
 
 #: templates/speakers.html:17
 msgid "Speakers you can meet at PyCon SK 2019."
-msgstr ""
+msgstr "Rečníci, ktorých môžete stretnúť na PyCone SK 2019"
 
 #: templates/speakers.html:40
 msgid ""
@@ -2331,11 +2343,11 @@ msgid ""
 "website for large audiences. He always had large affinity of working with"
 " data and trying to help teams scale their code and data."
 msgstr ""
-"Honza je Python developer v Elasticu, spoločnosti za Elasticsearchom a "
-"ďalšími open-sourcovými produktami, kde sa venuje údržbe pythonských "
-"knižníc. Predtým bol súčasťou Whiskey Media, kde pomocou Djanga vytváral "
-"obsahovú webstránku pre veľké publikum. Vždy veľmi inklinoval k práci s "
-"dátami a pomáhaniu tímom rozširovať ich kód a dáta."
+"Honza je Python inžinier v Elasticu, spoločnosti za Elasticsearchom a "
+"ďalšími open sourcovými produktami, kde spravuje pythonské knižnice. "
+"Predtým bol súčasťou Whiskey Media, používal Django na tvorbu web stránok"
+" pre väčšie publikum. Vždy ho priťahovala práca s dátami a snaha pomôcť "
+"tímom škálovať ich kód a dáta."
 
 #: templates/speakers.html:44
 msgid "So you want to be an Engineer?"
@@ -2373,10 +2385,10 @@ msgid ""
 "contributor to the Chromium project, where she developed open-source "
 "libraries and tools for over four years."
 msgstr ""
-"Helen Li je senior software developerka z Google AI Genomics. Bakalársky "
-"titul z Informačných technológií získala na MIT. Predtým, ako pracovala "
-"na Nucleuse, bola aktívnou prispievateľkou do projektu Chromium, kde "
-"počas štyroch rokov vyvíjala open-sourcové knižnice a nástroje."
+"Helen Li je senior softvér inžinerka v Google AI Genomics. Promovala na "
+"Massachusetts Institute of Technology, pred prácou na Nucleuse, bola "
+"aktívnou prispievateľkou k projektu Chromium, kde viac ako štyri roky "
+"vyvíjala open sourcové knižnice a nástroje."
 
 #: templates/speakers.html:76
 msgid "Nucleus: an open-source library for genomics data and machine learning"
@@ -2402,6 +2414,11 @@ msgid ""
 "ubuntuusers.de community support platform where he discovered Python and "
 "Django in 2010."
 msgstr ""
+"Markus Holtermann pracuje v Crate.io ako inžinier pre back-end a "
+"infraštruktúru. Bol Django core prispievateľom od začiatku roku 2015. Je "
+"členom Django bezpečnostného tímu a tiež organizátorom a poradcom pre "
+"konferencie DjangoCon. Markus viedol projekt ubuntuusers.de - nemeckej "
+"komunitnej platformy, kde v roku 2010 objavil Python a Django."
 
 #: templates/speakers.html:145
 msgid "Less Obvious Things To Do With Django's ORM."
@@ -2453,7 +2470,7 @@ msgstr ""
 "Meredydd programoval od starých dobrých čias QBasicu a Delphi, keď bolo "
 "ešte jednoduché začať tvoriť softvér. Vytvoril Anvil, aby sa tieto časy "
 "vrátili. Meredydd pracoval v startupoch od telkomu po hudbu a má PhD z "
-"Cambridge o využiteľnosti programovania."
+"Cambridge o využiteľnosti programovania. "
 
 #: templates/speakers.html:244
 msgid "Anvil: Full-stack Web Apps with Nothing but Python"
@@ -2536,6 +2553,136 @@ msgid ""
 "common security vulnerabilities and integrate these checks into their CI "
 "systems. Following these guidelines, you will make your Security "
 "Engineers happy and your code more secure."
+msgstr ""
+
+#: templates/speakers.html:358
+msgid "Tech Lead at kiwi.com"
+msgstr "Vedúci technológií v kiwi.com"
+
+#: templates/speakers.html:367
+msgid ""
+"Dmitry is a Tech Lead at kiwi.com in Prague. Started with Python in 2010 "
+"as a hobby during the university, he switched to a fulltime developer job"
+" after the graduation. He loves writing tests and cares about code "
+"maintainability. His hobbies are open source and traveling."
+msgstr ""
+"Dmitry je šéfom technológií v kiwi.com v Prahe. S Pythonom začal v 2010 "
+"ako hobby počas štúdia na univerzite, neskôr po skončení školy pokračoval"
+" ako fulltime developer. Miluje písanie testov a dbá na udržateľnosť "
+"kódu. Jeho hobby sú open source a cestovanie."
+
+#: templates/speakers.html:374
+msgid "Testing network interactions in Python"
+msgstr ""
+
+#: templates/speakers.html:375
+msgid ""
+"Many modern Python applications interact with 3rd parties over network "
+"and packages like requests and aiohttp are incredibly popular nowadays. "
+"It makes it essential to know how to test network interactions. It is "
+"particularly important for microservices - to connect them you need to do"
+" network calls."
+msgstr ""
+
+#: templates/speakers.html:379
+msgid ""
+"This talk will walk from most straightforward ad-hoc solutions to more "
+"tunable and extensible ones. You’ll learn how to approach testing network"
+" on different isolation levels in sync and async code, take away ideas "
+"and practices how to use with popular Python tools like responses, pook, "
+"VCR, and pytest."
+msgstr ""
+
+#: templates/speakers.html:409
+msgid ""
+"I’m passionate cloud technology enthusiast. For the first time I came "
+"across clouds at University when I was choosing my master’s thesis. My "
+"route began with open-source Openstack. After studies, I’ve started "
+"working at Davinci software as cloud specialist where I gained most of my"
+" knowledge about Amazon web services (AWS). For last four years my daily "
+"routine is architecture, implementation, maintenance, deployments, "
+"automation… of infrastructure and applications from development to "
+"production environments. I’m a collector of various AWS certifications "
+"and hobby Python developer. From time to time you can meet me at "
+"University of Zilina where I lecture about cloud technologies. You can "
+"also meet me at Conservatory of Zilina with the guitar in my hand."
+msgstr ""
+"Som nadšencom cloudových technológií. S cloudom som sa prvýkrát stretol "
+"počas štúdií, keď som si vyberal tému diplomovej práce. Moja cesta začala"
+" s opensourcovým Openstackom. Po štúdiu som pracoval ako cloudový "
+"špecialista v Davinci software, kde som získal väčšinu svojich znalostí o"
+" Amazon web services (AWS). Posledné štyri roky je mojou dennou rutinou "
+"architektuúra, implementácia, údržba, nasadzovanie, automatizácia… "
+"infraštruktúry a aplikácií od vývojových až po produkčné prostredia. "
+"Zbieram rôzne AWS certifikáty a som hobby Pythonista. Z času na čas ma "
+"môžete stretnúť na Žilinskej univerzite, kde prednášam o cloudových "
+"technológiách. Stretnúť ma tiež môžete na žilinskom konzervatóriu s "
+"gitarou v ruke."
+
+#: templates/speakers.html:419
+msgid ""
+"If you want to know more about possibilities of Amazon web services or "
+"just want to casually talk about cloud technology don’t hesitate to stop "
+"me anytime and ask."
+msgstr ""
+"Ak chcete vedieť viac o možnostiach Amazon web services alebo sa chcete "
+"len porozprávať o cloudových technologiách, neváhajte ma kedykoľvek "
+"zastaviť a spýtať sa."
+
+#: templates/speakers.html:425
+msgid "Amazon Web Services - Alexa skills"
+msgstr ""
+
+#: templates/speakers.html:426
+msgid ""
+"Alexa is Amazon’s cloud base voice service that provides natural voice "
+"experience to end users. This opens a way to use human voice as "
+"input/output for you applications. You can easily create voice-controlled"
+" applications (called Alexa skills) or just voice interface for your "
+"current products or anything you like! Tools provided by Amazon web "
+"services (AWS) are easy to use and if used correctly, then completely "
+"free. Once skill is done, it’s just a matter of minutes to deploy it as "
+"high-available, auto-scaled, serverless, globally distributed application"
+" using AWS. Then you can use Amazon Alexa Skill store to sell your "
+"product all over the world. I would like to show you how it works, what "
+"AWS provides to developers and how can anybody create Alexa skills using "
+"your favorite language – Python."
+msgstr ""
+
+#: templates/speakers.html:464
+msgid ""
+"Born in Czechoslovakia, studied in France, living in Germany. Using "
+"Python to make the sun shine and the wind blow. Imports from pandas and "
+"asyncio, enjoys discovering the chaotic world of unicode and time zones."
+msgstr ""
+"Narodený v Československu, študoval vo Francúzsku, žije v Nemecku. Python"
+" používa, aby svietilo slnko a fúkal vietor. Importuje z pandas a "
+"asyncio, rád objavuje chaotický svet unicodu a časových pásiem."
+
+#: templates/speakers.html:470
+msgid "A Day Has Only 24±1 Hours"
+msgstr ""
+
+#: templates/speakers.html:471
+msgid ""
+"Not only will the Sunday in the week after this PyCon.SK 2019 be one hour"
+" shorter, but also it may steal you even more sleep because of all your "
+"Python code that has to work smoothly during daylight saving time changes"
+" or otherwise manipulate time zones. While correct working with datetime "
+"objects and offsets can be mastered, you have no control of the "
+"information on local time zones. Exclusive domain of geographers one "
+"hundred years ago, the time zones adjustments became a toy in the hands "
+"of governments all around the world."
+msgstr ""
+
+#: templates/speakers.html:479
+msgid ""
+"After a short overview of Pythons datetime and pytz libraries youll "
+"learnhow the information on time zone changes gets into your system. Well"
+" fly quickly around the worlds over five hundred time zones, but will "
+"also focus on the case of Slovakia and surrounding countries. Two "
+"centuries of propaganda and chaos in thirty minutes. Maybe that will make"
+" you want to avoid time zones in your code altogether!"
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
@@ -2995,11 +3142,11 @@ msgstr "Ako sa dostanete na slovenský PyCon?"
 msgid "Venue Address"
 msgstr "Adresa konferencie"
 
-#: templates/venue.html:55
+#: templates/venue.html:57
 msgid "Travelling to Bratislava"
 msgstr "Cestovanie do Bratislavy"
 
-#: templates/venue.html:57
+#: templates/venue.html:59
 msgid ""
 "Bratislava is one of the youngest capitals in Europe, and also one of the"
 " smallest. Despite this, it has a rich history of a free royal coronation"
@@ -3017,11 +3164,11 @@ msgstr ""
 " Bratislava významným dopravným uzlom v strednej Európe a možností, ako "
 "sa sem dostať, je neúrekom."
 
-#: templates/venue.html:65
+#: templates/venue.html:67
 msgid "By air"
 msgstr "Letecky"
 
-#: templates/venue.html:67
+#: templates/venue.html:69
 msgid ""
 "If you are travelling to Bratislava, you can fly to the Bratislava "
 "airport (airport code: BTS) or the Vienna airport (airport code: VIE). "
@@ -3031,7 +3178,7 @@ msgstr ""
 "letiska: BTS) alebo na letisko Viedeň (kód letiska: VIE). Viedenské "
 "letisko má v porovnaní s bratislavským podstatne väčší výber letov."
 
-#: templates/venue.html:71
+#: templates/venue.html:73
 msgid ""
 "From Bratislava airport you can take taxi (use the phone, its cheaper), "
 "or take the bus #61 and then move to bus #39 at the Bajkalska station. "
@@ -3044,7 +3191,7 @@ msgstr ""
 "ZOO, kde prichádzaš do cieľa. Ďalej už len nasleduj nálepky PyconSK "
 "smerom na kopec."
 
-#: templates/venue.html:75
+#: templates/venue.html:77
 msgid ""
 "If you travel via Vienna airport, there are direct and cheap bus "
 "connections from early morning till midnight. One way ticket costs about "
@@ -3061,11 +3208,11 @@ msgstr ""
 "(strieborné autobusy), RegioJet (žlté autobusy). Týmito autobusmi sa "
 "dostaneš na hlavnú autobusovú stanicu Mlynské Nivy."
 
-#: templates/venue.html:82
+#: templates/venue.html:84
 msgid "By car"
 msgstr "Autom"
 
-#: templates/venue.html:85
+#: templates/venue.html:87
 msgid ""
 "Arriving from Vienna, choose the direction Schwechat on A4 highway, then "
 "turn to highway A6 leading to Bratislava.\n"
@@ -3086,7 +3233,7 @@ msgstr ""
 "Slovenskej televízie. Hneď za nadjazdom odboč doľava a následne doprava "
 "smerom do kopca k univerzitnému kampusu."
 
-#: templates/venue.html:90
+#: templates/venue.html:92
 msgid ""
 "From Budapest, take the highway M1 heading to Gyor, follow this route "
 "until you see signs for highway M15 heading to Slovakia and Bratislava.\n"
@@ -3097,7 +3244,7 @@ msgstr ""
 "smerom na Slovensko, do Bratislavy. Po prejazde hraníc pokračujte smerom "
 "na Brno podľa inštrukcií vyššie."
 
-#: templates/venue.html:92
+#: templates/venue.html:94
 msgid ""
 "If you drive from Prague, take the highway D1 to Brno, once in Brno take "
 "the highway D2 heading to Slovakia and Bratislava.\n"
@@ -3112,7 +3259,7 @@ msgstr ""
 "Karlova Ves), ktorý sa nachádza za tunelom. Pozor, výjazd začína hneď za "
 "tunelom, preraď sa včas."
 
-#: templates/venue.html:95
+#: templates/venue.html:97
 msgid ""
 "From eastern and southern Poland choose your way to Katowice. From there "
 "follow the road to Cadca, Slovakia.\n"
@@ -3128,11 +3275,11 @@ msgstr ""
 " Prahu/Brno podľa vyššie uvedených inštrukcií (mal/a by si dvakrát "
 "prekročiť Dunaj)."
 
-#: templates/venue.html:102
+#: templates/venue.html:104
 msgid "By bus"
 msgstr "Autobusom"
 
-#: templates/venue.html:104
+#: templates/venue.html:106
 msgid ""
 "All neighbouring capital cities Vienna, Prague, Budapest, Warsaw and Kiev"
 " have direct bus connections."
@@ -3140,7 +3287,7 @@ msgstr ""
 "Všetky okolité hlavné mestá - Viedeň, Praha, Budapešť, Varšava aj Kyjev -"
 " majú priame autobusové spojenie do Bratislavy."
 
-#: templates/venue.html:107
+#: templates/venue.html:109
 msgid ""
 "Most of the buses will bring you to the main bus station - Mlynske Nivy. "
 "It is currently located in temporary location, so dont\n"
@@ -3159,11 +3306,11 @@ msgstr ""
 "dopravy. Odporúčame ísť autobusom 70 na stanicu Most SNP a odtiaľ "
 "pokračovať autbousom 30 alebo 37 na zástavku ZOO."
 
-#: templates/venue.html:114
+#: templates/venue.html:116
 msgid "By train"
 msgstr "Vlakom"
 
-#: templates/venue.html:116
+#: templates/venue.html:118
 msgid ""
 "All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kiev "
 "have direct train connections."
@@ -3172,7 +3319,7 @@ msgstr ""
 "Budapešti, Varšavy aj Kyjeva, sa priamo do Bratislavy možno dostať aj "
 "vlakom."
 
-#: templates/venue.html:119
+#: templates/venue.html:121
 msgid ""
 "Once you arrive at the Bratislava train station (Bratislava hlavná "
 "stanica), leave the station through the main entrance.\n"
@@ -3189,11 +3336,11 @@ msgstr ""
 "https://imhd.sk/ba/ pre viac informácií o cenách cestovného či trasách "
 "liniek."
 
-#: templates/venue.html:128
+#: templates/venue.html:130
 msgid "Accommodation"
 msgstr "Ubytovanie"
 
-#: templates/venue.html:130
+#: templates/venue.html:132
 msgid ""
 "There are plenty of opportunities for accommodation in Bratislava. From "
 "coach surfing, Airbnb to hostels and five star hotels. Even though it is "
@@ -3205,11 +3352,11 @@ msgstr ""
 "mimo hlavnej turistickej sezóny, určite odporúčame zabezpečiť si "
 "ubytovanie v predstihu."
 
-#: templates/venue.html:133
+#: templates/venue.html:135
 msgid "Guide"
 msgstr "Sprievodca"
 
-#: templates/venue.html:135
+#: templates/venue.html:137
 msgid ""
 "Bratislava offers much more than just PyCon. If you decide to stay in "
 "Bratislava a few days longer, have a look at <a "
@@ -3227,7 +3374,7 @@ msgstr ""
 "miest obyvateľov Bratislavy s ich autentickými odporúčaniami a "
 "subjektívnymi názormi."
 
-#: templates/venue.html:138
+#: templates/venue.html:140
 msgid ""
 "Or you can review the <a href=\"http://www.visitbratislava.com/\" "
 "title=\"city pages for visitors\" target=\"_blank\" "
