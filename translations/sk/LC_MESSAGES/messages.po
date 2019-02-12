@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-04 11:07+0100\n"
+"POT-Creation-Date: 2019-02-09 00:24+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1727,6 +1727,10 @@ msgstr "Senior softvérový architekt"
 msgid "Software Engineer"
 msgstr "Softvérový inžinier"
 
+#: templates/index.html:458 templates/speakers.html:548
+msgid "Python enthusiast and security evangelist"
+msgstr "Python nadšenec a bezpečnostný evanjelista"
+
 #: templates/job-fair.html:8
 msgid "Job fair"
 msgstr "Job fair"
@@ -2726,6 +2730,49 @@ msgid ""
 "The only pre-requisite is a basic familiarity with Python programming "
 "language. Although it’ll be good that you have laptops with Python "
 "already setup, it’s not required as such !"
+msgstr ""
+
+#: templates/speakers.html:557
+msgid ""
+"Joel Lord is passionate about web and technology in general. He likes to "
+"learn new things, but most of all he likes to share his discoveries. He "
+"does so by travelling to various conferences all around the globe. He "
+"graduated with a college degree in computer programming back in the last "
+"millennium. Apart for a little break to get his BSc in computational "
+"astrophysics, he has always been in the industry. As a technical "
+"evangelist with Auth0, he meets with developers to help them make the web"
+" a safer place. During his free time, he is usually found stargazing in a"
+" campsite somewhereor brewing a fresh batch of beer in his garage."
+msgstr ""
+"Joel Lord je nadšený z webu a technológií všeobecne. Rád sa učí nové veci, "
+"ale najradšej zdieľa svoje objavy. To robí na rôznych konferenciách, kam "
+"cestuje po celej Zemi. Vyštudoval programovanie v minulom tisícročí. Okrem "
+"malej prestávky na diplom z astrofyziky vždy pracoval v tomto odvetví. "
+"Ako technický evanjelista pre Auth0 sa stretáva s vývojármi, ktorým pomáha "
+"urbiť web bezpečnejším. Vo voľnom čase zvyčajne hľadí na hviezdy niekde v "
+" alebo vo svojej garáži varí novú várku piva."
+
+#: templates/speakers.html:569
+msgid "I Dont Care About Security (And Neither Should You)"
+msgstr ""
+
+#: templates/speakers.html:570
+msgid ""
+"Remember when setting up a login page was easy? It seems like nowadays it"
+" can take weeks to start a project--creating a signup form, a login form,"
+" a password recovery screen, and all the validation in between. And you "
+"haven’t even started on security considerations yet. During this "
+"presentation, the attendees will be introduced to OpenID Connect and "
+"OAuth. They will also learn how to leverage these technologies to create "
+"more secure applications. Most importantly, they will learn how to "
+"delegate authorization and authentication so they can focus on their real"
+" work and forget about all that security stuff."
+msgstr ""
+
+#: templates/speakers.html:580
+msgid ""
+"Besides this talk Joel is plannig a workshop on building a passwordless "
+"authentication server."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
