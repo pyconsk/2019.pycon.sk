@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-09 00:24+0100\n"
+"POT-Creation-Date: 2019-02-14 23:34+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -2744,13 +2744,14 @@ msgid ""
 " a safer place. During his free time, he is usually found stargazing in a"
 " campsite somewhereor brewing a fresh batch of beer in his garage."
 msgstr ""
-"Joel Lord je nadšený z webu a technológií všeobecne. Rád sa učí nové veci, "
-"ale najradšej zdieľa svoje objavy. To robí na rôznych konferenciách, kam "
-"cestuje po celej Zemi. Vyštudoval programovanie v minulom tisícročí. Okrem "
-"malej prestávky na diplom z astrofyziky vždy pracoval v tomto odvetví. "
-"Ako technický evanjelista pre Auth0 sa stretáva s vývojármi, ktorým pomáha "
-"urbiť web bezpečnejším. Vo voľnom čase zvyčajne hľadí na hviezdy niekde v "
-" alebo vo svojej garáži varí novú várku piva."
+"Joel Lord je nadšený z webu a technológií všeobecne. Rád sa učí nové "
+"veci, ale najradšej zdieľa svoje objavy. To robí na rôznych "
+"konferenciách, kam cestuje po celej Zemi. Vyštudoval programovanie v "
+"minulom tisícročí. Okrem malej prestávky na diplom z astrofyziky vždy "
+"pracoval v tomto odvetví. Ako technický evanjelista pre Auth0 sa stretáva"
+" s vývojármi, ktorým pomáha urbiť web bezpečnejším. Vo voľnom čase "
+"zvyčajne hľadí na hviezdy niekde v  alebo vo svojej garáži varí novú "
+"várku piva."
 
 #: templates/speakers.html:569
 msgid "I Dont Care About Security (And Neither Should You)"
@@ -2842,11 +2843,27 @@ msgstr ""
 "freelancerom množstvo zaujímavých projektov.\n"
 "                      Pre ponuku jobov pozri www.titans.sk."
 
-#: templates/sponsoring.html:72
+#: templates/sponsoring.html:76
+msgid ""
+"Red Hat is the worlds leading provider of open source software solutions,"
+" using a community-powered approach to reliable and high-performing "
+"cloud, Linux, middleware, storage, and virtualization technologies. As a "
+"connective hub in a global network of enterprises, partners, and open "
+"source communities, Red Hat helps create innovative technologies that "
+"liberate resources for growth and prepare customers for the future of IT."
+msgstr ""
+"Red Hat je svetový líder vo vývoji slobodného a otvoreného softvéru, ktorý"
+" kladie dôraz komunitný prístup k spoľahlivému a výkonnému cloudu, Linuxu,"
+" middleware, storage a virtualizačným technológiám. V globálnej sieti "
+"firiem, partnerov a open-source komunít pomáha vytvárať inovatívne "
+"technológie, ktoré tvoria základy ďalšieho rasti a pripravuje svojich "
+"zákazníkov na budúcnosť IT."
+
+#: templates/sponsoring.html:95
 msgid "Bronze Sponsors"
 msgstr "Bronzoví sponzori"
 
-#: templates/sponsoring.html:79
+#: templates/sponsoring.html:102
 msgid ""
 "Sticker Mule is the fastest and easiest way to buy custom printed "
 "products. Thousands of people trust us to make kick-ass stickers, labels,"
@@ -2859,23 +2876,23 @@ msgstr ""
 "niekoľkých sekúnd a získajte online záruku, dopravu zdarma super rýchle "
 "doručenie!"
 
-#: templates/sponsoring.html:92
+#: templates/sponsoring.html:115
 msgid "Media Partners"
 msgstr "Medálni partneri"
 
-#: templates/sponsoring.html:111
+#: templates/sponsoring.html:149
 msgid "Partners"
 msgstr "Partneri"
 
-#: templates/sponsoring.html:169
+#: templates/sponsoring.html:207
 msgid "Why become a sponsor?"
 msgstr "Prečo sa stať sponzorom?"
 
-#: templates/sponsoring.html:170
+#: templates/sponsoring.html:208
 msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
 msgstr "Potrebujeme vás — PyCon SK 2019 v Bratislave hľadá sponzorov a partnerov!"
 
-#: templates/sponsoring.html:175
+#: templates/sponsoring.html:213
 msgid ""
 "PyCon is an annual gathering for the community using and developing the "
 "open-source Python programming language. The conference is completely "
@@ -2885,7 +2902,7 @@ msgstr ""
 "vyvíjajú open source programovací jazyk Python. Konferencia je kompletne "
 "organizovaná dobrovoľníkmi."
 
-#: templates/sponsoring.html:176
+#: templates/sponsoring.html:214
 msgid ""
 "The members of the Python community organize a PyCon conference in their "
 "home countries regularly, PyCon will happen in Slovakia for the fourth "
@@ -2895,7 +2912,7 @@ msgstr ""
 "domovských krajinách pravidelne. PyCon bude na Slovensku už po štvrtý "
 "raz."
 
-#: templates/sponsoring.html:180
+#: templates/sponsoring.html:218
 msgid ""
 "To ensure high-quality speakers and keep the tickets price available for "
 "everyone we need you, the sponsors, who allow the conference to take "
@@ -2905,7 +2922,7 @@ msgstr ""
 "vstupeniek dostupnú pre každého, potrebujeme vás, sponzorov, ktorí "
 "umožnia túto konferenciu uskutočniť."
 
-#: templates/sponsoring.html:184
+#: templates/sponsoring.html:222
 msgid ""
 "Do not hesitate to contact us. We are flexible and willing to work with "
 "you to design a sponsorship package that is going to meet your business "
@@ -2915,11 +2932,11 @@ msgstr ""
 "spolupracovať a navrhnúť s vami balíček sponzorstva, ktorý splní vaše "
 "obchodné potreby."
 
-#: templates/sponsoring.html:196
+#: templates/sponsoring.html:234
 msgid "Recruitment"
 msgstr "Nábor"
 
-#: templates/sponsoring.html:198
+#: templates/sponsoring.html:236
 msgid ""
 "Are you looking for programmers? PyCon is the best place for meeting new "
 "talents. Many participants will be experienced developers looking for "
@@ -2929,11 +2946,11 @@ msgstr ""
 " talentov. Mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj "
 "ďalší veľký kariérny krok."
 
-#: templates/sponsoring.html:207
+#: templates/sponsoring.html:245
 msgid "Audience"
 msgstr "Publikum"
 
-#: templates/sponsoring.html:209
+#: templates/sponsoring.html:247
 msgid ""
 "Want to get your message across to the people, so they talk about you? "
 "PyCon is a great opportunity. People in the Python community like to "
@@ -2943,11 +2960,11 @@ msgstr ""
 " na to skvelá príležitosť. Ľudia v Python komunite radi objavujú a "
 "zdieľajú nové veci."
 
-#: templates/sponsoring.html:218
+#: templates/sponsoring.html:256
 msgid "Marketing"
 msgstr "Marketing"
 
-#: templates/sponsoring.html:220
+#: templates/sponsoring.html:258
 msgid ""
 "Looking for new users for your product? Such people can be found at PyCon"
 " - they also will look for new products and ideas."
@@ -2955,11 +2972,11 @@ msgstr ""
 "Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na "
 "PyCone - aj oni budú hľadať nové produkty a nápady."
 
-#: templates/sponsoring.html:229
+#: templates/sponsoring.html:267
 msgid "Community"
 msgstr "Komunita"
 
-#: templates/sponsoring.html:231
+#: templates/sponsoring.html:269
 msgid ""
 "Looking for new contributors and partners for your open source project? "
 "PyCon is the place, where they also will look for you."
@@ -2967,11 +2984,11 @@ msgstr ""
 "Hľadáte nových prispievateľov a partnerov pre váš open source projekt? "
 "PyCon je miesto, kde aj oni budú hľadať vás."
 
-#: templates/sponsoring.html:240
+#: templates/sponsoring.html:278
 msgid "Support"
 msgstr "Podpora"
 
-#: templates/sponsoring.html:242
+#: templates/sponsoring.html:280
 msgid ""
 "Are you using Python in your company? Support for community events is an "
 "excellent opportunity to contribute back."
