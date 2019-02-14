@@ -534,6 +534,57 @@
                 </div><!-- Speaker list 11 end -->
             </div><!-- Speaker row 11 -->
 
+            <div class="row">
+                <div class="ts-speaker-list clearfix">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="{{ url_for('static', filename='images/speakers/lord.jpg') }}" />
+                        </div><!--Image end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-xs-12 col-md-8">
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name dark">Joel Lord</h3>
+                            <p class="ts-speaker-designation">{{ _('Python enthusiast and security evangelist') }}</p>
+                            <ul class="ts-speaker-social-links">
+{#                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+                                <li><a href="https://twitter.com/joel__lord"><i class="fa fa-twitter"></i></a></li>
+{#                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>#}
+{#                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
+                            </ul>
+                            <div class="ts-speaker-bio">
+                                <p>
+                                    {{ _('Joel Lord is passionate about web and technology in general. He likes to '
+                                         'learn new things, but most of all he likes to share his discoveries. He does '
+                                         'so by travelling to various conferences all around the globe. '
+                                         'He graduated with a college degree in computer programming back in the last '
+                                         'millennium. Apart for a little break to get his BSc in computational '
+                                         'astrophysics, he has always been in the industry. As a technical evangelist '
+                                         'with Auth0, he meets with developers to help them make the web a safer place.'
+                                         ' During his free time, he is usually found stargazing in a campsite somewhere'
+                                         'or brewing a fresh batch of beer in his garage.') }}
+                                </p>
+                            </div>
+                            <div class="ts-speaker-session">
+                                <h4 class="session-title">{{ _('I Don''t Care About Security (And Neither Should You)') }}</h4>
+                                <p> {{ _('Remember when setting up a login page was easy? It seems like nowadays it can '
+                                         'take weeks to start a project--creating a signup form, a login form, a '
+                                         'password recovery screen, and all the validation in between. And you haven’t '
+                                         'even started on security considerations yet. During this presentation, the '
+                                         'attendees will be introduced to OpenID Connect and OAuth. They will also '
+                                         'learn how to leverage these technologies to create more secure applications. '
+                                         'Most importantly, they will learn how to delegate authorization and '
+                                         'authentication so they can focus on their real work and forget about all '
+                                         'that security stuff.') }}</p>
+                                <p>
+                                    {{ _('Besides this talk Joel is plannig a workshop on building a passwordless '
+                                         'authentication server.') }} </p>
+                            </div>
+                        </div><!-- Info end -->
+                    </div><!-- Col end -->
+                </div><!-- Speaker list 12 end -->
+            </div><!-- Speaker row 12 -->
+
         </div>
     </section>
 {% endblock %}
