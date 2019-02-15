@@ -15,7 +15,7 @@
       <div class="row text-center">
         <span class="icon-wrap"><i class="fa fa-microphone"></i></span>
         <h2 class="section-title">{{ _('Call for proposals') }}</h2>
-        <p class="section-sub-title">{{ _('The Call For Proposals is open!') }}</p>
+        <p class="section-sub-title">{{ _('The Call For Proposals is closed!') }}</p>
       </div><!--/ Title row end -->
 
       <div class="row">
@@ -32,11 +32,11 @@
           </p>
 
           <p class="text-justify">
-            {{ _('Still not sure about the details your proposal? No worries :-) <b>After submitting your proposal, you will receive a confirmation email with a link on which you can return to your proposal and make changes.</b>') }}
+            {{ _('Still not sure about the details your proposal? No worries :-) After submitting your proposal, you will receive a confirmation email with a link on which you can return to your proposal and make changes.') }}
           </p>
 
-          <p class="text-center">
-            <a href="{{ url_for('cfp_form', lang_code=lang_code) }}" class="btn btn-primary btn-lg"><i class="fa fa-microphone"></i> {{ _('Submit your proposal') }}</a>
+          <p class="text-center"><b>
+            {{ _('The Call For Proposals is closed!') }} <br /> {{ _('We have received almost 150 high quality talk and workshop proposals, thanks everyone for participation.') }}</b>
           </p>
 
           <h3>{{ _('Give us a tip') }}</h3>
