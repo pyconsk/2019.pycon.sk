@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-09 00:24+0100\n"
+"POT-Creation-Date: 2019-02-15 21:15+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -159,9 +159,9 @@ msgstr "Kúp si lístok"
 msgid "Back to Top"
 msgstr "Návrat na vrch stránky"
 
-#: templates/cfp.html:18 templates/cfp_form.html:24 templates/index.html:284
-msgid "The Call For Proposals is open!"
-msgstr "Predkladanie návrhov prednášok a workshopov je otvorené!"
+#: templates/cfp.html:18 templates/cfp.html:39 templates/index.html:217
+msgid "The Call For Proposals is closed!"
+msgstr "Predkladanie návrhov prednášok a workshopov je ukončené!"
 
 #: templates/cfp.html:23
 msgid "Anyone can be part of the conference"
@@ -212,21 +212,18 @@ msgstr ""
 " uzavrieme väčšinu programu. <b>Posledný deadline je 14. februára "
 "2019</b>, kedy sa uzavrie zvyšná časť programu konferencie."
 
-#: templates/cfp.html:35 templates/cfp_form.html:31
+#: templates/cfp.html:35
 msgid ""
-"Still not sure about the details your proposal? No worries :-) <b>After "
+"Still not sure about the details your proposal? No worries :-) After "
 "submitting your proposal, you will receive a confirmation email with a "
-"link on which you can return to your proposal and make changes.</b>"
+"link on which you can return to your proposal and make changes."
 msgstr ""
-"Ešte stále si nie si istý/á o konečnom popise pre Tvoj príspevok? Nemusíš"
-" sa báť :-) <b>Po vyplnení a odoslaní formulára obdržíš potvrdzovací "
-"mail, v ktorom bude odkaz na stránku, kde môžeš svoj príspevok kedykoľvek"
-" upraviť</b>."
 
-#: templates/cfp.html:39 templates/cfp_form.html:275
-#: templates/recording.html:53
-msgid "Submit your proposal"
-msgstr "Odoslať návrh príspevku"
+#: templates/cfp.html:39 templates/index.html:221
+msgid ""
+"We have received almost 150 high quality talk and workshop proposals, "
+"thanks everyone for participation."
+msgstr ""
 
 #: templates/cfp.html:42
 msgid "Give us a tip"
@@ -355,6 +352,21 @@ msgstr ""
 #: templates/cfp.html:106 templates/cfp_form.html:286
 msgid "Full recording release statement"
 msgstr "Plné znenie súhlasu s nahrávaním"
+
+#: templates/cfp_form.html:24 templates/index.html:298
+msgid "The Call For Proposals is open!"
+msgstr "Predkladanie návrhov prednášok a workshopov je otvorené!"
+
+#: templates/cfp_form.html:31
+msgid ""
+"Still not sure about the details your proposal? No worries :-) <b>After "
+"submitting your proposal, you will receive a confirmation email with a "
+"link on which you can return to your proposal and make changes.</b>"
+msgstr ""
+"Ešte stále si nie si istý/á o konečnom popise pre Tvoj príspevok? Nemusíš"
+" sa báť :-) Po vyplnení a odoslaní formulára obdržíš potvrdzovací mail, v"
+" ktorom bude odkaz na stránku, kde môžeš svoj príspevok kedykoľvek "
+"upraviť."
 
 #: templates/cfp_form.html:37
 msgid "About speaker"
@@ -575,15 +587,19 @@ msgstr "Odoslať"
 msgid "Alternatively"
 msgstr "Prípadne"
 
+#: templates/cfp_form.html:275 templates/recording.html:53
+msgid "Submit your proposal"
+msgstr "Odoslať návrh príspevku"
+
 #: templates/cfp_form.html:275
 msgid "directly in Google forms."
 msgstr "priamo v Google formulároch."
 
-#: templates/cfv.html:24 templates/index.html:254
+#: templates/cfv.html:24 templates/index.html:268
 msgid "We need you to help organize PyCon SK 2019!"
 msgstr "Potrebujeme ťa, aby si pomohol s organizáciou PyCon SK 2019!"
 
-#: templates/cfv.html:31 templates/index.html:258
+#: templates/cfv.html:31 templates/index.html:272
 msgid ""
 "All of our staff members are volunteers. We are looking for new members "
 "to join the team of organizers."
@@ -803,12 +819,12 @@ msgstr ""
 "informatiky, pričom si komunita učiteľov má možnosť zdieľať svoje "
 "skúsenosti a vedomosti o užitočných nástrojoch."
 
-#: templates/edusummit.html:32 templates/index.html:311
+#: templates/edusummit.html:32 templates/index.html:325
 #: templates/speakers.html:90
 msgid "Profesor Juraj Hromkovič, DrSc."
 msgstr "Profesor Juraj Hromkovič, DrSc."
 
-#: templates/edusummit.html:39 templates/index.html:314
+#: templates/edusummit.html:39 templates/index.html:328
 #: templates/speakers.html:97
 msgid "professor at ETH Zürich"
 msgstr "profesor na ETH Zürich"
@@ -863,7 +879,7 @@ msgid ""
 "budúcich generácii."
 msgstr ""
 
-#: templates/edusummit.html:80 templates/index.html:359
+#: templates/edusummit.html:80 templates/index.html:375
 #: templates/speakers.html:164
 msgid "CS student and Python enthusiast"
 msgstr "žiak informatiky a Python nadšenec"
@@ -1625,15 +1641,21 @@ msgstr "Sponzorov"
 msgid "News"
 msgstr "Novinky"
 
-#: templates/index.html:217
+#: templates/index.html:221
+msgid ""
+"We'll review the proposals as soon as possible and publish all of the "
+"speakers."
+msgstr ""
+
+#: templates/index.html:231
 msgid "PyCon SK 2019 speakers and website redesign."
 msgstr "Spíkri na PyCon SK 2019 a redizajn webstránky"
 
-#: templates/index.html:221
+#: templates/index.html:235
 msgid "It is our privilege to announce first three speakers at PyCon SK 2019:"
 msgstr "Je nám cťou ohlásiť prvých troch spíkrov na PyCon SK 2019:"
 
-#: templates/index.html:221
+#: templates/index.html:235
 msgid ""
 "Helen Li from Google, prof. Juraj Hromkovič from ETH Zürich and Honza "
 "Král from Elastic."
@@ -1641,7 +1663,7 @@ msgstr ""
 "Helen Li z Google, prof. Juraj Hromkovič z ETH Zürich a Honza Král z "
 "Elasticu."
 
-#: templates/index.html:222
+#: templates/index.html:236
 msgid ""
 "We have also launched new design of the conference website. How do you "
 "like it? Let us know on our social networks."
@@ -1649,25 +1671,25 @@ msgstr ""
 "Spustili sme nový dizajn konferenčnej web stránky. Ako sa ti páči? Daj "
 "nám vedieť na sociálnych sieťach."
 
-#: templates/index.html:233
+#: templates/index.html:247
 msgid "PyCon SK 2019 Slack channel & Social media"
 msgstr "PyCon SK 2019 Slack kanál & sociálne médiá"
 
-#: templates/index.html:237
+#: templates/index.html:251
 msgid "Join us at our social media:"
 msgstr "Pridaj sa k nám na sociálnych sieťach:"
 
-#: templates/index.html:269
+#: templates/index.html:283
 msgid "Conference ticket sale is open."
 msgstr "Predaj lístkov na konferenciu je otvorený."
 
-#: templates/index.html:273 templates/tickets.html:23
+#: templates/index.html:287 templates/tickets.html:23
 msgid ""
 "Buy your ticket before they are gone... So far every PyCon SK has been "
 "sold out!"
 msgstr "Kúp si lístok skôr, ako sa vypredá... Zatiaľ sa vypredal každý PyCon SK!"
 
-#: templates/index.html:288
+#: templates/index.html:302
 msgid ""
 "Submit your talk proposal with short abstract and your bio. All selected "
 "speakers get a complimentary ticket to the conference."
@@ -1675,59 +1697,59 @@ msgstr ""
 "Pošli nám svoj návrh aj so stručným obsahom a životopisom. Všetci rečníci"
 " majú vstup na konferenciu zadarmo."
 
-#: templates/index.html:302
+#: templates/index.html:316
 msgid "Awesome Speakers"
 msgstr "Úžasní rečníci"
 
-#: templates/index.html:303
+#: templates/index.html:317
 msgid "Listen, Learn, Get inspired."
 msgstr "Počúvaj, uč sa a inšpiruj sa"
 
-#: templates/index.html:325 templates/speakers.html:65
+#: templates/index.html:339 templates/speakers.html:65
 msgid "senior software engineer with Google AI Genomics"
 msgstr "senior softvér vývojárka v Google AI Genomics"
 
-#: templates/index.html:336 templates/speakers.html:31
+#: templates/index.html:350 templates/speakers.html:31
 msgid "Python engineer at Elastic"
 msgstr "Python vývojár v Elastic"
 
-#: templates/index.html:349 templates/speakers.html:132
+#: templates/index.html:364 templates/speakers.html:132
 msgid "Back-end and infrastructure engineer at Crate.io, Django core contributor"
 msgstr "Technik backendu a infraštruktúry v Crate.io, Django core prispievateľ"
 
-#: templates/index.html:369 templates/speakers.html:197
+#: templates/index.html:385 templates/speakers.html:197
 msgid "Python engineer at Iceye"
 msgstr "Python vývojár v Iceye"
 
-#: templates/index.html:382 templates/speakers.html:231
+#: templates/index.html:398 templates/speakers.html:231
 msgid "Creator of Anvil"
 msgstr "Tvorca Anvilu"
 
-#: templates/index.html:392 templates/speakers.html:272
+#: templates/index.html:409 templates/speakers.html:272
 msgid "Python developer at Anvil"
 msgstr "Python vývojár v Anvile"
 
-#: templates/index.html:402
+#: templates/index.html:419
 msgid "Security Engineer"
 msgstr "Bezpečnostný inžinier"
 
-#: templates/index.html:415
+#: templates/index.html:432
 msgid "Tech Lead at Kiwi.com"
 msgstr "Vedúci technológií v kiwi.com"
 
-#: templates/index.html:425 templates/speakers.html:401
+#: templates/index.html:442 templates/speakers.html:401
 msgid "Cloud technology enthusiast"
 msgstr "Nadšenec cloudových technológií"
 
-#: templates/index.html:435 templates/speakers.html:455
+#: templates/index.html:452 templates/speakers.html:455
 msgid "Senior Software Architect"
 msgstr "Senior softvérový architekt"
 
-#: templates/index.html:448
+#: templates/index.html:465
 msgid "Software Engineer"
 msgstr "Softvérový inžinier"
 
-#: templates/index.html:458 templates/speakers.html:548
+#: templates/index.html:475 templates/speakers.html:548
 msgid "Python enthusiast and security evangelist"
 msgstr "Python nadšenec a bezpečnostný evanjelista"
 
@@ -2744,13 +2766,14 @@ msgid ""
 " a safer place. During his free time, he is usually found stargazing in a"
 " campsite somewhereor brewing a fresh batch of beer in his garage."
 msgstr ""
-"Joel Lord je nadšený z webu a technológií všeobecne. Rád sa učí nové veci, "
-"ale najradšej zdieľa svoje objavy. To robí na rôznych konferenciách, kam "
-"cestuje po celej Zemi. Vyštudoval programovanie v minulom tisícročí. Okrem "
-"malej prestávky na diplom z astrofyziky vždy pracoval v tomto odvetví. "
-"Ako technický evanjelista pre Auth0 sa stretáva s vývojármi, ktorým pomáha "
-"urbiť web bezpečnejším. Vo voľnom čase zvyčajne hľadí na hviezdy niekde v "
-" alebo vo svojej garáži varí novú várku piva."
+"Joel Lord je nadšený z webu a technológií všeobecne. Rád sa učí nové "
+"veci, ale najradšej zdieľa svoje objavy. To robí na rôznych "
+"konferenciách, kam cestuje po celej Zemi. Vyštudoval programovanie v "
+"minulom tisícročí. Okrem malej prestávky na diplom z astrofyziky vždy "
+"pracoval v tomto odvetví. Ako technický evanjelista pre Auth0 sa stretáva"
+" s vývojármi, ktorým pomáha urbiť web bezpečnejším. Vo voľnom čase "
+"zvyčajne hľadí na hviezdy niekde v  alebo vo svojej garáži varí novú "
+"várku piva."
 
 #: templates/speakers.html:569
 msgid "I Dont Care About Security (And Neither Should You)"
@@ -2842,11 +2865,27 @@ msgstr ""
 "freelancerom množstvo zaujímavých projektov.\n"
 "                      Pre ponuku jobov pozri www.titans.sk."
 
-#: templates/sponsoring.html:72
+#: templates/sponsoring.html:78
+msgid ""
+"Red Hat is the worlds leading provider of open source software solutions,"
+" using a community-powered approach to reliable and high-performing "
+"cloud, Linux, middleware, storage, and virtualization technologies. As a "
+"connective hub in a global network of enterprises, partners, and open "
+"source communities, Red Hat helps create innovative technologies that "
+"liberate resources for growth and prepare customers for the future of IT."
+msgstr ""
+"Red Hat je svetový líder vo vývoji slobodného a otvoreného softvéru, "
+"ktorý kladie dôraz komunitný prístup k spoľahlivému a výkonnému cloudu, "
+"Linuxu, middleware, storage a virtualizačným technológiám. V globálnej "
+"sieti firiem, partnerov a open-source komunít pomáha vytvárať inovatívne "
+"technológie, ktoré tvoria základy ďalšieho rasti a pripravuje svojich "
+"zákazníkov na budúcnosť IT."
+
+#: templates/sponsoring.html:97
 msgid "Bronze Sponsors"
 msgstr "Bronzoví sponzori"
 
-#: templates/sponsoring.html:79
+#: templates/sponsoring.html:104
 msgid ""
 "Sticker Mule is the fastest and easiest way to buy custom printed "
 "products. Thousands of people trust us to make kick-ass stickers, labels,"
@@ -2859,23 +2898,23 @@ msgstr ""
 "niekoľkých sekúnd a získajte online záruku, dopravu zdarma super rýchle "
 "doručenie!"
 
-#: templates/sponsoring.html:92
+#: templates/sponsoring.html:117
 msgid "Media Partners"
 msgstr "Medálni partneri"
 
-#: templates/sponsoring.html:111
+#: templates/sponsoring.html:151
 msgid "Partners"
 msgstr "Partneri"
 
-#: templates/sponsoring.html:169
+#: templates/sponsoring.html:209
 msgid "Why become a sponsor?"
 msgstr "Prečo sa stať sponzorom?"
 
-#: templates/sponsoring.html:170
+#: templates/sponsoring.html:210
 msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
 msgstr "Potrebujeme vás — PyCon SK 2019 v Bratislave hľadá sponzorov a partnerov!"
 
-#: templates/sponsoring.html:175
+#: templates/sponsoring.html:215
 msgid ""
 "PyCon is an annual gathering for the community using and developing the "
 "open-source Python programming language. The conference is completely "
@@ -2885,7 +2924,7 @@ msgstr ""
 "vyvíjajú open source programovací jazyk Python. Konferencia je kompletne "
 "organizovaná dobrovoľníkmi."
 
-#: templates/sponsoring.html:176
+#: templates/sponsoring.html:216
 msgid ""
 "The members of the Python community organize a PyCon conference in their "
 "home countries regularly, PyCon will happen in Slovakia for the fourth "
@@ -2895,7 +2934,7 @@ msgstr ""
 "domovských krajinách pravidelne. PyCon bude na Slovensku už po štvrtý "
 "raz."
 
-#: templates/sponsoring.html:180
+#: templates/sponsoring.html:220
 msgid ""
 "To ensure high-quality speakers and keep the tickets price available for "
 "everyone we need you, the sponsors, who allow the conference to take "
@@ -2905,7 +2944,7 @@ msgstr ""
 "vstupeniek dostupnú pre každého, potrebujeme vás, sponzorov, ktorí "
 "umožnia túto konferenciu uskutočniť."
 
-#: templates/sponsoring.html:184
+#: templates/sponsoring.html:224
 msgid ""
 "Do not hesitate to contact us. We are flexible and willing to work with "
 "you to design a sponsorship package that is going to meet your business "
@@ -2915,11 +2954,11 @@ msgstr ""
 "spolupracovať a navrhnúť s vami balíček sponzorstva, ktorý splní vaše "
 "obchodné potreby."
 
-#: templates/sponsoring.html:196
+#: templates/sponsoring.html:236
 msgid "Recruitment"
 msgstr "Nábor"
 
-#: templates/sponsoring.html:198
+#: templates/sponsoring.html:238
 msgid ""
 "Are you looking for programmers? PyCon is the best place for meeting new "
 "talents. Many participants will be experienced developers looking for "
@@ -2929,11 +2968,11 @@ msgstr ""
 " talentov. Mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj "
 "ďalší veľký kariérny krok."
 
-#: templates/sponsoring.html:207
+#: templates/sponsoring.html:247
 msgid "Audience"
 msgstr "Publikum"
 
-#: templates/sponsoring.html:209
+#: templates/sponsoring.html:249
 msgid ""
 "Want to get your message across to the people, so they talk about you? "
 "PyCon is a great opportunity. People in the Python community like to "
@@ -2943,11 +2982,11 @@ msgstr ""
 " na to skvelá príležitosť. Ľudia v Python komunite radi objavujú a "
 "zdieľajú nové veci."
 
-#: templates/sponsoring.html:218
+#: templates/sponsoring.html:258
 msgid "Marketing"
 msgstr "Marketing"
 
-#: templates/sponsoring.html:220
+#: templates/sponsoring.html:260
 msgid ""
 "Looking for new users for your product? Such people can be found at PyCon"
 " - they also will look for new products and ideas."
@@ -2955,11 +2994,11 @@ msgstr ""
 "Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na "
 "PyCone - aj oni budú hľadať nové produkty a nápady."
 
-#: templates/sponsoring.html:229
+#: templates/sponsoring.html:269
 msgid "Community"
 msgstr "Komunita"
 
-#: templates/sponsoring.html:231
+#: templates/sponsoring.html:271
 msgid ""
 "Looking for new contributors and partners for your open source project? "
 "PyCon is the place, where they also will look for you."
@@ -2967,11 +3006,11 @@ msgstr ""
 "Hľadáte nových prispievateľov a partnerov pre váš open source projekt? "
 "PyCon je miesto, kde aj oni budú hľadať vás."
 
-#: templates/sponsoring.html:240
+#: templates/sponsoring.html:280
 msgid "Support"
 msgstr "Podpora"
 
-#: templates/sponsoring.html:242
+#: templates/sponsoring.html:282
 msgid ""
 "Are you using Python in your company? Support for community events is an "
 "excellent opportunity to contribute back."
