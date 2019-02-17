@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-17 18:35+0100\n"
+"POT-Creation-Date: 2019-02-18 00:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1468,7 +1468,7 @@ msgstr ""
 msgid "Cloud technology enthusiast"
 msgstr ""
 
-#: templates/index.html:452 templates/speakers.html:455
+#: templates/index.html:452
 msgid "Senior Software Architect"
 msgstr ""
 
@@ -1476,15 +1476,15 @@ msgstr ""
 msgid "Software Engineer"
 msgstr ""
 
-#: templates/index.html:475 templates/speakers.html:548
+#: templates/index.html:475 templates/speakers.html:549
 msgid "Python enthusiast and security evangelist"
 msgstr ""
 
-#: templates/index.html:485 templates/speakers.html:599
+#: templates/index.html:485 templates/speakers.html:600
 msgid "Odoo evangelist"
 msgstr ""
 
-#: templates/index.html:498 templates/speakers.html:641
+#: templates/index.html:498 templates/speakers.html:642
 msgid "Data Scientist"
 msgstr ""
 
@@ -2248,18 +2248,23 @@ msgid ""
 "your favorite language – Python."
 msgstr ""
 
+#: templates/speakers.html:455
+msgid "Senior Software Developer at solute GmbH"
+msgstr ""
+
 #: templates/speakers.html:464
 msgid ""
 "Born in Czechoslovakia, studied in France, living in Germany. Using "
-"Python to make the sun shine and the wind blow. Imports from pandas and "
-"asyncio, enjoys discovering the chaotic world of unicode and time zones."
-msgstr ""
-
-#: templates/speakers.html:470
-msgid "A Day Has Only 24±1 Hours"
+"Python to get you the lowest prices online. Addicted to foreign languages"
+" and the “human” side of computing, such as writing systems, calendar and"
+" time zones, and teaching computers to work on the boring tasks."
 msgstr ""
 
 #: templates/speakers.html:471
+msgid "A Day Has Only 24±1 Hours"
+msgstr ""
+
+#: templates/speakers.html:472
 msgid ""
 "Not only will the Sunday in the week after this PyCon.SK 2019 be one hour"
 " shorter, but also it may steal you even more sleep because of all your "
@@ -2271,32 +2276,32 @@ msgid ""
 "of governments all around the world."
 msgstr ""
 
-#: templates/speakers.html:479
+#: templates/speakers.html:480
 msgid ""
-"After a short overview of Pythons datetime and pytz libraries youll "
-"learnhow the information on time zone changes gets into your system. Well"
-" fly quickly around the worlds over five hundred time zones, but will "
-"also focus on the case of Slovakia and surrounding countries. Two "
+"After a short overview of Pythons datetime and pytz libraries you'll "
+"learn how the information on time zone changes gets into your system. "
+"We'll fly quickly around the world's over five hundred time zones, but "
+"will also focus on the case of Slovakia and surrounding countries. Two "
 "centuries of propaganda and chaos in thirty minutes. Maybe that will make"
 " you want to avoid time zones in your code altogether!"
 msgstr ""
 
-#: templates/speakers.html:502
+#: templates/speakers.html:503
 msgid "Software Engineer at Yelp"
 msgstr ""
 
-#: templates/speakers.html:511
+#: templates/speakers.html:512
 msgid ""
 "Currently software engineer at Yelp. Speaks at Python conferences and "
 "advocates about open source. Previously managed PyData Delhi conference "
 "series, and built a community of 5000+ people."
 msgstr ""
 
-#: templates/speakers.html:517
+#: templates/speakers.html:518
 msgid "Gotchas and landmines in Python"
 msgstr ""
 
-#: templates/speakers.html:518
+#: templates/speakers.html:519
 msgid ""
 "Python may be one of the simplest and most flexible programming languages"
 " out there, but it is still a programming language. It still has syntax, "
@@ -2309,14 +2314,14 @@ msgid ""
 "using Python programming language."
 msgstr ""
 
-#: templates/speakers.html:528
+#: templates/speakers.html:529
 msgid ""
 "The only pre-requisite is a basic familiarity with Python programming "
 "language. Although it’ll be good that you have laptops with Python "
 "already setup, it’s not required as such !"
 msgstr ""
 
-#: templates/speakers.html:557
+#: templates/speakers.html:558
 msgid ""
 "Joel Lord is passionate about web and technology in general. He likes to "
 "learn new things, but most of all he likes to share his discoveries. He "
@@ -2329,11 +2334,11 @@ msgid ""
 " campsite somewhereor brewing a fresh batch of beer in his garage."
 msgstr ""
 
-#: templates/speakers.html:569
+#: templates/speakers.html:570
 msgid "I Dont Care About Security (And Neither Should You)"
 msgstr ""
 
-#: templates/speakers.html:570
+#: templates/speakers.html:571
 msgid ""
 "Remember when setting up a login page was easy? It seems like nowadays it"
 " can take weeks to start a project--creating a signup form, a login form,"
@@ -2346,13 +2351,13 @@ msgid ""
 " work and forget about all that security stuff."
 msgstr ""
 
-#: templates/speakers.html:580
+#: templates/speakers.html:581
 msgid ""
 "Besides this talk Joel is plannig a workshop on building a passwordless "
 "authentication server."
 msgstr ""
 
-#: templates/speakers.html:608
+#: templates/speakers.html:609
 msgid ""
 "I have worked on various positions. SysAdmin, support, DevOps, "
 "localization engineer, consultant, mentor. Sooner or later I always get "
@@ -2365,31 +2370,31 @@ msgid ""
 " quality and packed with functionality."
 msgstr ""
 
-#: templates/speakers.html:620
+#: templates/speakers.html:621
 msgid "Odoo"
 msgstr ""
 
-#: templates/speakers.html:621
+#: templates/speakers.html:622
 msgid ""
 "Odoo na Slovensku - game changer slovenského ERP prostredia. Chceme vám "
 "povedať a ukázať, čo je Odoo, ako funguje, prečo je lepšie ako iné "
 "riešenia. Ako je zameraný, aká je architektúra riešenia..."
 msgstr ""
 
-#: templates/speakers.html:650
+#: templates/speakers.html:651
 msgid ""
 "Master from Particle Physics and Cosmology from University of Birmingham "
 "and Master from Data Science from University of Bath. Currently working "
 "for Tatra banka as a Data Scientist."
 msgstr ""
 
-#: templates/speakers.html:656
+#: templates/speakers.html:657
 msgid ""
 "Automatická korekcia písaného prejavu prirodzeného jazyka s využitím "
 "znakových a kontextuálnych modelov"
 msgstr ""
 
-#: templates/speakers.html:657
+#: templates/speakers.html:658
 msgid ""
 "Banka disponuje veľkým objemom neštruktúrovaných dát. Na ich použitie je "
 "potrebné tieto dáta očistiť. Preto vyvíjame modul na korekciu "
@@ -2403,11 +2408,11 @@ msgid ""
 "špecifickom bankovom prostredí."
 msgstr ""
 
-#: templates/speakers.html:683
+#: templates/speakers.html:684
 msgid "Software engineer by day and FOSS maintainer by night"
 msgstr ""
 
-#: templates/speakers.html:692
+#: templates/speakers.html:693
 msgid ""
 "Hi, I'm Sviat. Find me as @webknjaz on Twitter and GitHub. I'm a Python "
 "hacker. By day, I work for Red Hat taking a crack at the Ansible Engine "
@@ -2417,15 +2422,15 @@ msgid ""
 "source projects easier at scale."
 msgstr ""
 
-#: templates/speakers.html:701
+#: templates/speakers.html:702
 msgid "GitHub Bots: Rise of the Machines 🤖"
 msgstr ""
 
-#: templates/speakers.html:702
+#: templates/speakers.html:703
 msgid "Hello, fellow human!"
 msgstr ""
 
-#: templates/speakers.html:703
+#: templates/speakers.html:704
 msgid ""
 "You probably spend too much time regretting that manual recurring "
 "routines don't do themselves. Let's change this! This workshop will "
@@ -2436,41 +2441,41 @@ msgid ""
 "GitHub UI, to actual coding and to shipping your code via Heroku."
 msgstr ""
 
-#: templates/speakers.html:710
+#: templates/speakers.html:711
 msgid ""
 "To participate in the hands-on, bring your laptop with Python 3.7 and "
 "some editor on-board. You'll also need to have a GitHub account."
 msgstr ""
 
-#: templates/speakers.html:712
+#: templates/speakers.html:713
 msgid "Agenda:"
 msgstr ""
 
-#: templates/speakers.html:715
+#: templates/speakers.html:716
 msgid ""
 "Express intro into what bots are. How they are related to our coding "
 "activities. Creative use of robots."
 msgstr ""
 
-#: templates/speakers.html:716
+#: templates/speakers.html:717
 msgid ""
 "Showing-off what GitHub APIs integration of GitHub Apps type gives access"
 " to. Usage flows. Checks API. Auth levels. Rate limits. Lifecycle."
 msgstr ""
 
-#: templates/speakers.html:717
+#: templates/speakers.html:718
 msgid "GitHub App creation. Deep dive into how it works."
 msgstr ""
 
-#: templates/speakers.html:718
+#: templates/speakers.html:719
 msgid "Deployment to Heroku 🚀."
 msgstr ""
 
-#: templates/speakers.html:719
+#: templates/speakers.html:720
 msgid "Debugging: inspection of webhook events via UI."
 msgstr ""
 
-#: templates/speakers.html:720
+#: templates/speakers.html:721
 msgid "Concluding ideas."
 msgstr ""
 
