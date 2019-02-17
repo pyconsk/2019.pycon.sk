@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-15 21:15+0100\n"
+"POT-Creation-Date: 2019-02-17 18:35+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1753,6 +1753,18 @@ msgstr "Softvérový inžinier"
 msgid "Python enthusiast and security evangelist"
 msgstr "Python nadšenec a bezpečnostný evanjelista"
 
+#: templates/index.html:485 templates/speakers.html:599
+msgid "Odoo evangelist"
+msgstr "Odoo evanjelista"
+
+#: templates/index.html:498 templates/speakers.html:641
+msgid "Data Scientist"
+msgstr "Data Scientist"
+
+#: templates/index.html:508
+msgid "Software Engineer and FOSS maintainer"
+msgstr "Softvérový inžinier a prispievateľ do Open Source softvéru"
+
 #: templates/job-fair.html:8
 msgid "Job fair"
 msgstr "Job fair"
@@ -2796,6 +2808,147 @@ msgstr ""
 msgid ""
 "Besides this talk Joel is plannig a workshop on building a passwordless "
 "authentication server."
+msgstr ""
+
+#: templates/speakers.html:608
+msgid ""
+"I have worked on various positions. SysAdmin, support, DevOps, "
+"localization engineer, consultant, mentor. Sooner or later I always get "
+"back to Odoo. I worked with Odoo since 2013 when I first come across it "
+"when analyzing available ERPs for the needs of my then current employer. "
+"Meanwhile I attended technical training right in Odoo hedquarters in "
+"Brussels and a conference. I am active in Odoo community. Currently I am "
+"working in Implemento - the sole Odoo partner in Slovakia - on spreading "
+"Odoo ERP. If you are asking why, it is because the software is fast, high"
+" quality and packed with functionality."
+msgstr ""
+"Vo svojej praxi som prešiel rôznymi pozíciami. System admin, support, "
+"DevOps, lokalizačný inžinier, konzultant, školiteľ. No vždy sa skôr či "
+"neskôr vrátim k Odoo. Odoo sa venujem od 2013, kde som sa s ním stretol "
+"prvýkrát v rámci analýzy dostupných ERP systémov pre potreby vtedajšieho "
+"zamestnávateľa. Medzičasom som absolvoval technical training priamo v "
+"centrále Odoo v Bruseli a konferenciu. Aktívne sa zapájam do aktivít v "
+"Odoo komunite. Aktuálne spolupracujeme v rámci spoločnosti Implemento - "
+"jediného Odoo partnera na Slovensku, na rozširovaní ERP Odoo. Možno sa "
+"pýtate prečo Odoo? Preto, že je to software, ktorý je rýchly, kvalitný a "
+"poskytuje mnoho funkcionalít."
+
+#: templates/speakers.html:620
+msgid "Odoo"
+msgstr "Odoo"
+
+#: templates/speakers.html:621
+msgid ""
+"Odoo na Slovensku - game changer slovenského ERP prostredia. Chceme vám "
+"povedať a ukázať, čo je Odoo, ako funguje, prečo je lepšie ako iné "
+"riešenia. Ako je zameraný, aká je architektúra riešenia..."
+msgstr ""
+
+#: templates/speakers.html:650
+msgid ""
+"Master from Particle Physics and Cosmology from University of Birmingham "
+"and Master from Data Science from University of Bath. Currently working "
+"for Tatra banka as a Data Scientist."
+msgstr ""
+"Magisterský titul z časticovej fyziky a kozmológie z University "
+"Birmingham a magister z Data Science z University of Bath. Aktuálne "
+"pracujem pre Tatra banku ako Data Scientist."
+
+#: templates/speakers.html:656
+msgid ""
+"Automatická korekcia písaného prejavu prirodzeného jazyka s využitím "
+"znakových a kontextuálnych modelov"
+msgstr ""
+
+#: templates/speakers.html:657
+msgid ""
+"Banka disponuje veľkým objemom neštruktúrovaných dát. Na ich použitie je "
+"potrebné tieto dáta očistiť. Preto vyvíjame modul na korekciu "
+"gramatických chýb a preklepov, ktorý sa skladá z troch hlavých častí. "
+"Prvou časťou je takzvaný \"re-diakritizátor\" zameraný na obnovenie "
+"diakritiky v slove bez nej. Druhá časť je znakový model SymSpell. Ten "
+"navrhuje možné opravy slova na základe Damerau-Levenshtein metriky. "
+"Tretia časť využíva známy model Word2Vec na pochopenie kontextuálnych "
+"závislostí slov v relevantnom dokumente. Vývoj modulu nie je ešte "
+"ukončený, avšak subjektívne posúdenie modulu indikuje použiteľnosť v "
+"špecifickom bankovom prostredí."
+msgstr ""
+
+#: templates/speakers.html:683
+msgid "Software engineer by day and FOSS maintainer by night"
+msgstr "Cez deň softvérový inžinier a v noci správca open source softvéru"
+
+#: templates/speakers.html:692
+msgid ""
+"Hi, I'm Sviat. Find me as @webknjaz on Twitter and GitHub. I'm a Python "
+"hacker. By day, I work for Red Hat taking a crack at the Ansible Engine "
+"as a part of the Core team. Besides that, I'm a FOSS maintainer and "
+"contributor by night. I maintain CherryPy and aiohttp. My current "
+"interests include building workflow automations to make maintaining open "
+"source projects easier at scale."
+msgstr ""
+"Ahoj, som Sviat. Nájdeš ma ako @webknjaz na Twitteri a GitHube. Som "
+"Python hacker. Cez deň pracujem pre Red Hat na Ansible Engine ako člen "
+"Core teamu. Okrem toho, v noci som správca a prispievateľ do open "
+"sourcových projektov. Spravujem CherryPy a aiohttp. Medzi moje momentálne"
+" záujmy patrí vývoj automatizačného workflow, ktoré spraví spravovanie "
+"open source projektov jednoduchšie a lepšie škálovateľné."
+
+#: templates/speakers.html:701
+msgid "GitHub Bots: Rise of the Machines 🤖"
+msgstr "GitHub Boty: Vzostup strojov 🤖"
+
+#: templates/speakers.html:702
+msgid "Hello, fellow human!"
+msgstr ""
+
+#: templates/speakers.html:703
+msgid ""
+"You probably spend too much time regretting that manual recurring "
+"routines don't do themselves. Let's change this! This workshop will "
+"empower you to automate all the things using GitHub Apps integration type"
+" as reusable restless workers helping you overcome typical maintainer "
+"frustrations. We'll have a walkthrough of the complete application "
+"creation and deployment process: from creating an App entity in the "
+"GitHub UI, to actual coding and to shipping your code via Heroku."
+msgstr ""
+
+#: templates/speakers.html:710
+msgid ""
+"To participate in the hands-on, bring your laptop with Python 3.7 and "
+"some editor on-board. You'll also need to have a GitHub account."
+msgstr ""
+
+#: templates/speakers.html:712
+msgid "Agenda:"
+msgstr ""
+
+#: templates/speakers.html:715
+msgid ""
+"Express intro into what bots are. How they are related to our coding "
+"activities. Creative use of robots."
+msgstr ""
+
+#: templates/speakers.html:716
+msgid ""
+"Showing-off what GitHub APIs integration of GitHub Apps type gives access"
+" to. Usage flows. Checks API. Auth levels. Rate limits. Lifecycle."
+msgstr ""
+
+#: templates/speakers.html:717
+msgid "GitHub App creation. Deep dive into how it works."
+msgstr ""
+
+#: templates/speakers.html:718
+msgid "Deployment to Heroku 🚀."
+msgstr ""
+
+#: templates/speakers.html:719
+msgid "Debugging: inspection of webhook events via UI."
+msgstr ""
+
+#: templates/speakers.html:720
+msgid "Concluding ideas."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
