@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-19 08:01+0100\n"
+"POT-Creation-Date: 2019-02-19 13:04+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -2961,7 +2961,7 @@ msgstr ""
 msgid "Concluding ideas."
 msgstr ""
 
-#: templates/speakers.html:751
+#: templates/speakers.html:752
 msgid ""
 "Mridul is trying to understand the world around us using data and tools "
 "from network science, currently at UCLouvain. He is an open source "
@@ -2975,11 +2975,11 @@ msgstr ""
 "tutoriálov na PyCone, PyData a EuroScipy, aby tak zdieľal svoju lásku k "
 "Pythonu a sieťovej vedy."
 
-#: templates/speakers.html:759
+#: templates/speakers.html:760
 msgid "Network Science, Game of Thrones and US Airports"
 msgstr ""
 
-#: templates/speakers.html:760
+#: templates/speakers.html:761
 msgid ""
 "This tutorial will introduce the basics of network theory and working "
 "with graphs/networks using python and the NetworkX package. This will be "
@@ -2989,32 +2989,32 @@ msgid ""
 "jupyter notebook. Broadly the tutorial is divided into three parts:"
 msgstr ""
 
-#: templates/speakers.html:768
+#: templates/speakers.html:769
 msgid ""
 "Part A (20 mins) - Basics of graph theory, NetworkX and various examples "
 "of networks in real life."
 msgstr ""
 
-#: templates/speakers.html:769
+#: templates/speakers.html:770
 msgid ""
 "Part B (35 mins) - Study the Game of Thrones network and find important "
 "characters and communities in the network."
 msgstr ""
 
-#: templates/speakers.html:770
+#: templates/speakers.html:771
 msgid ""
 "Part C (35 mins) - Analyze the structure of the US Airport dataset and "
 "look at the temporal evolution of the network from 1990 to 2015."
 msgstr ""
 
-#: templates/speakers.html:771
+#: templates/speakers.html:772
 msgid ""
 "By the end of the tutorial everyone should be comfortable with hacking on"
 " the NetworkX API, modelling data as networks and basic analysis on "
 "networks using python."
 msgstr ""
 
-#: templates/speakers.html:774
+#: templates/speakers.html:775
 msgid ""
 "The tutorial and the datasets is available on GitHub at: "
 "https://github.com/MridulS/pydata-networkx"
@@ -3132,8 +3132,8 @@ msgstr ""
 "V JetBrains, kód je potešenie. Už viac ako 15 rokov robíme maximum pre "
 "to, aby sme vytvorili najlepšie, najefektívnejšie developerské nástroje "
 "na svete. Automatizáciou rutinných kontrol a korekcií naše nástroje "
-"zvyšujú produktivitu a dávajú tak priestor developerom rásť, objavovať "
-"a tvoriť."
+"zvyšujú produktivitu a dávajú tak priestor developerom rásť, objavovať a "
+"tvoriť."
 
 #: templates/sponsoring.html:133
 msgid "Media Partners"
