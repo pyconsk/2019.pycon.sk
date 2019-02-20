@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-20 23:08+0100\n"
+"POT-Creation-Date: 2019-02-20 23:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1485,7 +1485,7 @@ msgid "Python enthusiast and security evangelist"
 msgstr ""
 
 #: templates/index.html:498 templates/speakers.html:647
-msgid "Odoo evangelist"
+msgid "Odoo evangelist in IMPLEMENTO"
 msgstr ""
 
 #: templates/index.html:508 templates/speakers.html:689
