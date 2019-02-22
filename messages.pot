@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-22 22:47+0100\n"
+"POT-Creation-Date: 2019-02-22 23:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1534,6 +1534,26 @@ msgid ""
 "freelancer."
 msgstr ""
 
+#: templates/index.html:651 templates/speakers.html:1268
+msgid "Test Lead"
+msgstr ""
+
+#: templates/index.html:661 templates/speakers.html:1317
+msgid "Applications and database manager"
+msgstr ""
+
+#: templates/index.html:671 templates/speakers.html:1362
+msgid "Software developer and PyCon organizer"
+msgstr ""
+
+#: templates/index.html:684 templates/speakers.html:1402
+msgid "Python developer at booking.com"
+msgstr ""
+
+#: templates/index.html:694 templates/speakers.html:1456
+msgid "Python & DevOps Engineer from Prague"
+msgstr ""
+
 #: templates/job-fair.html:8
 msgid "Job fair"
 msgstr ""
@@ -2885,6 +2905,147 @@ msgid ""
 "ecosystem for blockhain and cryptocurrency development. I will showcase "
 "some of the libraries and tools that exist, like btcpy and highlight some"
 " of the pros and cons (mostly pros) of using python in this sector."
+msgstr ""
+
+#: templates/speakers.html:1277
+msgid ""
+"Rado has started as LabVIEW programmer, later continued with Python and "
+"Robot Framework. He has been working in testing for more than 15 years "
+"and he is currently working in Kistler as Test Lead."
+msgstr ""
+
+#: templates/speakers.html:1283
+msgid "Robot Framework – univerzálny nástroj pre automatizované testovanie"
+msgstr ""
+
+#: templates/speakers.html:1284
+msgid ""
+"Robot Framework je open-source framework naprogramovaný v jazyku Python "
+"určený pre automatizáciu testov a podporu test-driven developmentu. "
+"Kompatibilita s rôznymi operačnými systémami, jednoduchá inštalácia, "
+"zrozumiteľná syntax vhodná aj pre ľudí bez programátorských zručnosti, s "
+"možnosťou importovať vlastné Python knižnice a moduly, a tiež ľahkou "
+"integráciou do CI/CD serverov (napr. Jenkins) sú jeho nesporné výhody. "
+"Vďaka množstvu dostupných knižníc je možné využiť Robot Framework na "
+"testovanie rôznych druhov aplikácii a zariadení s využitím širokej škály "
+"rozhraní, protokolov a dátových typov. Poskytuje taktiež možnosti "
+"paralelného vykonávania testov alebo spúšťanie testov na vzdialených "
+"systémoch. Neoddeliteľnou súčasťou je aj automaticky generovaný report vo"
+" formátoch html a xml, poskytujúci prehľadné informácie o trvaní, "
+"použitých dátach a výsledku vykonávaných testov a aj jednotlivých "
+"krokoch."
+msgstr ""
+
+#: templates/speakers.html:1297
+msgid ""
+"Príspevok predstaví tento nástroj na konkrétnych príkladoch testov vo "
+"formátoch pre keyword-driven, data-driven a behaviour-driven testing, ako"
+" aj prácu so Seleniom a REST API rozhraním."
+msgstr ""
+
+#: templates/speakers.html:1326
+msgid ""
+"I'm the applications- and database manager of the Viennese concert house."
+" Before that, I was part of a development team at the A1 Telekom Austria."
+" As a freelancer, I consult agencies in digital questions and work on "
+"small websites. I also teach usability, human-computer interaction, "
+"prototyping and some other lectures at the SAE Institute in Vienna."
+msgstr ""
+
+#: templates/speakers.html:1334
+msgid "Think about the user"
+msgstr ""
+
+#: templates/speakers.html:1335
+msgid ""
+"As developers, we a mainly focused on making things work. Business logic "
+"and process analysis, reinventing the wheel and questioning every line of"
+" code are what we do best. But when it comes to making this very complex "
+"systems work for users, we are quickly frustrated, because it feels like "
+"they just don't get it. As people of code, we are no longer regular users"
+" because we understand what is going on behind the curtains of the big "
+"show that is called a User Interface. What means, that by default, users "
+"have a totally different experience then we developers do. In this talk, "
+"I want to extend my lightning talk from last year to half an hour, to "
+"give you some tips on how to get a users perspective on the user "
+"interface you want or have to create."
+msgstr ""
+
+#: templates/speakers.html:1371
+msgid ""
+"Running a software agency in Munich and organizing the PyConWeb "
+"conference. Love to share experiences at tech events, meet new people and"
+" learn new things."
+msgstr ""
+
+#: templates/speakers.html:1376
+msgid "Avoiding Macro Trouble of Micro Services"
+msgstr ""
+
+#: templates/speakers.html:1377
+msgid ""
+"Any change in software architecture is a significant time investment. "
+"Writing microservices in Python is a joy, but when you decide on it, "
+"there is often no way back. Therefore it is always an advantage to know "
+"what to expect in advance, not just from inspiring blog posts but also "
+"from the harsh reality."
+msgstr ""
+
+#: templates/speakers.html:1381
+msgid ""
+"Having a bunch of smooth as well as tricky microservice migrations in the"
+" past, I would like to share typical pitfalls of choosing a framework "
+"stack, communication protocol, conventions, and deployment process — all "
+"covered by real projects."
+msgstr ""
+
+#: templates/speakers.html:1411
+msgid ""
+"Suryansh works as a developer at Booking.com in New Product Development "
+"Department. He has been programming in Python since 4 years, and likes to"
+" talk about Software Engineering best practices around it. Been working "
+"in agile teams, making MVPs and scaling them up. The learnings gathered "
+"from these experiences show up in his talks."
+msgstr ""
+
+#: templates/speakers.html:1419
+msgid "MVP, is never just a MVP"
+msgstr ""
+
+#: templates/speakers.html:1420
+msgid ""
+"MVP: Minimum Viable Product. We all follow agile product development "
+"process, iterate fast, fail fast and in the disguise of a MVP we cut "
+"corners to release a product to the market ASAP. In this process, their "
+"are several compromises we make in the tech set up and the codebase to "
+"just get it out there. These compromises more often than not always bites"
+" us back."
+msgstr ""
+
+#: templates/speakers.html:1425
+msgid ""
+"And this is what the talk is about. The assumptions which never hold, the"
+" implementation which is never revisited, and the MVP which never ends up"
+" being just a MVP. By the end of talk, you would know the cautionary tale"
+" of the most common mistakes everyone makes while developing a new "
+"product and some measures on how you can avoid them."
+msgstr ""
+
+#: templates/speakers.html:1447
+msgid "Python & DevOps Engineer form Prague"
+msgstr ""
+
+#: templates/speakers.html:1460
+msgid "Deploy your Python application into Kubernetes"
+msgstr ""
+
+#: templates/speakers.html:1461
+msgid ""
+"Kubernetes is a very popular platform for deployments of applications. "
+"Let's deploy your Python app to Kubernetes and be independent on your "
+"hosting provider. I show you how to create Docker container for your "
+"Python app and how to deploy into Kubernetes locally and on Digital "
+"Ocean."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
