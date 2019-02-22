@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-22 22:58+0100\n"
+"POT-Creation-Date: 2019-02-22 23:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1528,6 +1528,26 @@ msgstr ""
 msgid "Software developer and blockchain expert"
 msgstr ""
 
+#: templates/index.html:637 templates/speakers.html:1228
+msgid "Test Lead"
+msgstr ""
+
+#: templates/index.html:650 templates/speakers.html:1277
+msgid "Applications and database manager"
+msgstr ""
+
+#: templates/index.html:660 templates/speakers.html:1322
+msgid "Software developer and PyCon organizer"
+msgstr ""
+
+#: templates/index.html:670 templates/speakers.html:1362
+msgid "Python developer at booking.com"
+msgstr ""
+
+#: templates/index.html:683 templates/speakers.html:1416
+msgid "Python & DevOps Engineer from Prague"
+msgstr ""
+
 #: templates/job-fair.html:8
 msgid "Job fair"
 msgstr ""
@@ -2860,10 +2880,6 @@ msgid ""
 " of the pros and cons (mostly pros) of using python in this sector."
 msgstr ""
 
-#: templates/speakers.html:1228
-msgid "Test Lead"
-msgstr ""
-
 #: templates/speakers.html:1237
 msgid ""
 "Rado has started as LabVIEW programmer, later continued with Python and "
@@ -2900,10 +2916,6 @@ msgid ""
 " aj prácu so Seleniom a REST API rozhraním."
 msgstr ""
 
-#: templates/speakers.html:1277
-msgid "Applications and database manager"
-msgstr ""
-
 #: templates/speakers.html:1286
 msgid ""
 "I'm the applications- and database manager of the Viennese concert house."
@@ -2932,10 +2944,6 @@ msgid ""
 "interface you want or have to create."
 msgstr ""
 
-#: templates/speakers.html:1322
-msgid "Software developer and PyCon organizer"
-msgstr ""
-
 #: templates/speakers.html:1331
 msgid ""
 "Running a software agency in Munich and organizing the PyConWeb "
@@ -2962,10 +2970,6 @@ msgid ""
 " past, I would like to share typical pitfalls of choosing a framework "
 "stack, communication protocol, conventions, and deployment process — all "
 "covered by real projects."
-msgstr ""
-
-#: templates/speakers.html:1362
-msgid "Python developer at booking.com"
 msgstr ""
 
 #: templates/speakers.html:1371
@@ -3000,7 +3004,7 @@ msgid ""
 "product and some measures on how you can avoid them."
 msgstr ""
 
-#: templates/speakers.html:1407 templates/speakers.html:1416
+#: templates/speakers.html:1407
 msgid "Python & DevOps Engineer form Prague"
 msgstr ""
 

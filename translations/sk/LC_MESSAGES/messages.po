@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-22 22:58+0100\n"
+"POT-Creation-Date: 2019-02-22 23:21+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1805,6 +1805,26 @@ msgstr "Nadšený developer cloudových technológií a strojového učenia"
 msgid "Software developer and blockchain expert"
 msgstr "Softvérový developer a expert na blockchain"
 
+#: templates/index.html:637 templates/speakers.html:1228
+msgid "Test Lead"
+msgstr "Test Lead"
+
+#: templates/index.html:650 templates/speakers.html:1277
+msgid "Applications and database manager"
+msgstr "Aplikačný a databázový manažér"
+
+#: templates/index.html:660 templates/speakers.html:1322
+msgid "Software developer and PyCon organizer"
+msgstr "Software developer a organizátor PyConov"
+
+#: templates/index.html:670 templates/speakers.html:1362
+msgid "Python developer at booking.com"
+msgstr "Python developer v booking.com"
+
+#: templates/index.html:683 templates/speakers.html:1416
+msgid "Python & DevOps Engineer from Prague"
+msgstr "Python & DevOps Engineer"
+
 #: templates/job-fair.html:8
 msgid "Job fair"
 msgstr "Job fair"
@@ -3399,10 +3419,6 @@ msgid ""
 " of the pros and cons (mostly pros) of using python in this sector."
 msgstr ""
 
-#: templates/speakers.html:1228
-msgid "Test Lead"
-msgstr "Test Lead"
-
 #: templates/speakers.html:1237
 msgid ""
 "Rado has started as LabVIEW programmer, later continued with Python and "
@@ -3442,10 +3458,6 @@ msgid ""
 " aj prácu so Seleniom a REST API rozhraním."
 msgstr ""
 
-#: templates/speakers.html:1277
-msgid "Applications and database manager"
-msgstr "Aplikačný a databázový manažér"
-
 #: templates/speakers.html:1286
 msgid ""
 "I'm the applications- and database manager of the Viennese concert house."
@@ -3479,19 +3491,15 @@ msgid ""
 "interface you want or have to create."
 msgstr ""
 
-#: templates/speakers.html:1322
-msgid "Software developer and PyCon organizer"
-msgstr "Software developer a organizátor PyConov"
-
 #: templates/speakers.html:1331
 msgid ""
 "Running a software agency in Munich and organizing the PyConWeb "
 "conference. Love to share experiences at tech events, meet new people and"
 " learn new things."
 msgstr ""
-"Vediem softvérovú agentru v Mníchove a organizujem konferenciu PyConWeb."
-" Rád zdieľam skúsenosti na tech eventoch, stretávam nových ľudí a učím"
-"sa nové veci."
+"Vediem softvérovú agentru v Mníchove a organizujem konferenciu PyConWeb. "
+"Rád zdieľam skúsenosti na tech eventoch, stretávam nových ľudí a učím sa"
+" nové veci."
 
 #: templates/speakers.html:1336
 msgid "Avoiding Macro Trouble of Micro Services"
@@ -3514,10 +3522,6 @@ msgid ""
 "covered by real projects."
 msgstr ""
 
-#: templates/speakers.html:1362
-msgid "Python developer at booking.com"
-msgstr "Python developer v booking.com"
-
 #: templates/speakers.html:1371
 msgid ""
 "Suryansh works as a developer at Booking.com in New Product Development "
@@ -3528,8 +3532,8 @@ msgid ""
 msgstr ""
 "Suryansh pracuje ako developer v Booking.com na oddelení vývoja nových "
 "produktov. V Pythone programuje 4 roky a rád rozpráva o správnych "
-"postupoch pri vývoji softvéru. Pracoval v agilných tímoch, vytváral MVP "
-"a škáloval ich. O skúsenosti zozbierané z tejto práce sa podelí v tejto "
+"postupoch pri vývoji softvéru. Pracoval v agilných tímoch, vytváral MVP a"
+" škáloval ich. O skúsenosti zozbierané z tejto práce sa podelí v tejto "
 "prednáške."
 
 #: templates/speakers.html:1379
@@ -3555,9 +3559,9 @@ msgid ""
 "product and some measures on how you can avoid them."
 msgstr ""
 
-#: templates/speakers.html:1407 templates/speakers.html:1416
+#: templates/speakers.html:1407
 msgid "Python & DevOps Engineer form Prague"
-msgstr "Python & DevOps inžiniet z Prahy"
+msgstr "Python & DevOps inžinier z Prahy"
 
 #: templates/speakers.html:1420
 msgid "Deploy your Python application into Kubernetes"
