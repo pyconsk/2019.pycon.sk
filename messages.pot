@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-23 09:47+0100\n"
+"POT-Creation-Date: 2019-02-23 16:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,7 +152,7 @@ msgstr ""
 msgid "Back to Top"
 msgstr ""
 
-#: templates/cfp.html:18 templates/cfp.html:39 templates/index.html:217
+#: templates/cfp.html:18 templates/cfp.html:39 templates/index.html:232
 msgid "The Call For Proposals is closed!"
 msgstr ""
 
@@ -199,7 +199,7 @@ msgid ""
 "link on which you can return to your proposal and make changes."
 msgstr ""
 
-#: templates/cfp.html:39 templates/index.html:221
+#: templates/cfp.html:39 templates/index.html:236
 msgid ""
 "We have received almost 150 high quality talk and workshop proposals, "
 "thanks everyone for participation."
@@ -302,7 +302,7 @@ msgstr ""
 msgid "Full recording release statement"
 msgstr ""
 
-#: templates/cfp_form.html:24 templates/index.html:298
+#: templates/cfp_form.html:24 templates/index.html:313
 msgid "The Call For Proposals is open!"
 msgstr ""
 
@@ -520,11 +520,11 @@ msgstr ""
 msgid "directly in Google forms."
 msgstr ""
 
-#: templates/cfv.html:24 templates/index.html:268
+#: templates/cfv.html:24 templates/index.html:283
 msgid "We need you to help organize PyCon SK 2019!"
 msgstr ""
 
-#: templates/cfv.html:31 templates/index.html:272
+#: templates/cfv.html:31 templates/index.html:287
 msgid ""
 "All of our staff members are volunteers. We are looking for new members "
 "to join the team of organizers."
@@ -685,12 +685,12 @@ msgid ""
 " participate in numerous workshops given by experienced educators."
 msgstr ""
 
-#: templates/edusummit.html:32 templates/index.html:325
+#: templates/edusummit.html:32 templates/index.html:340
 #: templates/speakers.html:90
 msgid "Profesor Juraj Hromkovič, DrSc."
 msgstr ""
 
-#: templates/edusummit.html:39 templates/index.html:328
+#: templates/edusummit.html:39 templates/index.html:343
 #: templates/speakers.html:97
 msgid "professor at ETH Zürich"
 msgstr ""
@@ -738,7 +738,7 @@ msgid ""
 "budúcich generácii."
 msgstr ""
 
-#: templates/edusummit.html:80 templates/index.html:375
+#: templates/edusummit.html:80 templates/index.html:390
 #: templates/speakers.html:164
 msgid "CS student and Python enthusiast"
 msgstr ""
@@ -1374,199 +1374,216 @@ msgstr ""
 msgid "News"
 msgstr ""
 
+#: templates/index.html:217
+msgid "PyCon SK 2019 under the patronage of the president of the Slovak Republic."
+msgstr ""
+
 #: templates/index.html:221
+msgid ""
+"We are excited that for the fourth time in the row, PyCon SK will be held"
+" under the auspices of the president of the Slovak Republic."
+msgstr ""
+
+#: templates/index.html:222
+msgid ""
+"We are committed to bring you another conference of excellent quality "
+"which will represent the Slovak Republic in dignity before audiences from"
+" all over Europe and the rest of the world."
+msgstr ""
+
+#: templates/index.html:236
 msgid ""
 "We'll review the proposals as soon as possible and publish all of the "
 "speakers."
 msgstr ""
 
-#: templates/index.html:231
+#: templates/index.html:246
 msgid "PyCon SK 2019 speakers and website redesign."
 msgstr ""
 
-#: templates/index.html:235
+#: templates/index.html:250
 msgid "It is our privilege to announce first three speakers at PyCon SK 2019:"
 msgstr ""
 
-#: templates/index.html:235
+#: templates/index.html:250
 msgid ""
 "Helen Li from Google, prof. Juraj Hromkovič from ETH Zürich and Honza "
 "Král from Elastic."
 msgstr ""
 
-#: templates/index.html:236
+#: templates/index.html:251
 msgid ""
 "We have also launched new design of the conference website. How do you "
 "like it? Let us know on our social networks."
 msgstr ""
 
-#: templates/index.html:247
+#: templates/index.html:262
 msgid "PyCon SK 2019 Slack channel & Social media"
 msgstr ""
 
-#: templates/index.html:251
+#: templates/index.html:266
 msgid "Join us at our social media:"
 msgstr ""
 
-#: templates/index.html:283
+#: templates/index.html:298
 msgid "Conference ticket sale is open."
 msgstr ""
 
-#: templates/index.html:287 templates/tickets.html:23
+#: templates/index.html:302 templates/tickets.html:23
 msgid ""
 "Buy your ticket before they are gone... So far every PyCon SK has been "
 "sold out!"
 msgstr ""
 
-#: templates/index.html:302
+#: templates/index.html:317
 msgid ""
 "Submit your talk proposal with short abstract and your bio. All selected "
 "speakers get a complimentary ticket to the conference."
 msgstr ""
 
-#: templates/index.html:316
+#: templates/index.html:331
 msgid "Awesome Speakers"
 msgstr ""
 
-#: templates/index.html:317
+#: templates/index.html:332
 msgid "Listen, Learn, Get inspired."
 msgstr ""
 
-#: templates/index.html:339 templates/speakers.html:65
+#: templates/index.html:354 templates/speakers.html:65
 msgid "senior software engineer with Google AI Genomics"
 msgstr ""
 
-#: templates/index.html:350 templates/speakers.html:31
+#: templates/index.html:365 templates/speakers.html:31
 msgid "Python engineer at Elastic"
 msgstr ""
 
-#: templates/index.html:364 templates/speakers.html:132
+#: templates/index.html:379 templates/speakers.html:132
 msgid "Back-end and infrastructure engineer at Crate.io, Django core contributor"
 msgstr ""
 
-#: templates/index.html:385 templates/speakers.html:197
+#: templates/index.html:400 templates/speakers.html:197
 msgid "Python engineer at Iceye"
 msgstr ""
 
-#: templates/index.html:398 templates/speakers.html:271
+#: templates/index.html:413 templates/speakers.html:271
 msgid "Creator of Anvil"
 msgstr ""
 
-#: templates/index.html:409 templates/speakers.html:312
+#: templates/index.html:424 templates/speakers.html:312
 msgid "Python developer at Anvil"
 msgstr ""
 
-#: templates/index.html:419
+#: templates/index.html:434
 msgid "Security Engineer"
 msgstr ""
 
-#: templates/index.html:432 templates/speakers.html:398
+#: templates/index.html:447 templates/speakers.html:398
 msgid "Independent contractor and tester of edu app"
 msgstr ""
 
-#: templates/index.html:442
+#: templates/index.html:457
 msgid "Tech Lead at Kiwi.com"
 msgstr ""
 
-#: templates/index.html:452 templates/speakers.html:488
+#: templates/index.html:467 templates/speakers.html:488
 msgid "Cloud technology enthusiast"
 msgstr ""
 
-#: templates/index.html:465
+#: templates/index.html:480
 msgid "Senior Software Architect"
 msgstr ""
 
-#: templates/index.html:475
+#: templates/index.html:490
 msgid "Software Engineer"
 msgstr ""
 
-#: templates/index.html:485 templates/speakers.html:636
+#: templates/index.html:500 templates/speakers.html:636
 msgid "Python enthusiast and security evangelist"
 msgstr ""
 
-#: templates/index.html:498 templates/speakers.html:687
+#: templates/index.html:513 templates/speakers.html:687
 msgid "Odoo evangelist in IMPLEMENTO"
 msgstr ""
 
-#: templates/index.html:508 templates/speakers.html:729
+#: templates/index.html:523 templates/speakers.html:729
 msgid "Chief Innovation Officer"
 msgstr ""
 
-#: templates/index.html:518 templates/speakers.html:770
+#: templates/index.html:533 templates/speakers.html:770
 msgid "Data Scientist"
 msgstr ""
 
-#: templates/index.html:531
+#: templates/index.html:546
 msgid "Software Engineer and FOSS maintainer"
 msgstr ""
 
-#: templates/index.html:541 templates/speakers.html:870
+#: templates/index.html:556 templates/speakers.html:870
 msgid "Python loving research assistant"
 msgstr ""
 
-#: templates/index.html:571 templates/speakers.html:966
+#: templates/index.html:586 templates/speakers.html:966
 msgid "Web developer, DevOps, manager"
 msgstr ""
 
-#: templates/index.html:584 templates/speakers.html:1018
+#: templates/index.html:599 templates/speakers.html:1018
 msgid "Machine learning engineer"
 msgstr ""
 
-#: templates/index.html:594 templates/speakers.html:1086
+#: templates/index.html:609 templates/speakers.html:1086
 msgid "UX designer and marketing specialist"
 msgstr ""
 
-#: templates/index.html:604 templates/speakers.html:1130
+#: templates/index.html:619 templates/speakers.html:1130
 msgid "Senior Python Developer and Tester"
 msgstr ""
 
-#: templates/index.html:617 templates/speakers.html:1168
+#: templates/index.html:632 templates/speakers.html:1168
 msgid "Passionate cloud technology and ML developer"
 msgstr ""
 
-#: templates/index.html:627 templates/speakers.html:1215
+#: templates/index.html:642 templates/speakers.html:1215
 msgid "Software developer and blockchain expert"
 msgstr ""
 
-#: templates/index.html:637 templates/speakers.html:231
+#: templates/index.html:652 templates/speakers.html:231
 msgid ""
 "Contributor of CPython, #fellow member of the PSF, EuroPython, AFPy and "
 "freelancer."
 msgstr ""
 
-#: templates/index.html:651 templates/speakers.html:1268
+#: templates/index.html:666 templates/speakers.html:1268
 msgid "Test Lead"
 msgstr ""
 
-#: templates/index.html:661 templates/speakers.html:1317
+#: templates/index.html:676 templates/speakers.html:1317
 msgid "Applications and database manager"
 msgstr ""
 
-#: templates/index.html:671 templates/speakers.html:1362
+#: templates/index.html:686 templates/speakers.html:1362
 msgid "Software developer and PyCon organizer"
 msgstr ""
 
-#: templates/index.html:684 templates/speakers.html:1402
+#: templates/index.html:699 templates/speakers.html:1402
 msgid "Python developer at booking.com"
 msgstr ""
 
-#: templates/index.html:694 templates/speakers.html:1456
+#: templates/index.html:709 templates/speakers.html:1456
 msgid "Python & DevOps Engineer from Prague"
 msgstr ""
 
-#: templates/index.html:704 templates/speakers.html:1482
+#: templates/index.html:719 templates/speakers.html:1482
 msgid "Python Engineer at Kiwi"
 msgstr ""
 
-#: templates/index.html:717
+#: templates/index.html:732
 msgid "Mozilla Tech Speaker"
 msgstr ""
 
-#: templates/index.html:727 templates/speakers.html:1581
+#: templates/index.html:742 templates/speakers.html:1581
 msgid "Python backend developer"
 msgstr ""
 
-#: templates/index.html:737 templates/speakers.html:1623
+#: templates/index.html:752 templates/speakers.html:1623
 msgid "SysAdmin Team Lead at Exponea"
 msgstr ""
 
@@ -3168,9 +3185,9 @@ msgstr ""
 
 #: templates/speakers.html:1632
 msgid ""
-"Working at Exponea for two years already taught me two main things. "
-"Large scale systems deployed across several locations are awesome. "
-"Automation of such systems is even more awesome. "
+"Working at Exponea for two years already taught me two main things. Large"
+" scale systems deployed across several locations are awesome. Automation "
+"of such systems is even more awesome. "
 msgstr ""
 
 #: templates/speakers.html:1638
