@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-22 23:33+0100\n"
+"POT-Creation-Date: 2019-02-23 09:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1554,6 +1554,22 @@ msgstr ""
 msgid "Python & DevOps Engineer from Prague"
 msgstr ""
 
+#: templates/index.html:704 templates/speakers.html:1482
+msgid "Python Engineer at Kiwi"
+msgstr ""
+
+#: templates/index.html:717
+msgid "Mozilla Tech Speaker"
+msgstr ""
+
+#: templates/index.html:727 templates/speakers.html:1581
+msgid "Python backend developer"
+msgstr ""
+
+#: templates/index.html:737 templates/speakers.html:1623
+msgid "SysAdmin Team Lead at Exponea"
+msgstr ""
+
 #: templates/job-fair.html:8
 msgid "Job fair"
 msgstr ""
@@ -3046,6 +3062,129 @@ msgid ""
 "hosting provider. I show you how to create Docker container for your "
 "Python app and how to deploy into Kubernetes locally and on Digital "
 "Ocean."
+msgstr ""
+
+#: templates/speakers.html:1491
+msgid ""
+"Python engineer at Kiwi.com focusing on finance apps. I am a developer "
+"who likes to break stuff and then put it back together which then works "
+"even better. I am always keen to share my knowledge and learn from "
+"others."
+msgstr ""
+
+#: templates/speakers.html:1497
+msgid "The dos and don'ts of task queues"
+msgstr ""
+
+#: templates/speakers.html:1498
+msgid ""
+"Let's talk about our experience with Celery and intentions to switch to "
+"RQ which failed. We'll show our setup of larger and more complex apps "
+"than the ones presented in doc examples together with some useful tips "
+"and tricks and how-tos on orchestrating such apps for thousands of tasks "
+"a day."
+msgstr ""
+
+#: templates/speakers.html:1502
+msgid ""
+"At Kiwi.com we heavily rely on task queues and asynchronous execution of "
+"code to process large amounts of requests coming to our back-ends. With "
+"the separation of our codebase to microservices, we can quickly try new "
+"tools and different approaches to process these large volumes of "
+"requests. The microservice we'll be talking about is making unreliable "
+"slow 3rd party services reliable and asynchronous with a bit of business "
+"logic sprinkled on top of it. We’ll tell a failure story of ours but "
+"resulting in a valuable lesson."
+msgstr ""
+
+#: templates/speakers.html:1510
+msgid ""
+"Most of our services use Celery and it's the go-to tool for new services "
+"as well but we wanted to be different with this new microservice. RQ is "
+"the next best choice for task queues and it is presented as simpler and "
+"more straightforward than Celery. That can definitely be true but after 3"
+" weeks of research, development and struggling we found out the "
+"unpleasant truth about being simple and making the right choices. We "
+"won't talk about comparing the frameworks but rather about the approach "
+"on how to experiment with new things in your environment. After that, "
+"we'll present our current setup which can take upon any number of tasks. "
+"How we orchestrate the app and continuously integrate and deploy and what"
+" fun things await ahead of us in the development."
+msgstr ""
+
+#: templates/speakers.html:1538
+msgid "Mozilla Tech Speaker, Developer by day, Hacker by night"
+msgstr ""
+
+#: templates/speakers.html:1547
+msgid ""
+"Kalyan Dikshit is a Mozilla Tech Speaker, Representative, and part of its"
+" Hyderabad Community, India. He spoke at the Internet Freedom Festival "
+"2017, 2018, Still Hacking Anyway (SHA), All Systems Go! 2017, Shift DEV "
+"2018. He recently gave a talk at “Full Stack Fest 2018” happened in "
+"Barcelona. As a volunteer he localizes software for Mozilla, Tor, Orfox, "
+"Orbot, GlobaLeaks, Briar and OONIProbe. He currently also devotes his "
+"time with ICRISAT where he works, with drones to develop and trial "
+"techniques, to connect farmers. Founder of the “JAVA 1.X Hyderabad "
+"Chapter” & Co-founder of “Duck Duck Go Hyderabad Chapter”. «Developer by "
+"Day, Hacker by Night»"
+msgstr ""
+
+#: templates/speakers.html:1559
+msgid "Smart Homes + Tor = SSH [Secure Smart Home]"
+msgstr ""
+
+#: templates/speakers.html:1560
+msgid ""
+"“Internet of Things,” “Smart Devices,” “Smart Homes.” people are "
+"fascinated with them and their usage. But the most important things they "
+"tend to forget are “Security & Privacy”. Using Tor to divert prying eyes "
+"away from our connected homes."
+msgstr ""
+
+#: templates/speakers.html:1590
+msgid ""
+"Developer with 10 years of experience with backend systems. Created them "
+"from scratch by starting with analysis and writing specification up to "
+"deployment on production. Big fan and evangelist of continuous learning, "
+"organizer of coding dojo sessions."
+msgstr ""
+
+#: templates/speakers.html:1597
+msgid "Long term IT projects"
+msgstr ""
+
+#: templates/speakers.html:1598
+msgid ""
+"Not everybody has a chance to work on new project from scratch. Everybody"
+" has some ideas what to do for such a project so it'll be a good one "
+"instead of legacy in a near future. During this talk I want to share my "
+"experience and show what works for me. I'll start from project analysis "
+"and end on deployment and beyond. I want to discuss some common mistakes "
+"and misconceptions and hopefully give you some ideas you could use for "
+"your own project regardless of its size. With a bit of work some/all "
+"could be applied to legacy projects as well."
+msgstr ""
+
+#: templates/speakers.html:1632
+msgid ""
+"Working at Exponea for two years already taught me two main things. "
+"Large scale systems deployed across several locations are awesome. "
+"Automation of such systems is even more awesome. "
+msgstr ""
+
+#: templates/speakers.html:1638
+msgid "We run huge in-memory databases in GKE and we love it!"
+msgstr ""
+
+#: templates/speakers.html:1639
+msgid ""
+"We invite You on the talk about our largest scale change in history of "
+"Exponea. We'll show you how we managed to run multi-terrabyte sharded in-"
+"memory DBs in the environment of ephemeral containers, hundreds of python"
+" and go workers in multiple kubernetes namespaces and several hundred VMs"
+" in google cloud. You don't want to miss our way of automating this "
+"system too."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
