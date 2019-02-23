@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-23 16:38+0100\n"
+"POT-Creation-Date: 2019-02-23 22:27+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1841,19 +1841,19 @@ msgstr "Test Lead"
 msgid "Applications and database manager"
 msgstr "Aplikačný a databázový manažér"
 
-#: templates/index.html:686 templates/speakers.html:1362
+#: templates/index.html:686 templates/speakers.html:1363
 msgid "Software developer and PyCon organizer"
 msgstr "Software developer a organizátor PyConov"
 
-#: templates/index.html:699 templates/speakers.html:1402
+#: templates/index.html:699 templates/speakers.html:1403
 msgid "Python developer at booking.com"
 msgstr "Python developer v booking.com"
 
-#: templates/index.html:709 templates/speakers.html:1456
+#: templates/index.html:709 templates/speakers.html:1457
 msgid "Python & DevOps Engineer from Prague"
 msgstr "Python & DevOps Engineer"
 
-#: templates/index.html:719 templates/speakers.html:1482
+#: templates/index.html:719 templates/speakers.html:1483
 msgid "Python Engineer at Kiwi"
 msgstr "Python vývojár v Kiwi"
 
@@ -1861,11 +1861,11 @@ msgstr "Python vývojár v Kiwi"
 msgid "Mozilla Tech Speaker"
 msgstr "Technický spíker v Mozille"
 
-#: templates/index.html:742 templates/speakers.html:1581
+#: templates/index.html:742 templates/speakers.html:1582
 msgid "Python backend developer"
 msgstr "Python backend developer"
 
-#: templates/index.html:752 templates/speakers.html:1623
+#: templates/index.html:752 templates/speakers.html:1624
 msgid "SysAdmin Team Lead at Exponea"
 msgstr "SysAdmin Team Lead v Exponea"
 
@@ -3547,20 +3547,20 @@ msgstr ""
 
 #: templates/speakers.html:1335
 msgid ""
-"As developers, we a mainly focused on making things work. Business logic "
-"and process analysis, reinventing the wheel and questioning every line of"
-" code are what we do best. But when it comes to making this very complex "
-"systems work for users, we are quickly frustrated, because it feels like "
-"they just don't get it. As people of code, we are no longer regular users"
-" because we understand what is going on behind the curtains of the big "
-"show that is called a User Interface. What means, that by default, users "
-"have a totally different experience then we developers do. In this talk, "
-"I want to extend my lightning talk from last year to half an hour, to "
-"give you some tips on how to get a users perspective on the user "
-"interface you want or have to create."
+"As developers, we are mainly focused on making things work. Business "
+"logic and process analysis, reinventing the wheel and questioning every "
+"line of code are what we do best. But when it comes to making this very "
+"complex systems work for users, we are quickly frustrated, because it "
+"feels like they just don't get it. As people of code, we are no longer "
+"regular users because we understand what is going on behind the curtains "
+"of the big show that is called a User Interface. What means, that by "
+"default, users have a totally different experience then we developers do."
+" In this talk, I want to extend my lightning talk from last year to half "
+"an hour, to give you some tips on how to get a users perspective on the "
+"user interface you want or have to create."
 msgstr ""
 
-#: templates/speakers.html:1371
+#: templates/speakers.html:1372
 msgid ""
 "Running a software agency in Munich and organizing the PyConWeb "
 "conference. Love to share experiences at tech events, meet new people and"
@@ -3570,11 +3570,11 @@ msgstr ""
 "Rád zdieľam skúsenosti na tech eventoch, stretávam nových ľudí a učím sa "
 "nové veci."
 
-#: templates/speakers.html:1376
+#: templates/speakers.html:1377
 msgid "Avoiding Macro Trouble of Micro Services"
 msgstr ""
 
-#: templates/speakers.html:1377
+#: templates/speakers.html:1378
 msgid ""
 "Any change in software architecture is a significant time investment. "
 "Writing microservices in Python is a joy, but when you decide on it, "
@@ -3583,7 +3583,7 @@ msgid ""
 "from the harsh reality."
 msgstr ""
 
-#: templates/speakers.html:1381
+#: templates/speakers.html:1382
 msgid ""
 "Having a bunch of smooth as well as tricky microservice migrations in the"
 " past, I would like to share typical pitfalls of choosing a framework "
@@ -3591,7 +3591,7 @@ msgid ""
 "covered by real projects."
 msgstr ""
 
-#: templates/speakers.html:1411
+#: templates/speakers.html:1412
 msgid ""
 "Suryansh works as a developer at Booking.com in New Product Development "
 "Department. He has been programming in Python since 4 years, and likes to"
@@ -3605,11 +3605,11 @@ msgstr ""
 " škáloval ich. O skúsenosti zozbierané z tejto práce sa podelí v tejto "
 "prednáške."
 
-#: templates/speakers.html:1419
+#: templates/speakers.html:1420
 msgid "MVP, is never just a MVP"
 msgstr ""
 
-#: templates/speakers.html:1420
+#: templates/speakers.html:1421
 msgid ""
 "MVP: Minimum Viable Product. We all follow agile product development "
 "process, iterate fast, fail fast and in the disguise of a MVP we cut "
@@ -3619,7 +3619,7 @@ msgid ""
 " us back."
 msgstr ""
 
-#: templates/speakers.html:1425
+#: templates/speakers.html:1426
 msgid ""
 "And this is what the talk is about. The assumptions which never hold, the"
 " implementation which is never revisited, and the MVP which never ends up"
@@ -3628,15 +3628,15 @@ msgid ""
 "product and some measures on how you can avoid them."
 msgstr ""
 
-#: templates/speakers.html:1447
+#: templates/speakers.html:1448
 msgid "Python & DevOps Engineer form Prague"
 msgstr "Python & DevOps inžinier z Prahy"
 
-#: templates/speakers.html:1460
+#: templates/speakers.html:1461
 msgid "Deploy your Python application into Kubernetes"
 msgstr ""
 
-#: templates/speakers.html:1461
+#: templates/speakers.html:1462
 msgid ""
 "Kubernetes is a very popular platform for deployments of applications. "
 "Let's deploy your Python app to Kubernetes and be independent on your "
@@ -3645,7 +3645,7 @@ msgid ""
 "Ocean."
 msgstr ""
 
-#: templates/speakers.html:1491
+#: templates/speakers.html:1492
 msgid ""
 "Python engineer at Kiwi.com focusing on finance apps. I am a developer "
 "who likes to break stuff and then put it back together which then works "
@@ -3656,11 +3656,11 @@ msgstr ""
 "ktorý rád rozbíja veci a potom ich dáva dohromady, aby fungovali ešte "
 "lepšie. Vždy sa rád podelím o svoje znalosti a poučím sa od ostatných."
 
-#: templates/speakers.html:1497
+#: templates/speakers.html:1498
 msgid "The dos and don'ts of task queues"
 msgstr ""
 
-#: templates/speakers.html:1498
+#: templates/speakers.html:1499
 msgid ""
 "Let's talk about our experience with Celery and intentions to switch to "
 "RQ which failed. We'll show our setup of larger and more complex apps "
@@ -3669,7 +3669,7 @@ msgid ""
 "a day."
 msgstr ""
 
-#: templates/speakers.html:1502
+#: templates/speakers.html:1503
 msgid ""
 "At Kiwi.com we heavily rely on task queues and asynchronous execution of "
 "code to process large amounts of requests coming to our back-ends. With "
@@ -3681,7 +3681,7 @@ msgid ""
 "resulting in a valuable lesson."
 msgstr ""
 
-#: templates/speakers.html:1510
+#: templates/speakers.html:1511
 msgid ""
 "Most of our services use Celery and it's the go-to tool for new services "
 "as well but we wanted to be different with this new microservice. RQ is "
@@ -3696,11 +3696,11 @@ msgid ""
 " fun things await ahead of us in the development."
 msgstr ""
 
-#: templates/speakers.html:1538
+#: templates/speakers.html:1539
 msgid "Mozilla Tech Speaker, Developer by day, Hacker by night"
 msgstr "Technický spíker z Mozilly, cez deň developer, v noci hacker"
 
-#: templates/speakers.html:1547
+#: templates/speakers.html:1548
 msgid ""
 "Kalyan Dikshit is a Mozilla Tech Speaker, Representative, and part of its"
 " Hyderabad Community, India. He spoke at the Internet Freedom Festival "
@@ -3723,11 +3723,11 @@ msgstr ""
 "\"JAVA 1.X Hyderabad Chapter\" a spoluzakladateľ \"Duck Duck Go Hyderabad"
 " Chapter\". «Cez deň developer, v noci hacker»"
 
-#: templates/speakers.html:1559
+#: templates/speakers.html:1560
 msgid "Smart Homes + Tor = SSH [Secure Smart Home]"
 msgstr ""
 
-#: templates/speakers.html:1560
+#: templates/speakers.html:1561
 msgid ""
 "“Internet of Things,” “Smart Devices,” “Smart Homes.” people are "
 "fascinated with them and their usage. But the most important things they "
@@ -3735,7 +3735,7 @@ msgid ""
 "away from our connected homes."
 msgstr ""
 
-#: templates/speakers.html:1590
+#: templates/speakers.html:1591
 msgid ""
 "Developer with 10 years of experience with backend systems. Created them "
 "from scratch by starting with analysis and writing specification up to "
@@ -3747,11 +3747,11 @@ msgstr ""
 "produkcie. Veľký fanúšik a evanjelista neustáleho učenia, organizátor "
 "Coding dojo stretnutí."
 
-#: templates/speakers.html:1597
+#: templates/speakers.html:1598
 msgid "Long term IT projects"
 msgstr ""
 
-#: templates/speakers.html:1598
+#: templates/speakers.html:1599
 msgid ""
 "Not everybody has a chance to work on new project from scratch. Everybody"
 " has some ideas what to do for such a project so it'll be a good one "
@@ -3763,7 +3763,7 @@ msgid ""
 "could be applied to legacy projects as well."
 msgstr ""
 
-#: templates/speakers.html:1632
+#: templates/speakers.html:1633
 msgid ""
 "Working at Exponea for two years already taught me two main things. Large"
 " scale systems deployed across several locations are awesome. Automation "
@@ -3773,11 +3773,11 @@ msgstr ""
 "nasadené naprieč niekoľkými lokalitami sú skvelé. Automatizácia takýchto "
 "systémov je ešte viac skvelá. "
 
-#: templates/speakers.html:1638
+#: templates/speakers.html:1639
 msgid "We run huge in-memory databases in GKE and we love it!"
 msgstr ""
 
-#: templates/speakers.html:1639
+#: templates/speakers.html:1640
 msgid ""
 "We invite You on the talk about our largest scale change in history of "
 "Exponea. We'll show you how we managed to run multi-terrabyte sharded in-"
