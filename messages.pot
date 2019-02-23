@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-23 09:19+0100\n"
+"POT-Creation-Date: 2019-02-23 09:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1566,7 +1566,7 @@ msgstr ""
 msgid "Python backend developer"
 msgstr ""
 
-#: templates/index.html:737
+#: templates/index.html:737 templates/speakers.html:1623
 msgid "SysAdmin Team Lead at Exponea"
 msgstr ""
 
@@ -3164,6 +3164,27 @@ msgid ""
 "and misconceptions and hopefully give you some ideas you could use for "
 "your own project regardless of its size. With a bit of work some/all "
 "could be applied to legacy projects as well."
+msgstr ""
+
+#: templates/speakers.html:1632
+msgid ""
+"Working at Exponea for two years already taught me two main things. "
+"Large scale systems deployed across several locations are awesome. "
+"Automation of such systems is even more awesome. "
+msgstr ""
+
+#: templates/speakers.html:1638
+msgid "We run huge in-memory databases in GKE and we love it!"
+msgstr ""
+
+#: templates/speakers.html:1639
+msgid ""
+"We invite You on the talk about our largest scale change in history of "
+"Exponea. We'll show you how we managed to run multi-terrabyte sharded in-"
+"memory DBs in the environment of ephemeral containers, hundreds of python"
+" and go workers in multiple kubernetes namespaces and several hundred VMs"
+" in google cloud. You don't want to miss our way of automating this "
+"system too."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18

@@ -1609,6 +1609,45 @@
                 </div><!-- Speaker list 31 end -->
             </div><!-- Speaker row 31 -->
 
+            <div class="row">
+                <div class="ts-speaker-list clearfix">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="{{ url_for('static', filename='images/speakers/benko.jpg') }}" />
+                        </div><!--Image end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-xs-12 col-md-8">
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name dark">František Benko</h3>
+                            <p class="ts-speaker-designation">{{ _('SysAdmin Team Lead at Exponea') }}</p>
+                            <ul class="ts-speaker-social-links">
+{#                                <li><a href="https://ondrej-sika.com/"><i class="fa fa-globe"></i></a></li>#}
+{#                                <li><a href="https://github.com/pawel-lewtak"><i class="fa fa-github"></i></a></li>#}
+{#                                <li><a href="https://twitter.com/pawel_lewtak"><i class="fa fa-twitter"></i></a></li>#}
+                                <li><a href="https://www.linkedin.com/in/frantisek-benko/"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                            <div class="ts-speaker-bio">
+                                <p>
+                                    {{ _('Working at Exponea for two years already taught me two main things. Large '
+                                         'scale systems deployed across several locations are awesome. Automation of '
+                                         'such systems is even more awesome. ') }}
+                                </p>
+                            </div>
+                            <div class="ts-speaker-session">
+                                <h4 class="session-title">{{ _('We run huge in-memory databases in GKE and we love it!') }}</h4>
+                                <p> {{ _('We invite You on the talk about our largest scale change in history of '
+                                         'Exponea. We\'ll show you how we managed to run multi-terrabyte sharded '
+                                         'in-memory DBs in the environment of ephemeral containers, hundreds of '
+                                         'python and go workers in multiple kubernetes namespaces and several hundred '
+                                         'VMs in google cloud. You don\'t want to miss our way of automating this '
+                                         'system too.') }} </p>
+                            </div>
+                        </div><!-- Info end -->
+                    </div><!-- Col end -->
+                </div><!-- Speaker list 32 end -->
+            </div><!-- Speaker row 32 -->
+
         </div>
     </section>
 {% endblock %}
