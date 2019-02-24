@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-23 09:47+0100\n"
+"POT-Creation-Date: 2019-02-24 11:36+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1781,71 +1781,104 @@ msgstr "Softvérový inžinier a prispievateľ do Open Source softvéru"
 msgid "Python loving research assistant"
 msgstr "Asistent výskumu"
 
-#: templates/index.html:571 templates/speakers.html:966
+#: templates/index.html:561 templates/speakers.html:966
 msgid "Web developer, DevOps, manager"
 msgstr "Web developer, DevOps, manažér"
 
-#: templates/index.html:584 templates/speakers.html:1018
+#: templates/index.html:574 templates/speakers.html:1018
 msgid "Machine learning engineer"
 msgstr "Inžinier strojového učenia"
 
-#: templates/index.html:594 templates/speakers.html:1086
+#: templates/index.html:584 templates/speakers.html:1086
 msgid "UX designer and marketing specialist"
 msgstr "UX dizajnérka a marketingová špecialistka"
 
-#: templates/index.html:604 templates/speakers.html:1130
+#: templates/index.html:594 templates/speakers.html:1130
 msgid "Senior Python Developer and Tester"
 msgstr "Senior Python developer a tester"
 
-#: templates/index.html:617 templates/speakers.html:1168
+#: templates/index.html:607 templates/speakers.html:1168
 msgid "Passionate cloud technology and ML developer"
 msgstr "Nadšený developer cloudových technológií a strojového učenia"
 
-#: templates/index.html:627 templates/speakers.html:1215
+#: templates/index.html:617 templates/speakers.html:1215
 msgid "Software developer and blockchain expert"
 msgstr "Softvérový developer a expert na blockchain"
 
-#: templates/index.html:637 templates/speakers.html:231
+#: templates/index.html:627 templates/speakers.html:231
 msgid ""
 "Contributor of CPython, #fellow member of the PSF, EuroPython, AFPy and "
 "freelancer."
 msgstr "Prispievateľ do CPython, člen PSF, EuroPython, AFPy a freelancer."
 
-#: templates/index.html:651 templates/speakers.html:1268
+#: templates/index.html:641 templates/speakers.html:1268
 msgid "Test Lead"
 msgstr "Test Lead"
 
-#: templates/index.html:661 templates/speakers.html:1317
+#: templates/index.html:651 templates/speakers.html:1317
 msgid "Applications and database manager"
 msgstr "Aplikačný a databázový manažér"
 
-#: templates/index.html:671 templates/speakers.html:1362
+#: templates/index.html:661 templates/speakers.html:1362
 msgid "Software developer and PyCon organizer"
 msgstr "Software developer a organizátor PyConov"
 
-#: templates/index.html:684 templates/speakers.html:1402
+#: templates/index.html:674 templates/speakers.html:1402
 msgid "Python developer at booking.com"
 msgstr "Python developer v booking.com"
 
-#: templates/index.html:694 templates/speakers.html:1456
+#: templates/index.html:684 templates/speakers.html:1456
 msgid "Python & DevOps Engineer from Prague"
 msgstr "Python & DevOps Engineer"
 
-#: templates/index.html:704 templates/speakers.html:1482
+#: templates/index.html:694 templates/speakers.html:1482
 msgid "Python Engineer at Kiwi"
 msgstr "Python vývojár v Kiwi"
 
-#: templates/index.html:717
+#: templates/index.html:707
 msgid "Mozilla Tech Speaker"
 msgstr "Technický spíker v Mozille"
 
-#: templates/index.html:727 templates/speakers.html:1581
+#: templates/index.html:717 templates/speakers.html:1581
 msgid "Python backend developer"
 msgstr "Python backend developer"
 
-#: templates/index.html:737 templates/speakers.html:1623
+#: templates/index.html:727 templates/speakers.html:1623
 msgid "SysAdmin Team Lead at Exponea"
 msgstr "SysAdmin Team Lead v Exponea"
+
+#: templates/index.html:740 templates/index.html:750
+#: templates/speakers.html:1662 templates/speakers.html:1706
+msgid "High school student"
+msgstr "Študentka gymnázia"
+
+#: templates/index.html:760
+msgid "High school Informatics teacher"
+msgstr "Stredoškolský učiteľ informatiky"
+
+#: templates/index.html:773
+msgid "High school Informatics teacher"
+msgstr "Stredoškolská učiteľka informatiky"
+
+#: templates/index.html:783 templates/speakers.html:1845
+msgid "Machine learning specialist and big data engineer"
+msgstr "Špecialista na strojové učenie a big data inžinier"
+
+#: templates/index.html:793 templates/speakers.html:1884
+msgid "Machine learning specialist and software developer"
+msgstr "Špecialistka na strojové učenie a vývojárka softvéru"
+
+#: templates/index.html:806
+msgid "Data Pipeline Team Lead at Exponea"
+msgstr "Data Pipeline Team Lead v Exponea"
+
+#: templates/index.html:816
+msgid "Co-founder and chairman of civic organization Slovensko.digital"
+msgstr "Spoluzakladateľ a výkonný riaditeľ OZ Slovensko.Digital"
+
+#: templates/index.html:826
+msgid "Software engineer, member of Slovensko.Digital"
+msgstr "Softvérový inžinier, člen združenia Slovensko.Digital"
 
 #: templates/job-fair.html:8
 msgid "Job fair"
@@ -3743,13 +3776,13 @@ msgstr ""
 
 #: templates/speakers.html:1632
 msgid ""
-"Working at Exponea for two years already taught me two main things. "
-"Large scale systems deployed across several locations are awesome. "
-"Automation of such systems is even more awesome. "
+"Working at Exponea for two years already taught me two main things. Large"
+" scale systems deployed across several locations are awesome. Automation "
+"of such systems is even more awesome. "
 msgstr ""
 "Dva roky práce v Exponea ma naučili dve základné veci. Veľké systémy "
-"nasadené naprieč niekoľkými lokalitami sú skvelé. Automatizácia takýchto"
-" systémov je ešte viac skvelá. "
+"nasadené naprieč niekoľkými lokalitami sú skvelé. Automatizácia takýchto "
+"systémov je ešte viac skvelá. "
 
 #: templates/speakers.html:1638
 msgid "We run huge in-memory databases in GKE and we love it!"
@@ -3764,6 +3797,270 @@ msgid ""
 " in google cloud. You don't want to miss our way of automating this "
 "system too."
 msgstr ""
+
+#: templates/speakers.html:1671
+msgid ""
+"5th grade student at Gymnázium Golianova in Nitre, Microsoft ambassador. "
+"Attended the first Microsoft AI Bootcampu and reported on Microsoft "
+"conferences Educate for future. She is active in activities focused on "
+"informatics popularization such as summer informatics camp. Currently she"
+" volunteers at child computer club in Nitra where BBC micro:bits are "
+"used. She is continuously improving her programming talent in DofE "
+"program."
+msgstr ""
+"Študentka piateho ročníka na Gymnáziu, Golianova 68 v Nitre, ambasádorka "
+"Microsoft. Účastníčka prvého Microsoft AI Bootcampu o čom prezentovala na "
+"Microsoft konferenciách Vzdelávame pre budúcnosť v Poprade, Košiciach a "
+"Leviciach. Aktívne sa zapája do mimoškolských aktivít zaoberajúcich sa "
+"popularizáciou informatiky ako vedecký deň detí, či letný informatický "
+"tábor. Momentálne pomáha s realizáciou detského počítačového krúžku na KI "
+"FPV v Nitre, kde mimo iného využíva aj BBC micro:bitov. Svoj talent v "
+"programovaní rozvíja aj v rámci programu DofE."
+
+#: templates/speakers.html:1680 templates/speakers.html:1723
+msgid "Programovať môže každý. Fakt alebo mýtus?"
+msgstr ""
+
+#: templates/speakers.html:1681 templates/speakers.html:1724
+msgid ""
+"Čo keby ste mali riešenie na oživenie vyučovania programovania? Riešenie,"
+" ktoré svieti, reaguje na podnety, alebo dokonca posiela správy? A môže "
+"programovať skutočne každý? Na workshope sa pokúsime nájsť odpoveď na "
+"tieto otázky. Vyskúšame si zábavné programovanie, či už s využitím "
+"grafického blokovo orientovaného programovacieho jazyka alebo textového "
+"jazyka MicroPython. Máme pre vás pripravenú ochutnávku práce s "
+"programovateľným mikropočítačom BBC micro:bit, s prezentáciou praktických"
+" tipov na rôzne aktivity pre študentov. Vzbuďme v študentoch chuť "
+"programovať!"
+msgstr ""
+
+#: templates/speakers.html:1715
+msgid ""
+"Student of the final grade at Gymnazium Golianova in Nitra. Her "
+"activities range from DofE program to programming tutoring in senior "
+"home. During the summer she attended a Microsoft project for girls - the "
+"first AI Bootcamp where she experienced programming with micro:bits. In "
+"the future she wants to be a software engineer."
+msgstr ""
+"Študentka maturitného ročníka Gymnázia Golianova v Nitre. Medzi jej "
+"aktivity patria napríklad program DofE alebo doučovanie práce s počítačom "
+"v domove pre seniorov. Počas leta sa zúčastnila projektu pre dievčatá od "
+"Microsoftu - prvého AI Bootcamp, kde sa po prvý raz stretla s "
+"programovaním Microbitov. V budúcnosti sa chce stať softvérovou "
+"inžinierkou."
+
+#: templates/speakers.html:1749 templates/speakers.html:1794
+msgid "High school informatics teacher"
+msgstr "Stredoškolský účiteľ informatiky"
+
+#: templates/speakers.html:1758
+msgid ""
+"Peter works as a high school informatics teacher. He is a member of "
+"subject comission for infromatics in State pedagogics institute. He "
+"authored a serie of textbooks Programujeme v Pythone (Programming in "
+"Python) with handbook for teachers, final exam exercises and a collection"
+" of tests. He leads Informatics teachers club and does the Python courses"
+" for teachers. He also prepares students for teaching informatics."
+msgstr ""
+"Pôsobí ako učiteľ informatiky na 1. súkromnom gymnáziu v Bratislave. Je "
+"členom predmetovej komisie informatiky pri Štátnom pedagogickom ústave. "
+"Vytvoril sériu učebníc Programujeme v Pythone spolu s Príručkami pre "
+"učiteľa, maturitnou zbierkou úloh a zbierkou testov. Vedie Klub učiteľov "
+"informatiky. Realizuje školenia jazyka Python pre učiteľov. Na praxi "
+"pripravuje študentov učiteľstva informatiky (fakultný učiteľ FMFI UK)."
+
+#: templates/speakers.html:1767
+msgid "Programujeme v Pythone na strednej škole"
+msgstr ""
+
+#: templates/speakers.html:1768
+msgid ""
+"Rozmýšľate, čo vyučovať na seminári z programovania, ak chcete svojich "
+"študentov naučiť ešte viac? Základnú a maturitnú úroveň programovania, "
+"ktorú sme predstavili v minulosti, sme rozšírili o ďalšie zaujímavé témy."
+" V príspevku vám predstavíme, čo učíme na seminároch z programovania. "
+"Ukážeme vám, ktorým témam sa venujeme, ako sme ich spracovali, ktorý "
+"kontext úloh sa nám osvedčil v praxi. Tiež vám predstavíme kompletné "
+"materiály na strednú školu. Ako aktivizovať študentov? Aké programy vedia"
+" vytvoriť a ako tvoria seminárne práce z programovania? Aj týmto otázkam "
+"sa budeme venovať v našom príspevku."
+msgstr ""
+
+#: templates/speakers.html:1803
+msgid ""
+"Informatics and programming teacher at High school in Martin feeling as "
+"an eternal student. Love to learn new things, so I make friends with "
+"Python although some people think I don't need such friends in my age."
+msgstr ""
+"Som učiteľka informatiky a programovania na Strednej priemyselnej škole "
+"technickej v Martine, ale považujem sa za večnú študentku. Rada sa učím "
+"nové veci, preto som sa začala kamarátiť aj s Pythonom. Napriek tým, "
+"ktorí si myslia, že už v mojom veku takýchto priateľov nepotrebujem."
+
+#: templates/speakers.html:1809
+msgid "Objavovanie VPythonu v Dudley College"
+msgstr ""
+
+#: templates/speakers.html:1810
+msgid ""
+"V marci 2017 dostali žiaci Strednej priemyselnej školy technickej v "
+"Martine (SPŠT) prvýkrát príležitosť absolvovať prax v Dudley College vo "
+"Veľkej Británii. Vďaka úspešnému projektu Erasmus+ „Turiec do Európy, "
+"Európa do Turca“, ktorý pripravila K. A. B. A. Slovensko, sa tu zoznámili"
+" s programovacím jazykom Python. Projekt bol úspešný aj v školskom roku "
+"2017/2018. Dudley College sa tak stala na dva marcové týždne školou pre "
+"desiatich tretiakov technického lýcea SPŠT. Odborný program bol zameraný "
+"na tvorbu efektívnych algoritmov, rozvoj logického myslenia, grafiku a "
+"nástroj pre vytváranie 3D animácií v reálnom čase - VPython. Svoje "
+"nadobudnuté vedomosti a praktické zručnosti odovzdali účastníci mobility "
+"aj ďalej. Učitelia informatiky SPŠT a Gymnázia Viliama Paulínyho Tótha "
+"(GVPT) v Martine nadviazali na úspešnú spoluprácu z minulého roka, opäť "
+"spojili svoje sily a pripravili druhý ročník odbornej konferencie PYTHON "
+"DAYS 2.0. V dňoch 31.5 - 1.6.2018 odzneli na GVPT zaujímavé prednášky, "
+"robilo sa veľa workshopov. Na jednom z nich sme predstavili gymnazistom "
+"VPython a vývojové prostredie GlowScript. Výstupy z mobility Erasmus+ tak"
+" neostali len doma, na SPŠT, ale nadobudli oveľa širší rozmer. Na "
+"konferencii PyCON SK 2019 predstavíme toto prostredie, jeho nástroje a "
+"ukážeme práce, ktoré sme vytvorili."
+msgstr ""
+
+#: templates/speakers.html:1854
+msgid ""
+"Machine learning specialist and big data engineer at CogneXa, former "
+"MatFyz student."
+msgstr ""
+"Špecialista na strojové učenie a big data inžinier v CogneXa, bývalý "
+"študent MatFyzu."
+
+#: templates/speakers.html:1858 templates/speakers.html:1897
+msgid "Machine learning workshop v Pythone"
+msgstr ""
+
+#: templates/speakers.html:1859 templates/speakers.html:1898
+msgid ""
+"Náš workshop je zameraný na ukážku toho, ako môže byť strojové učenie "
+"použité na riešenie rôznych problémov a ako prejsť z programovania a data"
+" science do aplikovaného strojového učenia. Účastníci sa budú učiť na "
+"ukážkových datasetoch. Cieľom workshopu je vyriešiť zaujímavý "
+"klasifikačný problém pomocou postupov aplikovaného strojového učenia a "
+"skončiť z natrénovaným modelom. Workshop bude v slovenskom jazyku. "
+"Účastníci by mali mať základnú znalosť o programovaní v Pythone a ovládať"
+" základy dátovej analýzy v Pandas alebo R (odporúčas sa mať "
+"naprogramovaný aspoň jeden menší projekt). "
+msgstr ""
+
+#: templates/speakers.html:1893
+msgid ""
+"Machine learning specialist and software developer at CogneXa, FIIT STU "
+"student."
+msgstr ""
+"Špecialistka na strojové učenie a vývojárka softvéru v CogneXa, "
+"študentka FIIT STU."
+
+#: templates/speakers.html:1923
+msgid "Data Pipeline Team Lead"
+msgstr "Data Pipeline Team Lead"
+
+#: templates/speakers.html:1932
+msgid ""
+"Filip, currently a \"Data Pipeline\" team lead at Exponea, has always "
+"combined his passions for software and complex systems. From architecting"
+" and coding software frameworks at NetSuite, through teaching algorithms "
+"at FI MU Brno, winning a management simulation game during his Business "
+"Management studies, to leading agile development teams, he keeps putting "
+"his geeky heart and brain into everything he does. He also enjoys board "
+"games, puns and not taking himself too seriously."
+msgstr ""
+"Filip, currently a \"Data Pipeline\" team lead at Exponea, has always "
+"combined his passions for software and complex systems. From architecting"
+" and coding software frameworks at NetSuite, through teaching algorithms "
+"at FI MU Brno, winning a management simulation game during his Business "
+"Management studies, to leading agile development teams, he keeps putting "
+"his geeky heart and brain into everything he does. He also enjoys board "
+"games, puns and not taking himself too seriously."
+
+#: templates/speakers.html:1942
+msgid "Stability with a Hockey-stick"
+msgstr ""
+
+#: templates/speakers.html:1943
+msgid ""
+"\"Make fast and break things\" used to be a popular motto at Facebook, "
+"but at some point it needed to change. How can a fast-growing SaaS "
+"company like Exponea handle the ever increasing need for service "
+"stability? We will take a quick look at all the bazillion things that "
+"must be done, panic, and talk about how they can actually be done."
+msgstr ""
+
+#: templates/speakers.html:1965
+msgid "Co-founder of Slovensko.Digital"
+msgstr "Spoluzakladateľ Slovensko.Digital"
+
+#: templates/speakers.html:1974
+msgid ""
+"Gabriel Lachmann is chairman and a co-founding member of civic "
+"organization Slovensko.Digital. In 1999 he co-founded software company "
+"ELLINE s.r.o. building internet portals, bank and stock exchange systems."
+" Via fusions ELLINE has transformed to system integrator EEA s.r.o. "
+"Gabriel is currently the chairman of the board and he coordinates "
+"research activities of the company. He co-founded civic organization "
+"Utopia, informal group OpenData.sk and he is a member of Open information"
+" technologies society. Besides his manager work he focus on topics like "
+"society informatization, machine learning in business, OpenData, "
+"LinkedData, ETL and BI. He likes to program in Scala, Java and JavaScript"
+" on Apache Spark, Pentaho, Talend, Tableau environments."
+msgstr ""
+"Gabriel Lachmann je výkonný riaditeľ a zakladajúci člen občianskeho "
+"združenia Slovensko.Digital. V roku 1999 bol spoluzakladateľom "
+"softvérovej firmy ELLINE s.r.o., ktorá sa venovala dodávke internetových "
+"portálov, bankových a burzových systémov. ELLINE sa po postupných "
+"fúziách transformovala na systémového integrátora EEA s.r.o.. Gabriel "
+"v súčasnosti pôsobí je v pozícii predsedu predstavenstva a koordinuje "
+"výskumné aktivity spoločnosti. Je spoluzakladateľom OZ Utopia, "
+"neformálnej skupiny OpenData.sk a je členom Spoločnosti pre otvorené "
+"informačné technológie. Popri manažérskych prácach sa venuje témam "
+"informatizácie spoločnosti, machine learning v biznise, OpenData, "
+"LinkedData, ETL a BI. Rád programuje v jazykoch Scala, Java a JavaScript "
+"v prostrediach Apache Spark, Pentaho, Talend, Tableau."
+
+#: templates/speakers.html:1987 templates/speakers.html:2032
+msgid "Ako prestať kradnúť v štátnom IT?"
+msgstr ""
+
+#: templates/speakers.html:1988 templates/speakers.html:2033
+msgid ""
+"Slovensko.Digital už vyše troch rokov zasahuje do veľkých štátnych IT "
+"projektov a informatizácie verejnej správy ako takej. Dozviete sa či to "
+"bolo na niečo vlastne dobré, čo sa bude diať v informatizácii ďalej, čo s"
+" tým vie urobiť bežný programátor a IT komunita. Povieme Vám niečo "
+"bližšie o eurofondovom projekte, ktorý nám schválili za Kaliňáka a ako "
+"tieto peniaze využívame, aby sme robili zle zlodejom konštruktívne "
+"vylepšovali štátne IT. Povieme aj pozitívne správy o témach ako Open API "
+"či My Data, ktoré by mohli posunúť informatizáciu tak dopredu, že nám aj "
+"Estónci budú závidieť. Keď všetko pôjde podľa plánu mali by sa toho dožiť"
+" nielen naše budúce vnúčatá.."
+msgstr ""
+
+#: templates/speakers.html:2014
+msgid "Co-founder of Slovensko.Digital"
+msgstr "Co-founder of Slovensko.Digital"
+
+#: templates/speakers.html:2023
+msgid ""
+"Jano is reponsible for development and community in slovensko.digital. "
+"His professional life has been dedicated to software development, he has "
+"studied software engineering at FIIT Bratislava where he now teaches "
+"young programmers. You may know him from Facebook where he writes "
+"unflattering notes about the state of Slovak Govnernance Informatization."
+" Vice premier and doctor Richard Raši called him \"so-called "
+"informatization expert\"."
+msgstr ""
+"Jano Suchal má v Slovensko.Digital na starosti vývoj a komunitu. Celý "
+"svoj profesionálny život sa venuje vývoju softvéru, vyštudoval softérové "
+"inžinierstvo na FIIT, kde dodnes učí mladých programátorov a "
+"programátorky. Poznáte ho pravdepodobne z Facebooku, kde píše nelichotivé "
+"správy o stave slovenskej informatizácie verejnej správy. Podpredseda "
+"vlády a lekár Richard Raši ho nazval takzvaným odborníkom na informatizáciu."
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
 msgid "Sponsors &amp; Partners"
