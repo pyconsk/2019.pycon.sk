@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-24 11:36+0100\n"
+"POT-Creation-Date: 2019-02-24 12:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1575,15 +1575,19 @@ msgstr ""
 msgid "High school student"
 msgstr ""
 
-#: templates/index.html:760 templates/index.html:773
-msgid "High school Informatics teacher"
+#: templates/index.html:760
+msgid "High school Informatics teacher, author of Python textbooks"
+msgstr ""
+
+#: templates/index.html:773
+msgid "High school Informatics and programming teacher"
 msgstr ""
 
 #: templates/index.html:783 templates/speakers.html:1845
 msgid "Machine learning specialist and big data engineer"
 msgstr ""
 
-#: templates/index.html:793 templates/speakers.html:1884
+#: templates/index.html:793 templates/speakers.html:1858
 msgid "Machine learning specialist and software developer"
 msgstr ""
 
@@ -1592,11 +1596,11 @@ msgid "Data Pipeline Team Lead at Exponea"
 msgstr ""
 
 #: templates/index.html:816
-msgid "Co-founder and head of civic organization Slovensko.digital"
+msgid "Co-founder and chairman of civic organization Slovensko.Digital"
 msgstr ""
 
 #: templates/index.html:826
-msgid "Software engineer, member of Slovensko.digital"
+msgid "Software engineer, member of Slovensko.Digital"
 msgstr ""
 
 #: templates/job-fair.html:8
@@ -3253,9 +3257,9 @@ msgid ""
 "the future she wants to be a software engineer."
 msgstr ""
 
-#: templates/speakers.html:1749 templates/speakers.html:1794
-msgid "High school informatics teacher"
-msgstr ""
+#: templates/speakers.html:1749
+msgid "High school informatics teacher, author of Python textbooks"
+msgstr "Stredoškolský učiteľ informatiky, autor učebníc Pythonu"
 
 #: templates/speakers.html:1758
 msgid ""
@@ -3282,6 +3286,10 @@ msgid ""
 "materiály na strednú školu. Ako aktivizovať študentov? Aké programy vedia"
 " vytvoriť a ako tvoria seminárne práce z programovania? Aj týmto otázkam "
 "sa budeme venovať v našom príspevku."
+msgstr ""
+
+#: templates/speakers.html:1794
+msgid "High school informatics teacher"
 msgstr ""
 
 #: templates/speakers.html:1803
@@ -3318,17 +3326,23 @@ msgid ""
 "ukážeme práce, ktoré sme vytvorili."
 msgstr ""
 
-#: templates/speakers.html:1854
+#: templates/speakers.html:1853
 msgid ""
 "Machine learning specialist and big data engineer at CogneXa, former "
 "MatFyz student."
 msgstr ""
 
-#: templates/speakers.html:1858 templates/speakers.html:1897
+#: templates/speakers.html:1867
+msgid ""
+"Machine learning specialist and software developer at CogneXa, FIIT STU "
+"student."
+msgstr ""
+
+#: templates/speakers.html:1871
 msgid "Machine learning workshop v Pythone"
 msgstr ""
 
-#: templates/speakers.html:1859 templates/speakers.html:1898
+#: templates/speakers.html:1872
 msgid ""
 "Náš workshop je zameraný na ukážku toho, ako môže byť strojové učenie "
 "použité na riešenie rôznych problémov a ako prejsť z programovania a data"
@@ -3341,17 +3355,11 @@ msgid ""
 "naprogramovaný aspoň jeden menší projekt). "
 msgstr ""
 
-#: templates/speakers.html:1893
-msgid ""
-"Machine learning specialist and software developer at CogneXa, FIIT STU "
-"student."
-msgstr ""
-
-#: templates/speakers.html:1923
+#: templates/speakers.html:1897
 msgid "Data Pipeline Team Lead"
 msgstr ""
 
-#: templates/speakers.html:1932
+#: templates/speakers.html:1906
 msgid ""
 "Filip, currently a \"Data Pipeline\" team lead at Exponea, has always "
 "combined his passions for software and complex systems. From architecting"
@@ -3362,11 +3370,11 @@ msgid ""
 "games, puns and not taking himself too seriously."
 msgstr ""
 
-#: templates/speakers.html:1942
+#: templates/speakers.html:1916
 msgid "Stability with a Hockey-stick"
 msgstr ""
 
-#: templates/speakers.html:1943
+#: templates/speakers.html:1917
 msgid ""
 "\"Make fast and break things\" used to be a popular motto at Facebook, "
 "but at some point it needed to change. How can a fast-growing SaaS "
@@ -3375,11 +3383,11 @@ msgid ""
 "must be done, panic, and talk about how they can actually be done."
 msgstr ""
 
-#: templates/speakers.html:1965
+#: templates/speakers.html:1943 templates/speakers.html:1965
 msgid "Co-founder of Slovensko.Digital"
 msgstr ""
 
-#: templates/speakers.html:1974
+#: templates/speakers.html:1952
 msgid ""
 "Gabriel Lachmann is chairman and a co-founding member of civic "
 "organization Slovensko.Digital. In 1999 he co-founded software company "
@@ -3394,11 +3402,22 @@ msgid ""
 " on Apache Spark, Pentaho, Talend, Tableau environments."
 msgstr ""
 
-#: templates/speakers.html:1987 templates/speakers.html:2032
+#: templates/speakers.html:1974
+msgid ""
+"Jano is reponsible for development and community in slovensko.digital. "
+"His professional life has been dedicated to software development, he has "
+"studied software engineering at FIIT Bratislava where he now teaches "
+"young programmers. You may know him from Facebook where he writes "
+"unflattering notes about the state of Slovak Govnernance Informatization."
+" Vice premier and doctor Richard Raši called him \"so-called "
+"informatization expert\"."
+msgstr ""
+
+#: templates/speakers.html:1983
 msgid "Ako prestať kradnúť v štátnom IT?"
 msgstr ""
 
-#: templates/speakers.html:1988 templates/speakers.html:2033
+#: templates/speakers.html:1984
 msgid ""
 "Slovensko.Digital už vyše troch rokov zasahuje do veľkých štátnych IT "
 "projektov a informatizácie verejnej správy ako takej. Dozviete sa či to "
@@ -3410,21 +3429,6 @@ msgid ""
 "či My Data, ktoré by mohli posunúť informatizáciu tak dopredu, že nám aj "
 "Estónci budú závidieť. Keď všetko pôjde podľa plánu mali by sa toho dožiť"
 " nielen naše budúce vnúčatá.."
-msgstr ""
-
-#: templates/speakers.html:2014
-msgid "Co-founder of slovakia.digital"
-msgstr ""
-
-#: templates/speakers.html:2023
-msgid ""
-"Jano is reponsible for development and community in slovensko.digital. "
-"His professional life has been dedicated to software development, he has "
-"studied software engineering at FIIT Bratislava where he now teaches "
-"young programmers. You may know him from Facebook where he writes "
-"unflattering notes about the state of Slovak Govnernance Informatization."
-" Vice premier and doctor Richard Raši called him \"so-called "
-"informatization expert\"."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-24 11:36+0100\n"
+"POT-Creation-Date: 2019-02-24 12:07+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1853,18 +1853,18 @@ msgid "High school student"
 msgstr "Študentka gymnázia"
 
 #: templates/index.html:760
-msgid "High school Informatics teacher"
-msgstr "Stredoškolský učiteľ informatiky"
+msgid "High school Informatics teacher, author of Python textbooks"
+msgstr "Stredoškolský učiteľ informatiky, autor učebníc Pythonu"
 
 #: templates/index.html:773
-msgid "High school Informatics teacher"
-msgstr "Stredoškolská učiteľka informatiky"
+msgid "High school Informatics and programming teacher"
+msgstr "Stredoškolsá učiteľka informatiky a programovania"
 
 #: templates/index.html:783 templates/speakers.html:1845
 msgid "Machine learning specialist and big data engineer"
 msgstr "Špecialista na strojové učenie a big data inžinier"
 
-#: templates/index.html:793 templates/speakers.html:1884
+#: templates/index.html:793 templates/speakers.html:1858
 msgid "Machine learning specialist and software developer"
 msgstr "Špecialistka na strojové učenie a vývojárka softvéru"
 
@@ -1873,7 +1873,7 @@ msgid "Data Pipeline Team Lead at Exponea"
 msgstr "Data Pipeline Team Lead v Exponea"
 
 #: templates/index.html:816
-msgid "Co-founder and chairman of civic organization Slovensko.digital"
+msgid "Co-founder and chairman of civic organization Slovensko.Digital"
 msgstr "Spoluzakladateľ a výkonný riaditeľ OZ Slovensko.Digital"
 
 #: templates/index.html:826
@@ -3809,12 +3809,12 @@ msgid ""
 "program."
 msgstr ""
 "Študentka piateho ročníka na Gymnáziu, Golianova 68 v Nitre, ambasádorka "
-"Microsoft. Účastníčka prvého Microsoft AI Bootcampu o čom prezentovala na "
-"Microsoft konferenciách Vzdelávame pre budúcnosť v Poprade, Košiciach a "
+"Microsoft. Účastníčka prvého Microsoft AI Bootcampu o čom prezentovala na"
+" Microsoft konferenciách Vzdelávame pre budúcnosť v Poprade, Košiciach a "
 "Leviciach. Aktívne sa zapája do mimoškolských aktivít zaoberajúcich sa "
 "popularizáciou informatiky ako vedecký deň detí, či letný informatický "
-"tábor. Momentálne pomáha s realizáciou detského počítačového krúžku na KI "
-"FPV v Nitre, kde mimo iného využíva aj BBC micro:bitov. Svoj talent v "
+"tábor. Momentálne pomáha s realizáciou detského počítačového krúžku na KI"
+" FPV v Nitre, kde mimo iného využíva aj BBC micro:bitov. Svoj talent v "
 "programovaní rozvíja aj v rámci programu DofE."
 
 #: templates/speakers.html:1680 templates/speakers.html:1723
@@ -3843,15 +3843,15 @@ msgid ""
 "the future she wants to be a software engineer."
 msgstr ""
 "Študentka maturitného ročníka Gymnázia Golianova v Nitre. Medzi jej "
-"aktivity patria napríklad program DofE alebo doučovanie práce s počítačom "
-"v domove pre seniorov. Počas leta sa zúčastnila projektu pre dievčatá od "
-"Microsoftu - prvého AI Bootcamp, kde sa po prvý raz stretla s "
+"aktivity patria napríklad program DofE alebo doučovanie práce s počítačom"
+" v domove pre seniorov. Počas leta sa zúčastnila projektu pre dievčatá od"
+" Microsoftu - prvého AI Bootcamp, kde sa po prvý raz stretla s "
 "programovaním Microbitov. V budúcnosti sa chce stať softvérovou "
 "inžinierkou."
 
-#: templates/speakers.html:1749 templates/speakers.html:1794
-msgid "High school informatics teacher"
-msgstr "Stredoškolský účiteľ informatiky"
+#: templates/speakers.html:1749
+msgid "High school informatics teacher, author of Python textbooks"
+msgstr "Stredoškolský učiteľ informatiky, autor učebníc Pythonu"
 
 #: templates/speakers.html:1758
 msgid ""
@@ -3885,6 +3885,10 @@ msgid ""
 " vytvoriť a ako tvoria seminárne práce z programovania? Aj týmto otázkam "
 "sa budeme venovať v našom príspevku."
 msgstr ""
+
+#: templates/speakers.html:1794
+msgid "High school informatics teacher"
+msgstr "Stredoškolská učiteľka informatiky a programovania"
 
 #: templates/speakers.html:1803
 msgid ""
@@ -3924,7 +3928,7 @@ msgid ""
 "ukážeme práce, ktoré sme vytvorili."
 msgstr ""
 
-#: templates/speakers.html:1854
+#: templates/speakers.html:1853
 msgid ""
 "Machine learning specialist and big data engineer at CogneXa, former "
 "MatFyz student."
@@ -3932,11 +3936,19 @@ msgstr ""
 "Špecialista na strojové učenie a big data inžinier v CogneXa, bývalý "
 "študent MatFyzu."
 
-#: templates/speakers.html:1858 templates/speakers.html:1897
+#: templates/speakers.html:1867
+msgid ""
+"Machine learning specialist and software developer at CogneXa, FIIT STU "
+"student."
+msgstr ""
+"Špecialistka na strojové učenie a vývojárka softvéru v CogneXa, študentka"
+" FIIT STU."
+
+#: templates/speakers.html:1871
 msgid "Machine learning workshop v Pythone"
 msgstr ""
 
-#: templates/speakers.html:1859 templates/speakers.html:1898
+#: templates/speakers.html:1872
 msgid ""
 "Náš workshop je zameraný na ukážku toho, ako môže byť strojové učenie "
 "použité na riešenie rôznych problémov a ako prejsť z programovania a data"
@@ -3949,19 +3961,11 @@ msgid ""
 "naprogramovaný aspoň jeden menší projekt). "
 msgstr ""
 
-#: templates/speakers.html:1893
-msgid ""
-"Machine learning specialist and software developer at CogneXa, FIIT STU "
-"student."
-msgstr ""
-"Špecialistka na strojové učenie a vývojárka softvéru v CogneXa, "
-"študentka FIIT STU."
-
-#: templates/speakers.html:1923
+#: templates/speakers.html:1897
 msgid "Data Pipeline Team Lead"
 msgstr "Data Pipeline Team Lead"
 
-#: templates/speakers.html:1932
+#: templates/speakers.html:1906
 msgid ""
 "Filip, currently a \"Data Pipeline\" team lead at Exponea, has always "
 "combined his passions for software and complex systems. From architecting"
@@ -3979,11 +3983,11 @@ msgstr ""
 "his geeky heart and brain into everything he does. He also enjoys board "
 "games, puns and not taking himself too seriously."
 
-#: templates/speakers.html:1942
+#: templates/speakers.html:1916
 msgid "Stability with a Hockey-stick"
 msgstr ""
 
-#: templates/speakers.html:1943
+#: templates/speakers.html:1917
 msgid ""
 "\"Make fast and break things\" used to be a popular motto at Facebook, "
 "but at some point it needed to change. How can a fast-growing SaaS "
@@ -3992,11 +3996,11 @@ msgid ""
 "must be done, panic, and talk about how they can actually be done."
 msgstr ""
 
-#: templates/speakers.html:1965
+#: templates/speakers.html:1943 templates/speakers.html:1965
 msgid "Co-founder of Slovensko.Digital"
 msgstr "Spoluzakladateľ Slovensko.Digital"
 
-#: templates/speakers.html:1974
+#: templates/speakers.html:1952
 msgid ""
 "Gabriel Lachmann is chairman and a co-founding member of civic "
 "organization Slovensko.Digital. In 1999 he co-founded software company "
@@ -4013,9 +4017,9 @@ msgstr ""
 "Gabriel Lachmann je výkonný riaditeľ a zakladajúci člen občianskeho "
 "združenia Slovensko.Digital. V roku 1999 bol spoluzakladateľom "
 "softvérovej firmy ELLINE s.r.o., ktorá sa venovala dodávke internetových "
-"portálov, bankových a burzových systémov. ELLINE sa po postupných "
-"fúziách transformovala na systémového integrátora EEA s.r.o.. Gabriel "
-"v súčasnosti pôsobí je v pozícii predsedu predstavenstva a koordinuje "
+"portálov, bankových a burzových systémov. ELLINE sa po postupných fúziách"
+" transformovala na systémového integrátora EEA s.r.o.. Gabriel v "
+"súčasnosti pôsobí je v pozícii predsedu predstavenstva a koordinuje "
 "výskumné aktivity spoločnosti. Je spoluzakladateľom OZ Utopia, "
 "neformálnej skupiny OpenData.sk a je členom Spoločnosti pre otvorené "
 "informačné technológie. Popri manažérskych prácach sa venuje témam "
@@ -4023,29 +4027,7 @@ msgstr ""
 "LinkedData, ETL a BI. Rád programuje v jazykoch Scala, Java a JavaScript "
 "v prostrediach Apache Spark, Pentaho, Talend, Tableau."
 
-#: templates/speakers.html:1987 templates/speakers.html:2032
-msgid "Ako prestať kradnúť v štátnom IT?"
-msgstr ""
-
-#: templates/speakers.html:1988 templates/speakers.html:2033
-msgid ""
-"Slovensko.Digital už vyše troch rokov zasahuje do veľkých štátnych IT "
-"projektov a informatizácie verejnej správy ako takej. Dozviete sa či to "
-"bolo na niečo vlastne dobré, čo sa bude diať v informatizácii ďalej, čo s"
-" tým vie urobiť bežný programátor a IT komunita. Povieme Vám niečo "
-"bližšie o eurofondovom projekte, ktorý nám schválili za Kaliňáka a ako "
-"tieto peniaze využívame, aby sme robili zle zlodejom konštruktívne "
-"vylepšovali štátne IT. Povieme aj pozitívne správy o témach ako Open API "
-"či My Data, ktoré by mohli posunúť informatizáciu tak dopredu, že nám aj "
-"Estónci budú závidieť. Keď všetko pôjde podľa plánu mali by sa toho dožiť"
-" nielen naše budúce vnúčatá.."
-msgstr ""
-
-#: templates/speakers.html:2014
-msgid "Co-founder of Slovensko.Digital"
-msgstr "Co-founder of Slovensko.Digital"
-
-#: templates/speakers.html:2023
+#: templates/speakers.html:1974
 msgid ""
 "Jano is reponsible for development and community in slovensko.digital. "
 "His professional life has been dedicated to software development, he has "
@@ -4058,9 +4040,28 @@ msgstr ""
 "Jano Suchal má v Slovensko.Digital na starosti vývoj a komunitu. Celý "
 "svoj profesionálny život sa venuje vývoju softvéru, vyštudoval softérové "
 "inžinierstvo na FIIT, kde dodnes učí mladých programátorov a "
-"programátorky. Poznáte ho pravdepodobne z Facebooku, kde píše nelichotivé "
-"správy o stave slovenskej informatizácie verejnej správy. Podpredseda "
-"vlády a lekár Richard Raši ho nazval takzvaným odborníkom na informatizáciu."
+"programátorky. Poznáte ho pravdepodobne z Facebooku, kde píše nelichotivé"
+" správy o stave slovenskej informatizácie verejnej správy. Podpredseda "
+"vlády a lekár Richard Raši ho nazval takzvaným odborníkom na "
+"informatizáciu."
+
+#: templates/speakers.html:1983
+msgid "Ako prestať kradnúť v štátnom IT?"
+msgstr ""
+
+#: templates/speakers.html:1984
+msgid ""
+"Slovensko.Digital už vyše troch rokov zasahuje do veľkých štátnych IT "
+"projektov a informatizácie verejnej správy ako takej. Dozviete sa či to "
+"bolo na niečo vlastne dobré, čo sa bude diať v informatizácii ďalej, čo s"
+" tým vie urobiť bežný programátor a IT komunita. Povieme Vám niečo "
+"bližšie o eurofondovom projekte, ktorý nám schválili za Kaliňáka a ako "
+"tieto peniaze využívame, aby sme robili zle zlodejom konštruktívne "
+"vylepšovali štátne IT. Povieme aj pozitívne správy o témach ako Open API "
+"či My Data, ktoré by mohli posunúť informatizáciu tak dopredu, že nám aj "
+"Estónci budú závidieť. Keď všetko pôjde podľa plánu mali by sa toho dožiť"
+" nielen naše budúce vnúčatá.."
+msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
 msgid "Sponsors &amp; Partners"
@@ -4838,99 +4839,6 @@ msgstr ""
 #~ "how you can start with it."
 #~ msgstr ""
 
-#~ msgid "Odoo evangelist"
-#~ msgstr "Odoo evanjelista"
-
-#~ msgid "<span>Be a part of </span>PyCon SK 2019"
-#~ msgstr "<span>Buď súčasťou </span>PyConu SK 2019"
-
-#~ msgid "22-24 March"
-#~ msgstr "22.-24. marec"
-
-#~ msgid "Days"
-#~ msgstr "dní"
-
-#~ msgid "Hours"
-#~ msgstr "hodín"
-
-#~ msgid "Minutes"
-#~ msgstr "minút"
-
-#~ msgid "Seconds"
-#~ msgstr "sekúnd"
-
-#~ msgid ""
-#~ "The PyCon SK 2019 conference, which "
-#~ "will take place in Bratislava, is "
-#~ "the annual gathering for the community"
-#~ " using and developing the open-source"
-#~ " Python programming language. It is "
-#~ "organized by the volunteers from the "
-#~ "SPy o.z., civic association dedicated to"
-#~ " advancing and promoting Python and "
-#~ "other Open Source technologies and "
-#~ "ideas. Through PyCon, the SPy o.z. "
-#~ "advances its mission of growing the "
-#~ "Slovak (and also international) community "
-#~ "of Python programmers and Open Source"
-#~ " supporters."
-#~ msgstr ""
-#~ "Konferencia PyCon SK 2019, ktorá sa "
-#~ "bude konať v Bratislave je každoročné"
-#~ " stretnutie komunity využívajúcej a "
-#~ "vyvíjajúcej otvorený programovací jazyk "
-#~ "Python. Je organizovaná dobrovoľníkmi z "
-#~ "občianskeho združenia  SPy o.z., ktorého "
-#~ "hlavným cieľom je šíriť povedomie o "
-#~ "Pythone a ďalších otvorených technológiách."
-#~ " Prostredníctvom PyConu SPy, o.z. plní "
-#~ "svoj cieľ - rozširovať slovenskú (a "
-#~ "medzinárodnú) komunitu programátorov v Pythone"
-#~ " a podporovateľov Open Source."
-
-#~ msgid ""
-#~ "Because PyCon SK is backed by the"
-#~ " non-profit SPy, we keep registration"
-#~ " costs much lower than comparable "
-#~ "technology conferences (or other conferences"
-#~ " in neighbor countries) so that PyCon"
-#~ " remains accessible to the widest "
-#~ "group possible."
-#~ msgstr ""
-#~ "Pretože PyCon SK je organizovaný "
-#~ "neziskovou organizáciou SPy, naše registračné"
-#~ " poplatky sú výrazne nižšie ako na"
-#~ " porovnateľné technologické konferencie (alebo"
-#~ " na konferencie v okolitých krajinách), "
-#~ "vďaka čomu je PyCon dostupný širokej "
-#~ "skupine ľudí."
-
-#~ msgid ""
-#~ "PyCon SK is a diverse conference "
-#~ "dedicated to providing an enjoyable "
-#~ "experience to everyone. Help us do "
-#~ "this by following our "
-#~ msgstr ""
-#~ "PyCon SK je pestrá konferencia zameraná"
-#~ " na to, aby poskytla príjemný zážitok"
-#~ " pre všetkých návštevníkov. Aby sme "
-#~ "toto splnili, prosím dodržuj náš "
-
-#~ msgid "code of conduct"
-#~ msgstr "kódex správania"
-
-#~ msgid "Great Speakers"
-#~ msgstr "Vynikajúci rečníci"
-
-#~ msgid "Networking"
-#~ msgstr "Networking"
-
-#~ msgid "Have Fun"
-#~ msgstr "Zábava"
-
-#~ msgid "Respected industry leaders with future-tech talks."
-#~ msgstr "Rešpektované osobnosti hovoriace o technológiách budúcnosti"
-
 #~ msgid ""
 #~ "Apart from well recognized community "
 #~ "members we also invite first time "
@@ -4980,35 +4888,6 @@ msgstr ""
 #~ "s nimi pracovné príležitosti aleboo "
 #~ "biznis."
 
-#~ msgid "Buy ticket"
-#~ msgstr "Kúp si lístok"
-
-#~ msgid "Food and drinks are provided for all attendees."
-#~ msgstr "Strava a nápoje sú k dispozícii pre všetkých účastníkov."
-
-#~ msgid ""
-#~ "On Friday we will have an "
-#~ "unofficial party. We meet in a pub"
-#~ " talk and have fun. Everybody at "
-#~ "their own expense."
-#~ msgstr ""
-#~ "V piatok budeme mať neoficiálnu párty."
-#~ " Stretneme sa v pube, pokecáme a "
-#~ "zabavíme sa. Každý na vlastný účet."
-
-#~ msgid ""
-#~ "On Saturday we will have an "
-#~ "official dinner. We meet in a pub"
-#~ " talk and have fun again :D "
-#~ "Most of the volunteers and speakers "
-#~ "join this party, but for this one"
-#~ " you will need a separate ticket."
-#~ msgstr ""
-#~ "V sobotu budeme mať oficiálnu večeru."
-#~ " Opäť sa stretnem v pube, pokecáme"
-#~ " a zabavíme sa. Na túto udalosť "
-#~ "však budeš potrebovať samostatný lístok."
-
 #~ msgid ""
 #~ "We have also launched new design "
 #~ "of the conference website. How do "
@@ -5029,4 +4908,3 @@ msgstr ""
 #~ "stručným obsahom a životopisom. Všetci "
 #~ "rečníci majú vstup na konferenciu "
 #~ "zadarmo."
-
