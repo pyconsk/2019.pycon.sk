@@ -4710,7 +4710,7 @@ msgstr "Autobusom"
 
 #: templates/venue.html:106
 msgid ""
-"All neighbouring capital cities Vienna, Prague, Budapest, Warsaw and Kiev"
+"All neighbouring capital cities Vienna, Prague, Budapest, Warsaw and Kyiv"
 " have direct bus connections."
 msgstr ""
 "Všetky okolité hlavné mestá - Viedeň, Praha, Budapešť, Varšava aj Kyjev -"
@@ -4741,7 +4741,7 @@ msgstr "Vlakom"
 
 #: templates/venue.html:118
 msgid ""
-"All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kiev "
+"All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kyiv "
 "have direct train connections."
 msgstr ""
 "Z hlavných miest všetkých susedných krajín, teda z Viedne, Prahy, "

@@ -3904,7 +3904,7 @@ msgstr ""
 
 #: templates/venue.html:106
 msgid ""
-"All neighbouring capital cities Vienna, Prague, Budapest, Warsaw and Kiev"
+"All neighbouring capital cities Vienna, Prague, Budapest, Warsaw and Kyiv"
 " have direct bus connections."
 msgstr ""
 
@@ -3926,7 +3926,7 @@ msgstr ""
 
 #: templates/venue.html:118
 msgid ""
-"All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kiev "
+"All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kyiv "
 "have direct train connections."
 msgstr ""
 
