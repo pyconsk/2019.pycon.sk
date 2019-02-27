@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-24 12:20+0100\n"
+"POT-Creation-Date: 2019-02-27 07:52+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -477,9 +477,9 @@ msgstr "Prednáška"
 msgid "Workshop"
 msgstr "Workshop"
 
-#: templates/cfp_form.html:128 templates/edusummit.html:144
+#: templates/cfp_form.html:128 templates/edusummit.html:138
 msgid "Hardware Projects Showcase"
-msgstr ""
+msgstr "Ukážky hardvérových projektov"
 
 #: templates/cfp_form.html:136
 msgid "Language"
@@ -854,13 +854,13 @@ msgstr ""
 "informatiky na základné školy. V roku 2017 prevzal štátne vyznamenanie "
 "Pribinov kríž I. triedy, ktoré mu udelil prezident SR Andrej Kiska."
 
-#: templates/edusummit.html:54
+#: templates/edusummit.html:54 templates/speakers.html:112
 msgid ""
 "Programovanie s LOGO-filozofiou ako model všeobecného vzdelávania pre "
 "všetky odbory"
 msgstr ""
 
-#: templates/edusummit.html:55
+#: templates/edusummit.html:55 templates/speakers.html:113
 msgid ""
 "Jean Piaget prišiel s konceptom \"learning by doing\" s cieľom zvýšiť "
 "motiváciu a trvanlivosť vedomostí a prehĺbiť chápanie študovaných "
@@ -881,12 +881,12 @@ msgid ""
 "budúcich generácii."
 msgstr ""
 
-#: templates/edusummit.html:80 templates/index.html:390
+#: templates/edusummit.html:74 templates/index.html:390
 #: templates/speakers.html:164
 msgid "CS student and Python enthusiast"
 msgstr "žiak informatiky a Python nadšenec"
 
-#: templates/edusummit.html:89 templates/speakers.html:173
+#: templates/edusummit.html:83 templates/speakers.html:173
 msgid ""
 "Luke is 17 and is studying computer science, maths, further maths and "
 "physics in Year 12 (English Secondary school / Sixthform). He loves to "
@@ -901,13 +901,13 @@ msgstr ""
 "2019. Rozprávať bude v sekcii EduSummit o tom, ako spraviť informatiku "
 "pre žiakov na školách zaujímavejšou."
 
-#: templates/edusummit.html:93 templates/speakers.html:177
+#: templates/edusummit.html:87 templates/speakers.html:177
 msgid ""
 "Controling a robotic arm with micro:bits. How to make computer science "
 "education more interesting."
 msgstr ""
 
-#: templates/edusummit.html:94 templates/speakers.html:178
+#: templates/edusummit.html:88 templates/speakers.html:178
 msgid ""
 "Captivating a group of children for a sustained period of time is "
 "notoriously hard. I will be exporing with you how the micro:bit can be "
@@ -915,7 +915,7 @@ msgid ""
 "activities."
 msgstr ""
 
-#: templates/edusummit.html:95 templates/speakers.html:179
+#: templates/edusummit.html:89 templates/speakers.html:179
 msgid ""
 "Children love to physically interact with hardware. That is what is great"
 " about the micro:bit. It not only has built in LEDs and buttons but can "
@@ -929,19 +929,19 @@ msgid ""
 "with less guidance."
 msgstr ""
 
-#: templates/edusummit.html:109
+#: templates/edusummit.html:103
 msgid "Why Attend?"
 msgstr "Prečo prísť?"
 
-#: templates/edusummit.html:110
+#: templates/edusummit.html:104
 msgid "Great speakers, workshops and hardware showcase"
 msgstr "Skvelí rečníci, workshopy a ukážky hardvéru"
 
-#: templates/edusummit.html:119
+#: templates/edusummit.html:113
 msgid "Speak at EduSummit"
 msgstr "Prednášaj na EduSummite"
 
-#: templates/edusummit.html:121
+#: templates/edusummit.html:115
 msgid ""
 "Call for Proposals is open. If you are a teacher or educator submit your "
 "talk or workshop and co-create the conference "
@@ -951,16 +951,16 @@ msgstr ""
 " workshop alebo poster a tým sa stali spolutvorcami obsahu konferencie. "
 "Viac info"
 
-#: templates/edusummit.html:122 templates/edusummit.html:285
-#: templates/edusummit.html:287
+#: templates/edusummit.html:116 templates/edusummit.html:279
+#: templates/edusummit.html:281
 msgid "here"
 msgstr "tu"
 
-#: templates/edusummit.html:132
+#: templates/edusummit.html:126
 msgid "Young Coders' day"
 msgstr "Young Coders' day"
 
-#: templates/edusummit.html:134
+#: templates/edusummit.html:128
 msgid ""
 "On saturday, we will host a Young Coders' day, consisting of programming "
 "workshops for children."
@@ -968,7 +968,7 @@ msgstr ""
 "V sobotu sa bude konať Young Coders' day, pozostávajúci z programovacích "
 "dielní pre deti."
 
-#: templates/edusummit.html:146
+#: templates/edusummit.html:140
 msgid ""
 "If you have created an interesting hardware project which uses Python and"
 " would like to share it to the world then bring it to PyCon SK 2019."
@@ -978,25 +978,25 @@ msgstr ""
 "prihlásiť ako príspevok a vo formulári vybrať možnosť Hardware Projects "
 "Showcase."
 
-#: templates/edusummit.html:159
+#: templates/edusummit.html:153
 msgid "EduSummit workshops"
 msgstr "EduSummit workshopy"
 
-#: templates/edusummit.html:160
+#: templates/edusummit.html:154
 msgid "On saturday we will hold numerous educational workshops."
 msgstr ""
 "Sobota bude patriť workshopom. Prihlasovanie workshopov ešte stále "
 "prebieha, avšak niekoľko ich už máme potvrdených:"
 
-#: templates/edusummit.html:171 templates/edusummit.html:210
+#: templates/edusummit.html:165 templates/edusummit.html:204
 msgid "Microbit image"
 msgstr ""
 
-#: templates/edusummit.html:177
+#: templates/edusummit.html:171
 msgid "Aspekty počítačového myslenia vo vyučovaní programovania"
 msgstr ""
 
-#: templates/edusummit.html:180
+#: templates/edusummit.html:174
 msgid ""
 "Python sa stal jedným z najrozšírenejších jazykov vo výučbe informatiky a"
 " je v\n"
@@ -1015,7 +1015,7 @@ msgid ""
 "                                          vyučovať efektivitu?"
 msgstr ""
 
-#: templates/edusummit.html:191
+#: templates/edusummit.html:185
 msgid ""
 "Na tomto workshope uvádzame príklady toho, ako študentom priblížiť pojem\n"
 "                                          časovej zložitosti na "
@@ -1027,15 +1027,15 @@ msgid ""
 "                                          pre rovnakú triedu problémov."
 msgstr ""
 
-#: templates/edusummit.html:197
+#: templates/edusummit.html:191
 msgid "Lektori: Tobias Kohn a Dennis Komm z ETH Zurich"
 msgstr ""
 
-#: templates/edusummit.html:216
+#: templates/edusummit.html:210
 msgid "Programovať (micro:bit) môže každý. Fakt alebo mýtus?"
 msgstr ""
 
-#: templates/edusummit.html:219
+#: templates/edusummit.html:213
 msgid ""
 "Čo keby ste mali riešenie na oživenie vyučovania programovania? Riešenie,"
 " ktoré svieti,\n"
@@ -1053,19 +1053,19 @@ msgid ""
 "programovať!"
 msgstr ""
 
-#: templates/edusummit.html:227
+#: templates/edusummit.html:221
 msgid "Lektori: Magdaléna Bellayová a Eva Kupčová z Gymnázia Golianova 68 v Nitre"
 msgstr ""
 
-#: templates/edusummit.html:240
+#: templates/edusummit.html:234
 msgid "Minecraft image"
 msgstr ""
 
-#: templates/edusummit.html:246
+#: templates/edusummit.html:240
 msgid "Dobrodružstvá v Minecrafte s jazykom Python"
 msgstr ""
 
-#: templates/edusummit.html:249
+#: templates/edusummit.html:243
 msgid ""
 "Učiť sa programovať je ťažké. Naučiť niekoho programovať je ešte ťažšie. "
 "Je však veľmi jednoduché stráviť hodiny času v svete hry Minecraft. Na "
@@ -1078,15 +1078,15 @@ msgid ""
 "náladu a... krompáč."
 msgstr ""
 
-#: templates/edusummit.html:263
+#: templates/edusummit.html:257
 msgid "Space invaders image"
 msgstr "Vesmírni votrelci"
 
-#: templates/edusummit.html:269
+#: templates/edusummit.html:263
 msgid "Výučba programovania pomocou tvorby hier v PyGame Zero"
 msgstr ""
 
-#: templates/edusummit.html:272
+#: templates/edusummit.html:266
 msgid ""
 "Programovanie je cool a sexi. Ak však chcete osloviť súčasné decká, asi "
 "už neuspejete výpisom hlášky \"Hello, world!\". Rovnako tak neuspejete "
@@ -1101,32 +1101,32 @@ msgid ""
 "použitím knižnice PyGame Zero."
 msgstr ""
 
-#: templates/edusummit.html:274
+#: templates/edusummit.html:268
 msgid "Lektor: Miroslav Biňas z TUKE"
 msgstr ""
 
-#: templates/edusummit.html:284
+#: templates/edusummit.html:278
 msgid "The Call for Proposals is still open, more info"
 msgstr ""
 "Staňte sa súčasťou programu!<br>Program konferencie ešte stále napĺňame "
 "kvalitným obsahom aj od Vás - účastníkov. Preto ak máte nádpad na "
 "zaujímavý prípevok, kliknite"
 
-#: templates/edusummit.html:286
+#: templates/edusummit.html:280
 msgid "We will update the workshop list after the Call for Proposals is closed."
 msgstr ""
 "Po uzavretí prihlášok na prednášky a workshopov zverejníme zoznam "
 "všetkých workshopov."
 
-#: templates/edusummit.html:286
+#: templates/edusummit.html:280
 msgid "More information about the schedule can be found "
 msgstr "Viac informácií o programe nájdete "
 
-#: templates/edusummit.html:295
+#: templates/edusummit.html:289
 msgid "SPy Cup"
 msgstr "SPy Cup"
 
-#: templates/edusummit.html:298
+#: templates/edusummit.html:292
 msgid ""
 "Students from all 14 schools currently participating in Teaching with "
 "Hardware will join the SPy Cup contest, in which they create their own "
@@ -1143,7 +1143,7 @@ msgstr ""
 "udelené ceny a ich autori budú mať krátku prezentáciu o ich projekte na "
 "konferencii PyCon SK 2019."
 
-#: templates/edusummit.html:300
+#: templates/edusummit.html:294
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
@@ -1151,11 +1151,11 @@ msgstr ""
 "Viac informácií nájdeš na <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
 
-#: templates/edusummit.html:309
+#: templates/edusummit.html:303
 msgid "Teaching with Hardware"
 msgstr "Učíme s Hardvérom"
 
-#: templates/edusummit.html:312
+#: templates/edusummit.html:306
 #, python-format
 msgid ""
 "The goal of the initiative <a href=\"%(url)s\" target=\"_blank\">Teaching"
@@ -1180,19 +1180,19 @@ msgstr ""
 "celom Slovensku. Jeho výsledky budú predstavené na konferencii PyCon SK "
 "2019."
 
-#: templates/edusummit.html:322
+#: templates/edusummit.html:316
 msgid "Poster Session"
 msgstr "Posterová sekcia"
 
-#: templates/edusummit.html:325
+#: templates/edusummit.html:319
 msgid "We will host a poster session and we will be happy if you get involved."
 msgstr "Budeme organizovať aj posterovú sekciu a budeme radi, ak sa zapojíš."
 
-#: templates/edusummit.html:336
+#: templates/edusummit.html:330
 msgid "Python Cup"
 msgstr "Python Cup"
 
-#: templates/edusummit.html:339
+#: templates/edusummit.html:333
 #, python-format
 msgid ""
 "The <a href=\"%(url)s\" target=\"_blank\">winners of Python Cup</a> will "
@@ -1201,11 +1201,11 @@ msgstr ""
 "V sekcii EduSummit budú vyhlásení <a href=\"%(url)s\" "
 "target=\"_blank\">víťazi súťaže Python Cup</a>."
 
-#: templates/edusummit.html:349
+#: templates/edusummit.html:343
 msgid "What kind of ticked should I buy?"
 msgstr "Aký druh lístka by som si mal/a kúpiť?"
 
-#: templates/edusummit.html:352
+#: templates/edusummit.html:346
 msgid ""
 "All available tickets apply for the whole PyCon SK conference, including "
 "the EduSummit section. All of the talks and workshops take place at the "
@@ -1216,19 +1216,19 @@ msgstr ""
 "sekcie EduSummit. Všetky prednášky a workshopy sa konajú na tom istom "
 "mieste a môžeš sa rozhodnúť, ktoré prednášky a workshopy chceš navštíviť."
 
-#: templates/edusummit.html:353
+#: templates/edusummit.html:347
 msgid "If you are a teacher or student you are eligible for a discount."
 msgstr "Ak si učiteľ alebo študent, máš nárok na zľavu."
 
-#: templates/edusummit.html:367
+#: templates/edusummit.html:361
 msgid "Sponsorship"
 msgstr "Sponzoruj"
 
-#: templates/edusummit.html:368
+#: templates/edusummit.html:362
 msgid "We need you — EduSummit seeks for sponsors and partners!"
 msgstr "Potrebujeme vás — EduSummit hľadá sponzorov a partnerov!"
 
-#: templates/edusummit.html:373
+#: templates/edusummit.html:367
 msgid ""
 "By supporting PyCon you also support numerous educational activities "
 "during the conference. If the conference is profitable we finance "
@@ -1238,7 +1238,7 @@ msgstr ""
 "aktivít počas konferencie. V prípade, že bude konferencia zisková, budeme"
 " zo zisku financovať vzdelávacie aktivity počas celého roka."
 
-#: templates/edusummit.html:374
+#: templates/edusummit.html:368
 #, python-format
 msgid ""
 "Get in touch with us or visit our <a href=\"%(url)s\">sponsorship "
@@ -1870,7 +1870,7 @@ msgid "SysAdmin Team Lead at Exponea"
 msgstr "SysAdmin Team Lead v Exponea"
 
 #: templates/index.html:755 templates/index.html:765
-#: templates/speakers.html:1663 templates/speakers.html:1707
+#: templates/speakers.html:1667 templates/speakers.html:1685
 msgid "High school student"
 msgstr "Študentka gymnázia"
 
@@ -1882,11 +1882,11 @@ msgstr "Stredoškolský učiteľ informatiky, autor učebníc Pythonu"
 msgid "High school Informatics and programming teacher"
 msgstr "Stredoškolsá učiteľka informatiky a programovania"
 
-#: templates/index.html:798 templates/speakers.html:1846
+#: templates/index.html:798 templates/speakers.html:1824
 msgid "Machine learning specialist and big data engineer"
 msgstr "Špecialista na strojové učenie a big data inžinier"
 
-#: templates/index.html:808 templates/speakers.html:1859
+#: templates/index.html:808 templates/speakers.html:1837
 msgid "Machine learning specialist and software developer"
 msgstr "Špecialistka na strojové učenie a vývojárka softvéru"
 
@@ -1901,6 +1901,14 @@ msgstr "Spoluzakladateľ a výkonný riaditeľ OZ Slovensko.Digital"
 #: templates/index.html:841
 msgid "Software engineer, member of Slovensko.Digital"
 msgstr "Softvérový inžinier, člen združenia Slovensko.Digital"
+
+#: templates/index.html:854 templates/speakers.html:1989
+msgid "Informatics teacher"
+msgstr "Učiteľ informatiky"
+
+#: templates/index.html:864 templates/speakers.html:2036
+msgid "Developer at Radar Services and flutist at University of Arts"
+msgstr "Developerka v Radar Services a flautistka na konzervatóriu"
 
 #: templates/job-fair.html:8
 msgid "Job fair"
@@ -3251,6 +3259,39 @@ msgstr ""
 "Tento tutorial a datasety sú dostupné na GitHube: "
 "https://github.com/MridulS/pydata-networkx"
 
+#: templates/speakers.html:921
+msgid "Software Designer and PyCon organizer"
+msgstr "Dizajnér softvéru a organizátor PyConu"
+
+#: templates/speakers.html:930
+msgid "Software Designer, PyCon DE organizer, Python Software Foundation Fellow"
+msgstr "Dizajnér softvéru, organizátor PyCon DE, člen Python Software Foundation"
+
+#: templates/speakers.html:934
+msgid "Let's talk about MLOps"
+msgstr ""
+
+#: templates/speakers.html:935
+msgid ""
+"The quantity of hype around machine learning and AI is probably second "
+"only to bitcoins and blockchains. But until a machine learning model is "
+"deployed to production the value delivered to companies is approximately "
+"equal to zero. Together with the common mantra that data science can't "
+"use agile/lean frameworks or that the best software engineering practises"
+" don't apply explains a lot about why often companies got burnt with "
+"their data science projects and why generally they under delivered."
+msgstr ""
+
+#: templates/speakers.html:942
+msgid ""
+"MLOps is here to help, the machine-learning equivalent of DevOps: it "
+"solves the problems of implementing machine-learning in production. "
+"During this talk I will introduce the data science lifecycle, the concept"
+" of machine learning Ops, its characteristics, why is extremely required,"
+" how it compares to DevOps, how it will become a required capabilities "
+"for any DS/ML/AI Team, tools available and how you can start with it."
+msgstr ""
+
 #: templates/speakers.html:975
 msgid ""
 "Remote/on-site/anything in between web developer with ~10 and Team Lead "
@@ -3820,7 +3861,7 @@ msgid ""
 "system too."
 msgstr ""
 
-#: templates/speakers.html:1672
+#: templates/speakers.html:1676
 msgid ""
 "5th grade student at Gymnázium Golianova in Nitre, Microsoft ambassador. "
 "Attended the first Microsoft AI Bootcampu and reported on Microsoft "
@@ -3839,24 +3880,7 @@ msgstr ""
 " FPV v Nitre, kde mimo iného využíva aj BBC micro:bitov. Svoj talent v "
 "programovaní rozvíja aj v rámci programu DofE."
 
-#: templates/speakers.html:1681 templates/speakers.html:1724
-msgid "Programovať môže každý. Fakt alebo mýtus?"
-msgstr ""
-
-#: templates/speakers.html:1682 templates/speakers.html:1725
-msgid ""
-"Čo keby ste mali riešenie na oživenie vyučovania programovania? Riešenie,"
-" ktoré svieti, reaguje na podnety, alebo dokonca posiela správy? A môže "
-"programovať skutočne každý? Na workshope sa pokúsime nájsť odpoveď na "
-"tieto otázky. Vyskúšame si zábavné programovanie, či už s využitím "
-"grafického blokovo orientovaného programovacieho jazyka alebo textového "
-"jazyka MicroPython. Máme pre vás pripravenú ochutnávku práce s "
-"programovateľným mikropočítačom BBC micro:bit, s prezentáciou praktických"
-" tipov na rôzne aktivity pre študentov. Vzbuďme v študentoch chuť "
-"programovať!"
-msgstr ""
-
-#: templates/speakers.html:1716
+#: templates/speakers.html:1694
 msgid ""
 "Student of the final grade at Gymnazium Golianova in Nitra. Her "
 "activities range from DofE program to programming tutoring in senior "
@@ -3871,11 +3895,28 @@ msgstr ""
 "programovaním Microbitov. V budúcnosti sa chce stať softvérovou "
 "inžinierkou."
 
-#: templates/speakers.html:1750
+#: templates/speakers.html:1702
+msgid "Programovať môže každý. Fakt alebo mýtus?"
+msgstr ""
+
+#: templates/speakers.html:1703
+msgid ""
+"Čo keby ste mali riešenie na oživenie vyučovania programovania? Riešenie,"
+" ktoré svieti, reaguje na podnety, alebo dokonca posiela správy? A môže "
+"programovať skutočne každý? Na workshope sa pokúsime nájsť odpoveď na "
+"tieto otázky. Vyskúšame si zábavné programovanie, či už s využitím "
+"grafického blokovo orientovaného programovacieho jazyka alebo textového "
+"jazyka MicroPython. Máme pre vás pripravenú ochutnávku práce s "
+"programovateľným mikropočítačom BBC micro:bit, s prezentáciou praktických"
+" tipov na rôzne aktivity pre študentov. Vzbuďme v študentoch chuť "
+"programovať!"
+msgstr ""
+
+#: templates/speakers.html:1728
 msgid "High school informatics teacher, author of Python textbooks"
 msgstr "Stredoškolský učiteľ informatiky, autor učebníc Pythonu"
 
-#: templates/speakers.html:1759
+#: templates/speakers.html:1737
 msgid ""
 "Peter works as a high school informatics teacher. He is a member of "
 "subject comission for infromatics in State pedagogics institute. He "
@@ -3891,11 +3932,11 @@ msgstr ""
 "informatiky. Realizuje školenia jazyka Python pre učiteľov. Na praxi "
 "pripravuje študentov učiteľstva informatiky (fakultný učiteľ FMFI UK)."
 
-#: templates/speakers.html:1768
+#: templates/speakers.html:1746
 msgid "Programujeme v Pythone na strednej škole"
 msgstr ""
 
-#: templates/speakers.html:1769
+#: templates/speakers.html:1747
 msgid ""
 "Rozmýšľate, čo vyučovať na seminári z programovania, ak chcete svojich "
 "študentov naučiť ešte viac? Základnú a maturitnú úroveň programovania, "
@@ -3908,11 +3949,11 @@ msgid ""
 "sa budeme venovať v našom príspevku."
 msgstr ""
 
-#: templates/speakers.html:1795
+#: templates/speakers.html:1773
 msgid "High school informatics teacher"
 msgstr "Stredoškolská učiteľka informatiky a programovania"
 
-#: templates/speakers.html:1804
+#: templates/speakers.html:1782
 msgid ""
 "Informatics and programming teacher at High school in Martin feeling as "
 "an eternal student. Love to learn new things, so I make friends with "
@@ -3923,11 +3964,11 @@ msgstr ""
 "nové veci, preto som sa začala kamarátiť aj s Pythonom. Napriek tým, "
 "ktorí si myslia, že už v mojom veku takýchto priateľov nepotrebujem."
 
-#: templates/speakers.html:1810
+#: templates/speakers.html:1788
 msgid "Objavovanie VPythonu v Dudley College"
 msgstr ""
 
-#: templates/speakers.html:1811
+#: templates/speakers.html:1789
 msgid ""
 "V marci 2017 dostali žiaci Strednej priemyselnej školy technickej v "
 "Martine (SPŠT) prvýkrát príležitosť absolvovať prax v Dudley College vo "
@@ -3950,7 +3991,7 @@ msgid ""
 "ukážeme práce, ktoré sme vytvorili."
 msgstr ""
 
-#: templates/speakers.html:1854
+#: templates/speakers.html:1832
 msgid ""
 "Machine learning specialist and big data engineer at CogneXa, former "
 "MatFyz student."
@@ -3958,7 +3999,7 @@ msgstr ""
 "Špecialista na strojové učenie a big data inžinier v CogneXa, bývalý "
 "študent MatFyzu."
 
-#: templates/speakers.html:1868
+#: templates/speakers.html:1846
 msgid ""
 "Machine learning specialist and software developer at CogneXa, FIIT STU "
 "student."
@@ -3966,11 +4007,11 @@ msgstr ""
 "Špecialistka na strojové učenie a vývojárka softvéru v CogneXa, študentka"
 " FIIT STU."
 
-#: templates/speakers.html:1872
+#: templates/speakers.html:1850
 msgid "Machine learning workshop v Pythone"
 msgstr ""
 
-#: templates/speakers.html:1873
+#: templates/speakers.html:1851
 msgid ""
 "Náš workshop je zameraný na ukážku toho, ako môže byť strojové učenie "
 "použité na riešenie rôznych problémov a ako prejsť z programovania a data"
@@ -3983,11 +4024,11 @@ msgid ""
 "naprogramovaný aspoň jeden menší projekt). "
 msgstr ""
 
-#: templates/speakers.html:1898
+#: templates/speakers.html:1876
 msgid "Data Pipeline Team Lead"
 msgstr "Data Pipeline Team Lead"
 
-#: templates/speakers.html:1907
+#: templates/speakers.html:1885
 msgid ""
 "Filip, currently a \"Data Pipeline\" team lead at Exponea, has always "
 "combined his passions for software and complex systems. From architecting"
@@ -4005,11 +4046,11 @@ msgstr ""
 "his geeky heart and brain into everything he does. He also enjoys board "
 "games, puns and not taking himself too seriously."
 
-#: templates/speakers.html:1917
+#: templates/speakers.html:1895
 msgid "Stability with a Hockey-stick"
 msgstr ""
 
-#: templates/speakers.html:1918
+#: templates/speakers.html:1896
 msgid ""
 "\"Make fast and break things\" used to be a popular motto at Facebook, "
 "but at some point it needed to change. How can a fast-growing SaaS "
@@ -4018,11 +4059,11 @@ msgid ""
 "must be done, panic, and talk about how they can actually be done."
 msgstr ""
 
-#: templates/speakers.html:1944 templates/speakers.html:1966
+#: templates/speakers.html:1922 templates/speakers.html:1944
 msgid "Co-founder of Slovensko.Digital"
 msgstr "Spoluzakladateľ Slovensko.Digital"
 
-#: templates/speakers.html:1953
+#: templates/speakers.html:1931
 msgid ""
 "Gabriel Lachmann is chairman and a co-founding member of civic "
 "organization Slovensko.Digital. In 1999 he co-founded software company "
@@ -4049,7 +4090,7 @@ msgstr ""
 "LinkedData, ETL a BI. Rád programuje v jazykoch Scala, Java a JavaScript "
 "v prostrediach Apache Spark, Pentaho, Talend, Tableau."
 
-#: templates/speakers.html:1975
+#: templates/speakers.html:1953
 msgid ""
 "Jano is reponsible for development and community in slovensko.digital. "
 "His professional life has been dedicated to software development, he has "
@@ -4067,11 +4108,11 @@ msgstr ""
 "vlády a lekár Richard Raši ho nazval takzvaným odborníkom na "
 "informatizáciu."
 
-#: templates/speakers.html:1984
+#: templates/speakers.html:1962
 msgid "Ako prestať kradnúť v štátnom IT?"
 msgstr ""
 
-#: templates/speakers.html:1985
+#: templates/speakers.html:1963
 msgid ""
 "Slovensko.Digital už vyše troch rokov zasahuje do veľkých štátnych IT "
 "projektov a informatizácie verejnej správy ako takej. Dozviete sa či to "
@@ -4083,6 +4124,116 @@ msgid ""
 "či My Data, ktoré by mohli posunúť informatizáciu tak dopredu, že nám aj "
 "Estónci budú závidieť. Keď všetko pôjde podľa plánu mali by sa toho dožiť"
 " nielen naše budúce vnúčatá.."
+msgstr ""
+
+#: templates/speakers.html:1998
+msgid ""
+"Peter Valachovič is informatics teacher at Piaristic high school in Nitra"
+" where he teaches the base course of Python programming as well as "
+"extended course for final exam. He reported in short about the beginnings"
+" of switching to Python at PyCon SK 2018 and he is glad that this year he"
+" will come to EduSummit with two of his students working on their Python "
+"projects."
+msgstr ""
+"Mgr. Ing. Peter Valachovič, je učiteľ informatiky na Piaristickom "
+"gymnáziu v Nitre, kde vyučuje, ako základný kurz programovania v Pythone "
+"v rámci informatiky, tak i kurz prípravy na maturitu na voliteľných "
+"seminároch z informatiky. V krátkosti prezentoval začiatky prechodu na "
+"Python na PyCon SK 2018 a teší sa, že tento rok môže prísť na EduSummit s"
+" dvoma študentmi pracujúcimi na svojich pythonových projektoch v rámci "
+"školy."
+
+#: templates/speakers.html:2006
+msgid ""
+"Prechod na Python u Piaristov v Nitre a niektoré tamojšie študentské "
+"projekty"
+msgstr ""
+
+#: templates/speakers.html:2007
+msgid ""
+"Krátko sa podelíme o tom ako sa vyvíja prechod na Python z pascalu "
+"(Delphi/Lazarus), čo sa nám podarilo, a aké výzvy pred nami sme "
+"identifikovali konkrétne by sme chceli hovoriť o tom ako postupujeme pri "
+"vývoji kurzu pripravujúceho na maturitu z informatiky kedy použijeme "
+"programovací jazyk python vo verzii 3.X. Predstavíme projekt študentskej "
+"učebnice pre základný kurz Pythonu - od študenta pre študentov a "
+"študentský projekt vylepšenia zvonení na škole."
+msgstr ""
+
+#: templates/speakers.html:2013
+msgid ""
+"Pri predstavovaní študentskej učebnice bude Tomáš Kiss hovoriť o "
+"motivácii pre túto učebnicu a spôsobe akým ju realizuje. Tiež by chcel "
+"predostrieť výzvy, ktoré identifikuje a tiež spôsob ako budú môcť ostatní"
+" učebnicu získať."
+msgstr ""
+
+#: templates/speakers.html:2016
+msgid ""
+"Pri projekte o vylepšení zvonení na škole opíše Jakub stav, aký bol na "
+"škole predtým a popíše motiváciu k zlepšeniu ako aj realizovaný systém. "
+"Chcel by tiež poukázať na možnosti a úskalia, ktoré sa pri vývoji zvonení"
+" vyskytli."
+msgstr ""
+
+#: templates/speakers.html:2046
+msgid ""
+"On a sunny delicious afternoon, Ingrid was happily playing the flute on "
+"the meadows. Out of a sudden a bush stirred and from its depths, slowly "
+"and slenderly a Python danced his way out under the caresses of the sun. "
+"This is how Ingrid realized she can enchant Pythons with her flute and "
+"all three of them became friends. They soon after left together to the "
+"woods in order to find the ancient Japanese spirits of the forest. P.S.: "
+"Ingrid is a developer at RadarServices and studies the flute at the "
+"University of Arts in Graz. She loves languages (programming ones "
+"included) and often dives deep into day dreaming about the Japanese world"
+" and culture."
+msgstr ""
+"Počas krásneho slnečného popoludnia hrala Ingrid šťastne na flautu. Zrazu"
+" sa pohol krík a z jeho vnútra zrazu na denné svetlo pomaly elegantne "
+"vykĺzol Python. Takto Ingrid zistila, že pomocou flauty vie začarovať "
+"pytónov a stali sa tak priateľmi, Čoskoro sa spolu vybrali do lesa, aby "
+"našli dávneho japonského ducha lesa. P.S.: Ingrid je developerka v "
+"RadarServices a študuje flautu na kozervatóriu v Grazi. Miluje jazyky (aj"
+" programovacie) a často sníva o japonskom svet a kultúre."
+
+#: templates/speakers.html:2057
+msgid ""
+"The Apprentice's Enthusiastic Guide to pandas (or how to look at the "
+"world through the gentle eyes of one)"
+msgstr ""
+
+#: templates/speakers.html:2058
+msgid ""
+"The Pandas soon realized there's no way they are going to survive the "
+"ordeals and hardships of this world, if they didn't finally and without "
+"the blink of an eye of hesitation pull themselves together, stop being "
+"the lazy fluffy beings, they have long been known for and start "
+"reorganizing their lives ASAP. They needed a fresh view over the world "
+"and its intrinsic mechanisms, light had to be shed upon the information "
+"they possessed about survival, in a few words, they had to start over. "
+"This is how in the midst of the forest a high performative library was "
+"coming to life, whose powerful toolkit would enable them a long lasting "
+"life of happiness and joy. This long-dreamed library should import the "
+"information they have been gathering about the world for long gone "
+"centuries and help them look at it through different eyes. They wanted to"
+" structure their world views and beliefs into sensible types and "
+"categories, remove from their genes their procrastinative behavioural "
+"patterns, drop them altogether. After laborious efforts of dealing with "
+"missing data about their surroundings, grouping and counting the "
+"meaningful rest, filtering the nonsensical superstitions, they could "
+"finally and, without doubt, point out with precision, where the bamboo "
+"sprouts were freshest, most succulent, fiber rich, absolutely scrumptious"
+" and the moment of the year, dictated by the moon calendar, when they are"
+" fluffiest, cosiest, most willing and irresistibly fall for one another "
+"and cuddle up. They put all this secret survival kit into easily "
+"understandable pictures and graphs for the dreamers out of them, who "
+"weren't prepared to put in all the effort of learning all those "
+"complicated symbols, just in order to survive and just wanted to admire "
+"the sky goddess, the moon. But wait, they didn't have a name for their "
+"grandiose library, so they just wanted to make a statement of being the "
+"most diligent creature of them all and called it, simply and "
+"unmistakably, pandas!"
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
@@ -4198,23 +4349,38 @@ msgstr ""
 "zvyšujú produktivitu a dávajú tak priestor developerom rásť, objavovať a "
 "tvoriť."
 
-#: templates/sponsoring.html:133
+#: templates/sponsoring.html:136
+msgid ""
+"Martinus.sk is the largest online bookstore and the second largest "
+"bookseller in Slovakia. It was awarded in independent researches as \"the"
+" best\" or \"the most popular\" online store in Slovakia. The most "
+"important for us is to keep the most valuable asset: our customers' "
+"confidence. Thousands of stories. One bookstore. We still keep going..."
+msgstr ""
+"Martinus.sk je dnes najväčším internetovým kníhkupectvom na Slovensku a "
+"druhým najväčším predajcom kníh celkovo. Viackrát získal v nezávislých "
+"prieskumoch ocenenie „najlepší“ aj „najobľúbenejší“ internetový obchod "
+"na Slovensku. Pre nás je však najdôležitejšie, že pravidelne získavame "
+"to najcennejšie: vašu dôveru. Tisíce príbehov. Jedno kníhkupectvo. "
+"Kráčame ďalej…"
+
+#: templates/sponsoring.html:152
 msgid "Media Partners"
 msgstr "Medálni partneri"
 
-#: templates/sponsoring.html:167
+#: templates/sponsoring.html:186
 msgid "Partners"
 msgstr "Partneri"
 
-#: templates/sponsoring.html:243
+#: templates/sponsoring.html:262
 msgid "Why become a sponsor?"
 msgstr "Prečo sa stať sponzorom?"
 
-#: templates/sponsoring.html:244
+#: templates/sponsoring.html:263
 msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
 msgstr "Potrebujeme vás — PyCon SK 2019 v Bratislave hľadá sponzorov a partnerov!"
 
-#: templates/sponsoring.html:249
+#: templates/sponsoring.html:268
 msgid ""
 "PyCon is an annual gathering for the community using and developing the "
 "open-source Python programming language. The conference is completely "
@@ -4224,7 +4390,7 @@ msgstr ""
 "vyvíjajú open source programovací jazyk Python. Konferencia je kompletne "
 "organizovaná dobrovoľníkmi."
 
-#: templates/sponsoring.html:250
+#: templates/sponsoring.html:269
 msgid ""
 "The members of the Python community organize a PyCon conference in their "
 "home countries regularly, PyCon will happen in Slovakia for the fourth "
@@ -4234,7 +4400,7 @@ msgstr ""
 "domovských krajinách pravidelne. PyCon bude na Slovensku už po štvrtý "
 "raz."
 
-#: templates/sponsoring.html:254
+#: templates/sponsoring.html:273
 msgid ""
 "To ensure high-quality speakers and keep the tickets price available for "
 "everyone we need you, the sponsors, who allow the conference to take "
@@ -4244,7 +4410,7 @@ msgstr ""
 "vstupeniek dostupnú pre každého, potrebujeme vás, sponzorov, ktorí "
 "umožnia túto konferenciu uskutočniť."
 
-#: templates/sponsoring.html:258
+#: templates/sponsoring.html:277
 msgid ""
 "Do not hesitate to contact us. We are flexible and willing to work with "
 "you to design a sponsorship package that is going to meet your business "
@@ -4254,11 +4420,11 @@ msgstr ""
 "spolupracovať a navrhnúť s vami balíček sponzorstva, ktorý splní vaše "
 "obchodné potreby."
 
-#: templates/sponsoring.html:270
+#: templates/sponsoring.html:289
 msgid "Recruitment"
 msgstr "Nábor"
 
-#: templates/sponsoring.html:272
+#: templates/sponsoring.html:291
 msgid ""
 "Are you looking for programmers? PyCon is the best place for meeting new "
 "talents. Many participants will be experienced developers looking for "
@@ -4268,11 +4434,11 @@ msgstr ""
 " talentov. Mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj "
 "ďalší veľký kariérny krok."
 
-#: templates/sponsoring.html:281
+#: templates/sponsoring.html:300
 msgid "Audience"
 msgstr "Publikum"
 
-#: templates/sponsoring.html:283
+#: templates/sponsoring.html:302
 msgid ""
 "Want to get your message across to the people, so they talk about you? "
 "PyCon is a great opportunity. People in the Python community like to "
@@ -4282,11 +4448,11 @@ msgstr ""
 " na to skvelá príležitosť. Ľudia v Python komunite radi objavujú a "
 "zdieľajú nové veci."
 
-#: templates/sponsoring.html:292
+#: templates/sponsoring.html:311
 msgid "Marketing"
 msgstr "Marketing"
 
-#: templates/sponsoring.html:294
+#: templates/sponsoring.html:313
 msgid ""
 "Looking for new users for your product? Such people can be found at PyCon"
 " - they also will look for new products and ideas."
@@ -4294,11 +4460,11 @@ msgstr ""
 "Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na "
 "PyCone - aj oni budú hľadať nové produkty a nápady."
 
-#: templates/sponsoring.html:303
+#: templates/sponsoring.html:322
 msgid "Community"
 msgstr "Komunita"
 
-#: templates/sponsoring.html:305
+#: templates/sponsoring.html:324
 msgid ""
 "Looking for new contributors and partners for your open source project? "
 "PyCon is the place, where they also will look for you."
@@ -4306,11 +4472,11 @@ msgstr ""
 "Hľadáte nových prispievateľov a partnerov pre váš open source projekt? "
 "PyCon je miesto, kde aj oni budú hľadať vás."
 
-#: templates/sponsoring.html:314
+#: templates/sponsoring.html:333
 msgid "Support"
 msgstr "Podpora"
 
-#: templates/sponsoring.html:316
+#: templates/sponsoring.html:335
 msgid ""
 "Are you using Python in your company? Support for community events is an "
 "excellent opportunity to contribute back."
