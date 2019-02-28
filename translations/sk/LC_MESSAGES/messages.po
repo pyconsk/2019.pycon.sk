@@ -7,11 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-<<<<<<< HEAD
 "POT-Creation-Date: 2019-02-28 07:52+0100\n"
-=======
-"POT-Creation-Date: 2019-02-27 07:52+0100\n"
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1877,13 +1873,8 @@ msgstr "Python backend developer"
 msgid "SysAdmin Team Lead at Exponea"
 msgstr "SysAdmin Team Lead v Exponea"
 
-<<<<<<< HEAD
 #: templates/index.html:754 templates/index.html:764
 #: templates/speakers.html:1666 templates/speakers.html:1684
-=======
-#: templates/index.html:755 templates/index.html:765
-#: templates/speakers.html:1667 templates/speakers.html:1685
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid "High school student"
 msgstr "Študentka gymnázia"
 
@@ -1895,19 +1886,11 @@ msgstr "Stredoškolský učiteľ informatiky, autor učebníc Pythonu"
 msgid "High school Informatics and programming teacher"
 msgstr "Stredoškolsá učiteľka informatiky a programovania"
 
-<<<<<<< HEAD
 #: templates/index.html:797 templates/speakers.html:1823
 msgid "Machine learning specialist and big data engineer"
 msgstr "Špecialista na strojové učenie a big data inžinier"
 
 #: templates/index.html:807 templates/speakers.html:1836
-=======
-#: templates/index.html:798 templates/speakers.html:1824
-msgid "Machine learning specialist and big data engineer"
-msgstr "Špecialista na strojové učenie a big data inžinier"
-
-#: templates/index.html:808 templates/speakers.html:1837
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid "Machine learning specialist and software developer"
 msgstr "Špecialistka na strojové učenie a vývojárka softvéru"
 
@@ -1923,19 +1906,11 @@ msgstr "Spoluzakladateľ a výkonný riaditeľ OZ Slovensko.Digital"
 msgid "Software engineer, member of Slovensko.Digital"
 msgstr "Softvérový inžinier, člen združenia Slovensko.Digital"
 
-<<<<<<< HEAD
 #: templates/index.html:853 templates/speakers.html:1988
 msgid "Informatics teacher"
 msgstr "Učiteľ informatiky"
 
 #: templates/index.html:863 templates/speakers.html:2035
-=======
-#: templates/index.html:854 templates/speakers.html:1989
-msgid "Informatics teacher"
-msgstr "Učiteľ informatiky"
-
-#: templates/index.html:864 templates/speakers.html:2036
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid "Developer at Radar Services and flutist at University of Arts"
 msgstr "Developerka v Radar Services a flautistka na konzervatóriu"
 
@@ -3288,13 +3263,6 @@ msgstr ""
 "Tento tutorial a datasety sú dostupné na GitHube: "
 "https://github.com/MridulS/pydata-networkx"
 
-<<<<<<< HEAD
-=======
-#: templates/speakers.html:921
-msgid "Software Designer and PyCon organizer"
-msgstr "Dizajnér softvéru a organizátor PyConu"
-
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 #: templates/speakers.html:930
 msgid "Software Designer, PyCon DE organizer, Python Software Foundation Fellow"
 msgstr "Dizajnér softvéru, organizátor PyCon DE, člen Python Software Foundation"
@@ -3893,11 +3861,7 @@ msgid ""
 "system too."
 msgstr ""
 
-<<<<<<< HEAD
 #: templates/speakers.html:1675
-=======
-#: templates/speakers.html:1676
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "5th grade student at Gymnázium Golianova in Nitre, Microsoft ambassador. "
 "Attended the first Microsoft AI Bootcampu and reported on Microsoft "
@@ -3916,11 +3880,7 @@ msgstr ""
 " FPV v Nitre, kde mimo iného využíva aj BBC micro:bitov. Svoj talent v "
 "programovaní rozvíja aj v rámci programu DofE."
 
-<<<<<<< HEAD
 #: templates/speakers.html:1693
-=======
-#: templates/speakers.html:1694
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Student of the final grade at Gymnazium Golianova in Nitra. Her "
 "activities range from DofE program to programming tutoring in senior "
@@ -3935,19 +3895,11 @@ msgstr ""
 "programovaním Microbitov. V budúcnosti sa chce stať softvérovou "
 "inžinierkou."
 
-<<<<<<< HEAD
 #: templates/speakers.html:1701
 msgid "Programovať môže každý. Fakt alebo mýtus?"
 msgstr ""
 
 #: templates/speakers.html:1702
-=======
-#: templates/speakers.html:1702
-msgid "Programovať môže každý. Fakt alebo mýtus?"
-msgstr ""
-
-#: templates/speakers.html:1703
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Čo keby ste mali riešenie na oživenie vyučovania programovania? Riešenie,"
 " ktoré svieti, reaguje na podnety, alebo dokonca posiela správy? A môže "
@@ -3960,19 +3912,11 @@ msgid ""
 "programovať!"
 msgstr ""
 
-<<<<<<< HEAD
 #: templates/speakers.html:1727
 msgid "High school informatics teacher, author of Python textbooks"
 msgstr "Stredoškolský učiteľ informatiky, autor učebníc Pythonu"
 
 #: templates/speakers.html:1736
-=======
-#: templates/speakers.html:1728
-msgid "High school informatics teacher, author of Python textbooks"
-msgstr "Stredoškolský učiteľ informatiky, autor učebníc Pythonu"
-
-#: templates/speakers.html:1737
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Peter works as a high school informatics teacher. He is a member of "
 "subject comission for infromatics in State pedagogics institute. He "
@@ -3988,19 +3932,11 @@ msgstr ""
 "informatiky. Realizuje školenia jazyka Python pre učiteľov. Na praxi "
 "pripravuje študentov učiteľstva informatiky (fakultný učiteľ FMFI UK)."
 
-<<<<<<< HEAD
 #: templates/speakers.html:1745
 msgid "Programujeme v Pythone na strednej škole"
 msgstr ""
 
 #: templates/speakers.html:1746
-=======
-#: templates/speakers.html:1746
-msgid "Programujeme v Pythone na strednej škole"
-msgstr ""
-
-#: templates/speakers.html:1747
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Rozmýšľate, čo vyučovať na seminári z programovania, ak chcete svojich "
 "študentov naučiť ešte viac? Základnú a maturitnú úroveň programovania, "
@@ -4013,19 +3949,11 @@ msgid ""
 "sa budeme venovať v našom príspevku."
 msgstr ""
 
-<<<<<<< HEAD
 #: templates/speakers.html:1772
 msgid "High school informatics teacher"
 msgstr "Stredoškolská učiteľka informatiky a programovania"
 
 #: templates/speakers.html:1781
-=======
-#: templates/speakers.html:1773
-msgid "High school informatics teacher"
-msgstr "Stredoškolská učiteľka informatiky a programovania"
-
-#: templates/speakers.html:1782
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Informatics and programming teacher at High school in Martin feeling as "
 "an eternal student. Love to learn new things, so I make friends with "
@@ -4036,19 +3964,11 @@ msgstr ""
 "nové veci, preto som sa začala kamarátiť aj s Pythonom. Napriek tým, "
 "ktorí si myslia, že už v mojom veku takýchto priateľov nepotrebujem."
 
-<<<<<<< HEAD
 #: templates/speakers.html:1787
 msgid "Objavovanie VPythonu v Dudley College"
 msgstr ""
 
 #: templates/speakers.html:1788
-=======
-#: templates/speakers.html:1788
-msgid "Objavovanie VPythonu v Dudley College"
-msgstr ""
-
-#: templates/speakers.html:1789
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "V marci 2017 dostali žiaci Strednej priemyselnej školy technickej v "
 "Martine (SPŠT) prvýkrát príležitosť absolvovať prax v Dudley College vo "
@@ -4071,11 +3991,7 @@ msgid ""
 "ukážeme práce, ktoré sme vytvorili."
 msgstr ""
 
-<<<<<<< HEAD
 #: templates/speakers.html:1831
-=======
-#: templates/speakers.html:1832
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Machine learning specialist and big data engineer at CogneXa, former "
 "MatFyz student."
@@ -4083,11 +3999,7 @@ msgstr ""
 "Špecialista na strojové učenie a big data inžinier v CogneXa, bývalý "
 "študent MatFyzu."
 
-<<<<<<< HEAD
 #: templates/speakers.html:1845
-=======
-#: templates/speakers.html:1846
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Machine learning specialist and software developer at CogneXa, FIIT STU "
 "student."
@@ -4095,19 +4007,11 @@ msgstr ""
 "Špecialistka na strojové učenie a vývojárka softvéru v CogneXa, študentka"
 " FIIT STU."
 
-<<<<<<< HEAD
 #: templates/speakers.html:1849
 msgid "Machine learning workshop v Pythone"
 msgstr ""
 
 #: templates/speakers.html:1850
-=======
-#: templates/speakers.html:1850
-msgid "Machine learning workshop v Pythone"
-msgstr ""
-
-#: templates/speakers.html:1851
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Náš workshop je zameraný na ukážku toho, ako môže byť strojové učenie "
 "použité na riešenie rôznych problémov a ako prejsť z programovania a data"
@@ -4120,19 +4024,11 @@ msgid ""
 "naprogramovaný aspoň jeden menší projekt). "
 msgstr ""
 
-<<<<<<< HEAD
 #: templates/speakers.html:1875
 msgid "Data Pipeline Team Lead"
 msgstr "Data Pipeline Team Lead"
 
 #: templates/speakers.html:1884
-=======
-#: templates/speakers.html:1876
-msgid "Data Pipeline Team Lead"
-msgstr "Data Pipeline Team Lead"
-
-#: templates/speakers.html:1885
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Filip, currently a \"Data Pipeline\" team lead at Exponea, has always "
 "combined his passions for software and complex systems. From architecting"
@@ -4150,19 +4046,11 @@ msgstr ""
 "his geeky heart and brain into everything he does. He also enjoys board "
 "games, puns and not taking himself too seriously."
 
-<<<<<<< HEAD
 #: templates/speakers.html:1894
 msgid "Stability with a Hockey-stick"
 msgstr ""
 
 #: templates/speakers.html:1895
-=======
-#: templates/speakers.html:1895
-msgid "Stability with a Hockey-stick"
-msgstr ""
-
-#: templates/speakers.html:1896
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "\"Make fast and break things\" used to be a popular motto at Facebook, "
 "but at some point it needed to change. How can a fast-growing SaaS "
@@ -4171,19 +4059,11 @@ msgid ""
 "must be done, panic, and talk about how they can actually be done."
 msgstr ""
 
-<<<<<<< HEAD
 #: templates/speakers.html:1921 templates/speakers.html:1943
 msgid "Co-founder of Slovensko.Digital"
 msgstr "Spoluzakladateľ Slovensko.Digital"
 
 #: templates/speakers.html:1930
-=======
-#: templates/speakers.html:1922 templates/speakers.html:1944
-msgid "Co-founder of Slovensko.Digital"
-msgstr "Spoluzakladateľ Slovensko.Digital"
-
-#: templates/speakers.html:1931
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Gabriel Lachmann is chairman and a co-founding member of civic "
 "organization Slovensko.Digital. In 1999 he co-founded software company "
@@ -4210,11 +4090,7 @@ msgstr ""
 "LinkedData, ETL a BI. Rád programuje v jazykoch Scala, Java a JavaScript "
 "v prostrediach Apache Spark, Pentaho, Talend, Tableau."
 
-<<<<<<< HEAD
 #: templates/speakers.html:1952
-=======
-#: templates/speakers.html:1953
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Jano is reponsible for development and community in slovensko.digital. "
 "His professional life has been dedicated to software development, he has "
@@ -4232,19 +4108,11 @@ msgstr ""
 "vlády a lekár Richard Raši ho nazval takzvaným odborníkom na "
 "informatizáciu."
 
-<<<<<<< HEAD
 #: templates/speakers.html:1961
 msgid "Ako prestať kradnúť v štátnom IT?"
 msgstr ""
 
 #: templates/speakers.html:1962
-=======
-#: templates/speakers.html:1962
-msgid "Ako prestať kradnúť v štátnom IT?"
-msgstr ""
-
-#: templates/speakers.html:1963
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Slovensko.Digital už vyše troch rokov zasahuje do veľkých štátnych IT "
 "projektov a informatizácie verejnej správy ako takej. Dozviete sa či to "
@@ -4258,11 +4126,7 @@ msgid ""
 " nielen naše budúce vnúčatá.."
 msgstr ""
 
-<<<<<<< HEAD
 #: templates/speakers.html:1997
-=======
-#: templates/speakers.html:1998
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Peter Valachovič is informatics teacher at Piaristic high school in Nitra"
 " where he teaches the base course of Python programming as well as "
@@ -4279,21 +4143,13 @@ msgstr ""
 " dvoma študentmi pracujúcimi na svojich pythonových projektoch v rámci "
 "školy."
 
-<<<<<<< HEAD
 #: templates/speakers.html:2005
-=======
-#: templates/speakers.html:2006
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Prechod na Python u Piaristov v Nitre a niektoré tamojšie študentské "
 "projekty"
 msgstr ""
 
-<<<<<<< HEAD
 #: templates/speakers.html:2006
-=======
-#: templates/speakers.html:2007
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Krátko sa podelíme o tom ako sa vyvíja prechod na Python z pascalu "
 "(Delphi/Lazarus), čo sa nám podarilo, a aké výzvy pred nami sme "
@@ -4304,11 +4160,7 @@ msgid ""
 "študentský projekt vylepšenia zvonení na škole."
 msgstr ""
 
-<<<<<<< HEAD
 #: templates/speakers.html:2012
-=======
-#: templates/speakers.html:2013
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Pri predstavovaní študentskej učebnice bude Tomáš Kiss hovoriť o "
 "motivácii pre túto učebnicu a spôsobe akým ju realizuje. Tiež by chcel "
@@ -4316,11 +4168,7 @@ msgid ""
 " učebnicu získať."
 msgstr ""
 
-<<<<<<< HEAD
 #: templates/speakers.html:2015
-=======
-#: templates/speakers.html:2016
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Pri projekte o vylepšení zvonení na škole opíše Jakub stav, aký bol na "
 "škole predtým a popíše motiváciu k zlepšeniu ako aj realizovaný systém. "
@@ -4328,11 +4176,7 @@ msgid ""
 " vyskytli."
 msgstr ""
 
-<<<<<<< HEAD
 #: templates/speakers.html:2045
-=======
-#: templates/speakers.html:2046
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "On a sunny delicious afternoon, Ingrid was happily playing the flute on "
 "the meadows. Out of a sudden a bush stirred and from its depths, slowly "
@@ -4345,11 +4189,7 @@ msgid ""
 "included) and often dives deep into day dreaming about the Japanese world"
 " and culture."
 msgstr ""
-<<<<<<< HEAD
 "V jedno krásne slnečné popoludnie hrala Ingrid spokojne na flautu. Zrazu"
-=======
-"Počas krásneho slnečného popoludnia hrala Ingrid šťastne na flautu. Zrazu"
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 " sa pohol krík a z jeho vnútra zrazu na denné svetlo pomaly elegantne "
 "vykĺzol Python. Takto Ingrid zistila, že pomocou flauty vie začarovať "
 "pytónov a stali sa tak priateľmi, Čoskoro sa spolu vybrali do lesa, aby "
@@ -4357,21 +4197,13 @@ msgstr ""
 "RadarServices a študuje flautu na kozervatóriu v Grazi. Miluje jazyky (aj"
 " programovacie) a často sníva o japonskom svet a kultúre."
 
-<<<<<<< HEAD
 #: templates/speakers.html:2056
-=======
-#: templates/speakers.html:2057
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "The Apprentice's Enthusiastic Guide to pandas (or how to look at the "
 "world through the gentle eyes of one)"
 msgstr ""
 
-<<<<<<< HEAD
 #: templates/speakers.html:2057
-=======
-#: templates/speakers.html:2058
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "The Pandas soon realized there's no way they are going to survive the "
 "ordeals and hardships of this world, if they didn't finally and without "
@@ -4550,11 +4382,7 @@ msgstr ""
 "zvyšujú produktivitu a dávajú tak priestor developerom rásť, objavovať a "
 "tvoriť."
 
-<<<<<<< HEAD
 #: templates/sponsoring.html:184
-=======
-#: templates/sponsoring.html:136
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Martinus.sk is the largest online bookstore and the second largest "
 "bookseller in Slovakia. It was awarded in independent researches as \"the"
@@ -4564,7 +4392,6 @@ msgid ""
 msgstr ""
 "Martinus.sk je dnes najväčším internetovým kníhkupectvom na Slovensku a "
 "druhým najväčším predajcom kníh celkovo. Viackrát získal v nezávislých "
-<<<<<<< HEAD
 "prieskumoch ocenenie „najlepší“ aj „najobľúbenejší“ internetový obchod na"
 " Slovensku. Pre nás je však najdôležitejšie, že pravidelne získavame to "
 "najcennejšie: vašu dôveru. Tisíce príbehov. Jedno kníhkupectvo. Kráčame "
@@ -4587,30 +4414,6 @@ msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partne
 msgstr "Potrebujeme vás — PyCon SK 2019 v Bratislave hľadá sponzorov a partnerov!"
 
 #: templates/sponsoring.html:316
-=======
-"prieskumoch ocenenie „najlepší“ aj „najobľúbenejší“ internetový obchod "
-"na Slovensku. Pre nás je však najdôležitejšie, že pravidelne získavame "
-"to najcennejšie: vašu dôveru. Tisíce príbehov. Jedno kníhkupectvo. "
-"Kráčame ďalej…"
-
-#: templates/sponsoring.html:152
-msgid "Media Partners"
-msgstr "Medálni partneri"
-
-#: templates/sponsoring.html:186
-msgid "Partners"
-msgstr "Partneri"
-
-#: templates/sponsoring.html:262
-msgid "Why become a sponsor?"
-msgstr "Prečo sa stať sponzorom?"
-
-#: templates/sponsoring.html:263
-msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
-msgstr "Potrebujeme vás — PyCon SK 2019 v Bratislave hľadá sponzorov a partnerov!"
-
-#: templates/sponsoring.html:268
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "PyCon is an annual gathering for the community using and developing the "
 "open-source Python programming language. The conference is completely "
@@ -4620,11 +4423,7 @@ msgstr ""
 "vyvíjajú open source programovací jazyk Python. Konferencia je kompletne "
 "organizovaná dobrovoľníkmi."
 
-<<<<<<< HEAD
 #: templates/sponsoring.html:317
-=======
-#: templates/sponsoring.html:269
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "The members of the Python community organize a PyCon conference in their "
 "home countries regularly, PyCon will happen in Slovakia for the fourth "
@@ -4634,11 +4433,7 @@ msgstr ""
 "domovských krajinách pravidelne. PyCon bude na Slovensku už po štvrtý "
 "raz."
 
-<<<<<<< HEAD
 #: templates/sponsoring.html:321
-=======
-#: templates/sponsoring.html:273
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "To ensure high-quality speakers and keep the tickets price available for "
 "everyone we need you, the sponsors, who allow the conference to take "
@@ -4648,11 +4443,7 @@ msgstr ""
 "vstupeniek dostupnú pre každého, potrebujeme vás, sponzorov, ktorí "
 "umožnia túto konferenciu uskutočniť."
 
-<<<<<<< HEAD
 #: templates/sponsoring.html:325
-=======
-#: templates/sponsoring.html:277
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Do not hesitate to contact us. We are flexible and willing to work with "
 "you to design a sponsorship package that is going to meet your business "
@@ -4662,19 +4453,11 @@ msgstr ""
 "spolupracovať a navrhnúť s vami balíček sponzorstva, ktorý splní vaše "
 "obchodné potreby."
 
-<<<<<<< HEAD
 #: templates/sponsoring.html:337
 msgid "Recruitment"
 msgstr "Nábor"
 
 #: templates/sponsoring.html:339
-=======
-#: templates/sponsoring.html:289
-msgid "Recruitment"
-msgstr "Nábor"
-
-#: templates/sponsoring.html:291
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Are you looking for programmers? PyCon is the best place for meeting new "
 "talents. Many participants will be experienced developers looking for "
@@ -4684,19 +4467,11 @@ msgstr ""
 " talentov. Mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj "
 "ďalší veľký kariérny krok."
 
-<<<<<<< HEAD
 #: templates/sponsoring.html:348
 msgid "Audience"
 msgstr "Publikum"
 
 #: templates/sponsoring.html:350
-=======
-#: templates/sponsoring.html:300
-msgid "Audience"
-msgstr "Publikum"
-
-#: templates/sponsoring.html:302
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Want to get your message across to the people, so they talk about you? "
 "PyCon is a great opportunity. People in the Python community like to "
@@ -4706,19 +4481,11 @@ msgstr ""
 " na to skvelá príležitosť. Ľudia v Python komunite radi objavujú a "
 "zdieľajú nové veci."
 
-<<<<<<< HEAD
 #: templates/sponsoring.html:359
 msgid "Marketing"
 msgstr "Marketing"
 
 #: templates/sponsoring.html:361
-=======
-#: templates/sponsoring.html:311
-msgid "Marketing"
-msgstr "Marketing"
-
-#: templates/sponsoring.html:313
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Looking for new users for your product? Such people can be found at PyCon"
 " - they also will look for new products and ideas."
@@ -4726,19 +4493,11 @@ msgstr ""
 "Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na "
 "PyCone - aj oni budú hľadať nové produkty a nápady."
 
-<<<<<<< HEAD
 #: templates/sponsoring.html:370
 msgid "Community"
 msgstr "Komunita"
 
 #: templates/sponsoring.html:372
-=======
-#: templates/sponsoring.html:322
-msgid "Community"
-msgstr "Komunita"
-
-#: templates/sponsoring.html:324
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Looking for new contributors and partners for your open source project? "
 "PyCon is the place, where they also will look for you."
@@ -4746,19 +4505,11 @@ msgstr ""
 "Hľadáte nových prispievateľov a partnerov pre váš open source projekt? "
 "PyCon je miesto, kde aj oni budú hľadať vás."
 
-<<<<<<< HEAD
 #: templates/sponsoring.html:381
 msgid "Support"
 msgstr "Podpora"
 
 #: templates/sponsoring.html:383
-=======
-#: templates/sponsoring.html:333
-msgid "Support"
-msgstr "Podpora"
-
-#: templates/sponsoring.html:335
->>>>>>> d85e645aec4db016bc138e5c81d9bab960fe66c9
 msgid ""
 "Are you using Python in your company? Support for community events is an "
 "excellent opportunity to contribute back."
