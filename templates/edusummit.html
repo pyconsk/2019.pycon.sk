@@ -57,8 +57,8 @@
                             {% endif %}
                         </div><!-- Info end -->
                     </div><!-- Col end -->
-                </div><!-- Speaker list 3 end -->
-            </div><!-- Speaker row 3 -->
+                </div><!-- Speaker list 1 end -->
+            </div><!-- Speaker row 1 -->
 
             <div class="row">
                 <div class="ts-speaker-list clearfix">
@@ -72,12 +72,6 @@
                         <div class="ts-speaker-info">
                             <h3 class="ts-speaker-name dark">Luke Spademan</h3>
                             <p class="ts-speaker-designation">{{ _('CS student and Python enthusiast') }}</p>
-{#                            <ul class="ts-speaker-social-links">#}
-{#                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
-{#                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
-{#                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>#}
-{#                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
-{#                            </ul>#}
                             <div class="ts-speaker-bio">
                                 <p>
                                     {{ _('Luke is 17 and is studying computer science, maths, further maths and physics in Year 12 (English Secondary school / Sixthform). He loves to program in Python and thinks that the micro:bit is a great eductional tool and should be more widely used. He has given previous talks at Pycon UK and is looking forward to speaking at Pycon SK 2019.') }}
@@ -90,8 +84,145 @@
                             </div>
                         </div><!-- Info end -->
                     </div><!-- Col end -->
+                </div><!-- Speaker list 2 end -->
+            </div><!-- Speaker row 2 -->
+
+            <div class="row">
+                <div class="ts-speaker-list clearfix">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="{{ url_for('static', filename='images/speakers/bellayova.jpg') }}" />
+                        </div><!--Image end -->
+                        <p/>
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="{{ url_for('static', filename='images/speakers/kupcova.jpg') }}" />
+                        </div><!--Image end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-xs-12 col-md-8">
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name dark">Magdaléna Bellayová</h3>
+                            <p class="ts-speaker-designation">{{ _('High school student') }}</p>
+                            <div class="ts-speaker-bio">
+                                <p>
+                                    {{ _('5th grade student at Gymnázium Golianova in Nitre, Microsoft ambassador. '
+                                         'Attended the first Microsoft AI Bootcampu and reported on Microsoft '
+                                         'conferences Educate for future. She is active in activities focused on '
+                                         'informatics popularization such as summer informatics camp. Currently she '
+                                         'volunteers at child computer club in Nitra where BBC micro:bits are used. '
+                                         'She is continuously improving her programming talent in DofE program.') }}
+                                </p>
+                            </div>
+                            <h3 class="ts-speaker-name dark">Eva Kupčová</h3>
+                            <p class="ts-speaker-designation">{{ _('High school student') }}</p>
+                            <div class="ts-speaker-bio">
+                                <p>
+                                    {{ _('Student of the final grade at Gymnazium Golianova in Nitra. Her activities '
+                                         'range from DofE program to programming tutoring in senior home. During the '
+                                         'summer she attended a Microsoft project for girls - the first AI Bootcamp '
+                                         'where she experienced programming with micro:bits. In the future she wants '
+                                         'to be a software engineer.') }}
+                                </p>
+                            </div>
+                            <div class="ts-speaker-session">
+                                <h4 class="session-title">{{ _('Programovať môže každý. Fakt alebo mýtus?') }}</h4>
+                                <p> {{ _('Čo keby ste mali riešenie na oživenie vyučovania programovania? Riešenie, '
+                                         'ktoré svieti, reaguje na podnety, alebo dokonca posiela správy? A môže '
+                                         'programovať skutočne každý? Na workshope sa pokúsime nájsť odpoveď na tieto '
+                                         'otázky. Vyskúšame si zábavné programovanie, či už s využitím grafického '
+                                         'blokovo orientovaného programovacieho jazyka alebo textového jazyka '
+                                         'MicroPython. Máme pre vás pripravenú ochutnávku práce s programovateľným '
+                                         'mikropočítačom BBC micro:bit, s prezentáciou praktických tipov na rôzne '
+                                         'aktivity pre študentov. Vzbuďme v študentoch chuť programovať!') }} </p>
+                            </div>
+                        </div><!-- Info end -->
+                    </div><!-- Col end -->
                 </div><!-- Speaker list 3 end -->
             </div><!-- Speaker row 3 -->
+
+            <div class="row">
+                <div class="ts-speaker-list clearfix">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="{{ url_for('static', filename='images/speakers/kucera.jpg') }}" />
+                        </div><!--Image end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-xs-12 col-md-8">
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name dark">Peter Kučera</h3>
+                            <p class="ts-speaker-designation">{{ _('High school informatics teacher, author of Python textbooks') }}</p>
+                            <div class="ts-speaker-bio">
+                                <p>
+                                    {{ _('Peter works as a high school informatics teacher. He is a member of subject '
+                                         'comission for infromatics in State pedagogics institute. He authored a serie '
+                                         'of textbooks Programujeme v Pythone (Programming in Python) with handbook '
+                                         'for teachers, final exam exercises and a collection of tests. He leads '
+                                         'Informatics teachers club and does the Python courses for teachers. '
+                                         'He also prepares students for teaching informatics.') }}
+                                </p>
+                            </div>
+                            <div class="ts-speaker-session">
+                                <h4 class="session-title">{{ _('Programujeme v Pythone na strednej škole') }}</h4>
+                                <p> {{ _('Rozmýšľate, čo vyučovať na seminári z programovania, ak chcete svojich '
+                                         'študentov naučiť ešte viac? Základnú a maturitnú úroveň programovania, ktorú '
+                                         'sme predstavili v minulosti, sme rozšírili o ďalšie zaujímavé témy. V '
+                                         'príspevku vám predstavíme, čo učíme na seminároch z programovania. Ukážeme '
+                                         'vám, ktorým témam sa venujeme, ako sme ich spracovali, ktorý kontext úloh sa '
+                                         'nám osvedčil v praxi. Tiež vám predstavíme kompletné materiály na strednú '
+                                         'školu. Ako aktivizovať študentov? Aké programy vedia vytvoriť a ako tvoria '
+                                         'seminárne práce z programovania? Aj týmto otázkam sa budeme venovať v našom '
+                                         'príspevku.') }} </p>
+                            </div>
+                        </div><!-- Info end -->
+                    </div><!-- Col end -->
+                </div><!-- Speaker list 4 end -->
+            </div><!-- Speaker row 4 -->
+
+            <div class="row">
+                <div class="ts-speaker-list clearfix">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="{{ url_for('static', filename='images/speakers/sturmova.jpg') }}" />
+                        </div><!--Image end -->
+                    </div><!-- Col end -->
+
+                    <div class="col-xs-12 col-md-8">
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name dark">Miroslava Šturmová</h3>
+                            <p class="ts-speaker-designation">{{ _('High school informatics teacher') }}</p>
+                            <div class="ts-speaker-bio">
+                                <p>
+                                    {{ _('Informatics and programming teacher at High school in Martin feeling as an '
+                                         'eternal student. Love to learn new things, so I make friends with Python '
+                                         'although some people think I don\'t need such friends in my age.') }}
+                                </p>
+                            </div>
+                            <div class="ts-speaker-session">
+                                <h4 class="session-title">{{ _('Objavovanie VPythonu v Dudley College') }}</h4>
+                                <p> {{ _('V marci 2017 dostali žiaci Strednej priemyselnej školy technickej v Martine '
+                                         '(SPŠT) prvýkrát príležitosť absolvovať prax v Dudley College vo Veľkej '
+                                         'Británii. Vďaka úspešnému projektu Erasmus+ „Turiec do Európy, Európa do '
+                                         'Turca“, ktorý pripravila K. A. B. A. Slovensko, sa tu zoznámili s programovacím '
+                                         'jazykom Python. Projekt bol úspešný aj v školskom roku 2017/2018. Dudley College '
+                                         'sa tak stala na dva marcové týždne školou pre desiatich tretiakov technického '
+                                         'lýcea SPŠT. Odborný program bol zameraný na tvorbu efektívnych algoritmov, '
+                                         'rozvoj logického myslenia, grafiku a nástroj pre vytváranie 3D animácií v '
+                                         'reálnom čase - VPython. Svoje nadobudnuté vedomosti a praktické zručnosti '
+                                         'odovzdali účastníci mobility aj ďalej. Učitelia informatiky SPŠT a Gymnázia '
+                                         'Viliama Paulínyho Tótha (GVPT) v Martine nadviazali na úspešnú spoluprácu z '
+                                         'minulého roka, opäť spojili svoje sily a pripravili druhý ročník odbornej '
+                                         'konferencie PYTHON DAYS 2.0. V dňoch 31.5 - 1.6.2018 odzneli na GVPT zaujímavé '
+                                         'prednášky, robilo sa veľa workshopov. Na jednom z nich sme predstavili '
+                                         'gymnazistom VPython a vývojové prostredie GlowScript. Výstupy z mobility '
+                                         'Erasmus+ tak neostali len doma, na SPŠT, ale nadobudli oveľa širší rozmer. '
+                                         'Na konferencii PyCON SK 2019 predstavíme toto prostredie, jeho nástroje a '
+                                         'ukážeme práce, ktoré sme vytvorili.') }} </p>
+                            </div>
+                        </div><!-- Info end -->
+                    </div><!-- Col end -->
+                </div><!-- Speaker list 5 end -->
+            </div><!-- Speaker row 5 -->
 
         </div>
     </section>
