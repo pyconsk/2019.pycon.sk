@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-03-02 20:45+0100\n"
+"POT-Creation-Date: 2019-03-02 22:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,8 +128,8 @@ msgstr ""
 #: templates/body.html:223
 #, python-format
 msgid ""
-"Found a bug? Missing some information? This is community managed website,"
-" contribute at our %(github)s."
+"Found a bug? Missing some information? This is a community managed "
+"website, so feel free to contribute to our %(github)s repository."
 msgstr ""
 
 #: templates/body.html:236
@@ -532,8 +532,8 @@ msgstr ""
 
 #: templates/cfv.html:32
 msgid ""
-"This is great opportunity to meet people, make new friends and get the "
-"opportunity to learn new things."
+"This is a great opportunity to meet people, make new friends and learn "
+"new things."
 msgstr ""
 
 #: templates/cfv.html:36
@@ -545,8 +545,9 @@ msgstr ""
 #: templates/cfv.html:37
 #, python-format
 msgid ""
-"If you spend more than 40 hours during the year as a volunteer you can "
-"give 3%% to any registered non-profit in your tax return."
+"If you are a Slovak citizen and you work at least 40 hours a year as a "
+"volunteer, you can donate 3%% of your tax liability to any registered "
+"non-profit."
 msgstr ""
 
 #: templates/cfv.html:63
@@ -564,11 +565,13 @@ msgid ""
 msgstr ""
 
 #: templates/cfv.html:82
-msgid "What is your time estimate you can spend as volunteer?"
+msgid "How much time can you spend volunteering?"
 msgstr ""
 
 #: templates/cfv.html:85
-msgid "We need just rought estimate, for example: our daily, two hours a week..."
+msgid ""
+"We need just a rough estimate, for example: an hour a day, two hours a "
+"week..."
 msgstr ""
 
 #: templates/cfv.html:93
@@ -577,9 +580,9 @@ msgstr ""
 
 #: templates/cfv.html:95
 msgid ""
-"Let us know what you are experienced in? If you have a vision and no "
+"Let us know what you are experienced in. If you have a vision and no "
 "experience, that is alright, write down what you would like to do and "
-"surely we'll find a tasks to realize the vision."
+"surely we'll find tasks to realize the vision."
 msgstr ""
 
 #: templates/cfv.html:103
@@ -921,7 +924,7 @@ msgstr ""
 
 #: templates/edusummit.html:259
 msgid ""
-"On saturday, we will host a Young Coders' day, consisting of programming "
+"On Saturday, we will host a Young Coders' day, consisting of programming "
 "workshops for children."
 msgstr ""
 
@@ -1127,7 +1130,7 @@ msgid ""
 msgstr ""
 
 #: templates/edusummit.html:474
-msgid "What kind of ticked should I buy?"
+msgid "What kind of ticket should I buy?"
 msgstr ""
 
 #: templates/edusummit.html:477
@@ -1173,7 +1176,7 @@ msgid "General Information"
 msgstr ""
 
 #: templates/faq.html:28
-msgid "Where will the conference happen?"
+msgid "Where will the conference take place?"
 msgstr ""
 
 #: templates/faq.html:34 templates/venue.html:50
@@ -1185,21 +1188,20 @@ msgid "Faculty of Informatics and Information Technologies"
 msgstr ""
 
 #: templates/faq.html:47
-msgid "What languages are spoken?"
+msgid "What are the conference languages?"
 msgstr ""
 
 #: templates/faq.html:53
 msgid ""
-"Talks will be mostly in English and Slovak language. Possibly we will "
-"have a few talks in Czech language. If you do not speak Slovak or Czech "
-"do not worry, we have two tracks so there will be always talk in English."
+"Talks will be mostly in English or Slovak. There might be a few talks in "
+"Czech. If you don't speak Slovak or Czech, don't worry, at least one of "
+"the tracks will always be in English."
 msgstr ""
 
 #: templates/faq.html:56
 msgid ""
-"Volunteers do speak English. In Slovakia there is mandatory second "
-"language in school so most of the attendees will speak English or other "
-"language (at least a little bit)."
+"Volunteers do speak English. In Slovakia, English is a compulsory foreign"
+" language in schools, so most of the attendees should speak English."
 msgstr ""
 
 #: templates/faq.html:73
@@ -1254,13 +1256,13 @@ msgid ""
 msgstr ""
 
 #: templates/faq.html:114
-msgid "What is included in the ticket?"
+msgid "What is included in the ticket price?"
 msgstr ""
 
 #: templates/faq.html:120
 #, python-format
 msgid ""
-"We made a list of things what you can expect at the conference on <a "
+"We made a list of things you can expect at the conference on <a "
 "href=\"%(url)s\">the tickets page</a>."
 msgstr ""
 
@@ -1270,19 +1272,19 @@ msgstr ""
 
 #: templates/faq.html:135
 msgid ""
-"If you would like to buy more than 15 tickets please contact us by email "
-"at info@pycon.sk."
+"If you would like to buy more than 15 tickets, please contact us by email"
+" at info@pycon.sk."
 msgstr ""
 
 #: templates/faq.html:144
-msgid "Is there any another possibility to get to PyCon?"
+msgid "Is there any another possibility to attend PyCon?"
 msgstr ""
 
 #: templates/faq.html:150
 #, python-format
 msgid ""
-"Yes <a href=\"%(url)s\">submit a talk</a>, and if your talk is selected "
-"you will receive a speakers ticket for free."
+"Yes, you can <a href=\"%(url)s\">submit a talk</a>, and if your talk is "
+"selected, you will receive a speakers ticket for free."
 msgstr ""
 
 #: templates/faq.html:153
@@ -1303,19 +1305,19 @@ msgid ""
 msgstr ""
 
 #: templates/faq.html:178
-msgid "Do you have social event in the evening?"
+msgid "Do you have a social event in the evening?"
 msgstr ""
 
 #: templates/faq.html:184
 msgid ""
-"On Firday there will be an unofficial party. We will meet in a pub and "
-"have fun, no need for special ticket."
+"On Friday, there will be an unofficial party in a pub. There is no need "
+"to purchase a special ticket."
 msgstr ""
 
 #: templates/faq.html:187
 msgid ""
-"On Saturday we'll have an official conference dinner! There is a special "
-"ticket for this event."
+"On Saturday, we'll have an official conference dinner! You can purchase a"
+" ticket for this event."
 msgstr ""
 
 #: templates/faq.html:197
@@ -1325,7 +1327,7 @@ msgstr ""
 #: templates/faq.html:203
 msgid ""
 "YES. You don't have to purchase a ticket for the FRIDAY unofficial party."
-" In the pub everybody pays for themself."
+" We won\\u2019t cover any of your expenses."
 msgstr ""
 
 #: templates/faq.html:213
@@ -1367,14 +1369,14 @@ msgstr ""
 
 #: templates/index.html:66 templates/venue.html:45
 msgid ""
-"<strong>Fourth year</strong> will happen <strong>22-24th March, 2019 in "
-"Bratislava</strong>."
+"<strong>Fourth year</strong> will take place from <strong>22 to 24 March "
+"2019 in Bratislava</strong>."
 msgstr ""
 
 #: templates/index.html:69
 msgid ""
-"The PyCon SK 2019 conference, which will take place in Bratislava, is the"
-" annual gathering for the community using and developing the open-source "
+"The PyCon SK 2019 conference, which will be held in Bratislava, is the "
+"annual gathering for the community using and developing the open-source "
 "Python programming language. It is organized by the volunteers from the "
 "SPy o.z., civic association dedicated to advancing and promoting Python "
 "and other Open Source technologies and ideas. Through PyCon, the SPy o.z."
@@ -1757,14 +1759,14 @@ msgstr ""
 
 #: templates/job-fair.html:25
 msgid ""
-"PyCon SK will be the capital of Python for three days, it will become a "
+"PyCon SK will be the capital of Python for three days; it will become a "
 "place with the highest density of Python programmers per square meter. "
 msgstr ""
 
 #: templates/job-fair.html:26
 msgid ""
 "Besides Slovak professionals, there will be programmers from Hungary or "
-"Austria as there is no local PyCon, but also from Czechia, Poland, "
+"Austria as there is no local PyCon there, but also from Czechia, Poland, "
 "Germany etc. "
 msgstr ""
 
@@ -3944,7 +3946,7 @@ msgid ""
 "              increase digital literacy and bring joy to computing "
 "classes on primary and secondary schools in Slovakia.\n"
 "              We do this by using an educational physical computing board"
-" called ​ BBC micro:bit. The board can be\n"
+" called BBC micro:bit. The board can be\n"
 "              programmed to interact with external devices, such as LED "
 "strips, buzzers, motion sensors, temperature\n"
 "              sensors, and so on. By buying a <i>micro:bit Education "
@@ -3984,11 +3986,11 @@ msgstr ""
 msgid ""
 "Bratislava is one of the youngest capitals in Europe, and also one of the"
 " smallest. Despite this, it has a rich history of a free royal coronation"
-" town of Pressburg and multiple opportunities how to spend time there. "
-"Bratislava has unique location, it is the only capital int he world "
-"located on the border of three countries.Today, Bratislava is a major "
-"transport hub in Central Europe, and there are plenty possibilities of "
-"getting here."
+" town of Pressburg and offers multiple opportunities how to spend time "
+"there. Bratislava has a unique location, it is the only capital in the "
+"world located on the border of three countries.Today, Bratislava is a "
+"major transport hub in Central Europe, and there are plenty possibilities"
+" of getting here."
 msgstr ""
 
 #: templates/venue.html:67
@@ -3999,15 +4001,15 @@ msgstr ""
 msgid ""
 "If you are travelling to Bratislava, you can fly to the Bratislava "
 "airport (airport code: BTS) or the Vienna airport (airport code: VIE). "
-"Vienna airport has considerably better offer of flights."
+"The Vienna airport has considerably better offer of flights."
 msgstr ""
 
 #: templates/venue.html:73
 msgid ""
-"From Bratislava airport you can take taxi (use the phone, its cheaper), "
-"or take the bus #61 and then move to bus #39 at the Bajkalska station. "
-"Get off the bus at the station ZOO and simply follow the PyCon stickers "
-"up to the hill to university campus."
+"From Bratislava airport you can take a taxi (use the phone, it's "
+"cheaper), or take the bus #61 and then change to bus #39 at the Bajkalska"
+" station. Get off the bus at the station ZOO and simply follow the PyCon "
+"stickers up to the hill to the university campus."
 msgstr ""
 
 #: templates/venue.html:77
@@ -4053,7 +4055,7 @@ msgid ""
 "            After arriving to Bratislava follow the highway and leave it "
 "at the exit Mlynska dolina after passing the tunnel.\n"
 "            Be cautious, the exit is located right after the tunnel, so "
-"you should stay in right lane while in tunnel."
+"you should stay in the right lane while in tunnel."
 msgstr ""
 
 #: templates/venue.html:97
@@ -4080,7 +4082,7 @@ msgstr ""
 #: templates/venue.html:109
 msgid ""
 "Most of the buses will bring you to the main bus station - Mlynske Nivy. "
-"It is currently located in temporary location, so dont\n"
+"It is currently located in temporary location, so don't\n"
 "            worry and keep calm if you arrive feeling like on "
 "construction site. Leave the area towards the blue oval building VUB\n"
 "            (next to the building with BMW logo) where you find the "
@@ -4104,9 +4106,11 @@ msgid ""
 "Once you arrive at the Bratislava train station (Bratislava hlavná "
 "stanica), leave the station through the main entrance.\n"
 "            In front of the building, there are bus and tram stops. We "
-"recommend zou to take the bus number 32 to the station ZOO.\n"
+"recommend you to take the bus number 32 to the station ZOO.\n"
 "            If you plan to use city lines more often, we recommend you to"
-" check the website https://imhd.sk/ba/ for more information\n"
+" check the website <a href=\"https://imhd.sk/ba/public-transport\" "
+"title=\"IMHD - Bratislava - English\" target=\"_blank\" "
+"class=\"external\">imhd.sk</a> for more information\n"
 "            about the prices or the lines."
 msgstr ""
 
