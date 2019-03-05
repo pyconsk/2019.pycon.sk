@@ -16,6 +16,208 @@ app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
 babel = Babel(app)  # pylint: disable=invalid-name
 
 
+FRIDAY1 = (
+    {
+        'time': '08:00 - 09:00',
+        'name': gettext('Registration'),
+        'title': gettext('Pick up your name badge and goodie bag'),
+    },
+    {
+        'time': '09:00 - 09:25',
+        'name': 'Richard Kellner',
+        'title': gettext('Conference opening'),
+    },
+    {
+        'time': '09:30 - 10:15',
+        'name': 'Meredydd Luff',
+        'title': gettext('Anvil: Full-stack Web Apps with Nothing but Python'),
+        'avatar': '/static/images/speakers/luff.jpg',
+    },
+    {
+        'time': '10:20 - 10:50',
+        'name': gettext('Machine Learning Democratization'),
+        'title': 'Jorge Torres',
+        'avatar': '/static/images/speakers/torres.png',
+    },
+    {
+        'time': '11:05 - 11:35',
+        'name': gettext('Avoiding Macro Trouble of Micro Services'),
+        'title': 'Anton Caceres',
+        'avatar': '/static/images/speakers/caceres.jpg',
+    },
+    {
+        'time': '11:40 - 12:10',
+        'name': 'Jakub Balas',
+        'title': gettext('Using Python in new space industry is not a rocket science'),
+        'avatar': '/static/images/speakers/balas.jpg',
+    },
+    {
+        'time': '13:10 - 13:55',
+        'name': 'Adam Števko',
+        'title': gettext('Be a good colleague and help your Security Engineer!'),
+        'avatar': '/static/images/speakers/stevko.png',
+    },
+    {
+        'time': '14:00 - 14:30',
+        'name': 'Jakub Šedinár',
+        'title': gettext('Odoo'),
+        'avatar': '/static/images/speakers/sedinar.jpg',
+    },
+    {
+        'time': '14:45 - 15:30',
+        'name': 'Sviatoslav Sydorenko',
+        'title': gettext('GitHub Bots: Rise of the Machines 🤖'),
+        'avatar': '/static/images/speakers/sydorenko.jpg',
+    },
+    {
+        'time': '15:35 - 16:05',
+        'name': 'Christian Barra',
+        'title': gettext('Let’s talk about MLOps'),
+        'avatar': '/static/images/speakers/barra.jpg',
+    },
+    {
+        'time': '16:20 - 16:50',
+        'name': 'Filip Štefaňák',
+        'title': gettext('Stability with a Hockey-stick'),
+        'avatar': '/static/images/speakers/stefanak.jpg',
+    },
+    {
+        'time': '16:55 - 17:25',
+        'name': 'Miroslav Šedivý',
+        'title': gettext('A Day Has Only 24±1 Hours'),
+        'avatar': '/static/images/speakers/sedivy.jpg',
+    },
+    {
+        'time': '17:30 - 18:00',
+        'name': '',
+        'title': 'Lightning talks',
+    },
+)
+FRIDAY2 = (
+    {
+        'time': '09:30 - 10:15',
+        'name': 'Marek Mansell',
+        'title': gettext('Učíme s Hardvérom a finále SPyCup'),
+        'avatar': '',
+    },
+    {
+        'time': '10:20 - 10:50',
+        'name': 'Miroslav Biňas',
+        'title': gettext('Výučba programovania pomocou tvorby hier v PyGame Zero'),
+        'avatar': '',
+    },
+    {
+        'time': '11:05 - 11:35',
+        'name': 'Peter Kučera',
+        'title': gettext('Programujeme v Pythone na strednej škole'),
+        'avatar': '/static/images/speakers/kucera.jpg',
+    },
+    {
+        'time': '11:40 - 12:10',
+        'name': '',
+        'title': 'Vyhodnotenie SPy Cup a Python Cup a HARDWARE SHOWCASE',
+    },
+    {
+        'time': '13:10 - 13:55',
+        'name': 'Tomáš Dudík, Jakub Sokolík',
+        'title': gettext('Ako sa ďalej pasujeme s Python na hodinách informatiky'),
+        'avatar': '',
+    },
+    {
+        'time': '13:10 - 13:55',
+        'name': 'Peter Valachovič, Tomáš Kiss, Jakub Hrnčár',
+        'title': gettext('Prechod na Python u Piaristov v Nitre a niektoré tamojšie študentské projekty'),
+        'avatar': '',
+    },
+    {
+        'time': '14:00 - 14:30',
+        'name': 'Luke Spademan',
+        'title': gettext('Controling a robotic arm with micro:bits. How to make computer science eduction more interesting'),
+        'avatar': '/static/images/speakers/spademan.jpg',
+    },
+    {
+        'time': '14:45 - 16:00',
+        'name': 'Juraj Hromkovič',
+        'title': gettext('Programovanie s LOGO-filozofiou ako model všeobecného vzdelávania pre všetky odbory'),
+        'avatar': '/static/images/speakers/hromkovic.jpg',
+    },
+    {
+        'time': '16:20 - 16:50',
+        'name': 'Miroslava Šturmová, Marek Višňovec, Róbert Junas',
+        'title': gettext('Objavovanie VPythonu v Dudley College'),
+        'avatar': '',
+    },
+    {
+        'time': '16:55 - 17:25',
+        'name': '',
+        'title': 'EduTalks',
+    },
+)
+FRIDAY3 = (
+    {
+        'time': '12:00 - 12:30',
+        'name': '',
+        'title': 'HARDWARE SHOWCASE',
+    },
+    {
+        'time': '13:10 - 14:40',
+        'name': 'Joel Lord',
+        'title': gettext('Build a Passwordless Authentication Server'),
+        'avatar': '/static/images/speakers/lord.jpg',
+    },
+    {
+        'time': '14:45 - 16:50',
+        'name': 'Suryansh Tibarewala',
+        'title': gettext('Develop for Voice'),
+        'avatar': '/static/images/speakers/tibarewala.jpg',
+    },
+)
+FRIDAY4 = (
+    {
+        'time': '13:10 - 15:30',
+        'name': 'Shaun Taylor-Morgan',
+        'title': 'Anvil - Build a full-stack web app using nothing but Python',
+        'avatar': '/static/images/speakers/taylor-morgan.jpg',
+    },
+)
+SUNDAY1 = (
+    {
+        'time': '9:30 - 10:00',
+        'name': 'Stanislava Sojáková',
+        'title': gettext('Lessons Learned from Leading Bratislava Peer Python Learning Group'),
+        'avatar': '/static/images/speakers/sojakova.jpg',
+    },
+)
+SUNDAY2 = (
+    {
+        'time': '10:00 - 12:00',
+        'name': 'Mridul Seth',
+        'title': gettext('Network Science, Game of Thrones and US Airports'),
+        'avatar': '/static/images/speakers/seth.jpg',
+    },
+    {
+        'time': '13:00 - 15:00',
+        'name': 'Sviatoslav Sydorenko',
+        'title': gettext('Hands-on: Creating GitHub Bots 🤖 to deal with boring routines'),
+        'avatar': '/static/images/speakers/sydorenko.jpg',
+    },
+)
+SUNDAY3 = (
+    {
+        'time': '10:00 - 14:00',
+        'name': 'Karol Hrubjak, Veronika Žatková',
+        'title': gettext('Machine learning workshop in Python'),
+        'avatar': '/static/images/speakers/hrubjak-zatkova.jpg',
+    },
+)
+SUNDAY4 = (
+    {
+        'time': '09:00 - 17:00',
+        'name': '',
+        'title': 'Bratislavský Open Data Hackathon',
+    },
+)
+
 @app.route('/sitemap.xml')
 def sitemap():
     excluded = {'static', 'sitemap'}
@@ -80,10 +282,23 @@ def speakers():
     return render_template('speakers.html', **_get_template_variables(li_speakers='active'))
 
 
-@app.route('/<lang_code>/schedule.html')
-def schedule():
-    return render_template('schedule.html', **_get_template_variables(li_schedule='active'))
+@app.route('/<lang_code>/friday.html')
+def friday():
+    return render_template('schedule.html', **_get_template_variables(li_schedule='active', magna=FRIDAY1,
+                                                                      minor=FRIDAY2, babageovaA=FRIDAY3,
+                                                                      babageovaB=FRIDAY4))
 
+@app.route('/<lang_code>/saturday.html')
+def saturday():
+    return render_template('schedule.html', **_get_template_variables(li_schedule='active', magna=FRIDAY1,
+                                                                      minor=FRIDAY2, babageovaA=FRIDAY3,
+                                                                      babageovaB=FRIDAY4))
+
+@app.route('/<lang_code>/sunday.html')
+def sunday():
+    return render_template('schedule.html', **_get_template_variables(li_schedule='active', magna=SUNDAY1,
+                                                                      minor=SUNDAY2, babageovaA=SUNDAY3,
+                                                                      babageovaB=SUNDAY4))
 
 @app.route('/<lang_code>/job-fair.html')
 def jobfair():

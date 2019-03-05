@@ -91,7 +91,13 @@
                     <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu" role="menu">
                     <li>
-                      <a href="{{ url_for('schedule', lang_code=lang_code) }}">{{ _('Schedule') }}</a>
+                      <a href="{{ url_for('friday', lang_code=lang_code) }}">{{ _('Friday') }}</a>
+                    </li>
+                    <li>
+                      <a href="{{ url_for('saturday', lang_code=lang_code) }}">{{ _('Saturday') }}</a>
+                    </li>
+                    <li>
+                      <a href="{{ url_for('sunday', lang_code=lang_code) }}">{{ _('Sunday') }}</a>
                     </li>
                     <li>
                       <a href="{{ url_for('jobfair', lang_code=lang_code) }}">{{ _('Job Fair') }}</a>
