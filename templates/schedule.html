@@ -14,7 +14,7 @@
 		<div class="container">
 			<div class="row text-center">
                 <span class="icon-wrap"><i class="fa fa-calendar"></i></span>
-                <h2 class="section-title">{{ _('Friday') }}</h2>
+                <h2 class="section-title">{{ day }}</h2>
                 <p class="section-sub-title">{{ _('Schedule') }}</p>
 			</div><!--/ Title row end -->
 
@@ -61,9 +61,7 @@
 				        			<span class="schedule-slot-time">{{ block.time }}</span>
 				        			<div class="schedule-slot-info">
 				        				{% if block.avatar %}
-                                        <a href="#">
-				        					<img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
-				        				</a>
+                                            <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
                                         {% endif %}
                                         <div class="schedule-slot-info-content">
 				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
