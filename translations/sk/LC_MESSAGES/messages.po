@@ -4322,7 +4322,7 @@ msgstr ""
 
 #: templates/sponsoring.html:200
 msgid "Media Partners"
-msgstr "Medálni partneri"
+msgstr "Mediálni partneri"
 
 #: templates/sponsoring.html:234
 msgid "Partners"
