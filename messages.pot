@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-03-02 22:36+0100\n"
+"POT-Creation-Date: 2019-03-07 00:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,109 +46,117 @@ msgstr ""
 msgid "Program"
 msgstr ""
 
-#: templates/body.html:94 templates/schedule.html:8 templates/schedule.html:17
-msgid "Schedule"
+#: templates/body.html:94
+msgid "Friday"
 msgstr ""
 
 #: templates/body.html:97
-msgid "Job Fair"
+msgid "Saturday"
+msgstr ""
+
+#: templates/body.html:100
+msgid "Sunday"
 msgstr ""
 
 #: templates/body.html:103
+msgid "Job Fair"
+msgstr ""
+
+#: templates/body.html:109
 msgid "Sponsoring"
 msgstr ""
 
-#: templates/body.html:107 templates/edusummit.html:8
+#: templates/body.html:113 templates/edusummit.html:8
 #: templates/edusummit.html:18
 msgid "EduSummit"
 msgstr ""
 
-#: templates/body.html:111 templates/body.html:234
+#: templates/body.html:117 templates/body.html:240
 msgid "About Us"
 msgstr ""
 
-#: templates/body.html:114
+#: templates/body.html:120
 msgid "FAQ"
 msgstr ""
 
-#: templates/body.html:115 templates/tickets.html:145 templates/venue.html:33
+#: templates/body.html:121 templates/tickets.html:145 templates/venue.html:33
 msgid "Venue"
 msgstr ""
 
-#: templates/body.html:116 templates/coc.html:7 templates/coc.html:16
+#: templates/body.html:122 templates/coc.html:7 templates/coc.html:16
 msgid "Code of Conduct"
 msgstr ""
 
-#: templates/body.html:117 templates/cfv.html:13 templates/cfv.html:23
+#: templates/body.html:123 templates/cfv.html:13 templates/cfv.html:23
 msgid "Call for volunteers"
 msgstr ""
 
-#: templates/body.html:118 templates/body.html:221
+#: templates/body.html:124 templates/body.html:227
 msgid "SPy o.z."
 msgstr ""
 
-#: templates/body.html:123 templates/faq.html:66 templates/tickets.html:13
+#: templates/body.html:129 templates/faq.html:66 templates/tickets.html:13
 #: templates/tickets.html:22
 msgid "Tickets"
 msgstr ""
 
-#: templates/body.html:158
+#: templates/body.html:164
 msgid "General Queries"
 msgstr ""
 
-#: templates/body.html:170
+#: templates/body.html:176
 msgid "Ticket Queries"
 msgstr ""
 
-#: templates/body.html:182
+#: templates/body.html:188
 msgid "Event Organiser"
 msgstr ""
 
-#: templates/body.html:216
+#: templates/body.html:222
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
 " the %(psf)s."
 msgstr ""
 
-#: templates/body.html:218
+#: templates/body.html:224
 msgid "Python Software foundation"
 msgstr ""
 
-#: templates/body.html:220
+#: templates/body.html:226
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr ""
 
-#: templates/body.html:221
+#: templates/body.html:227
 #, python-format
 msgid "Our <a href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
 
-#: templates/body.html:223
+#: templates/body.html:229
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is a community managed "
 "website, so feel free to contribute to our %(github)s repository."
 msgstr ""
 
-#: templates/body.html:236
+#: templates/body.html:242
 msgid "Become a Sponsor"
 msgstr ""
 
-#: templates/body.html:237 templates/index.html:119
+#: templates/body.html:243 templates/index.html:119
 msgid "Submit your talk"
 msgstr ""
 
-#: templates/body.html:239
+#: templates/body.html:245
 msgid "Help out as a volunteer"
 msgstr ""
 
-#: templates/body.html:240
+#: templates/body.html:246
 msgid "Buy your ticket"
 msgstr ""
 
-#: templates/body.html:258
+#: templates/body.html:264
 msgid "Back to Top"
 msgstr ""
 
@@ -2137,96 +2145,8 @@ msgid ""
 " the PSF (including, but not necessarily limited to YouTube)."
 msgstr ""
 
-#: templates/schedule.html:18
-msgid "What's on when (more details to be confirmed) "
-msgstr ""
-
-#: templates/schedule.html:26
-msgid "Friday"
-msgstr ""
-
-#: templates/schedule.html:27
-msgid "Saturday"
-msgstr ""
-
-#: templates/schedule.html:28
-msgid "Sunday"
-msgstr ""
-
-#: templates/schedule.html:33
-msgid "Talks [EN track]"
-msgstr ""
-
-#: templates/schedule.html:34 templates/schedule.html:35
-msgid "Talks [both EN and SK]"
-msgstr ""
-
-#: templates/schedule.html:38 templates/schedule.html:39
-#: templates/schedule.html:40
-msgid "Workshops [both EN and SK]"
-msgstr ""
-
-#: templates/schedule.html:43
-msgid "SPy Cup Presentations [SK] "
-msgstr ""
-
-#: templates/schedule.html:43 templates/schedule.html:50
-#: templates/schedule.html:52 templates/schedule.html:57
-#: templates/schedule.html:58 templates/schedule.html:63
-#: templates/schedule.html:69
-msgid "Edu"
-msgstr ""
-
-#: templates/schedule.html:45
-msgid "Conference Game Finals [EN] "
-msgstr ""
-
-#: templates/schedule.html:45
-msgid "Conference Contest"
-msgstr ""
-
-#: templates/schedule.html:47
-msgid "Sprints [both EN and SK]"
-msgstr ""
-
-#: templates/schedule.html:50
-msgid "EduSummit Talks [SK] "
-msgstr ""
-
-#: templates/schedule.html:52
-msgid "EduSummit Workshops [SK] "
-msgstr ""
-
-#: templates/schedule.html:57
-msgid "Python Cup [SK] "
-msgstr ""
-
-#: templates/schedule.html:58
-msgid "Young Coders' day [SK] "
-msgstr ""
-
-#: templates/schedule.html:63
-msgid "EduSummit Poster Session [both EN and SK] "
-msgstr ""
-
-#: templates/schedule.html:65
-msgid "Main Poster session [both EN and SK]"
-msgstr ""
-
-#: templates/schedule.html:69
-msgid "Hardware Projects Showcase [both EN and SK] "
-msgstr ""
-
-#: templates/schedule.html:75
-msgid "Conference Party "
-msgstr ""
-
-#: templates/schedule.html:75 templates/schedule.html:77
-msgid "Social Event"
-msgstr ""
-
-#: templates/schedule.html:77
-msgid "Conference Dinner "
+#: templates/schedule.html:8 templates/schedule.html:18
+msgid "Schedule"
 msgstr ""
 
 #: templates/speakers.html:17
@@ -2328,12 +2248,12 @@ msgid ""
 msgstr ""
 
 #: templates/speakers.html:210
-msgid "Using python in new space industry is not a rocket science"
+msgid "Using Python in new space industry is not a rocket science"
 msgstr ""
 
 #: templates/speakers.html:212
 msgid ""
-"What we do at Iceye and how python is allowing us to grow fast and be "
+"What we do at Iceye and how Python is allowing us to grow fast and be "
 "unique."
 msgstr ""
 
