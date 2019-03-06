@@ -1,16 +1,18 @@
 language: python
 python: 
-- 3.7
+  - 3.7
 dist: xenial
+env:
+  - PIPENV_IGNORE_VIRTUALENVS=1
 install:
-- pip install pipenv
-- pipenv install --dev
+  - pip install pipenv
+  - pipenv install --dev
 script:
-- pipenv run pybabel extract -F babel.cfg -o messages.pot .
-- pipenv run pybabel update -i messages.pot -d translations
-- pipenv run pybabel compile -d translations
-- pipenv run python freezer.py
-- pylint pycon.py
-- pipenv check
+  - pipenv run pybabel extract -F babel.cfg -o messages.pot .
+  - pipenv run pybabel update -i messages.pot -d translations
+  - pipenv run pybabel compile -d translations
+  - pipenv run python freezer.py
+  - pipenv run pylint pycon.py
+  - pipenv check
 notifications:
   slack: slovakpython:VrA4XJVmBVRsL5eCfDdE1cAr
