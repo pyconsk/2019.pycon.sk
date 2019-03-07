@@ -338,12 +338,6 @@ SATURDAY4 = (
         'title': 'Pokročilé medzipredmetové projekty s BBC micro:bit',
         'avatar': '',
     },
-    {
-        'time': '13:45 - 16:50',
-        'name': 'Christian Barra',
-        'title': 'Kubernetes 101 for Python Developer',
-        'avatar': '/static/images/speakers/barra.jpg',
-    },
 )
 SUNDAY1 = (
     {
