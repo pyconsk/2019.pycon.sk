@@ -114,8 +114,9 @@ FRIDAY2 = (
     },
     {
         'time': '11:40 - 12:10',
-        'name': '',
-        'title': 'Vyhodnotenie SPy Cup a Python Cup a HARDWARE SHOWCASE',
+        'name': 'Miroslava Šturmová, Marek Višňovec, Róbert Junas',
+        'title': gettext('Objavovanie VPythonu v Dudley College'),
+        'avatar': '',
     },
     {
         'time': '13:10 - 13:55',
@@ -142,9 +143,8 @@ FRIDAY2 = (
     },
     {
         'time': '16:20 - 16:50',
-        'name': 'Miroslava Šturmová, Marek Višňovec, Róbert Junas',
-        'title': gettext('Objavovanie VPythonu v Dudley College'),
-        'avatar': '',
+        'name': '',
+        'title': 'Vyhodnotenie SPy Cup a Python Cup a HARDWARE SHOWCASE',
     },
     {
         'time': '16:55 - 17:25',
