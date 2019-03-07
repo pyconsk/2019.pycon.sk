@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-03-07 00:56+0100\n"
+"POT-Creation-Date: 2019-03-07 10:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -697,22 +697,22 @@ msgid ""
 msgstr ""
 
 #: templates/edusummit.html:32 templates/index.html:340
-#: templates/speakers.html:90
+#: templates/speakers.html:95
 msgid "Profesor Juraj Hromkovič, DrSc."
 msgstr ""
 
 #: templates/edusummit.html:39 templates/index.html:343
-#: templates/speakers.html:97
+#: templates/speakers.html:102
 msgid "professor at ETH Zürich"
 msgstr ""
 
-#: templates/edusummit.html:48 templates/speakers.html:106
+#: templates/edusummit.html:48 templates/speakers.html:111
 msgid ""
 "Professor Juraj Hromkovič is a university lecturer from Swiss Federal "
 "Institute of Technology (ETH) in Zürich."
 msgstr ""
 
-#: templates/edusummit.html:49 templates/speakers.html:107
+#: templates/edusummit.html:49 templates/speakers.html:112
 msgid ""
 "He has authored many books and scientific publications dealing "
 "particularly with algorithmics, probabilistic algorithms and didactics of"
@@ -722,13 +722,13 @@ msgid ""
 "republic Andrej Kiska."
 msgstr ""
 
-#: templates/edusummit.html:54 templates/speakers.html:112
+#: templates/edusummit.html:54 templates/speakers.html:118
 msgid ""
 "Programovanie s LOGO-filozofiou ako model všeobecného vzdelávania pre "
 "všetky odbory"
 msgstr ""
 
-#: templates/edusummit.html:55 templates/speakers.html:113
+#: templates/edusummit.html:55 templates/speakers.html:119
 msgid ""
 "Jean Piaget prišiel s konceptom \"learning by doing\" s cieľom zvýšiť "
 "motiváciu a trvanlivosť vedomostí a prehĺbiť chápanie študovaných "
@@ -750,11 +750,11 @@ msgid ""
 msgstr ""
 
 #: templates/edusummit.html:74 templates/index.html:390
-#: templates/speakers.html:164
+#: templates/speakers.html:173
 msgid "CS student and Python enthusiast"
 msgstr ""
 
-#: templates/edusummit.html:77 templates/speakers.html:173
+#: templates/edusummit.html:77 templates/speakers.html:182
 msgid ""
 "Luke is 17 and is studying computer science, maths, further maths and "
 "physics in Year 12 (English Secondary school / Sixthform). He loves to "
@@ -763,13 +763,13 @@ msgid ""
 " UK and is looking forward to speaking at Pycon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:81 templates/speakers.html:177
+#: templates/edusummit.html:81 templates/speakers.html:187
 msgid ""
 "Controling a robotic arm with micro:bits. How to make computer science "
 "education more interesting."
 msgstr ""
 
-#: templates/edusummit.html:82 templates/speakers.html:178
+#: templates/edusummit.html:82 templates/speakers.html:188
 msgid ""
 "Captivating a group of children for a sustained period of time is "
 "notoriously hard. I will be exporing with you how the micro:bit can be "
@@ -777,7 +777,7 @@ msgid ""
 "activities."
 msgstr ""
 
-#: templates/edusummit.html:83 templates/speakers.html:179
+#: templates/edusummit.html:83 templates/speakers.html:189
 msgid ""
 "Children love to physically interact with hardware. That is what is great"
 " about the micro:bit. It not only has built in LEDs and buttons but can "
@@ -793,11 +793,11 @@ msgstr ""
 
 #: templates/edusummit.html:105 templates/edusummit.html:117
 #: templates/index.html:755 templates/index.html:765
-#: templates/speakers.html:1666 templates/speakers.html:1684
+#: templates/speakers.html:1755 templates/speakers.html:1774
 msgid "High school student"
 msgstr ""
 
-#: templates/edusummit.html:108 templates/speakers.html:1675
+#: templates/edusummit.html:108 templates/speakers.html:1764
 msgid ""
 "5th grade student at Gymnázium Golianova in Nitre, Microsoft ambassador. "
 "Attended the first Microsoft AI Bootcampu and reported on Microsoft "
@@ -808,7 +808,7 @@ msgid ""
 "program."
 msgstr ""
 
-#: templates/edusummit.html:120 templates/speakers.html:1693
+#: templates/edusummit.html:120 templates/speakers.html:1783
 msgid ""
 "Student of the final grade at Gymnazium Golianova in Nitra. Her "
 "activities range from DofE program to programming tutoring in senior "
@@ -817,11 +817,11 @@ msgid ""
 "the future she wants to be a software engineer."
 msgstr ""
 
-#: templates/edusummit.html:128 templates/speakers.html:1701
+#: templates/edusummit.html:128 templates/speakers.html:1792
 msgid "Programovať môže každý. Fakt alebo mýtus?"
 msgstr ""
 
-#: templates/edusummit.html:129 templates/speakers.html:1702
+#: templates/edusummit.html:129 templates/speakers.html:1793
 msgid ""
 "Čo keby ste mali riešenie na oživenie vyučovania programovania? Riešenie,"
 " ktoré svieti, reaguje na podnety, alebo dokonca posiela správy? A môže "
@@ -834,11 +834,11 @@ msgid ""
 "programovať!"
 msgstr ""
 
-#: templates/edusummit.html:154 templates/speakers.html:1727
+#: templates/edusummit.html:154 templates/speakers.html:1819
 msgid "High school informatics teacher, author of Python textbooks"
 msgstr ""
 
-#: templates/edusummit.html:157 templates/speakers.html:1736
+#: templates/edusummit.html:157 templates/speakers.html:1828
 msgid ""
 "Peter works as a high school informatics teacher. He is a member of "
 "subject comission for infromatics in State pedagogics institute. He "
@@ -848,11 +848,11 @@ msgid ""
 " for teachers. He also prepares students for teaching informatics."
 msgstr ""
 
-#: templates/edusummit.html:166 templates/speakers.html:1745
+#: templates/edusummit.html:166 templates/speakers.html:1838
 msgid "Programujeme v Pythone na strednej škole"
 msgstr ""
 
-#: templates/edusummit.html:167 templates/speakers.html:1746
+#: templates/edusummit.html:167 templates/speakers.html:1839
 msgid ""
 "Rozmýšľate, čo vyučovať na seminári z programovania, ak chcete svojich "
 "študentov naučiť ešte viac? Základnú a maturitnú úroveň programovania, "
@@ -865,22 +865,22 @@ msgid ""
 "sa budeme venovať v našom príspevku."
 msgstr ""
 
-#: templates/edusummit.html:193 templates/speakers.html:1772
+#: templates/edusummit.html:193 templates/speakers.html:1866
 msgid "High school informatics teacher"
 msgstr ""
 
-#: templates/edusummit.html:196 templates/speakers.html:1781
+#: templates/edusummit.html:196 templates/speakers.html:1875
 msgid ""
 "Informatics and programming teacher at High school in Martin feeling as "
 "an eternal student. Love to learn new things, so I make friends with "
 "Python although some people think I don't need such friends in my age."
 msgstr ""
 
-#: templates/edusummit.html:202 templates/speakers.html:1787
+#: templates/edusummit.html:202 templates/speakers.html:1882
 msgid "Objavovanie VPythonu v Dudley College"
 msgstr ""
 
-#: templates/edusummit.html:203 templates/speakers.html:1788
+#: templates/edusummit.html:203 templates/speakers.html:1883
 msgid ""
 "V marci 2017 dostali žiaci Strednej priemyselnej školy technickej v "
 "Martine (SPŠT) prvýkrát príležitosť absolvovať prax v Dudley College vo "
@@ -921,8 +921,7 @@ msgid ""
 "talk or workshop and co-create the conference "
 msgstr ""
 
-#: templates/edusummit.html:247 templates/edusummit.html:410
-#: templates/edusummit.html:412
+#: templates/edusummit.html:247
 msgid "here"
 msgstr ""
 
@@ -1067,23 +1066,32 @@ msgstr ""
 msgid "Lektor: Miroslav Biňas z TUKE"
 msgstr ""
 
-#: templates/edusummit.html:409
-msgid "The Call for Proposals is still open, more info"
+#: templates/edusummit.html:412
+msgid "Coder Dojo image"
 msgstr ""
 
-#: templates/edusummit.html:411
-msgid "We will update the workshop list after the Call for Proposals is closed."
+#: templates/edusummit.html:418
+msgid "CoderDojo"
 msgstr ""
 
-#: templates/edusummit.html:411
-msgid "More information about the schedule can be found "
+#: templates/edusummit.html:421
+msgid ""
+"Pozývame všetky deti vyskúšať si programovanie v našom CoderDojo. Príďte "
+"si naprogramovať vlastnú hru v Scratchi, appku v Androide, alebo hardvér "
+"– Arduino. CoderDojo je medzinárodná sieť bezplatných poobedňajších "
+"krúžkov programovania pre deti od 7 do 17 rokov. Ak chcete vašim deťom "
+"priblížiť svet programovania, toto je výborná príležitosť!"
 msgstr ""
 
-#: templates/edusummit.html:420
+#: templates/edusummit.html:427
+msgid "Lektori: Ernest Walzel a Michal Burger"
+msgstr ""
+
+#: templates/edusummit.html:441
 msgid "SPy Cup"
 msgstr ""
 
-#: templates/edusummit.html:423
+#: templates/edusummit.html:444
 msgid ""
 "Students from all 14 schools currently participating in Teaching with "
 "Hardware will join the SPy Cup contest, in which they create their own "
@@ -1093,17 +1101,17 @@ msgid ""
 " have a short presentation about their project at PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:425
+#: templates/edusummit.html:446
 msgid ""
 "More info can be found at <a "
 "href=\"https://www.ucimeshardverom.sk/sutaz\">www.ucimeshardverom.sk/sutaz</a>"
 msgstr ""
 
-#: templates/edusummit.html:434
+#: templates/edusummit.html:455
 msgid "Teaching with Hardware"
 msgstr ""
 
-#: templates/edusummit.html:437
+#: templates/edusummit.html:458
 #, python-format
 msgid ""
 "The goal of the initiative <a href=\"%(url)s\" target=\"_blank\">Teaching"
@@ -1118,30 +1126,30 @@ msgid ""
 "announced at PyCon SK 2019."
 msgstr ""
 
-#: templates/edusummit.html:447
+#: templates/edusummit.html:468
 msgid "Poster Session"
 msgstr ""
 
-#: templates/edusummit.html:450
+#: templates/edusummit.html:471
 msgid "We will host a poster session and we will be happy if you get involved."
 msgstr ""
 
-#: templates/edusummit.html:461
+#: templates/edusummit.html:482
 msgid "Python Cup"
 msgstr ""
 
-#: templates/edusummit.html:464
+#: templates/edusummit.html:485
 #, python-format
 msgid ""
 "The <a href=\"%(url)s\" target=\"_blank\">winners of Python Cup</a> will "
 "be awarded at EduSummit."
 msgstr ""
 
-#: templates/edusummit.html:474
+#: templates/edusummit.html:495
 msgid "What kind of ticket should I buy?"
 msgstr ""
 
-#: templates/edusummit.html:477
+#: templates/edusummit.html:498
 msgid ""
 "All available tickets apply for the whole PyCon SK conference, including "
 "the EduSummit section. All of the talks and workshops take place at the "
@@ -1149,26 +1157,26 @@ msgid ""
 "attend."
 msgstr ""
 
-#: templates/edusummit.html:478
+#: templates/edusummit.html:499
 msgid "If you are a teacher or student you are eligible for a discount."
 msgstr ""
 
-#: templates/edusummit.html:492
+#: templates/edusummit.html:513
 msgid "Sponsorship"
 msgstr ""
 
-#: templates/edusummit.html:493
+#: templates/edusummit.html:514
 msgid "We need you — EduSummit seeks for sponsors and partners!"
 msgstr ""
 
-#: templates/edusummit.html:498
+#: templates/edusummit.html:519
 msgid ""
 "By supporting PyCon you also support numerous educational activities "
 "during the conference. If the conference is profitable we finance "
 "educational activities during the whole year."
 msgstr ""
 
-#: templates/edusummit.html:499
+#: templates/edusummit.html:520
 #, python-format
 msgid ""
 "Get in touch with us or visit our <a href=\"%(url)s\">sponsorship "
@@ -1571,27 +1579,27 @@ msgstr ""
 msgid "Listen, Learn, Get inspired."
 msgstr ""
 
-#: templates/index.html:354 templates/speakers.html:65
+#: templates/index.html:354 templates/speakers.html:68
 msgid "senior software engineer with Google AI Genomics"
 msgstr ""
 
-#: templates/index.html:365 templates/speakers.html:31
+#: templates/index.html:365 templates/speakers.html:32
 msgid "Python engineer at Elastic"
 msgstr ""
 
-#: templates/index.html:379 templates/speakers.html:132
+#: templates/index.html:379 templates/speakers.html:139
 msgid "Back-end and infrastructure engineer at Crate.io, Django core contributor"
 msgstr ""
 
-#: templates/index.html:400 templates/speakers.html:197
+#: templates/index.html:400 templates/speakers.html:208
 msgid "Python engineer at Iceye"
 msgstr ""
 
-#: templates/index.html:413 templates/speakers.html:271
+#: templates/index.html:413 templates/speakers.html:286
 msgid "Creator of Anvil"
 msgstr ""
 
-#: templates/index.html:424 templates/speakers.html:312
+#: templates/index.html:424 templates/speakers.html:329
 msgid "Python developer at Anvil"
 msgstr ""
 
@@ -1599,7 +1607,7 @@ msgstr ""
 msgid "Security Engineer"
 msgstr ""
 
-#: templates/index.html:447 templates/speakers.html:398
+#: templates/index.html:447 templates/speakers.html:433
 msgid "Independent contractor and tester of edu app"
 msgstr ""
 
@@ -1607,7 +1615,7 @@ msgstr ""
 msgid "Tech Lead at Kiwi.com"
 msgstr ""
 
-#: templates/index.html:467 templates/speakers.html:488
+#: templates/index.html:467 templates/speakers.html:527
 msgid "Cloud technology enthusiast"
 msgstr ""
 
@@ -1615,23 +1623,23 @@ msgstr ""
 msgid "Senior Software Architect"
 msgstr ""
 
-#: templates/index.html:490
+#: templates/index.html:490 templates/index.html:732
 msgid "Software Engineer"
 msgstr ""
 
-#: templates/index.html:500 templates/speakers.html:636
+#: templates/index.html:500 templates/speakers.html:681
 msgid "Python enthusiast and security evangelist"
 msgstr ""
 
-#: templates/index.html:513 templates/speakers.html:687
+#: templates/index.html:513 templates/speakers.html:734
 msgid "Odoo evangelist in IMPLEMENTO"
 msgstr ""
 
-#: templates/index.html:523 templates/speakers.html:729
+#: templates/index.html:523 templates/speakers.html:778
 msgid "Chief Innovation Officer"
 msgstr ""
 
-#: templates/index.html:533 templates/speakers.html:770
+#: templates/index.html:533 templates/speakers.html:821
 msgid "Data Scientist"
 msgstr ""
 
@@ -1639,65 +1647,65 @@ msgstr ""
 msgid "Software Engineer and FOSS maintainer"
 msgstr ""
 
-#: templates/index.html:556 templates/speakers.html:870
+#: templates/index.html:556 templates/speakers.html:925
 msgid "Python loving research assistant"
 msgstr ""
 
-#: templates/index.html:566 templates/speakers.html:921
+#: templates/index.html:566 templates/speakers.html:978
 msgid "Software Designer and PyCon organizer"
 msgstr ""
 
-#: templates/index.html:579 templates/speakers.html:966
+#: templates/index.html:579 templates/speakers.html:1025
 msgid "Web developer, DevOps, manager"
 msgstr ""
 
-#: templates/index.html:589 templates/speakers.html:1017
+#: templates/index.html:589 templates/speakers.html:1078
 msgid "Machine learning engineer"
 msgstr ""
 
-#: templates/index.html:599 templates/speakers.html:1085
+#: templates/index.html:599 templates/speakers.html:1148
 msgid "UX designer and marketing specialist"
 msgstr ""
 
-#: templates/index.html:612 templates/speakers.html:1129
+#: templates/index.html:612 templates/speakers.html:1194
 msgid "Senior Python Developer and Tester"
 msgstr ""
 
-#: templates/index.html:622 templates/speakers.html:1167
+#: templates/index.html:622 templates/speakers.html:1234
 msgid "Passionate cloud technology and ML developer"
 msgstr ""
 
-#: templates/index.html:632 templates/speakers.html:1214
+#: templates/index.html:632 templates/speakers.html:1283
 msgid "Software developer and blockchain expert"
 msgstr ""
 
-#: templates/index.html:645 templates/speakers.html:231
+#: templates/index.html:645 templates/speakers.html:244
 msgid ""
 "Contributor of CPython, #fellow member of the PSF, EuroPython, AFPy and "
 "freelancer."
 msgstr ""
 
-#: templates/index.html:656 templates/speakers.html:1267
+#: templates/index.html:656 templates/speakers.html:1338
 msgid "Test Lead"
 msgstr ""
 
-#: templates/index.html:666 templates/speakers.html:1316
+#: templates/index.html:666 templates/speakers.html:1389
 msgid "Applications and database manager"
 msgstr ""
 
-#: templates/index.html:679 templates/speakers.html:1362
+#: templates/index.html:679 templates/speakers.html:1437
 msgid "Software developer and PyCon organizer"
 msgstr ""
 
-#: templates/index.html:689 templates/speakers.html:1402
+#: templates/index.html:689 templates/speakers.html:1479
 msgid "Python developer at booking.com"
 msgstr ""
 
-#: templates/index.html:699 templates/speakers.html:1456
+#: templates/index.html:699 templates/speakers.html:1535
 msgid "Python & DevOps Engineer from Prague"
 msgstr ""
 
-#: templates/index.html:712 templates/speakers.html:1482
+#: templates/index.html:712 templates/speakers.html:1563
 msgid "Python Engineer at Kiwi"
 msgstr ""
 
@@ -1705,11 +1713,7 @@ msgstr ""
 msgid "Mozilla Tech Speaker"
 msgstr ""
 
-#: templates/index.html:732 templates/speakers.html:1581
-msgid "Python backend developer"
-msgstr ""
-
-#: templates/index.html:745 templates/speakers.html:1623
+#: templates/index.html:745 templates/speakers.html:1710
 msgid "SysAdmin Team Lead at Exponea"
 msgstr ""
 
@@ -1721,11 +1725,11 @@ msgstr ""
 msgid "High school Informatics and programming teacher"
 msgstr ""
 
-#: templates/index.html:798 templates/speakers.html:1823
+#: templates/index.html:798 templates/speakers.html:1919
 msgid "Machine learning specialist and big data engineer"
 msgstr ""
 
-#: templates/index.html:811 templates/speakers.html:1836
+#: templates/index.html:811 templates/speakers.html:1933
 msgid "Machine learning specialist and software developer"
 msgstr ""
 
@@ -1741,11 +1745,11 @@ msgstr ""
 msgid "Software engineer, member of Slovensko.Digital"
 msgstr ""
 
-#: templates/index.html:854 templates/speakers.html:1988
+#: templates/index.html:854 templates/speakers.html:2092
 msgid "Informatics teacher"
 msgstr ""
 
-#: templates/index.html:864 templates/speakers.html:2035
+#: templates/index.html:864 templates/speakers.html:2141
 msgid "Developer at Radar Services and flutist at University of Arts"
 msgstr ""
 
@@ -2153,7 +2157,7 @@ msgstr ""
 msgid "Speakers you can meet at PyCon SK 2019."
 msgstr ""
 
-#: templates/speakers.html:40
+#: templates/speakers.html:41
 msgid ""
 "Honza is a Python engineer at Elastic, the company behind Elasticsearch "
 "and other open source products, where he maintains the python libraries. "
@@ -2162,17 +2166,17 @@ msgid ""
 " data and trying to help teams scale their code and data."
 msgstr ""
 
-#: templates/speakers.html:44
+#: templates/speakers.html:46
 msgid "So you want to be an Engineer?"
 msgstr ""
 
-#: templates/speakers.html:45
+#: templates/speakers.html:47
 msgid ""
 "Software Engineering is a new field, have we figured out all the ins and "
 "outs of how best to work in it?"
 msgstr ""
 
-#: templates/speakers.html:46
+#: templates/speakers.html:48
 msgid ""
 "For a lot of people the technology field has always been a semi-magical "
 "place where engineers use their arcane knowledge to tease the secrets "
@@ -2183,14 +2187,14 @@ msgid ""
 "10X engineer...?"
 msgstr ""
 
-#: templates/speakers.html:47
+#: templates/speakers.html:49
 msgid ""
 "I will be sharing some insights that I have learned from trying to answer"
 " these questions for myself, part based on research, part on personal "
 "opinion."
 msgstr ""
 
-#: templates/speakers.html:72
+#: templates/speakers.html:75
 msgid ""
 "Helen Li is a senior software engineer with Google AI Genomics. She "
 "graduated from Massachusetts Institute of Technology with a bachelor's "
@@ -2199,11 +2203,11 @@ msgid ""
 "libraries and tools for over four years."
 msgstr ""
 
-#: templates/speakers.html:76
+#: templates/speakers.html:80
 msgid "Nucleus: an open-source library for genomics data and machine learning"
 msgstr ""
 
-#: templates/speakers.html:78
+#: templates/speakers.html:82
 msgid ""
 "Nucleus is a Python library designed to make it easy to read, write, and "
 "analyze genomics data in common bioinformatics file formats such as SAM "
@@ -2214,7 +2218,7 @@ msgid ""
 "give an overview of Nucleus, its features, and its APIs."
 msgstr ""
 
-#: templates/speakers.html:141
+#: templates/speakers.html:149
 msgid ""
 "Markus Holtermann works as a back-end and infrastructure engineer at "
 "Crate.io. He has been a Django core contributor since early 2015. He is a"
@@ -2224,11 +2228,11 @@ msgid ""
 "Django in 2010."
 msgstr ""
 
-#: templates/speakers.html:145
+#: templates/speakers.html:153
 msgid "Less Obvious Things To Do With Django's ORM."
 msgstr ""
 
-#: templates/speakers.html:146
+#: templates/speakers.html:154
 msgid ""
 "Django’s ORM is powerful. And it has been for ages. It only became even "
 "more powerful over the last years. Django’s ORM can be intimidating "
@@ -2236,7 +2240,7 @@ msgid ""
 "trying to find out how to do things."
 msgstr ""
 
-#: templates/speakers.html:206
+#: templates/speakers.html:217
 msgid ""
 "After several years of using Python in e-commerce, banking, and media "
 "sectors in the UK, Jakub currently leads a technical side of ground "
@@ -2247,17 +2251,17 @@ msgid ""
 "of SpaceX’s Falcon 9."
 msgstr ""
 
-#: templates/speakers.html:210
+#: templates/speakers.html:222
 msgid "Using Python in new space industry is not a rocket science"
 msgstr ""
 
-#: templates/speakers.html:212
+#: templates/speakers.html:224
 msgid ""
 "What we do at Iceye and how Python is allowing us to grow fast and be "
 "unique."
 msgstr ""
 
-#: templates/speakers.html:241
+#: templates/speakers.html:254
 msgid ""
 "Contributor of CPython, Stephane is a member of the EuroPython team since"
 " 2015, he likes to improve his skills with best practices, TDD, CI, "
@@ -2266,11 +2270,11 @@ msgid ""
 "world."
 msgstr ""
 
-#: templates/speakers.html:248
+#: templates/speakers.html:262
 msgid "What's new in Python 3.7?"
 msgstr ""
 
-#: templates/speakers.html:249
+#: templates/speakers.html:263
 msgid ""
 "Scheduled for release in mid-June before the conference, Python 3.7 is "
 "shaping up to be a feature-packed release! This talk will cover all the "
@@ -2278,7 +2282,7 @@ msgid ""
 "Variables for the asynchronous programming with asyncio."
 msgstr ""
 
-#: templates/speakers.html:280
+#: templates/speakers.html:295
 msgid ""
 "Meredydd has been programming since the halcyon days of QBasic and "
 "Delphi, when it was easy to get started building software. He created "
@@ -2287,11 +2291,11 @@ msgid ""
 "Cambridge."
 msgstr ""
 
-#: templates/speakers.html:284
+#: templates/speakers.html:300
 msgid "Anvil: Full-stack Web Apps with Nothing but Python"
 msgstr ""
 
-#: templates/speakers.html:286
+#: templates/speakers.html:302
 msgid ""
 "Building for the modern web is complicated and error-prone: a typical web"
 " app requires five different languages and four or five frameworks just "
@@ -2303,7 +2307,7 @@ msgid ""
 "that's easy to use without sacrificing power."
 msgstr ""
 
-#: templates/speakers.html:321
+#: templates/speakers.html:338
 msgid ""
 "Shaun started programming in earnest by simulating burning fusion plasmas"
 " in the world's biggest laser system. He fell in love with Python as a "
@@ -2311,11 +2315,11 @@ msgid ""
 "everything into Python, which is why he works for Anvil."
 msgstr ""
 
-#: templates/speakers.html:327
+#: templates/speakers.html:345
 msgid "Anvil - Build a full-stack web app using nothing but Python"
 msgstr ""
 
-#: templates/speakers.html:329
+#: templates/speakers.html:347
 msgid ""
 "Anvil is a platform for rapidly developing web apps using nothing but "
 "Python.\n"
@@ -2337,42 +2341,58 @@ msgid ""
 "For a preview, have a look at this short video https://anvil.works/#about"
 msgstr ""
 
-#: templates/speakers.html:359
+#: templates/speakers.html:378
 msgid "Security/DevOps Engineer"
 msgstr ""
 
-#: templates/speakers.html:368
+#: templates/speakers.html:387
 msgid ""
 "Adam is currently working as Security Engineer and has already been "
 "SRE/System Engineer/DevOps Engineer for a long time. He is a UNIX Lover, "
-"devoted Python user and evangelist. Interested in operating systems, "
-"security, networking and almost anything interesting."
+"devoted Python user and evangelist. He is interested in operating "
+"systems, security, networking and almost anything that catches his "
+"attention."
 msgstr ""
 
-#: templates/speakers.html:374
+#: templates/speakers.html:395
 msgid "Be a good colleague and help your Security Engineer!"
 msgstr ""
 
-#: templates/speakers.html:376
+#: templates/speakers.html:397
 msgid ""
-"Security is a shared responsibility. In this talk, I will show you how "
-"software engineers can leverage static code analysis for locating most "
-"common security vulnerabilities and integrate these checks into their CI "
-"systems. Following these guidelines, you will make your Security "
-"Engineers happy and your code more secure."
+"2018 was the year of GDPR. Security is a shared responsibility and has "
+"become even more important than ever before. Nevertheless, not everybody "
+"realizes this and security incidents and problems continue to occur, thus"
+" resulting in catastrophical consequences for your business. In this "
+"talk, I will be sharing how one can utilize best practices to deliver "
+"less vulnerable code by using tools to prevent security holes, how to "
+"handle incidents from the developers’ point of view and how you can "
+"assist your Security Engineers. By following these guidelines, you will "
+"make your Security Engineers happy and your code more secure."
 msgstr ""
 
-#: templates/speakers.html:407
+#: templates/speakers.html:408
+msgid ""
+"GDPR came into effect in 2018 and security become even more important. "
+"What’s more, it became a shared responsibility and not everybody realizes"
+" this. Security incidents and problems continue to happen and I would "
+"like to share my experiences as a Security Engineer working closely with "
+"developers how to tackle the cooperation with developers and what tools "
+"and techniques one can use to spot security problems before they will be "
+"misused."
+msgstr ""
+
+#: templates/speakers.html:442
 msgid ""
 "My passion is uncovering the hidden and igniting the excitement for that "
 "in others, especially in the field of problem-solving."
 msgstr ""
 
-#: templates/speakers.html:412
+#: templates/speakers.html:448
 msgid "Lessons Learned from Leading Bratislava Peer Python Learning Group"
 msgstr ""
 
-#: templates/speakers.html:413
+#: templates/speakers.html:449
 msgid ""
 "On Jan 26th, the first meetup of the Bratislava Peer Python Learning "
 "Group series took place, and it was a blast. Do not take my word for it, "
@@ -2383,7 +2403,7 @@ msgid ""
 "Saturday community meetings.”"
 msgstr ""
 
-#: templates/speakers.html:420
+#: templates/speakers.html:456
 msgid ""
 "There is some magic going on in the Python Meetups the attendee "
 "statements of which you could read above. I give you a glimpse of why we "
@@ -2395,11 +2415,11 @@ msgid ""
 "such a group."
 msgstr ""
 
-#: templates/speakers.html:445
+#: templates/speakers.html:482
 msgid "Tech Lead at kiwi.com"
 msgstr ""
 
-#: templates/speakers.html:454
+#: templates/speakers.html:491
 msgid ""
 "Dmitry is a Tech Lead at kiwi.com in Prague. Started with Python in 2010 "
 "as a hobby during the university, he switched to a fulltime developer job"
@@ -2407,11 +2427,11 @@ msgid ""
 "maintainability. His hobbies are open source and traveling."
 msgstr ""
 
-#: templates/speakers.html:461
+#: templates/speakers.html:499
 msgid "Testing network interactions in Python"
 msgstr ""
 
-#: templates/speakers.html:462
+#: templates/speakers.html:500
 msgid ""
 "Many modern Python applications interact with 3rd parties over network "
 "and packages like requests and aiohttp are incredibly popular nowadays. "
@@ -2420,7 +2440,7 @@ msgid ""
 " network calls."
 msgstr ""
 
-#: templates/speakers.html:466
+#: templates/speakers.html:504
 msgid ""
 "This talk will walk from most straightforward ad-hoc solutions to more "
 "tunable and extensible ones. You’ll learn how to approach testing network"
@@ -2429,7 +2449,7 @@ msgid ""
 "VCR, and pytest."
 msgstr ""
 
-#: templates/speakers.html:496
+#: templates/speakers.html:535
 msgid ""
 "I’m passionate cloud technology enthusiast. For the first time I came "
 "across clouds at University when I was choosing my master’s thesis. My "
@@ -2444,18 +2464,18 @@ msgid ""
 "also meet me at Conservatory of Zilina with the guitar in my hand."
 msgstr ""
 
-#: templates/speakers.html:506
+#: templates/speakers.html:545
 msgid ""
 "If you want to know more about possibilities of Amazon web services or "
 "just want to casually talk about cloud technology don’t hesitate to stop "
 "me anytime and ask."
 msgstr ""
 
-#: templates/speakers.html:512
+#: templates/speakers.html:552
 msgid "Amazon Web Services - Alexa skills"
 msgstr ""
 
-#: templates/speakers.html:513
+#: templates/speakers.html:553
 msgid ""
 "Alexa is Amazon’s cloud base voice service that provides natural voice "
 "experience to end users. This opens a way to use human voice as "
@@ -2471,11 +2491,11 @@ msgid ""
 "your favorite language – Python."
 msgstr ""
 
-#: templates/speakers.html:542
+#: templates/speakers.html:583
 msgid "Senior Software Developer at solute GmbH"
 msgstr ""
 
-#: templates/speakers.html:551
+#: templates/speakers.html:592
 msgid ""
 "Born in Czechoslovakia, studied in France, living in Germany. Using "
 "Python to get you the lowest prices online. Addicted to foreign languages"
@@ -2483,11 +2503,11 @@ msgid ""
 " time zones, and teaching computers to work on the boring tasks."
 msgstr ""
 
-#: templates/speakers.html:558
+#: templates/speakers.html:600
 msgid "A Day Has Only 24±1 Hours"
 msgstr ""
 
-#: templates/speakers.html:559
+#: templates/speakers.html:601
 msgid ""
 "Not only will the Sunday in the week after this PyCon.SK 2019 be one hour"
 " shorter, but also it may steal you even more sleep because of all your "
@@ -2499,7 +2519,7 @@ msgid ""
 "of governments all around the world."
 msgstr ""
 
-#: templates/speakers.html:567
+#: templates/speakers.html:609
 msgid ""
 "After a short overview of Pythons datetime and pytz libraries you'll "
 "learn how the information on time zone changes gets into your system. "
@@ -2509,22 +2529,22 @@ msgid ""
 " you want to avoid time zones in your code altogether!"
 msgstr ""
 
-#: templates/speakers.html:590
+#: templates/speakers.html:633
 msgid "Software Engineer at Yelp"
 msgstr ""
 
-#: templates/speakers.html:599
+#: templates/speakers.html:642
 msgid ""
 "Currently software engineer at Yelp. Speaks at Python conferences and "
 "advocates about open source. Previously managed PyData Delhi conference "
 "series, and built a community of 5000+ people."
 msgstr ""
 
-#: templates/speakers.html:605
+#: templates/speakers.html:649
 msgid "Gotchas and landmines in Python"
 msgstr ""
 
-#: templates/speakers.html:606
+#: templates/speakers.html:650
 msgid ""
 "Python may be one of the simplest and most flexible programming languages"
 " out there, but it is still a programming language. It still has syntax, "
@@ -2537,14 +2557,14 @@ msgid ""
 "using Python programming language."
 msgstr ""
 
-#: templates/speakers.html:616
+#: templates/speakers.html:660
 msgid ""
 "The only pre-requisite is a basic familiarity with Python programming "
 "language. Although it’ll be good that you have laptops with Python "
 "already setup, it’s not required as such !"
 msgstr ""
 
-#: templates/speakers.html:645
+#: templates/speakers.html:690
 msgid ""
 "Joel Lord is passionate about web and technology in general. He likes to "
 "learn new things, but most of all he likes to share his discoveries. He "
@@ -2557,11 +2577,11 @@ msgid ""
 " campsite somewhere or brewing a fresh batch of beer in his garage."
 msgstr ""
 
-#: templates/speakers.html:657
+#: templates/speakers.html:703
 msgid "I Don't Care About Security (And Neither Should You)"
 msgstr ""
 
-#: templates/speakers.html:658
+#: templates/speakers.html:704
 msgid ""
 "Remember when setting up a login page was easy? It seems like nowadays it"
 " can take weeks to start a project -- creating a signup form, a login "
@@ -2574,13 +2594,13 @@ msgid ""
 " work and forget about all that security stuff."
 msgstr ""
 
-#: templates/speakers.html:668
+#: templates/speakers.html:714
 msgid ""
 "Besides this talk Joel is planning a workshop on building a passwordless "
 "authentication server."
 msgstr ""
 
-#: templates/speakers.html:696
+#: templates/speakers.html:743
 msgid ""
 "I have worked on various positions. SysAdmin, support, DevOps, "
 "localization engineer, consultant, mentor. Sooner or later I always get "
@@ -2593,24 +2613,24 @@ msgid ""
 " quality and packed with functionality."
 msgstr ""
 
-#: templates/speakers.html:708
+#: templates/speakers.html:756
 msgid "Odoo"
 msgstr ""
 
-#: templates/speakers.html:709
+#: templates/speakers.html:757
 msgid ""
 "Odoo na Slovensku - game changer slovenského ERP prostredia. Chceme vám "
 "povedať a ukázať, čo je Odoo, ako funguje, prečo je lepšie ako iné "
 "riešenia. Ako je zameraný, aká je architektúra riešenia..."
 msgstr ""
 
-#: templates/speakers.html:737
+#: templates/speakers.html:786
 msgid ""
 "Petra decided to try to work for self governance. She works as Chief "
 "Innovation Officer in City of Bratislava."
 msgstr ""
 
-#: templates/speakers.html:739
+#: templates/speakers.html:788
 msgid ""
 "Petra participated on foundation of SAPIE - Slovak Alliance for "
 "Innovative Economics. It was the key agent of tech firms from Slovakia "
@@ -2624,30 +2644,30 @@ msgid ""
 "entrepreneurship and innovations of Plan Bratislava."
 msgstr ""
 
-#: templates/speakers.html:751
+#: templates/speakers.html:801
 msgid "Inovácie v meste Bratislava"
 msgstr ""
 
-#: templates/speakers.html:752
+#: templates/speakers.html:802
 msgid ""
 "Čo všetko robíme v Bratislave pre inovácie a ako môžete byť súčasťou "
 "tohto procesu?"
 msgstr ""
 
-#: templates/speakers.html:779
+#: templates/speakers.html:830
 msgid ""
 "Master from Particle Physics and Cosmology from University of Birmingham "
 "and Master from Data Science from University of Bath. Currently working "
 "for Tatra banka as a Data Scientist."
 msgstr ""
 
-#: templates/speakers.html:785
+#: templates/speakers.html:837
 msgid ""
 "Automatická korekcia písaného prejavu prirodzeného jazyka s využitím "
 "znakových a kontextuálnych modelov"
 msgstr ""
 
-#: templates/speakers.html:786
+#: templates/speakers.html:838
 msgid ""
 "Banka disponuje veľkým objemom neštruktúrovaných dát. Na ich použitie je "
 "potrebné tieto dáta očistiť. Preto vyvíjame modul na korekciu "
@@ -2661,11 +2681,11 @@ msgid ""
 "špecifickom bankovom prostredí."
 msgstr ""
 
-#: templates/speakers.html:812
+#: templates/speakers.html:865
 msgid "Software engineer by day and FOSS maintainer by night"
 msgstr ""
 
-#: templates/speakers.html:821
+#: templates/speakers.html:874
 msgid ""
 "Hi, I'm Sviat. Find me as @webknjaz on Twitter and GitHub. I'm a Python "
 "hacker. By day, I work for Red Hat taking a crack at the Ansible Engine "
@@ -2675,15 +2695,15 @@ msgid ""
 "source projects easier at scale."
 msgstr ""
 
-#: templates/speakers.html:830
+#: templates/speakers.html:884
 msgid "GitHub Bots: Rise of the Machines 🤖"
 msgstr ""
 
-#: templates/speakers.html:831
+#: templates/speakers.html:885
 msgid "Hello, fellow human!"
 msgstr ""
 
-#: templates/speakers.html:832
+#: templates/speakers.html:886
 msgid ""
 "You probably spend too much time regretting that manual recurring "
 "routines don't do themselves. Let's change this! This workshop will "
@@ -2694,45 +2714,45 @@ msgid ""
 "GitHub UI, to actual coding and to shipping your code via Heroku."
 msgstr ""
 
-#: templates/speakers.html:839
+#: templates/speakers.html:893
 msgid ""
 "To participate in the hands-on, bring your laptop with Python 3.7 and "
 "some editor on-board. You'll also need to have a GitHub account."
 msgstr ""
 
-#: templates/speakers.html:841
+#: templates/speakers.html:895
 msgid "Agenda:"
 msgstr ""
 
-#: templates/speakers.html:844
+#: templates/speakers.html:898
 msgid ""
 "Express intro into what bots are. How they are related to our coding "
 "activities. Creative use of robots."
 msgstr ""
 
-#: templates/speakers.html:845
+#: templates/speakers.html:899
 msgid ""
 "Showing-off what GitHub APIs integration of GitHub Apps type gives access"
 " to. Usage flows. Checks API. Auth levels. Rate limits. Lifecycle."
 msgstr ""
 
-#: templates/speakers.html:846
+#: templates/speakers.html:900
 msgid "GitHub App creation. Deep dive into how it works."
 msgstr ""
 
-#: templates/speakers.html:847
+#: templates/speakers.html:901
 msgid "Deployment to Heroku 🚀."
 msgstr ""
 
-#: templates/speakers.html:848
+#: templates/speakers.html:902
 msgid "Debugging: inspection of webhook events via UI."
 msgstr ""
 
-#: templates/speakers.html:849
+#: templates/speakers.html:903
 msgid "Concluding ideas."
 msgstr ""
 
-#: templates/speakers.html:880
+#: templates/speakers.html:935
 msgid ""
 "Mridul is trying to understand the world around us using data and tools "
 "from network science, currently at UCLouvain. He is an open source "
@@ -2741,11 +2761,11 @@ msgid ""
 " his love of Python and network science."
 msgstr ""
 
-#: templates/speakers.html:888
+#: templates/speakers.html:944
 msgid "Network Science, Game of Thrones and US Airports"
 msgstr ""
 
-#: templates/speakers.html:889
+#: templates/speakers.html:945
 msgid ""
 "This tutorial will introduce the basics of network theory and working "
 "with graphs/networks using python and the NetworkX package. This will be "
@@ -2755,46 +2775,46 @@ msgid ""
 "jupyter notebook. Broadly the tutorial is divided into three parts:"
 msgstr ""
 
-#: templates/speakers.html:897
+#: templates/speakers.html:953
 msgid ""
 "Part A (20 mins) - Basics of graph theory, NetworkX and various examples "
 "of networks in real life."
 msgstr ""
 
-#: templates/speakers.html:898
+#: templates/speakers.html:954
 msgid ""
 "Part B (35 mins) - Study the Game of Thrones network and find important "
 "characters and communities in the network."
 msgstr ""
 
-#: templates/speakers.html:899
+#: templates/speakers.html:955
 msgid ""
 "Part C (35 mins) - Analyze the structure of the US Airport dataset and "
 "look at the temporal evolution of the network from 1990 to 2015."
 msgstr ""
 
-#: templates/speakers.html:900
+#: templates/speakers.html:956
 msgid ""
 "By the end of the tutorial everyone should be comfortable with hacking on"
 " the NetworkX API, modelling data as networks and basic analysis on "
 "networks using python."
 msgstr ""
 
-#: templates/speakers.html:903
+#: templates/speakers.html:959
 msgid ""
 "The tutorial and the datasets is available on GitHub at: "
 "https://github.com/MridulS/pydata-networkx"
 msgstr ""
 
-#: templates/speakers.html:930
+#: templates/speakers.html:987
 msgid "Software Designer, PyCon DE organizer, Python Software Foundation Fellow"
 msgstr ""
 
-#: templates/speakers.html:934
+#: templates/speakers.html:992
 msgid "Let's talk about MLOps"
 msgstr ""
 
-#: templates/speakers.html:935
+#: templates/speakers.html:993
 msgid ""
 "The quantity of hype around machine learning and AI is probably second "
 "only to bitcoins and blockchains. But until a machine learning model is "
@@ -2805,7 +2825,7 @@ msgid ""
 "their data science projects and why generally they under delivered."
 msgstr ""
 
-#: templates/speakers.html:942
+#: templates/speakers.html:1000
 msgid ""
 "MLOps is here to help, the machine-learning equivalent of DevOps: it "
 "solves the problems of implementing machine-learning in production. "
@@ -2815,7 +2835,7 @@ msgid ""
 "for any DS/ML/AI Team, tools available and how you can start with it."
 msgstr ""
 
-#: templates/speakers.html:975
+#: templates/speakers.html:1034
 msgid ""
 "Remote/on-site/anything in between web developer with ~10 and Team Lead "
 "with ~3 years of experience. Responsible for everything from software "
@@ -2824,11 +2844,11 @@ msgid ""
 "DevOps and finding a new mistress called *People management*."
 msgstr ""
 
-#: templates/speakers.html:983
+#: templates/speakers.html:1043
 msgid "On the Edge of Leadership"
 msgstr ""
 
-#: templates/speakers.html:984
+#: templates/speakers.html:1044
 msgid ""
 "How to lead a dev team with zero personal experience in people management"
 " while still having no idea how to manage even your own time. After "
@@ -2841,7 +2861,7 @@ msgid ""
 "the past few years, I've been development team lead for several teams."
 msgstr ""
 
-#: templates/speakers.html:994
+#: templates/speakers.html:1054
 msgid ""
 "With zero formal training, relying on my intuition and various random "
 "pieces of advice I picked up from people smarter than me I've more or "
@@ -2851,7 +2871,7 @@ msgid ""
 "my wins."
 msgstr ""
 
-#: templates/speakers.html:1026
+#: templates/speakers.html:1087
 msgid ""
 "Jorge Torres Is currently Co-founder & CTO of MindsDB and a visiting "
 "scholar at UC Berkeley researching machine learning automation and "
@@ -2867,11 +2887,11 @@ msgid ""
 "Australian National University."
 msgstr ""
 
-#: templates/speakers.html:1041
+#: templates/speakers.html:1103
 msgid "Machine Learning Democratization"
 msgstr ""
 
-#: templates/speakers.html:1042
+#: templates/speakers.html:1104
 msgid ""
 "We can't expect Machine Learning experts to be both domain experts across"
 " various fields and also true experts in ML, it is crucial to rethink how"
@@ -2881,11 +2901,11 @@ msgid ""
 "become participants of the data science community."
 msgstr ""
 
-#: templates/speakers.html:1048
+#: templates/speakers.html:1110
 msgid "This talk is divided into three sections:"
 msgstr ""
 
-#: templates/speakers.html:1049
+#: templates/speakers.html:1111
 msgid ""
 "The first one, dives into the importance of democratizing Machine "
 "Learning, its objective is to demonstrate why now this is a crucial issue"
@@ -2895,7 +2915,7 @@ msgid ""
 "are the most experts on."
 msgstr ""
 
-#: templates/speakers.html:1055
+#: templates/speakers.html:1117
 msgid ""
 "The second part of this talk focuses on some solutions and approaches to "
 "challenges of democratizing Machine Learning, as well as the journey and "
@@ -2904,7 +2924,7 @@ msgid ""
 "of tools being built."
 msgstr ""
 
-#: templates/speakers.html:1060
+#: templates/speakers.html:1122
 msgid ""
 "The third and most extensive section of this talk, focuses on the new "
 "issues that are born once machine Learning capabilities are on the hands "
@@ -2915,7 +2935,7 @@ msgid ""
 " ML."
 msgstr ""
 
-#: templates/speakers.html:1094
+#: templates/speakers.html:1157
 msgid ""
 "Světlana works as a UX designer and marketing specialist in the library "
 "of Tomas Bata University in Zlin. She holds PhD. from Library and "
@@ -2926,11 +2946,11 @@ msgid ""
 "and services."
 msgstr ""
 
-#: templates/speakers.html:1104
+#: templates/speakers.html:1168
 msgid "Nenuťte uživatele přemýšlet"
 msgstr ""
 
-#: templates/speakers.html:1105
+#: templates/speakers.html:1169
 msgid ""
 "Myšlenka Steva Kruga \"Nenuťte uživatele přemýšlet\" bude hlavní "
 "inspirací pro příspěvek, který se bude věnovat pojmům jako je UX (user "
@@ -2942,17 +2962,17 @@ msgid ""
 "úsilí."
 msgstr ""
 
-#: templates/speakers.html:1138
+#: templates/speakers.html:1203
 msgid ""
 "Senior Python developer and tester at Pantheon Technologies focused on "
 "visualization and presentation of the test results."
 msgstr ""
 
-#: templates/speakers.html:1143
+#: templates/speakers.html:1209
 msgid "Automated visualization and presentation of tests results"
 msgstr ""
 
-#: templates/speakers.html:1144
+#: templates/speakers.html:1210
 msgid ""
 "Thousands of performance tests run by tens of Jenkins jobs generate "
 "gigabytes of data. It is not an easy task to provide it to our audience. "
@@ -2963,7 +2983,7 @@ msgid ""
 "and/or architecture."
 msgstr ""
 
-#: templates/speakers.html:1176
+#: templates/speakers.html:1243
 msgid ""
 "Laurent is a developer passionate about software, hardware, science, and "
 "anything shaping the future. He works for Google where he ecstatically "
@@ -2973,18 +2993,18 @@ msgid ""
 "You can find him on Twitter at @PicardParis."
 msgstr ""
 
-#: templates/speakers.html:1185
+#: templates/speakers.html:1253
 msgid "Building smarter solutions with Machine Learning, from magic to reality"
 msgstr ""
 
-#: templates/speakers.html:1186
+#: templates/speakers.html:1254
 msgid ""
 "“Any sufficiently advanced technology is indistinguishable from magic.” "
 "Well, Machine Learning can look like magic, but you don't need to be a "
 "data scientist or an ML researcher to develop with ML."
 msgstr ""
 
-#: templates/speakers.html:1189
+#: templates/speakers.html:1257
 msgid ""
 "So, what about making your solution smarter without any knowledge in AI? "
 "With pre-trained models and a few lines of code, Machine Learning APIs "
@@ -2992,7 +3012,7 @@ msgid ""
 "getting even more specific insights tailored to your needs."
 msgstr ""
 
-#: templates/speakers.html:1193
+#: templates/speakers.html:1261
 msgid ""
 "In this session, you'll see how to transform or extract information from "
 "text, image, audio & video with the latest ML APIs, how to train an "
@@ -3000,7 +3020,7 @@ msgid ""
 " put your smartphone in airplane mode!"
 msgstr ""
 
-#: templates/speakers.html:1223
+#: templates/speakers.html:1292
 msgid ""
 "I'm a Vienna based software developer and blockchain expert. With an "
 "academic background in the social sciences I have always been a "
@@ -3014,15 +3034,15 @@ msgid ""
 "number of projects."
 msgstr ""
 
-#: templates/speakers.html:1235
+#: templates/speakers.html:1305
 msgid "Intro to Blockchain with Python"
 msgstr ""
 
-#: templates/speakers.html:1236
+#: templates/speakers.html:1306
 msgid "This talk is structured into two parts of approximately equal length: "
 msgstr ""
 
-#: templates/speakers.html:1237
+#: templates/speakers.html:1307
 msgid ""
 "First an introduction to blockchains in general. Most have heard about "
 "blockchains or bitcoin but how does it actually work and what is the "
@@ -3034,7 +3054,7 @@ msgid ""
 " algorithms, trustless systems and the ideas behind them."
 msgstr ""
 
-#: templates/speakers.html:1245
+#: templates/speakers.html:1315
 msgid ""
 "In the second half of the talk I draw on my experience working with "
 "python in my professional career and give an overview of the python "
@@ -3043,18 +3063,18 @@ msgid ""
 " of the pros and cons (mostly pros) of using python in this sector."
 msgstr ""
 
-#: templates/speakers.html:1276
+#: templates/speakers.html:1347
 msgid ""
 "Rado has started as LabVIEW programmer, later continued with Python and "
 "Robot Framework. He has been working in testing for more than 15 years "
 "and he is currently working in Kistler as Test Lead."
 msgstr ""
 
-#: templates/speakers.html:1282
+#: templates/speakers.html:1354
 msgid "Robot Framework – univerzálny nástroj pre automatizované testovanie"
 msgstr ""
 
-#: templates/speakers.html:1283
+#: templates/speakers.html:1355
 msgid ""
 "Robot Framework je open-source framework naprogramovaný v jazyku Python "
 "určený pre automatizáciu testov a podporu test-driven developmentu. "
@@ -3072,14 +3092,14 @@ msgid ""
 "krokoch."
 msgstr ""
 
-#: templates/speakers.html:1296
+#: templates/speakers.html:1368
 msgid ""
 "Príspevok predstaví tento nástroj na konkrétnych príkladoch testov vo "
 "formátoch pre keyword-driven, data-driven a behaviour-driven testing, ako"
 " aj prácu so Seleniom a REST API rozhraním."
 msgstr ""
 
-#: templates/speakers.html:1325
+#: templates/speakers.html:1398
 msgid ""
 "I'm the applications- and database manager of the Viennese concert house."
 " Before that, I was part of a development team at the A1 Telekom Austria."
@@ -3088,11 +3108,11 @@ msgid ""
 "prototyping and some other lectures at the SAE Institute in Vienna."
 msgstr ""
 
-#: templates/speakers.html:1333
+#: templates/speakers.html:1407
 msgid "Think about the user"
 msgstr ""
 
-#: templates/speakers.html:1334
+#: templates/speakers.html:1408
 msgid ""
 "As developers, we are mainly focused on making things work. Business "
 "logic and process analysis, reinventing the wheel and questioning every "
@@ -3107,18 +3127,18 @@ msgid ""
 "user interface you want or have to create."
 msgstr ""
 
-#: templates/speakers.html:1371
+#: templates/speakers.html:1446
 msgid ""
 "Running a software agency in Munich and organizing the PyConWeb "
 "conference. Love to share experiences at tech events, meet new people and"
 " learn new things."
 msgstr ""
 
-#: templates/speakers.html:1376
+#: templates/speakers.html:1452
 msgid "Avoiding Macro Trouble of Micro Services"
 msgstr ""
 
-#: templates/speakers.html:1377
+#: templates/speakers.html:1453
 msgid ""
 "Any change in software architecture is a significant time investment. "
 "Writing microservices in Python is a joy, but when you decide on it, "
@@ -3127,7 +3147,7 @@ msgid ""
 "from the harsh reality."
 msgstr ""
 
-#: templates/speakers.html:1381
+#: templates/speakers.html:1457
 msgid ""
 "Having a bunch of smooth as well as tricky microservice migrations in the"
 " past, I would like to share typical pitfalls of choosing a framework "
@@ -3135,7 +3155,7 @@ msgid ""
 "covered by real projects."
 msgstr ""
 
-#: templates/speakers.html:1411
+#: templates/speakers.html:1488
 msgid ""
 "Suryansh works as a developer at Booking.com in New Product Development "
 "Department. He has been programming in Python since 4 years, and likes to"
@@ -3144,11 +3164,11 @@ msgid ""
 "from these experiences show up in his talks."
 msgstr ""
 
-#: templates/speakers.html:1419
+#: templates/speakers.html:1497
 msgid "MVP, is never just a MVP"
 msgstr ""
 
-#: templates/speakers.html:1420
+#: templates/speakers.html:1498
 msgid ""
 "MVP: Minimum Viable Product. We all follow agile product development "
 "process, iterate fast, fail fast and in the disguise of a MVP we cut "
@@ -3158,7 +3178,7 @@ msgid ""
 " us back."
 msgstr ""
 
-#: templates/speakers.html:1425
+#: templates/speakers.html:1503
 msgid ""
 "And this is what the talk is about. The assumptions which never hold, the"
 " implementation which is never revisited, and the MVP which never ends up"
@@ -3167,15 +3187,15 @@ msgid ""
 "product and some measures on how you can avoid them."
 msgstr ""
 
-#: templates/speakers.html:1447
+#: templates/speakers.html:1526
 msgid "Python & DevOps Engineer form Prague"
 msgstr ""
 
-#: templates/speakers.html:1460
+#: templates/speakers.html:1540
 msgid "Deploy your Python application into Kubernetes"
 msgstr ""
 
-#: templates/speakers.html:1461
+#: templates/speakers.html:1541
 msgid ""
 "Kubernetes is a very popular platform for deployments of applications. "
 "Let's deploy your Python app to Kubernetes and be independent on your "
@@ -3184,7 +3204,7 @@ msgid ""
 "Ocean."
 msgstr ""
 
-#: templates/speakers.html:1491
+#: templates/speakers.html:1572
 msgid ""
 "Python engineer at Kiwi.com focusing on finance apps. I am a developer "
 "who likes to break stuff and then put it back together which then works "
@@ -3192,11 +3212,11 @@ msgid ""
 "others."
 msgstr ""
 
-#: templates/speakers.html:1497
+#: templates/speakers.html:1579
 msgid "The dos and don'ts of task queues"
 msgstr ""
 
-#: templates/speakers.html:1498
+#: templates/speakers.html:1580
 msgid ""
 "Let's talk about our experience with Celery and intentions to switch to "
 "RQ which failed. We'll show our setup of larger and more complex apps "
@@ -3205,7 +3225,7 @@ msgid ""
 "a day."
 msgstr ""
 
-#: templates/speakers.html:1502
+#: templates/speakers.html:1584
 msgid ""
 "At Kiwi.com we heavily rely on task queues and asynchronous execution of "
 "code to process large amounts of requests coming to our back-ends. With "
@@ -3217,7 +3237,7 @@ msgid ""
 "resulting in a valuable lesson."
 msgstr ""
 
-#: templates/speakers.html:1510
+#: templates/speakers.html:1592
 msgid ""
 "Most of our services use Celery and it's the go-to tool for new services "
 "as well but we wanted to be different with this new microservice. RQ is "
@@ -3232,11 +3252,11 @@ msgid ""
 " fun things await ahead of us in the development."
 msgstr ""
 
-#: templates/speakers.html:1538
+#: templates/speakers.html:1621
 msgid "Mozilla Tech Speaker, Developer by day, Hacker by night"
 msgstr ""
 
-#: templates/speakers.html:1547
+#: templates/speakers.html:1630
 msgid ""
 "Kalyan Dikshit is a Mozilla Tech Speaker, Representative, and part of its"
 " Hyderabad Community, India. He spoke at the Internet Freedom Festival "
@@ -3250,11 +3270,11 @@ msgid ""
 "Day, Hacker by Night»"
 msgstr ""
 
-#: templates/speakers.html:1559
+#: templates/speakers.html:1643
 msgid "Smart Homes + Tor = SSH [Secure Smart Home]"
 msgstr ""
 
-#: templates/speakers.html:1560
+#: templates/speakers.html:1644
 msgid ""
 "“Internet of Things,” “Smart Devices,” “Smart Homes.” people are "
 "fascinated with them and their usage. But the most important things they "
@@ -3262,7 +3282,11 @@ msgid ""
 "away from our connected homes."
 msgstr ""
 
-#: templates/speakers.html:1590
+#: templates/speakers.html:1666
+msgid "Software engineer"
+msgstr ""
+
+#: templates/speakers.html:1675
 msgid ""
 "Developer with 10 years of experience with backend systems. Created them "
 "from scratch by starting with analysis and writing specification up to "
@@ -3270,11 +3294,11 @@ msgid ""
 "organizer of coding dojo sessions."
 msgstr ""
 
-#: templates/speakers.html:1597
+#: templates/speakers.html:1683
 msgid "Long term IT projects"
 msgstr ""
 
-#: templates/speakers.html:1598
+#: templates/speakers.html:1684
 msgid ""
 "Not everybody has a chance to work on new project from scratch. Everybody"
 " has some ideas what to do for such a project so it'll be a good one "
@@ -3286,18 +3310,18 @@ msgid ""
 "could be applied to legacy projects as well."
 msgstr ""
 
-#: templates/speakers.html:1632
+#: templates/speakers.html:1719
 msgid ""
 "Working at Exponea for two years already taught me two main things. Large"
 " scale systems deployed across several locations are awesome. Automation "
 "of such systems is even more awesome. "
 msgstr ""
 
-#: templates/speakers.html:1638
+#: templates/speakers.html:1726
 msgid "We run huge in-memory databases in GKE and we love it!"
 msgstr ""
 
-#: templates/speakers.html:1639
+#: templates/speakers.html:1727
 msgid ""
 "We invite You on the talk about our largest scale change in history of "
 "Exponea. We'll show you how we managed to run multi-terrabyte sharded in-"
@@ -3307,23 +3331,23 @@ msgid ""
 "system too."
 msgstr ""
 
-#: templates/speakers.html:1831
+#: templates/speakers.html:1927
 msgid ""
 "Machine learning specialist and big data engineer at CogneXa, former "
 "MatFyz student."
 msgstr ""
 
-#: templates/speakers.html:1845
+#: templates/speakers.html:1942
 msgid ""
 "Machine learning specialist and software developer at CogneXa, FIIT STU "
 "student."
 msgstr ""
 
-#: templates/speakers.html:1849
+#: templates/speakers.html:1947
 msgid "Machine learning workshop v Pythone"
 msgstr ""
 
-#: templates/speakers.html:1850
+#: templates/speakers.html:1948
 msgid ""
 "Náš workshop je zameraný na ukážku toho, ako môže byť strojové učenie "
 "použité na riešenie rôznych problémov a ako prejsť z programovania a data"
@@ -3336,11 +3360,11 @@ msgid ""
 "naprogramovaný aspoň jeden menší projekt). "
 msgstr ""
 
-#: templates/speakers.html:1875
+#: templates/speakers.html:1974
 msgid "Data Pipeline Team Lead"
 msgstr ""
 
-#: templates/speakers.html:1884
+#: templates/speakers.html:1983
 msgid ""
 "Filip, currently a \"Data Pipeline\" team lead at Exponea, has always "
 "combined his passions for software and complex systems. From architecting"
@@ -3351,11 +3375,11 @@ msgid ""
 "games, puns and not taking himself too seriously."
 msgstr ""
 
-#: templates/speakers.html:1894
+#: templates/speakers.html:1994
 msgid "Stability with a Hockey-stick"
 msgstr ""
 
-#: templates/speakers.html:1895
+#: templates/speakers.html:1995
 msgid ""
 "\"Make fast and break things\" used to be a popular motto at Facebook, "
 "but at some point it needed to change. How can a fast-growing SaaS "
@@ -3364,11 +3388,11 @@ msgid ""
 "must be done, panic, and talk about how they can actually be done."
 msgstr ""
 
-#: templates/speakers.html:1921 templates/speakers.html:1943
+#: templates/speakers.html:2022 templates/speakers.html:2045
 msgid "Co-founder of Slovensko.Digital"
 msgstr ""
 
-#: templates/speakers.html:1930
+#: templates/speakers.html:2031
 msgid ""
 "Gabriel Lachmann is chairman and a co-founding member of civic "
 "organization Slovensko.Digital. In 1999 he co-founded software company "
@@ -3383,7 +3407,7 @@ msgid ""
 " on Apache Spark, Pentaho, Talend, Tableau environments."
 msgstr ""
 
-#: templates/speakers.html:1952
+#: templates/speakers.html:2054
 msgid ""
 "Jano is reponsible for development and community in slovensko.digital. "
 "His professional life has been dedicated to software development, he has "
@@ -3394,11 +3418,11 @@ msgid ""
 "informatization expert\"."
 msgstr ""
 
-#: templates/speakers.html:1961
+#: templates/speakers.html:2064
 msgid "Ako prestať kradnúť v štátnom IT?"
 msgstr ""
 
-#: templates/speakers.html:1962
+#: templates/speakers.html:2065
 msgid ""
 "Slovensko.Digital už vyše troch rokov zasahuje do veľkých štátnych IT "
 "projektov a informatizácie verejnej správy ako takej. Dozviete sa či to "
@@ -3412,7 +3436,7 @@ msgid ""
 " nielen naše budúce vnúčatá.."
 msgstr ""
 
-#: templates/speakers.html:1997
+#: templates/speakers.html:2101
 msgid ""
 "Peter Valachovič is informatics teacher at Piaristic high school in Nitra"
 " where he teaches the base course of Python programming as well as "
@@ -3422,13 +3446,13 @@ msgid ""
 "projects."
 msgstr ""
 
-#: templates/speakers.html:2005
+#: templates/speakers.html:2110
 msgid ""
 "Prechod na Python u Piaristov v Nitre a niektoré tamojšie študentské "
 "projekty"
 msgstr ""
 
-#: templates/speakers.html:2006
+#: templates/speakers.html:2111
 msgid ""
 "Krátko sa podelíme o tom ako sa vyvíja prechod na Python z pascalu "
 "(Delphi/Lazarus), čo sa nám podarilo, a aké výzvy pred nami sme "
@@ -3439,7 +3463,7 @@ msgid ""
 "študentský projekt vylepšenia zvonení na škole."
 msgstr ""
 
-#: templates/speakers.html:2012
+#: templates/speakers.html:2117
 msgid ""
 "Pri predstavovaní študentskej učebnice bude Tomáš Kiss hovoriť o "
 "motivácii pre túto učebnicu a spôsobe akým ju realizuje. Tiež by chcel "
@@ -3447,7 +3471,7 @@ msgid ""
 " učebnicu získať."
 msgstr ""
 
-#: templates/speakers.html:2015
+#: templates/speakers.html:2120
 msgid ""
 "Pri projekte o vylepšení zvonení na škole opíše Jakub stav, aký bol na "
 "škole predtým a popíše motiváciu k zlepšeniu ako aj realizovaný systém. "
@@ -3455,7 +3479,7 @@ msgid ""
 " vyskytli."
 msgstr ""
 
-#: templates/speakers.html:2045
+#: templates/speakers.html:2151
 msgid ""
 "On a sunny delicious afternoon, Ingrid was happily playing the flute on "
 "the meadows. Out of a sudden a bush stirred and from its depths, slowly "
@@ -3469,13 +3493,13 @@ msgid ""
 " and culture."
 msgstr ""
 
-#: templates/speakers.html:2056
+#: templates/speakers.html:2163
 msgid ""
 "The Apprentice's Enthusiastic Guide to pandas (or how to look at the "
 "world through the gentle eyes of one)"
 msgstr ""
 
-#: templates/speakers.html:2057
+#: templates/speakers.html:2164
 msgid ""
 "The Pandas soon realized there's no way they are going to survive the "
 "ordeals and hardships of this world, if they didn't finally and without "
@@ -3621,89 +3645,89 @@ msgstr ""
 msgid "Partners"
 msgstr ""
 
-#: templates/sponsoring.html:325
+#: templates/sponsoring.html:341
 msgid "Why become a sponsor?"
 msgstr ""
 
-#: templates/sponsoring.html:326
+#: templates/sponsoring.html:342
 msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
 msgstr ""
 
-#: templates/sponsoring.html:331
+#: templates/sponsoring.html:347
 msgid ""
 "PyCon is an annual gathering for the community using and developing the "
 "open-source Python programming language. The conference is completely "
 "organized by volunteers."
 msgstr ""
 
-#: templates/sponsoring.html:332
+#: templates/sponsoring.html:348
 msgid ""
 "The members of the Python community organize a PyCon conference in their "
 "home countries regularly, PyCon will happen in Slovakia for the fourth "
 "time."
 msgstr ""
 
-#: templates/sponsoring.html:336
+#: templates/sponsoring.html:352
 msgid ""
 "To ensure high-quality speakers and keep the tickets price available for "
 "everyone we need you, the sponsors, who allow the conference to take "
 "place."
 msgstr ""
 
-#: templates/sponsoring.html:340
+#: templates/sponsoring.html:356
 msgid ""
 "Do not hesitate to contact us. We are flexible and willing to work with "
 "you to design a sponsorship package that is going to meet your business "
 "needs."
 msgstr ""
 
-#: templates/sponsoring.html:352
+#: templates/sponsoring.html:368
 msgid "Recruitment"
 msgstr ""
 
-#: templates/sponsoring.html:354
+#: templates/sponsoring.html:370
 msgid ""
 "Are you looking for programmers? PyCon is the best place for meeting new "
 "talents. Many participants will be experienced developers looking for "
 "their next big career move."
 msgstr ""
 
-#: templates/sponsoring.html:363
+#: templates/sponsoring.html:379
 msgid "Audience"
 msgstr ""
 
-#: templates/sponsoring.html:365
+#: templates/sponsoring.html:381
 msgid ""
 "Want to get your message across to the people, so they talk about you? "
 "PyCon is a great opportunity. People in the Python community like to "
 "discover and share new things."
 msgstr ""
 
-#: templates/sponsoring.html:374
+#: templates/sponsoring.html:390
 msgid "Marketing"
 msgstr ""
 
-#: templates/sponsoring.html:376
+#: templates/sponsoring.html:392
 msgid ""
 "Looking for new users for your product? Such people can be found at PyCon"
 " - they also will look for new products and ideas."
 msgstr ""
 
-#: templates/sponsoring.html:385
+#: templates/sponsoring.html:401
 msgid "Community"
 msgstr ""
 
-#: templates/sponsoring.html:387
+#: templates/sponsoring.html:403
 msgid ""
 "Looking for new contributors and partners for your open source project? "
 "PyCon is the place, where they also will look for you."
 msgstr ""
 
-#: templates/sponsoring.html:396
+#: templates/sponsoring.html:412
 msgid "Support"
 msgstr ""
 
-#: templates/sponsoring.html:398
+#: templates/sponsoring.html:414
 msgid ""
 "Are you using Python in your company? Support for community events is an "
 "excellent opportunity to contribute back."
