@@ -60,8 +60,9 @@
 				        		<div class="schedule-listing">
 				        			<span class="schedule-slot-time">{{ block.time }}</span>
 				        			<div class="schedule-slot-info">
-				        				{% if block.avatar %}
+				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ url_for('speakers', lang_code=lang_code) }}#speaker_{{ block.speaker }}">{% endif %}
                                             <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
+                                        {% if block.speaker %}</a>{% endif %}
                                         {% endif %}
                                         <div class="schedule-slot-info-content">
 				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
