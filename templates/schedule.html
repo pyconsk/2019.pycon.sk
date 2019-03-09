@@ -51,6 +51,15 @@
 									</span>
 							  	</a>
 							</li>
+                            {% if digilab %}
+                            <li>
+							  	<a class="animated fadeIn" href="#tab_five" data-toggle="tab">
+							  		<span class="tab-head">
+										<span class="tab-text-title">DigiLab</span>
+									</span>
+							  	</a>
+							</li>
+                            {% endif %}
 						</ul>
 
 						<div class="tab-content">
@@ -131,7 +140,29 @@
 				        			</div><!-- Slot info end -->
 				        		</div><!-- Slot listing 1 end -->
                             {% endfor %}
-				        	</div><!-- Tab pane 3 end -->
+				        	</div><!-- Tab pane 4 end -->
+
+                        {% if digilab %}
+                            <div class="tab-pane animated fadeInLeft" id="tab_five">
+				            <h2 class="schedule-date">DigiLab</h2>
+                            {% for block in digilab %}
+				        		<div class="schedule-listing">
+				        			<span class="schedule-slot-time">{{ block.time }}</span>
+				        			<div class="schedule-slot-info">
+				        				{% if block.avatar %}
+                                        <a href="#">
+				        					<img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
+				        				</a>
+                                        {% endif %}
+                                        <div class="schedule-slot-info-content">
+				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
+				        					<h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+				        				</div><!--Info content end -->
+				        			</div><!-- Slot info end -->
+				        		</div><!-- Slot listing 1 end -->
+                            {% endfor %}
+				        	</div><!-- Tab pane 5 end -->
+                        {% endif %}
 
 						</div><!-- tab content -->
 					</div><!-- Schedule tab end -->

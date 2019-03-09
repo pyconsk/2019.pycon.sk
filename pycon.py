@@ -272,8 +272,8 @@ SATURDAY1 = (
     },
     {
         'time': '16:55 - 17:25',
-        'name': 'TBD',
-        'title': gettext('TBD'),
+        'name': 'Martin Strýček',
+        'title': gettext('Your flight ticket is just the tip of the iceberg!'),
     },
     {
         'time': '17:30 - 18:00',
@@ -363,12 +363,43 @@ SATURDAY3 = (
         'name': '',
         'title': gettext('Young Coders Day - Coder Dojo'),
     },
+    {
+        'time': '14:15 - 16:00',
+        'name': '',
+        'title': gettext('Job Fair'),
+    },
 )
 SATURDAY4 = (
     {
         'time': '09:00 - 11:00',
         'name': 'Marek Mansell',
         'title': 'Pokročilé medzipredmetové projekty s BBC micro:bit',
+        'avatar': '',
+    },
+)
+SATURDAY5 = (
+    {
+        'time': '09:00 - 10:50',
+        'name': 'Magdaléna Bellayová, Eva Kupčová',
+        'title': 'Programovať môže každý. Fakt alebo mýtus?',
+        'avatar': '',
+    },
+    {
+        'time': '11:05 - 12:10',
+        'name': 'Miroslav Biňas',
+        'title': 'Dobrodružstvá v Minecrafte s jazykom Python',
+        'avatar': '',
+    },
+    {
+        'time': '13:10 - 15:15',
+        'name': 'Tobias Kohn, Dennis Komm',
+        'title': 'Using Python to Teach Algorithmic Efficiency',
+        'avatar': '',
+    },
+    {
+        'time': '15:20 - 16:40',
+        'name': 'Miroslav Biňas',
+        'title': 'Výučba programovania pomocou tvorby hier v PyGame Zero',
         'avatar': '',
     },
 )
@@ -437,6 +468,12 @@ SUNDAY1 = (
         'title': gettext('Smart Homes + Tor = SSH [Secure Smart Home]'),
         'avatar': '/static/images/speakers/dikshit.jpg',
         'speaker': 'dikshit',
+    },
+{
+        'time': '16:20 - 16:30',
+        'name': 'Richard Kellner',
+        'title': gettext('Conference closing'),
+        # 'avatar': '/static/images/speakers/kellner.jpg',
     },
 )
 SUNDAY2 = (
@@ -546,7 +583,8 @@ def friday():
 def saturday():
     return render_template('schedule.html', **_get_template_variables(li_schedule='active', magna=SATURDAY1,
                                                                       minor=SATURDAY2, babageovaA=SATURDAY3,
-                                                                      babageovaB=SATURDAY4, day=gettext('Saturday')))
+                                                                      babageovaB=SATURDAY4, digilab=SATURDAY5,
+                                                                      day=gettext('Saturday')))
 
 @app.route('/<lang_code>/sunday.html')
 def sunday():
