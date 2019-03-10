@@ -36,15 +36,15 @@ FRIDAY1 = (
     },
     {
         'time': '10:20 - 10:50',
-        'name': gettext('Machine Learning Democratization'),
-        'title': 'Jorge Torres',
+        'name': 'Jorge Torres',
+        'title': gettext('Machine Learning Democratization'),
         'avatar': '/static/images/speakers/torres.png',
         'speaker': 'torres',
     },
     {
         'time': '11:05 - 11:35',
-        'name': gettext('Avoiding Macro Trouble of Micro Services'),
-        'title': 'Anton Caceres',
+        'name': 'Anton Caceres',
+        'title': gettext('Avoiding Macro Trouble of Micro Services'),
         'avatar': '/static/images/speakers/caceres.jpg',
         'speaker': 'caceres',
     },
@@ -412,7 +412,7 @@ SUNDAY1 = (
         'speaker': 'sojakova',
     },
     {
-        'time': '10:05 - 10:30',
+        'time': '10:05 - 10:35',
         'name': 'Suryansh Tibarewala',
         'title': gettext('MVP, is never just a MVP'),
         'avatar': '/static/images/speakers/tibarewala.jpg',
