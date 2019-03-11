@@ -24,7 +24,7 @@ FRIDAY1 = (
     },
     {
         'time': '09:00 - 09:25',
-        'name': 'Richard Kellner',
+        'name': 'Ján Gordulič',
         'title': gettext('Conference opening'),
     },
     {
@@ -99,7 +99,7 @@ FRIDAY1 = (
     },
     {
         'time': '17:30 - 18:00',
-        'name': '',
+        'name': 'Ján Gordulič',
         'title': 'Lightning talks',
     },
 )
@@ -204,7 +204,7 @@ SATURDAY1 = (
     },
     {
         'time': '09:00 - 09:25',
-        'name': 'Richard Kellner',
+        'name': 'Ján Gordulič',
         'title': gettext('Conference opening'),
     },
     {
@@ -277,12 +277,12 @@ SATURDAY1 = (
     },
     {
         'time': '17:30 - 18:00',
-        'name': '',
+        'name': 'Ján Gordulič',
         'title': 'QUIZ!',
     },
     {
         'time': '18:05 - 18:30',
-        'name': '',
+        'name': 'Ján Gordulič',
         'title': 'Lightning talks',
     },
 )
