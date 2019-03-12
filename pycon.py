@@ -597,6 +597,11 @@ def jobfair():
     return render_template('job-fair.html', **_get_template_variables(li_jobfair='active'))
 
 
+@app.route('/<lang_code>/job-fair-form.html')
+def jobfair_form():
+    return render_template('job-fair_form.html', **_get_template_variables(li_jobfair='active'))
+
+
 @app.route('/<lang_code>/coc.html')
 def coc():
     return render_template('coc.html', **_get_template_variables(li_coc='active'))

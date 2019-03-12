@@ -26,6 +26,9 @@
             {{ _('When you talk to company representatives they can answer all your questions. After a short discussion, you will know what they expect from developers, about their currently open positions, what technology stack they are using and their growth opportunities. If this sounds interesting, please sign up in the form. We\'ll forward your details to company representatives you choose (you can select multiple) and they will schedule a spot during the Job Fair session with you (be aware that the number of the slots is limited).') }}
           </p>
 
+          <p class="text-center">
+            <a href="{{ url_for('jobfair_form', lang_code=lang_code) }}" class="btn btn-lg btn-secondary">{{ _('Job Fair sign up form') }}</a>
+          </p>
 
         </div>
       </div>
