@@ -253,7 +253,7 @@ SATURDAY1 = (
         'time': '14:30 - 15:15',
         'name': 'Gabriel Lachmann, Jano Suchal',
         'title': gettext('Ako prestať kradnúť v štátnom IT?'),
-        'avatar': '/static/images/speakers/suchal.jpg',
+        'avatar': '/static/images/speakers/lachmann.jpg',
         'speaker': 'lachmann',
     },
     {
@@ -576,21 +576,21 @@ def speakers():
 @app.route('/<lang_code>/friday.html')
 def friday():
     return render_template('schedule.html', **_get_template_variables(li_schedule='active', magna=FRIDAY1,
-                                                                      minor=FRIDAY2, babageovaA=FRIDAY3,
-                                                                      babageovaB=FRIDAY4, day=gettext('Friday')))
+                                                                      minor=FRIDAY2, babbageovaA=FRIDAY3,
+                                                                      babbageovaB=FRIDAY4, day=gettext('Friday')))
 
 @app.route('/<lang_code>/saturday.html')
 def saturday():
     return render_template('schedule.html', **_get_template_variables(li_schedule='active', magna=SATURDAY1,
-                                                                      minor=SATURDAY2, babageovaA=SATURDAY3,
-                                                                      babageovaB=SATURDAY4, digilab=SATURDAY5,
+                                                                      minor=SATURDAY2, babbageovaA=SATURDAY3,
+                                                                      babbageovaB=SATURDAY4, digilab=SATURDAY5,
                                                                       day=gettext('Saturday')))
 
 @app.route('/<lang_code>/sunday.html')
 def sunday():
     return render_template('schedule.html', **_get_template_variables(li_schedule='active', magna=SUNDAY1,
-                                                                      minor=SUNDAY2, babageovaA=SUNDAY3,
-                                                                      babageovaB=SUNDAY4, day=gettext('Sunday')))
+                                                                      minor=SUNDAY2, babbageovaA=SUNDAY3,
+                                                                      babbageovaB=SUNDAY4, day=gettext('Sunday')))
 
 @app.route('/<lang_code>/job-fair.html')
 def jobfair():
