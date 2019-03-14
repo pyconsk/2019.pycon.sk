@@ -43,10 +43,10 @@ FRIDAY1 = (
     },
     {
         'time': '11:05 - 11:35',
-        'name': 'Anton Caceres',
-        'title': gettext('Avoiding Macro Trouble of Micro Services'),
-        'avatar': '/static/images/speakers/caceres.jpg',
-        'speaker': 'caceres',
+        'name': 'Jakub Šedinár',
+        'title': gettext('Odoo'),
+        'avatar': '/static/images/speakers/sedinar.jpg',
+        'speaker': 'sedinar',
     },
     {
         'time': '11:40 - 12:10',
@@ -54,6 +54,10 @@ FRIDAY1 = (
         'title': gettext('Using Python in new space industry is not a rocket science'),
         'avatar': '/static/images/speakers/balas.jpg',
         'speaker': 'balas',
+    },
+    {
+        'time': '12:10 - 13:10',
+        'title': gettext('Lunch break'),
     },
     {
         'time': '13:10 - 13:55',
@@ -64,10 +68,10 @@ FRIDAY1 = (
     },
     {
         'time': '14:00 - 14:30',
-        'name': 'Jakub Šedinár',
-        'title': gettext('Odoo'),
-        'avatar': '/static/images/speakers/sedinar.jpg',
-        'speaker': 'sedinar',
+        'name': 'Anton Caceres',
+        'title': gettext('Avoiding Macro Trouble of Micro Services'),
+        'avatar': '/static/images/speakers/caceres.jpg',
+        'speaker': 'caceres',
     },
     {
         'time': '14:45 - 15:30',
@@ -131,13 +135,17 @@ FRIDAY2 = (
         'speaker': 'sturmova',
     },
     {
-        'time': '13:10 - 13:55',
+        'time': '12:10 - 13:10',
+        'title': gettext('Lunch break'),
+    },
+    {
+        'time': '13:10 - 13:33',
         'name': 'Tomáš Dudík, Jakub Sokolík',
         'title': gettext('Ako sa ďalej pasujeme s Python na hodinách informatiky'),
         'avatar': '',
     },
     {
-        'time': '13:10 - 13:55',
+        'time': '13:33 - 13:55',
         'name': 'Peter Valachovič, Tomáš Kiss, Jakub Hrnčár',
         'title': gettext('Prechod na Python u Piaristov v Nitre a niektoré tamojšie študentské projekty'),
         'avatar': '/static/images/speakers/valachovic.jpg',
@@ -158,7 +166,7 @@ FRIDAY2 = (
     {
         'time': '16:20 - 16:50',
         'name': '',
-        'title': 'Vyhodnotenie SPy Cup a Python Cup a HARDWARE SHOWCASE',
+        'title': 'Vyhodnotenie SPy Cup a Python Cup a Hardware showcase',
     },
     {
         'time': '16:55 - 17:25',
@@ -170,7 +178,7 @@ FRIDAY3 = (
     {
         'time': '12:00 - 12:30',
         'name': '',
-        'title': 'HARDWARE SHOWCASE',
+        'title': 'Hardware showcase',
     },
     {
         'time': '13:10 - 14:40',
@@ -234,6 +242,10 @@ SATURDAY1 = (
         'title': gettext('Nucleus: an open-source library for genomics data and machine learning'),
         'avatar': '/static/images/speakers/li.jpg',
         'speaker': 'li',
+    },
+    {
+        'time': '12:10 - 13:10',
+        'title': gettext('Lunch break'),
     },
     {
         'time': '13:10 - 13:40',
@@ -314,6 +326,10 @@ SATURDAY2 = (
         'title': gettext('Gotchas and Landmines in Python'),
         'avatar': '/static/images/speakers/pandey.jpg',
         'speaker': 'pandey',
+    },
+    {
+        'time': '12:10 - 13:10',
+        'title': gettext('Lunch break'),
     },
     {
         'time': '13:45 - 14:15',
@@ -434,6 +450,10 @@ SUNDAY1 = (
         'speaker': 'frank',
     },
     {
+        'time': '11:55 - 12:55',
+        'title': gettext('Lunch break'),
+    },
+    {
         'time': '12:55 - 13:25',
         'name': 'Hans Christian Feßl',
         'title': gettext('Think about the user'),
@@ -483,6 +503,10 @@ SUNDAY2 = (
         'title': gettext('Network Science, Game of Thrones and US Airports'),
         'avatar': '/static/images/speakers/seth.jpg',
         'speaker': 'seth',
+    },
+    {
+        'time': '12:00 - 13:00',
+        'title': gettext('Lunch break'),
     },
     {
         'time': '13:00 - 15:00',
