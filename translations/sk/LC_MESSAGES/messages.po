@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-03-13 21:57+0100\n"
+"POT-Creation-Date: 2019-03-14 07:37+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -2106,10 +2106,10 @@ msgid ""
 "for you to meet their representatives."
 msgstr ""
 "Sme presvedčení, že výnimočná konferencia je viac ako len skvelí spíkri, "
-"zaujímaeǘé prednášky a dobré jedlo. Každý rok sa snažíme na PyCon SK "
-"predstaviť nové veci. Tento rok predstavíme ďalšiu novú súčasť konferencie"
-" - Job Fair. Spolu s našimi sponzormi sme pripravili príležitosť pre vás "
-"na stretnutie s ich predstaviteľmi."
+"zaujímavé prednášky a dobré jedlo. Každý rok sa snažíme na PyCon SK "
+"predstaviť nové veci. Tento rok predstavíme ďalšiu novú súčasť "
+"konferencie - Job Fair. Spolu s našimi sponzormi sme pripravili "
+"príležitosť pre vás na stretnutie s ich predstaviteľmi."
 
 #: templates/job-fair.html:33
 msgid ""
@@ -2134,13 +2134,13 @@ msgid ""
 "will schedule a spot during the Job Fair session with you (be aware that "
 "the number of the slots is limited)."
 msgstr ""
-"Pri rozhovore so zástupcami firiem ti môžu odpovedať na všetky otázky. "
-"Po krátkej diskusii budeš mať predstavu, čo očakávajú od developerov, aké "
+"Pri rozhovore so zástupcami firiem ti môžu odpovedať na všetky otázky. Po"
+" krátkej diskusii budeš mať predstavu, čo očakávajú od developerov, aké "
 "majú aktuálne otvorené pozície, aký technologický stack používajú a "
-"možnosti rozvoja. Ak ťa to zaujalo, vyplň prihlasovací formulár. My "
-"tvoje detaily posunieme ďalej predstaviteľom firiem, ktorých si vyberieš "
-"(môžeš si vybrať viacerých) a oni si s tebou dohodnú stretnutie na Job "
-"Fair (počet voľných slotov na stretnutia je obmedzený)."
+"aké sú možnosti rozvoja. Ak ťa to zaujalo, vyplň prihlasovací formulár. "
+"My tvoje detaily posunieme ďalej predstaviteľom firiem, ktorých si "
+"vyberieš (môžeš si vybrať viacerých) a oni si s tebou dohodnú stretnutie "
+"na Job Fair (počet voľných slotov na stretnutia je obmedzený)."
 
 #: templates/job-fair.html:53
 msgid "Logo Exponea"
@@ -2161,7 +2161,7 @@ msgid ""
 " are your passion, we would love to hear from you."
 msgstr ""
 "Na druhú stranu, ak je písanie čistého kódu tvojou mantrou, hľadanie "
-"najlepšieho riešenia tvojím potešením a elegantné jazyky ako Python alebo "
+"najlepšieho riešenia tvojím potešením a elegantné jazyky ako Python alebo"
 " Go tvojou vášňou, radi o tebe budeme počuť."
 
 #: templates/job-fair.html:69
@@ -2189,11 +2189,11 @@ msgid ""
 msgstr ""
 "Cestovná tech spoločnosť Kiwi.com bola vytvorená cestovateľmi pre "
 "cestovateľov v roku 2012. Vďaka vlastnému algoritmu, ktorý umožňuje "
-"kombinovať lety viac ako 500 leteckých spoločností (virtuálne prepojenia),"
-" vrátane tých, čo normálne nespolupracujú, je Kiwi.com jednou z "
-"najrýchlejšie rastúcich technologických spoločností strednej Európy. "
-"V roku 2017 sa dostal na zoznam Deloitte Technology Fast 500 EMEA na "
-"7. miesto, čím sa stal najvyššie hodnotenou českou spoločnosťou."
+"kombinovať lety viac ako 500 leteckých spoločností (virtuálne "
+"prepojenia), vrátane tých, čo normálne nespolupracujú, je Kiwi.com jednou"
+" z najrýchlejšie rastúcich technologických spoločností strednej Európy. V"
+" roku 2017 sa dostal na zoznam Deloitte Technology Fast 500 EMEA na 7. "
+"miesto, čím sa stal najvyššie hodnotenou českou spoločnosťou."
 
 #: templates/job-fair.html:99
 msgid ""
@@ -2217,8 +2217,8 @@ msgid ""
 "Bratislava, Prague, Brno and in other locations :)"
 msgstr ""
 "Navštív náš stánok na PyConSK a pozri sa na našu stránku s pozíciami <a "
-"href=\"https://kiwi.com/jobs\">kiwi.com/jobs</a>. Prijímame ľudí "
-"v Bratislave, Prahe, Brne a v ďalších mestách :)"
+"href=\"https://kiwi.com/jobs\">kiwi.com/jobs</a>. Prijímame ľudí v "
+"Bratislave, Prahe, Brne a v ďalších mestách :)"
 
 #: templates/job-fair.html:121
 msgid "Logo Kistler"
@@ -2231,8 +2231,8 @@ msgid ""
 "solutions - depending on the project."
 msgstr ""
 "Test Developer v Kistleri sa podieľa na vývoji softvéru pre vstavané "
-"systémy, desktopové aplikácie, webové aplikácie alebo cloudové riešenia "
-"- v závislosti od projektu."
+"systémy, desktopové aplikácie, webové aplikácie alebo cloudové riešenia -"
+" v závislosti od projektu."
 
 #: templates/job-fair.html:135
 msgid ""
@@ -2244,9 +2244,9 @@ msgid ""
 "latest trends and sharing knowledge gained in testing and automation very"
 " important to us."
 msgstr ""
-"Hlavnou úlohou je vytvárať automatické testy na systémovej úrovni, aby "
-"sa minimalizovalo ručné testovanie a zvýšila sa efektivita vývoja, čo "
-"často vyžaduje kreativitu a logické myslenie. Prehľad v technológiách a "
+"Hlavnou úlohou je vytvárať automatické testy na systémovej úrovni, aby sa"
+" minimalizovalo ručné testovanie a zvýšila sa efektivita vývoja, čo často"
+" vyžaduje kreativitu a logické myslenie. Prehľad v technológiách a "
 "rozhraniach je obrovskou výhodou pri hľadaní ich správnej kombinácie. "
 "Preto je pre nás veľmi dôležité neustále vzdelávanie, sledovanie "
 "najnovších trendov a zdieľanie poznatkov získaných z testovania."
@@ -2259,7 +2259,8 @@ msgid ""
 msgstr ""
 "Používame Robot Framework na automatizované testovanie backendových a "
 "frontendových aplikácií. Tento nástroj nám dáva možnosť implementovať a "
-"integrovať Python moduly a knižnice vytvorené pre naše špecifické potreby."
+"integrovať Python moduly a knižnice vytvorené pre naše špecifické "
+"potreby."
 
 #: templates/job-fair.html:148
 msgid ""
@@ -2282,8 +2283,8 @@ msgid ""
 " the release process of Red Hat's offerings."
 msgstr ""
 "Team Red Hat hľadá softvérového inžiniera, ktorý sa pridá do nášho teamu "
-"v Brne. V tejto pozícii budeš súčasťou teamu Continuous Productization "
-"na automatizáciu, vylepšovanie release procesu produktov Red Hatu."
+"v Brne. V tejto pozícii budeš súčasťou teamu Continuous Productization na"
+" automatizáciu, vylepšovanie release procesu produktov Red Hatu."
 
 #: templates/job-fair.html:176
 msgid ""
@@ -2293,15 +2294,15 @@ msgid ""
 " in the market today like Red Hat OpenShift, containers, and Jenkins."
 msgstr ""
 "Budeš spolupracovať na open source projektoch s ostatnými continuous "
-"integration (CI) inžiniermi a teamami vývojárov a quality assurance (QA). "
-"Ako softvérový inžinier budeš pracovať s najnovšími technológiami "
-"na trhu ako sú Red Hat OpenShift, kontajnery a Jenkins."
+"integration (CI) inžiniermi a teamami vývojárov a quality assurance (QA)."
+" Ako softvérový inžinier budeš pracovať s najnovšími technológiami na "
+"trhu ako sú Red Hat OpenShift, kontajnery a Jenkins."
 
 #: templates/job-fair.html:182
 msgid "<a href=\"https://global-redhat.icims.com/jobs/\">Learn more</a>"
 msgstr "<a href=\"https://global-redhat.icims.com/jobs/\">Zisti viac</a>"
 
-#: templates/job-fair.html:203 templates/sponsoring.html:177
+#: templates/job-fair.html:203 templates/sponsoring.html:174
 msgid ""
 "Our team develops solution based on state of the art artificial "
 "intelligence models and algorithms for natural language processing for "
@@ -2343,9 +2344,9 @@ msgid ""
 "rooted in the <strong>#DNA</strong> of every great "
 "<strong>#hero</strong>."
 msgstr ""
-"Musíš to mať v sebe. Pripravenosť na nové výzvy, energiu pustiť sa do nich"
-"a dokázať, že nemožné je len otázkou vôle, sú zakódované v <strong>#DNA"
-"</strong> každého <strong>#hrdinu</strong>."
+"Musíš to mať v sebe. Pripravenosť na nové výzvy, energiu pustiť sa do "
+"nicha dokázať, že nemožné je len otázkou vôle, sú zakódované v "
+"<strong>#DNA</strong> každého <strong>#hrdinu</strong>."
 
 #: templates/job-fair.html:243
 msgid ""
@@ -2355,8 +2356,8 @@ msgid ""
 "TITANs."
 msgstr ""
 "Sme tu pre tých, čo chcú vystúpiť z rady a vstúpiť do skutoného sveta IT "
-"<strong>#freelancing</strong>u. Už roky bojujeme spolu s každým našim "
-" jedným TITANom."
+"<strong>#freelancing</strong>u. Už roky vytrvalo bojujeme spolu s každým "
+"našim jedným TITANom."
 
 #: templates/job-fair.html:248
 msgid ""
@@ -2389,9 +2390,9 @@ msgid ""
 "capabilities. Our headquarters is in Bratislava where all the development"
 " happens."
 msgstr ""
-"My v <strong>SEGRON</strong>e vytvárame Riešenia pre automatizované "
-"testy pre sektor telekomunikácií . Náš produkt \"vytŕča\" z konkurencie "
-"vďaka tomu, že ako jediný ponúka end-to-end riešenie. Naše sídlo je v "
+"My v <strong>SEGRON</strong>e vytvárame Riešenia pre automatizované testy"
+" pre sektor telekomunikácií . Náš produkt \"vytŕča\" z konkurencie vďaka "
+"tomu, že ako jediný ponúka end-to-end riešenie. Naše sídlo je v "
 "Bratislave, kde sa deje celý vývoj."
 
 #: templates/job-fair.html:282
@@ -2408,8 +2409,8 @@ msgid ""
 "finding and fixing the problems but think at least five steps ahead and "
 "fix the problems in such elegant way that it will never break again."
 msgstr ""
-"Ľudí so <strong>silnými schopnosťami riešiť problémy</strong> – nie len"
-" nájsť a opraviť chybu, ale myslieť päť krokov dopredu a opraviť problém "
+"Ľudí so <strong>silnými schopnosťami riešiť problémy</strong> – nie len "
+"nájsť a opraviť chybu, ale myslieť päť krokov dopredu a opraviť problém "
 "tak elegantne, že už sa nikdy nezopakuje."
 
 #: templates/job-fair.html:291
@@ -2458,7 +2459,8 @@ msgid ""
 msgstr ""
 "Teší nás tvoj záujem o Job Fair. Je to skvelá príležitosť porozprávať sa "
 "s ľuďmi z firiem, ktoré ťa zaujali. Predstavia ti svoje požiadavky, "
-"príležitosti, ktoré by ťa mohli zaujať. Z týchto rozhovorov môžeš iba získať."
+"príležitosti, ktoré by ťa mohli zaujať. Z týchto rozhovorov môžeš iba "
+"získať."
 
 #: templates/job-fair_form.html:40
 msgid "Name"
@@ -2499,9 +2501,10 @@ msgid ""
 "collected in this form will be deleted after the PyCon SK 2019 "
 "conference."
 msgstr ""
-"SPy o.z. bude zdieľať tvoje údaje iba so spoločnosťami, ktoré si vyberieš."
-" Nebudeme uchovávať žiadne informácie dlhšie, ako to bude potrebné a "
-"všetky údaje z tohto formulára budú zmazané po konferencii PyConSK 2019."
+"SPy o.z. bude zdieľať tvoje údaje iba so spoločnosťami, ktoré si "
+"vyberieš. Nebudeme uchovávať žiadne informácie dlhšie, ako to bude "
+"potrebné a všetky údaje z tohto formulára budú zmazané po konferencii "
+"PyConSK 2019."
 
 #: templates/job-fair_form.html:181
 msgid "Sign up for Job Fair slot"
@@ -4662,19 +4665,48 @@ msgstr ""
 "technológie, ktoré tvoria základy ďalšieho rasti a pripravuje svojich "
 "zákazníkov na budúcnosť IT."
 
-#: templates/sponsoring.html:174
+#: templates/sponsoring.html:173
 msgid "Permanent Establishment of Raiffeisen Bank International AG in Slovakia"
 msgstr "Trvalé zastúpenie Raiffeisen Bank International AG na Slovensku"
 
-#: templates/sponsoring.html:191
+#: templates/sponsoring.html:192
 msgid "Silver Sponsors"
 msgstr "Strieborní sponzori"
 
-#: templates/sponsoring.html:211
+#: templates/sponsoring.html:199
+msgid ""
+"SEGRON stands for Beyond End2End® Test Automation in Telecoms & IT, "
+"international consulting and tailor-made software solutions."
+msgstr ""
+"SEGRON znamená Beyond End2End® Test Automation v oblasti telekomunikácií "
+"a IT, medzinárodných konzultačných služieb a vývoja softvéru na mieru."
+
+#: templates/sponsoring.html:201
+msgid ""
+"Founded by industry experts with over 20 years experience in IT and "
+"telecommunications, our multinational team consists of experienced Telco "
+"and IT engineers, software developers, testing/automation specialists and"
+" project managers."
+msgstr ""
+"Náš medzinárodný tím, založený odborníkmi s viac ako 20-ročnými "
+"skúsenosťami v oblasti IT a telekomunikácií, sa skladá zo skúsených "
+"Telco a IT inžinierov, softvérových vývojárov, špecialistov na "
+"testovanie/automatizáciu a projektových manažérov."
+
+#: templates/sponsoring.html:205
+msgid ""
+"Our customers are international telecom operators, where our solutions "
+"enable faster and quality assured new service introduction and "
+"innovation."
+msgstr ""
+"Našimi zákazníkmi sú zahraniční telekomunikační operátori, ktorým naše "
+"riešenia umožňujú poskytovať a inovovať služby rýchlejšie a kvalitnejšie."
+
+#: templates/sponsoring.html:219
 msgid "Bronze Sponsors"
 msgstr "Bronzoví sponzori"
 
-#: templates/sponsoring.html:218
+#: templates/sponsoring.html:226
 msgid ""
 "Sticker Mule is the fastest and easiest way to buy custom printed "
 "products. Thousands of people trust us to make kick-ass stickers, labels,"
@@ -4687,7 +4719,7 @@ msgstr ""
 "niekoľkých sekúnd a získajte online záruku, dopravu zdarma super rýchle "
 "doručenie!"
 
-#: templates/sponsoring.html:234
+#: templates/sponsoring.html:242
 msgid ""
 "At JetBrains, code is our passion. For over 15 years we have strived to "
 "make the strongest, most effective developer tools on earth. By "
@@ -4700,7 +4732,7 @@ msgstr ""
 "zvyšujú produktivitu a dávajú tak priestor developerom rásť, objavovať a "
 "tvoriť."
 
-#: templates/sponsoring.html:250
+#: templates/sponsoring.html:258
 msgid ""
 "Martinus.sk is the largest online bookstore and the second largest "
 "bookseller in Slovakia. It was awarded in independent researches as \"the"
@@ -4715,23 +4747,23 @@ msgstr ""
 "najcennejšie: vašu dôveru. Tisíce príbehov. Jedno kníhkupectvo. Kráčame "
 "ďalej…"
 
-#: templates/sponsoring.html:266
+#: templates/sponsoring.html:274
 msgid "Media Partners"
 msgstr "Mediálni partneri"
 
-#: templates/sponsoring.html:300
+#: templates/sponsoring.html:308
 msgid "Partners"
 msgstr "Partneri"
 
-#: templates/sponsoring.html:407
+#: templates/sponsoring.html:415
 msgid "Why become a sponsor?"
 msgstr "Prečo sa stať sponzorom?"
 
-#: templates/sponsoring.html:408
+#: templates/sponsoring.html:416
 msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
 msgstr "Potrebujeme vás — PyCon SK 2019 v Bratislave hľadá sponzorov a partnerov!"
 
-#: templates/sponsoring.html:413
+#: templates/sponsoring.html:421
 msgid ""
 "PyCon is an annual gathering for the community using and developing the "
 "open-source Python programming language. The conference is completely "
@@ -4741,7 +4773,7 @@ msgstr ""
 "vyvíjajú open source programovací jazyk Python. Konferencia je kompletne "
 "organizovaná dobrovoľníkmi."
 
-#: templates/sponsoring.html:414
+#: templates/sponsoring.html:422
 msgid ""
 "The members of the Python community organize a PyCon conference in their "
 "home countries regularly, PyCon will happen in Slovakia for the fourth "
@@ -4751,7 +4783,7 @@ msgstr ""
 "domovských krajinách pravidelne. PyCon bude na Slovensku už po štvrtý "
 "raz."
 
-#: templates/sponsoring.html:418
+#: templates/sponsoring.html:426
 msgid ""
 "To ensure high-quality speakers and keep the tickets price available for "
 "everyone we need you, the sponsors, who allow the conference to take "
@@ -4761,7 +4793,7 @@ msgstr ""
 "vstupeniek dostupnú pre každého, potrebujeme vás, sponzorov, ktorí "
 "umožnia túto konferenciu uskutočniť."
 
-#: templates/sponsoring.html:422
+#: templates/sponsoring.html:430
 msgid ""
 "Do not hesitate to contact us. We are flexible and willing to work with "
 "you to design a sponsorship package that is going to meet your business "
@@ -4771,11 +4803,11 @@ msgstr ""
 "spolupracovať a navrhnúť s vami balíček sponzorstva, ktorý splní vaše "
 "obchodné potreby."
 
-#: templates/sponsoring.html:434
+#: templates/sponsoring.html:442
 msgid "Recruitment"
 msgstr "Nábor"
 
-#: templates/sponsoring.html:436
+#: templates/sponsoring.html:444
 msgid ""
 "Are you looking for programmers? PyCon is the best place for meeting new "
 "talents. Many participants will be experienced developers looking for "
@@ -4785,11 +4817,11 @@ msgstr ""
 " talentov. Mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj "
 "ďalší veľký kariérny krok."
 
-#: templates/sponsoring.html:445
+#: templates/sponsoring.html:453
 msgid "Audience"
 msgstr "Publikum"
 
-#: templates/sponsoring.html:447
+#: templates/sponsoring.html:455
 msgid ""
 "Want to get your message across to the people, so they talk about you? "
 "PyCon is a great opportunity. People in the Python community like to "
@@ -4799,11 +4831,11 @@ msgstr ""
 " na to skvelá príležitosť. Ľudia v Python komunite radi objavujú a "
 "zdieľajú nové veci."
 
-#: templates/sponsoring.html:456
+#: templates/sponsoring.html:464
 msgid "Marketing"
 msgstr "Marketing"
 
-#: templates/sponsoring.html:458
+#: templates/sponsoring.html:466
 msgid ""
 "Looking for new users for your product? Such people can be found at PyCon"
 " - they also will look for new products and ideas."
@@ -4811,11 +4843,11 @@ msgstr ""
 "Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na "
 "PyCone - aj oni budú hľadať nové produkty a nápady."
 
-#: templates/sponsoring.html:467
+#: templates/sponsoring.html:475
 msgid "Community"
 msgstr "Komunita"
 
-#: templates/sponsoring.html:469
+#: templates/sponsoring.html:477
 msgid ""
 "Looking for new contributors and partners for your open source project? "
 "PyCon is the place, where they also will look for you."
@@ -4823,11 +4855,11 @@ msgstr ""
 "Hľadáte nových prispievateľov a partnerov pre váš open source projekt? "
 "PyCon je miesto, kde aj oni budú hľadať vás."
 
-#: templates/sponsoring.html:478
+#: templates/sponsoring.html:486
 msgid "Support"
 msgstr "Podpora"
 
-#: templates/sponsoring.html:480
+#: templates/sponsoring.html:488
 msgid ""
 "Are you using Python in your company? Support for community events is an "
 "excellent opportunity to contribute back."
@@ -5338,163 +5370,4 @@ msgstr ""
 "title=\"stránky mesta pre návštevníkov\" target=\"_blank\" "
 "class=\"external\">oficiálne stránky mesta, určené pre návštevníkov</a>, "
 "kde nájdete aj iné udalosti, ktoré sa práve odohrávajú v Bratislave."
-
-#~ msgid ""
-#~ "Most of the buses will bring you"
-#~ " to the main bus station - "
-#~ "Mlynske Nivy. It is currently located"
-#~ " in temporary location, so don't\n"
-#~ "            worry and keep calm if "
-#~ "you arrive feeling like on construction"
-#~ " site. Leave the area towards the "
-#~ "blue oval building VUB\n"
-#~ "            (next to the building with"
-#~ " BMW logo) where you find the "
-#~ "station of city bus lines. We "
-#~ "recommend you to take bus number\n"
-#~ "            70 to the end station "
-#~ "Most SNP (SNP bridge) and from "
-#~ "there continue with line number 30 "
-#~ "or 37 to the station ZOO."
-#~ msgstr ""
-#~ "Autobusom sa dostaneš na hlavnú "
-#~ "autobusovú stanicu - Mlynské Nivy. "
-#~ "Momentálne sa kvôli výstavbe novej "
-#~ "nachádza v dočasných priestoroch, preto "
-#~ "sa nezľakni, keď vystúpiš z autobusu "
-#~ "s pocitom, že si na stavenisku. "
-#~ "Vyjdi z autobusovej stanice a zamier "
-#~ "k modrej oválnej budove VUB (vedľa "
-#~ "budovy s logom BMW), kde nájdeš "
-#~ "zástavku mestskej hromadnej dopravy. "
-#~ "Odporúčame ísť autobusom 70 na stanicu"
-#~ " Most SNP a odtiaľ pokračovať "
-#~ "autbousom 30 alebo 37 na zástavku "
-#~ "ZOO."
-
-#~ msgid "Job fair"
-#~ msgstr "Job fair"
-
-#~ msgid ""
-#~ "An opportunity for employers to look "
-#~ "for candidates in tech conference packed"
-#~ " with geeks and programmers in "
-#~ "general and also for more or less"
-#~ " experienced job seekers to meet with"
-#~ " multiple tech companies in one "
-#~ "place."
-#~ msgstr ""
-#~ "Príležitosť pre zamestnávateľov hľadať "
-#~ "pracovníkov priamo na konferencii plnej "
-#~ "geekov a programátorov, ale aj pre "
-#~ "viac či menej skúsených kandidátov, "
-#~ "ktorí tu nájdu viaceré IT spoločnosti"
-#~ " v rovnakom čase na jednom mieste."
-
-#~ msgid "Employers"
-#~ msgstr "Zamestnávatelia"
-
-#~ msgid ""
-#~ "PyCon SK will be the capital of"
-#~ " Python for three days; it will "
-#~ "become a place with the highest "
-#~ "density of Python programmers per square"
-#~ " meter. "
-#~ msgstr ""
-#~ "PyCon SK bude hlavným mestom Pythonu,"
-#~ " na tri dni sa stane miestom s"
-#~ " najvyššou hustotou Pythonistov na "
-#~ "štvorcový meter. "
-
-#~ msgid ""
-#~ "Besides Slovak professionals, there will "
-#~ "be programmers from Hungary or Austria"
-#~ " as there is no local PyCon "
-#~ "there, but also from Czechia, Poland,"
-#~ " Germany etc. "
-#~ msgstr ""
-#~ "Okrem profesionálov zo Slovenska, sem "
-#~ "príde aj mnoho programátorov z Maďarska"
-#~ " či Rakúska, keďže tam nemajú lokálny"
-#~ " PyCon, ale aj z Česka, Poľska, "
-#~ "Nemecka a ďalších krajín."
-
-#~ msgid ""
-#~ "You can seek for fresh graduates, "
-#~ "but also for seasoned programmers who"
-#~ " are looking for a change in "
-#~ "their careers. "
-#~ msgstr ""
-#~ "Môžete tu hľadať čerstvých absolventov, "
-#~ "ale aj skúsených programátorov, ktorí "
-#~ "práve hľadajú nové výzvy vo svojej "
-#~ "kariére. "
-
-#~ msgid "Present your company and show what it is like to work with you. "
-#~ msgstr "Predstavte svoju spoločnosť a ukážte, aké to je pracovať pre vás. "
-
-#~ msgid "Students"
-#~ msgstr "Študenti"
-
-#~ msgid ""
-#~ "Looking for your first real job as"
-#~ " a programmer? PyCon SK is a "
-#~ "great place with many companies eager"
-#~ " to hire a Pythonista. "
-#~ msgstr ""
-#~ "Hľadáš si svoj prvý skutočný "
-#~ "programátorský job? PyCon SK je na "
-#~ "to ideálny - bude tu množstvo "
-#~ "firiem, ktoré sa budú chcieť získať "
-#~ "novú posilu do tímu Pythonistov. "
-
-#~ msgid ""
-#~ "Visit our Job fair or drop in "
-#~ "the sponsors booths and talk with "
-#~ "your potential future employer. "
-#~ msgstr ""
-#~ "Navštív náš Job fair, alebo sa "
-#~ "zastav v sponzorských stánkoch a pokecaj"
-#~ " so svojim možným budúcim zamestnávateľom."
-#~ " "
-
-#~ msgid "Get an idea of how the interview with recruiter looks like. "
-#~ msgstr "Zisti, ako to vyzerá na skutočnom pohovore."
-
-#~ msgid "Find the company that suits you and can use your skills best. "
-#~ msgstr ""
-#~ "Nájdi firmu, ktorá ti sedí a ktorá"
-#~ " bude vedieť tvoje schopnosti využiť "
-#~ "najlepšie. "
-
-#~ msgid "Professionals"
-#~ msgstr "Profesionáli"
-
-#~ msgid ""
-#~ "If you feel an urge to change "
-#~ "your career after years of routine "
-#~ "work, PyCon SK is the best place"
-#~ " for you. "
-#~ msgstr ""
-#~ "Ak cítite potrebu zmeny po rokoch "
-#~ "rutiny, PyCon SK je to najlepšie "
-#~ "miesto pre vás. "
-
-#~ msgid ""
-#~ "Visit our job fair and talk with"
-#~ " companies that will appreciate your "
-#~ "experience.  "
-#~ msgstr ""
-#~ "Navštívte náš Job fair a porozprávajte"
-#~ " sa so spoločnosťami, ktoré ocenia "
-#~ "vaše dlhoročné skúsenosti.  "
-
-#~ msgid ""
-#~ "Even if you do not look for "
-#~ "a new job, you might get an "
-#~ "overview of what options you have. \n"
-#~ msgstr ""
-#~ "Dokonca aj keď práve nehľadáte nový "
-#~ "job, nikdy nezaškodí mať prehľad o "
-#~ "tom, aké možnosti máte k dispozícii. \n"
 

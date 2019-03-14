@@ -40,14 +40,14 @@
 						 	<li>
 							  	<a class="animated fadeIn" href="#tab_three" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">Babageova A</span>
+										<span class="tab-text-title">Babbageova A</span>
 									</span>
 							  	</a>
 							</li>
                             <li>
 							  	<a class="animated fadeIn" href="#tab_four" data-toggle="tab">
 							  		<span class="tab-head">
-										<span class="tab-text-title">Babageova B</span>
+										<span class="tab-text-title">Babbageova B</span>
 									</span>
 							  	</a>
 							</li>
@@ -88,10 +88,9 @@
 				        		<div class="schedule-listing">
 				        			<span class="schedule-slot-time">{{ block.time }}</span>
 				        			<div class="schedule-slot-info">
-				        				{% if block.avatar %}
-                                        <a href="#">
-				        					<img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
-				        				</a>
+				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ url_for('speakers', lang_code=lang_code) }}#speaker_{{ block.speaker }}">{% endif %}
+                                            <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
+                                        {% if block.speaker %}</a>{% endif %}
                                         {% endif %}
                                         <div class="schedule-slot-info-content">
 				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
@@ -104,14 +103,13 @@
 
 				        	<div class="tab-pane animated fadeInLeft" id="tab_three">
 				            <h2 class="schedule-date">Babbageova učebňa A -1.57a</h2>
-                            {% for block in babageovaA %}
+                            {% for block in babbageovaA %}
 				        		<div class="schedule-listing">
 				        			<span class="schedule-slot-time">{{ block.time }}</span>
 				        			<div class="schedule-slot-info">
-				        				{% if block.avatar %}
-                                        <a href="#">
-				        					<img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
-				        				</a>
+				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ url_for('speakers', lang_code=lang_code) }}#speaker_{{ block.speaker }}">{% endif %}
+                                            <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
+                                        {% if block.speaker %}</a>{% endif %}
                                         {% endif %}
                                         <div class="schedule-slot-info-content">
 				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
@@ -124,14 +122,13 @@
 
                             <div class="tab-pane animated fadeInLeft" id="tab_four">
 				            <h2 class="schedule-date">Babbageova učebňa B -1.57b</h2>
-                            {% for block in babageovaB %}
+                            {% for block in babbageovaB %}
 				        		<div class="schedule-listing">
 				        			<span class="schedule-slot-time">{{ block.time }}</span>
 				        			<div class="schedule-slot-info">
-				        				{% if block.avatar %}
-                                        <a href="#">
-				        					<img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
-				        				</a>
+				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ url_for('speakers', lang_code=lang_code) }}#speaker_{{ block.speaker }}">{% endif %}
+                                            <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
+                                        {% if block.speaker %}</a>{% endif %}
                                         {% endif %}
                                         <div class="schedule-slot-info-content">
 				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
@@ -149,10 +146,9 @@
 				        		<div class="schedule-listing">
 				        			<span class="schedule-slot-time">{{ block.time }}</span>
 				        			<div class="schedule-slot-info">
-				        				{% if block.avatar %}
-                                        <a href="#">
-				        					<img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
-				        				</a>
+				        				{% if block.avatar %}{% if block.speaker %}<a href="{{ url_for('speakers', lang_code=lang_code) }}#speaker_{{ block.speaker }}">{% endif %}
+                                            <img class="schedule-slot-speakers" src="{{ block.avatar }}" alt="{{ block.name }}" />
+                                        {% if block.speaker %}</a>{% endif %}
                                         {% endif %}
                                         <div class="schedule-slot-info-content">
 				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
