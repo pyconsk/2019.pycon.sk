@@ -422,10 +422,11 @@ SATURDAY5 = (
 SUNDAY1 = (
     {
         'time': '09:30 - 10:00',
-        'name': 'Stanislava Sojáková',
-        'title': gettext('Lessons Learned from Leading Bratislava Peer Python Learning Group'),
-        'avatar': '/static/images/speakers/sojakova.jpg',
-        'speaker': 'sojakova',
+        'name': 'Jakub Mertus',
+        'title': gettext('Automatická korekcia písaného prejavu prirodzeného jazyka '
+                         's využitím znakových a kontextuálnych modelov'),
+        'avatar': '/static/images/speakers/mertus.jpg',
+        'speaker': 'mertus',
     },
     {
         'time': '10:05 - 10:35',
@@ -436,11 +437,10 @@ SUNDAY1 = (
     },
     {
         'time': '10:50 - 11:20',
-        'name': 'Jakub Mertus',
-        'title': gettext('Automatická korekcia písaného prejavu prirodzeného jazyka '
-                         's využitím znakových a kontextuálnych modelov'),
-        'avatar': '/static/images/speakers/mertus.jpg',
-        'speaker': 'mertus',
+        'name': 'Stanislava Sojáková',
+        'title': gettext('Lessons Learned from Leading Bratislava Peer Python Learning Group'),
+        'avatar': '/static/images/speakers/sojakova.jpg',
+        'speaker': 'sojakova',
     },
     {
         'time': '11:25 - 11:55',
