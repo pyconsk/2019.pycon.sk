@@ -530,6 +530,10 @@ SUNDAY4 = (
         'time': '09:00 - 17:00',
         'name': '',
         'title': 'Bratislavský Open Data Hackathon',
+        'desc': 'Máte nápad na zaujímavý projekt? Chcete urobiť niečo užitočné pre svoje mesto? Príďte navrhnúť '
+                'experiment, vytvoriť malý prototyp a diskutovať s tými, čo majú radi Bratislavu. Celý deň strávi s '
+                'nami šéfka inovácií na magistráte, Petra Dzurovčinová. Tí, ktorí sa na hackathon vopred zaregistrujú, '
+                'čaká okrem priestoru na kreativitu tiež niečo dobré na zahryznutie. Dokonca aj bratislavské rožky!',
     },
 )
 
@@ -659,6 +663,11 @@ def privacy_policy():
 @app.route('/<lang_code>/sponsoring.html')
 def sponsoring():
     return render_template('sponsoring.html', **_get_template_variables(li_sponsoring='active'))
+
+
+@app.route('/<lang_code>/hackaton-form.html')
+def hackaton_form():
+    return render_template('hackaton_form.html', **_get_template_variables(li_index='active'))
 
 
 @app.route('/<lang_code>/recording.html')
