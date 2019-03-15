@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>https://2019.pycon.sk/chat</loc>
+      <loc>https://2019.pycon.sk/chat/</loc>
       <lastmod>2019-03-15</lastmod>
     </url>
   
@@ -112,7 +112,7 @@
     </url>
   
     <url>
-      <loc>https://2019.pycon.sk/chat</loc>
+      <loc>https://2019.pycon.sk/chat/</loc>
       <lastmod>2019-03-15</lastmod>
     </url>
   
