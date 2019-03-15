@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
+      <loc>https://2019.pycon.sk/chat</loc>
+      <lastmod>2019-03-15</lastmod>
+    </url>
+  
+    <url>
       <loc>https://2019.pycon.sk/</loc>
       <lastmod>2019-03-15</lastmod>
     </url>
@@ -82,6 +87,11 @@
     </url>
   
     <url>
+      <loc>https://2019.pycon.sk/en/chat.html</loc>
+      <lastmod>2019-03-15</lastmod>
+    </url>
+  
+    <url>
       <loc>https://2019.pycon.sk/en/cfp.html</loc>
       <lastmod>2019-03-15</lastmod>
     </url>
@@ -98,6 +108,11 @@
   
     <url>
       <loc>https://2019.pycon.sk/en/faq.html</loc>
+      <lastmod>2019-03-15</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://2019.pycon.sk/chat</loc>
       <lastmod>2019-03-15</lastmod>
     </url>
   
@@ -178,6 +193,11 @@
   
     <url>
       <loc>https://2019.pycon.sk/sk/venue.html</loc>
+      <lastmod>2019-03-15</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://2019.pycon.sk/sk/chat.html</loc>
       <lastmod>2019-03-15</lastmod>
     </url>
   

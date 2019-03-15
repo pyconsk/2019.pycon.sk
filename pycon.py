@@ -557,6 +557,16 @@ def root():
     return redirect('sk/index.html')
 
 
+@app.route('/chat')
+def chat():
+    return render_template('chat.html', **_get_template_variables(li_index='active', redirect=True))
+
+
+@app.route('/<lang_code>/chat.html')
+def chat2():
+    return render_template('chat.html', **_get_template_variables(li_index='active'))
+
+
 @app.route('/<lang_code>/index.html')
 def index():
     return render_template('index.html', **_get_template_variables(li_index='active'))
