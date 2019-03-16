@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-03-16 07:09+0100\n"
+"POT-Creation-Date: 2019-03-16 14:02+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -591,11 +591,12 @@ msgstr ""
 "cestovné náklady, aby sme mohli vypočítať cenu lístka."
 
 #: templates/cfp_form.html:270 templates/cfv.html:121
-#: templates/job-fair_form.html:175
+#: templates/hackaton_form.html:95 templates/job-fair_form.html:175
 msgid "Submit"
 msgstr "Odoslať"
 
-#: templates/cfp_form.html:274 templates/job-fair_form.html:180
+#: templates/cfp_form.html:274 templates/hackaton_form.html:100
+#: templates/job-fair_form.html:180
 msgid "Alternatively"
 msgstr "Prípadne"
 
@@ -603,7 +604,8 @@ msgstr "Prípadne"
 msgid "Submit your proposal"
 msgstr "Odoslať návrh príspevku"
 
-#: templates/cfp_form.html:275 templates/job-fair_form.html:181
+#: templates/cfp_form.html:275 templates/hackaton_form.html:101
+#: templates/job-fair_form.html:181
 msgid "directly in Google forms."
 msgstr "priamo v Google formulároch."
 
@@ -1632,6 +1634,14 @@ msgstr ""
 "NIE. NA SOBOTNÚ konferenčnú večeru (oficiálny spoločenský event) si musíš"
 " kúpiť lístok. Vstupenka na večeru zahŕňa večeru formou bufetu a welcome "
 "drink. Ďalšie drinky si platí každý sám."
+
+#: templates/hackaton_form.html:13 templates/hackaton_form.html:23
+msgid "Bratislava Hackaton sign up"
+msgstr "Prihlásenie na Bratislava Hackathon"
+
+#: templates/hackaton_form.html:101
+msgid "Sign up for Bratislava Hackaton"
+msgstr "Prihlás sa na Bratislava Hackathon"
 
 #: templates/index.html:20
 msgid "<span>Be a part of </span>PyCon SK 2019"

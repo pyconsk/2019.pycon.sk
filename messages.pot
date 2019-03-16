@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-03-16 07:09+0100\n"
+"POT-Creation-Date: 2019-03-16 14:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -514,11 +514,12 @@ msgid ""
 msgstr ""
 
 #: templates/cfp_form.html:270 templates/cfv.html:121
-#: templates/job-fair_form.html:175
+#: templates/hackaton_form.html:95 templates/job-fair_form.html:175
 msgid "Submit"
 msgstr ""
 
-#: templates/cfp_form.html:274 templates/job-fair_form.html:180
+#: templates/cfp_form.html:274 templates/hackaton_form.html:100
+#: templates/job-fair_form.html:180
 msgid "Alternatively"
 msgstr ""
 
@@ -526,7 +527,8 @@ msgstr ""
 msgid "Submit your proposal"
 msgstr ""
 
-#: templates/cfp_form.html:275 templates/job-fair_form.html:181
+#: templates/cfp_form.html:275 templates/hackaton_form.html:101
+#: templates/job-fair_form.html:181
 msgid "directly in Google forms."
 msgstr ""
 
@@ -1371,6 +1373,14 @@ msgid ""
 "NO. You have to purchase a ticket for the SATURDAY conference dinner "
 "(official social event). Ticket to the dinner includes dinner in a form "
 "of a buffet and a welcome drink. You pay for all other drinks."
+msgstr ""
+
+#: templates/hackaton_form.html:13 templates/hackaton_form.html:23
+msgid "Bratislava Hackaton sign up"
+msgstr ""
+
+#: templates/hackaton_form.html:101
+msgid "Sign up for Bratislava Hackaton"
 msgstr ""
 
 #: templates/index.html:20
