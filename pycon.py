@@ -399,6 +399,7 @@ SATURDAY5 = (
         'name': 'Magdaléna Bellayová, Eva Kupčová',
         'title': 'Programovať môže každý. Fakt alebo mýtus?',
         'avatar': '',
+        'speaker': 'bellayova',
     },
     {
         'time': '11:05 - 12:10',
@@ -410,7 +411,8 @@ SATURDAY5 = (
         'time': '13:10 - 15:15',
         'name': 'Tobias Kohn, Dennis Komm',
         'title': 'Using Python to Teach Algorithmic Efficiency',
-        'avatar': '',
+        'avatar': '/static/images/speakers/kohn-komm.png',
+        'speaker': 'kohn',
     },
     {
         'time': '15:20 - 16:40',
@@ -489,7 +491,7 @@ SUNDAY1 = (
         'avatar': '/static/images/speakers/dikshit.jpg',
         'speaker': 'dikshit',
     },
-{
+    {
         'time': '16:20 - 16:30',
         'name': 'Richard Kellner',
         'title': gettext('Conference closing'),

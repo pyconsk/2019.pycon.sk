@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-03-16 14:02+0100\n"
+"POT-Creation-Date: 2019-03-16 16:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3816,6 +3816,66 @@ msgid ""
 "grandiose library, so they just wanted to make a statement of being the "
 "most diligent creature of them all and called it, simply and "
 "unmistakably, pandas!"
+msgstr ""
+
+#: templates/speakers.html:2204
+msgid "Research associate at University of Cambridge"
+msgstr ""
+
+#: templates/speakers.html:2213
+msgid ""
+"Tobias has been teaching at high schools for over ten years, and has "
+"written his PhD thesis in the field of computer science education.  He is"
+" currently a research associate at the University of Cambridge, where he "
+"studies possibilities to optimise scientific Python programs."
+msgstr ""
+
+#: templates/speakers.html:2221
+msgid "Lecturer at PH Graubünden and ETH Zurich"
+msgstr ""
+
+#: templates/speakers.html:2230
+msgid ""
+"Dennis studied computer science at RWTH Aachen University, and received "
+"his PhD from ETH Zurich in 2012.  Next to teaching courses at different "
+"schools and universities, he is lecturer at both PH Graubünden and ETH "
+"Zurich.  Besides computer science didactics, his research encompasses "
+"different topics in algorithms and complexity theory."
+msgstr ""
+
+#: templates/speakers.html:2239
+msgid "Using Python to Teach Algorithmic Efficiency"
+msgstr ""
+
+#: templates/speakers.html:2240
+msgid ""
+"Python has become one of the most widely used languages in computer "
+"science education, and is in many regards an excellent choice for high "
+"school and college level. However, one of the main tasks of sustainable "
+"computer science education is to go beyond teaching a programming "
+"language, and discuss aspects of “computational thinking\". An important "
+"example for computational thinking is a proper analysis of how well an "
+"algorithm works, how efficient it is. But can we really teach efficiency "
+"in an introductory Python class?"
+msgstr ""
+
+#: templates/speakers.html:2247
+msgid ""
+"In this workshop, we exemplify how to introduce the notion of time "
+"complexity to young students on both an intuitive and sufficiently formal"
+" level. Besides hands-on examples that we implement in Python, we want to"
+" investigate the theoretical underpinnings that allow us to evaluate and "
+"compare different algorithms for the same class of problems."
+msgstr ""
+
+#: templates/speakers.html:2252
+msgid ""
+"We assume a background in programming and some basic familiarity with "
+"Python."
+msgstr ""
+
+#: templates/speakers.html:2253
+msgid "Participants work on their own notebooks."
 msgstr ""
 
 #: templates/sponsoring.html:8 templates/sponsoring.html:18
