@@ -1637,7 +1637,7 @@ msgstr ""
 
 #: templates/hackaton_form.html:13 templates/hackaton_form.html:23
 msgid "Bratislava Hackaton sign up"
-msgstr "Prihlásenie na Bratislava Hackathon"
+msgstr "Prihláška na Bratislava Hackathon"
 
 #: templates/hackaton_form.html:101
 msgid "Sign up for Bratislava Hackaton"
