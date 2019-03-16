@@ -75,7 +75,9 @@
                                         {% endif %}
                                         <div class="schedule-slot-info-content">
 				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
-				        					<h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+				        					{% if block.speaker %}<a href="{{ url_for('speakers', lang_code=lang_code) }}#speaker_{{ block.speaker }}">{% endif %}
+				        					    <h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+                                            {% if block.speaker %}</a>{% endif %}
 				        				</div><!--Info content end -->
 				        			</div><!-- Slot info end -->
 				        		</div><!-- Slot listing 1 end -->
@@ -94,7 +96,9 @@
                                         {% endif %}
                                         <div class="schedule-slot-info-content">
 				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
-				        					<h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+                                            {% if block.speaker %}<a href="{{ url_for('speakers', lang_code=lang_code) }}#speaker_{{ block.speaker }}">{% endif %}
+				        					    <h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+                                            {% if block.speaker %}</a>{% endif %}
                                             {% if block.desc %}
                                             <p>{{ block.desc }}</p>
                                             {% endif %}
@@ -116,7 +120,9 @@
                                         {% endif %}
                                         <div class="schedule-slot-info-content">
 				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
-				        					<h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+                                            {% if block.speaker %}<a href="{{ url_for('speakers', lang_code=lang_code) }}#speaker_{{ block.speaker }}">{% endif %}
+				        					    <h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+                                            {% if block.speaker %}</a>{% endif %}
                                             {% if block.desc %}
                                             <p>{{ block.desc }}</p>
                                             {% endif %}
@@ -138,10 +144,10 @@
                                         {% endif %}
                                         <div class="schedule-slot-info-content">
 				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
-				        					<h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
-                                            {% if block.desc %}
-                                            <p>{{ block.desc }}</p>
-                                            {% endif %}
+				        					{% if block.speaker %}<a href="{{ url_for('speakers', lang_code=lang_code) }}#speaker_{{ block.speaker }}">{% endif %}
+                                                <h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+                                            {% if block.speaker %}</a>{% endif %}
+                                            {% if block.desc %}<p>{{ block.desc }}</p>{% endif %}
 				        				</div><!--Info content end -->
 				        			</div><!-- Slot info end -->
 				        		</div><!-- Slot listing 1 end -->
@@ -161,10 +167,10 @@
                                         {% endif %}
                                         <div class="schedule-slot-info-content">
 				        					<h3 class="schedule-slot-title">{{ block.title }}</h3>
-				        					<h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
-                                            {% if block.desc %}
-                                            <p>{{ block.desc }}</p>
-                                            {% endif %}
+                                            {% if block.speaker %}<a href="{{ url_for('speakers', lang_code=lang_code) }}#speaker_{{ block.speaker }}">{% endif %}
+                                                <h4 class="schedule-slot-speaker-name">{{ block.name }}</h4>
+                                            {% if block.speaker %}</a>{% endif %}
+                                            {% if block.desc %}<p>{{ block.desc }}</p>{% endif %}
 				        				</div><!--Info content end -->
 				        			</div><!-- Slot info end -->
 				        		</div><!-- Slot listing 1 end -->
