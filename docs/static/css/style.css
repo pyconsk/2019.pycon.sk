@@ -227,6 +227,12 @@ img.pull-right {
     height: auto;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .unstyled {
 		list-style: none;
 		margin: 0;

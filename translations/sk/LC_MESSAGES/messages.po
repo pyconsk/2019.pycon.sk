@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-03-16 16:48+0100\n"
+"POT-Creation-Date: 2019-03-17 09:53+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -2332,7 +2332,7 @@ msgstr ""
 msgid "<a href=\"https://global-redhat.icims.com/jobs/\">Learn more</a>"
 msgstr "<a href=\"https://global-redhat.icims.com/jobs/\">Zisti viac</a>"
 
-#: templates/job-fair.html:203 templates/sponsoring.html:174
+#: templates/job-fair.html:203 templates/sponsoring.html:168
 msgid ""
 "Our team develops solution based on state of the art artificial "
 "intelligence models and algorithms for natural language processing for "
@@ -4559,8 +4559,8 @@ msgid ""
 "studies possibilities to optimise scientific Python programs."
 msgstr ""
 "Tobias pôsobil vyše desať rokov ako stredoškolský učiteľ a napísal "
-"dizertačnú prácu z oblasti výuky počítačových vied. Momentálne pracuje ako"
-" výskumný pracovník na Univerzite v Cambridgi, kde skúma možnosti  "
+"dizertačnú prácu z oblasti výuky počítačových vied. Momentálne pracuje "
+"ako výskumný pracovník na Univerzite v Cambridgi, kde skúma možnosti  "
 "optimalizácie Python programov."
 
 #: templates/speakers.html:2221
@@ -4575,11 +4575,11 @@ msgid ""
 "Zurich.  Besides computer science didactics, his research encompasses "
 "different topics in algorithms and complexity theory."
 msgstr ""
-"Dennis študoval počítačovú vedu na Univerzite RWTH v Aachene, a PhD. titul"
-" získal v roku 2012 na ETH Zurich. Okrem vedenia kurzov učenia na rôznych "
-"školách a univerzitách, prednáša na PH Graubünden a tiež ETH Zurich. "
-"Jeho výskum sa okrem didaktiky počítačovej vedy zaoberá rôznymi témami "
-"v oblasti algoritmov a teórie komplexity."
+"Dennis študoval počítačovú vedu na Univerzite RWTH v Aachene, a PhD. "
+"titul získal v roku 2012 na ETH Zurich. Okrem vedenia kurzov učenia na "
+"rôznych školách a univerzitách, prednáša na PH Graubünden a tiež ETH "
+"Zurich. Jeho výskum sa okrem didaktiky počítačovej vedy zaoberá rôznymi "
+"témami v oblasti algoritmov a teórie komplexity."
 
 #: templates/speakers.html:2239
 msgid "Using Python to Teach Algorithmic Efficiency"
@@ -4630,6 +4630,29 @@ msgstr "Platinoví sponzori"
 
 #: templates/sponsoring.html:31
 msgid ""
+"Exponea is an intelligent union of customer data management and analytics"
+" which cracked the Single Customer View. We enable marketers to "
+"understand their customers and immediately turn such insights into "
+"actionable campaigns, all within a single integrated solution."
+msgstr ""
+
+#: templates/sponsoring.html:34
+msgid ""
+"With cutting edge technology, Exponea empowers marketers to deliver "
+"personalization, in the moment experiences to their customers at scale "
+"through deeply embedded AI-powered capabilities and leverage intent to "
+"purchase both on your online store or outside of it."
+msgstr ""
+
+#: templates/sponsoring.html:37
+msgid ""
+"We enable the fast transfer of know-how, resulting in a change of mindset"
+" and is a catalyst for a rapid, profitable growth of emerging e-commerce "
+"leaders around the"
+msgstr ""
+
+#: templates/sponsoring.html:53
+msgid ""
 "Kiwi.com is an online travel agency with groundbreaking Virtual "
 "Interlining technology and a focus on exceptional customer service. Our "
 "unique combination algorithm allows our customers to combine flights from"
@@ -4642,7 +4665,7 @@ msgstr ""
 "linkami do jedného itineráru, čo často vedie k významnému šetreniu "
 "nákladov."
 
-#: templates/sponsoring.html:52
+#: templates/sponsoring.html:74
 msgid ""
 "The Python Software Foundation is a 501(c)(3) nonprofit dedicated to "
 "advancing and promoting Python. The PSF supports and encourages Python "
@@ -4657,39 +4680,11 @@ msgstr ""
 " organizátorom svojej vlajkovej lode - kažodoročnej severoamerickej PyCon"
 " konferencie."
 
-#: templates/sponsoring.html:71
-msgid ""
-"Exponea is an intelligent union of customer data management and analytics"
-" which cracked\n"
-"the Single Customer View. We enable marketers to understand their "
-"customers and\n"
-"immediately turn such insights into actionable campaigns, all within a "
-"single integrated\n"
-"solution."
-msgstr ""
-
-#: templates/sponsoring.html:75
-msgid ""
-"With cutting edge technology, Exponea empowers marketers to deliver "
-"personalization, in\n"
-"the moment experiences to their customers at scale through deeply "
-"embedded AI-powered\n"
-"capabilities and leverage intent to purchase both on your online store or"
-" outside of it."
-msgstr ""
-
-#: templates/sponsoring.html:78
-msgid ""
-"We enable the fast transfer of know-how, resulting in a change of mindset"
-" and is a catalyst\n"
-"for a rapid, profitable growth of emerging e-commerce leaders around the"
-msgstr ""
-
-#: templates/sponsoring.html:96
+#: templates/sponsoring.html:90
 msgid "Gold Sponsors"
 msgstr "Zlatí sponzori"
 
-#: templates/sponsoring.html:104
+#: templates/sponsoring.html:98
 msgid ""
 "The Kistler Group is a Swiss high-tech company and the global market\n"
 "                  leader in dynamic measurement technology. We develop "
@@ -4721,7 +4716,7 @@ msgstr ""
 "zachraňujúživoty. Kistler pomáhať formovať lepšiu                   "
 "budúcnosť."
 
-#: templates/sponsoring.html:127
+#: templates/sponsoring.html:121
 msgid ""
 "TITANS freelancers offers many attractive jobs and projects for IT "
 "freelancers.\n"
@@ -4744,7 +4739,7 @@ msgstr ""
 "freelancerom množstvo zaujímavých projektov.\n"
 "                      Pre ponuku jobov pozri www.titans.sk."
 
-#: templates/sponsoring.html:151
+#: templates/sponsoring.html:145
 msgid ""
 "Red Hat is the worlds leading provider of open source software solutions,"
 " using a community-powered approach to reliable and high-performing "
@@ -4760,15 +4755,15 @@ msgstr ""
 "technológie, ktoré tvoria základy ďalšieho rasti a pripravuje svojich "
 "zákazníkov na budúcnosť IT."
 
-#: templates/sponsoring.html:173
+#: templates/sponsoring.html:167
 msgid "Permanent Establishment of Raiffeisen Bank International AG in Slovakia"
 msgstr "Trvalé zastúpenie Raiffeisen Bank International AG na Slovensku"
 
-#: templates/sponsoring.html:192
+#: templates/sponsoring.html:186
 msgid "Silver Sponsors"
 msgstr "Strieborní sponzori"
 
-#: templates/sponsoring.html:199
+#: templates/sponsoring.html:193
 msgid ""
 "SEGRON stands for Beyond End2End® Test Automation in Telecoms & IT, "
 "international consulting and tailor-made software solutions."
@@ -4776,7 +4771,7 @@ msgstr ""
 "SEGRON znamená Beyond End2End® Test Automation v oblasti telekomunikácií "
 "a IT, medzinárodných konzultačných služieb a vývoja softvéru na mieru."
 
-#: templates/sponsoring.html:201
+#: templates/sponsoring.html:195
 msgid ""
 "Founded by industry experts with over 20 years experience in IT and "
 "telecommunications, our multinational team consists of experienced Telco "
@@ -4788,7 +4783,7 @@ msgstr ""
 " a IT inžinierov, softvérových vývojárov, špecialistov na "
 "testovanie/automatizáciu a projektových manažérov."
 
-#: templates/sponsoring.html:205
+#: templates/sponsoring.html:199
 msgid ""
 "Our customers are international telecom operators, where our solutions "
 "enable faster and quality assured new service introduction and "
@@ -4797,11 +4792,11 @@ msgstr ""
 "Našimi zákazníkmi sú zahraniční telekomunikační operátori, ktorým naše "
 "riešenia umožňujú poskytovať a inovovať služby rýchlejšie a kvalitnejšie."
 
-#: templates/sponsoring.html:219
+#: templates/sponsoring.html:213
 msgid "Bronze Sponsors"
 msgstr "Bronzoví sponzori"
 
-#: templates/sponsoring.html:226
+#: templates/sponsoring.html:220
 msgid ""
 "Sticker Mule is the fastest and easiest way to buy custom printed "
 "products. Thousands of people trust us to make kick-ass stickers, labels,"
@@ -4814,7 +4809,7 @@ msgstr ""
 "niekoľkých sekúnd a získajte online záruku, dopravu zdarma super rýchle "
 "doručenie!"
 
-#: templates/sponsoring.html:242
+#: templates/sponsoring.html:236
 msgid ""
 "At JetBrains, code is our passion. For over 15 years we have strived to "
 "make the strongest, most effective developer tools on earth. By "
@@ -4827,7 +4822,7 @@ msgstr ""
 "zvyšujú produktivitu a dávajú tak priestor developerom rásť, objavovať a "
 "tvoriť."
 
-#: templates/sponsoring.html:258
+#: templates/sponsoring.html:252
 msgid ""
 "Martinus.sk is the largest online bookstore and the second largest "
 "bookseller in Slovakia. It was awarded in independent researches as \"the"
@@ -4842,23 +4837,23 @@ msgstr ""
 "najcennejšie: vašu dôveru. Tisíce príbehov. Jedno kníhkupectvo. Kráčame "
 "ďalej…"
 
-#: templates/sponsoring.html:274
+#: templates/sponsoring.html:268
 msgid "Media Partners"
 msgstr "Mediálni partneri"
 
-#: templates/sponsoring.html:308
+#: templates/sponsoring.html:302
 msgid "Partners"
 msgstr "Partneri"
 
-#: templates/sponsoring.html:432
+#: templates/sponsoring.html:426
 msgid "Why become a sponsor?"
 msgstr "Prečo sa stať sponzorom?"
 
-#: templates/sponsoring.html:433
+#: templates/sponsoring.html:427
 msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
 msgstr "Potrebujeme vás — PyCon SK 2019 v Bratislave hľadá sponzorov a partnerov!"
 
-#: templates/sponsoring.html:438
+#: templates/sponsoring.html:432
 msgid ""
 "PyCon is an annual gathering for the community using and developing the "
 "open-source Python programming language. The conference is completely "
@@ -4868,7 +4863,7 @@ msgstr ""
 "vyvíjajú open source programovací jazyk Python. Konferencia je kompletne "
 "organizovaná dobrovoľníkmi."
 
-#: templates/sponsoring.html:439
+#: templates/sponsoring.html:433
 msgid ""
 "The members of the Python community organize a PyCon conference in their "
 "home countries regularly, PyCon will happen in Slovakia for the fourth "
@@ -4878,7 +4873,7 @@ msgstr ""
 "domovských krajinách pravidelne. PyCon bude na Slovensku už po štvrtý "
 "raz."
 
-#: templates/sponsoring.html:443
+#: templates/sponsoring.html:437
 msgid ""
 "To ensure high-quality speakers and keep the tickets price available for "
 "everyone we need you, the sponsors, who allow the conference to take "
@@ -4888,7 +4883,7 @@ msgstr ""
 "vstupeniek dostupnú pre každého, potrebujeme vás, sponzorov, ktorí "
 "umožnia túto konferenciu uskutočniť."
 
-#: templates/sponsoring.html:447
+#: templates/sponsoring.html:441
 msgid ""
 "Do not hesitate to contact us. We are flexible and willing to work with "
 "you to design a sponsorship package that is going to meet your business "
@@ -4898,11 +4893,11 @@ msgstr ""
 "spolupracovať a navrhnúť s vami balíček sponzorstva, ktorý splní vaše "
 "obchodné potreby."
 
-#: templates/sponsoring.html:459
+#: templates/sponsoring.html:453
 msgid "Recruitment"
 msgstr "Nábor"
 
-#: templates/sponsoring.html:461
+#: templates/sponsoring.html:455
 msgid ""
 "Are you looking for programmers? PyCon is the best place for meeting new "
 "talents. Many participants will be experienced developers looking for "
@@ -4912,11 +4907,11 @@ msgstr ""
 " talentov. Mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj "
 "ďalší veľký kariérny krok."
 
-#: templates/sponsoring.html:470
+#: templates/sponsoring.html:464
 msgid "Audience"
 msgstr "Publikum"
 
-#: templates/sponsoring.html:472
+#: templates/sponsoring.html:466
 msgid ""
 "Want to get your message across to the people, so they talk about you? "
 "PyCon is a great opportunity. People in the Python community like to "
@@ -4926,11 +4921,11 @@ msgstr ""
 " na to skvelá príležitosť. Ľudia v Python komunite radi objavujú a "
 "zdieľajú nové veci."
 
-#: templates/sponsoring.html:481
+#: templates/sponsoring.html:475
 msgid "Marketing"
 msgstr "Marketing"
 
-#: templates/sponsoring.html:483
+#: templates/sponsoring.html:477
 msgid ""
 "Looking for new users for your product? Such people can be found at PyCon"
 " - they also will look for new products and ideas."
@@ -4938,11 +4933,11 @@ msgstr ""
 "Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na "
 "PyCone - aj oni budú hľadať nové produkty a nápady."
 
-#: templates/sponsoring.html:492
+#: templates/sponsoring.html:486
 msgid "Community"
 msgstr "Komunita"
 
-#: templates/sponsoring.html:494
+#: templates/sponsoring.html:488
 msgid ""
 "Looking for new contributors and partners for your open source project? "
 "PyCon is the place, where they also will look for you."
@@ -4950,11 +4945,11 @@ msgstr ""
 "Hľadáte nových prispievateľov a partnerov pre váš open source projekt? "
 "PyCon je miesto, kde aj oni budú hľadať vás."
 
-#: templates/sponsoring.html:503
+#: templates/sponsoring.html:497
 msgid "Support"
 msgstr "Podpora"
 
-#: templates/sponsoring.html:505
+#: templates/sponsoring.html:499
 msgid ""
 "Are you using Python in your company? Support for community events is an "
 "excellent opportunity to contribute back."
@@ -5465,4 +5460,3 @@ msgstr ""
 "title=\"stránky mesta pre návštevníkov\" target=\"_blank\" "
 "class=\"external\">oficiálne stránky mesta, určené pre návštevníkov</a>, "
 "kde nájdete aj iné udalosti, ktoré sa práve odohrávajú v Bratislave."
-
