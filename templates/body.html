@@ -113,7 +113,7 @@
                 <a href="{{ url_for('edusummit', lang_code=lang_code) }}" class="nav-link">{{ _('EduSummit') }}</a>
               </li>
 
-              <li class="dropdown {{ li_venue }}{{ li_cfv }}{{ li_coc }}">
+              <li class="dropdown {{ li_venue }}{{ li_cfv }}{{ li_coc }}{{ li_aboutus }}">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('About Us') }}
                   <i class="fa fa-angle-down"></i></a>
                 <ul class="dropdown-menu" role="menu">
@@ -121,7 +121,7 @@
                   <li><a href="{{ url_for('venue', lang_code=lang_code) }}">{{ _('Venue') }}</a></li>
                   <li><a href="{{ url_for('coc', lang_code=lang_code) }}">{{ _('Code of Conduct') }}</a></li>
                   <li><a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('Call for volunteers') }}</a></li>
-                  <li><a href="https://spy.python.sk/{{ lang_code }}/">{{ _('SPy o.z.') }} <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                  <li><a href="{{ url_for('aboutus', lang_code=lang_code) }}">{{ _('About Us') }}</a></li>
                 </ul>
               </li>
 

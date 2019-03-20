@@ -227,6 +227,12 @@ img.pull-right {
     height: auto;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .unstyled {
 		list-style: none;
 		margin: 0;
@@ -313,6 +319,12 @@ img.pull-right {
 
 .section-sub-title strong{
 	font-weight: 400;
+}
+
+.avatar {
+    width: 95%;
+    border-radius: 50%;
+    border: 1px solid #888;
 }
 
 .icon-wrap{

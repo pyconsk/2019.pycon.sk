@@ -1,0 +1,157 @@
+{% extends "body.html" %}
+
+{% block header %}
+    {% if redirect %}
+        <meta http-equiv="refresh"
+              content="0; URL='https://join.slack.com/t/pyconsk/shared_invite/enQtNTY4NTIxMDgxMzk0LWJiODQ5NzIxMWJhZGE0Yjc3Y2ZlMjU2MTFmOTg1NzEwZjFmYzg3ZTZmYTQ2MDU2NDIzNjk5ZTA2MTFjYjVmZDE'"/>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <div class="page-banner-area banner9">
+        <!-- Subpage title start -->
+        <div class="page-banner-title">
+            <div class="text-center">
+                <h1>{{ _('SPy o.z.') }}</h1>
+            </div>
+        </div><!-- Subpage title end -->
+    </div><!-- Page Banner end -->
+
+    <section id="main-container" class="main-container">
+        <div class="container mrb-30">
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h3 class="title-classic left">{{ _('About Us') }}</h3>
+
+                    <p>{{ _('The mission of the SPy civic association (SPy is the abbreviation of "Slovak Python", or sometimes we say "Slovak Python User Group") is to support developers and users of the Python programming language. We support and we spread the programming language Python and other open source technologies and open source ideas in our society.') }}
+                    </p>
+                    <p>{{ _('Our goal is to provide help and support for beginners and people who are new to programming. Another goal is to work with schools and other educational institutions, and promote programming (independent of the programming language) in children and young people from the earliest age.') }}
+                    </p>
+                    <p>{{ _('We support the area of software development in socially vulnerable or otherwise disadvantaged social groups. We are dedicated to practical use of software development.') }}
+
+                    </p>
+                    <p>{{ _('We want to work on various open source projects, to create open educational content for use in schools as well as self-study and advocate for the use of open technologies in society and the public sector.') }}
+                    </p>
+                    <p>{{ _('Since 2015 we have organized dozens of events and projects. If you would like to know more, talk to us during the conference...') }}
+                        <a href="https://spy.python.sk/{{ lang_code }}/">{{ _('Or visit our website') }}</a></p>
+                </div><!-- Col end -->
+
+                <div class="col-md-4">
+                    <img class="img-responsive" src="{{ url_for('static', filename='images/snake_horizontal.jpg') }}"
+                         alt="img">
+                </div><!-- Col end -->
+
+            </div><!-- Content row end -->
+        </div>
+
+        <div class="container mrb-30">
+            <h3 class="title-classic left">{{ _('Core team') }}</h3>
+            <div class="row">
+
+                <div class="col-md-2 text-center">
+                    <a href="https://sk.linkedin.com/in/richardkellner" target="_blank">
+                        <img src="{{ url_for('static', filename='images/avatar/richard_kellner.jpg') }}"
+                             alt="Richard Kellner" class="avatar"/><br/>
+                        Richard Kellner
+                    </a>
+                </div>
+
+                <div class="col-md-2 text-center">
+                    <a href="https://sk.linkedin.com/in/marekmansell" target="_blank">
+                        <img src="{{ url_for('static', filename='images/avatar/marek_mansell.jpg') }}"
+                             alt="Marek Mansell"
+                             class="avatar"/><br/>
+                        Marek Mansell
+                    </a>
+                </div><!-- Col end -->
+                <div class="col-md-2 text-center">
+                    <a href="https://www.linkedin.com/in/evameszarosova/" target="_blank">
+                        <img src="{{ url_for('static', filename='images/avatar/eva_klimekova.jpg') }}"
+                             alt="Eva Klimeková"
+                             class="avatar"/><br/>
+                        Eva Klimeková
+                    </a>
+                </div><!-- Col end -->
+                <div class="col-md-2 text-center">
+                    <a href="https://www.linkedin.com/in/juraj-bezrucka-5651a1b/" target="_blank">
+                        <img src="{{ url_for('static', filename='images/avatar/mimmon.jpg') }}" alt="Juraj M. Bezručka"
+                             class="avatar"/><br/>
+                        Juraj M. Bezručka
+                    </a>
+                </div><!-- Col end -->
+                <div class="col-md-2 text-center">
+                    <a href="https://www.linkedin.com/in/tomas-pytel/" target="_blank">
+                        <img src="{{ url_for('static', filename='images/avatar/tomas_pytel.jpg') }}" alt="Tomas Pytel"
+                             class="avatar"/><br/>
+                        Tomáš Pytel
+                    </a>
+                </div><!-- Col end -->
+                <div class="col-md-2 text-center">
+                    <a href="#" target="_blank">
+                        <img src="{{ url_for('static', filename='images/pycon_logo_square.png') }}"
+                             alt="Samuel Braniša"
+                             class="avatar"/><br/>
+                        Samuel Braniša
+                    </a>
+                </div><!-- Col end -->
+            </div>
+        </div>
+
+        <div class="container mrb-30">
+            <h3 class="title-classic left">{{ _('Extended team') }}</h3>
+            <div class="row">
+                <div class="col-md-2 text-center">
+                    <a href="https://www.linkedin.com/in/jangondol" target="_blank">
+                        <img src="{{ url_for('static', filename='images/avatar/jan_gondol.jpg') }}" alt="Ján Gondoľ"
+                             class="avatar"/><br/>
+                        Ján Gondoľ
+                    </a>
+                </div><!-- Col end -->
+                <div class="col-md-2 text-center">
+                    <a href="https://sk.linkedin.com/in/danielkontsek/" target="_blank">
+                        <img src="{{ url_for('static', filename='images/avatar/daniel_kontsek.jpg') }}"
+                             alt="Daniel Kontšek"
+                             class="avatar"/><br/>
+                        Daniel Kontšek
+                    </a>
+                </div><!-- Col end -->
+                <div class="col-md-2 text-center">
+                    <a href="https://www.linkedin.com/in/secult/" target="_blank">
+                        <img src="{{ url_for('static', filename='images/avatar/pavol_kincel.jpg') }}"
+                             alt="Pavol Kincel"
+                             class="avatar"/><br/>
+                        Pavol Kincel
+                    </a>
+                </div><!-- Col end -->
+                <div class="col-md-2 text-center">
+                    <a href="https://www.linkedin.com/in/marekbruchaty/" target="_blank">
+                        <img src="{{ url_for('static', filename='images/avatar/marek_bruchaty.jpg') }}"
+                             alt="Marek Bruchatý"
+                             class="avatar"/><br/>
+                        Marek Bruchatý
+                    </a>
+                </div><!-- Col end -->
+                <div class="col-md-2 text-center">
+                    <a href="#" target="_blank">
+                        <img src="{{ url_for('static', filename='images/pycon_logo_square.png') }}"
+                             alt="Jan Lehky"
+                             class="avatar"/><br/>
+                        Jan Lehký
+                    </a>
+                </div><!-- Col end -->
+
+            </div>
+        </div>
+
+        <div class="container mrb-30">
+            <h3 class="title-classic left">{{ _('On site volunteers') }}</h3>
+            <div class="row">
+                <div class="col-md-1 text-center">
+
+                </div><!-- Col end -->
+            </div><!-- Content row end -->
+        </div><!-- Conatiner end -->
+    </section><!-- Main container end -->
+
+{% endblock %}
