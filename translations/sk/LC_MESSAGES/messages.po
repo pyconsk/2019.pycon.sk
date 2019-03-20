@@ -80,7 +80,7 @@ msgid ""
 "Since 2015 we have organized dozens of events and projects. If you would "
 "like to know more, talk to us during the conference..."
 msgstr ""
-"Od roku 2015 sme zorganizovali desiatky stretnuti a projektov. Ak chcete "
+"Od roku 2015 sme zorganizovali desiatky stretnutí a projektov. Ak chcete "
 "vedieť viac, pozrite sa nižšie, na čom pracujeme..."
 
 #: templates/about-us.html:37
