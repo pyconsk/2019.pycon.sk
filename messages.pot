@@ -1141,7 +1141,7 @@ msgid "Coder Dojo image"
 msgstr ""
 
 #: templates/edusummit.html:418
-msgid "CodeDojo"
+msgid "CoderDojo"
 msgstr ""
 
 #: templates/edusummit.html:421
