@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-03-17 09:53+0100\n"
+"POT-Creation-Date: 2019-03-20 15:01+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -17,6 +17,87 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+
+#: templates/about-us.html:15 templates/body.html:227
+msgid "SPy o.z."
+msgstr "SPy o.z."
+
+#: templates/about-us.html:25 templates/body.html:117 templates/body.html:124
+#: templates/body.html:240
+msgid "About Us"
+msgstr "O nás"
+
+#: templates/about-us.html:27
+msgid ""
+"The mission of the SPy civic association (SPy is the abbreviation of "
+"\"Slovak Python\", or sometimes we say \"Slovak Python User Group\") is "
+"to support developers and users of the Python programming language. We "
+"support and we spread the programming language Python and other open "
+"source technologies and open source ideas in our society."
+msgstr ""
+"Poslaním občianskeho združenia SPy (skratka \"Slovak Python\", alebo "
+"niekedy aj \"Slovak Python User Group\") je podpora vývojárov a "
+"používateľov programovacieho jazyka Python. Podporujeme a šírime "
+"používanie programovacieho jazyka Python a iných open source "
+"technológií a open source myšlienok v našej spoločnosti."
+
+#: templates/about-us.html:29
+msgid ""
+"Our goal is to provide help and support for beginners and people who are "
+"new to programming. Another goal is to work with schools and other "
+"educational institutions, and promote programming (independent of the "
+"programming language) in children and young people from the earliest age."
+msgstr ""
+"Našim cieľom je poskytovať pomoc a podporu úplným začiatočníkom a ľuďom, "
+"ktorí s programovaním začínajú. Ďalej si dávame za cieľ spolupracovať so "
+"školami a inými vzdelávacími inštitúciami a propagovať programovanie "
+"(nezávislé od programovacieho jazyka) u detí a mladých ľudí od čo "
+"najskoršieho možného veku."
+
+#: templates/about-us.html:31
+msgid ""
+"We support the area of software development in socially vulnerable or "
+"otherwise disadvantaged social groups. We are dedicated to practical use "
+"of software development."
+msgstr ""
+"Podporujeme oblasť softvérového vývoja u sociálne slabších alebo inak "
+"znevýhodnených sociálnych skupín. Venujeme sa praktickému využitiu "
+"softvérového vývoja."
+
+#: templates/about-us.html:34
+msgid ""
+"We want to work on various open source projects, to create open "
+"educational content for use in schools as well as self-study and advocate"
+" for the use of open technologies in society and the public sector."
+msgstr ""
+"Chceme spolupracovať na rôznych open source projektoch, vytvárať otvorený"
+" vzdelávací obsah použiteľný pri školskej výuke či samoštúdiu a "
+"zasadzovať sa o používanie otvorených technológii v spoločnosti a "
+"verejnom sektore."
+
+#: templates/about-us.html:36
+msgid ""
+"Since 2015 we have organized dozens of events and projects. If you would "
+"like to know more, talk to us during the conference..."
+msgstr ""
+"Od roku 2015 sme zorganizovali desiatky stretnuti a projektov. Ak chcete "
+"vedieť viac, pozrite sa nižšie, na čom pracujeme."
+
+#: templates/about-us.html:37
+msgid "Or visit our website"
+msgstr "alebo navštívte našu web stránku"
+
+#: templates/about-us.html:49
+msgid "Core team"
+msgstr "Základný team"
+
+#: templates/about-us.html:102
+msgid "Extended team"
+msgstr "Rozšírený team"
+
+#: templates/about-us.html:148
+msgid "On site volunteers"
+msgstr "Dobrovoľníci na mieste konania"
 
 #: templates/body.html:8
 msgid "Official PyCon SK 2019 website"
@@ -74,10 +155,6 @@ msgstr "Sponzoruj"
 msgid "EduSummit"
 msgstr "EduSummit"
 
-#: templates/body.html:117 templates/body.html:240
-msgid "About Us"
-msgstr "O nás"
-
 #: templates/body.html:120
 msgid "FAQ"
 msgstr "FAQ"
@@ -93,10 +170,6 @@ msgstr "Kódex správania"
 #: templates/body.html:123 templates/cfv.html:13 templates/cfv.html:23
 msgid "Call for volunteers"
 msgstr "Pridaj sa k nám"
-
-#: templates/body.html:124 templates/body.html:227
-msgid "SPy o.z."
-msgstr "SPy o.z."
 
 #: templates/body.html:129 templates/faq.html:66 templates/tickets.html:13
 #: templates/tickets.html:22
@@ -1273,7 +1346,7 @@ msgstr "Obrázok Coder Dojo"
 
 #: templates/edusummit.html:418
 msgid "CoderDojo"
-msgstr ""
+msgstr "CoderDojo"
 
 #: templates/edusummit.html:421
 msgid ""
@@ -1837,7 +1910,7 @@ msgstr ""
 " Neváhaj, slotov je len obmedzený počet.!"
 
 #: templates/index.html:241 templates/job-fair.html:40
-#: templates/job-fair.html:312
+#: templates/job-fair.html:307
 msgid "Job Fair sign up form"
 msgstr "Prihlasovací formulár Job Fair"
 
@@ -2172,11 +2245,11 @@ msgstr ""
 "(môžeš si vybrať viacerých) a oni si s tebou dohodnú stretnutie na Job "
 "Fair (počet voľných slotov na stretnutia je obmedzený)."
 
-#: templates/job-fair.html:53
+#: templates/job-fair.html:52
 msgid "Logo Exponea"
 msgstr "Logo Exponea"
 
-#: templates/job-fair.html:62
+#: templates/job-fair.html:63
 msgid ""
 "If you’re only coming to PyconSK because you love just Java or Cobol, "
 "stop reading this message at once. At once!"
@@ -2184,7 +2257,7 @@ msgstr ""
 "Pokiaľ prichádzaš na PyConSK pretože miluješ iba Javu a Cobol, prestaň "
 "čítať túto správu. Hneď!"
 
-#: templates/job-fair.html:65
+#: templates/job-fair.html:66
 msgid ""
 "On the other hand, if writing clean code is your mantra, finding the best"
 " possible solution is your thing, and elegant languages like python or go"
@@ -2194,7 +2267,7 @@ msgstr ""
 "najlepšieho riešenia tvojím potešením a elegantné jazyky ako Python alebo"
 " Go tvojou vášňou, radi o tebe budeme počuť."
 
-#: templates/job-fair.html:69
+#: templates/job-fair.html:70
 msgid ""
 "We are looking for a new python tamer to join our team, and help us build"
 " a world class product."
@@ -2250,11 +2323,11 @@ msgstr ""
 "href=\"https://kiwi.com/jobs\">kiwi.com/jobs</a>. Prijímame ľudí v "
 "Bratislave, Prahe, Brne a v ďalších mestách :)"
 
-#: templates/job-fair.html:121
+#: templates/job-fair.html:120
 msgid "Logo Kistler"
 msgstr "Logo Kistler"
 
-#: templates/job-fair.html:130
+#: templates/job-fair.html:129
 msgid ""
 "Test Developer in Kistler is participating in software development for "
 "embedded systems, desktop applications, web applications, or cloud "
@@ -2264,7 +2337,7 @@ msgstr ""
 "systémy, desktopové aplikácie, webové aplikácie alebo cloudové riešenia -"
 " v závislosti od projektu."
 
-#: templates/job-fair.html:135
+#: templates/job-fair.html:134
 msgid ""
 "The main task is to create automated tests on system level to minimize "
 "manual testing effort and increase efficiency of development, which often"
@@ -2281,7 +2354,7 @@ msgstr ""
 "Preto je pre nás veľmi dôležité neustále vzdelávanie, sledovanie "
 "najnovších trendov a zdieľanie poznatkov získaných z testovania."
 
-#: templates/job-fair.html:143
+#: templates/job-fair.html:142
 msgid ""
 "We are using Robot Framework for automated tests of backend and frontend "
 "applications. This tool gives us possibilities to implement and integrate"
@@ -2292,7 +2365,7 @@ msgstr ""
 "integrovať Python moduly a knižnice vytvorené pre naše špecifické "
 "potreby."
 
-#: templates/job-fair.html:148
+#: templates/job-fair.html:147
 msgid ""
 "Agile environment together with dynamically changing demands and "
 "conditions create constantly new challenges and encouragement for "
@@ -2301,11 +2374,11 @@ msgstr ""
 "Agilné prostredie s dynamicky sa meniacimi požiadavkami a podmienkami "
 "vytvárajú stále nové výzvy a povzbudzujú k inovatívnym riešeniam."
 
-#: templates/job-fair.html:161 templates/job-fair.html:194
+#: templates/job-fair.html:159 templates/job-fair.html:191
 msgid "Logo Red Hat"
 msgstr "Logo Red Hat"
 
-#: templates/job-fair.html:170
+#: templates/job-fair.html:168
 msgid ""
 "Red Hat's Engineering team is looking for a Software Engineer to join us "
 "in Brno, Czech Republic. In this role, you will work as part of the "
@@ -2316,7 +2389,7 @@ msgstr ""
 "v Brne. V tejto pozícii budeš súčasťou teamu Continuous Productization na"
 " automatizáciu, vylepšovanie release procesu produktov Red Hatu."
 
-#: templates/job-fair.html:176
+#: templates/job-fair.html:174
 msgid ""
 "You'll be cooperating on open source projects with other continuous "
 "integration (CI) engineers and development and quality assurance (QA) "
@@ -2328,11 +2401,11 @@ msgstr ""
 " Ako softvérový inžinier budeš pracovať s najnovšími technológiami na "
 "trhu ako sú Red Hat OpenShift, kontajnery a Jenkins."
 
-#: templates/job-fair.html:182
+#: templates/job-fair.html:180
 msgid "<a href=\"https://global-redhat.icims.com/jobs/\">Learn more</a>"
 msgstr "<a href=\"https://global-redhat.icims.com/jobs/\">Zisti viac</a>"
 
-#: templates/job-fair.html:203 templates/sponsoring.html:168
+#: templates/job-fair.html:200 templates/sponsoring.html:168
 msgid ""
 "Our team develops solution based on state of the art artificial "
 "intelligence models and algorithms for natural language processing for "
@@ -2347,7 +2420,7 @@ msgstr ""
 "Group AI Lab predstavuje jedinečnú koncetrnáciu knowhow a expertízy v "
 "oblasti inovatívnych UI riešení na báze jazyka."
 
-#: templates/job-fair.html:210
+#: templates/job-fair.html:207
 msgid ""
 "Curious to know more about the various opportunities? Don't hesitate to "
 "reach out. We are happy to meet you soon in PyCon SK!"
@@ -2355,19 +2428,19 @@ msgstr ""
 "Chceš vedieť viac o rôznych ponukách? Neváhaj a ozvi sa. Radi sa s tebou "
 "stretneme na PyCon SK!"
 
-#: templates/job-fair.html:223
+#: templates/job-fair.html:219
 msgid "Logo Titans"
 msgstr "Logo Titans"
 
-#: templates/job-fair.html:232
+#: templates/job-fair.html:228
 msgid "<strong>We are TITANS freelancers!</strong>"
 msgstr "<strong>Sme TITANS freelancers!</strong>"
 
-#: templates/job-fair.html:235
+#: templates/job-fair.html:231
 msgid "It's not easy to become a TITAN. It never was!"
 msgstr "Nie je ľahké stať sa TITANom. Nikdy nebolo!"
 
-#: templates/job-fair.html:238
+#: templates/job-fair.html:234
 msgid ""
 "You must have it in you. The readiness for new challenges, the drive to "
 "take them on and to prove that impossible is just a matter of will is "
@@ -2378,7 +2451,7 @@ msgstr ""
 "nicha dokázať, že nemožné je len otázkou vôle, sú zakódované v "
 "<strong>#DNA</strong> každého <strong>#hrdinu</strong>."
 
-#: templates/job-fair.html:243
+#: templates/job-fair.html:239
 msgid ""
 "We are here for those who want to step out from a line and enter the real"
 " world of IT <strong>#freelancing</strong> with a helmet crest on their "
@@ -2389,7 +2462,7 @@ msgstr ""
 "<strong>#freelancing</strong>u. Už roky vytrvalo bojujeme spolu s každým "
 "našim jedným TITANom."
 
-#: templates/job-fair.html:248
+#: templates/job-fair.html:244
 msgid ""
 "At TITANS, we will help you experience the <strong>#freelance</strong> IT"
 " world of direct communication, relationships and solidarity that we have"
@@ -2398,7 +2471,7 @@ msgstr ""
 "U TITANov ti pomôžeme zažiť silný <strong>#freelance</strong> IT svet "
 "priamej komunikácie, vzťahov a solidarity, ktorý sme spoločne vytvorili."
 
-#: templates/job-fair.html:253
+#: templates/job-fair.html:249
 msgid ""
 "We are ready for you. Are you ready? <a "
 "href=\"https://www.titans.sk/sk/freelanceri/pracovne-"
@@ -2408,11 +2481,11 @@ msgstr ""
 "href=\"https://www.titans.sk/sk/freelanceri/pracovne-"
 "ponuky/?text=python\">Pracovné ponuky</a>"
 
-#: templates/job-fair.html:267
+#: templates/job-fair.html:262
 msgid "Logo Segron"
 msgstr "Logo Segron"
 
-#: templates/job-fair.html:276
+#: templates/job-fair.html:271
 msgid ""
 "We at <strong>SEGRON</strong> are creating Test Automation Solutions for "
 "the Telecommunication sector. Our product \"sticks out\" from the other "
@@ -2425,7 +2498,7 @@ msgstr ""
 "tomu, že ako jediný ponúka end-to-end riešenie. Naše sídlo je v "
 "Bratislave, kde sa deje celý vývoj."
 
-#: templates/job-fair.html:282
+#: templates/job-fair.html:277
 msgid ""
 "We are looking for talented people who also “stick out” as developers, "
 "testers, architects..."
@@ -2433,7 +2506,7 @@ msgstr ""
 "Hľadáme talentovaných ľudí, ktorí tiež “vytŕčajú”, ako developerov, "
 "testerov, architektov..."
 
-#: templates/job-fair.html:286
+#: templates/job-fair.html:281
 msgid ""
 "People with <strong>Damn good problem-solving skills</strong> – not just "
 "finding and fixing the problems but think at least five steps ahead and "
@@ -2443,7 +2516,7 @@ msgstr ""
 "nájsť a opraviť chybu, ale myslieť päť krokov dopredu a opraviť problém "
 "tak elegantne, že už sa nikdy nezopakuje."
 
-#: templates/job-fair.html:291
+#: templates/job-fair.html:286
 msgid ""
 "People who feel <strong>responsible for their work</strong> – and have a "
 "commitment for excellence – knowing that whatever is done must be done "
@@ -2453,7 +2526,7 @@ msgstr ""
 "potrebu vynikať – ktorí vedia, že nech sa robí čokoľvek, musí to byť "
 "poriadne a s najvyššou pracovnou morálkou."
 
-#: templates/job-fair.html:296
+#: templates/job-fair.html:291
 msgid ""
 "People who feel a <strong>burning desire to learn</strong>, grow, make "
 "things better for the team."
@@ -2461,7 +2534,7 @@ msgstr ""
 "Ľudí, čo cítia <strong>neutíchajúcu túžbu učiť sa</strong>, rásť, "
 "vylepšovať, pracovať pre team."
 
-#: templates/job-fair.html:300
+#: templates/job-fair.html:295
 msgid ""
 "If the above sounds like you and you enjoy working in a <strong>dynamic "
 "start-up environment</strong> on challenging projects that you can be "
@@ -4845,15 +4918,19 @@ msgstr "Mediálni partneri"
 msgid "Partners"
 msgstr "Partneri"
 
-#: templates/sponsoring.html:426
+#: templates/sponsoring.html:420
+msgid "Community Supporters"
+msgstr "Podporovatelia komunity"
+
+#: templates/sponsoring.html:458
 msgid "Why become a sponsor?"
 msgstr "Prečo sa stať sponzorom?"
 
-#: templates/sponsoring.html:427
+#: templates/sponsoring.html:459
 msgid "We need you — PyCon SK 2019 in Bratislava seeks for sponsors and partners!"
 msgstr "Potrebujeme vás — PyCon SK 2019 v Bratislave hľadá sponzorov a partnerov!"
 
-#: templates/sponsoring.html:432
+#: templates/sponsoring.html:464
 msgid ""
 "PyCon is an annual gathering for the community using and developing the "
 "open-source Python programming language. The conference is completely "
@@ -4863,7 +4940,7 @@ msgstr ""
 "vyvíjajú open source programovací jazyk Python. Konferencia je kompletne "
 "organizovaná dobrovoľníkmi."
 
-#: templates/sponsoring.html:433
+#: templates/sponsoring.html:465
 msgid ""
 "The members of the Python community organize a PyCon conference in their "
 "home countries regularly, PyCon will happen in Slovakia for the fourth "
@@ -4873,7 +4950,7 @@ msgstr ""
 "domovských krajinách pravidelne. PyCon bude na Slovensku už po štvrtý "
 "raz."
 
-#: templates/sponsoring.html:437
+#: templates/sponsoring.html:469
 msgid ""
 "To ensure high-quality speakers and keep the tickets price available for "
 "everyone we need you, the sponsors, who allow the conference to take "
@@ -4883,7 +4960,7 @@ msgstr ""
 "vstupeniek dostupnú pre každého, potrebujeme vás, sponzorov, ktorí "
 "umožnia túto konferenciu uskutočniť."
 
-#: templates/sponsoring.html:441
+#: templates/sponsoring.html:473
 msgid ""
 "Do not hesitate to contact us. We are flexible and willing to work with "
 "you to design a sponsorship package that is going to meet your business "
@@ -4893,11 +4970,11 @@ msgstr ""
 "spolupracovať a navrhnúť s vami balíček sponzorstva, ktorý splní vaše "
 "obchodné potreby."
 
-#: templates/sponsoring.html:453
+#: templates/sponsoring.html:485
 msgid "Recruitment"
 msgstr "Nábor"
 
-#: templates/sponsoring.html:455
+#: templates/sponsoring.html:487
 msgid ""
 "Are you looking for programmers? PyCon is the best place for meeting new "
 "talents. Many participants will be experienced developers looking for "
@@ -4907,11 +4984,11 @@ msgstr ""
 " talentov. Mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj "
 "ďalší veľký kariérny krok."
 
-#: templates/sponsoring.html:464
+#: templates/sponsoring.html:496
 msgid "Audience"
 msgstr "Publikum"
 
-#: templates/sponsoring.html:466
+#: templates/sponsoring.html:498
 msgid ""
 "Want to get your message across to the people, so they talk about you? "
 "PyCon is a great opportunity. People in the Python community like to "
@@ -4921,11 +4998,11 @@ msgstr ""
 " na to skvelá príležitosť. Ľudia v Python komunite radi objavujú a "
 "zdieľajú nové veci."
 
-#: templates/sponsoring.html:475
+#: templates/sponsoring.html:507
 msgid "Marketing"
 msgstr "Marketing"
 
-#: templates/sponsoring.html:477
+#: templates/sponsoring.html:509
 msgid ""
 "Looking for new users for your product? Such people can be found at PyCon"
 " - they also will look for new products and ideas."
@@ -4933,11 +5010,11 @@ msgstr ""
 "Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na "
 "PyCone - aj oni budú hľadať nové produkty a nápady."
 
-#: templates/sponsoring.html:486
+#: templates/sponsoring.html:518
 msgid "Community"
 msgstr "Komunita"
 
-#: templates/sponsoring.html:488
+#: templates/sponsoring.html:520
 msgid ""
 "Looking for new contributors and partners for your open source project? "
 "PyCon is the place, where they also will look for you."
@@ -4945,11 +5022,11 @@ msgstr ""
 "Hľadáte nových prispievateľov a partnerov pre váš open source projekt? "
 "PyCon je miesto, kde aj oni budú hľadať vás."
 
-#: templates/sponsoring.html:497
+#: templates/sponsoring.html:529
 msgid "Support"
 msgstr "Podpora"
 
-#: templates/sponsoring.html:499
+#: templates/sponsoring.html:531
 msgid ""
 "Are you using Python in your company? Support for community events is an "
 "excellent opportunity to contribute back."

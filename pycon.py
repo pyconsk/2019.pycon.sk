@@ -140,7 +140,7 @@ FRIDAY2 = (
     },
     {
         'time': '13:10 - 13:33',
-        'name': 'Tomáš Dudík, Jakub Sokolík',
+        'name': 'Tomáš Dudík',
         'title': gettext('Ako sa ďalej pasujeme s Python na hodinách informatiky'),
         'avatar': '',
     },
