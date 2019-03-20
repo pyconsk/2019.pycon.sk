@@ -35,12 +35,21 @@
                     </p>
                     <p>{{ _('Since 2015 we have organized dozens of events and projects. If you would like to know more, talk to us during the conference...') }}
                         <a href="https://spy.python.sk/{{ lang_code }}/">{{ _('Or visit our website') }}</a></p>
+
+
                 </div><!-- Col end -->
 
                 <div class="col-md-4">
                     <img class="img-responsive" src="{{ url_for('static', filename='images/snake_horizontal.jpg') }}"
                          alt="img">
                 </div><!-- Col end -->
+
+                <div class="col-md-12">
+                    <p class="text-center">
+                        <a href="{{ url_for('cfv', lang_code=lang_code) }}"
+                           class="btn btn-lg">{{ _('Call for volunteers') }}</a>
+                    </p>
+                </div>
 
             </div><!-- Content row end -->
         </div>
