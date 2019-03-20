@@ -321,6 +321,12 @@ img.pull-right {
 	font-weight: 400;
 }
 
+.avatar {
+    width: 95%;
+    border-radius: 50%;
+    border: 1px solid #888;
+}
+
 .icon-wrap{
 	 display: inline-block;
 	 background: #ea531c;

@@ -657,6 +657,11 @@ def venue():
     return render_template('venue.html', **_get_template_variables(li_venue='active'))
 
 
+@app.route('/<lang_code>/about-us.html')
+def aboutus():
+    return render_template('about-us.html', **_get_template_variables(li_aboutus='active'))
+
+
 @app.route('/<lang_code>/privacy-policy.html')
 def privacy_policy():
     return render_template('privacy-policy.html', **_get_template_variables(li_privacy='active'))
