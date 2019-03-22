@@ -72,6 +72,9 @@
               <li class="{{ li_index }}">
                 <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2019</a>
               </li>
+              <li class="{{ li_live }}">
+                <a href="{{ url_for('live', lang_code=lang_code) }}">Live stream</a>
+              </li>
 
               <li class="dropdown {{ li_cfp }}{{ li_speakers }}">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('Speakers') }}
