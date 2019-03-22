@@ -682,6 +682,11 @@ def recording():
     return render_template('recording.html', **_get_template_variables(li_recording='active'))
 
 
+@app.route('/<lang_code>/live.html')
+def live():
+    return render_template('livestream.html', **_get_template_variables(li_live='active'))
+
+
 def _get_template_variables(**kwargs):
     """Collect variables for template that repeats, e.g. are in body.html template"""
     variables = {

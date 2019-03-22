@@ -102,6 +102,11 @@
     </url>
   
     <url>
+      <loc>https://2019.pycon.sk/en/live.html</loc>
+      <lastmod>2019-03-22</lastmod>
+    </url>
+  
+    <url>
       <loc>https://2019.pycon.sk/en/cfp.html</loc>
       <lastmod>2019-03-22</lastmod>
     </url>
@@ -218,6 +223,11 @@
   
     <url>
       <loc>https://2019.pycon.sk/sk/chat.html</loc>
+      <lastmod>2019-03-22</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://2019.pycon.sk/sk/live.html</loc>
       <lastmod>2019-03-22</lastmod>
     </url>
   
