@@ -214,6 +214,40 @@
             <div class="row">
                 <div class="col-md-12 text-left">
                     <div class="card">
+                        <h5 class="card-header">22.03.2019 - {{ _('Feedback form.') }}
+                        </h5>
+                        <div class="card-body">
+                            <p>
+                                {{ _('Let us know how did we do?') }}<br />
+                                <p class="text-center">
+                                <a href="http://bit.ly/pyconsk-19-feedback" class="btn btn-lg btn-secondary" role="button">{{ _('Feedback form') }}</a>
+                        </p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-left">
+                    <div class="card">
+                        <h5 class="card-header">22.03.2019 - {{ _('PyCon SK Live stream.') }}
+                        </h5>
+                        <div class="card-body">
+                            <p>
+                                {{ _('If you are not at the conference right now. Join us at our Live stream and you can ask question via Slido or chat to other participants in our slack.') }}<br />
+                                <p class="text-center">
+                                <a href="{{ url_for('live', lang_code=lang_code) }}" class="btn btn-lg btn-secondary" role="button">{{ _('Live stream') }}</a>
+                        </p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-left">
+                    <div class="card">
                         <h5 class="card-header">15.03.2019 - {{ _('PyCon SK 2019 Conference chat.') }}
                         </h5>
                         <div class="card-body">
