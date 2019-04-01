@@ -1,24 +1,26 @@
 {% extends "body.html" %}
 
 {% block content %}
-  <div class="page-banner-area banner2">
-    <!-- Subpage title start -->
-    <div class="page-banner-title">
-      <div class="text-center">
-        <h1>{{ _('PyCon SK Live stream') }}</h1>
-      </div>
-    </div><!-- Subpage title end -->
-  </div><!-- Page Banner end -->
+    <div class="page-banner-area banner2">
+        <!-- Subpage title start -->
+        <div class="page-banner-title">
+            <div class="text-center">
+                <h1>{{ _('PyCon SK Live stream') }}</h1>
+            </div>
+        </div><!-- Subpage title end -->
+    </div><!-- Page Banner end -->
 
-  <section id="main-container" class="main-container">
-    <div class="container">
-      <div class="row text-center">
-          <div class="embed-responsive embed-responsive-16by9">
-        <iframe src="https://www.youtube.com/embed/48cBmQtHu1w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <p>{{ _('Switch camera to select an aula.') }}</p>
-      </div><!--/ Title row end -->
+    <section id="main-container" class="main-container">
+        <div class="container">
+            <div class="row text-center">
+                <h3>Aula Magna</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/vu0iPnDqhik" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+            </div><!--/ Title row end -->
 
-    </div>
-  </section>
+        </div>
+    </section>
 {% endblock %}
