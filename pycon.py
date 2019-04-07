@@ -1,4 +1,6 @@
 from datetime import date
+from os import listdir
+from os.path import isfile, join
 
 from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
 from flask_babel import Babel, gettext
@@ -626,7 +628,7 @@ def saturday():
                                                                       babbageovaB=SATURDAY4, digilab=SATURDAY5,
                                                                       day=gettext('Saturday')))
 
-@app.route('/<lang_code>/sunday.html')
+@app.route('/<lang_code>/gallery.html')
 def sunday():
     return render_template('schedule.html', **_get_template_variables(li_schedule='active', magna=SUNDAY1,
                                                                       minor=SUNDAY2, babbageovaA=SUNDAY3,
@@ -685,6 +687,42 @@ def recording():
 @app.route('/<lang_code>/live.html')
 def live():
     return render_template('livestream.html', **_get_template_variables(li_live='active'))
+
+
+@app.route('/<lang_code>/pictures/friday.html')
+def pictures_friday():
+    path = join('static', 'pictures', 'friday')
+    onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
+
+    return render_template('gallery.html', **_get_template_variables(li_pictures='active', files=onlyfiles,
+                                                                     day='friday', gallery_name=gettext('Friday'),
+                                                                     link='https://photos.app.goo.gl/TmErfN7NKM68EMCy5',
+                                                                     photograph='Ondrej Dráb'
+                                                                     ))
+
+
+@app.route('/<lang_code>/pictures/saturday.html')
+def pictures_saturday():
+    path = join('static', 'pictures', 'saturday')
+    onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
+
+    return render_template('gallery.html', **_get_template_variables(li_pictures='active', files=onlyfiles,
+                                                                     day='saturday', gallery_name=gettext('Saturday'),
+                                                                     link='https://photos.app.goo.gl/yY2VXkdCdbAQRKGD8',
+                                                                     photograph='Ondrej Dráb'
+                                                                     ))
+
+
+@app.route('/<lang_code>/pictures/sunday.html')
+def pictures_sunday():
+    path = join('static', 'pictures', 'sunday')
+    onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
+
+    return render_template('gallery.html', **_get_template_variables(li_pictures='active', files=onlyfiles,
+                                                                     day='sunday', gallery_name=gettext('Sunday'),
+                                                                     link='https://photos.app.goo.gl/ByJmNFu3hPghBecD7',
+                                                                     photograph='Mišenka Plantážnik'
+                                                                     ))
 
 
 def _get_template_variables(**kwargs):

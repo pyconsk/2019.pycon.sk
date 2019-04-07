@@ -214,6 +214,25 @@
             <div class="row">
                 <div class="col-md-12 text-left">
                     <div class="card">
+                        <h5 class="card-header">04.04.2019 - {{ _('Pictures.') }}
+                        </h5>
+                        <div class="card-body">
+                            <p>
+                                <ul>
+                            <li><a href="{{ url_for('pictures_friday', lang_code=lang_code) }}">{{ _('Friday') }}</a></li>
+                            <li><a href="{{ url_for('pictures_saturday', lang_code=lang_code) }}">{{ _('Saturday') }}</a></li>
+                            <li><a href="{{ url_for('pictures_sunday', lang_code=lang_code) }}">{{ _('Sunday') }}</a></li>
+                        </ul>
+                        </p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-left">
+                    <div class="card">
                         <h5 class="card-header">22.03.2019 - {{ _('Feedback form.') }}
                         </h5>
                         <div class="card-body">

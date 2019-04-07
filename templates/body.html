@@ -108,6 +108,22 @@
                   </ul>
               </li>
 
+              <li class="dropdown {{ li_pictures }}">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('Gallery') }}
+                    <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li>
+                      <a href="{{ url_for('pictures_friday', lang_code=lang_code) }}">{{ _('Friday') }}</a>
+                    </li>
+                    <li>
+                      <a href="{{ url_for('pictures_saturday', lang_code=lang_code) }}">{{ _('Saturday') }}</a>
+                    </li>
+                    <li>
+                      <a href="{{ url_for('pictures_sunday', lang_code=lang_code) }}">{{ _('Sunday') }}</a>
+                    </li>
+                  </ul>
+              </li>
+
               <li class="{{ li_sponsoring }}">
                 <a href="{{ url_for('sponsoring', lang_code=lang_code) }}" class="nav-link">{{ _('Sponsoring') }}</a>
               </li>
@@ -290,6 +306,8 @@
   <script type="text/javascript" src="{{ url_for('static', filename='js/waypoints.min.js') }}"></script>
   <!-- Color box -->
   <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.colorbox.js') }}"></script>
+  <!-- Template custom -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/custom.js') }}"></script>
 
   <script async src="{{ url_for('static', filename='pyconsk/js/ga.min.js') }}"></script>
   {% block include_js %}{% endblock %}

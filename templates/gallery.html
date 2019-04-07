@@ -1,0 +1,44 @@
+{% extends "body.html" %}
+
+{% block content %}
+    <div class="page-banner-area banner9">
+  	<!-- Subpage title start -->
+		<div class="page-banner-title">
+        	<div class="text-center">
+	        	<h2>Gallery</h2>
+          	</ul>
+         </div>
+      </div><!-- Subpage title end -->
+	</div><!-- Page Banner end -->
+
+	<section id="main-container" class="main-container">
+		<div class="container">
+			<div class="row text-center">
+				<span class="icon-wrap"><i class="fa fa-image"></i></span>
+				<h2 class="section-title">{{ gallery_name }}</h2>
+                <p class="section-sub-title"><a href="{{ link }}" target="_blank">{{ _('Full Resolution Album') }}</a></p>
+                <p class="section-sub-title">{{ _('Photography by') }}: {{ photograph }}<br />
+                    Creative work is released under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY 4.0</a> License.
+                </p>
+			</div><!--/ Title row end -->
+
+			<div class="row">
+				<div id="gallery">
+                    {% for file in files %}
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+
+                        <div class="gallery-container">
+                            <a class="gallery-popup" href="{{ url_for('static', filename='pictures/%s/%s' % (day, file)) }}">
+								<img class="img-responsive" src="{{ url_for('static', filename='pictures/%s/%s' % (day, file)) }}" alt="">
+								<span class="gallery-icon"><i class="fa fa-search"></i></span>
+							</a>
+						</div>
+                    </div>
+                    {% endfor %}
+                </div><!-- Gallery end -->
+
+			</div><!-- Content row end -->
+		</div><!-- Conatiner end -->
+	</section><!-- Main container end -->
+
+{% endblock %}
