@@ -415,7 +415,7 @@
 
                     <div class="col-xs-12 col-md-7">
                         <div class="ts-speaker-info">
-                            <h3 class="ts-speaker-name dark">{{ _('CoderDojo') }}</h3>
+                            <h3 class="ts-speaker-name dark">{{ _('CodeDojo') }}</h3>
                             <div class="ts-speaker-bio text-justify">
                                 <p>
                                     {{ _('Pozývame všetky deti vyskúšať si programovanie v našom CoderDojo. Príďte si '
@@ -508,23 +508,79 @@
 
     <section id="sponsoring" class="sponsoring-area">
         <div class="container">
-            <div class="row text-center">
-                <span class="icon-wrap"><i class="fa fa-handshake-o"></i></span>
-                <h2 class="section-title">{{ _('Sponsorship') }}</h2>
-                <p class="section-sub-title">{{ _('We need you — EduSummit seeks for sponsors and partners!') }}</p>
-            </div><!--/ Title row end -->
 
-            <div class="row">
-                <p>
-                    {{ _('By supporting PyCon you also support numerous educational activities during the conference. If the conference is profitable we finance educational activities during the whole year.') }}
-                    {{ _('Get in touch with us or visit our <a href="%(url)s">sponsorship page</a> for more information. ', url=url_for('sponsoring', lang_code=lang_code)) }}
-                </p>
-                <p class="text-center">
-                    <a href="mailto:sponsors@pycon.sk" class="btn btn-primary btn-lg">
-                        <i class="fa fa-handshake-o"></i> &nbsp; sponsors@pycon.sk
-                    </a>
-                </p>
-            </div>
+        <div class="row text-center">
+            <h2 class="section-title">{{ _('EduSummit ponsors') }}</h2>
+            <p class="section-sub-title">{{ _('EduSummit would not take place without our sponsors!') }}</p>
+        </div><!--/ Title row end -->
+
+        <div class="row text-center">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="sponsor-details">
+            <img class="img-responsive" src="{{ url_for('static', filename='images/partners/rlx.jpg') }}" alt="RLX logo"/>
+            <div class="sponsor-info">
+              <h4 class="sponsor-name">RLX</h4>
+              <p>{{ _('Distributor of electronic components.') }}</p>
+              <div class="sponsor-web-link">
+                <a href="https://rlx.sk/sk/" target="_blank"><i class="fa fa-globe"></i></a>
+{#                <a href="https://www.facebook.com/stickermule/?utm_source=sponsorship&utm_medium=referral&utm_campaign=PyConSK" target="_blank"><i class="fa fa-facebook"></i></a>#}
+{#                <a href="https://twitter.com/stickermule?utm_source=sponsorship&utm_medium=referral&utm_campaign=PyConSK" target="_blank"><i class="fa fa-twitter"></i></a>#}
+{#                <a href="https://www.instagram.com/stickermule/?utm_source=sponsorship&utm_medium=referral&utm_campaign=PyConSK" target="_blank"><i class="fa fa-instagram"></i></a>#}
+              </div>
+            </div><!-- Info end -->
+          </div><!-- Sponsor details -->
+        </div><!-- Col 1 end -->
+
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="sponsor-details">
+            <img class="img-responsive" src="{{ url_for('static', filename='images/partners/martinus.jpg') }}" alt="Martinus logo"/>
+            <div class="sponsor-info">
+              <h4 class="sponsor-name">martinus.sk</h4>
+                <p>{{ _('Martinus.sk is the largest online bookstore and the second largest bookseller in Slovakia.') }}</p>
+              <div class="sponsor-web-link">
+                <a href="https://www.martinus.sk/" target="_blank"><i class="fa fa-globe"></i></a>
+                <a href="https://www.facebook.com/Martinus.sk" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/martinus_sk" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/martinus_sk/" target="_blank"><i class="fa fa-instagram"></i></a>
+              </div>
+            </div><!-- Info end -->
+          </div><!-- Sponsor details -->
+        </div><!-- Col 2 end -->
+
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="sponsor-details">
+            <img class="img-responsive" src="{{ url_for('static', filename='images/partners/exponea.jpg') }}" alt="Exponea logo"/>
+            <div class="sponsor-info">
+              <h4 class="sponsor-name">Exponea</h4>
+              <p>
+                {{ _('Exponea is an intelligent union of customer data management and analytics which cracked the '
+                     'Single Customer View. We enable marketers to understand their customers and immediately turn '
+                     'such insights into actionable campaigns, all within a single integrated solution.') }}
+              </p>
+              <div class="sponsor-web-link">
+                    <a href="https://exponea.com/" target="_blank"><i class="fa fa-globe"></i></a>
+              </div>
+            </div><!-- Info end -->
+          </div><!-- Sponsor details -->
+        </div><!-- Col 3 end -->
         </div>
+
+        <div class="row text-center">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="sponsor-details">
+            <img class="img-responsive" src="{{ url_for('static', filename='images/partners/rpishop.png') }}" alt="RPi logo"/>
+            <div class="sponsor-info">
+              <h4 class="sponsor-name">RPIshop</h4>
+                <p>{{ _('RaspberryPi Approved Reseller.') }}</p>
+                <div class="sponsor-web-link">
+                    <a href="https://rpishop.cz/" target="_blank"><i class="fa fa-globe"></i></a>
+                </div>
+            </div><!-- Info end -->
+          </div><!-- Sponsor details -->
+        </div><!-- Col 4 end -->
+
+        </div>
+      </div>
+
     </section>
 {% endblock %}
