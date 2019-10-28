@@ -628,7 +628,7 @@ def saturday():
                                                                       babbageovaB=SATURDAY4, digilab=SATURDAY5,
                                                                       day=gettext('Saturday')))
 
-@app.route('/<lang_code>/gallery.html')
+@app.route('/<lang_code>/sunday.html')
 def sunday():
     return render_template('schedule.html', **_get_template_variables(li_schedule='active', magna=SUNDAY1,
                                                                       minor=SUNDAY2, babbageovaA=SUNDAY3,
